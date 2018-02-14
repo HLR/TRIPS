@@ -24,8 +24,6 @@ def get_clean_parse(fileName):
     except IndexError:
         out = "---------------------------------------"
         out += fileName.split("/")[-1] + "\n"
-        
-        
         error.write(out)
         return
     
