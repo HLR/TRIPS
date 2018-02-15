@@ -21,11 +21,15 @@ def get_clean_parse(fileName):
         root_pattern = a.split("<rdf:RDF")[1].split("<rdf:Description")[0]
         rdf_pattern = "<rdf:RDF  " + root_pattern \
                       + new_rdf_pattern + "</rdf:RDF>"
-    except IndexError:
-        out = "---------------------------------------"
+    except IndexError as iError:
+        out = "---------------------------------------\n"
+        out +="Affected file:\n"
         out += fileName.split("/")[-1] + "\n"
+        out += "Error Args:\n"
+        for arg in iError.args:
+            out+=str(arg)+"\n"
         error.write(out)
-        return
+        return 1
     
     pattern = re.compile(r' input=".+\n')
     if pattern.search(a):
@@ -127,6 +131,7 @@ def get_clean_parse(fileName):
 
     with open(fileName + '.clean', 'w') as new:
         new.write(myparse)
+    return 0
 
 
 if __name__ == '__main__':
@@ -138,6 +143,7 @@ if __name__ == '__main__':
         required=True,
         help='path to the input directory containing all TRIPS XML parses')
     args = parser.parse_args()
+    nFilesAffected=0
 
     with open(time.strftime("%Y%m%d-%H%M") + '.err', 'a') as error:
      error.write("The following files did not have a parse.\n\n")
@@ -148,5 +154,7 @@ if __name__ == '__main__':
                 if fileName.endswith(".xml"):
                     with open(os.path.join(args.path, dirName, fileName), 'r') as f:
                         a = f.read()
-                        get_clean_parse(os.path.join(dirName, fileName))
+                        nFilesAffected += get_clean_parse(os.path.join(dirName, fileName))
+     error.write("---------------------------------------\n")
+     error.write("Number of files affected: "+str(nFilesAffected)+"\n")
     print("********************\nCleaned parses are in the same directory as the original parse files.\n\nfileName %s in the current directory contains the list of files that did not have parses to be cleaned.\n********************\n" % str(error).split("'")[1])
