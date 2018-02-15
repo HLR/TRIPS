@@ -10,7 +10,7 @@ import pandas as pd
 
 d = {}
 
-def get_clean_parse(file):
+def get_clean_parse(fileName):
     try:
         new_rdf_pattern = ""
         relevant_rdf_pattern = a.split("<rdf:Description")[1:]
@@ -22,7 +22,8 @@ def get_clean_parse(file):
         rdf_pattern = "<rdf:RDF  " + root_pattern \
                       + new_rdf_pattern + "</rdf:RDF>"
     except IndexError:
-        out = file.split("/")[-1] + "\n"
+        out = "---------------------------------------"
+        out += fileName.split("/")[-1] + "\n"
         error.write(out)
         return
     
@@ -31,18 +32,7 @@ def get_clean_parse(file):
         TEXT = '\n     <TEXT> "' \
                + a.split("input=\"")[1].split('\n"')[0] + '"</TEXT>'
 
-    # not very efficient but quickly done, change later so don't have to
-    # create files for intermediate processing
-    '''file = file + ".rdf"
-    with open(file, 'w') as g:
-        g.write(rdf_pattern)
-
-    file_name = file
-    tree = ET.parse(file_name)
-    root = tree.getroot()
-    os.remove(file)'''
     #fromstring takes the string and makes a root node
-    #eliminates need for files commented above
     root = ET.fromstring(rdf_pattern)
 
     relation_id = 0
@@ -61,7 +51,7 @@ def get_clean_parse(file):
         rootchunkitem += 1
 
     myparse = '\n<SENTENCE id="' \
-              + root[0].attrib.values()[0] \
+              + list(root[0].attrib.values())[0] \
               + '" ' \
               + startval \
               + " " \
@@ -70,15 +60,15 @@ def get_clean_parse(file):
               + TEXT
 
     chunk_id = {}
-    #replacing while n...n++ loop with for n loop
+
     for n in range(0,i):
         k = len(root[n])  # NUMBER OF INFO LINES IN EACH <rdf> CHUNK
-        chunk_id[n] = root[n].attrib.values()[0]
+        chunk_id[n] = list(root[n].attrib.values())[0]
 
         dic_tag = {}
         dic_text = {}
 
-        #replacing while p ... p++ loop with for p loop
+        #start p at 2
         for p in range(2,k):
             dic_tag[str(p)] = str(root[n][p].tag.split("}")[1])
 
@@ -87,7 +77,7 @@ def get_clean_parse(file):
                 dic_text[str(p)] = str(p)
             else:
                 if root[n][p].text is None:
-                    mylist = (root[n][p].attrib.values())
+                    mylist = (list(root[n][p].attrib.values()))
                     dic_text[str(p)] = str(str(mylist).strip("'[").strip("]'"))
                 else:
                     dic_text[str(p)] = str(root[n][p].text)
@@ -95,7 +85,7 @@ def get_clean_parse(file):
         lf_list = []
         role_list = []
 
-        for key, value in dic_text.items():
+        for key, value in list(dic_text.items()):
             if "#" not in value:
                 lf_list.append(key)
             else:
@@ -135,7 +125,7 @@ def get_clean_parse(file):
             
     myparse += "\n</SENTENCE>\n\n"
 
-    with open(file + '.clean', 'w') as new:
+    with open(fileName + '.clean', 'w') as new:
         new.write(myparse)
 
 
@@ -151,12 +141,12 @@ if __name__ == '__main__':
 
     with open(time.strftime("%Y%m%d-%H%M") + '.err', 'a') as error:
      error.write("The following files did not have a parse.\n\n")
-     for dir in os.listdir(args.path):
-        if dir.startswith("batch"):
-            dir = os.path.join(args.path, dir)
-            for file in os.listdir(dir):
-                if file.endswith(".xml"):
-                    with open(os.path.join(args.path, dir, file), 'r') as f:
+     for dirName in os.listdir(args.path):
+        if dirName.startswith("batch"):
+            dirName = os.path.join(args.path, dirName)
+            for fileName in os.listdir(dirName):
+                if fileName.endswith(".xml"):
+                    with open(os.path.join(args.path, dirName, fileName), 'r') as f:
                         a = f.read()
-                        get_clean_parse(os.path.join(input, dir, file))
-    print "********************\nCleaned parses are in the same directory as the original parse files.\n\nFile %s in the current directory contains the list of files that did not have parses to be cleaned.\n********************\n" % str(error).split("'")[1]
+                        get_clean_parse(os.path.join(dirName, fileName))
+    print("********************\nCleaned parses are in the same directory as the original parse files.\n\nfileName %s in the current directory contains the list of files that did not have parses to be cleaned.\n********************\n" % str(error).split("'")[1])
