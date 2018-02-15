@@ -34,7 +34,7 @@ def refine_cleaned_parse(f):
     with open(f, 'r') as g:
         a = g.read()
         get_clean_parse(f)
-    print f
+    print(f)
 
     h = f + ".clean"
     tree = ET.ElementTree(file=h)
@@ -53,7 +53,7 @@ def refine_cleaned_parse(f):
                 ri += 1
                 child.tag = child.tag + str(ri)
                 d[child.tag] = child.attrib
-    print "\n"
+    print("\n")
     d[root.tag] = root.attrib
     df = pd.DataFrame(data=d)
     df = df.T
@@ -91,7 +91,7 @@ def refine_cleaned_parse(f):
             df.ix[idx_root.index[i]]['end'] = textend
         elif 'OPERATOR' in df.columns:
             idx_root_operator = df.ix[idx_root.index[i]]['OPERATOR']
-            print "*****idx_root_operator: ", idx_root_operator
+            print("*****idx_root_operator: ", idx_root_operator)
             if str(idx_root_operator) != "nan":
                 otext = re.compile(idx_root_operator.lower())
                 for m in otext.finditer(str(sent_text)):
@@ -100,8 +100,8 @@ def refine_cleaned_parse(f):
                 df.ix[idx_root.index[i]]['start'] = operatorstart
                 df.ix[idx_root.index[i]]['end'] = operatorend
         else:
-            print "\nThe following case is not covered.\n" #in case there are other cases that we did not realize and did not cover above
-            print df.ix[idx_root.index[i]]
+            print("\nThe following case is not covered.\n") #in case there are other cases that we did not realize and did not cover above
+            print(df.ix[idx_root.index[i]])
 
 
 ########################################################################################
@@ -189,14 +189,12 @@ if __name__ == '__main__':
                         try:
                             with open(os.path.join(args.path, dir, file), 'r') as f:
                                 a = f.read()
-                                refine_cleaned_parse(os.path.join(input, dir, file))
+                                refine_cleaned_parse(os.path.join(dir, file))
                         except:
-                            print 'error'
-    print "********************\nCleaned parses are in the same directory as the original parse files.\n\nFile %s in the current directory contains the list of files that did not have parses to be cleaned.\n********************\n" % str(error).split("'")[1]
+                            print('error')
+    print("********************\nCleaned parses are in the same directory as the original parse files.\n\nFile %s in the current directory contains the list of files that did not have parses to be cleaned.\n********************\n" % str(error).split("'")[1])
 
 
 ########################################################################
 ### TODO: add this cleaned XML into the scenes files. ##################
 ########################################################################
-
-
