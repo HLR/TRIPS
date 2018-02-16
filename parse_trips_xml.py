@@ -28,6 +28,13 @@ def get_clean_parse(fileName):
         out += "Error Args:\n"
         for arg in iError.args:
             out+=str(arg)+"\n"
+        out += "XML error info: \n"
+        root = ET.parse(fileName).getroot()
+        out += str(root.get('error'))+'\n'
+        if args.removeBadFiles != None:
+            if bool(args.removeBadFiles):
+                os.remove(fileName)
+                out += "Removed file because removeBadFiles flag was set to True\n"
         error.write(out)
         return 1
     
@@ -142,6 +149,12 @@ if __name__ == '__main__':
         dest="path",
         required=True,
         help='path to the input directory containing all TRIPS XML parses')
+    parser.add_argument(
+        "--removeBadFiles",
+        dest="removeBadFiles",
+        required=False,
+        help='set to a True or False value to indicate if bad' +
+            'files should be removed when parsing the input directory')
     args = parser.parse_args()
     nFilesAffected=0
 
