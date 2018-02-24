@@ -81,7 +81,6 @@ def refine_cleaned_parse(f):
 ### TODO: MAKE SURE THE SPAN IS ADDED FOR THE CORRECT ONE AS THERE MAY BE REPEATED WORDS
 #######################################################################################
     length = len(idx_root)
-    i = 0
     for i in range(length):
         idx_root_text = df.ix[idx_root.index[i]]['text']
         if str(idx_root_text) != "nan":
