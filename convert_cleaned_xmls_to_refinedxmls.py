@@ -21,7 +21,9 @@ def get_clean_parse(file):
         root_pattern = a.split("<rdf:RDF")[1].split("<rdf:Description")[0]
         rdf_pattern = "<rdf:RDF  " + root_pattern + new_rdf_pattern + "</rdf:RDF>"
     except IndexError:
-        out = file.split("/")[-1] + "\n"
+        out = "--------------------------\n"
+        out += "Index error:\n"
+        out += file.split("/")[-1] + "\n"
         error.write(out)
         return
     
@@ -190,8 +192,21 @@ if __name__ == '__main__':
                             with open(os.path.join(args.path, dir, file), 'r') as f:
                                 a = f.read()
                                 refine_cleaned_parse(os.path.join(dir, file))
-                        except:
-                            print('error')
+                        except Exception as e:
+                            out = "--------------------\nError:\nFile:\n"
+                            print("Error:")
+                            print("File:")
+                            print(file)
+                            out += str(file)+"\n"
+                            out += "Type: "+str(type(e))+"\n"
+                            print("Type:", type(e))
+                            out += "Error Arguments:\n"
+                            print("Error arguments:")
+                            for arg in e.args:
+                                out += str(arg)+"\n"
+                                print(arg)
+                            error.write(out)
+
     print("********************\nCleaned parses are in the same directory as the original parse files.\n\nFile %s in the current directory contains the list of files that did not have parses to be cleaned.\n********************\n" % str(error).split("'")[1])
 
 
