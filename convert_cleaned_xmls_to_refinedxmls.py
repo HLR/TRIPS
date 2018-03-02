@@ -72,9 +72,22 @@ def refine_cleaned_parse(f):
 
 
 ########################################################################################
-########Change span for root word. Find root word by finding the phrase with same start and end as sentence's, but it already has text in its text column instead of NaN. To find the span of the relevant word (note the word may be used in a sentence multiple times, we need to find the span for the one that is used as the root), TODO: we need to make sure we find spans for all usages of the word in the sentence and use the span that is not already mentioned for that word. Also the spans mentioned in the XML are not thrown away, they are renamed as tripsstart and tripsend respectively. This is to make sure we don't lose info about the root word in the sentence that the TRIPS XML parse provides to us.
+##### Change span for root word. Find root word by finding the phrase with same ########
+##### start and end as sentence's, but it already has text in its text column ##########
+##### instead of NaN. To find the span of the relevant word (note the word may be ######
+##### used in a sentence multiple times, we need to find the span for the one that #####
+##### is used as the root),                                                        #####
+##### TODO: we need to make sure we find spans for all usages of the word in the #######
+##### TODO: sentence and use the span that is not already mentioned for that word. #####
+##### TODO: Also the spans mentioned in the XML are not thrown away, they are renamed ##
+##### TODO: as tripsstart and tripsend respectively. This is to make sure we don't #####
+##### TODO: lose info about the root word in the sentence that the TRIPS XML parse #####
+##### TODO: provides to us.                                                        #####
 ########################################################################################
-    idx_root = df[(df['start'] == sent_start) & (df['end'] == sent_end) & (df['indicator'] != "SPEECHACT") & (df['text'] != sent_text)]
+    idx_root = df[(df['start'] == sent_start) &
+                  (df['end'] == sent_end) &
+                  (df['indicator'] != "SPEECHACT") &
+                  (df['text'] != sent_text)]
 
 #######################################################################################
 ### ADD SPANS FOR THE ACTUAL WORDS HERE ###############################################
