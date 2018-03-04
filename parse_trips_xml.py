@@ -22,11 +22,13 @@ def get_clean_parse(fileName):
         rdf_pattern = "<rdf:RDF  " + root_pattern \
                       + new_rdf_pattern + "</rdf:RDF>"
     except IndexError:
-        out = "---------------------------------------"
+        out = "---------------------------------------\n"
         out += fileName.split("/")[-1] + "\n"
+        out += "Error type: \n"
+        out += "\tIndexError\n"
         error.write(out)
         return
-    
+
     pattern = re.compile(r' input=".+\n')
     if pattern.search(a):
         TEXT = '\n     <TEXT> "' \
@@ -37,18 +39,18 @@ def get_clean_parse(fileName):
 
     relation_id = 0
 
-# GET NUMBER OF CHUNKS/WORDS EXPRESSED BY <rdf> TAG IN TRIPS XML
+    # GET NUMBER OF CHUNKS/WORDS EXPRESSED BY <rdf> TAG IN TRIPS XML
     i = 0
     for child in root:
         i += 1
 
-    rootchunkitem = 0
-    while rootchunkitem < len(root[0]):
+    greatestEnd = 0
+    for rootchunkitem in range(len(root[0])):
         if root[0][rootchunkitem].tag.split("}")[1] == 'start':
             startval = 'start="' + root[0][rootchunkitem].text + '"'
         elif root[0][rootchunkitem].tag.split("}")[1] == 'end':
+            greatestEnd = int(root[0][rootchunkitem].text)
             endval = 'end="' + root[0][rootchunkitem].text + '"'
-        rootchunkitem += 1
 
     myparse = '\n<SENTENCE id="' \
               + list(root[0].attrib.values())[0] \
@@ -68,12 +70,13 @@ def get_clean_parse(fileName):
         dic_tag = {}
         dic_text = {}
 
+        #adds PHRASE,RElATION, etc. tags
         #start p at 2
         for p in range(2,k):
             dic_tag[str(p)] = str(root[n][p].tag.split("}")[1])
 
             if root[n][p].tag.split("}")[1] == 'start' or root[n][p].tag.split("}")[
-                    1] == 'end' or root[n][p].tag.split("}")[1] == 'word':
+                1] == 'end' or root[n][p].tag.split("}")[1] == 'word':
                 dic_text[str(p)] = str(p)
             else:
                 if root[n][p].text is None:
@@ -99,16 +102,19 @@ def get_clean_parse(fileName):
             if root[n][int(lf)].tag.split("}")[1] == 'start':
                 startval = 'start="' + root[n][int(lf)].text + '"'
             elif root[n][int(lf)].tag.split("}")[1] == 'end':
+                endtemp = int(root[n][int(lf)].text)
+                if endtemp > greatestEnd:
+                    greatestEnd = endtemp
                 endval = 'end="' + root[n][int(lf)].text + '"'
             elif root[n][int(lf)].tag.split("}")[1] == 'word':
                 textval = 'text="' + root[n][int(lf)].text + '"'
                 #print "textval: ", textval
             if (root[n][int(lf)].tag.split("}")[1] != 'start') and (
                     root[n][int(lf)].tag.split("}")[1] != 'end') and(
-                        root[n][int(lf)].tag.split("}")[1] != 'word'):
+                    root[n][int(lf)].tag.split("}")[1] != 'word'):
                 myparse += " " + \
-                    root[n][int(lf)].tag.split("}")[1] + '="' \
-                    + root[n][int(lf)].text + '"'
+                           root[n][int(lf)].tag.split("}")[1] + '="' \
+                           + root[n][int(lf)].text + '"'
 
         try:
             textval
@@ -122,11 +128,15 @@ def get_clean_parse(fileName):
                        + '" head="' + chunk_id[n] + '" res="' \
                        + dic_text[role].split("#")[1] + '" label="' \
                        + dic_tag[role] + '"/>'
-            
+
     myparse += "\n</SENTENCE>\n\n"
 
-    with open(fileName + '.clean', 'w') as new:
-        new.write(myparse)
+    newTree = ET.ElementTree(ET.fromstring(myparse))
+    newRoot = newTree.getroot()
+    newRoot.attrib['end']=str(greatestEnd)
+    newTree.write(fileName+'.clean')
+    #with open(fileName + '.clean', 'w') as new:
+        #new.write(myparse)
 
 
 if __name__ == '__main__':
