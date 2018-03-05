@@ -111,8 +111,18 @@ def refine_cleaned_parse(f):
                     for m in etext.finditer(str(sent_text)):
                         textstart = m.start()
                         textend = m.end()
-                    df.ix[idx_root.index[i]]['start'] = textstart
-                    df.ix[idx_root.index[i]]['end'] = textend
+                    try:
+                        df.ix[idx_root.index[i]]['start'] = textstart
+                        df.ix[idx_root.index[i]]['end'] = textend
+                    except UnboundLocalError as err:
+                        out = "---------------------------\n"
+                        out += "Error:\n"
+                        out += str(type(err))+"\n"
+                        out += str(err)+"\n"
+                        for argument in err.args:
+                            out += "\t"+str(argument)+"\n"
+                        print(out)
+                        error.write(out)
 
         elif 'OPERATOR' in df.columns:
             idx_root_operator = df.ix[idx_root.index[i]]['OPERATOR']
@@ -136,7 +146,14 @@ def refine_cleaned_parse(f):
         idx = df[((df['start'] == sent_start) & (df['end'] == sent_end) & (df['indicator'] == "SPEECHACT"))].index[0] #getting the fist one for which condition is true, it should be the only one though in our data. But have not checked for that yet if that is indeed true.
         df.ix[idx]['text'] = sent_text
     except IndexError as err:
-        print(err)
+        out = "---------------------------\n"
+        out += "Error:\n"
+        out += str(type(err)) + "\n"
+        out += str(err) + "\n"
+        for argument in err.args:
+            out+="\t"+str(argument)+"\n"
+        print(out)
+        error.write(out)
         return 
 
 
