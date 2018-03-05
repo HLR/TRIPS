@@ -123,6 +123,7 @@ def refine_cleaned_parse(f):
                             out += "\t"+str(argument)+"\n"
                         print(out)
                         error.write(out)
+                        return
 
         elif 'OPERATOR' in df.columns:
             idx_root_operator = df.ix[idx_root.index[i]]['OPERATOR']
