@@ -137,6 +137,7 @@ def refine_cleaned_parse(f):
         df.ix[idx]['text'] = sent_text
     except IndexError as err:
         print(err)
+        return 
 
 
 ########################################################################
