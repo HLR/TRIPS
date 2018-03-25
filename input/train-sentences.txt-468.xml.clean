@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl i</TEXT>
+   <RELATION id="1" head="V355301" res="V355274" label="MOD"/>
+   <RELATION id="2" head="V355301" res="V355298" label="MOD"/>
+   <PHRASE id="V355274" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V355274" res="V355301" label="FIGURE"/>
+   <PHRASE id="V355298" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V355298" res="V355301" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="34" end="91">
+   <TEXT>in black vest is sitting at a desk outside the classroom .</TEXT>
+   <RELATION id="5" head="V360026" res="V355389" label="CONTENT"/>
+   <PHRASE id="V355389" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="34" end="91"/>
+   <RELATION id="6" head="V355389" res="V355406" label="RESULT"/>
+   <RELATION id="7" head="V355389" res="V355361" label="AGENT"/>
+   <RELATION id="8" head="V355389" res="V355319" label="MANNER"/>
+   <PHRASE id="V355319" indicator="F" type="MANNER" text="IN" start="34" end="43"/>
+   <RELATION id="9" head="V355319" res="V355357" label="GROUND"/>
+   <RELATION id="10" head="V355319" res="V355389" label="FIGURE"/>
+   <PHRASE id="V355357" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="37" end="43"/>
+   <PHRASE id="V355361" indicator="BARE" type="ATTIRE" text="VEST" start="43" end="48"/>
+   <PHRASE id="V355406" indicator="F" type="AT-LOC" text="AT" start="59" end="91"/>
+   <RELATION id="11" head="V355406" res="V355459" label="GROUND"/>
+   <RELATION id="12" head="V355406" res="V355361" label="FIGURE"/>
+   <PHRASE id="V355459" indicator="A" type="FURNISHINGS" text="DESK" start="62" end="91"/>
+   <RELATION id="13" head="V355459" res="V355463" label="LOCATION"/>
+   <PHRASE id="V355463" indicator="F" type="OUTSIDE" text="OUTSIDE" start="69" end="91"/>
+   <RELATION id="14" head="V355463" res="V355473" label="GROUND"/>
+   <RELATION id="15" head="V355463" res="V355459" label="FIGURE"/>
+   <PHRASE id="V355473" indicator="THE" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="77" end="91"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

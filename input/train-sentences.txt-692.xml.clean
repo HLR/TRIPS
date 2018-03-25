@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="40">
+   <TEXT>a dark-skinned boy wearing a purple cap ,</TEXT>
+   <RELATION id="1" head="V319330" res="V319336" label="MOD"/>
+   <RELATION id="2" head="V319330" res="V319315" label="MOD"/>
+   <PHRASE id="V319315" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="3" head="V319315" res="V319304" label="AGENT"/>
+   <RELATION id="4" head="V319315" res="V319330" label="AFFECTED"/>
+   <PHRASE id="V319304" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+   <PHRASE id="V319336" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="19" end="40"/>
+   <RELATION id="5" head="V319336" res="V319330" label="AGENT"/>
+   <RELATION id="6" head="V319336" res="V319386" label="NEUTRAL"/>
+   <PHRASE id="V319386" indicator="A" type="ATTIRE" text="CAP" start="27" end="40"/>
+   <RELATION id="7" head="V319386" res="V319383" label="MOD"/>
+   <PHRASE id="V319383" indicator="F" type="PURPLE" text="PURPLE" SCALE="PURPLE*1--07--00" start="29" end="36"/>
+   <RELATION id="8" head="V319383" res="V319386" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="42" end="98">
+   <TEXT>a white and grey chequered shirt and a dark grey jacket .</TEXT>
+   <RELATION id="9" head="V321687" res="V320739" label="CONTENT"/>
+   <PHRASE id="V320739" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="42" end="98"/>
+   <RELATION id="10" head="V320739" res="V320735" label="SEQUENCE"/>
+   <RELATION id="11" head="V320739" res="V320805" label="SEQUENCE1"/>
+   <PHRASE id="V320735" indicator="A" type="ATTIRE" text="SHIRT" start="42" end="75"/>
+   <RELATION id="12" head="V320735" res="V320841" label="MOD"/>
+   <RELATION id="13" head="V320735" res="V320721" label="MOD"/>
+   <PHRASE id="V320841" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="44" end="59"/>
+   <RELATION id="14" head="V320841" res="V320687" label="SEQUENCE"/>
+   <RELATION id="15" head="V320841" res="V320704" label="SEQUENCE1"/>
+   <PHRASE id="V320687" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="44" end="50"/>
+   <RELATION id="16" head="V320687" res="V320735" label="FIGURE"/>
+   <PHRASE id="V320704" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="54" end="59"/>
+   <RELATION id="17" head="V320704" res="V320735" label="FIGURE"/>
+   <PHRASE id="V320721" indicator="F" type="MODIFIER" text="CHEQUERED" start="59" end="69"/>
+   <RELATION id="18" head="V320721" res="V320735" label="FIGURE"/>
+   <PHRASE id="V320805" indicator="A" type="ATTIRE" text="JACKET" start="79" end="98"/>
+   <RELATION id="19" head="V320805" res="V320790" label="MOD"/>
+   <RELATION id="20" head="V320805" res="V320796" label="MOD"/>
+   <PHRASE id="V320790" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="81" end="86"/>
+   <RELATION id="21" head="V320790" res="V320805" label="FIGURE"/>
+   <PHRASE id="V320796" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="86" end="91"/>
+   <RELATION id="22" head="V320796" res="V320805" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

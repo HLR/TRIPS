@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2">
+   <TEXT>a d</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="2" end="29">
+   <TEXT>dark-skinned , dark-haired g</TEXT>
+   <RELATION id="1" head="V486386" res="V476289" label="CONTENT"/>
+   <PHRASE id="V476289" indicator="F" type="MOVE" text="SKINNED" TENSE="PAST" start="2" end="29"/>
+   <RELATION id="2" head="V476289" res="V486372" label="TIME"/>
+   <RELATION id="3" head="V476289" res="V476280" label="AFFECTED"/>
+   <PHRASE id="V486372" indicator="F" type="EVENT-TIME-REL" start="2" end="29"/>
+   <RELATION id="4" head="V486372" res="V476289" label="FIGURE"/>
+   <RELATION id="5" head="V486372" res="V476327" label="GROUND"/>
+   <PHRASE id="V476280" indicator="BARE" type="LIGHT" text="DARK" start="2" end="6"/>
+   <PHRASE id="V476327" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="6" head="V476327" res="V476280" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="29" end="34">
+   <TEXT>girl i</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="34" end="91">
+   <TEXT>in a white tee-shirt is sitting at a desk in a classroom .</TEXT>
+   <RELATION id="7" head="V482430" res="V476457" label="CONTENT"/>
+   <PHRASE id="V476457" indicator="F" type="HAVE-PROPERTY" text="BE" start="34" end="91"/>
+   <RELATION id="8" head="V476457" res="V476474" label="NEUTRAL"/>
+   <RELATION id="9" head="V476457" res="V476554" label="FORMAL"/>
+   <RELATION id="10" head="V476457" res="V476337" label="LOCATION"/>
+   <RELATION id="11" head="V476457" res="V476494" label="LOCATION"/>
+   <PHRASE id="V476337" indicator="F" type="IN-LOC" text="IN" start="34" end="55"/>
+   <RELATION id="12" head="V476337" res="V476449" label="GROUND"/>
+   <RELATION id="13" head="V476337" res="V476457" label="FIGURE"/>
+   <PHRASE id="V476449" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="37" end="55"/>
+   <RELATION id="14" head="V476449" res="V476427" label="MOD"/>
+   <PHRASE id="V476427" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="39" end="45"/>
+   <RELATION id="15" head="V476427" res="V476449" label="FIGURE"/>
+   <PHRASE id="V476474" indicator="BARE" type="BODY-MOVEMENT" text="SIT-DOWN" start="58" end="66"/>
+   <PHRASE id="V476494" indicator="F" type="AT-LOC" text="AT" start="66" end="76"/>
+   <RELATION id="16" head="V476494" res="V476547" label="GROUND"/>
+   <RELATION id="17" head="V476494" res="V476457" label="FIGURE"/>
+   <PHRASE id="V476547" indicator="A" type="FURNISHINGS" text="DESK" start="69" end="76"/>
+   <PHRASE id="V476554" indicator="F" type="IN-LOC" text="IN" start="76" end="91"/>
+   <RELATION id="18" head="V476554" res="V476644" label="GROUND"/>
+   <RELATION id="19" head="V476554" res="V476474" label="FIGURE"/>
+   <PHRASE id="V476644" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="79" end="91"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

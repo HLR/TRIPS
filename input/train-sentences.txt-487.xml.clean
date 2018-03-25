@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="NUMBER" VALUE="2" start="0" end="4">
+   <TEXT>two m</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="4" end="32">
+   <TEXT>more boys in the background .</TEXT>
+   <RELATION id="1" head="V453438" res="V453310" label="CONTENT"/>
+   <PHRASE id="V453310" indicator="INDEF-SET" type="MALE-CHILD" text="BOY" QUAN="(:* QMODIFIER MORE)" start="4" end="32"/>
+   <RELATION id="2" head="V453310" res="V453317" label="LOCATION"/>
+   <PHRASE id="V453317" indicator="F" type="IN-LOC" text="IN" start="14" end="32"/>
+   <RELATION id="3" head="V453317" res="V453373" label="GROUND"/>
+   <RELATION id="4" head="V453317" res="V453310" label="FIGURE"/>
+   <PHRASE id="V453373" indicator="THE" type="IMAGE" text="BACKGROUND" start="17" end="32"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

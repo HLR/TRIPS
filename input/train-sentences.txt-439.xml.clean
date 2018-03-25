@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="33">
+   <TEXT>a dark-skinned , dark-haired boy i</TEXT>
+   <RELATION id="1" head="V218310" res="V218283" label="MOD"/>
+   <RELATION id="2" head="V218310" res="V218307" label="MOD"/>
+   <PHRASE id="V218283" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V218283" res="V218310" label="FIGURE"/>
+   <PHRASE id="V218307" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V218307" res="V218310" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="36" end="98">
+   <TEXT>a blue and white chequered shirt is sitting at a desk outside .</TEXT>
+   <RELATION id="5" head="V222429" res="V218492" label="CONTENT"/>
+   <PHRASE id="V218492" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="36" end="98"/>
+   <RELATION id="6" head="V218492" res="V218509" label="RESULT"/>
+   <RELATION id="7" head="V218492" res="V218464" label="AGENT"/>
+   <PHRASE id="V218464" indicator="A" type="ATTIRE" text="SHIRT" start="36" end="69"/>
+   <RELATION id="8" head="V218464" res="V218639" label="MOD"/>
+   <RELATION id="9" head="V218464" res="V218450" label="MOD"/>
+   <PHRASE id="V218639" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="38" end="53"/>
+   <RELATION id="10" head="V218639" res="V218407" label="SEQUENCE"/>
+   <RELATION id="11" head="V218639" res="V218429" label="SEQUENCE1"/>
+   <PHRASE id="V218407" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="38" end="43"/>
+   <RELATION id="12" head="V218407" res="V218464" label="FIGURE"/>
+   <PHRASE id="V218429" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="47" end="53"/>
+   <RELATION id="13" head="V218429" res="V218464" label="FIGURE"/>
+   <PHRASE id="V218450" indicator="F" type="MODIFIER" text="CHEQUERED" start="53" end="63"/>
+   <RELATION id="14" head="V218450" res="V218464" label="FIGURE"/>
+   <PHRASE id="V218509" indicator="F" type="AT-LOC" text="AT" start="80" end="98"/>
+   <RELATION id="15" head="V218509" res="V218562" label="GROUND"/>
+   <RELATION id="16" head="V218509" res="V218464" label="FIGURE"/>
+   <PHRASE id="V218562" indicator="A" type="FURNISHINGS" text="DESK" start="83" end="98"/>
+   <RELATION id="17" head="V218562" res="V218566" label="LOCATION"/>
+   <PHRASE id="V218566" indicator="F" type="OUTSIDE" text="OUTSIDE" start="90" end="98"/>
+   <RELATION id="18" head="V218566" res="V218819" label="GROUND"/>
+   <RELATION id="19" head="V218566" res="V218562" label="FIGURE"/>
+   <PHRASE id="V218819" indicator="IMPRO" type="ANY-SEM" start="90" end="98"/>
+   <RELATION id="20" head="V218819" res="V218464" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

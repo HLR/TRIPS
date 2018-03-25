@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="38">
+   <TEXT>there is a clock above the blackboard ,</TEXT>
+   <RELATION id="1" head="V407910" res="V407766" label="CONTENT"/>
+   <PHRASE id="V407766" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="38"/>
+   <RELATION id="2" head="V407766" res="V407827" label="NEUTRAL"/>
+   <PHRASE id="V407753" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V407827" indicator="A" type="DEVICE" text="CLOCK" start="9" end="38"/>
+   <RELATION id="3" head="V407827" res="V407833" label="LOCATION"/>
+   <PHRASE id="V407833" indicator="F" type="ABOVE" text="ABOVE" start="17" end="38"/>
+   <RELATION id="4" head="V407833" res="V407847" label="GROUND"/>
+   <RELATION id="5" head="V407833" res="V407827" label="FIGURE"/>
+   <PHRASE id="V407847" indicator="THE" type="DISPLAY" text="BLACKBOARD" start="23" end="38"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" start="40" end="111">
+   <TEXT>and also the letters Dios es amor between the clock and the blackboard ,</TEXT>
+   <RELATION id="6" head="V409969" res="V408248" label="CONTENT"/>
+   <RELATION id="7" head="V409969" res="V408193" label="MOD"/>
+   <RELATION id="8" head="V409969" res="V408201" label="MOD"/>
+   <PHRASE id="V408193" indicator="F" type="CONJUNCT" text="AND" start="40" end="44"/>
+   <RELATION id="9" head="V408193" res="V409969" label="FIGURE"/>
+   <PHRASE id="V408201" indicator="F" type="CONJUNCT" text="ALSO" start="44" end="49"/>
+   <RELATION id="10" head="V408201" res="V409969" label="FIGURE"/>
+   <PHRASE id="V408248" indicator="THE" type="REFERENTIAL-SEM" text="AMOR" start="49" end="111"/>
+   <RELATION id="11" head="V408248" res="V408213" label="ASSOC-WITH"/>
+   <RELATION id="12" head="V408248" res="V408234" label="ASSOC-WITH"/>
+   <RELATION id="13" head="V408248" res="V408240" label="ASSOC-WITH"/>
+   <RELATION id="14" head="V408248" res="V408253" label="MOD"/>
+   <PHRASE id="V408240" indicator="KIND" type="NUTRITIONAL-SUPPLEMENT" text="ES" start="49" end="111"/>
+   <PHRASE id="V408213" indicator="KIND" type="LINGUISTIC-OBJECT" text="LETTER" start="49" end="111"/>
+   <PHRASE id="V408234" indicator="THE" type="PERSON" text="DIOS" NAME-OF="(DIOS)" start="61" end="66"/>
+   <PHRASE id="V408253" indicator="F" type="BETWEEN" text="BETWEEN" start="74" end="111"/>
+   <RELATION id="15" head="V408253" res="V408285" label="GROUND"/>
+   <RELATION id="16" head="V408253" res="V408248" label="FIGURE"/>
+   <PHRASE id="V408285" indicator="THE-SET" type="PHYS-OBJECT" OPERATOR="AND" start="82" end="111"/>
+   <RELATION id="17" head="V408285" res="V408278" label="SEQUENCE"/>
+   <RELATION id="18" head="V408285" res="V408301" label="SEQUENCE1"/>
+   <PHRASE id="V408278" indicator="THE" type="DEVICE" text="CLOCK" start="82" end="92"/>
+   <RELATION id="19" head="V408278" res="V407827" label="COREF"/>
+   <PHRASE id="V408301" indicator="THE" type="DISPLAY" text="BLACKBOARD" start="96" end="111"/>
+   <RELATION id="20" head="V408301" res="V407847" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" start="113" end="125">
+   <TEXT>and higiene e</TEXT>
+   <RELATION id="21" head="V411806" res="V411576" label="CONTENT"/>
+   <RELATION id="22" head="V411806" res="V411566" label="MOD"/>
+   <PHRASE id="V411566" indicator="F" type="CONJUNCT" text="AND" start="113" end="117"/>
+   <RELATION id="23" head="V411566" res="V411806" label="FIGURE"/>
+   <PHRASE id="V411576" indicator="F" type="SITUATION-ROOT" text="HIGIENE" TENSE="PRES" start="117" end="125"/>
+   <PHRASE id="V411807" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="117" end="125"/>
+   <RELATION id="24" head="V411807" res="V408248" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="125" end="169">
+   <TEXT>es salud on the side wall below the windows .</TEXT>
+   <RELATION id="25" head="V413294" res="V411588" label="CONTENT"/>
+   <PHRASE id="V411588" indicator="BARE" type="REFERENTIAL-SEM" text="SALUD" start="125" end="169"/>
+   <RELATION id="26" head="V411588" res="V411582" label="ASSOC-WITH"/>
+   <RELATION id="27" head="V411588" res="V411661" label="MOD"/>
+   <RELATION id="28" head="V411588" res="V411596" label="MOD"/>
+   <PHRASE id="V411582" indicator="KIND" type="NUTRITIONAL-SUPPLEMENT" text="ES" start="125" end="169"/>
+   <PHRASE id="V411596" indicator="F" type="ON" text="ON" start="134" end="151"/>
+   <RELATION id="29" head="V411596" res="V411658" label="GROUND"/>
+   <RELATION id="30" head="V411596" res="V411588" label="FIGURE"/>
+   <PHRASE id="V411658" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="137" end="151"/>
+   <RELATION id="31" head="V411658" res="V411625" label="MOD"/>
+   <PHRASE id="V411625" indicator="F" type="SIDE-LOCATION-VAL" text="SIDE" start="141" end="146"/>
+   <RELATION id="32" head="V411625" res="V411658" label="FIGURE"/>
+   <PHRASE id="V411661" indicator="F" type="BELOW" text="BELOW" start="151" end="169"/>
+   <RELATION id="33" head="V411661" res="V411676" label="GROUND"/>
+   <RELATION id="34" head="V411661" res="V411588" label="FIGURE"/>
+   <PHRASE id="V411676" indicator="THE-SET" type="STRUCTURAL-OPENING" text="WINDOW" start="157" end="169"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

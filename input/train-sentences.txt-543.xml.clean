@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="58">
+   <TEXT>another kid in a grey jacket is standing right behind him .</TEXT>
+   <RELATION id="1" head="V207048" res="V204768" label="CONTENT"/>
+   <PHRASE id="V204768" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="58"/>
+   <RELATION id="2" head="V204768" res="V204653" label="NEUTRAL"/>
+   <RELATION id="3" head="V204768" res="V204785" label="NEUTRAL1"/>
+   <PHRASE id="V204653" indicator="A" type="CHILD" text="KID" start="0" end="29"/>
+   <RELATION id="4" head="V204653" res="V204818" label="MOD"/>
+   <RELATION id="5" head="V204653" res="V204660" label="LOCATION"/>
+   <PHRASE id="V204818" indicator="F" type="OTHER" start="0" end="29"/>
+   <RELATION id="6" head="V204818" res="V204653" label="FIGURE"/>
+   <PHRASE id="V204660" indicator="F" type="IN-LOC" text="IN" start="12" end="29"/>
+   <RELATION id="7" head="V204660" res="V204759" label="GROUND"/>
+   <RELATION id="8" head="V204660" res="V204653" label="FIGURE"/>
+   <PHRASE id="V204759" indicator="A" type="ATTIRE" text="JACKET" start="15" end="29"/>
+   <RELATION id="9" head="V204759" res="V204750" label="MOD"/>
+   <PHRASE id="V204750" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="17" end="22"/>
+   <RELATION id="10" head="V204750" res="V204759" label="FIGURE"/>
+   <PHRASE id="V204785" indicator="BARE" type="BE-AT-LOC" text="STAND" start="32" end="58"/>
+   <RELATION id="11" head="V204785" res="V204808" label="LOCATION"/>
+   <PHRASE id="V204808" indicator="F" type="BACK" text="BEHIND" start="41" end="58"/>
+   <RELATION id="12" head="V204808" res="V204811" label="GROUND"/>
+   <RELATION id="13" head="V204808" res="V204785" label="FIGURE"/>
+   <RELATION id="14" head="V204808" res="V204794" label="DEGREE"/>
+   <PHRASE id="V204794" indicator="F" type="DEGREE-MODIFIER-MED" text="RIGHT" start="41" end="47"/>
+   <RELATION id="15" head="V204794" res="V204808" label="FIGURE"/>
+   <PHRASE id="V204811" indicator="PRO" type="MALE-PERSON" text="HIM" PROFORM="HIM" start="54" end="58"/>
+   <RELATION id="16" head="V204811" res="V204653" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

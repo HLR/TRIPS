@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl i</TEXT>
+   <RELATION id="1" head="V465277" res="V465250" label="MOD"/>
+   <RELATION id="2" head="V465277" res="V465274" label="MOD"/>
+   <PHRASE id="V465250" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V465250" res="V465277" label="FIGURE"/>
+   <PHRASE id="V465274" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V465274" res="V465277" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="IN-LOC" text="IN" start="34" end="51">
+   <TEXT>in a white shirt a</TEXT>
+   <RELATION id="5" head="V465284" res="V465381" label="GROUND"/>
+   <PHRASE id="V465381" indicator="A" type="ATTIRE" text="SHIRT" start="37" end="51"/>
+   <RELATION id="6" head="V465381" res="V465374" label="MOD"/>
+   <PHRASE id="V465374" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="39" end="45"/>
+   <RELATION id="7" head="V465374" res="V465381" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="51" end="127">
+   <TEXT>and black pants with black suspenders is sitting at her desk in a classroom .</TEXT>
+   <RELATION id="8" head="V466353" res="V465448" label="CONTENT"/>
+   <RELATION id="9" head="V466353" res="V465386" label="MOD"/>
+   <PHRASE id="V465386" indicator="F" type="CONJUNCT" text="AND" start="51" end="55"/>
+   <RELATION id="10" head="V465386" res="V466353" label="FIGURE"/>
+   <PHRASE id="V465448" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="55" end="127"/>
+   <RELATION id="11" head="V465448" res="V465465" label="RESULT"/>
+   <RELATION id="12" head="V465448" res="V465397" label="AGENT"/>
+   <PHRASE id="V465397" indicator="BARE" type="ATTIRE" text="PANTS" start="55" end="89"/>
+   <RELATION id="13" head="V465397" res="V465404" label="MOD"/>
+   <RELATION id="14" head="V465397" res="V465394" label="MOD"/>
+   <PHRASE id="V465394" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="55" end="61"/>
+   <RELATION id="15" head="V465394" res="V465397" label="FIGURE"/>
+   <PHRASE id="V465404" indicator="F" type="ASSOC-WITH" text="WITH" start="67" end="89"/>
+   <RELATION id="16" head="V465404" res="V465420" label="GROUND"/>
+   <RELATION id="17" head="V465404" res="V465397" label="FIGURE"/>
+   <PHRASE id="V465420" indicator="INDEF-SET" type="ATTIRE" text="SUSPENDERS" start="72" end="89"/>
+   <RELATION id="18" head="V465420" res="V465416" label="MOD"/>
+   <PHRASE id="V465416" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="72" end="78"/>
+   <RELATION id="19" head="V465416" res="V465420" label="FIGURE"/>
+   <PHRASE id="V465465" indicator="F" type="AT-LOC" text="AT" start="100" end="127"/>
+   <RELATION id="20" head="V465465" res="V465483" label="GROUND"/>
+   <RELATION id="21" head="V465465" res="V465397" label="FIGURE"/>
+   <PHRASE id="V465483" indicator="THE" type="FURNISHINGS" text="DESK" start="103" end="127"/>
+   <RELATION id="22" head="V465483" res="V465478" label="ASSOC-POSS"/>
+   <RELATION id="23" head="V465483" res="V465490" label="LOCATION"/>
+   <RELATION id="24" head="V465483" res="V465381" label="COREF"/>
+   <PHRASE id="V465478" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="103" end="127"/>
+   <RELATION id="25" head="V465478" res="V465277" label="COREF"/>
+   <PHRASE id="V465490" indicator="F" type="IN-LOC" text="IN" start="112" end="127"/>
+   <RELATION id="26" head="V465490" res="V465580" label="GROUND"/>
+   <RELATION id="27" head="V465490" res="V465483" label="FIGURE"/>
+   <PHRASE id="V465580" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="115" end="127"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="42">
+   <TEXT>sand , stones and rocks in the background .</TEXT>
+   <RELATION id="1" head="V166917" res="V166662" label="CONTENT"/>
+   <PHRASE id="V166662" indicator="INDEF-SET" type="NATURAL-OBJECT" OPERATOR="AND" start="0" end="42"/>
+   <RELATION id="2" head="V166662" res="V166655" label="SEQUENCE"/>
+   <RELATION id="3" head="V166662" res="V166673" label="SEQUENCE1"/>
+   <PHRASE id="V166655" indicator="INDEF-SET" type="NATURAL-OBJECT" text="STONES" start="0" end="14"/>
+   <RELATION id="4" head="V166655" res="V166648" label="ASSOC-WITH"/>
+   <PHRASE id="V166648" indicator="KIND" type="SUBSTANCE" text="SAND" start="0" end="14"/>
+   <PHRASE id="V166673" indicator="INDEF-SET" type="NATURAL-OBJECT" text="ROCK" start="18" end="42"/>
+   <RELATION id="5" head="V166673" res="V166681" label="LOCATION"/>
+   <PHRASE id="V166681" indicator="F" type="IN-LOC" text="IN" start="24" end="42"/>
+   <RELATION id="6" head="V166681" res="V166737" label="GROUND"/>
+   <RELATION id="7" head="V166681" res="V166673" label="FIGURE"/>
+   <PHRASE id="V166737" indicator="THE" type="IMAGE" text="BACKGROUND" start="27" end="42"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2">
+   <TEXT>a d</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33">
+   <TEXT>dark-haired boy i</TEXT>
+   <RELATION id="1" head="V329121" res="V329118" label="MOD"/>
+   <PHRASE id="V329118" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V329118" res="V329121" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="36" end="89">
+   <TEXT>a white shirt is standing in front of red brick wall .</TEXT>
+   <RELATION id="3" head="V331072" res="V329234" label="CONTENT"/>
+   <PHRASE id="V329234" indicator="F" type="BE" text="BE" TENSE="PRES" start="36" end="89"/>
+   <RELATION id="4" head="V329234" res="V329225" label="NEUTRAL"/>
+   <RELATION id="5" head="V329234" res="V329251" label="NEUTRAL1"/>
+   <PHRASE id="V329225" indicator="A" type="ATTIRE" text="SHIRT" start="36" end="50"/>
+   <RELATION id="6" head="V329225" res="V329218" label="MOD"/>
+   <PHRASE id="V329218" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="38" end="44"/>
+   <RELATION id="7" head="V329218" res="V329225" label="FIGURE"/>
+   <PHRASE id="V329251" indicator="BARE" type="BE-AT-LOC" text="STAND" start="53" end="89"/>
+   <RELATION id="8" head="V329251" res="V329260" label="LOCATION"/>
+   <PHRASE id="V329260" indicator="F" type="IN-LOC" text="IN" start="62" end="89"/>
+   <RELATION id="9" head="V329260" res="V329321" label="GROUND"/>
+   <RELATION id="10" head="V329260" res="V329251" label="FIGURE"/>
+   <PHRASE id="V329321" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="65" end="89"/>
+   <RELATION id="11" head="V329321" res="V329392" label="FIGURE"/>
+   <PHRASE id="V329392" indicator="BARE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="71" end="89"/>
+   <RELATION id="12" head="V329392" res="V329389" label="ASSOC-WITH"/>
+   <PHRASE id="V329389" indicator="KIND" type="MATERIAL" text="BRICK" start="71" end="89"/>
+   <RELATION id="13" head="V329389" res="V329382" label="MOD"/>
+   <PHRASE id="V329382" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="74" end="78"/>
+   <RELATION id="14" head="V329382" res="V329389" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="30">
+   <TEXT>one kid is posing with them , f</TEXT>
+   <RELATION id="1" head="V202909" res="V202366" label="CONTENT"/>
+   <PHRASE id="V202366" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="28"/>
+   <RELATION id="2" head="V202366" res="V202357" label="NEUTRAL"/>
+   <RELATION id="3" head="V202366" res="V202380" label="NEUTRAL1"/>
+   <PHRASE id="V202357" indicator="A" type="CHILD" text="KID" start="0" end="8"/>
+   <RELATION id="4" head="V202357" res="V202604" label="SIZE"/>
+   <PHRASE id="V202604" indicator="A" type="NUMBER" VALUE="1" start="0" end="8"/>
+   <PHRASE id="V202380" indicator="BARE" type="BE" text="POSING" start="11" end="28"/>
+   <RELATION id="5" head="V202380" res="V202389" label="MOD"/>
+   <PHRASE id="V202389" indicator="F" type="ASSOC-WITH" text="WITH" start="18" end="28"/>
+   <RELATION id="6" head="V202389" res="V202401" label="GROUND"/>
+   <RELATION id="7" head="V202389" res="V202380" label="FIGURE"/>
+   <PHRASE id="V202401" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="23" end="28"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="30" end="99">
+   <TEXT>five other kids are sitting at a table and eating out of three bowls .</TEXT>
+   <RELATION id="8" head="V211437" res="V202422" label="CONTENT"/>
+   <PHRASE id="V202422" indicator="F" type="BE" text="BE" TENSE="PRES" start="30" end="99"/>
+   <RELATION id="9" head="V202422" res="V202414" label="NEUTRAL"/>
+   <RELATION id="10" head="V202422" res="V202516" label="NEUTRAL1"/>
+   <PHRASE id="V202414" indicator="INDEF-SET" type="CHILD" text="KID" start="30" end="46"/>
+   <RELATION id="11" head="V202414" res="V202408" label="SIZE"/>
+   <RELATION id="12" head="V202414" res="V202410" label="MOD"/>
+   <PHRASE id="V202408" indicator="A" type="NUMBER" VALUE="5" start="30" end="35"/>
+   <PHRASE id="V202410" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="35" end="41"/>
+   <RELATION id="13" head="V202410" res="V202414" label="FIGURE"/>
+   <PHRASE id="V202516" indicator="INDEF-SET" type="EVENT-OF-CAUSATION" OPERATOR="AND" start="50" end="99"/>
+   <RELATION id="14" head="V202516" res="V202437" label="SEQUENCE"/>
+   <RELATION id="15" head="V202516" res="V202554" label="SEQUENCE1"/>
+   <PHRASE id="V202437" indicator="BARE" type="BODY-MOVEMENT" text="SIT-DOWN" start="50" end="69"/>
+   <RELATION id="16" head="V202437" res="V202457" label="LOCATION"/>
+   <PHRASE id="V202457" indicator="F" type="AT-LOC" text="AT" start="58" end="69"/>
+   <RELATION id="17" head="V202457" res="V202510" label="GROUND"/>
+   <RELATION id="18" head="V202457" res="V202437" label="FIGURE"/>
+   <PHRASE id="V202510" indicator="A" type="TABLE" text="TABLE" start="61" end="69"/>
+   <PHRASE id="V202554" indicator="BARE" type="CONSUME" text="EATING-OUT" start="73" end="99" WNSENSE="eat_out%2:34:00"/>
+   <RELATION id="19" head="V202554" res="V202564" label="MOD"/>
+   <PHRASE id="V202564" indicator="F" type="ASSOC-WITH" text="OF" start="84" end="99"/>
+   <RELATION id="20" head="V202564" res="V202593" label="GROUND"/>
+   <RELATION id="21" head="V202564" res="V202554" label="FIGURE"/>
+   <PHRASE id="V202593" indicator="INDEF-SET" type="TABLEWARE" text="BOWL" start="87" end="99"/>
+   <RELATION id="22" head="V202593" res="V202589" label="SIZE"/>
+   <PHRASE id="V202589" indicator="A" type="NUMBER" VALUE="3" start="87" end="93"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

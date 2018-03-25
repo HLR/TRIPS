@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="65">
+   <TEXT>USA jumper says Future USA at the front , with the Olympic rings b</TEXT>
+   <RELATION id="1" head="V200444" res="V193778" label="CONTENT"/>
+   <PHRASE id="V193778" indicator="F" type="SAY" text="SAY" TENSE="PRES" start="0" end="65"/>
+   <RELATION id="2" head="V193778" res="V193769" label="AGENT"/>
+   <RELATION id="3" head="V193778" res="V193807" label="NEUTRAL"/>
+   <RELATION id="4" head="V193778" res="V193845" label="METHOD"/>
+   <PHRASE id="V193769" indicator="BARE" type="PERSON" text="JUMPER" start="0" end="11"/>
+   <RELATION id="5" head="V193769" res="V193765" label="ASSOC-WITH"/>
+   <PHRASE id="V193765" indicator="KIND" type="ORGANIZATION" text="USA" start="0" end="11"/>
+   <PHRASE id="V193807" indicator="BARE" type="ORGANIZATION" text="FUTURE-USA" NAME-OF="(FUTURE USA)" start="16" end="42"/>
+   <RELATION id="6" head="V193807" res="V193816" label="LOCATION"/>
+   <PHRASE id="V193816" indicator="F" type="AT-LOC" text="AT" start="27" end="40"/>
+   <RELATION id="7" head="V193816" res="V193835" label="GROUND"/>
+   <RELATION id="8" head="V193816" res="V193807" label="FIGURE"/>
+   <PHRASE id="V193835" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="30" end="40"/>
+   <PHRASE id="V193845" indicator="F" type="WITH-INSTRUMENT" text="WITH" start="42" end="65"/>
+   <RELATION id="9" head="V193845" res="V193871" label="GROUND"/>
+   <RELATION id="10" head="V193845" res="V193778" label="FIGURE"/>
+   <PHRASE id="V193871" indicator="THE-SET" type="EQUIPMENT" text="RINGS" start="47" end="65"/>
+   <RELATION id="11" head="V193871" res="V193865" label="ASSOC-WITH"/>
+   <PHRASE id="V193865" indicator="THE" type="GEOGRAPHIC-REGION" text="OLYMPIC" NAME-OF="(OLYMPIC)" start="51" end="59"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="65" end="114">
+   <TEXT>below the letters , one sleeve shows the stars , t</TEXT>
+   <RELATION id="12" head="V204574" res="V193920" label="CONTENT"/>
+   <PHRASE id="V193920" indicator="F" type="SHOW" text="SHOW" TENSE="PRES" start="65" end="114"/>
+   <RELATION id="13" head="V193920" res="V193911" label="AGENT"/>
+   <RELATION id="14" head="V193920" res="V193947" label="AFFECTED"/>
+   <RELATION id="15" head="V193920" res="V193878" label="LOCATION"/>
+   <PHRASE id="V193878" indicator="F" type="BELOW" text="BELOW" start="65" end="83"/>
+   <RELATION id="16" head="V193878" res="V193893" label="GROUND"/>
+   <RELATION id="17" head="V193878" res="V193920" label="FIGURE"/>
+   <PHRASE id="V193893" indicator="THE-SET" type="INFO-MEDIUM" text="LETTER" start="71" end="83"/>
+   <PHRASE id="V193911" indicator="A" type="COVERING" text="SLEEVE" start="85" end="96"/>
+   <RELATION id="18" head="V193911" res="V193995" label="SIZE"/>
+   <PHRASE id="V193995" indicator="A" type="NUMBER" VALUE="1" start="85" end="96"/>
+   <PHRASE id="V193947" indicator="THE-SET" type="NATURAL-OBJECT" text="STAR" start="102" end="114"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="THE" type="REFERENTIAL-SEM" text="ONE" start="114" end="128">
+   <TEXT>the other one t</TEXT>
+   <RELATION id="19" head="V193968" res="V193961" label="MOD"/>
+   <PHRASE id="V193961" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="118" end="124"/>
+   <RELATION id="20" head="V193961" res="V193968" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="128" end="140">
+   <TEXT>the stripes .</TEXT>
+   <RELATION id="21" head="V195221" res="V193982" label="CONTENT"/>
+   <PHRASE id="V193982" indicator="THE-SET" type="KNOWLEDGE-BELIEF" text="STRIPES" start="128" end="140"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

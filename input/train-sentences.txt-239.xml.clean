@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="63">
+   <TEXT>movable wooden walls are leaning on the wall in the background .</TEXT>
+   <RELATION id="1" head="V172321" res="V171862" label="CONTENT"/>
+   <PHRASE id="V171862" indicator="F" type="BODY-MOVEMENT-PLACE" text="LEAN" TENSE="PRES" PROGR="+" start="0" end="63"/>
+   <RELATION id="2" head="V171862" res="V171873" label="RESULT"/>
+   <RELATION id="3" head="V171862" res="V171840" label="AGENT"/>
+   <PHRASE id="V171840" indicator="INDEF-SET" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="0" end="21"/>
+   <RELATION id="4" head="V171840" res="V171830" label="MOD"/>
+   <RELATION id="5" head="V171840" res="V171834" label="MOD"/>
+   <PHRASE id="V171830" indicator="F" type="PORTABLE-VAL" text="MOVABLE" start="0" end="8"/>
+   <RELATION id="6" head="V171830" res="V171840" label="FIGURE"/>
+   <PHRASE id="V171834" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="8" end="15"/>
+   <RELATION id="7" head="V171834" res="V171840" label="FIGURE"/>
+   <PHRASE id="V171873" indicator="F" type="ON" text="ON" start="33" end="63"/>
+   <RELATION id="8" head="V171873" res="V171910" label="GROUND"/>
+   <RELATION id="9" head="V171873" res="V171840" label="FIGURE"/>
+   <PHRASE id="V171910" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="36" end="63"/>
+   <RELATION id="10" head="V171910" res="V171917" label="LOCATION"/>
+   <PHRASE id="V171917" indicator="F" type="IN-LOC" text="IN" start="45" end="63"/>
+   <RELATION id="11" head="V171917" res="V171982" label="GROUND"/>
+   <RELATION id="12" head="V171917" res="V171910" label="FIGURE"/>
+   <PHRASE id="V171982" indicator="THE" type="IMAGE" text="BACKGROUND" start="48" end="63"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

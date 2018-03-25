@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="43" WNSENSE="flow_off%2:30:00">
+   <TEXT>backwater is flowing off in the foreground .</TEXT>
+   <RELATION id="1" head="V119024" res="V118724" label="CONTENT"/>
+   <PHRASE id="V118724" indicator="F" type="CHANGE" text="FLOWING-OFF" TENSE="PRES" PROGR="+" start="0" end="43" WNSENSE="flow_off%2:30:00"/>
+   <RELATION id="2" head="V118724" res="V118680" label="AFFECTED"/>
+   <RELATION id="3" head="V118724" res="V118790" label="FORMAL"/>
+   <PHRASE id="V118680" indicator="BARE" type="GEO-OBJECT" text="BACKWATER" start="0" end="10"/>
+   <PHRASE id="V118790" indicator="THE" type="KNOWLEDGE-BELIEF" text="FOREGROUND" start="25" end="43"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

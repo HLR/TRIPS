@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="37">
+   <TEXT>backwater is flowing off on the left .</TEXT>
+   <RELATION id="1" head="V49254" res="V48763" label="CONTENT"/>
+   <PHRASE id="V48763" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="37"/>
+   <RELATION id="2" head="V48763" res="V48753" label="NEUTRAL"/>
+   <RELATION id="3" head="V48763" res="V48798" label="NEUTRAL1"/>
+   <PHRASE id="V48753" indicator="BARE" type="GEO-OBJECT" text="BACKWATER" start="0" end="10"/>
+   <PHRASE id="V48798" indicator="BARE" type="CHANGE" text="FLOWING-OFF" start="13" end="37" WNSENSE="flow_off%2:30:00"/>
+   <RELATION id="4" head="V48798" res="V48807" label="LOCATION"/>
+   <PHRASE id="V48807" indicator="F" type="ON" text="ON" start="25" end="37"/>
+   <RELATION id="5" head="V48807" res="V48841" label="GROUND"/>
+   <RELATION id="6" head="V48807" res="V48798" label="FIGURE"/>
+   <PHRASE id="V48841" indicator="THE" type="LEFT-LOC" text="LEFT" start="28" end="37"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

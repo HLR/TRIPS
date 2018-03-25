@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl i</TEXT>
+   <RELATION id="1" head="V263426" res="V257865" label="CONTENT"/>
+   <PHRASE id="V257865" indicator="F" type="EVOKE-INJURY" text="SKINNED" TENSE="PAST" start="0" end="34"/>
+   <RELATION id="2" head="V257865" res="V257852" label="AGENT"/>
+   <RELATION id="3" head="V257865" res="V257902" label="AFFECTED"/>
+   <PHRASE id="V257852" indicator="BARE" type="LIGHT" text="DARK" start="0" end="6"/>
+   <RELATION id="4" head="V257852" res="V257826" label="ASSOC-WITH"/>
+   <PHRASE id="V257826" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2"/>
+   <PHRASE id="V257902" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="17" end="34"/>
+   <RELATION id="5" head="V257902" res="V257899" label="MOD"/>
+   <PHRASE id="V257899" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="6" head="V257899" res="V257902" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="IN-LOC" text="IN" start="34" end="75">
+   <TEXT>in a white jumper with paintings of dogs ,</TEXT>
+   <RELATION id="7" head="V257909" res="V258007" label="GROUND"/>
+   <PHRASE id="V258007" indicator="A" type="PERSON" text="JUMPER" start="37" end="75"/>
+   <RELATION id="8" head="V258007" res="V258014" label="MOD"/>
+   <RELATION id="9" head="V258007" res="V257999" label="MOD"/>
+   <PHRASE id="V257999" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="39" end="45"/>
+   <RELATION id="10" head="V257999" res="V258007" label="FIGURE"/>
+   <PHRASE id="V258014" indicator="F" type="ASSOC-WITH" text="WITH" start="52" end="75"/>
+   <RELATION id="11" head="V258014" res="V258028" label="GROUND"/>
+   <RELATION id="12" head="V258014" res="V258007" label="FIGURE"/>
+   <PHRASE id="V258028" indicator="INDEF-SET" type="REFERENTIAL-SEM" text="PAINTINGS" start="57" end="75"/>
+   <RELATION id="13" head="V258028" res="V258033" label="MOD"/>
+   <PHRASE id="V258033" indicator="F" type="CONTAIN-RELN" text="OF" start="67" end="75"/>
+   <RELATION id="14" head="V258033" res="V258039" label="GROUND"/>
+   <RELATION id="15" head="V258033" res="V258028" label="FIGURE"/>
+   <PHRASE id="V258039" indicator="INDEF-SET" type="NONHUMAN-ANIMAL" text="DOG" start="70" end="75"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="INDEF-SET" type="REFERENTIAL-SEM" OPERATOR="AND" start="77" end="97">
+   <TEXT>bones and dogprints a</TEXT>
+   <RELATION id="16" head="V267456" res="V267451" label="SEQUENCE"/>
+   <RELATION id="17" head="V267456" res="V267467" label="SEQUENCE1"/>
+   <PHRASE id="V267451" indicator="INDEF-SET" type="INTERNAL-BODY-PART" text="BONE" start="77" end="83"/>
+   <PHRASE id="V267467" indicator="INDEF-SET" type="REFERENTIAL-SEM" text="DOGPRINTS" start="87" end="97"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="97" end="133">
+   <TEXT>and pink-and-white chequered shorts .</TEXT>
+   <RELATION id="18" head="V267774" res="V267548" label="CONTENT"/>
+   <RELATION id="19" head="V267774" res="V267472" label="MOD"/>
+   <PHRASE id="V267472" indicator="F" type="CONJUNCT" text="AND" start="97" end="101"/>
+   <RELATION id="20" head="V267472" res="V267774" label="FIGURE"/>
+   <PHRASE id="V267548" indicator="BARE" type="ATTIRE" text="SHORTS" start="101" end="133"/>
+   <RELATION id="21" head="V267548" res="V267517" label="MOD"/>
+   <RELATION id="22" head="V267548" res="V267534" label="MOD"/>
+   <PHRASE id="V267517" indicator="F" type="MODIFIER" text="PINK-PUNC-MINUS-AND-PUNC-MINUS-WHITE" start="101" end="116"/>
+   <RELATION id="23" head="V267517" res="V267548" label="FIGURE"/>
+   <PHRASE id="V267534" indicator="F" type="MODIFIER" text="CHEQUERED" start="116" end="126"/>
+   <RELATION id="24" head="V267534" res="V267548" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

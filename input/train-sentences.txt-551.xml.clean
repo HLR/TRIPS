@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl i</TEXT>
+   <RELATION id="1" head="V244113" res="V244086" label="MOD"/>
+   <RELATION id="2" head="V244113" res="V244110" label="MOD"/>
+   <PHRASE id="V244086" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V244086" res="V244113" label="FIGURE"/>
+   <PHRASE id="V244110" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V244110" res="V244113" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="34" end="93">
+   <TEXT>in a grey tee-shirt is standing at her desk in a classroom .</TEXT>
+   <RELATION id="5" head="V249908" res="V244242" label="CONTENT"/>
+   <PHRASE id="V244242" indicator="F" type="HAVE-PROPERTY" text="BE" start="34" end="93"/>
+   <RELATION id="6" head="V244242" res="V244260" label="NEUTRAL"/>
+   <RELATION id="7" head="V244242" res="V244296" label="FORMAL"/>
+   <RELATION id="8" head="V244242" res="V244120" label="LOCATION"/>
+   <RELATION id="9" head="V244242" res="V244271" label="LOCATION"/>
+   <PHRASE id="V244120" indicator="F" type="IN-LOC" text="IN" start="34" end="54"/>
+   <RELATION id="10" head="V244120" res="V244234" label="GROUND"/>
+   <RELATION id="11" head="V244120" res="V244242" label="FIGURE"/>
+   <PHRASE id="V244234" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="37" end="54"/>
+   <RELATION id="12" head="V244234" res="V244210" label="MOD"/>
+   <PHRASE id="V244210" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="39" end="44"/>
+   <RELATION id="13" head="V244210" res="V244234" label="FIGURE"/>
+   <PHRASE id="V244260" indicator="BARE" type="BE-AT-LOC" text="STAND" start="57" end="66"/>
+   <PHRASE id="V244271" indicator="F" type="AT-LOC" text="AT" start="66" end="78"/>
+   <RELATION id="14" head="V244271" res="V244289" label="GROUND"/>
+   <RELATION id="15" head="V244271" res="V244242" label="FIGURE"/>
+   <PHRASE id="V244289" indicator="THE" type="FURNISHINGS" text="DESK" start="69" end="78"/>
+   <RELATION id="16" head="V244289" res="V244284" label="ASSOC-POSS"/>
+   <PHRASE id="V244284" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="69" end="78"/>
+   <RELATION id="17" head="V244284" res="V244113" label="COREF"/>
+   <PHRASE id="V244296" indicator="F" type="IN-LOC" text="IN" start="78" end="93"/>
+   <RELATION id="18" head="V244296" res="V244386" label="GROUND"/>
+   <RELATION id="19" head="V244296" res="V244260" label="FIGURE"/>
+   <PHRASE id="V244386" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="81" end="93"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

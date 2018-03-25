@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="58">
+   <TEXT>a house with brick walls and two garage doors behind them .</TEXT>
+   <RELATION id="1" head="V160814" res="V160399" label="CONTENT"/>
+   <PHRASE id="V160399" indicator="A" type="LODGING" text="HOUSE" start="0" end="58"/>
+   <RELATION id="2" head="V160399" res="V160445" label="LOCATION"/>
+   <RELATION id="3" head="V160399" res="V160408" label="MOD"/>
+   <PHRASE id="V160408" indicator="F" type="ASSOC-WITH" text="WITH" start="8" end="46"/>
+   <RELATION id="4" head="V160408" res="V160427" label="GROUND"/>
+   <RELATION id="5" head="V160408" res="V160399" label="FIGURE"/>
+   <PHRASE id="V160427" indicator="INDEF-SET" type="GENERAL-STRUCTURE" OPERATOR="AND" start="13" end="46"/>
+   <RELATION id="6" head="V160427" res="V160423" label="SEQUENCE"/>
+   <RELATION id="7" head="V160427" res="V160442" label="SEQUENCE1"/>
+   <PHRASE id="V160423" indicator="INDEF-SET" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="13" end="25"/>
+   <RELATION id="8" head="V160423" res="V160420" label="ASSOC-WITH"/>
+   <PHRASE id="V160420" indicator="KIND" type="MATERIAL" text="BRICK" start="13" end="25"/>
+   <PHRASE id="V160442" indicator="INDEF-SET" type="STRUCTURAL-OPENING" text="DOOR" start="29" end="46"/>
+   <RELATION id="9" head="V160442" res="V160480" label="MOD"/>
+   <PHRASE id="V160480" indicator="F" type="ASSOC-WITH" start="29" end="40"/>
+   <RELATION id="10" head="V160480" res="V160442" label="FIGURE"/>
+   <RELATION id="11" head="V160480" res="V160437" label="GROUND"/>
+   <PHRASE id="V160437" indicator="KIND" type="GENERAL-STRUCTURE" text="GARAGE" AMOUNT="2" start="29" end="40"/>
+   <PHRASE id="V160445" indicator="F" type="BACK" text="BEHIND" start="46" end="58"/>
+   <RELATION id="12" head="V160445" res="V160448" label="GROUND"/>
+   <RELATION id="13" head="V160445" res="V160399" label="FIGURE"/>
+   <PHRASE id="V160448" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="53" end="58"/>
+   <RELATION id="14" head="V160448" res="V160423" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

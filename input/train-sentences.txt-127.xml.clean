@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="29">
+   <TEXT>one boy is holding a sweeper .</TEXT>
+   <RELATION id="1" head="V79077" res="V78841" label="CONTENT"/>
+   <PHRASE id="V78841" indicator="F" type="BODY-MANIPULATION" text="HOLD" TENSE="PRES" PROGR="+" start="0" end="29"/>
+   <RELATION id="2" head="V78841" res="V78817" label="AGENT"/>
+   <RELATION id="3" head="V78841" res="V78893" label="AFFECTED"/>
+   <PHRASE id="V78817" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="8"/>
+   <RELATION id="4" head="V78817" res="V78904" label="SIZE"/>
+   <PHRASE id="V78904" indicator="A" type="NUMBER" VALUE="1" start="0" end="8"/>
+   <PHRASE id="V78893" indicator="A" type="PERSON" text="SWEEPER" start="19" end="29"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

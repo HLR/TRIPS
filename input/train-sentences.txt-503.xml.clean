@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="35">
+   <TEXT>a red brick wall in the background .</TEXT>
+   <RELATION id="1" head="V46552" res="V46390" label="CONTENT"/>
+   <PHRASE id="V46390" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="0" end="35"/>
+   <RELATION id="2" head="V46390" res="V46387" label="ASSOC-WITH"/>
+   <RELATION id="3" head="V46390" res="V46397" label="LOCATION"/>
+   <PHRASE id="V46387" indicator="KIND" type="MATERIAL" text="BRICK" start="0" end="35"/>
+   <RELATION id="4" head="V46387" res="V46380" label="MOD"/>
+   <PHRASE id="V46380" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="2" end="6"/>
+   <RELATION id="5" head="V46380" res="V46387" label="FIGURE"/>
+   <PHRASE id="V46397" indicator="F" type="IN-LOC" text="IN" start="17" end="35"/>
+   <RELATION id="6" head="V46397" res="V46462" label="GROUND"/>
+   <RELATION id="7" head="V46397" res="V46390" label="FIGURE"/>
+   <PHRASE id="V46462" indicator="THE" type="IMAGE" text="BACKGROUND" start="20" end="35"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

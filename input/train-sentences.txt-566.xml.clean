@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="67">
+   <TEXT>a blackboard and more kids sitting at their desk in the background .</TEXT>
+   <RELATION id="1" head="V325761" res="V324693" label="CONTENT"/>
+   <PHRASE id="V324693" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="67"/>
+   <RELATION id="2" head="V324693" res="V324689" label="SEQUENCE"/>
+   <RELATION id="3" head="V324693" res="V324710" label="SEQUENCE1"/>
+   <PHRASE id="V324689" indicator="A" type="DISPLAY" text="BLACKBOARD" start="0" end="13"/>
+   <PHRASE id="V324710" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="17" end="67"/>
+   <RELATION id="4" head="V324710" res="V324719" label="MOD"/>
+   <PHRASE id="V324719" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" VFORM="ING" start="27" end="67"/>
+   <RELATION id="5" head="V324719" res="V324736" label="RESULT"/>
+   <RELATION id="6" head="V324719" res="V324710" label="AGENT"/>
+   <PHRASE id="V324736" indicator="F" type="AT-LOC" text="AT" start="35" end="67"/>
+   <RELATION id="7" head="V324736" res="V324751" label="GROUND"/>
+   <RELATION id="8" head="V324736" res="V324710" label="FIGURE"/>
+   <PHRASE id="V324751" indicator="THE" type="FURNISHINGS" text="DESK" start="38" end="67"/>
+   <RELATION id="9" head="V324751" res="V324748" label="ASSOC-POSS"/>
+   <RELATION id="10" head="V324751" res="V324758" label="LOCATION"/>
+   <PHRASE id="V324748" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="38" end="67"/>
+   <RELATION id="11" head="V324748" res="V324710" label="COREF"/>
+   <PHRASE id="V324758" indicator="F" type="IN-LOC" text="IN" start="49" end="67"/>
+   <RELATION id="12" head="V324758" res="V324814" label="GROUND"/>
+   <RELATION id="13" head="V324758" res="V324751" label="FIGURE"/>
+   <PHRASE id="V324814" indicator="THE" type="IMAGE" text="BACKGROUND" start="52" end="67"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

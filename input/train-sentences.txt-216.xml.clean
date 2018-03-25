@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="65">
+   <TEXT>the other one in a red tee-shirt and black jeans is watching her .</TEXT>
+   <RELATION id="1" head="V93568" res="V92412" label="CONTENT"/>
+   <PHRASE id="V92412" indicator="F" type="MANAGE" text="WATCH" TENSE="PRES" PROGR="+" start="0" end="65"/>
+   <RELATION id="2" head="V92412" res="V92240" label="AGENT"/>
+   <RELATION id="3" head="V92412" res="V92418" label="AFFECTED"/>
+   <PHRASE id="V92240" indicator="THE" type="REFERENTIAL-SEM" text="ONE" start="0" end="49"/>
+   <RELATION id="4" head="V92240" res="V92250" label="MOD"/>
+   <RELATION id="5" head="V92240" res="V92233" label="MOD"/>
+   <PHRASE id="V92233" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="4" end="10"/>
+   <RELATION id="6" head="V92233" res="V92240" label="FIGURE"/>
+   <PHRASE id="V92250" indicator="F" type="IN-LOC" text="IN" start="14" end="49"/>
+   <RELATION id="7" head="V92250" res="V92372" label="GROUND"/>
+   <RELATION id="8" head="V92250" res="V92240" label="FIGURE"/>
+   <PHRASE id="V92372" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="17" end="49"/>
+   <RELATION id="9" head="V92372" res="V92368" label="SEQUENCE"/>
+   <RELATION id="10" head="V92372" res="V92385" label="SEQUENCE1"/>
+   <PHRASE id="V92368" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="17" end="33"/>
+   <RELATION id="11" head="V92368" res="V92340" label="MOD"/>
+   <PHRASE id="V92340" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="19" end="23"/>
+   <RELATION id="12" head="V92340" res="V92368" label="FIGURE"/>
+   <PHRASE id="V92385" indicator="INDEF-SET" type="ATTIRE" text="JEANS" start="37" end="49"/>
+   <RELATION id="13" head="V92385" res="V92381" label="MOD"/>
+   <PHRASE id="V92381" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="37" end="43"/>
+   <RELATION id="14" head="V92381" res="V92385" label="FIGURE"/>
+   <PHRASE id="V92418" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="61" end="65"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

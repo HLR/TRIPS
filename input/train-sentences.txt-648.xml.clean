@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="32">
+   <TEXT>a dark-skinned dark-haired girl w</TEXT>
+   <RELATION id="1" head="V167465" res="V167441" label="MOD"/>
+   <RELATION id="2" head="V167465" res="V167462" label="MOD"/>
+   <PHRASE id="V167441" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V167441" res="V167465" label="FIGURE"/>
+   <PHRASE id="V167462" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="15" end="27" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V167462" res="V167465" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="32" end="58">
+   <TEXT>wearing a red jumper with r</TEXT>
+   <RELATION id="5" head="V167471" res="V167532" label="NEUTRAL"/>
+   <RELATION id="6" head="V167471" res="V167542" label="METHOD"/>
+   <PHRASE id="V167532" indicator="A" type="PERSON" text="JUMPER" start="40" end="53"/>
+   <RELATION id="7" head="V167532" res="V167518" label="MOD"/>
+   <PHRASE id="V167518" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="42" end="46"/>
+   <RELATION id="8" head="V167518" res="V167532" label="FIGURE"/>
+   <PHRASE id="V167542" indicator="F" type="WITH-INSTRUMENT" text="WITH" start="53" end="58"/>
+   <RELATION id="9" head="V167542" res="V167471" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="58" end="72">
+   <TEXT>red and white s</TEXT>
+   <RELATION id="10" head="V167890" res="V167551" label="SEQUENCE"/>
+   <RELATION id="11" head="V167890" res="V167568" label="SEQUENCE1"/>
+   <PHRASE id="V167551" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="58" end="62"/>
+   <PHRASE id="V167568" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="66" end="72"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" start="72" end="129">
+   <TEXT>striped sleeves , a sleeveless blue vest and a large hat i</TEXT>
+   <RELATION id="12" head="V177009" res="V167582" label="CONTENT"/>
+   <PHRASE id="V167582" indicator="F" type="UNDRESS" text="STRIPED" TENSE="PAST" start="72" end="129"/>
+   <RELATION id="13" head="V167582" res="V177010" label="AGENT"/>
+   <RELATION id="14" head="V167582" res="V167662" label="AFFECTED"/>
+   <PHRASE id="V177010" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="72" end="129"/>
+   <RELATION id="15" head="V177010" res="V167532" label="COREF"/>
+   <PHRASE id="V167662" indicator="A" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="80" end="129"/>
+   <RELATION id="16" head="V167662" res="V167715" label="SEQUENCE"/>
+   <RELATION id="17" head="V167662" res="V167593" label="SEQUENCE1"/>
+   <RELATION id="18" head="V167662" res="V167658" label="SEQUENCE2"/>
+   <PHRASE id="V167593" indicator="INDEF-SET" type="CONTAINER" text="SLEEVES" start="80" end="88"/>
+   <PHRASE id="V167658" indicator="A" type="ATTIRE" text="VEST" start="90" end="113"/>
+   <RELATION id="19" head="V167658" res="V167642" label="MOD"/>
+   <RELATION id="20" head="V167658" res="V167645" label="MOD"/>
+   <PHRASE id="V167642" indicator="F" type="MODIFIER" text="SLEEVELESS" start="92" end="103"/>
+   <RELATION id="21" head="V167642" res="V167658" label="FIGURE"/>
+   <PHRASE id="V167645" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="103" end="108"/>
+   <RELATION id="22" head="V167645" res="V167658" label="FIGURE"/>
+   <PHRASE id="V167715" indicator="A" type="ATTIRE" text="HAT" start="117" end="129"/>
+   <RELATION id="23" head="V167715" res="V167712" label="MOD"/>
+   <PHRASE id="V167712" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="119" end="125"/>
+   <RELATION id="24" head="V167712" res="V167715" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="129" end="174">
+   <TEXT>is standing outside and waving to the camera .</TEXT>
+   <RELATION id="25" head="V171352" res="V167720" label="CONTENT"/>
+   <PHRASE id="V167720" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="129" end="174"/>
+   <RELATION id="26" head="V167720" res="V167741" label="NEUTRAL"/>
+   <PHRASE id="V167741" indicator="BARE" type="BE-AT-LOC" text="STAND" start="132" end="174"/>
+   <RELATION id="27" head="V167741" res="V168112" label="MOD"/>
+   <PHRASE id="V168112" indicator="F" type="ABSTRACT-OBJECT" OPERATOR="AND" start="141" end="174"/>
+   <RELATION id="28" head="V168112" res="V167747" label="SEQUENCE"/>
+   <RELATION id="29" head="V168112" res="V168389" label="SEQUENCE1"/>
+   <PHRASE id="V167747" indicator="F" type="OUTSIDE" text="OUTSIDE" start="141" end="149"/>
+   <RELATION id="30" head="V167747" res="V168070" label="GROUND"/>
+   <RELATION id="31" head="V167747" res="V167741" label="FIGURE"/>
+   <PHRASE id="V168070" indicator="IMPRO" type="ANY-SEM" start="141" end="149"/>
+   <RELATION id="32" head="V168070" res="V167662" label="COREF"/>
+   <PHRASE id="V168389" indicator="F" type="IMPLICIT-OVERLAP" start="153" end="174"/>
+   <RELATION id="33" head="V168389" res="V167741" label="FIGURE"/>
+   <RELATION id="34" head="V168389" res="V167765" label="GROUND"/>
+   <PHRASE id="V167765" indicator="F" type="MOVE" text="WAVING" VFORM="ING" start="153" end="174"/>
+   <RELATION id="35" head="V167765" res="V167778" label="RESULT"/>
+   <PHRASE id="V167778" indicator="F" type="TO-LOC" text="TO" start="160" end="174"/>
+   <RELATION id="36" head="V167778" res="V167806" label="GROUND"/>
+   <PHRASE id="V167806" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="163" end="174"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

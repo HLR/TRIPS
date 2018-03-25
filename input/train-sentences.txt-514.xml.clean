@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="58">
+   <TEXT>there is a poster on the red brick wall in the background .</TEXT>
+   <RELATION id="1" head="V106867" res="V106226" label="CONTENT"/>
+   <PHRASE id="V106226" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="58"/>
+   <RELATION id="2" head="V106226" res="V106278" label="NEUTRAL"/>
+   <PHRASE id="V106213" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V106278" indicator="A" type="INFO-MEDIUM" text="POSTER" start="9" end="58"/>
+   <RELATION id="3" head="V106278" res="V106286" label="LOCATION"/>
+   <PHRASE id="V106286" indicator="F" type="ON" text="ON" start="18" end="58"/>
+   <RELATION id="4" head="V106286" res="V106325" label="GROUND"/>
+   <RELATION id="5" head="V106286" res="V106278" label="FIGURE"/>
+   <PHRASE id="V106325" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="21" end="58"/>
+   <RELATION id="6" head="V106325" res="V106322" label="ASSOC-WITH"/>
+   <RELATION id="7" head="V106325" res="V106332" label="LOCATION"/>
+   <PHRASE id="V106322" indicator="KIND" type="MATERIAL" text="BRICK" start="21" end="58"/>
+   <RELATION id="8" head="V106322" res="V106315" label="MOD"/>
+   <PHRASE id="V106315" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="25" end="29"/>
+   <RELATION id="9" head="V106315" res="V106322" label="FIGURE"/>
+   <PHRASE id="V106332" indicator="F" type="IN-LOC" text="IN" start="40" end="58"/>
+   <RELATION id="10" head="V106332" res="V106397" label="GROUND"/>
+   <RELATION id="11" head="V106332" res="V106325" label="FIGURE"/>
+   <PHRASE id="V106397" indicator="THE" type="IMAGE" text="BACKGROUND" start="43" end="58"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

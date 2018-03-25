@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="68">
+   <TEXT>a street behind them , with some houses on a hill in the background .</TEXT>
+   <RELATION id="1" head="V131478" res="V130354" label="CONTENT"/>
+   <PHRASE id="V130354" indicator="A" type="THOROUGHFARE" text="STREET" start="0" end="68"/>
+   <RELATION id="2" head="V130354" res="V130367" label="MOD"/>
+   <RELATION id="3" head="V130354" res="V130357" label="LOCATION"/>
+   <PHRASE id="V130357" indicator="F" type="BACK" text="BEHIND" start="9" end="21"/>
+   <RELATION id="4" head="V130357" res="V130360" label="GROUND"/>
+   <RELATION id="5" head="V130357" res="V130354" label="FIGURE"/>
+   <PHRASE id="V130360" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="16" end="21"/>
+   <RELATION id="6" head="V130360" res="V130388" label="COREF"/>
+   <PHRASE id="V130367" indicator="F" type="ASSOC-WITH" text="WITH" start="21" end="68"/>
+   <RELATION id="7" head="V130367" res="V130388" label="GROUND"/>
+   <RELATION id="8" head="V130367" res="V130354" label="FIGURE"/>
+   <PHRASE id="V130388" indicator="INDEF-SET" type="LODGING" text="HOUSE" SIZE="SOME" start="28" end="68"/>
+   <RELATION id="9" head="V130388" res="V130397" label="LOCATION"/>
+   <PHRASE id="V130397" indicator="F" type="ON" text="ON" start="40" end="68"/>
+   <RELATION id="10" head="V130397" res="V130461" label="GROUND"/>
+   <RELATION id="11" head="V130397" res="V130388" label="FIGURE"/>
+   <PHRASE id="V130461" indicator="A" type="GEO-FORMATION" text="HILL" start="43" end="68"/>
+   <RELATION id="12" head="V130461" res="V130471" label="LOCATION"/>
+   <PHRASE id="V130471" indicator="F" type="IN-LOC" text="IN" start="50" end="68"/>
+   <RELATION id="13" head="V130471" res="V130527" label="GROUND"/>
+   <RELATION id="14" head="V130471" res="V130461" label="FIGURE"/>
+   <PHRASE id="V130527" indicator="THE" type="IMAGE" text="BACKGROUND" start="53" end="68"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

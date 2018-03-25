@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="0" end="58">
+   <TEXT>one block in the front with three windows and the writing C</TEXT>
+   <RELATION id="1" head="V127881" res="V127787" label="SEQUENCE"/>
+   <RELATION id="2" head="V127881" res="V127905" label="SEQUENCE1"/>
+   <PHRASE id="V127787" indicator="A" type="BLOCK" text="BLOCK" start="0" end="42"/>
+   <RELATION id="3" head="V127787" res="V127973" label="SIZE"/>
+   <RELATION id="4" head="V127787" res="V127800" label="LOCATION"/>
+   <PHRASE id="V127973" indicator="A" type="NUMBER" VALUE="1" start="0" end="42"/>
+   <PHRASE id="V127800" indicator="F" type="IN-LOC" text="IN" start="10" end="42"/>
+   <RELATION id="5" head="V127800" res="V127856" label="GROUND"/>
+   <RELATION id="6" head="V127800" res="V127787" label="FIGURE"/>
+   <PHRASE id="V127856" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="13" end="42"/>
+   <RELATION id="7" head="V127856" res="V127860" label="MOD"/>
+   <PHRASE id="V127860" indicator="F" type="ASSOC-WITH" text="WITH" start="23" end="42"/>
+   <RELATION id="8" head="V127860" res="V127876" label="GROUND"/>
+   <RELATION id="9" head="V127860" res="V127856" label="FIGURE"/>
+   <PHRASE id="V127876" indicator="INDEF-SET" type="STRUCTURAL-OPENING" text="WINDOW" start="28" end="42"/>
+   <RELATION id="10" head="V127876" res="V127873" label="SIZE"/>
+   <PHRASE id="V127873" indicator="A" type="NUMBER" VALUE="3" start="28" end="34"/>
+   <PHRASE id="V127905" indicator="THE" type="MANUFACTURED-OBJECT" text="WRITING" start="46" end="58"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="58" end="89">
+   <TEXT>Casa Parroquial - Amor de Dios .</TEXT>
+   <RELATION id="11" head="V132839" res="V132446" label="CONTENT"/>
+   <PHRASE id="V132446" indicator="THE" type="PHYS-OBJECT" start="58" end="89"/>
+   <RELATION id="12" head="V132446" res="V127925" label="SEQUENCE"/>
+   <RELATION id="13" head="V132446" res="V127950" label="SEQUENCE1"/>
+   <PHRASE id="V127925" indicator="THE" type="ORGANIZATION" text="CASA-PARROQUIAL" NAME-OF="(CASA PARROQUIAL)" start="58" end="74"/>
+   <PHRASE id="V127950" indicator="BARE" type="BODY-PART" text="OS" start="76" end="89"/>
+   <RELATION id="14" head="V127950" res="V127939" label="ASSOC-WITH"/>
+   <RELATION id="15" head="V127950" res="V127970" label="MOD"/>
+   <PHRASE id="V127970" indicator="F" type="DI-VAL" text="DI-" start="76" end="89"/>
+   <RELATION id="16" head="V127970" res="V127950" label="FIGURE"/>
+   <PHRASE id="V127939" indicator="KIND" type="REFERENTIAL-SEM" text="DE" NAME-OF="DE" start="76" end="89"/>
+   <RELATION id="17" head="V127939" res="V127933" label="ASSOC-WITH"/>
+   <PHRASE id="V127933" indicator="THE" type="GEOGRAPHIC-REGION" text="AMOR" NAME-OF="(AMOR)" start="76" end="81"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

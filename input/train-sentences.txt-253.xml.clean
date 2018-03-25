@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="57">
+   <TEXT>there are posters and maps on the wall in the background .</TEXT>
+   <RELATION id="1" head="V236536" res="V236243" label="CONTENT"/>
+   <PHRASE id="V236243" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="57"/>
+   <RELATION id="2" head="V236243" res="V236257" label="NEUTRAL"/>
+   <PHRASE id="V236231" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V236257" indicator="INDEF-SET" type="INFO-HOLDER" OPERATOR="AND" start="10" end="57"/>
+   <RELATION id="3" head="V236257" res="V236253" label="SEQUENCE"/>
+   <RELATION id="4" head="V236257" res="V236266" label="SEQUENCE1"/>
+   <PHRASE id="V236253" indicator="INDEF-SET" type="INFO-MEDIUM" text="POSTER" start="10" end="18"/>
+   <PHRASE id="V236266" indicator="INDEF-SET" type="MAP" text="MAP" start="22" end="57"/>
+   <RELATION id="5" head="V236266" res="V236274" label="LOCATION"/>
+   <PHRASE id="V236274" indicator="F" type="ON" text="ON" start="27" end="57"/>
+   <RELATION id="6" head="V236274" res="V236303" label="GROUND"/>
+   <RELATION id="7" head="V236274" res="V236266" label="FIGURE"/>
+   <PHRASE id="V236303" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="30" end="57"/>
+   <RELATION id="8" head="V236303" res="V236310" label="LOCATION"/>
+   <PHRASE id="V236310" indicator="F" type="IN-LOC" text="IN" start="39" end="57"/>
+   <RELATION id="9" head="V236310" res="V236375" label="GROUND"/>
+   <RELATION id="10" head="V236310" res="V236303" label="FIGURE"/>
+   <PHRASE id="V236375" indicator="THE" type="IMAGE" text="BACKGROUND" start="42" end="57"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

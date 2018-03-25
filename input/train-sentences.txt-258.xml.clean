@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="50">
+   <TEXT>each tourist is leading one old lady , arm in arm .</TEXT>
+   <RELATION id="1" head="V244586" res="V240800" label="CONTENT"/>
+   <PHRASE id="V240800" indicator="F" type="GUIDING" text="LEAD" TENSE="PRES" PROGR="+" start="0" end="50"/>
+   <RELATION id="2" head="V240800" res="V240775" label="AGENT"/>
+   <RELATION id="3" head="V240800" res="V240841" label="AFFECTED"/>
+   <RELATION id="4" head="V240800" res="V241014" label="BENEFICIARY"/>
+   <PHRASE id="V241014" indicator="F" type="BENEFICIARY" text="IOBJ" start="0" end="50"/>
+   <RELATION id="5" head="V241014" res="V240833" label="GROUND"/>
+   <RELATION id="6" head="V241014" res="V240800" label="FIGURE"/>
+   <PHRASE id="V240775" indicator="QUANTIFIER" type="TRAVELLER" text="TOURIST" QUAN="EACH" start="0" end="13"/>
+   <PHRASE id="V240833" indicator="A" type="FEMALE-PERSON" text="OLD-LADY" start="24" end="39" WNSENSE="old_lady%1:18:00"/>
+   <RELATION id="7" head="V240833" res="V240907" label="SIZE"/>
+   <PHRASE id="V240907" indicator="A" type="NUMBER" VALUE="1" start="24" end="39"/>
+   <PHRASE id="V240841" indicator="BARE" type="EXTERNAL-BODY-PART" text="ARM" start="39" end="50"/>
+   <RELATION id="8" head="V240841" res="V240848" label="LOCATION"/>
+   <PHRASE id="V240848" indicator="F" type="IN-LOC" text="IN" start="43" end="50"/>
+   <RELATION id="9" head="V240848" res="V240899" label="GROUND"/>
+   <RELATION id="10" head="V240848" res="V240841" label="FIGURE"/>
+   <PHRASE id="V240899" indicator="BARE" type="EXTERNAL-BODY-PART" text="ARM" start="46" end="50"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

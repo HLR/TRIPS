@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="33">
+   <TEXT>a dark-skinned , dark-haired boy w</TEXT>
+   <RELATION id="1" head="V393059" res="V393032" label="MOD"/>
+   <RELATION id="2" head="V393059" res="V393056" label="MOD"/>
+   <PHRASE id="V393032" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V393032" res="V393059" label="FIGURE"/>
+   <PHRASE id="V393056" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V393056" res="V393059" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="33" end="141">
+   <TEXT>wearing a yellow Umbro sweater with black sleeves , black collar and a black zip is standing in a classroom .</TEXT>
+   <RELATION id="5" head="V402700" res="V393232" label="CONTENT"/>
+   <PHRASE id="V393232" indicator="F" type="BE" text="BE" TENSE="PRES" start="33" end="141"/>
+   <RELATION id="6" head="V393232" res="V393065" label="NEUTRAL"/>
+   <RELATION id="7" head="V393232" res="V393249" label="NEUTRAL1"/>
+   <PHRASE id="V393065" indicator="BARE" type="WEAR" text="WEAR" start="33" end="114"/>
+   <RELATION id="8" head="V393065" res="V393125" label="NEUTRAL"/>
+   <PHRASE id="V393125" indicator="A" type="ATTIRE" text="SWEATER" start="41" end="114"/>
+   <RELATION id="9" head="V393125" res="V393122" label="ASSOC-WITH"/>
+   <RELATION id="10" head="V393125" res="V393129" label="MOD"/>
+   <RELATION id="11" head="V393125" res="V393112" label="MOD"/>
+   <PHRASE id="V393112" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="43" end="50"/>
+   <RELATION id="12" head="V393112" res="V393125" label="FIGURE"/>
+   <PHRASE id="V393122" indicator="THE" type="GEOGRAPHIC-REGION" text="UMBRO" NAME-OF="(UMBRO)" start="50" end="56"/>
+   <PHRASE id="V393129" indicator="F" type="ASSOC-WITH" text="WITH" start="64" end="114"/>
+   <RELATION id="13" head="V393129" res="V393162" label="GROUND"/>
+   <RELATION id="14" head="V393129" res="V393125" label="FIGURE"/>
+   <PHRASE id="V393162" indicator="A" type="PHYS-OBJECT" OPERATOR="AND" start="69" end="114"/>
+   <RELATION id="15" head="V393162" res="V393220" label="SEQUENCE"/>
+   <RELATION id="16" head="V393162" res="V393147" label="SEQUENCE1"/>
+   <RELATION id="17" head="V393162" res="V393158" label="SEQUENCE2"/>
+   <PHRASE id="V393147" indicator="INDEF-SET" type="CONTAINER" text="SLEEVES" start="69" end="83"/>
+   <RELATION id="18" head="V393147" res="V393141" label="MOD"/>
+   <PHRASE id="V393141" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="69" end="75"/>
+   <RELATION id="19" head="V393141" res="V393147" label="FIGURE"/>
+   <PHRASE id="V393158" indicator="BARE" type="MANUFACTURED-OBJECT" text="COLLAR" start="85" end="98"/>
+   <RELATION id="20" head="V393158" res="V393154" label="MOD"/>
+   <PHRASE id="V393154" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="85" end="91"/>
+   <RELATION id="21" head="V393154" res="V393158" label="FIGURE"/>
+   <PHRASE id="V393220" indicator="A" type="QUANTITY" text="ZIP" start="102" end="114"/>
+   <RELATION id="22" head="V393220" res="V393212" label="MOD"/>
+   <PHRASE id="V393212" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="104" end="110"/>
+   <RELATION id="23" head="V393212" res="V393220" label="FIGURE"/>
+   <PHRASE id="V393249" indicator="BARE" type="BE-AT-LOC" text="STAND" start="117" end="141"/>
+   <RELATION id="24" head="V393249" res="V393258" label="LOCATION"/>
+   <PHRASE id="V393258" indicator="F" type="IN-LOC" text="IN" start="126" end="141"/>
+   <RELATION id="25" head="V393258" res="V393360" label="GROUND"/>
+   <RELATION id="26" head="V393258" res="V393249" label="FIGURE"/>
+   <PHRASE id="V393360" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="129" end="141"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

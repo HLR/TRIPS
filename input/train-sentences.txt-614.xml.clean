@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="71">
+   <TEXT>a boy wearing a turquoise shirt and white hat is sitting on the ground a</TEXT>
+   <RELATION id="1" head="V80425" res="V74351" label="CONTENT"/>
+   <PHRASE id="V74351" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="71"/>
+   <RELATION id="2" head="V74351" res="V74367" label="RESULT"/>
+   <RELATION id="3" head="V74351" res="V74243" label="AGENT"/>
+   <PHRASE id="V74243" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="46"/>
+   <RELATION id="4" head="V74243" res="V74249" label="MOD"/>
+   <PHRASE id="V74249" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="6" end="46"/>
+   <RELATION id="5" head="V74249" res="V74243" label="AGENT"/>
+   <RELATION id="6" head="V74249" res="V74307" label="NEUTRAL"/>
+   <PHRASE id="V74307" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="14" end="46"/>
+   <RELATION id="7" head="V74307" res="V74303" label="SEQUENCE"/>
+   <RELATION id="8" head="V74307" res="V74323" label="SEQUENCE1"/>
+   <PHRASE id="V74303" indicator="A" type="ATTIRE" text="SHIRT" start="14" end="32"/>
+   <RELATION id="9" head="V74303" res="V74297" label="ASSOC-WITH"/>
+   <PHRASE id="V74297" indicator="KIND" type="MATERIAL" text="TURQUOISE" start="14" end="32"/>
+   <PHRASE id="V74323" indicator="BARE" type="ATTIRE" text="HAT" start="36" end="46"/>
+   <RELATION id="10" head="V74323" res="V74316" label="MOD"/>
+   <PHRASE id="V74316" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="36" end="42"/>
+   <RELATION id="11" head="V74316" res="V74323" label="FIGURE"/>
+   <PHRASE id="V74367" indicator="F" type="ON" text="ON" start="57" end="71"/>
+   <RELATION id="12" head="V74367" res="V74400" label="GROUND"/>
+   <RELATION id="13" head="V74367" res="V74243" label="FIGURE"/>
+   <PHRASE id="V74400" indicator="THE" type="GEO-FORMATION" text="GROUND" start="60" end="71"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="71" end="92">
+   <TEXT>and eating an orange .</TEXT>
+   <RELATION id="14" head="V74624" res="V74421" label="CONTENT"/>
+   <RELATION id="15" head="V74624" res="V74412" label="MOD"/>
+   <PHRASE id="V74412" indicator="F" type="CONJUNCT" text="AND" start="71" end="75"/>
+   <RELATION id="16" head="V74412" res="V74624" label="FIGURE"/>
+   <PHRASE id="V74421" indicator="BARE" type="CONSUME" text="EAT" start="75" end="92"/>
+   <RELATION id="17" head="V74421" res="V74432" label="AFFECTED"/>
+   <PHRASE id="V74432" indicator="A" type="FRUIT" text="ORANGE" start="82" end="92"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

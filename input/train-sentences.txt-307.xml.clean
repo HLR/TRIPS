@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="59">
+   <TEXT>Close-up photo of a building with a blue front , red doors ,</TEXT>
+   <RELATION id="1" head="V61401" res="V52237" label="CONTENT"/>
+   <PHRASE id="V52237" indicator="F" type="PREVENT" text="CLOSE-PUNC-MINUS-UP" TENSE="PRES" start="0" end="59"/>
+   <RELATION id="2" head="V52237" res="V61402" label="AGENT"/>
+   <RELATION id="3" head="V52237" res="V52253" label="AFFECTED"/>
+   <PHRASE id="V61402" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="0" end="59"/>
+   <RELATION id="4" head="V61402" res="V52308" label="COREF"/>
+   <PHRASE id="V52253" indicator="BARE" type="IMAGE" text="PHOTO" start="9" end="59"/>
+   <RELATION id="5" head="V52253" res="V52400" label="PARENTHETICAL"/>
+   <RELATION id="6" head="V52253" res="V52308" label="FIGURE"/>
+   <PHRASE id="V52308" indicator="A" type="GENERAL-STRUCTURE" text="BUILDING" start="15" end="47"/>
+   <RELATION id="7" head="V52308" res="V52322" label="MOD"/>
+   <PHRASE id="V52322" indicator="F" type="ASSOC-WITH" text="WITH" start="29" end="47"/>
+   <RELATION id="8" head="V52322" res="V52387" label="GROUND"/>
+   <RELATION id="9" head="V52322" res="V52308" label="FIGURE"/>
+   <PHRASE id="V52387" indicator="A" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="34" end="47"/>
+   <RELATION id="10" head="V52387" res="V52375" label="MOD"/>
+   <PHRASE id="V52375" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="36" end="41"/>
+   <RELATION id="11" head="V52375" res="V52387" label="FIGURE"/>
+   <PHRASE id="V55692" indicator="SPEECHACT" type="SA_IDENTIFY" start="49" end="59"/>
+   <RELATION id="12" head="V55692" res="V52400" label="CONTENT"/>
+   <PHRASE id="V52400" indicator="INDEF-SET" type="STRUCTURAL-OPENING" text="DOOR" start="49" end="59"/>
+   <RELATION id="13" head="V52400" res="V52393" label="MOD"/>
+   <PHRASE id="V52393" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="49" end="53"/>
+   <RELATION id="14" head="V52393" res="V52400" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_REQUEST" PUNCTYPE="DECL" start="61" end="135">
+   <TEXT>brown bricks below the windows and the wires that stick out from the roof .</TEXT>
+   <RELATION id="15" head="V63608" res="V61466" label="CONTENT"/>
+   <PHRASE id="V61466" indicator="F" type="COOKING" text="BROWN" TENSE="PRES" VFORM="BASE" start="61" end="135"/>
+   <RELATION id="16" head="V61466" res="V63606" label="AGENT"/>
+   <RELATION id="17" head="V61466" res="V61495" label="AFFECTED"/>
+   <PHRASE id="V63606" indicator="IMPRO" type="PERSON" PROFORM="*YOU*" start="61" end="135" COREF="SYS"/>
+   <PHRASE id="V61495" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="67" end="135"/>
+   <RELATION id="18" head="V61495" res="V61472" label="SEQUENCE"/>
+   <RELATION id="19" head="V61495" res="V61514" label="SEQUENCE1"/>
+   <PHRASE id="V61472" indicator="INDEF-SET" type="MATERIAL" text="BRICK" start="67" end="92"/>
+   <RELATION id="20" head="V61472" res="V61475" label="LOCATION"/>
+   <PHRASE id="V61475" indicator="F" type="BELOW" text="BELOW" start="74" end="92"/>
+   <RELATION id="21" head="V61475" res="V61490" label="GROUND"/>
+   <RELATION id="22" head="V61475" res="V61472" label="FIGURE"/>
+   <PHRASE id="V61490" indicator="THE-SET" type="STRUCTURAL-OPENING" text="WINDOW" start="80" end="92"/>
+   <RELATION id="23" head="V61490" res="V52400" label="COREF"/>
+   <PHRASE id="V61514" indicator="THE-SET" type="DEVICE-COMPONENT" text="WIRE" start="96" end="135"/>
+   <RELATION id="24" head="V61514" res="V61593" label="MOD"/>
+   <RELATION id="25" head="V61514" res="V61535" label="MOD"/>
+   <PHRASE id="V61535" indicator="F" type="STAY" text="STICK" TENSE="PRES" start="106" end="121"/>
+   <RELATION id="26" head="V61535" res="V61514" label="AGENT"/>
+   <RELATION id="27" head="V61535" res="V61561" label="FORMAL"/>
+   <PHRASE id="V61561" indicator="F" type="NOT-IN-WORKING-ORDER-VAL" text="OUT" start="117" end="121"/>
+   <RELATION id="28" head="V61561" res="V61514" label="FIGURE"/>
+   <PHRASE id="V61593" indicator="F" type="FROM-LOC" text="FROM" start="121" end="135"/>
+   <RELATION id="29" head="V61593" res="V61612" label="GROUND"/>
+   <RELATION id="30" head="V61593" res="V61514" label="FIGURE"/>
+   <PHRASE id="V61612" indicator="THE" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="126" end="135"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

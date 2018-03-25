@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="42">
+   <TEXT>a few pupils are in front of the building .</TEXT>
+   <RELATION id="1" head="V52000" res="V51676" label="CONTENT"/>
+   <PHRASE id="V51676" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="0" end="42"/>
+   <RELATION id="2" head="V51676" res="V51669" label="NEUTRAL"/>
+   <RELATION id="3" head="V51676" res="V51693" label="FORMAL"/>
+   <PHRASE id="V51669" indicator="INDEF-SET" type="EXTERNAL-BODY-PART" text="PUPIL" SIZE="A-FEW" start="0" end="13"/>
+   <PHRASE id="V51693" indicator="F" type="IN-LOC" text="IN" start="17" end="42"/>
+   <RELATION id="4" head="V51693" res="V51742" label="GROUND"/>
+   <RELATION id="5" head="V51693" res="V51669" label="FIGURE"/>
+   <PHRASE id="V51742" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="20" end="42"/>
+   <RELATION id="6" head="V51742" res="V51812" label="FIGURE"/>
+   <PHRASE id="V51812" indicator="THE" type="GENERAL-STRUCTURE" text="BUILDING" start="26" end="42"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="25">
+   <TEXT>Front view of a huge dam .</TEXT>
+   <RELATION id="1" head="V48517" res="V48389" label="CONTENT"/>
+   <PHRASE id="V48389" indicator="BARE" type="MENTAL-OBJECT" text="VIEW" start="0" end="25"/>
+   <RELATION id="2" head="V48389" res="V48381" label="ASSOC-WITH"/>
+   <RELATION id="3" head="V48389" res="V48449" label="FIGURE"/>
+   <PHRASE id="V48381" indicator="THE" type="GEOGRAPHIC-REGION" text="FRONT" NAME-OF="(FRONT)" start="0" end="6"/>
+   <PHRASE id="V48449" indicator="A" type="HINDERING" text="DAM" start="11" end="25"/>
+   <RELATION id="4" head="V48449" res="V48443" label="MOD"/>
+   <PHRASE id="V48443" indicator="F" type="HUGE-VAL" text="HUGE" ORIENTATION="MORE" INTENSITY="HI" SCALE="SIZE-SCALE" start="16" end="21"/>
+   <RELATION id="5" head="V48443" res="V48449" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

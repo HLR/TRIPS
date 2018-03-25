@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="29">
+   <TEXT>a girl in a purple tee-shirt .</TEXT>
+   <RELATION id="1" head="V86591" res="V86335" label="CONTENT"/>
+   <PHRASE id="V86335" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="29"/>
+   <RELATION id="2" head="V86335" res="V86342" label="LOCATION"/>
+   <PHRASE id="V86342" indicator="F" type="IN-LOC" text="IN" start="7" end="29"/>
+   <RELATION id="3" head="V86342" res="V86450" label="GROUND"/>
+   <RELATION id="4" head="V86342" res="V86335" label="FIGURE"/>
+   <PHRASE id="V86450" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="10" end="29"/>
+   <RELATION id="5" head="V86450" res="V86432" label="MOD"/>
+   <PHRASE id="V86432" indicator="F" type="PURPLE" text="PURPLE" SCALE="PURPLE*1--07--00" start="12" end="19"/>
+   <RELATION id="6" head="V86432" res="V86450" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

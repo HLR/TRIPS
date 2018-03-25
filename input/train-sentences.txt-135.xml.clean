@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="32">
+   <TEXT>one worker is standing on rails ,</TEXT>
+   <RELATION id="1" head="V112718" res="V112466" label="CONTENT"/>
+   <PHRASE id="V112466" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="32"/>
+   <RELATION id="2" head="V112466" res="V112457" label="NEUTRAL"/>
+   <RELATION id="3" head="V112466" res="V112483" label="NEUTRAL1"/>
+   <PHRASE id="V112457" indicator="A" type="PROFESSIONAL" text="WORKER" start="0" end="11"/>
+   <RELATION id="4" head="V112457" res="V112533" label="SIZE"/>
+   <PHRASE id="V112533" indicator="A" type="NUMBER" VALUE="1" start="0" end="11"/>
+   <PHRASE id="V112483" indicator="BARE" type="BE-AT-LOC" text="STAND" start="14" end="32"/>
+   <RELATION id="5" head="V112483" res="V112493" label="LOCATION"/>
+   <PHRASE id="V112493" indicator="F" type="ON" text="ON" start="23" end="32"/>
+   <RELATION id="6" head="V112493" res="V112516" label="GROUND"/>
+   <RELATION id="7" head="V112493" res="V112483" label="FIGURE"/>
+   <PHRASE id="V112516" indicator="INDEF-SET" type="DRINKING-ESTABLISHMENT" text="RAILS" start="26" end="32"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="34" end="92">
+   <TEXT>the other one is leaning against an unfinished brick wall .</TEXT>
+   <RELATION id="8" head="V114587" res="V113050" label="CONTENT"/>
+   <PHRASE id="V113050" indicator="F" type="BODY-MOVEMENT-PLACE" text="LEAN" TENSE="PRES" PROGR="+" start="34" end="92"/>
+   <RELATION id="9" head="V113050" res="V113023" label="AGENT"/>
+   <RELATION id="10" head="V113050" res="V113057" label="LOCATION"/>
+   <PHRASE id="V113023" indicator="THE" type="REFERENTIAL-SEM" text="ONE" start="34" end="48"/>
+   <RELATION id="11" head="V113023" res="V113016" label="MOD"/>
+   <PHRASE id="V113016" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="38" end="44"/>
+   <RELATION id="12" head="V113016" res="V113023" label="FIGURE"/>
+   <PHRASE id="V113057" indicator="F" type="DIRECTION" text="AGAINST" start="59" end="92"/>
+   <RELATION id="13" head="V113057" res="V113084" label="GROUND"/>
+   <RELATION id="14" head="V113057" res="V113050" label="FIGURE"/>
+   <PHRASE id="V113084" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="67" end="92"/>
+   <RELATION id="15" head="V113084" res="V113081" label="ASSOC-WITH"/>
+   <PHRASE id="V113081" indicator="KIND" type="MATERIAL" text="BRICK" start="67" end="92"/>
+   <RELATION id="16" head="V113081" res="V113075" label="MOD"/>
+   <PHRASE id="V113075" indicator="F" type="INCOMPLETE" text="UNFINISHED" start="70" end="81"/>
+   <RELATION id="17" head="V113075" res="V113081" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="46">
+   <TEXT>the boy is sitting at his desk in a classroom .</TEXT>
+   <RELATION id="1" head="V119607" res="V119083" label="CONTENT"/>
+   <PHRASE id="V119083" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="46"/>
+   <RELATION id="2" head="V119083" res="V119100" label="RESULT"/>
+   <RELATION id="3" head="V119083" res="V119055" label="AGENT"/>
+   <PHRASE id="V119055" indicator="THE" type="MALE-CHILD" text="BOY" start="0" end="8"/>
+   <PHRASE id="V119100" indicator="F" type="AT-LOC" text="AT" start="19" end="46"/>
+   <RELATION id="4" head="V119100" res="V119118" label="GROUND"/>
+   <RELATION id="5" head="V119100" res="V119055" label="FIGURE"/>
+   <PHRASE id="V119118" indicator="THE" type="FURNISHINGS" text="DESK" start="22" end="46"/>
+   <RELATION id="6" head="V119118" res="V119113" label="ASSOC-POSS"/>
+   <RELATION id="7" head="V119118" res="V119125" label="LOCATION"/>
+   <PHRASE id="V119113" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="22" end="46"/>
+   <RELATION id="8" head="V119113" res="V119055" label="COREF"/>
+   <PHRASE id="V119125" indicator="F" type="IN-LOC" text="IN" start="31" end="46"/>
+   <RELATION id="9" head="V119125" res="V119215" label="GROUND"/>
+   <RELATION id="10" head="V119125" res="V119118" label="FIGURE"/>
+   <PHRASE id="V119215" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="34" end="46"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

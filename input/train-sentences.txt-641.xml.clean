@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="59">
+   <TEXT>more kids at their desk and a blackboard in the background .</TEXT>
+   <RELATION id="1" head="V153178" res="V152875" label="CONTENT"/>
+   <PHRASE id="V152875" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="0" end="59"/>
+   <RELATION id="2" head="V152875" res="V152960" label="LOCATION"/>
+   <RELATION id="3" head="V152875" res="V152884" label="LOCATION"/>
+   <PHRASE id="V152884" indicator="F" type="AT-LOC" text="AT" start="10" end="41"/>
+   <RELATION id="4" head="V152884" res="V152903" label="GROUND"/>
+   <RELATION id="5" head="V152884" res="V152875" label="FIGURE"/>
+   <PHRASE id="V152903" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="13" end="41"/>
+   <RELATION id="6" head="V152903" res="V152899" label="SEQUENCE"/>
+   <RELATION id="7" head="V152903" res="V152953" label="SEQUENCE1"/>
+   <PHRASE id="V152899" indicator="THE" type="FURNISHINGS" text="DESK" start="13" end="24"/>
+   <RELATION id="8" head="V152899" res="V152896" label="ASSOC-POSS"/>
+   <PHRASE id="V152896" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="13" end="24"/>
+   <RELATION id="9" head="V152896" res="V152875" label="COREF"/>
+   <PHRASE id="V152953" indicator="A" type="DISPLAY" text="BLACKBOARD" start="28" end="41"/>
+   <PHRASE id="V152960" indicator="F" type="IN-LOC" text="IN" start="41" end="59"/>
+   <RELATION id="10" head="V152960" res="V153016" label="GROUND"/>
+   <RELATION id="11" head="V152960" res="V152875" label="FIGURE"/>
+   <PHRASE id="V153016" indicator="THE" type="IMAGE" text="BACKGROUND" start="44" end="59"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="50">
+   <TEXT>a dark-skinned girl wearing a brown and black hat ,</TEXT>
+   <RELATION id="1" head="V276266" res="V276272" label="MOD"/>
+   <RELATION id="2" head="V276266" res="V276251" label="MOD"/>
+   <PHRASE id="V276251" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="3" head="V276251" res="V276240" label="AGENT"/>
+   <RELATION id="4" head="V276251" res="V276266" label="AFFECTED"/>
+   <PHRASE id="V276240" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+   <PHRASE id="V276272" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="20" end="50"/>
+   <RELATION id="5" head="V276272" res="V276266" label="AGENT"/>
+   <RELATION id="6" head="V276272" res="V276341" label="NEUTRAL"/>
+   <PHRASE id="V276341" indicator="A" type="ATTIRE" text="HAT" start="28" end="50"/>
+   <RELATION id="7" head="V276341" res="V276372" label="MOD"/>
+   <PHRASE id="V276372" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="30" end="46"/>
+   <RELATION id="8" head="V276372" res="V276319" label="SEQUENCE"/>
+   <RELATION id="9" head="V276372" res="V276338" label="SEQUENCE1"/>
+   <PHRASE id="V276319" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="30" end="36"/>
+   <RELATION id="10" head="V276319" res="V276341" label="FIGURE"/>
+   <PHRASE id="V276338" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="40" end="46"/>
+   <RELATION id="11" head="V276338" res="V276341" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="52" end="89">
+   <TEXT>a light blue pullover and a red vest .</TEXT>
+   <RELATION id="12" head="V278668" res="V277854" label="CONTENT"/>
+   <PHRASE id="V277854" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="52" end="89"/>
+   <RELATION id="13" head="V277854" res="V277850" label="SEQUENCE"/>
+   <RELATION id="14" head="V277854" res="V277912" label="SEQUENCE1"/>
+   <PHRASE id="V277850" indicator="A" type="ATTIRE" text="PULLOVER" start="52" end="74"/>
+   <RELATION id="15" head="V277850" res="V277812" label="MOD"/>
+   <RELATION id="16" head="V277850" res="V277837" label="MOD"/>
+   <PHRASE id="V277812" indicator="F" type="LIGHTWEIGHT" text="LIGHT" ORIENTATION="LESS" INTENSITY="HI" SCALE="WEIGHT-SCALE" start="54" end="60"/>
+   <RELATION id="17" head="V277812" res="V277850" label="FIGURE"/>
+   <PHRASE id="V277837" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="60" end="65"/>
+   <RELATION id="18" head="V277837" res="V277850" label="FIGURE"/>
+   <PHRASE id="V277912" indicator="A" type="ATTIRE" text="VEST" start="78" end="89"/>
+   <RELATION id="19" head="V277912" res="V277904" label="MOD"/>
+   <PHRASE id="V277904" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="80" end="84"/>
+   <RELATION id="20" head="V277904" res="V277912" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

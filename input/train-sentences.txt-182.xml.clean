@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="73">
+   <TEXT>the school kids are sitting at their desks , singing a song and clapping t</TEXT>
+   <RELATION id="1" head="V341751" res="V332881" label="CONTENT"/>
+   <PHRASE id="V332881" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="73"/>
+   <RELATION id="2" head="V332881" res="V332873" label="NEUTRAL"/>
+   <RELATION id="3" head="V332881" res="V332988" label="NEUTRAL1"/>
+   <PHRASE id="V332873" indicator="THE-SET" type="CHILD" text="KID" start="0" end="16"/>
+   <RELATION id="4" head="V332873" res="V332869" label="ASSOC-WITH"/>
+   <PHRASE id="V332869" indicator="KIND" type="ACADEMIC-INSTITUTION" text="SCHOOL" start="0" end="16"/>
+   <PHRASE id="V332988" indicator="BARE" type="EVENT-OF-ACTION" OPERATOR="AND" start="20" end="73"/>
+   <RELATION id="5" head="V332988" res="V332998" label="SEQUENCE"/>
+   <RELATION id="6" head="V332988" res="V332902" label="SEQUENCE1"/>
+   <RELATION id="7" head="V332988" res="V332938" label="SEQUENCE2"/>
+   <PHRASE id="V332902" indicator="BARE" type="AVOIDING" text="SIT-OUT" start="20" end="43"/>
+   <RELATION id="8" head="V332902" res="V332916" label="LOCATION"/>
+   <PHRASE id="V332916" indicator="F" type="AT-LOC" text="AT" start="28" end="43"/>
+   <RELATION id="9" head="V332916" res="V332931" label="GROUND"/>
+   <RELATION id="10" head="V332916" res="V332902" label="FIGURE"/>
+   <PHRASE id="V332931" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="31" end="43"/>
+   <RELATION id="11" head="V332931" res="V332928" label="ASSOC-POSS"/>
+   <PHRASE id="V332928" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="31" end="43"/>
+   <RELATION id="12" head="V332928" res="V332873" label="COREF"/>
+   <PHRASE id="V332938" indicator="BARE" type="NONVERBAL-EXPRESSION" text="SING" start="45" end="60"/>
+   <RELATION id="13" head="V332938" res="V332984" label="NEUTRAL"/>
+   <PHRASE id="V332984" indicator="A" type="MUSIC" text="SONG" start="53" end="60"/>
+   <PHRASE id="V332998" indicator="BARE" type="PUT" text="CLAPPING" start="64" end="73"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" start="73" end="123">
+   <TEXT>their hands , with their teacher clapping as well .</TEXT>
+   <RELATION id="14" head="V334159" res="V333017" label="CONTENT"/>
+   <RELATION id="15" head="V334159" res="V333109" label="MOD"/>
+   <PHRASE id="V333017" indicator="THE-SET" type="EXTERNAL-BODY-PART" text="HAND" start="73" end="115"/>
+   <RELATION id="16" head="V333017" res="V333012" label="ASSOC-POSS"/>
+   <RELATION id="17" head="V333017" res="V333025" label="MOD"/>
+   <PHRASE id="V333012" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="73" end="115"/>
+   <RELATION id="18" head="V333012" res="V332873" label="COREF"/>
+   <PHRASE id="V333025" indicator="F" type="ASSOC-WITH" text="WITH" start="85" end="115"/>
+   <RELATION id="19" head="V333025" res="V333049" label="GROUND"/>
+   <RELATION id="20" head="V333025" res="V333017" label="FIGURE"/>
+   <PHRASE id="V333049" indicator="BARE" type="MOVE" text="CLAPPING" start="92" end="115"/>
+   <RELATION id="21" head="V333049" res="V333040" label="AGENT"/>
+   <PHRASE id="V333040" indicator="THE" type="PROFESSIONAL" text="TEACHER" start="92" end="106"/>
+   <RELATION id="22" head="V333040" res="V333037" label="ASSOC-POSS"/>
+   <PHRASE id="V333037" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="92" end="106"/>
+   <RELATION id="23" head="V333037" res="V333017" label="COREF"/>
+   <PHRASE id="V333109" indicator="F" type="ADDITIVE" text="AS-WELL" start="115" end="123" WNSENSE="as_well%4:02:01"/>
+   <RELATION id="24" head="V333109" res="V334159" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

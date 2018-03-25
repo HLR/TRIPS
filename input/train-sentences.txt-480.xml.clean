@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="58">
+   <TEXT>more kids in the background are looking at the camera too .</TEXT>
+   <RELATION id="1" head="V421934" res="V421519" label="CONTENT"/>
+   <PHRASE id="V421519" indicator="F" type="SCRUTINY" text="LOOK" TENSE="PRES" PROGR="+" start="0" end="58"/>
+   <RELATION id="2" head="V421519" res="V421430" label="AGENT"/>
+   <RELATION id="3" head="V421519" res="V421611" label="NEUTRAL"/>
+   <RELATION id="4" head="V421519" res="V421614" label="MOD"/>
+   <PHRASE id="V421430" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="0" end="28"/>
+   <RELATION id="5" head="V421430" res="V421437" label="LOCATION"/>
+   <PHRASE id="V421437" indicator="F" type="IN-LOC" text="IN" start="10" end="28"/>
+   <RELATION id="6" head="V421437" res="V421493" label="GROUND"/>
+   <RELATION id="7" head="V421437" res="V421430" label="FIGURE"/>
+   <PHRASE id="V421493" indicator="THE" type="IMAGE" text="BACKGROUND" start="13" end="28"/>
+   <PHRASE id="V421611" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="40" end="54"/>
+   <PHRASE id="V421614" indicator="F" type="ADDITIVE" text="TOO" start="54" end="58"/>
+   <RELATION id="8" head="V421614" res="V421519" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

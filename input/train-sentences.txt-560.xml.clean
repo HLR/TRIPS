@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="34">
+   <TEXT>some kids are standing behind him .</TEXT>
+   <RELATION id="1" head="V289625" res="V289232" label="CONTENT"/>
+   <PHRASE id="V289232" indicator="F" type="BE-AT-LOC" text="STAND" TENSE="PRES" PROGR="+" start="0" end="34"/>
+   <RELATION id="2" head="V289232" res="V289208" label="NEUTRAL"/>
+   <RELATION id="3" head="V289232" res="V289237" label="LOCATION"/>
+   <PHRASE id="V289208" indicator="INDEF-SET" type="CHILD" text="KID" SIZE="SOME" start="0" end="10"/>
+   <PHRASE id="V289237" indicator="F" type="BACK" text="BEHIND" start="23" end="34"/>
+   <RELATION id="4" head="V289237" res="V289240" label="GROUND"/>
+   <RELATION id="5" head="V289237" res="V289232" label="FIGURE"/>
+   <PHRASE id="V289240" indicator="PRO" type="MALE-PERSON" text="HIM" PROFORM="HIM" start="30" end="34"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

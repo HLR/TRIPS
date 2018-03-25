@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="70">
+   <TEXT>Tourists are standing on a wet sidewalk and are carrying bags of food .</TEXT>
+   <RELATION id="1" head="V164113" res="V162743" label="CONTENT"/>
+   <PHRASE id="V162743" indicator="F" type="SITUATION-ROOT" OPERATOR="AND" TENSE="PRES" PROGR="+" start="0" end="70"/>
+   <RELATION id="2" head="V162743" res="V162662" label="SEQUENCE"/>
+   <RELATION id="3" head="V162743" res="V162770" label="SEQUENCE1"/>
+   <PHRASE id="V162662" indicator="F" type="BE-AT-LOC" text="STAND" TENSE="PRES" PROGR="+" start="0" end="40"/>
+   <RELATION id="4" head="V162662" res="V162638" label="NEUTRAL"/>
+   <RELATION id="5" head="V162662" res="V162672" label="LOCATION"/>
+   <PHRASE id="V162638" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="9"/>
+   <PHRASE id="V162672" indicator="F" type="ON" text="ON" start="22" end="40"/>
+   <RELATION id="6" head="V162672" res="V162739" label="GROUND"/>
+   <RELATION id="7" head="V162672" res="V162662" label="FIGURE"/>
+   <PHRASE id="V162739" indicator="A" type="MANUFACTURED-OBJECT" text="SIDEWALK" start="25" end="40"/>
+   <RELATION id="8" head="V162739" res="V162735" label="MOD"/>
+   <PHRASE id="V162735" indicator="F" type="WET-VAL" text="WET" start="27" end="31"/>
+   <RELATION id="9" head="V162735" res="V162739" label="FIGURE"/>
+   <PHRASE id="V162770" indicator="F" type="TRANSPORT" text="CARRY" TENSE="PRES" PROGR="+" start="44" end="70"/>
+   <RELATION id="10" head="V162770" res="V162638" label="AGENT"/>
+   <RELATION id="11" head="V162770" res="V162773" label="AFFECTED"/>
+   <PHRASE id="V162773" indicator="INDEF-SET" type="BAG" text="BAG" start="57" end="70"/>
+   <RELATION id="12" head="V162773" res="V162778" label="MOD"/>
+   <PHRASE id="V162778" indicator="F" type="CONTAIN-RELN" text="OF" start="62" end="70"/>
+   <RELATION id="13" head="V162778" res="V162784" label="GROUND"/>
+   <RELATION id="14" head="V162778" res="V162773" label="FIGURE"/>
+   <PHRASE id="V162784" indicator="BARE" type="FOOD" text="FOOD" start="65" end="70"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

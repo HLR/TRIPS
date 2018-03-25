@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="63">
+   <TEXT>there are posters and pictures at the wall behind the tourists .</TEXT>
+   <RELATION id="1" head="V201871" res="V201610" label="CONTENT"/>
+   <PHRASE id="V201610" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="63"/>
+   <RELATION id="2" head="V201610" res="V201624" label="NEUTRAL"/>
+   <PHRASE id="V201598" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V201624" indicator="INDEF-SET" type="INFO-HOLDER" OPERATOR="AND" start="10" end="63"/>
+   <RELATION id="3" head="V201624" res="V201620" label="SEQUENCE"/>
+   <RELATION id="4" head="V201624" res="V201635" label="SEQUENCE1"/>
+   <PHRASE id="V201620" indicator="INDEF-SET" type="INFO-MEDIUM" text="POSTER" start="10" end="18"/>
+   <PHRASE id="V201635" indicator="INDEF-SET" type="IMAGE" text="PICTURE" start="22" end="63"/>
+   <RELATION id="5" head="V201635" res="V201645" label="LOCATION"/>
+   <PHRASE id="V201645" indicator="F" type="AT-LOC" text="AT" start="31" end="63"/>
+   <RELATION id="6" head="V201645" res="V201664" label="GROUND"/>
+   <RELATION id="7" head="V201645" res="V201635" label="FIGURE"/>
+   <PHRASE id="V201664" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="34" end="63"/>
+   <RELATION id="8" head="V201664" res="V201667" label="LOCATION"/>
+   <PHRASE id="V201667" indicator="F" type="BACK" text="BEHIND" start="43" end="63"/>
+   <RELATION id="9" head="V201667" res="V201678" label="GROUND"/>
+   <RELATION id="10" head="V201667" res="V201664" label="FIGURE"/>
+   <PHRASE id="V201678" indicator="THE-SET" type="TRAVELLER" text="TOURISTS" start="50" end="63"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="51">
+   <TEXT>dark-haired boy with a grey shirt i</TEXT>
+   <RELATION id="1" head="V252283" res="V252287" label="MOD"/>
+   <RELATION id="2" head="V252283" res="V252280" label="MOD"/>
+   <PHRASE id="V252280" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="3" head="V252280" res="V252283" label="FIGURE"/>
+   <PHRASE id="V252287" indicator="F" type="ASSOC-WITH" text="WITH" start="33" end="51"/>
+   <RELATION id="4" head="V252287" res="V252349" label="GROUND"/>
+   <RELATION id="5" head="V252287" res="V252283" label="FIGURE"/>
+   <PHRASE id="V252349" indicator="A" type="ATTIRE" text="SHIRT" start="38" end="51"/>
+   <RELATION id="6" head="V252349" res="V252340" label="MOD"/>
+   <PHRASE id="V252340" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="40" end="45"/>
+   <RELATION id="7" head="V252340" res="V252349" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="51" end="111">
+   <TEXT>is standing in a room in front of a wall made of red bricks .</TEXT>
+   <RELATION id="8" head="V260935" res="V252357" label="CONTENT"/>
+   <PHRASE id="V252357" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="51" end="111"/>
+   <RELATION id="9" head="V252357" res="V252439" label="NEUTRAL"/>
+   <RELATION id="10" head="V252357" res="V252493" label="FORMAL"/>
+   <PHRASE id="V252439" indicator="BARE" type="EXCHANGE" text="STANDING-IN" start="54" end="73" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="11" head="V252439" res="V252486" label="AFFECTED"/>
+   <PHRASE id="V252486" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="66" end="73"/>
+   <PHRASE id="V252493" indicator="F" type="IN-LOC" text="IN" start="73" end="111"/>
+   <RELATION id="12" head="V252493" res="V252542" label="GROUND"/>
+   <RELATION id="13" head="V252493" res="V252439" label="FIGURE"/>
+   <PHRASE id="V252542" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="76" end="111"/>
+   <RELATION id="14" head="V252542" res="V252644" label="FIGURE"/>
+   <PHRASE id="V252644" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="82" end="111"/>
+   <RELATION id="15" head="V252644" res="V252664" label="MOD"/>
+   <RELATION id="16" head="V252644" res="V252649" label="MOD"/>
+   <PHRASE id="V252649" indicator="F" type="CREATE" text="MAKE" VFORM="PASSIVE" start="92" end="97"/>
+   <RELATION id="17" head="V252649" res="V252644" label="AFFECTED-RESULT"/>
+   <PHRASE id="V252664" indicator="F" type="CONTAIN-RELN" text="OF" start="97" end="111"/>
+   <RELATION id="18" head="V252664" res="V252677" label="GROUND"/>
+   <RELATION id="19" head="V252664" res="V252644" label="FIGURE"/>
+   <PHRASE id="V252677" indicator="INDEF-SET" type="MATERIAL" text="BRICK" start="100" end="111"/>
+   <RELATION id="20" head="V252677" res="V252670" label="MOD"/>
+   <PHRASE id="V252670" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="100" end="104"/>
+   <RELATION id="21" head="V252670" res="V252677" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

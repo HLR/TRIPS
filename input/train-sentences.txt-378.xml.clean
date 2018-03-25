@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="42">
+   <TEXT>a dark-haired baby pointing at the camera .</TEXT>
+   <RELATION id="1" head="V325967" res="V325783" label="CONTENT"/>
+   <PHRASE id="V325783" indicator="BARE" type="ORIENT" text="POINT" start="0" end="42"/>
+   <RELATION id="2" head="V325783" res="V325778" label="AFFECTED"/>
+   <RELATION id="3" head="V325783" res="V325793" label="LOCATION"/>
+   <PHRASE id="V325778" indicator="A" type="CHILD" text="BABY" start="0" end="19"/>
+   <RELATION id="4" head="V325778" res="V325772" label="MOD"/>
+   <PHRASE id="V325772" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V325772" res="V325778" label="FIGURE"/>
+   <PHRASE id="V325793" indicator="F" type="AT-LOC" text="AT" start="28" end="42"/>
+   <RELATION id="6" head="V325793" res="V325812" label="GROUND"/>
+   <RELATION id="7" head="V325793" res="V325783" label="FIGURE"/>
+   <PHRASE id="V325812" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="31" end="42"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

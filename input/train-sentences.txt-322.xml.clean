@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="17">
+   <TEXT>many pallets are l</TEXT>
+   <RELATION id="1" head="V108015" res="V105105" label="CONTENT"/>
+   <PHRASE id="V105105" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="0" end="17"/>
+   <RELATION id="2" head="V105105" res="V105098" label="NEUTRAL"/>
+   <PHRASE id="V105098" indicator="INDEF-SET" type="SIZE-ALT-SCALE" text="PALLETS" SIZE="MANY" start="0" end="13"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="17" end="54">
+   <TEXT>lying piled up in front of the house .</TEXT>
+   <RELATION id="3" head="V105664" res="V105137" label="CONTENT"/>
+   <PHRASE id="V105137" indicator="F" type="AMASS" text="PILE-UP" TENSE="PAST" start="17" end="54"/>
+   <RELATION id="4" head="V105137" res="V105206" label="RESULT"/>
+   <RELATION id="5" head="V105137" res="V105128" label="AFFECTED"/>
+   <PHRASE id="V105128" indicator="BARE" type="BE-AT-LOC" text="LIE" start="17" end="23"/>
+   <PHRASE id="V105206" indicator="F" type="IN-LOC" text="IN" start="32" end="54"/>
+   <RELATION id="6" head="V105206" res="V105255" label="GROUND"/>
+   <RELATION id="7" head="V105206" res="V105128" label="FIGURE"/>
+   <PHRASE id="V105255" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="35" end="54"/>
+   <RELATION id="8" head="V105255" res="V105326" label="FIGURE"/>
+   <PHRASE id="V105326" indicator="THE" type="LODGING" text="HOUSE" start="41" end="54"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

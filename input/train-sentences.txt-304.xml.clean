@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="78">
+   <TEXT>Children are sitting at their desks and are singing a song with their teacher .</TEXT>
+   <RELATION id="1" head="V50104" res="V49623" label="CONTENT"/>
+   <PHRASE id="V49623" indicator="F" type="EVENT-OF-ACTION" OPERATOR="AND" TENSE="PRES" PROGR="+" start="0" end="78"/>
+   <RELATION id="2" head="V49623" res="V49587" label="SEQUENCE"/>
+   <RELATION id="3" head="V49623" res="V49650" label="SEQUENCE1"/>
+   <PHRASE id="V49587" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="36"/>
+   <RELATION id="4" head="V49587" res="V49604" label="RESULT"/>
+   <RELATION id="5" head="V49587" res="V49557" label="AGENT"/>
+   <PHRASE id="V49557" indicator="INDEF-SET" type="CHILD" text="CHILD" start="0" end="9"/>
+   <PHRASE id="V49604" indicator="F" type="AT-LOC" text="AT" start="21" end="36"/>
+   <RELATION id="6" head="V49604" res="V49619" label="GROUND"/>
+   <RELATION id="7" head="V49604" res="V49557" label="FIGURE"/>
+   <PHRASE id="V49619" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="24" end="36"/>
+   <RELATION id="8" head="V49619" res="V49616" label="ASSOC-POSS"/>
+   <PHRASE id="V49616" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="24" end="36"/>
+   <RELATION id="9" head="V49616" res="V49557" label="COREF"/>
+   <PHRASE id="V49650" indicator="F" type="NONVERBAL-EXPRESSION" text="SING" TENSE="PRES" PROGR="+" start="40" end="78"/>
+   <RELATION id="10" head="V49650" res="V49557" label="AGENT"/>
+   <RELATION id="11" head="V49650" res="V49696" label="NEUTRAL"/>
+   <PHRASE id="V49696" indicator="A" type="MUSIC" text="SONG" start="52" end="78"/>
+   <RELATION id="12" head="V49696" res="V49700" label="MOD"/>
+   <PHRASE id="V49700" indicator="F" type="ASSOC-WITH" text="WITH" start="59" end="78"/>
+   <RELATION id="13" head="V49700" res="V49715" label="GROUND"/>
+   <RELATION id="14" head="V49700" res="V49696" label="FIGURE"/>
+   <PHRASE id="V49715" indicator="THE" type="PROFESSIONAL" text="TEACHER" start="64" end="78"/>
+   <RELATION id="15" head="V49715" res="V49712" label="ASSOC-POSS"/>
+   <PHRASE id="V49712" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="64" end="78"/>
+   <RELATION id="16" head="V49712" res="V49557" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

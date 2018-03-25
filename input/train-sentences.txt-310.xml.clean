@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="34">
+   <TEXT>an overcast sky in the background .</TEXT>
+   <RELATION id="1" head="V64524" res="V64408" label="CONTENT"/>
+   <PHRASE id="V64408" indicator="A" type="GEO-OBJECT" text="SKY" start="0" end="34"/>
+   <RELATION id="2" head="V64408" res="V64415" label="LOCATION"/>
+   <RELATION id="3" head="V64408" res="V64399" label="MOD"/>
+   <PHRASE id="V64399" indicator="F" type="CLOUDY" text="OVERCAST" start="3" end="12"/>
+   <RELATION id="4" head="V64399" res="V64408" label="FIGURE"/>
+   <PHRASE id="V64415" indicator="F" type="IN-LOC" text="IN" start="16" end="34"/>
+   <RELATION id="5" head="V64415" res="V64471" label="GROUND"/>
+   <RELATION id="6" head="V64415" res="V64408" label="FIGURE"/>
+   <PHRASE id="V64471" indicator="THE" type="IMAGE" text="BACKGROUND" start="19" end="34"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

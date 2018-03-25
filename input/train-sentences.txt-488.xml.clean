@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="29">
+   <TEXT>a dark-skinned , dark-haired b</TEXT>
+   <RELATION id="1" head="V458874" res="V453679" label="CONTENT"/>
+   <PHRASE id="V453679" indicator="F" type="MOVE" text="SKINNED" TENSE="PAST" start="0" end="29"/>
+   <RELATION id="2" head="V453679" res="V458860" label="TIME"/>
+   <RELATION id="3" head="V453679" res="V453670" label="AFFECTED"/>
+   <PHRASE id="V458860" indicator="F" type="EVENT-TIME-REL" start="0" end="29"/>
+   <RELATION id="4" head="V458860" res="V453679" label="FIGURE"/>
+   <RELATION id="5" head="V458860" res="V453717" label="GROUND"/>
+   <PHRASE id="V453670" indicator="BARE" type="LIGHT" text="DARK" start="0" end="6"/>
+   <RELATION id="6" head="V453670" res="V453644" label="ASSOC-WITH"/>
+   <PHRASE id="V453644" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2"/>
+   <PHRASE id="V453717" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="7" head="V453717" res="V453670" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="29" end="90">
+   <TEXT>boy in a black pullover and light brown shirt in a classroom .</TEXT>
+   <RELATION id="8" head="V462385" res="V453862" label="CONTENT"/>
+   <PHRASE id="V453862" indicator="F" type="COOKING" text="BROWN" TENSE="PRES" start="29" end="90"/>
+   <RELATION id="9" head="V453862" res="V453825" label="AGENT"/>
+   <RELATION id="10" head="V453862" res="V453888" label="AFFECTED"/>
+   <PHRASE id="V453825" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="29" end="63"/>
+   <RELATION id="11" head="V453825" res="V453720" label="SEQUENCE"/>
+   <RELATION id="12" head="V453825" res="V453849" label="SEQUENCE1"/>
+   <PHRASE id="V453720" indicator="BARE" type="MALE-CHILD" text="BOY" start="29" end="53"/>
+   <RELATION id="13" head="V453720" res="V453727" label="LOCATION"/>
+   <PHRASE id="V453727" indicator="F" type="IN-LOC" text="IN" start="33" end="53"/>
+   <RELATION id="14" head="V453727" res="V453821" label="GROUND"/>
+   <RELATION id="15" head="V453727" res="V453720" label="FIGURE"/>
+   <PHRASE id="V453821" indicator="A" type="ATTIRE" text="PULLOVER" start="36" end="53"/>
+   <RELATION id="16" head="V453821" res="V453817" label="MOD"/>
+   <PHRASE id="V453817" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="38" end="44"/>
+   <RELATION id="17" head="V453817" res="V453821" label="FIGURE"/>
+   <PHRASE id="V453849" indicator="BARE" type="LIGHT" text="LIGHT" start="57" end="63"/>
+   <PHRASE id="V453888" indicator="BARE" type="ATTIRE" text="SHIRT" start="69" end="90"/>
+   <RELATION id="18" head="V453888" res="V453895" label="LOCATION"/>
+   <PHRASE id="V453895" indicator="F" type="IN-LOC" text="IN" start="75" end="90"/>
+   <RELATION id="19" head="V453895" res="V453985" label="GROUND"/>
+   <RELATION id="20" head="V453895" res="V453888" label="FIGURE"/>
+   <PHRASE id="V453985" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="78" end="90"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

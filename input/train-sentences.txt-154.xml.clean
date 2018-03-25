@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="29">
+   <TEXT>four school kids are smiling i</TEXT>
+   <RELATION id="1" head="V196090" res="V195821" label="CONTENT"/>
+   <PHRASE id="V195821" indicator="F" type="NONVERBAL-EXPRESSION" text="SMILE" TENSE="PRES" PROGR="+" start="0" end="29"/>
+   <RELATION id="2" head="V195821" res="V195800" label="AGENT"/>
+   <PHRASE id="V195800" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="17"/>
+   <RELATION id="3" head="V195800" res="V195962" label="MOD"/>
+   <PHRASE id="V195962" indicator="F" type="ASSOC-WITH" start="0" end="12"/>
+   <RELATION id="4" head="V195962" res="V195800" label="FIGURE"/>
+   <RELATION id="5" head="V195962" res="V195794" label="GROUND"/>
+   <PHRASE id="V195794" indicator="KIND" type="ACADEMIC-INSTITUTION" text="SCHOOL" AMOUNT="4" start="0" end="12"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="RESULTING-OBJECT" text="INTO" start="29" end="63">
+   <TEXT>into the camera in the foreground .</TEXT>
+   <RELATION id="6" head="V195825" res="V195840" label="GROUND"/>
+   <PHRASE id="V195840" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="34" end="63"/>
+   <RELATION id="7" head="V195840" res="V195847" label="LOCATION"/>
+   <PHRASE id="V195847" indicator="F" type="IN-LOC" text="IN" start="45" end="63"/>
+   <RELATION id="8" head="V195847" res="V195906" label="GROUND"/>
+   <RELATION id="9" head="V195847" res="V195840" label="FIGURE"/>
+   <PHRASE id="V195906" indicator="THE" type="DEVICE" text="FOREGROUND" start="48" end="63"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="56">
+   <TEXT>Excited kids are standing at their desks in a classroom .</TEXT>
+   <RELATION id="1" head="V123671" res="V122957" label="CONTENT"/>
+   <PHRASE id="V122957" indicator="F" type="BE-AT-LOC" text="STAND" TENSE="PRES" PROGR="+" start="0" end="56"/>
+   <RELATION id="2" head="V122957" res="V122933" label="NEUTRAL"/>
+   <RELATION id="3" head="V122957" res="V122968" label="LOCATION"/>
+   <PHRASE id="V122933" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="13"/>
+   <RELATION id="4" head="V122933" res="V122925" label="MOD"/>
+   <PHRASE id="V122925" indicator="F" type="EXCITED" text="EXCITED" start="0" end="8"/>
+   <RELATION id="5" head="V122925" res="V122933" label="FIGURE"/>
+   <PHRASE id="V122968" indicator="F" type="AT-LOC" text="AT" start="26" end="56"/>
+   <RELATION id="6" head="V122968" res="V122983" label="GROUND"/>
+   <RELATION id="7" head="V122968" res="V122957" label="FIGURE"/>
+   <PHRASE id="V122983" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="29" end="56"/>
+   <RELATION id="8" head="V122983" res="V122980" label="ASSOC-POSS"/>
+   <RELATION id="9" head="V122983" res="V122990" label="LOCATION"/>
+   <PHRASE id="V122980" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="29" end="56"/>
+   <RELATION id="10" head="V122980" res="V122933" label="COREF"/>
+   <PHRASE id="V122990" indicator="F" type="IN-LOC" text="IN" start="41" end="56"/>
+   <RELATION id="11" head="V122990" res="V123080" label="GROUND"/>
+   <RELATION id="12" head="V122990" res="V122983" label="FIGURE"/>
+   <PHRASE id="V123080" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="44" end="56"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

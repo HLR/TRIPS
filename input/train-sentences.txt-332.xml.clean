@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="INDEF-SET" type="MAN-MADE-STRUCTURE" OPERATOR="AND" start="0" end="86">
+   <TEXT>a house with a pink roof and a green and white tower with three levels , each of them h</TEXT>
+   <RELATION id="1" head="V137800" res="V137731" label="SEQUENCE"/>
+   <RELATION id="2" head="V137800" res="V137872" label="SEQUENCE1"/>
+   <PHRASE id="V137731" indicator="A" type="LODGING" text="HOUSE" start="0" end="25"/>
+   <RELATION id="3" head="V137731" res="V137736" label="MOD"/>
+   <PHRASE id="V137736" indicator="F" type="ASSOC-WITH" text="WITH" start="8" end="25"/>
+   <RELATION id="4" head="V137736" res="V137796" label="GROUND"/>
+   <RELATION id="5" head="V137736" res="V137731" label="FIGURE"/>
+   <PHRASE id="V137796" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="13" end="25"/>
+   <RELATION id="6" head="V137796" res="V137789" label="MOD"/>
+   <PHRASE id="V137789" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="15" end="20"/>
+   <RELATION id="7" head="V137789" res="V137796" label="FIGURE"/>
+   <PHRASE id="V137872" indicator="A" type="TOWER" text="TOWER" start="29" end="86"/>
+   <RELATION id="8" head="V137872" res="V137876" label="MOD"/>
+   <RELATION id="9" head="V137872" res="V138086" label="MOD"/>
+   <PHRASE id="V138086" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="31" end="47"/>
+   <RELATION id="10" head="V138086" res="V137850" label="SEQUENCE"/>
+   <RELATION id="11" head="V138086" res="V137865" label="SEQUENCE1"/>
+   <PHRASE id="V137850" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="31" end="37"/>
+   <RELATION id="12" head="V137850" res="V137872" label="FIGURE"/>
+   <PHRASE id="V137865" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="41" end="47"/>
+   <RELATION id="13" head="V137865" res="V137872" label="FIGURE"/>
+   <PHRASE id="V137876" indicator="F" type="ASSOC-WITH" text="WITH" start="53" end="86"/>
+   <RELATION id="14" head="V137876" res="V137892" label="GROUND"/>
+   <RELATION id="15" head="V137876" res="V137872" label="FIGURE"/>
+   <PHRASE id="V137892" indicator="INDEF-SET" type="LEVEL" text="LEVEL" start="58" end="86"/>
+   <RELATION id="16" head="V137892" res="V137889" label="SIZE"/>
+   <RELATION id="17" head="V137892" res="V138107" label="FIGURE"/>
+   <PHRASE id="V137889" indicator="A" type="NUMBER" VALUE="3" start="58" end="64"/>
+   <PHRASE id="V138107" indicator="QUANTIFIER" type="REFERENTIAL-SEM" text="THEM" QUAN="EACH" start="73" end="86"/>
+   <RELATION id="18" head="V138107" res="V137911" label="REFSET"/>
+   <PHRASE id="V137911" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="78" end="86"/>
+   <RELATION id="19" head="V137911" res="V137892" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="86" end="115">
+   <TEXT>having a window on each side .</TEXT>
+   <RELATION id="20" head="V138287" res="V137916" label="CONTENT"/>
+   <PHRASE id="V137916" indicator="BARE" type="HAVE" text="HAVE" start="86" end="115"/>
+   <RELATION id="21" head="V137916" res="V137973" label="NEUTRAL1"/>
+   <PHRASE id="V137973" indicator="A" type="DISPLAY" text="WINDOW" start="93" end="115"/>
+   <RELATION id="22" head="V137973" res="V137983" label="LOCATION"/>
+   <PHRASE id="V137983" indicator="F" type="ON" text="ON" start="102" end="115"/>
+   <RELATION id="23" head="V137983" res="V138012" label="GROUND"/>
+   <RELATION id="24" head="V137983" res="V137973" label="FIGURE"/>
+   <PHRASE id="V138012" indicator="QUANTIFIER" type="SIDE-LOCATION" text="SIDE" QUAN="EACH" start="105" end="115"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

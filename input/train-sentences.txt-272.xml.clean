@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="21">
+   <TEXT>half of the kids are d</TEXT>
+   <RELATION id="1" head="V282465" res="V281854" label="CONTENT"/>
+   <PHRASE id="V281854" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="0" end="21"/>
+   <RELATION id="2" head="V281854" res="V282196" label="NEUTRAL"/>
+   <PHRASE id="V282196" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="HALF" start="0" end="17"/>
+   <RELATION id="3" head="V282196" res="V281850" label="REFOBJECT"/>
+   <PHRASE id="V281850" indicator="THE-SET" type="CHILD" text="KID" start="5" end="17"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="21" end="88">
+   <TEXT>dressed in orange , many of them wearing a hat , a beanie or a cap .</TEXT>
+   <RELATION id="4" head="V285292" res="V281873" label="CONTENT"/>
+   <PHRASE id="V281873" indicator="F" type="PUT-ON" text="DRESS" TENSE="PAST" start="21" end="88"/>
+   <RELATION id="5" head="V281873" res="V282213" label="AFFECTED"/>
+   <RELATION id="6" head="V281873" res="V282323" label="TIME"/>
+   <RELATION id="7" head="V281873" res="V281881" label="LOCATION"/>
+   <PHRASE id="V281881" indicator="F" type="IN-LOC" text="IN" start="29" end="41"/>
+   <RELATION id="8" head="V281881" res="V281933" label="GROUND"/>
+   <RELATION id="9" head="V281881" res="V281873" label="FIGURE"/>
+   <PHRASE id="V281933" indicator="BARE" type="FRUIT" text="ORANGE" start="32" end="41"/>
+   <PHRASE id="V282213" indicator="INDEF-SET" type="REFERENTIAL-SEM" text="THEM" SIZE="MANY" start="41" end="54"/>
+   <RELATION id="10" head="V282213" res="V281951" label="REFSET"/>
+   <PHRASE id="V281951" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="46" end="54"/>
+   <RELATION id="11" head="V281951" res="V282213" label="COREF"/>
+   <PHRASE id="V282323" indicator="F" type="IMPLICIT-OVERLAP" start="54" end="88"/>
+   <RELATION id="12" head="V282323" res="V281873" label="FIGURE"/>
+   <RELATION id="13" head="V282323" res="V281957" label="GROUND"/>
+   <PHRASE id="V281957" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="54" end="88"/>
+   <RELATION id="14" head="V281957" res="V282055" label="NEUTRAL"/>
+   <PHRASE id="V282055" indicator="A" type="ATTIRE" OPERATOR="OR" start="62" end="88"/>
+   <RELATION id="15" head="V282055" res="V282103" label="SEQUENCE"/>
+   <RELATION id="16" head="V282055" res="V282004" label="SEQUENCE1"/>
+   <RELATION id="17" head="V282055" res="V282052" label="SEQUENCE2"/>
+   <PHRASE id="V282004" indicator="A" type="ATTIRE" text="HAT" start="62" end="68"/>
+   <PHRASE id="V282052" indicator="A" type="ATTIRE" text="BEANIE" start="70" end="79"/>
+   <PHRASE id="V282103" indicator="A" type="ATTIRE" text="CAP" start="82" end="88"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

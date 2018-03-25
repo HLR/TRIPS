@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="33">
+   <TEXT>some sheets of paper on the desk .</TEXT>
+   <RELATION id="1" head="V338585" res="V338346" label="CONTENT"/>
+   <PHRASE id="V338346" indicator="INDEF-SET" type="INFO-MEDIUM" text="SHEET" start="0" end="33"/>
+   <RELATION id="2" head="V338346" res="V338339" label="SIZE"/>
+   <RELATION id="3" head="V338346" res="V338376" label="LOCATION"/>
+   <RELATION id="4" head="V338346" res="V338355" label="MOD"/>
+   <PHRASE id="V338339" indicator="A" type="NUMBER" VALUE="SOME" start="0" end="5"/>
+   <PHRASE id="V338355" indicator="F" type="CONTAIN-RELN" text="OF" start="12" end="21"/>
+   <RELATION id="5" head="V338355" res="V338361" label="GROUND"/>
+   <RELATION id="6" head="V338355" res="V338346" label="FIGURE"/>
+   <PHRASE id="V338361" indicator="BARE" type="MATERIAL" text="PAPER" start="15" end="21"/>
+   <PHRASE id="V338376" indicator="F" type="ON" text="ON" start="21" end="33"/>
+   <RELATION id="7" head="V338376" res="V338405" label="GROUND"/>
+   <RELATION id="8" head="V338376" res="V338346" label="FIGURE"/>
+   <PHRASE id="V338405" indicator="THE" type="FURNISHINGS" text="DESK" start="24" end="33"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

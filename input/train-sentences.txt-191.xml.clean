@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="BODY-MOVEMENT" text="SIT-UP" start="0" end="59">
+   <TEXT>photo of a classroom with some kids sitting at their desks ,</TEXT>
+   <RELATION id="1" head="V375854" res="V375773" label="AGENT"/>
+   <RELATION id="2" head="V375854" res="V375876" label="LOCATION"/>
+   <PHRASE id="V375773" indicator="BARE" type="IMAGE" text="PHOTO" start="0" end="36"/>
+   <RELATION id="3" head="V375773" res="V375826" label="FIGURE"/>
+   <PHRASE id="V375826" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="6" end="36"/>
+   <RELATION id="4" head="V375826" res="V375830" label="MOD"/>
+   <PHRASE id="V375830" indicator="F" type="ASSOC-WITH" text="WITH" start="21" end="36"/>
+   <RELATION id="5" head="V375830" res="V375850" label="GROUND"/>
+   <RELATION id="6" head="V375830" res="V375826" label="FIGURE"/>
+   <PHRASE id="V375850" indicator="INDEF-SET" type="CHILD" text="KID" SIZE="SOME" start="26" end="36"/>
+   <PHRASE id="V375876" indicator="F" type="AT-LOC" text="AT" start="44" end="59"/>
+   <RELATION id="7" head="V375876" res="V375891" label="GROUND"/>
+   <RELATION id="8" head="V375876" res="V375854" label="FIGURE"/>
+   <PHRASE id="V375891" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="47" end="59"/>
+   <RELATION id="9" head="V375891" res="V375888" label="ASSOC-POSS"/>
+   <PHRASE id="V375888" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="47" end="59"/>
+   <RELATION id="10" head="V375888" res="V375850" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="BODY-MOVEMENT-PLACE" text="STAND-UP" start="61" end="92">
+   <TEXT>others standing at their desks ,</TEXT>
+   <RELATION id="11" head="V376254" res="V376250" label="AGENT"/>
+   <RELATION id="12" head="V376254" res="V376268" label="LOCATION"/>
+   <PHRASE id="V376250" indicator="BARE" type="OTHER" text="OTHERS" start="61" end="68"/>
+   <PHRASE id="V376268" indicator="F" type="AT-LOC" text="AT" start="77" end="92"/>
+   <RELATION id="13" head="V376268" res="V376283" label="GROUND"/>
+   <RELATION id="14" head="V376268" res="V376254" label="FIGURE"/>
+   <PHRASE id="V376283" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="80" end="92"/>
+   <RELATION id="15" head="V376283" res="V376280" label="ASSOC-POSS"/>
+   <RELATION id="16" head="V376283" res="V375891" label="COREF"/>
+   <PHRASE id="V376280" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="80" end="92"/>
+   <RELATION id="17" head="V376280" res="V375850" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="94" end="128">
+   <TEXT>waving into the camera , laughing .</TEXT>
+   <RELATION id="18" head="V377205" res="V376608" label="CONTENT"/>
+   <PHRASE id="V376608" indicator="BARE" type="MOVE" text="WAVING" start="94" end="128"/>
+   <RELATION id="19" head="V376608" res="V376639" label="AFFECTED"/>
+   <RELATION id="20" head="V376608" res="V376619" label="RESULT"/>
+   <PHRASE id="V376619" indicator="F" type="GOAL-AS-CONTAINMENT" text="INTO" start="101" end="119"/>
+   <RELATION id="21" head="V376619" res="V376632" label="GROUND"/>
+   <RELATION id="22" head="V376619" res="V376639" label="FIGURE"/>
+   <PHRASE id="V376632" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="106" end="119"/>
+   <PHRASE id="V376639" indicator="BARE" type="NONVERBAL-EXPRESSION" text="LAUGH" start="119" end="128"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

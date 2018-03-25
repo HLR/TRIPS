@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-haired , dark-skinned girl i</TEXT>
+   <RELATION id="1" head="V43192" res="V43158" label="MOD"/>
+   <RELATION id="2" head="V43192" res="V43165" label="MOD"/>
+   <RELATION id="3" head="V43192" res="V43175" label="MOD"/>
+   <PHRASE id="V43158" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V43158" res="V43192" label="FIGURE"/>
+   <PHRASE id="V43165" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="16" end="20"/>
+   <RELATION id="5" head="V43165" res="V43192" label="FIGURE"/>
+   <PHRASE id="V43175" indicator="F" type="MOVE" text="SKINNED" start="21" end="29"/>
+   <RELATION id="6" head="V43175" res="V43192" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_REQUEST" start="34" end="71">
+   <TEXT>in grey tee-shirt with Pokemon print a</TEXT>
+   <RELATION id="7" head="V50238" res="V43296" label="CONTENT"/>
+   <PHRASE id="V43296" indicator="F" type="AUTHOR-WRITE-BURN-PRINT_REPRINT_TYPE_RETYPE_MISTYPE" text="PRINT" TENSE="PRES" VFORM="BASE" start="34" end="71"/>
+   <RELATION id="8" head="V43296" res="V43910" label="AGENT"/>
+   <RELATION id="9" head="V43296" res="V43199" label="LOCATION"/>
+   <RELATION id="10" head="V43296" res="V43278" label="AGENT1"/>
+   <PHRASE id="V43910" indicator="IMPRO" type="PERSON" PROFORM="*YOU*" start="34" end="71" COREF="SYS"/>
+   <PHRASE id="V43199" indicator="F" type="IN-LOC" text="IN" start="34" end="52"/>
+   <RELATION id="11" head="V43199" res="V43272" label="GROUND"/>
+   <RELATION id="12" head="V43199" res="V43296" label="FIGURE"/>
+   <PHRASE id="V43272" indicator="BARE" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="37" end="52"/>
+   <RELATION id="13" head="V43272" res="V43248" label="MOD"/>
+   <PHRASE id="V43248" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="37" end="42"/>
+   <RELATION id="14" head="V43248" res="V43272" label="FIGURE"/>
+   <PHRASE id="V43278" indicator="F" type="ACCOMPANIMENT" text="WITH" start="52" end="65"/>
+   <RELATION id="15" head="V43278" res="V43290" label="GROUND"/>
+   <RELATION id="16" head="V43278" res="V43296" label="FIGURE"/>
+   <PHRASE id="V43290" indicator="THE" type="PERSON" text="POKEMON" NAME-OF="(POKEMON)" start="57" end="65"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" start="71" end="131">
+   <TEXT>and pink edge standing in a classroom in front of the desks .</TEXT>
+   <RELATION id="17" head="V45640" res="V43326" label="CONTENT"/>
+   <RELATION id="18" head="V45640" res="V43304" label="MOD"/>
+   <PHRASE id="V43304" indicator="F" type="CONJUNCT" text="AND" start="71" end="75"/>
+   <RELATION id="19" head="V43304" res="V45640" label="FIGURE"/>
+   <PHRASE id="V43326" indicator="BARE" type="BE-AT-LOC" text="STAND" start="75" end="131"/>
+   <RELATION id="20" head="V43326" res="V43319" label="NEUTRAL"/>
+   <RELATION id="21" head="V43326" res="V43460" label="LOCATION"/>
+   <RELATION id="22" head="V43326" res="V43341" label="LOCATION"/>
+   <PHRASE id="V43319" indicator="BARE" type="EDGE" text="EDGE" start="75" end="85"/>
+   <RELATION id="23" head="V43319" res="V43312" label="MOD"/>
+   <PHRASE id="V43312" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="75" end="80"/>
+   <RELATION id="24" head="V43312" res="V43319" label="FIGURE"/>
+   <PHRASE id="V43341" indicator="F" type="IN-LOC" text="IN" start="94" end="109"/>
+   <RELATION id="25" head="V43341" res="V43443" label="GROUND"/>
+   <RELATION id="26" head="V43341" res="V43326" label="FIGURE"/>
+   <PHRASE id="V43443" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="97" end="109"/>
+   <PHRASE id="V43460" indicator="F" type="FRONT" text="IN-FRONT" start="109" end="131"/>
+   <RELATION id="27" head="V43460" res="V43567" label="GROUND"/>
+   <RELATION id="28" head="V43460" res="V43326" label="FIGURE"/>
+   <PHRASE id="V43567" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="118" end="131"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="42">
+   <TEXT>Three women are sitting on a wooden bench i</TEXT>
+   <RELATION id="1" head="V346619" res="V345846" label="CONTENT"/>
+   <PHRASE id="V345846" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="42"/>
+   <RELATION id="2" head="V345846" res="V345862" label="RESULT"/>
+   <RELATION id="3" head="V345846" res="V345820" label="AGENT"/>
+   <PHRASE id="V345820" indicator="INDEF-SET" type="FEMALE-PERSON" text="WOMAN" start="0" end="12"/>
+   <RELATION id="4" head="V345820" res="V345818" label="SIZE"/>
+   <PHRASE id="V345818" indicator="A" type="NUMBER" VALUE="3" start="0" end="6"/>
+   <PHRASE id="V345862" indicator="F" type="ON" text="ON" start="24" end="42"/>
+   <RELATION id="5" head="V345862" res="V345932" label="GROUND"/>
+   <RELATION id="6" head="V345862" res="V345820" label="FIGURE"/>
+   <PHRASE id="V345932" indicator="A" type="FURNISHINGS" text="BENCH" start="27" end="42"/>
+   <RELATION id="7" head="V345932" res="V345926" label="MOD"/>
+   <PHRASE id="V345926" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="29" end="36"/>
+   <RELATION id="8" head="V345926" res="V345932" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="IN-LOC" text="IN" start="42" end="95">
+   <TEXT>in front of an about one metre high , red brick wall .</TEXT>
+   <RELATION id="9" head="V345939" res="V345988" label="GROUND"/>
+   <PHRASE id="V345988" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="45" end="95"/>
+   <RELATION id="10" head="V345988" res="V346099" label="FIGURE"/>
+   <PHRASE id="V346099" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="51" end="95"/>
+   <RELATION id="11" head="V346099" res="V346075" label="SIZE"/>
+   <RELATION id="12" head="V346099" res="V346077" label="ASSOC-WITH"/>
+   <RELATION id="13" head="V346099" res="V346096" label="ASSOC-WITH"/>
+   <PHRASE id="V346096" indicator="KIND" type="MATERIAL" text="BRICK" start="51" end="95"/>
+   <RELATION id="14" head="V346096" res="V346080" label="MOD"/>
+   <RELATION id="15" head="V346096" res="V346089" label="MOD"/>
+   <PHRASE id="V346077" indicator="KIND" type="LENGTH-UNIT" text="METRE" start="51" end="95"/>
+   <PHRASE id="V346075" indicator="A" type="NUMBER" start="57" end="67"/>
+   <RELATION id="16" head="V346075" res="V346054" label="MOD"/>
+   <PHRASE id="V346054" indicator="F" type="QMODIFIER" text="APPROXIMATE" start="57" end="67"/>
+   <RELATION id="17" head="V346054" res="V346075" label="FIGURE"/>
+   <RELATION id="18" head="V346054" res="V346169" label="GROUND"/>
+   <PHRASE id="V346169" indicator="A" type="NUMBER" VALUE="1" start="57" end="67"/>
+   <PHRASE id="V346080" indicator="F" type="HIGH-VAL" text="HIGH" start="73" end="78"/>
+   <RELATION id="19" head="V346080" res="V346096" label="FIGURE"/>
+   <PHRASE id="V346089" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="80" end="84"/>
+   <RELATION id="20" head="V346089" res="V346096" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>
