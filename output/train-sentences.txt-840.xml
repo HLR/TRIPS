@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="68">
+   <TEXT>a blue bus is parking in front of the entrance of the Hotel Galeria .</TEXT>
+   <RELATION id="1" head="V232737" res="V230007" label="CONTENT"/>
+   <PHRASE id="V230007" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="68"/>
+   <RELATION id="2" head="V230007" res="V229997" label="NEUTRAL"/>
+   <RELATION id="3" head="V230007" res="V230023" label="NEUTRAL1"/>
+   <PHRASE id="V229997" indicator="A" type="LAND-VEHICLE" text="BUS" start="0" end="11"/>
+   <RELATION id="4" head="V229997" res="V229980" label="MOD"/>
+   <PHRASE id="V229980" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="2" end="7"/>
+   <RELATION id="5" head="V229980" res="V229997" label="FIGURE"/>
+   <PHRASE id="V230023" indicator="BARE" type="STOP-MOVE" text="PARK" start="14" end="68"/>
+   <RELATION id="6" head="V230023" res="V230030" label="LOCATION"/>
+   <PHRASE id="V230030" indicator="F" type="IN-LOC" text="IN" start="22" end="68"/>
+   <RELATION id="7" head="V230030" res="V230079" label="GROUND"/>
+   <RELATION id="8" head="V230030" res="V230023" label="FIGURE"/>
+   <PHRASE id="V230079" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="25" end="68"/>
+   <RELATION id="9" head="V230079" res="V230150" label="FIGURE"/>
+   <PHRASE id="V230150" indicator="THE" type="EXIT" text="ENTRANCE" start="31" end="68"/>
+   <RELATION id="10" head="V230150" res="V230183" label="FIGURE"/>
+   <PHRASE id="V230183" indicator="THE" type="ORGANIZATION" text="HOTEL-GALERIA" NAME-OF="(HOTEL GALERIA)" start="47" end="68"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="74">
+   <TEXT>there are many newspapers on the ground to protect the kindergarten floor .</TEXT>
+   <RELATION id="1" head="V107515" res="V104927" label="CONTENT"/>
+   <PHRASE id="V104927" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="74"/>
+   <RELATION id="2" head="V104927" res="V104940" label="NEUTRAL"/>
+   <RELATION id="3" head="V104927" res="V104995" label="REASON"/>
+   <PHRASE id="V104915" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V104940" indicator="INDEF-SET" type="INFO-MEDIUM" text="NEWSPAPER" SIZE="MANY" start="10" end="40"/>
+   <RELATION id="4" head="V104940" res="V104950" label="LOCATION"/>
+   <PHRASE id="V104950" indicator="F" type="ON" text="ON" start="26" end="40"/>
+   <RELATION id="5" head="V104950" res="V104983" label="GROUND"/>
+   <RELATION id="6" head="V104950" res="V104940" label="FIGURE"/>
+   <PHRASE id="V104983" indicator="THE" type="GEO-FORMATION" text="GROUND" start="29" end="40"/>
+   <PHRASE id="V104995" indicator="F" type="PURPOSE" text="TO" start="40" end="74"/>
+   <RELATION id="7" head="V104995" res="V105019" label="GROUND"/>
+   <RELATION id="8" head="V104995" res="V104927" label="FIGURE"/>
+   <PHRASE id="V105019" indicator="F" type="PROTECTING" text="PROTECT" VFORM="BASE" start="43" end="74"/>
+   <RELATION id="9" head="V105019" res="V105036" label="AFFECTED"/>
+   <PHRASE id="V105036" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="FLOOR" start="51" end="74"/>
+   <RELATION id="10" head="V105036" res="V105030" label="ASSOC-WITH"/>
+   <PHRASE id="V105030" indicator="KIND" type="ORGANIZATION" text="KINDERGARTEN" start="51" end="74"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

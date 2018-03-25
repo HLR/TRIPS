@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-skinned , dark-haired boy wearing a blue jumper with a yellow collar is standing in front of a brown door .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+6
+*last-utt-id*=6  utt-id+6
+*last-utt-id*=6  utt-id+6
+*last-utt-id*=6  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::DARK W::PUNC-MINUS W::SKINNED)</lisp><word>DARK</word><word>PUNC-MINUS</word><word>SKINNED</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;skinned&quot; :FRAME (7 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark-skinned&quot; :FRAME (2 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;dark-skinned%5:00:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (15 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="skinned" start="7" end="14"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="dark-skinned" start="2" end="14"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-skinned%5:00:00" /></word><word lex="," start="15" end="16"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(DET (ART A))</lisp><DET><ART>A</ART></DET></tree><terms root="#V78989"><lisp>((ONT::F ONT::V78989 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-SKINNED) :START 2
+  :END 15 :WNSENSE &quot;dark-skinned%5:00:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V78989">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>DARK-PUNC-MINUS-SKINNED</LF:word>
+    <LF:start>2</LF:start>
+    <LF:end>15</LF:end>
+    <role:WNSENSE>dark-skinned%5:00:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::DARK W::PUNC-MINUS W::HAIRED W::BOY W::WEARING)</lisp><word>DARK</word><word>PUNC-MINUS</word><word>HAIRED</word><word>BOY</word><word>WEARING</word></words><tags><lisp>((WORD &quot;dark&quot; :FRAME (17 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (21 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;haired&quot; :FRAME (22 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark-haired&quot; :FRAME (17 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;dark-haired%5:00:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;boy&quot; :FRAME (29 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a dark-skinned , dark-haired boy&quot; :FRAME (0 32) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 40.958 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;wearing&quot; :FRAME (33 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="dark" start="17" end="20"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="-" start="21" end="21"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="haired" start="22" end="28"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-haired" start="17" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-haired%5:00:00" /></word><word lex="boy" start="29" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-skinned , dark-haired boy" start="0" end="32" penn-cats="NP" score="40.958" /><word lex="wearing" start="33" end="40"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word></tags><tree><lisp>(ADJP (ADJ1 (ADJ DARK PUNC-MINUS SKINNED)))</lisp><ADJP><ADJ1><ADJ>DARK PUNC-MINUS SKINNED</ADJ></ADJ1></ADJP></tree><terms root="#V79022"><lisp>((ONT::BARE ONT::V79022 (:* ONT::WEAR W::WEAR) :NEUTRAL ONT::V79016 :START 17
+  :END 41)
+ (ONT::BARE ONT::V79016 (:* ONT::MALE-CHILD W::BOY) :MOD ONT::V79013 :START 17
+  :END 33)
+ (ONT::F ONT::V79013 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-HAIRED) :FIGURE
+  ONT::V79016 :START 17 :END 29 :WNSENSE &quot;dark-haired%5:00:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V79022">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:NEUTRAL rdf:resource="#V79016" />
+    <LF:start>17</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79016">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MALE-CHILD</LF:type>
+    <LF:word>BOY</LF:word>
+    <role:MOD rdf:resource="#V79013" />
+    <LF:start>17</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79013">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>DARK-PUNC-MINUS-HAIRED</LF:word>
+    <role:FIGURE rdf:resource="#V79016" />
+    <LF:start>17</LF:start>
+    <LF:end>29</LF:end>
+    <role:WNSENSE>dark-haired%5:00:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::A W::BLUE W::JUMPER W::WITH W::A W::YELLOW W::COLLAR W::IS W::STANDING
+ W::IN W::FRONT W::OF W::A W::BROWN W::DOOR W::PUNC-PERIOD)</lisp><word>A</word><word>BLUE</word><word>JUMPER</word><word>WITH</word><word>A</word><word>YELLOW</word><word>COLLAR</word><word>IS</word><word>STANDING</word><word>IN</word><word>FRONT</word><word>OF</word><word>A</word><word>BROWN</word><word>DOOR</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (41 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blue&quot; :FRAME (43 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;jumper&quot; :FRAME (48 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a blue jumper&quot; :FRAME (41 54) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 24.417 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (55 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (60 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;yellow&quot; :FRAME (62 68) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;collar&quot; :FRAME (69 75) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a yellow collar&quot; :FRAME (60 75) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.626 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with a yellow collar&quot; :FRAME (55 75) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 26.893 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wearing a blue jumper with a yellow collar&quot; :FRAME (33 75) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 61.018 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER
+  &quot;a dark-skinned , dark-haired boy wearing a blue jumper with a yellow collar&quot;
+  :FRAME (0 75) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 104.538 :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (76 78) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (79 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (88 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing in&quot; :FRAME (79 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;stand_in%2:40:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;front&quot; :FRAME (91 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front&quot; :FRAME (91 96) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.944 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in front&quot; :FRAME (88 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;in_front%4:02:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (97 99) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (100 101) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;brown&quot; :FRAME (102 107) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;door&quot; :FRAME (108 112) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a brown door&quot; :FRAME (100 112) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.944 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a brown door&quot; :FRAME (97 112) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 24.011 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front of a brown door&quot; :FRAME (91 112) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 35.497 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in front of a brown door&quot; :FRAME (88 112) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 38.705 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;standing in front of a brown door&quot; :FRAME (79 112) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 47.879 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is standing in front of a brown door&quot; :FRAME (76 112) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 52.139 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (113 113) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a dark-skinned , dark-haired boy wearing a blue jumper with a yellow collar is standing in front of a brown door .&quot;
+  :FRAME (0 113) :PENN-CATS (S) :SCORE 160.591 :UTTNUM 6 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="a" start="41" end="42"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blue" start="43" end="47"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="jumper" start="48" end="54"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a blue jumper" start="41" end="54" penn-cats="NP" score="24.417" /><word lex="with" start="55" end="59"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="60" end="61"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="yellow" start="62" end="68"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="collar" start="69" end="75"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a yellow collar" start="60" end="75" penn-cats="NP" score="23.626" /><prefer text="with a yellow collar" start="55" end="75" penn-cats="PP" score="26.893" /><prefer text="wearing a blue jumper with a yellow collar" start="33" end="75" penn-cats="VP" score="61.018" /><prefer text="a dark-skinned , dark-haired boy wearing a blue jumper with a yellow collar" start="0" end="75" penn-cats="NP" score="104.538" /><word lex="is" start="76" end="78"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="standing" start="79" end="87"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="88" end="90"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="standing in" start="79" end="90"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="front" start="91" end="96"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="91" end="96" penn-cats="NP" score="10.944" /><word lex="in front" start="88" end="96"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="97" end="99"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="100" end="101"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="brown" start="102" end="107"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="door" start="108" end="112"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a brown door" start="100" end="112" penn-cats="NP" score="22.944" /><prefer text="of a brown door" start="97" end="112" penn-cats="PP" score="24.011" /><prefer text="front of a brown door" start="91" end="112" penn-cats="NP" score="35.497" /><prefer text="in front of a brown door" start="88" end="112" penn-cats="PP" score="38.705" /><prefer text="standing in front of a brown door" start="79" end="112" penn-cats="VP" score="47.879" /><prefer text="is standing in front of a brown door" start="76" end="112" penn-cats="VP" score="52.139" /><word lex="." start="113" end="113"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-skinned , dark-haired boy wearing a blue jumper with a yellow collar is standing in front of a brown door ." start="0" end="113" penn-cats="S" score="160.591" /></tags><tree><lisp>(PUNC PUNC-COMMA)</lisp><PUNC>PUNC-COMMA</PUNC></tree><terms root="#V84153"><lisp>((ONT::SPEECHACT ONT::V84153 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V79241 :START 41 :END 113 :WNSENSE &quot;stand_in%2:40:00&quot;)
+ (ONT::F ONT::V79241 (:* ONT::EXCHANGE W::STANDING-IN) :AGENT ONT::V79082
+  :AFFECTED ONT::V79247 :TENSE W::PRES :PROGR + :START 41 :END 113 :WNSENSE
+  &quot;stand_in%2:40:00&quot;)
+ (ONT::A ONT::V79082 (:* ONT::PERSON W::JUMPER) :MOD ONT::V79089 :MOD
+  ONT::V79069 :START 41 :END 76)
+ (ONT::F ONT::V79069 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V79082 :SCALE
+  ONT::COLOR-SCALE :START 43 :END 48)
+ (ONT::F ONT::V79089 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V79151 :FIGURE
+  ONT::V79082 :START 55 :END 76)
+ (ONT::A ONT::V79151 (:* ONT::MANUFACTURED-OBJECT W::COLLAR) :MOD ONT::V79142
+  :START 60 :END 76)
+ (ONT::F ONT::V79142 (:* ONT::YELLOW W::YELLOW) :FIGURE ONT::V79151 :SCALE
+  ONT::YELLOW*1--07--00 :START 62 :END 69)
+ (ONT::BARE ONT::V79247 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+  ONT::V79358 :START 91 :END 113)
+ (ONT::A ONT::V79358 (:* ONT::STRUCTURAL-OPENING W::DOOR) :MOD ONT::V79349
+  :START 97 :END 113)
+ (ONT::F ONT::V79349 (:* ONT::BROWN W::BROWN) :FIGURE ONT::V79358 :SCALE
+  ONT::BROWNNESS*1--07--00 :START 102 :END 108))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V84153">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V79241" />
+    <LF:start>41</LF:start>
+    <LF:end>113</LF:end>
+    <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79241">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXCHANGE</LF:type>
+    <LF:word>STANDING-IN</LF:word>
+    <role:AGENT rdf:resource="#V79082" />
+    <role:AFFECTED rdf:resource="#V79247" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>41</LF:start>
+    <LF:end>113</LF:end>
+    <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79082">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>JUMPER</LF:word>
+    <role:MOD rdf:resource="#V79089" />
+    <role:MOD rdf:resource="#V79069" />
+    <LF:start>41</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79069">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLUE</LF:type>
+    <LF:word>BLUE</LF:word>
+    <role:FIGURE rdf:resource="#V79082" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>43</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79089">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V79151" />
+    <role:FIGURE rdf:resource="#V79082" />
+    <LF:start>55</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79151">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <LF:word>COLLAR</LF:word>
+    <role:MOD rdf:resource="#V79142" />
+    <LF:start>60</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79142">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>YELLOW</LF:type>
+    <LF:word>YELLOW</LF:word>
+    <role:FIGURE rdf:resource="#V79151" />
+    <role:SCALE>YELLOW*1--07--00</role:SCALE>
+    <LF:start>62</LF:start>
+    <LF:end>69</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79247">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>FRONT</LF:word>
+    <role:FIGURE rdf:resource="#V79358" />
+    <LF:start>91</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79358">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>STRUCTURAL-OPENING</LF:type>
+    <LF:word>DOOR</LF:word>
+    <role:MOD rdf:resource="#V79349" />
+    <LF:start>97</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V79349">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BROWN</LF:type>
+    <LF:word>BROWN</LF:word>
+    <role:FIGURE rdf:resource="#V79358" />
+    <role:SCALE>BROWNNESS*1--07--00</role:SCALE>
+    <LF:start>102</LF:start>
+    <LF:end>108</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

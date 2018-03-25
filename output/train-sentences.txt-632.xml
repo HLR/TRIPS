@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="68">
+   <TEXT>other kids sitting at their desk and a blackboard in the background .</TEXT>
+   <RELATION id="1" head="V119306" res="V118367" label="CONTENT"/>
+   <PHRASE id="V118367" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="68"/>
+   <RELATION id="2" head="V118367" res="V118469" label="LOCATION"/>
+   <RELATION id="3" head="V118367" res="V118376" label="MOD"/>
+   <RELATION id="4" head="V118367" res="V118363" label="MOD"/>
+   <PHRASE id="V118363" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="0" end="6"/>
+   <RELATION id="5" head="V118363" res="V118367" label="FIGURE"/>
+   <PHRASE id="V118376" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" VFORM="ING" start="11" end="50"/>
+   <RELATION id="6" head="V118376" res="V118393" label="RESULT"/>
+   <RELATION id="7" head="V118376" res="V118367" label="AGENT"/>
+   <PHRASE id="V118393" indicator="F" type="AT-LOC" text="AT" start="19" end="50"/>
+   <RELATION id="8" head="V118393" res="V118412" label="GROUND"/>
+   <RELATION id="9" head="V118393" res="V118367" label="FIGURE"/>
+   <PHRASE id="V118412" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="22" end="50"/>
+   <RELATION id="10" head="V118412" res="V118408" label="SEQUENCE"/>
+   <RELATION id="11" head="V118412" res="V118462" label="SEQUENCE1"/>
+   <PHRASE id="V118408" indicator="THE" type="FURNISHINGS" text="DESK" start="22" end="33"/>
+   <RELATION id="12" head="V118408" res="V118405" label="ASSOC-POSS"/>
+   <PHRASE id="V118405" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="22" end="33"/>
+   <RELATION id="13" head="V118405" res="V118367" label="COREF"/>
+   <PHRASE id="V118462" indicator="A" type="DISPLAY" text="BLACKBOARD" start="37" end="50"/>
+   <PHRASE id="V118469" indicator="F" type="IN-LOC" text="IN" start="50" end="68"/>
+   <RELATION id="14" head="V118469" res="V118525" label="GROUND"/>
+   <RELATION id="15" head="V118469" res="V118367" label="FIGURE"/>
+   <PHRASE id="V118525" indicator="THE" type="IMAGE" text="BACKGROUND" start="53" end="68"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

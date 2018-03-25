@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="33">
+   <TEXT>tourists are smiling at the kids .</TEXT>
+   <RELATION id="1" head="V237172" res="V236953" label="CONTENT"/>
+   <PHRASE id="V236953" indicator="F" type="NONVERBAL-EXPRESSION" text="SMILE" TENSE="PRES" PROGR="+" start="0" end="33"/>
+   <RELATION id="2" head="V236953" res="V236932" label="AGENT"/>
+   <RELATION id="3" head="V236953" res="V236962" label="LOCATION"/>
+   <PHRASE id="V236932" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="9"/>
+   <PHRASE id="V236962" indicator="F" type="AT-LOC" text="AT" start="21" end="33"/>
+   <RELATION id="4" head="V236962" res="V236982" label="GROUND"/>
+   <RELATION id="5" head="V236962" res="V236953" label="FIGURE"/>
+   <PHRASE id="V236982" indicator="THE-SET" type="CHILD" text="KID" start="24" end="33"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="WEAR" text="WEAR" start="17" end="41">
+   <TEXT>dark-haired boy wearing a</TEXT>
+   <RELATION id="1" head="V79022" res="V79016" label="NEUTRAL"/>
+   <PHRASE id="V79016" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33"/>
+   <RELATION id="2" head="V79016" res="V79013" label="MOD"/>
+   <PHRASE id="V79013" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="3" head="V79013" res="V79016" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="41" end="113" WNSENSE="stand_in%2:40:00">
+   <TEXT>a blue jumper with a yellow collar is standing in front of a brown door .</TEXT>
+   <RELATION id="4" head="V84153" res="V79241" label="CONTENT"/>
+   <PHRASE id="V79241" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="41" end="113" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="5" head="V79241" res="V79082" label="AGENT"/>
+   <RELATION id="6" head="V79241" res="V79247" label="AFFECTED"/>
+   <PHRASE id="V79082" indicator="A" type="PERSON" text="JUMPER" start="41" end="76"/>
+   <RELATION id="7" head="V79082" res="V79089" label="MOD"/>
+   <RELATION id="8" head="V79082" res="V79069" label="MOD"/>
+   <PHRASE id="V79069" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="43" end="48"/>
+   <RELATION id="9" head="V79069" res="V79082" label="FIGURE"/>
+   <PHRASE id="V79089" indicator="F" type="ASSOC-WITH" text="WITH" start="55" end="76"/>
+   <RELATION id="10" head="V79089" res="V79151" label="GROUND"/>
+   <RELATION id="11" head="V79089" res="V79082" label="FIGURE"/>
+   <PHRASE id="V79151" indicator="A" type="MANUFACTURED-OBJECT" text="COLLAR" start="60" end="76"/>
+   <RELATION id="12" head="V79151" res="V79142" label="MOD"/>
+   <PHRASE id="V79142" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="62" end="69"/>
+   <RELATION id="13" head="V79142" res="V79151" label="FIGURE"/>
+   <PHRASE id="V79247" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="91" end="113"/>
+   <RELATION id="14" head="V79247" res="V79358" label="FIGURE"/>
+   <PHRASE id="V79358" indicator="A" type="STRUCTURAL-OPENING" text="DOOR" start="97" end="113"/>
+   <RELATION id="15" head="V79358" res="V79349" label="MOD"/>
+   <PHRASE id="V79349" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="102" end="108"/>
+   <RELATION id="16" head="V79349" res="V79358" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

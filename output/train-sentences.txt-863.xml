@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="29">
+   <TEXT>attached houses on the right .</TEXT>
+   <RELATION id="1" head="V300720" res="V300154" label="CONTENT"/>
+   <PHRASE id="V300154" indicator="F" type="ATTACH" text="ATTACH" TENSE="PAST" start="0" end="29"/>
+   <RELATION id="2" head="V300154" res="V300721" label="AGENT"/>
+   <RELATION id="3" head="V300154" res="V300159" label="AFFECTED"/>
+   <PHRASE id="V300721" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="0" end="29"/>
+   <RELATION id="4" head="V300721" res="V300205" label="COREF"/>
+   <PHRASE id="V300159" indicator="INDEF-SET" type="LODGING" text="HOUSE" start="9" end="29"/>
+   <RELATION id="5" head="V300159" res="V300168" label="LOCATION"/>
+   <PHRASE id="V300168" indicator="F" type="ON" text="ON" start="16" end="29"/>
+   <RELATION id="6" head="V300168" res="V300205" label="GROUND"/>
+   <RELATION id="7" head="V300168" res="V300159" label="FIGURE"/>
+   <PHRASE id="V300205" indicator="THE" type="RIGHT-LOC" text="RIGHT" start="19" end="29"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

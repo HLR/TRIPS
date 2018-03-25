@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="17" end="34">
+   <TEXT>dark-haired girl i</TEXT>
+   <RELATION id="1" head="V90375" res="V90372" label="MOD"/>
+   <PHRASE id="V90372" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V90372" res="V90375" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="DIRECTION" text="IN" start="34" end="37">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="37" end="79">
+   <TEXT>a pink pullover is sitting on green bench .</TEXT>
+   <RELATION id="3" head="V90990" res="V90508" label="CONTENT"/>
+   <PHRASE id="V90508" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="37" end="79"/>
+   <RELATION id="4" head="V90508" res="V90524" label="RESULT"/>
+   <RELATION id="5" head="V90508" res="V90480" label="AGENT"/>
+   <PHRASE id="V90480" indicator="A" type="ATTIRE" text="PULLOVER" start="37" end="53"/>
+   <RELATION id="6" head="V90480" res="V90472" label="MOD"/>
+   <PHRASE id="V90472" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="39" end="44"/>
+   <RELATION id="7" head="V90472" res="V90480" label="FIGURE"/>
+   <PHRASE id="V90524" indicator="F" type="ON" text="ON" start="64" end="79"/>
+   <RELATION id="8" head="V90524" res="V90557" label="GROUND"/>
+   <RELATION id="9" head="V90524" res="V90480" label="FIGURE"/>
+   <PHRASE id="V90557" indicator="BARE" type="FURNISHINGS" text="BENCH" start="67" end="79"/>
+   <RELATION id="10" head="V90557" res="V90546" label="MOD"/>
+   <PHRASE id="V90546" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="67" end="73"/>
+   <RELATION id="11" head="V90546" res="V90557" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

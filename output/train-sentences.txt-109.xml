@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="49">
+   <TEXT>a huge column with a football on top on the left .</TEXT>
+   <RELATION id="1" head="V45310" res="V44887" label="CONTENT"/>
+   <PHRASE id="V44887" indicator="A" type="COLUMN-FORMATION" text="COLUMN" start="0" end="49"/>
+   <RELATION id="2" head="V44887" res="V44987" label="LOCATION"/>
+   <RELATION id="3" head="V44887" res="V44891" label="MOD"/>
+   <RELATION id="4" head="V44887" res="V44884" label="MOD"/>
+   <PHRASE id="V44884" indicator="F" type="HUGE-VAL" text="HUGE" ORIENTATION="MORE" INTENSITY="HI" SCALE="SIZE-SCALE" start="2" end="7"/>
+   <RELATION id="5" head="V44884" res="V44887" label="FIGURE"/>
+   <PHRASE id="V44891" indicator="F" type="ASSOC-WITH" text="WITH" start="14" end="37"/>
+   <RELATION id="6" head="V44891" res="V44944" label="GROUND"/>
+   <RELATION id="7" head="V44891" res="V44887" label="FIGURE"/>
+   <PHRASE id="V44944" indicator="A" type="ATHLETIC-GAME" text="FOOTBALL" start="19" end="37"/>
+   <RELATION id="8" head="V44944" res="V44952" label="LOCATION"/>
+   <PHRASE id="V44952" indicator="F" type="ON" text="ON" start="30" end="37"/>
+   <RELATION id="9" head="V44952" res="V44978" label="GROUND"/>
+   <RELATION id="10" head="V44952" res="V44944" label="FIGURE"/>
+   <PHRASE id="V44978" indicator="BARE" type="TOP-LOCATION" text="TOP" start="33" end="37"/>
+   <PHRASE id="V44987" indicator="F" type="ON" text="ON" start="37" end="49"/>
+   <RELATION id="11" head="V44987" res="V45021" label="GROUND"/>
+   <RELATION id="12" head="V44987" res="V44887" label="FIGURE"/>
+   <PHRASE id="V45021" indicator="THE" type="LEFT-LOC" text="LEFT" start="40" end="49"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

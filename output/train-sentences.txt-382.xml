@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="42">
+   <TEXT>a dark-haired baby in the arms of a woman .</TEXT>
+   <RELATION id="1" head="V328821" res="V328521" label="CONTENT"/>
+   <PHRASE id="V328521" indicator="A" type="CHILD" text="BABY" start="0" end="42"/>
+   <RELATION id="2" head="V328521" res="V328528" label="LOCATION"/>
+   <RELATION id="3" head="V328521" res="V328515" label="MOD"/>
+   <PHRASE id="V328515" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V328515" res="V328521" label="FIGURE"/>
+   <PHRASE id="V328528" indicator="F" type="IN-LOC" text="IN" start="19" end="42"/>
+   <RELATION id="5" head="V328528" res="V328584" label="GROUND"/>
+   <RELATION id="6" head="V328528" res="V328521" label="FIGURE"/>
+   <PHRASE id="V328584" indicator="THE-SET" type="EXTERNAL-BODY-PART" text="ARM" start="22" end="42"/>
+   <RELATION id="7" head="V328584" res="V328636" label="FIGURE"/>
+   <PHRASE id="V328636" indicator="A" type="FEMALE-PERSON" text="WOMAN" start="31" end="42"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

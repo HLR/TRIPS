@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="73">
+   <TEXT>a couple of bushes and houses in the background , one with a yellow roof ,</TEXT>
+   <RELATION id="1" head="V279494" res="V279579" label="PARENTHETICAL"/>
+   <RELATION id="2" head="V279494" res="V279726" label="SEQUENCE"/>
+   <RELATION id="3" head="V279494" res="V279505" label="SEQUENCE1"/>
+   <PHRASE id="V279726" indicator="INDEF-SET" type="PLANT" text="BUSHES" SIZE="A-FEW" start="0" end="19"/>
+   <RELATION id="4" head="V279726" res="V279487" label="REFSET"/>
+   <PHRASE id="V279487" indicator="INDEF-SET" type="PLANT" text="BUSHES" start="9" end="19"/>
+   <PHRASE id="V279505" indicator="INDEF-SET" type="LODGING" text="HOUSE" start="23" end="48"/>
+   <RELATION id="5" head="V279505" res="V279513" label="LOCATION"/>
+   <PHRASE id="V279513" indicator="F" type="IN-LOC" text="IN" start="30" end="48"/>
+   <RELATION id="6" head="V279513" res="V279569" label="GROUND"/>
+   <RELATION id="7" head="V279513" res="V279505" label="FIGURE"/>
+   <PHRASE id="V279569" indicator="THE" type="IMAGE" text="BACKGROUND" start="33" end="48"/>
+   <PHRASE id="V279844" indicator="SPEECHACT" type="SA_IDENTIFY" start="50" end="73"/>
+   <RELATION id="8" head="V279844" res="V279579" label="CONTENT"/>
+   <PHRASE id="V279579" indicator="BARE" type="REFERENTIAL-SEM" text="ONE" start="50" end="73"/>
+   <RELATION id="9" head="V279579" res="V279586" label="MOD"/>
+   <PHRASE id="V279586" indicator="F" type="ASSOC-WITH" text="WITH" start="54" end="73"/>
+   <RELATION id="10" head="V279586" res="V279647" label="GROUND"/>
+   <RELATION id="11" head="V279586" res="V279579" label="FIGURE"/>
+   <PHRASE id="V279647" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="59" end="73"/>
+   <RELATION id="12" head="V279647" res="V279639" label="MOD"/>
+   <PHRASE id="V279639" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="61" end="68"/>
+   <RELATION id="13" head="V279639" res="V279647" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="REFERENTIAL-SEM" text="ONE" start="75" end="97">
+   <TEXT>one with a red roof , t</TEXT>
+   <RELATION id="14" head="V281340" res="V281347" label="MOD"/>
+   <PHRASE id="V281347" indicator="F" type="ASSOC-WITH" text="WITH" start="79" end="95"/>
+   <RELATION id="15" head="V281347" res="V281413" label="GROUND"/>
+   <RELATION id="16" head="V281347" res="V281340" label="FIGURE"/>
+   <PHRASE id="V281413" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="84" end="95"/>
+   <RELATION id="17" head="V281413" res="V281400" label="MOD"/>
+   <PHRASE id="V281400" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="86" end="90"/>
+   <RELATION id="18" head="V281400" res="V281413" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="97" end="122">
+   <TEXT>the rest with grey roofs .</TEXT>
+   <RELATION id="19" head="V281802" res="V281429" label="CONTENT"/>
+   <PHRASE id="V281429" indicator="THE" type="REMAINING-PART" text="REST" start="97" end="122"/>
+   <RELATION id="20" head="V281429" res="V281436" label="MOD"/>
+   <PHRASE id="V281436" indicator="F" type="ASSOC-WITH" text="WITH" start="106" end="122"/>
+   <RELATION id="21" head="V281436" res="V281457" label="GROUND"/>
+   <RELATION id="22" head="V281436" res="V281429" label="FIGURE"/>
+   <PHRASE id="V281457" indicator="INDEF-SET" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="111" end="122"/>
+   <RELATION id="23" head="V281457" res="V281448" label="MOD"/>
+   <PHRASE id="V281448" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="111" end="116"/>
+   <RELATION id="24" head="V281448" res="V281457" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Six pupils are sitting around a round table on wooden chairs , each of them is holding a fruit ( tangerine ? ) and is wearing a hat ( except for one kid ) .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+53
+*last-utt-id*=53  utt-id+NIL
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?40373:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V268615)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?40371)
+                                           (W::TRANSFORM ?40372)))
+                                 (W::CASE ?40370:(W::SUB W::OBJ -))
+                                 (W::AGR ?40369) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V268615) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER268675))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?40688:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V268618)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?40686)
+                                           (W::TRANSFORM ?40687)))
+                                 (W::CASE ?40685:(W::SUB W::OBJ -))
+                                 (W::AGR ?40684) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V268618) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER268677))
+*last-utt-id*=NIL  utt-id+53
+*last-utt-id*=53  utt-id+53
+*last-utt-id*=53  utt-id+53
+*last-utt-id*=53  utt-id+NIL</debug><utt><words><lisp>(W::SIX W::PUPILS W::ARE W::SITTING W::AROUND W::A W::ROUND W::TABLE W::ON
+ W::WOODEN W::CHAIRS W::PUNC-COMMA)</lisp><word>SIX</word><word>PUPILS</word><word>ARE</word><word>SITTING</word><word>AROUND</word><word>A</word><word>ROUND</word><word>TABLE</word><word>ON</word><word>WOODEN</word><word>CHAIRS</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;Six&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::GEOGRAPHIC-REGION)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pupils&quot; :FRAME (4 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Six pupils&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  25.825 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (11 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (15 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;around&quot; :FRAME (23 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting around&quot; :FRAME (15 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;sit_around%2:42:00&quot;)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (30 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;round&quot; :FRAME (32 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;table&quot; :FRAME (38 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;round table&quot; :FRAME (32 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;round_table%1:10:00&quot;)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a round table&quot; :FRAME (30 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.321 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (44 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wooden&quot; :FRAME (47 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;chairs&quot; :FRAME (54 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wooden chairs&quot; :FRAME (47 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 21.112 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on wooden chairs&quot; :FRAME (44 60) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 24.617 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a round table on wooden chairs&quot; :FRAME (30 60) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 47.479 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;around a round table on wooden chairs&quot; :FRAME (23 60) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 55.343 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;sitting around a round table on wooden chairs&quot; :FRAME (15 60)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 64.039 :UTTNUM 53 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;are sitting around a round table on wooden chairs&quot; :FRAME (11 60)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 68.403 :UTTNUM 53 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;Six pupils are sitting around a round table on wooden chairs&quot; :FRAME
+  (0 60) :PENN-CATS (S) :SCORE 94.783 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;,&quot; :FRAME (61 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Six" start="0" end="3"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="pupils" start="4" end="10"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="Six pupils" start="0" end="10" penn-cats="NP" score="25.825" /><word lex="are" start="11" end="14"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="15" end="22"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="around" start="23" end="29"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="sitting around" start="15" end="29"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="sit_around%2:42:00" /></word><word lex="a" start="30" end="31"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="round" start="32" end="37"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="table" start="38" end="43"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="round table" start="32" end="43"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="round_table%1:10:00" /></word><prefer text="a round table" start="30" end="43" penn-cats="NP" score="22.321" /><word lex="on" start="44" end="46"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="wooden" start="47" end="53"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="chairs" start="54" end="60"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="wooden chairs" start="47" end="60" penn-cats="NP" score="21.112" /><prefer text="on wooden chairs" start="44" end="60" penn-cats="PP" score="24.617" /><prefer text="a round table on wooden chairs" start="30" end="60" penn-cats="NP" score="47.479" /><prefer text="around a round table on wooden chairs" start="23" end="60" penn-cats="PP" score="55.343" /><prefer text="sitting around a round table on wooden chairs" start="15" end="60" penn-cats="VP" score="64.039" /><prefer text="are sitting around a round table on wooden chairs" start="11" end="60" penn-cats="VP" score="68.403" /><prefer text="Six pupils are sitting around a round table on wooden chairs" start="0" end="60" penn-cats="S" score="94.783" /><word lex="," start="61" end="61"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (N1 (ADJP (NUMBER SIX)) (N1 (N PUPILS))))
+   (VP
+    (VP- (AUX (V ARE))
+     (VP- (V SITTING)
+      (NP (ADV AROUND)
+       (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ ROUND))) (N1 (N TABLE)))))
+      (ADVBL (ADV ON)
+       (NP (N1 (ADJP (ADJ1 (ADJ WOODEN))) (N1 (N CHAIRS))))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><N1><ADJP><NUMBER>SIX</NUMBER></ADJP><N1><N>PUPILS</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>SITTING</V><NP><ADV>AROUND</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>ROUND</ADJ></ADJ1></ADJP><N1><N>TABLE</N></N1></N1></NP></NP><ADVBL><ADV>ON</ADV><NP><N1><ADJP><ADJ1><ADJ>WOODEN</ADJ></ADJ1></ADJP><N1><N>CHAIRS</N></N1></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V265347"><lisp>((ONT::SPEECHACT ONT::V265347 ONT::SA_TELL :CONTENT ONT::V264104 :START 0 :END
+  61)
+ (ONT::F ONT::V264104 (:* ONT::PLACE-IN-POSITION W::SIT) :AGENT ONT::V264077
+  :AFFECTED ONT::V264196 :RESULT ONT::V264214 :TENSE W::PRES :PROGR + :START 0
+  :END 61)
+ (ONT::INDEF-SET ONT::V264077 (:* ONT::EXTERNAL-BODY-PART W::PUPIL) :SIZE
+  ONT::V264075 :START 0 :END 11)
+ (ONT::A ONT::V264075 ONT::NUMBER :VALUE 6 :START 0 :END 4)
+ (ONT::A ONT::V264196 (:* ONT::TABLE W::TABLE) :MOD ONT::V264119 :MOD
+  ONT::V264184 :START 23 :END 44)
+ (ONT::F ONT::V264119 (:* ONT::QMODIFIER W::APPROXIMATE) :FIGURE ONT::V264196
+  :START 23 :END 44)
+ (ONT::F ONT::V264184 (:* ONT::ROUND-VAL W::ROUND) :FIGURE ONT::V264196 :SCALE
+  ONT::ROUNDNESS*1--07--00 :START 32 :END 38)
+ (ONT::F ONT::V264214 (:* ONT::ON W::ON) :GROUND ONT::V264243 :FIGURE
+  ONT::V264196 :START 44 :END 61)
+ (ONT::INDEF-SET ONT::V264243 (:* ONT::FURNISHINGS W::CHAIR) :MOD ONT::V264237
+  :START 47 :END 61)
+ (ONT::F ONT::V264237 (:* ONT::AWKWARD-VAL W::WOODEN) :FIGURE ONT::V264243
+  :START 47 :END 54))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V265347">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V264104" />
+    <LF:start>0</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264104">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PLACE-IN-POSITION</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:AGENT rdf:resource="#V264077" />
+    <role:AFFECTED rdf:resource="#V264196" />
+    <role:RESULT rdf:resource="#V264214" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264077">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>EXTERNAL-BODY-PART</LF:type>
+    <LF:word>PUPIL</LF:word>
+    <role:SIZE rdf:resource="#V264075" />
+    <LF:start>0</LF:start>
+    <LF:end>11</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264075">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>6</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>4</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264196">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>TABLE</LF:type>
+    <LF:word>TABLE</LF:word>
+    <role:MOD rdf:resource="#V264119" />
+    <role:MOD rdf:resource="#V264184" />
+    <LF:start>23</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264119">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>QMODIFIER</LF:type>
+    <LF:word>APPROXIMATE</LF:word>
+    <role:FIGURE rdf:resource="#V264196" />
+    <LF:start>23</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264184">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ROUND-VAL</LF:type>
+    <LF:word>ROUND</LF:word>
+    <role:FIGURE rdf:resource="#V264196" />
+    <role:SCALE>ROUNDNESS*1--07--00</role:SCALE>
+    <LF:start>32</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264214">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V264243" />
+    <role:FIGURE rdf:resource="#V264196" />
+    <LF:start>44</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264243">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>CHAIR</LF:word>
+    <role:MOD rdf:resource="#V264237" />
+    <LF:start>47</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264237">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AWKWARD-VAL</LF:type>
+    <LF:word>WOODEN</LF:word>
+    <role:FIGURE rdf:resource="#V264243" />
+    <LF:start>47</LF:start>
+    <LF:end>54</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><compound-communication-act>
+<utt><words><lisp>(W::EACH W::OF W::THEM)</lisp><word>EACH</word><word>OF</word><word>THEM</word></words><tags><lisp>((WORD &quot;each&quot; :FRAME (63 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;each&quot; :FRAME (63 67) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 8.218
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (68 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;them&quot; :FRAME (71 75) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;them&quot; :FRAME (71 75) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.534
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of them&quot; :FRAME (68 75) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  8.602 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;each of them&quot; :FRAME (63 75) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 17.187 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="each" start="63" end="67"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><prefer text="each" start="63" end="67" penn-cats="NP" score="8.218" /><word lex="of" start="68" end="70"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="them" start="71" end="75"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="them" start="71" end="75" penn-cats="NP" score="7.534" /><prefer text="of them" start="68" end="75" penn-cats="PP" score="8.602" /><prefer text="each of them" start="63" end="75" penn-cats="NP" score="17.187" /></tags><tree><lisp>(NP (SPEC (QUAN EACH)) (PP (PREP OF) (NP (PRO THEM))))</lisp><NP><SPEC><QUAN>EACH</QUAN></SPEC><PP><PREP>OF</PREP><NP><PRO>THEM</PRO></NP></PP></NP></tree><terms root="#V267673"><lisp>((ONT::QUANTIFIER ONT::V267673 (:* ONT::REFERENTIAL-SEM W::THEM) :REFSET
+  ONT::V267333 :QUAN ONT::EACH :START 63 :END 76)
+ (ONT::PRO-SET ONT::V267333 (:* ONT::REFERENTIAL-SEM W::THEM) :PROFORM W::THEM
+  :START 68 :END 76 :COREF ONT::V264077))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V267673">
+    <LF:indicator>QUANTIFIER</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THEM</LF:word>
+    <role:REFSET rdf:resource="#V267333" />
+    <role:QUAN>EACH</role:QUAN>
+    <LF:start>63</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267333">
+    <LF:indicator>PRO-SET</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THEM</LF:word>
+    <role:PROFORM>THEM</role:PROFORM>
+    <LF:start>68</LF:start>
+    <LF:end>76</LF:end>
+    <role:COREF rdf:resource="#V264077" />
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::IS W::HOLDING W::A W::FRUIT W::START-PAREN W::TANGERINE
+ W::PUNC-QUESTION-MARK W::END-PAREN W::AND W::IS W::WEARING W::A W::HAT)</lisp><word>IS</word><word>HOLDING</word><word>A</word><word>FRUIT</word><word>START-PAREN</word><word>TANGERINE</word><word>PUNC-QUESTION-MARK</word><word>END-PAREN</word><word>AND</word><word>IS</word><word>WEARING</word><word>A</word><word>HAT</word></words><tags><lisp>((WORD &quot;is&quot; :FRAME (76 78) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;holding&quot; :FRAME (79 86) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (87 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;fruit&quot; :FRAME (89 94) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a fruit&quot; :FRAME (87 94) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.553 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (95 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN -LRB-) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tangerine&quot; :FRAME (97 106) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB NN) :TRIPS-PARTS-OF-SPEECH (W::V W::N))) :UTTNUM
+  53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;?&quot; :FRAME (107 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tangerine ?&quot; :FRAME (97 108) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.575 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (109 110) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (SYM -RRB-) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;( tangerine ? )&quot; :FRAME (95 110) :PENN-CATS (PRN) :SCORE 23.8 :UTTNUM
+  53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a fruit ( tangerine ? )&quot; :FRAME (87 110) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 40.737 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;holding a fruit ( tangerine ? )&quot; :FRAME (79 110) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 50.198 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is holding a fruit ( tangerine ? )&quot; :FRAME (76 110) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 55.236 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;and&quot; :FRAME (111 114) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (115 117) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wearing&quot; :FRAME (118 125) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (126 127) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hat&quot; :FRAME (128 131) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a hat&quot; :FRAME (126 131) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.736 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (132 133) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN -LRB-) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;except&quot; :FRAME (134 140) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="is" start="76" end="78"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="holding" start="79" end="86"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="87" end="88"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="fruit" start="89" end="94"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a fruit" start="87" end="94" penn-cats="NP" score="12.553" /><word lex="(" start="95" end="96"><sense-info penn-parts-of-speech="NN,-LRB-" trips-parts-of-speech="N" /></word><word lex="tangerine" start="97" end="106"><sense-info penn-parts-of-speech="VB,NN" trips-parts-of-speech="V,N" /></word><word lex="?" start="107" end="108"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="tangerine ?" start="97" end="108" penn-cats="NP" score="22.575" /><word lex=")" start="109" end="110"><sense-info penn-parts-of-speech="SYM,-RRB-" trips-parts-of-speech="PUNC" /></word><prefer text="( tangerine ? )" start="95" end="110" penn-cats="PRN" score="23.8" /><prefer text="a fruit ( tangerine ? )" start="87" end="110" penn-cats="NP" score="40.737" /><prefer text="holding a fruit ( tangerine ? )" start="79" end="110" penn-cats="VP" score="50.198" /><prefer text="is holding a fruit ( tangerine ? )" start="76" end="110" penn-cats="VP" score="55.236" /><word lex="and" start="111" end="114"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="is" start="115" end="117"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="wearing" start="118" end="125"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="126" end="127"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="hat" start="128" end="131"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a hat" start="126" end="131" penn-cats="NP" score="12.736" /><word lex="(" start="132" end="133"><sense-info penn-parts-of-speech="NN,-LRB-" trips-parts-of-speech="N" /></word><word lex="except" start="134" end="140"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word></tags><tree><lisp>(VP
+ (VP-
+  (VP- (V IS)
+   (NP (NP (VP (VP- (V HOLDING) (NP (SPEC (DET (ART A))) (N1 (N FRUIT))))))
+    (PARENTHETICAL (PUNC START-PAREN)
+     (UTT (NP (N1 (N TANGERINE))) (PUNC PUNC-QUESTION-MARK))
+     (PUNC END-PAREN))))
+  (CONJ AND)
+  (VP- (V IS)
+   (NP (VP (VP- (V WEARING) (NP (SPEC (DET (ART A))) (N1 (N HAT)))))))))</lisp><VP><VP-><VP-><V>IS</V><NP><NP><VP><VP-><V>HOLDING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>FRUIT</N></N1></NP></VP-></VP></NP><PARENTHETICAL><PUNC>START-PAREN</PUNC><UTT><NP><N1><N>TANGERINE</N></N1></NP><PUNC>PUNC-QUESTION-MARK</PUNC></UTT><PUNC>END-PAREN</PUNC></PARENTHETICAL></NP></VP-><CONJ>AND</CONJ><VP-><V>IS</V><NP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>HAT</N></N1></NP></VP-></VP></NP></VP-></VP-></VP></tree><terms root="#V268094"><lisp>((ONT::F ONT::V268094 (:* ONT::EXISTS W::BE) :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V267344 ONT::V267443) :TENSE W::PRES :START 76 :END 132)
+ (ONT::F ONT::V267443 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V267457 :START 76
+  :END 132)
+ (ONT::F ONT::V267344 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V267357 :START 76
+  :END 132)
+ (ONT::BARE ONT::V267357 (:* ONT::BODY-MANIPULATION W::HOLD) :PARENTHETICAL
+  ONT::V267416 :AFFECTED ONT::V267408 :START 79 :END 111)
+ (ONT::A ONT::V267408 (:* ONT::FRUIT W::FRUIT) :START 87 :END 95)
+ (ONT::SPEECHACT ONT::V267956 ONT::SA_YN-QUESTION :CONTENT ONT::V267416
+  :PUNCTYPE W::YNQ :START 97 :END 109)
+ (ONT::BARE ONT::V267416 (:* ONT::FRUIT W::TANGERINE) :START 97 :END 107)
+ (ONT::BARE ONT::V267457 (:* ONT::WEAR W::WEAR) :NEUTRAL ONT::V267504 :START
+  118 :END 132)
+ (ONT::A ONT::V267504 (:* ONT::ATTIRE W::HAT) :START 126 :END 132))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V268094">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V267344" />
+    <role:SEQUENCE1 rdf:resource="#V267443" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>76</LF:start>
+    <LF:end>132</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267443">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V267457" />
+    <LF:start>76</LF:start>
+    <LF:end>132</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267344">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V267357" />
+    <LF:start>76</LF:start>
+    <LF:end>132</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267357">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BODY-MANIPULATION</LF:type>
+    <LF:word>HOLD</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V267416" />
+    <role:AFFECTED rdf:resource="#V267408" />
+    <LF:start>79</LF:start>
+    <LF:end>111</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267408">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FRUIT</LF:type>
+    <LF:word>FRUIT</LF:word>
+    <LF:start>87</LF:start>
+    <LF:end>95</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267956">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_YN-QUESTION</LF:type>
+    <role:CONTENT rdf:resource="#V267416" />
+    <role:PUNCTYPE>YNQ</role:PUNCTYPE>
+    <LF:start>97</LF:start>
+    <LF:end>109</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267416">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>FRUIT</LF:type>
+    <LF:word>TANGERINE</LF:word>
+    <LF:start>97</LF:start>
+    <LF:end>107</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267457">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:NEUTRAL rdf:resource="#V267504" />
+    <LF:start>118</LF:start>
+    <LF:end>132</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267504">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>HAT</LF:word>
+    <LF:start>126</LF:start>
+    <LF:end>132</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::FOR W::ONE W::KID)</lisp><word>FOR</word><word>ONE</word><word>KID</word></words><tags><lisp>((WORD &quot;for&quot; :FRAME (141 144) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (145 148) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for one&quot; :FRAME (141 148) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;for_one%4:02:00&quot;)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kid&quot; :FRAME (149 152) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one kid&quot; :FRAME (145 152) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  18.762 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for one kid&quot; :FRAME (141 152) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 21.853 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;except for one kid&quot; :FRAME (134 152) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 33.519 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (153 154) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN -RRB-) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;( except for one kid )&quot; :FRAME (132 154) :PENN-CATS (PRN) :SCORE
+  37.58 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a hat ( except for one kid )&quot; :FRAME (126 154) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 54.7 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wearing a hat ( except for one kid )&quot; :FRAME (118 154) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 65.48 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is wearing a hat ( except for one kid )&quot; :FRAME (115 154) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 70.519 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER
+  &quot;is holding a fruit ( tangerine ? ) and is wearing a hat ( except for one kid )&quot;
+  :FRAME (76 154) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 130.028 :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (155 155) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="for" start="141" end="144"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="one" start="145" end="148"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="for one" start="141" end="148"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="for_one%4:02:00" /></word><word lex="kid" start="149" end="152"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one kid" start="145" end="152" penn-cats="NP" score="18.762" /><prefer text="for one kid" start="141" end="152" penn-cats="PP" score="21.853" /><prefer text="except for one kid" start="134" end="152" penn-cats="PP" score="33.519" /><word lex=")" start="153" end="154"><sense-info penn-parts-of-speech="NN,-RRB-" trips-parts-of-speech="N" /></word><prefer text="( except for one kid )" start="132" end="154" penn-cats="PRN" score="37.58" /><prefer text="a hat ( except for one kid )" start="126" end="154" penn-cats="NP" score="54.7" /><prefer text="wearing a hat ( except for one kid )" start="118" end="154" penn-cats="VP" score="65.48" /><prefer text="is wearing a hat ( except for one kid )" start="115" end="154" penn-cats="VP" score="70.519" /><prefer text="is holding a fruit ( tangerine ? ) and is wearing a hat ( except for one kid )" start="76" end="154" penn-cats="VP" score="130.028" /><word lex="." start="155" end="155"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(PUNC START-PAREN)</lisp><PUNC>START-PAREN</PUNC></tree><terms root="#V267519"><lisp>((ONT::F ONT::V267519 (:* ONT::BENEFICIARY W::FOR) :GROUND ONT::V267576 :START
+  141 :END 153)
+ (ONT::A ONT::V267576 (:* ONT::CHILD W::KID) :SIZE ONT::V267587 :START 145 :END
+  153)
+ (ONT::A ONT::V267587 ONT::NUMBER :VALUE 1 :START 145 :END 153))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V267519">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BENEFICIARY</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V267576" />
+    <LF:start>141</LF:start>
+    <LF:end>153</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267576">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:SIZE rdf:resource="#V267587" />
+    <LF:start>145</LF:start>
+    <LF:end>153</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267587">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>145</LF:start>
+    <LF:end>153</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

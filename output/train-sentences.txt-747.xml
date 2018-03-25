@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl w</TEXT>
+   <RELATION id="1" head="V192441" res="V192414" label="MOD"/>
+   <RELATION id="2" head="V192441" res="V192438" label="MOD"/>
+   <PHRASE id="V192414" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V192414" res="V192441" label="FIGURE"/>
+   <PHRASE id="V192438" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V192438" res="V192441" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="83">
+   <TEXT>wearing a traditional green hat , a red pullover ,</TEXT>
+   <RELATION id="5" head="V192447" res="V192508" label="NEUTRAL"/>
+   <PHRASE id="V192508" indicator="A" type="ATTIRE" text="HAT" start="42" end="83"/>
+   <RELATION id="6" head="V192508" res="V192570" label="PARENTHETICAL"/>
+   <RELATION id="7" head="V192508" res="V192494" label="MOD"/>
+   <RELATION id="8" head="V192508" res="V192497" label="MOD"/>
+   <PHRASE id="V192494" indicator="F" type="CONVENTIONAL-VAL" text="TRADITIONAL" start="44" end="56"/>
+   <RELATION id="9" head="V192494" res="V192508" label="FIGURE"/>
+   <PHRASE id="V192497" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="56" end="62"/>
+   <RELATION id="10" head="V192497" res="V192508" label="FIGURE"/>
+   <PHRASE id="V192928" indicator="SPEECHACT" type="SA_IDENTIFY" start="68" end="83"/>
+   <RELATION id="11" head="V192928" res="V192570" label="CONTENT"/>
+   <PHRASE id="V192570" indicator="A" type="ATTIRE" text="PULLOVER" start="68" end="83"/>
+   <RELATION id="12" head="V192570" res="V192555" label="MOD"/>
+   <PHRASE id="V192555" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="70" end="74"/>
+   <RELATION id="13" head="V192555" res="V192570" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="85" end="119">
+   <TEXT>a blue vest ( open ) and earrings .</TEXT>
+   <RELATION id="14" head="V202464" res="V202284" label="CONTENT"/>
+   <PHRASE id="V202284" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="85" end="119"/>
+   <RELATION id="15" head="V202284" res="V202261" label="SEQUENCE"/>
+   <RELATION id="16" head="V202284" res="V202294" label="SEQUENCE1"/>
+   <PHRASE id="V202261" indicator="A" type="ATTIRE" text="VEST" start="85" end="106"/>
+   <RELATION id="17" head="V202261" res="V202267" label="PARENTHETICAL"/>
+   <RELATION id="18" head="V202261" res="V202254" label="MOD"/>
+   <PHRASE id="V202254" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="87" end="92"/>
+   <RELATION id="19" head="V202254" res="V202261" label="FIGURE"/>
+   <PHRASE id="V202267" indicator="F" type="ACTIVE-OPEN" text="OPEN" start="99" end="104"/>
+   <RELATION id="20" head="V202267" res="V202261" label="FIGURE"/>
+   <PHRASE id="V202294" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" text="EARRINGS" start="110" end="119"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

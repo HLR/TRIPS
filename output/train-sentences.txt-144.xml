@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="70">
+   <TEXT>two light blue houses behind them with a steep hill in the background .</TEXT>
+   <RELATION id="1" head="V143103" res="V141278" label="CONTENT"/>
+   <PHRASE id="V141278" indicator="INDEF-SET" type="LODGING" text="HOUSE" start="0" end="70"/>
+   <RELATION id="2" head="V141278" res="V141237" label="SIZE"/>
+   <RELATION id="3" head="V141278" res="V141290" label="MOD"/>
+   <RELATION id="4" head="V141278" res="V141283" label="LOCATION"/>
+   <RELATION id="5" head="V141278" res="V141241" label="MOD"/>
+   <RELATION id="6" head="V141278" res="V141264" label="MOD"/>
+   <PHRASE id="V141237" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+   <PHRASE id="V141241" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="4" end="10"/>
+   <RELATION id="7" head="V141241" res="V141278" label="FIGURE"/>
+   <PHRASE id="V141264" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="10" end="15"/>
+   <RELATION id="8" head="V141264" res="V141278" label="FIGURE"/>
+   <PHRASE id="V141283" indicator="F" type="BACK" text="BEHIND" start="22" end="34"/>
+   <RELATION id="9" head="V141283" res="V141286" label="GROUND"/>
+   <RELATION id="10" head="V141283" res="V141278" label="FIGURE"/>
+   <PHRASE id="V141286" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="29" end="34"/>
+   <PHRASE id="V141290" indicator="F" type="ASSOC-WITH" text="WITH" start="34" end="70"/>
+   <RELATION id="11" head="V141290" res="V141357" label="GROUND"/>
+   <RELATION id="12" head="V141290" res="V141278" label="FIGURE"/>
+   <PHRASE id="V141357" indicator="A" type="GEO-FORMATION" text="HILL" start="39" end="70"/>
+   <RELATION id="13" head="V141357" res="V141368" label="LOCATION"/>
+   <RELATION id="14" head="V141357" res="V141348" label="MOD"/>
+   <PHRASE id="V141348" indicator="F" type="HIGH-VAL" text="STEEP" start="41" end="47"/>
+   <RELATION id="15" head="V141348" res="V141357" label="FIGURE"/>
+   <PHRASE id="V141368" indicator="F" type="IN-LOC" text="IN" start="52" end="70"/>
+   <RELATION id="16" head="V141368" res="V141425" label="GROUND"/>
+   <RELATION id="17" head="V141368" res="V141357" label="FIGURE"/>
+   <PHRASE id="V141425" indicator="THE" type="IMAGE" text="BACKGROUND" start="55" end="70"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

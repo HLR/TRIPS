@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="55">
+   <TEXT>some kids in the background are sitting at their desks .</TEXT>
+   <RELATION id="1" head="V463806" res="V463568" label="CONTENT"/>
+   <PHRASE id="V463568" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="55"/>
+   <RELATION id="2" head="V463568" res="V463585" label="RESULT"/>
+   <RELATION id="3" head="V463568" res="V463479" label="AGENT"/>
+   <PHRASE id="V463479" indicator="INDEF-SET" type="CHILD" text="KID" SIZE="SOME" start="0" end="28"/>
+   <RELATION id="4" head="V463479" res="V463486" label="LOCATION"/>
+   <PHRASE id="V463486" indicator="F" type="IN-LOC" text="IN" start="10" end="28"/>
+   <RELATION id="5" head="V463486" res="V463542" label="GROUND"/>
+   <RELATION id="6" head="V463486" res="V463479" label="FIGURE"/>
+   <PHRASE id="V463542" indicator="THE" type="IMAGE" text="BACKGROUND" start="13" end="28"/>
+   <PHRASE id="V463585" indicator="F" type="AT-LOC" text="AT" start="40" end="55"/>
+   <RELATION id="7" head="V463585" res="V463600" label="GROUND"/>
+   <RELATION id="8" head="V463585" res="V463479" label="FIGURE"/>
+   <PHRASE id="V463600" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="43" end="55"/>
+   <RELATION id="9" head="V463600" res="V463597" label="ASSOC-POSS"/>
+   <PHRASE id="V463597" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="43" end="55"/>
+   <RELATION id="10" head="V463597" res="V463479" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

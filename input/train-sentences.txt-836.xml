@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="on the left ( before the man ) a wooden desk and a vase with flowers .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?23672:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V214932)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?23670)
+                                           (W::TRANSFORM ?23671)))
+                                 (W::CASE ?23669:(W::SUB W::OBJ -))
+                                 (W::AGR ?23668) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V214932) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER214958))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?23968:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V214935)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?23966)
+                                           (W::TRANSFORM ?23967)))
+                                 (W::CASE ?23965:(W::SUB W::OBJ -))
+                                 (W::AGR ?23964) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V214935) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER214960))
+*last-utt-id*=NIL  utt-id+22
+*last-utt-id*=22  utt-id+22
+*last-utt-id*=22  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::ON W::THE W::LEFT W::START-PAREN W::BEFORE W::THE W::MAN W::END-PAREN)</lisp><word>ON</word><word>THE</word><word>LEFT</word><word>START-PAREN</word><word>BEFORE</word><word>THE</word><word>MAN</word><word>END-PAREN</word></words><tags><lisp>((WORD &quot;on&quot; :FRAME (0 2) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (3 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;left&quot; :FRAME (7 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the left&quot; :FRAME (3 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.645 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (12 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN -LRB-) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;before&quot; :FRAME (14 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (21 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;man&quot; :FRAME (25 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the man&quot; :FRAME (21 28) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  9.874 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;before the man&quot; :FRAME (14 28) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.949 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (29 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD -RRB-) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM
+  22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;( before the man )&quot; :FRAME (12 30) :PENN-CATS (PRN) :SCORE 20.01
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="on" start="0" end="2"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="3" end="6"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="left" start="7" end="11"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the left" start="3" end="11" penn-cats="NP" score="12.645" /><word lex="(" start="12" end="13"><sense-info penn-parts-of-speech="NN,-LRB-" trips-parts-of-speech="N" /></word><word lex="before" start="14" end="20"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="21" end="24"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="man" start="25" end="28"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the man" start="21" end="28" penn-cats="NP" score="9.874" /><prefer text="before the man" start="14" end="28" penn-cats="PP" score="15.949" /><word lex=")" start="29" end="30"><sense-info penn-parts-of-speech="VBD,-RRB-" trips-parts-of-speech="V" /></word><prefer text="( before the man )" start="12" end="30" penn-cats="PRN" score="20.01" /></tags><tree><lisp>(ADVBL (ADV ON)
+ (NP (NP (SPEC (DET (ART THE))) (N1 (N LEFT)))
+  (PARENTHETICAL (PUNC START-PAREN)
+   (PRED (ADVBL (ADV BEFORE) (NP (SPEC (DET (ART THE))) (N1 (N MAN)))))
+   (PUNC END-PAREN))))</lisp><ADVBL><ADV>ON</ADV><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>LEFT</N></N1></NP><PARENTHETICAL><PUNC>START-PAREN</PUNC><PRED><ADVBL><ADV>BEFORE</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>MAN</N></N1></NP></ADVBL></PRED><PUNC>END-PAREN</PUNC></PARENTHETICAL></NP></ADVBL></tree><terms root="#V214282"><lisp>((ONT::F ONT::V214282 (:* ONT::ON W::ON) :GROUND ONT::V214316 :START 0 :END 31)
+ (ONT::THE ONT::V214316 (:* ONT::LEFT-LOC W::LEFT) :PARENTHETICAL ONT::V214346
+  :START 3 :END 31)
+ (ONT::F ONT::V214346 (:* ONT::POS-BEFORE-IN-TRAJECTORY W::BEFORE) :GROUND
+  ONT::V214359 :FIGURE ONT::V214316 :START 14 :END 29)
+ (ONT::THE ONT::V214359 (:* ONT::MALE-PERSON W::MAN) :START 21 :END 29))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V214282">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V214316" />
+    <LF:start>0</LF:start>
+    <LF:end>31</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214316">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LEFT-LOC</LF:type>
+    <LF:word>LEFT</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V214346" />
+    <LF:start>3</LF:start>
+    <LF:end>31</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214346">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>POS-BEFORE-IN-TRAJECTORY</LF:type>
+    <LF:word>BEFORE</LF:word>
+    <role:GROUND rdf:resource="#V214359" />
+    <role:FIGURE rdf:resource="#V214316" />
+    <LF:start>14</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214359">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MALE-PERSON</LF:type>
+    <LF:word>MAN</LF:word>
+    <LF:start>21</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::A W::WOODEN W::DESK W::AND W::A W::VASE W::WITH W::FLOWERS W::PUNC-PERIOD)</lisp><word>A</word><word>WOODEN</word><word>DESK</word><word>AND</word><word>A</word><word>VASE</word><word>WITH</word><word>FLOWERS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (31 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wooden&quot; :FRAME (33 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;desk&quot; :FRAME (40 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a wooden desk&quot; :FRAME (31 44) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.392 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the left ( before the man ) a wooden desk&quot; :FRAME (3 44) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 64.108 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;and&quot; :FRAME (45 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (49 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;vase&quot; :FRAME (51 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a vase&quot; :FRAME (49 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.171 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (56 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;flowers&quot; :FRAME (61 68) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;flowers&quot; :FRAME (61 68) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.149 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with flowers&quot; :FRAME (56 68) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.949 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a vase with flowers&quot; :FRAME (49 68) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 31.781 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the left ( before the man ) a wooden desk and a vase with flowers&quot;
+  :FRAME (3 68) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 100.816 :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the left ( before the man ) a wooden desk and a vase with flowers&quot;
+  :FRAME (0 68) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 105.011 :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the left ( before the man ) a wooden desk and a vase with flowers&quot;
+  :FRAME (0 68) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 105.599 :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (69 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;on the left ( before the man ) a wooden desk and a vase with flowers .&quot;
+  :FRAME (0 69) :PENN-CATS (S) :SCORE 106.007 :UTTNUM 22 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="a" start="31" end="32"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wooden" start="33" end="39"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="desk" start="40" end="44"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a wooden desk" start="31" end="44" penn-cats="NP" score="22.392" /><prefer text="the left ( before the man ) a wooden desk" start="3" end="44" penn-cats="NP" score="64.108" /><word lex="and" start="45" end="48"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="49" end="50"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="vase" start="51" end="55"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a vase" start="49" end="55" penn-cats="NP" score="15.171" /><word lex="with" start="56" end="60"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="flowers" start="61" end="68"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="flowers" start="61" end="68" penn-cats="NP" score="12.149" /><prefer text="with flowers" start="56" end="68" penn-cats="PP" score="15.949" /><prefer text="a vase with flowers" start="49" end="68" penn-cats="NP" score="31.781" /><prefer text="the left ( before the man ) a wooden desk and a vase with flowers" start="3" end="68" penn-cats="NP" score="100.816" /><prefer text="on the left ( before the man ) a wooden desk and a vase with flowers" start="0" end="68" penn-cats="PP" score="105.011" /><prefer text="on the left ( before the man ) a wooden desk and a vase with flowers" start="0" end="68" penn-cats="VP" score="105.599" /><word lex="." start="69" end="69"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="on the left ( before the man ) a wooden desk and a vase with flowers ." start="0" end="69" penn-cats="S" score="106.007" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ WOODEN))) (N1 (N DESK))))
+   (CONJ AND)
+   (NP (SPEC (DET (ART A)))
+    (N1 (N1 (N VASE)) (ADVBL (ADV WITH) (NP (N1 (N FLOWERS))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>WOODEN</ADJ></ADJ1></ADJP><N1><N>DESK</N></N1></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>VASE</N></N1><ADVBL><ADV>WITH</ADV><NP><N1><N>FLOWERS</N></N1></NP></ADVBL></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V214868"><lisp>((ONT::SPEECHACT ONT::V214868 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V214417 :START 31 :END 69)
+ (ONT::INDEF-SET ONT::V214417 ONT::MANUFACTURED-OBJECT :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V214413 ONT::V214468) :START 31 :END 69)
+ (ONT::A ONT::V214413 (:* ONT::FURNISHINGS W::DESK) :MOD ONT::V214407 :START 31
+  :END 45)
+ (ONT::F ONT::V214407 (:* ONT::AWKWARD-VAL W::WOODEN) :FIGURE ONT::V214413
+  :START 33 :END 40)
+ (ONT::A ONT::V214468 (:* ONT::CONTAINER W::VASE) :MOD ONT::V214472 :START 49
+  :END 69)
+ (ONT::F ONT::V214472 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V214487 :FIGURE
+  ONT::V214468 :START 56 :END 69)
+ (ONT::INDEF-SET ONT::V214487 (:* ONT::PLANT W::FLOWER) :START 61 :END 69))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V214868">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V214417" />
+    <LF:start>31</LF:start>
+    <LF:end>69</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214417">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V214413" />
+    <role:SEQUENCE1 rdf:resource="#V214468" />
+    <LF:start>31</LF:start>
+    <LF:end>69</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214413">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>DESK</LF:word>
+    <role:MOD rdf:resource="#V214407" />
+    <LF:start>31</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214407">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AWKWARD-VAL</LF:type>
+    <LF:word>WOODEN</LF:word>
+    <role:FIGURE rdf:resource="#V214413" />
+    <LF:start>33</LF:start>
+    <LF:end>40</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214468">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>CONTAINER</LF:type>
+    <LF:word>VASE</LF:word>
+    <role:MOD rdf:resource="#V214472" />
+    <LF:start>49</LF:start>
+    <LF:end>69</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214472">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V214487" />
+    <role:FIGURE rdf:resource="#V214468" />
+    <LF:start>56</LF:start>
+    <LF:end>69</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V214487">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PLANT</LF:type>
+    <LF:word>FLOWER</LF:word>
+    <LF:start>61</LF:start>
+    <LF:end>69</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

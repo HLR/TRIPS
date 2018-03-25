@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="INDEF-SET" type="AREA-DEF-BY-USE" text="LOT" start="0" end="38">
+   <TEXT>Lots of locals ( both kids and adults )</TEXT>
+   <RELATION id="1" head="V53035" res="V53070" label="PARENTHETICAL"/>
+   <RELATION id="2" head="V53035" res="V53042" label="MOD"/>
+   <PHRASE id="V53042" indicator="F" type="CONTAIN-RELN" text="OF" start="5" end="15"/>
+   <RELATION id="3" head="V53042" res="V53049" label="GROUND"/>
+   <RELATION id="4" head="V53042" res="V53035" label="FIGURE"/>
+   <PHRASE id="V53049" indicator="INDEF-SET" type="VEHICLE" text="LOCALS" start="8" end="15"/>
+   <PHRASE id="V53165" indicator="SPEECHACT" type="SA_IDENTIFY" start="17" end="38"/>
+   <RELATION id="5" head="V53165" res="V53070" label="CONTENT"/>
+   <PHRASE id="V53070" indicator="INDEF-SET" type="PERSON" OPERATOR="AND" start="17" end="38"/>
+   <RELATION id="6" head="V53070" res="V53066" label="SEQUENCE"/>
+   <RELATION id="7" head="V53070" res="V53079" label="SEQUENCE1"/>
+   <PHRASE id="V53066" indicator="THE-SET" type="CHILD" text="KID" SIZE="BOTH" start="17" end="27"/>
+   <PHRASE id="V53079" indicator="INDEF-SET" type="PERSON" text="ADULT" start="31" end="38"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="IN-LOC" text="IN" start="40" end="68">
+   <TEXT>in front of a blue building .</TEXT>
+   <RELATION id="8" head="V53397" res="V53446" label="GROUND"/>
+   <PHRASE id="V53446" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="43" end="68"/>
+   <RELATION id="9" head="V53446" res="V53564" label="FIGURE"/>
+   <PHRASE id="V53564" indicator="A" type="GENERAL-STRUCTURE" text="BUILDING" start="49" end="68"/>
+   <RELATION id="10" head="V53564" res="V53548" label="MOD"/>
+   <PHRASE id="V53548" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="54" end="59"/>
+   <RELATION id="11" head="V53548" res="V53564" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

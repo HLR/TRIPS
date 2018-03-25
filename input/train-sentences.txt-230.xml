@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one kid has just opened one book .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+24
+*last-utt-id*=24  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::KID W::HAS W::JUST W::OPENED W::ONE W::BOOK W::PUNC-PERIOD)</lisp><word>ONE</word><word>KID</word><word>HAS</word><word>JUST</word><word>OPENED</word><word>ONE</word><word>BOOK</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kid&quot; :FRAME (4 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one kid&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  19.532 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;has&quot; :FRAME (8 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;just&quot; :FRAME (12 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;just&quot; :FRAME (12 16) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+  4.387 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;opened&quot; :FRAME (17 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (24 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;book&quot; :FRAME (28 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one book&quot; :FRAME (24 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  16.59 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;opened one book&quot; :FRAME (17 32) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 26.744 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;has just opened one book&quot; :FRAME (8 32) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 37.081 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (33 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one kid has just opened one book .&quot; :FRAME (0 33) :PENN-CATS (S)
+  :SCORE 57.755 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="kid" start="4" end="7"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one kid" start="0" end="7" penn-cats="NP" score="19.532" /><word lex="has" start="8" end="11"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="just" start="12" end="16"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="just" start="12" end="16" penn-cats="ADVP" score="4.387" /><word lex="opened" start="17" end="23"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="one" start="24" end="27"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="book" start="28" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one book" start="24" end="32" penn-cats="NP" score="16.59" /><prefer text="opened one book" start="17" end="32" penn-cats="VP" score="26.744" /><prefer text="has just opened one book" start="8" end="32" penn-cats="VP" score="37.081" /><word lex="." start="33" end="33"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one kid has just opened one book ." start="0" end="33" penn-cats="S" score="57.755" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (NUMBER ONE)) (N1 (N KID)))
+   (VP
+    (VP- (AUX (V HAS))
+     (VP- (ADVBL (ADV JUST))
+      (VP- (V OPENED) (NP (SPEC (NUMBER ONE)) (N1 (N BOOK)))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>KID</N></N1></NP><VP><VP-><AUX><V>HAS</V></AUX><VP-><ADVBL><ADV>JUST</ADV></ADVBL><VP-><V>OPENED</V><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>BOOK</N></N1></NP></VP-></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V138165"><lisp>((ONT::SPEECHACT ONT::V138165 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V137801 :START 0 :END 33)
+ (ONT::F ONT::V137801 (:* ONT::OPEN W::OPEN) :AGENT ONT::V137765 :AFFECTED
+  ONT::V137819 :MOD ONT::V137792 :TENSE W::PRES :PERF + :START 0 :END 33)
+ (ONT::A ONT::V137765 (:* ONT::CHILD W::KID) :SIZE ONT::V137829 :START 0 :END
+  8)
+ (ONT::A ONT::V137829 ONT::NUMBER :VALUE 1 :START 0 :END 8)
+ (ONT::F ONT::V137792 (:* ONT::MODIFIER W::JUST) :FIGURE ONT::V137801 :START 12
+  :END 17)
+ (ONT::A ONT::V137819 (:* ONT::BOOK W::BOOK) :SIZE ONT::V137843 :START 24 :END
+  33)
+ (ONT::A ONT::V137843 ONT::NUMBER :VALUE 1 :START 24 :END 33))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V138165">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V137801" />
+    <LF:start>0</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V137801">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>OPEN</LF:type>
+    <LF:word>OPEN</LF:word>
+    <role:AGENT rdf:resource="#V137765" />
+    <role:AFFECTED rdf:resource="#V137819" />
+    <role:MOD rdf:resource="#V137792" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PERF>+</role:PERF>
+    <LF:start>0</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V137765">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:SIZE rdf:resource="#V137829" />
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V137829">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V137792">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>JUST</LF:word>
+    <role:FIGURE rdf:resource="#V137801" />
+    <LF:start>12</LF:start>
+    <LF:end>17</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V137819">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>BOOK</LF:type>
+    <LF:word>BOOK</LF:word>
+    <role:SIZE rdf:resource="#V137843" />
+    <LF:start>24</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V137843">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>24</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

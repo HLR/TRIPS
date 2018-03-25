@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="45">
+   <TEXT>more kids and a blackboard in the background .</TEXT>
+   <RELATION id="1" head="V165879" res="V165658" label="CONTENT"/>
+   <PHRASE id="V165658" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="45"/>
+   <RELATION id="2" head="V165658" res="V165654" label="SEQUENCE"/>
+   <RELATION id="3" head="V165658" res="V165708" label="SEQUENCE1"/>
+   <PHRASE id="V165654" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="0" end="10"/>
+   <PHRASE id="V165708" indicator="A" type="DISPLAY" text="BLACKBOARD" start="14" end="45"/>
+   <RELATION id="4" head="V165708" res="V165715" label="LOCATION"/>
+   <PHRASE id="V165715" indicator="F" type="IN-LOC" text="IN" start="27" end="45"/>
+   <RELATION id="5" head="V165715" res="V165772" label="GROUND"/>
+   <RELATION id="6" head="V165715" res="V165708" label="FIGURE"/>
+   <PHRASE id="V165772" indicator="THE" type="IMAGE" text="BACKGROUND" start="30" end="45"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

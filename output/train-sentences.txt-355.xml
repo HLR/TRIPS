@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="CONTENT" text="PORTRAIT" start="0" end="84">
+   <TEXT>portrait of a dark-skinned , dark-haired girl in a yellow blouse with a blue collar .</TEXT>
+   <RELATION id="1" head="V221111" res="V221328" label="MOD"/>
+   <RELATION id="2" head="V221111" res="V221119" label="MOD"/>
+   <PHRASE id="V221119" indicator="F" type="ASSOC-WITH" text="OF" start="9" end="65"/>
+   <RELATION id="3" head="V221119" res="V221219" label="GROUND"/>
+   <RELATION id="4" head="V221119" res="V221111" label="FIGURE"/>
+   <PHRASE id="V221219" indicator="A" type="FEMALE-CHILD" text="GIRL" start="12" end="65"/>
+   <RELATION id="5" head="V221219" res="V221226" label="LOCATION"/>
+   <RELATION id="6" head="V221219" res="V221192" label="MOD"/>
+   <RELATION id="7" head="V221219" res="V221216" label="MOD"/>
+   <PHRASE id="V221192" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="14" end="27" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="8" head="V221192" res="V221219" label="FIGURE"/>
+   <PHRASE id="V221216" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="29" end="41" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="9" head="V221216" res="V221219" label="FIGURE"/>
+   <PHRASE id="V221226" indicator="F" type="IN-LOC" text="IN" start="46" end="65"/>
+   <RELATION id="10" head="V221226" res="V221324" label="GROUND"/>
+   <RELATION id="11" head="V221226" res="V221219" label="FIGURE"/>
+   <PHRASE id="V221324" indicator="A" type="ATTIRE" text="BLOUSE" start="49" end="65"/>
+   <RELATION id="12" head="V221324" res="V221316" label="MOD"/>
+   <PHRASE id="V221316" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="51" end="58"/>
+   <RELATION id="13" head="V221316" res="V221324" label="FIGURE"/>
+   <PHRASE id="V221328" indicator="F" type="ASSOC-WITH" text="WITH" start="65" end="84"/>
+   <RELATION id="14" head="V221328" res="V221394" label="GROUND"/>
+   <RELATION id="15" head="V221328" res="V221111" label="FIGURE"/>
+   <PHRASE id="V221394" indicator="A" type="MANUFACTURED-OBJECT" text="COLLAR" start="70" end="84"/>
+   <RELATION id="16" head="V221394" res="V221381" label="MOD"/>
+   <PHRASE id="V221381" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="72" end="77"/>
+   <RELATION id="17" head="V221381" res="V221394" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

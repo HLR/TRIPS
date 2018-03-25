@@ -1,0 +1,105 @@
+2,91c2,13
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a bed to the right .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?7469:(F::PHYS-OBJ
+<                                                        F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V265774)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?7467)
+<                                            (W::TRANSFORM ?7468)))
+<                                  (W::CASE ?7466:(W::SUB W::OBJ -))
+<                                  (W::AGR ?7465) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V265774) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER265782))
+< *last-utt-id*=NIL  utt-id+33
+< *last-utt-id*=33  utt-id+33
+< *last-utt-id*=33  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::A W::BED)</lisp><word>A</word><word>BED</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;bed&quot; :FRAME (2 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a bed&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 12.641
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="bed" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a bed" start="0" end="5" penn-cats="NP" score="12.641" /></tags><tree><lisp>(NP (SPEC (DET (ART A))) (N1 (N BED)))</lisp><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>BED</N></N1></NP></tree><terms root="#V265574"><lisp>((ONT::A ONT::V265574 (:* ONT::FURNISHINGS W::BED) :START 0 :END 6))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V265574">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>BED</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::TO W::THE W::RIGHT)</lisp><word>TO</word><word>THE</word><word>RIGHT</word></words><tags><lisp>((WORD &quot;to&quot; :FRAME (6 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (9 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;right&quot; :FRAME (13 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the right&quot; :FRAME (9 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   9.96 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to the right&quot; :FRAME (6 18) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 13.602 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (19 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a bed to the right .&quot; :FRAME (0 19) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 28.727 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="to" start="6" end="8"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="the" start="9" end="12"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="right" start="13" end="18"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the right" start="9" end="18" penn-cats="NP" score="9.96" /><prefer text="to the right" start="6" end="18" penn-cats="PP" score="13.602" /><word lex="." start="19" end="19"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a bed to the right ." start="0" end="19" penn-cats="NP" score="28.727" /></tags><tree><lisp>(ADVBL (ADV TO) (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))))</lisp><ADVBL><ADV>TO</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>RIGHT</N></N1></NP></ADVBL></tree><terms root="#V265583"><lisp>((ONT::F ONT::V265583 (:* ONT::TO-LOC W::TO) :GROUND ONT::V265619 :START 6 :END
+<   19)
+<  (ONT::THE ONT::V265619 (:* ONT::RIGHT-LOC W::RIGHT) :START 9 :END 19))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V265583">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TO-LOC</LF:type>
+<     <LF:word>TO</LF:word>
+<     <role:GROUND rdf:resource="#V265619" />
+<     <LF:start>6</LF:start>
+<     <LF:end>19</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V265619">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>RIGHT-LOC</LF:type>
+<     <LF:word>RIGHT</LF:word>
+<     <LF:start>9</LF:start>
+<     <LF:end>19</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="A" type="FURNISHINGS" text="BED" start="0" end="6">
+>    <TEXT>a bed t</TEXT>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="TO-LOC" text="TO" start="6" end="19">
+>    <TEXT>to the right .</TEXT>
+>    <RELATION id="1" head="V265583" res="V265619" label="GROUND"/>
+>    <PHRASE id="V265619" indicator="THE" type="RIGHT-LOC" text="RIGHT" start="9" end="19"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

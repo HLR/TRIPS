@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="50">
+   <TEXT>a dark-skinned dark-haired girl with two pigtails w</TEXT>
+   <RELATION id="1" head="V131580" res="V131584" label="MOD"/>
+   <RELATION id="2" head="V131580" res="V131556" label="MOD"/>
+   <RELATION id="3" head="V131580" res="V131577" label="MOD"/>
+   <PHRASE id="V131556" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="4" head="V131556" res="V131580" label="FIGURE"/>
+   <PHRASE id="V131577" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="15" end="27" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V131577" res="V131580" label="FIGURE"/>
+   <PHRASE id="V131584" indicator="F" type="ASSOC-WITH" text="WITH" start="32" end="50"/>
+   <RELATION id="6" head="V131584" res="V131600" label="GROUND"/>
+   <RELATION id="7" head="V131584" res="V131580" label="FIGURE"/>
+   <PHRASE id="V131600" indicator="INDEF-SET" type="NATURAL-OBJECT" text="PIGTAILS" start="37" end="50"/>
+   <RELATION id="8" head="V131600" res="V131597" label="SIZE"/>
+   <PHRASE id="V131597" indicator="A" type="NUMBER" VALUE="2" start="37" end="41"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="50" end="119">
+   <TEXT>wearing a pink and white striped pullover is standing in a classroom .</TEXT>
+   <RELATION id="9" head="V133064" res="V131705" label="CONTENT"/>
+   <PHRASE id="V131705" indicator="F" type="BE" text="BE" TENSE="PRES" start="50" end="119"/>
+   <RELATION id="10" head="V131705" res="V131606" label="NEUTRAL"/>
+   <RELATION id="11" head="V131705" res="V131722" label="NEUTRAL1"/>
+   <PHRASE id="V131606" indicator="BARE" type="WEAR" text="WEAR" start="50" end="92"/>
+   <RELATION id="12" head="V131606" res="V131696" label="NEUTRAL"/>
+   <PHRASE id="V131696" indicator="A" type="ATTIRE" text="PULLOVER" start="58" end="92"/>
+   <RELATION id="13" head="V131696" res="V131907" label="MOD"/>
+   <RELATION id="14" head="V131696" res="V131687" label="MOD"/>
+   <PHRASE id="V131907" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="60" end="75"/>
+   <RELATION id="15" head="V131907" res="V131653" label="SEQUENCE"/>
+   <RELATION id="16" head="V131907" res="V131670" label="SEQUENCE1"/>
+   <PHRASE id="V131653" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="60" end="65"/>
+   <RELATION id="17" head="V131653" res="V131696" label="FIGURE"/>
+   <PHRASE id="V131670" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="69" end="75"/>
+   <RELATION id="18" head="V131670" res="V131696" label="FIGURE"/>
+   <PHRASE id="V131687" indicator="F" type="MODIFIER" text="STRIPED" start="75" end="83"/>
+   <RELATION id="19" head="V131687" res="V131696" label="FIGURE"/>
+   <PHRASE id="V131722" indicator="BARE" type="BE-AT-LOC" text="STAND" start="95" end="119"/>
+   <RELATION id="20" head="V131722" res="V131731" label="LOCATION"/>
+   <PHRASE id="V131731" indicator="F" type="IN-LOC" text="IN" start="104" end="119"/>
+   <RELATION id="21" head="V131731" res="V131833" label="GROUND"/>
+   <RELATION id="22" head="V131731" res="V131722" label="FIGURE"/>
+   <PHRASE id="V131833" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="107" end="119"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

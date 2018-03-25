@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33">
+   <TEXT>dark-haired boy i</TEXT>
+   <RELATION id="1" head="V137833" res="V137830" label="MOD"/>
+   <PHRASE id="V137830" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V137830" res="V137833" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in d</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="BARE" type="ATTIRE" text="VEST" start="36" end="46">
+   <TEXT>dark vest i</TEXT>
+   <RELATION id="3" head="V137897" res="V137889" label="MOD"/>
+   <PHRASE id="V137889" indicator="F" type="DARK-VAL" text="DARK" start="36" end="41"/>
+   <RELATION id="4" head="V137889" res="V137897" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="46" end="91">
+   <TEXT>is standing in front of a wall made of rocks .</TEXT>
+   <RELATION id="5" head="V145886" res="V137906" label="CONTENT"/>
+   <PHRASE id="V137906" indicator="F" type="BE" text="BE" TENSE="PRES" start="46" end="91"/>
+   <RELATION id="6" head="V137906" res="V137989" label="NEUTRAL"/>
+   <RELATION id="7" head="V137906" res="V137993" label="NEUTRAL1"/>
+   <PHRASE id="V137989" indicator="BARE" type="EXCHANGE" text="STANDING-IN" start="49" end="61" WNSENSE="stand_in%2:40:00"/>
+   <PHRASE id="V137993" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="61" end="91"/>
+   <RELATION id="8" head="V137993" res="V138095" label="FIGURE"/>
+   <PHRASE id="V138095" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="67" end="91"/>
+   <RELATION id="9" head="V138095" res="V138115" label="MOD"/>
+   <RELATION id="10" head="V138095" res="V138100" label="MOD"/>
+   <PHRASE id="V138100" indicator="F" type="CREATE" text="MAKE" VFORM="PASSIVE" start="77" end="82"/>
+   <RELATION id="11" head="V138100" res="V138095" label="AFFECTED-RESULT"/>
+   <PHRASE id="V138115" indicator="F" type="CONTAIN-RELN" text="OF" start="82" end="91"/>
+   <RELATION id="12" head="V138115" res="V138123" label="GROUND"/>
+   <RELATION id="13" head="V138115" res="V138095" label="FIGURE"/>
+   <PHRASE id="V138123" indicator="INDEF-SET" type="NATURAL-OBJECT" text="ROCK" start="85" end="91"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

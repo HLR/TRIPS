@@ -1,0 +1,137 @@
+2,120c2,16
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Seven tourists are visiting a classroom .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?13632:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V235228)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?13630)
+<                                            (W::TRANSFORM ?13631)))
+<                                  (W::CASE ?13629:(W::SUB W::OBJ -))
+<                                  (W::AGR ?13628) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V235228) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER235258))
+< *last-utt-id*=NIL  utt-id+41
+< *last-utt-id*=41  utt-id+NIL</debug><utt><words><lisp>(W::SEVEN W::TOURISTS W::ARE W::VISITING W::A W::CLASSROOM W::PUNC-PERIOD)</lisp><word>SEVEN</word><word>TOURISTS</word><word>ARE</word><word>VISITING</word><word>A</word><word>CLASSROOM</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Seven&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+<     :ONT-TYPES (ONT::GEOGRAPHIC-REGION)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tourists&quot; :FRAME (6 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Seven tourists&quot; :FRAME (0 14) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.944 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (15 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;visiting&quot; :FRAME (19 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (28 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;classroom&quot; :FRAME (30 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a classroom&quot; :FRAME (28 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 13.657 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;visiting a classroom&quot; :FRAME (19 39) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 23.109 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are visiting a classroom&quot; :FRAME (15 39) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 27.473 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (40 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Seven tourists are visiting a classroom .&quot; :FRAME (0 40) :PENN-CATS
+<   (S) :SCORE 51.558 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Seven" start="0" end="5"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="tourists" start="6" end="14"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="Seven tourists" start="0" end="14" penn-cats="NP" score="22.944" /><word lex="are" start="15" end="18"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="visiting" start="19" end="27"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="28" end="29"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="classroom" start="30" end="39"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a classroom" start="28" end="39" penn-cats="NP" score="13.657" /><prefer text="visiting a classroom" start="19" end="39" penn-cats="VP" score="23.109" /><prefer text="are visiting a classroom" start="15" end="39" penn-cats="VP" score="27.473" /><word lex="." start="40" end="40"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Seven tourists are visiting a classroom ." start="0" end="40" penn-cats="S" score="51.558" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (N1 (ADJP (NUMBER SEVEN)) (N1 (N TOURISTS))))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (V VISITING) (NP (SPEC (DET (ART A))) (N1 (N CLASSROOM))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><ADJP><NUMBER>SEVEN</NUMBER></ADJP><N1><N>TOURISTS</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>VISITING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>CLASSROOM</N></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V235118"><lisp>((ONT::SPEECHACT ONT::V235118 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V234847 :START 0 :END 40)
+<  (ONT::F ONT::V234847 (:* ONT::SOCIAL-ACTIVITY W::VISIT) :AGENT ONT::V234825
+<   :AFFECTED ONT::V234894 :TENSE W::PRES :PROGR + :START 0 :END 40)
+<  (ONT::INDEF-SET ONT::V234825 (:* ONT::TRAVELLER W::TOURISTS) :SIZE
+<   ONT::V234822 :START 0 :END 15)
+<  (ONT::A ONT::V234822 ONT::NUMBER :VALUE 7 :START 0 :END 6)
+<  (ONT::A ONT::V234894 (:* ONT::INTERNAL-ENCLOSURE W::CLASSROOM) :START 28 :END
+<   40))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V235118">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V234847" />
+<     <LF:start>0</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V234847">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>SOCIAL-ACTIVITY</LF:type>
+<     <LF:word>VISIT</LF:word>
+<     <role:AGENT rdf:resource="#V234825" />
+<     <role:AFFECTED rdf:resource="#V234894" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V234825">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>TRAVELLER</LF:type>
+<     <LF:word>TOURISTS</LF:word>
+<     <role:SIZE rdf:resource="#V234822" />
+<     <LF:start>0</LF:start>
+<     <LF:end>15</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V234822">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>7</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V234894">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>CLASSROOM</LF:word>
+<     <LF:start>28</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="40">
+>    <TEXT>Seven tourists are visiting a classroom .</TEXT>
+>    <RELATION id="1" head="V235118" res="V234847" label="CONTENT"/>
+>    <PHRASE id="V234847" indicator="F" type="SOCIAL-ACTIVITY" text="VISIT" TENSE="PRES" PROGR="+" start="0" end="40"/>
+>    <RELATION id="2" head="V234847" res="V234825" label="AGENT"/>
+>    <RELATION id="3" head="V234847" res="V234894" label="AFFECTED"/>
+>    <PHRASE id="V234825" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="15"/>
+>    <RELATION id="4" head="V234825" res="V234822" label="SIZE"/>
+>    <PHRASE id="V234822" indicator="A" type="NUMBER" VALUE="7" start="0" end="6"/>
+>    <PHRASE id="V234894" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="28" end="40"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,271 @@
+2,234c2,36
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="another house with a green and yellow and red roof in the background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?33944:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V147875)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?33942)
+<                                            (W::TRANSFORM ?33943)))
+<                                  (W::CASE ?33941:(W::SUB W::OBJ -))
+<                                  (W::AGR ?33940) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V147875) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER147918))
+< *last-utt-id*=NIL  utt-id+26
+< *last-utt-id*=26  utt-id+NIL</debug><utt><words><lisp>(W::ANOTHER W::HOUSE W::WITH W::A W::GREEN W::AND W::YELLOW W::AND W::RED
+<  W::ROOF W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>ANOTHER</word><word>HOUSE</word><word>WITH</word><word>A</word><word>GREEN</word><word>AND</word><word>YELLOW</word><word>AND</word><word>RED</word><word>ROOF</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;another&quot; :FRAME (0 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;house&quot; :FRAME (8 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;another house&quot; :FRAME (0 13) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.297 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (14 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (19 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;green&quot; :FRAME (21 26) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ NN) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::N)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (27 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;yellow&quot; :FRAME (31 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (38 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (42 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;green and yellow and red&quot; :FRAME (21 45) :PENN-CATS (ADJP)
+<   :TRIPS-CATS (W::ADJP) :SCORE 33.082 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;roof&quot; :FRAME (46 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green and yellow and red roof&quot; :FRAME (19 50) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 47.682 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;in&quot; :FRAME (51 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (54 57) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (58 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (54 68) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (51 68) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green and yellow and red roof in the background&quot; :FRAME (19 68)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 64.853 :UTTNUM 26 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;with a green and yellow and red roof in the background&quot; :FRAME
+<   (14 68) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 69.998 :UTTNUM 26 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (69 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;another house with a green and yellow and red roof in the background .&quot;
+<   :FRAME (0 69) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 86.779 :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="another" start="0" end="7"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="house" start="8" end="13"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="another house" start="0" end="13" penn-cats="NP" score="14.297" /><word lex="with" start="14" end="18"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="19" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="green" start="21" end="26"><sense-info penn-parts-of-speech="JJ,NN" trips-parts-of-speech="ADJ,N" /></word><word lex="and" start="27" end="30"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="yellow" start="31" end="37"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="and" start="38" end="41"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="red" start="42" end="45"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="green and yellow and red" start="21" end="45" penn-cats="ADJP" score="33.082" /><word lex="roof" start="46" end="50"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a green and yellow and red roof" start="19" end="50" penn-cats="NP" score="47.682" /><word lex="in" start="51" end="53"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="54" end="57"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="58" end="68"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="54" end="68" penn-cats="NP" score="11.972" /><prefer text="in the background" start="51" end="68" penn-cats="PP" score="14.224" /><prefer text="a green and yellow and red roof in the background" start="19" end="68" penn-cats="NP" score="64.853" /><prefer text="with a green and yellow and red roof in the background" start="14" end="68" penn-cats="PP" score="69.998" /><word lex="." start="69" end="69"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="another house with a green and yellow and red roof in the background ." start="0" end="69" penn-cats="NP" score="86.779" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (WORD ANOTHER)
+<    (N1 (N1 (N HOUSE))
+<     (ADVBL (ADV WITH)
+<      (NP (SPEC (DET (ART A)))
+<       (N1
+<        (N1
+<         (ADJP (ADJP (ADJ1 (ADJ GREEN))) (CONJ AND)
+<          (ADJP (ADJP (ADJ1 (ADJ YELLOW))) (CONJ AND) (ADJP (ADJ1 (ADJ RED)))))
+<         (N1 (N ROOF)))
+<        (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><WORD>ANOTHER</WORD><N1><N1><N>HOUSE</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><CONJ>AND</CONJ><ADJP><ADJP><ADJ1><ADJ>YELLOW</ADJ></ADJ1></ADJP><CONJ>AND</CONJ><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP></ADJP></ADJP><N1><N>ROOF</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V147558"><lisp>((ONT::SPEECHACT ONT::V147558 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V147253 :START 0 :END 69)
+<  (ONT::A ONT::V147253 (:* ONT::LODGING W::HOUSE) :MOD ONT::V147424 :MOD
+<   ONT::V147258 :START 0 :END 69)
+<  (ONT::F ONT::V147424 ONT::OTHER :FIGURE ONT::V147253 :START 0 :END 69)
+<  (ONT::F ONT::V147258 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V147354 :FIGURE
+<   ONT::V147253 :START 14 :END 69)
+<  (ONT::A ONT::V147354 (:* ONT::STRUCTURE-EXTERNAL-COMPONENT W::ROOF) :LOCATION
+<   ONT::V147361 :MOD ONT::V147451 :START 19 :END 69)
+<  (ONT::F ONT::V147451 ONT::COLOR-VAL :SEQUENCE (ONT::V147311 ONT::V147452)
+<   :OPERATOR ONT::AND :START 21 :END 46)
+<  (ONT::F ONT::V147311 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V147354 :SCALE
+<   ONT::GREEN*1--07--00 :START 21 :END 27)
+<  (ONT::F ONT::V147452 ONT::COLOR-VAL :SEQUENCE (ONT::V147332 ONT::V147347)
+<   :OPERATOR ONT::AND :START 31 :END 46)
+<  (ONT::F ONT::V147332 (:* ONT::YELLOW W::YELLOW) :FIGURE ONT::V147354 :SCALE
+<   ONT::YELLOW*1--07--00 :START 31 :END 38)
+<  (ONT::F ONT::V147347 (:* ONT::RED W::RED) :FIGURE ONT::V147354 :SCALE
+<   ONT::COLOR-SCALE :START 42 :END 46)
+<  (ONT::F ONT::V147361 (:* ONT::IN-LOC W::IN) :GROUND ONT::V147417 :FIGURE
+<   ONT::V147354 :START 51 :END 69)
+<  (ONT::THE ONT::V147417 (:* ONT::IMAGE W::BACKGROUND) :START 54 :END 69))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V147558">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V147253" />
+<     <LF:start>0</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147253">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>LODGING</LF:type>
+<     <LF:word>HOUSE</LF:word>
+<     <role:MOD rdf:resource="#V147424" />
+<     <role:MOD rdf:resource="#V147258" />
+<     <LF:start>0</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147424">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <role:FIGURE rdf:resource="#V147253" />
+<     <LF:start>0</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147258">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V147354" />
+<     <role:FIGURE rdf:resource="#V147253" />
+<     <LF:start>14</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147354">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>STRUCTURE-EXTERNAL-COMPONENT</LF:type>
+<     <LF:word>ROOF</LF:word>
+<     <role:LOCATION rdf:resource="#V147361" />
+<     <role:MOD rdf:resource="#V147451" />
+<     <LF:start>19</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147451">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>COLOR-VAL</LF:type>
+<     <role:SEQUENCE rdf:resource="#V147311" />
+<     <role:SEQUENCE1 rdf:resource="#V147452" />
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <LF:start>21</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147311">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>GREEN</LF:type>
+<     <LF:word>GREEN</LF:word>
+<     <role:FIGURE rdf:resource="#V147354" />
+<     <role:SCALE>GREEN*1--07--00</role:SCALE>
+<     <LF:start>21</LF:start>
+<     <LF:end>27</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147452">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>COLOR-VAL</LF:type>
+<     <role:SEQUENCE rdf:resource="#V147332" />
+<     <role:SEQUENCE1 rdf:resource="#V147347" />
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <LF:start>31</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147332">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>YELLOW</LF:type>
+<     <LF:word>YELLOW</LF:word>
+<     <role:FIGURE rdf:resource="#V147354" />
+<     <role:SCALE>YELLOW*1--07--00</role:SCALE>
+<     <LF:start>31</LF:start>
+<     <LF:end>38</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147347">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V147354" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>42</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147361">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V147417" />
+<     <role:FIGURE rdf:resource="#V147354" />
+<     <LF:start>51</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V147417">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>54</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="69">
+>    <TEXT>another house with a green and yellow and red roof in the background .</TEXT>
+>    <RELATION id="1" head="V147558" res="V147253" label="CONTENT"/>
+>    <PHRASE id="V147253" indicator="A" type="LODGING" text="HOUSE" start="0" end="69"/>
+>    <RELATION id="2" head="V147253" res="V147424" label="MOD"/>
+>    <RELATION id="3" head="V147253" res="V147258" label="MOD"/>
+>    <PHRASE id="V147424" indicator="F" type="OTHER" start="0" end="69"/>
+>    <RELATION id="4" head="V147424" res="V147253" label="FIGURE"/>
+>    <PHRASE id="V147258" indicator="F" type="ASSOC-WITH" text="WITH" start="14" end="69"/>
+>    <RELATION id="5" head="V147258" res="V147354" label="GROUND"/>
+>    <RELATION id="6" head="V147258" res="V147253" label="FIGURE"/>
+>    <PHRASE id="V147354" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="19" end="69"/>
+>    <RELATION id="7" head="V147354" res="V147361" label="LOCATION"/>
+>    <RELATION id="8" head="V147354" res="V147451" label="MOD"/>
+>    <PHRASE id="V147451" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="21" end="46"/>
+>    <RELATION id="9" head="V147451" res="V147311" label="SEQUENCE"/>
+>    <RELATION id="10" head="V147451" res="V147452" label="SEQUENCE1"/>
+>    <PHRASE id="V147311" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="21" end="27"/>
+>    <RELATION id="11" head="V147311" res="V147354" label="FIGURE"/>
+>    <PHRASE id="V147452" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="31" end="46"/>
+>    <RELATION id="12" head="V147452" res="V147332" label="SEQUENCE"/>
+>    <RELATION id="13" head="V147452" res="V147347" label="SEQUENCE1"/>
+>    <PHRASE id="V147332" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="31" end="38"/>
+>    <RELATION id="14" head="V147332" res="V147354" label="FIGURE"/>
+>    <PHRASE id="V147347" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="42" end="46"/>
+>    <RELATION id="15" head="V147347" res="V147354" label="FIGURE"/>
+>    <PHRASE id="V147361" indicator="F" type="IN-LOC" text="IN" start="51" end="69"/>
+>    <RELATION id="16" head="V147361" res="V147417" label="GROUND"/>
+>    <RELATION id="17" head="V147361" res="V147354" label="FIGURE"/>
+>    <PHRASE id="V147417" indicator="THE" type="IMAGE" text="BACKGROUND" start="54" end="69"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

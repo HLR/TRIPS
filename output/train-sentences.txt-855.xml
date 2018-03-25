@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="57">
+   <TEXT>there is a wooden table and a wooden commode to the left .</TEXT>
+   <RELATION id="1" head="V271389" res="V269530" label="CONTENT"/>
+   <PHRASE id="V269530" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="57"/>
+   <RELATION id="2" head="V269530" res="V269603" label="NEUTRAL"/>
+   <RELATION id="3" head="V269530" res="V269674" label="TIME"/>
+   <PHRASE id="V269525" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V269603" indicator="INDEF-SET" type="FURNISHINGS" OPERATOR="AND" start="9" end="45"/>
+   <RELATION id="4" head="V269603" res="V269597" label="SEQUENCE"/>
+   <RELATION id="5" head="V269603" res="V269663" label="SEQUENCE1"/>
+   <PHRASE id="V269597" indicator="A" type="TABLE" text="TABLE" start="9" end="24"/>
+   <RELATION id="6" head="V269597" res="V269591" label="MOD"/>
+   <PHRASE id="V269591" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="11" end="18"/>
+   <RELATION id="7" head="V269591" res="V269597" label="FIGURE"/>
+   <PHRASE id="V269663" indicator="A" type="FURNISHINGS" text="COMMODE" start="28" end="45"/>
+   <RELATION id="8" head="V269663" res="V269654" label="MOD"/>
+   <PHRASE id="V269654" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="30" end="37"/>
+   <RELATION id="9" head="V269654" res="V269663" label="FIGURE"/>
+   <PHRASE id="V269674" indicator="F" type="EVENT-TIME-REL" text="TO" start="45" end="57"/>
+   <RELATION id="10" head="V269674" res="V269923" label="GROUND"/>
+   <RELATION id="11" head="V269674" res="V269530" label="FIGURE"/>
+   <PHRASE id="V269923" indicator="THE-SET" type="ANY-SEM" start="48" end="57"/>
+   <RELATION id="12" head="V269923" res="V269702" label="MOD"/>
+   <PHRASE id="V269702" indicator="F" type="REMAINING-VAL" text="REMAINING" start="52" end="57"/>
+   <RELATION id="13" head="V269702" res="V269923" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

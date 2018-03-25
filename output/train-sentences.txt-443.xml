@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired b</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="MALE-CHILD" text="BOY" start="29" end="33">
+   <TEXT>boy w</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="33" end="59">
+   <TEXT>wearing a colourful shirt a</TEXT>
+   <RELATION id="1" head="V242099" res="V242150" label="NEUTRAL"/>
+   <PHRASE id="V242150" indicator="A" type="ATTIRE" text="SHIRT" start="41" end="59"/>
+   <RELATION id="2" head="V242150" res="V242147" label="MOD"/>
+   <PHRASE id="V242147" indicator="F" type="MODIFIER" text="COLOURFUL" start="43" end="53"/>
+   <RELATION id="3" head="V242147" res="V242150" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="F" type="CONJUNCT" text="AND" start="59" end="63">
+   <TEXT>and a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s6" indicator="SPEECHACT" type="SA_TELL" start="63" end="121">
+   <TEXT>a sleeveless pullover is standing in front of a blue wall .</TEXT>
+   <RELATION id="4" head="V250811" res="V242218" label="CONTENT"/>
+   <PHRASE id="V242218" indicator="F" type="BE" text="BE" TENSE="PRES" start="63" end="121"/>
+   <RELATION id="5" head="V242218" res="V242209" label="NEUTRAL"/>
+   <RELATION id="6" head="V242218" res="V242235" label="NEUTRAL1"/>
+   <PHRASE id="V242209" indicator="A" type="ATTIRE" text="PULLOVER" start="63" end="85"/>
+   <RELATION id="7" head="V242209" res="V242205" label="MOD"/>
+   <PHRASE id="V242205" indicator="F" type="MODIFIER" text="SLEEVELESS" start="65" end="76"/>
+   <RELATION id="8" head="V242205" res="V242209" label="FIGURE"/>
+   <PHRASE id="V242235" indicator="BARE" type="BE-AT-LOC" text="STAND" start="88" end="121"/>
+   <RELATION id="9" head="V242235" res="V242254" label="LOCATION"/>
+   <PHRASE id="V242254" indicator="F" type="FRONT" text="IN-FRONT" start="97" end="121"/>
+   <RELATION id="10" head="V242254" res="V242427" label="GROUND"/>
+   <RELATION id="11" head="V242254" res="V242235" label="FIGURE"/>
+   <PHRASE id="V242427" indicator="A" type="ACTIVITY-EVENT" text="BLUE-WALL" start="106" end="121" WNSENSE="blue_wall%1:04:00"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

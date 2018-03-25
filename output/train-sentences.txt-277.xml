@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="52">
+   <TEXT>one kid in the centre of the front row is holding a t</TEXT>
+   <RELATION id="1" head="V315066" res="V312406" label="CONTENT"/>
+   <PHRASE id="V312406" indicator="F" type="BODY-MANIPULATION" text="HOLD" TENSE="PRES" PROGR="+" start="0" end="52"/>
+   <RELATION id="2" head="V312406" res="V312291" label="AGENT"/>
+   <RELATION id="3" head="V312406" res="V312433" label="AFFECTED"/>
+   <PHRASE id="V312291" indicator="A" type="CHILD" text="KID" start="0" end="39"/>
+   <RELATION id="4" head="V312291" res="V312465" label="SIZE"/>
+   <RELATION id="5" head="V312291" res="V312298" label="LOCATION"/>
+   <PHRASE id="V312465" indicator="A" type="NUMBER" VALUE="1" start="0" end="39"/>
+   <PHRASE id="V312298" indicator="F" type="IN-LOC" text="IN" start="8" end="39"/>
+   <RELATION id="6" head="V312298" res="V312354" label="GROUND"/>
+   <RELATION id="7" head="V312298" res="V312291" label="FIGURE"/>
+   <PHRASE id="V312354" indicator="THE" type="CENTER" text="CENTRE" start="11" end="39"/>
+   <RELATION id="8" head="V312354" res="V312381" label="FIGURE"/>
+   <PHRASE id="V312381" indicator="THE" type="ROW-FORMATION" text="ROW" start="22" end="39"/>
+   <RELATION id="9" head="V312381" res="V312372" label="ASSOC-WITH"/>
+   <PHRASE id="V312372" indicator="KIND" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="22" end="39"/>
+   <PHRASE id="V312433" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="50" end="52"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

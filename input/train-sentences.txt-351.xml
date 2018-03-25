@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a teacher and other kids in the background , and also a large window ( thus the picture is not very well exposed ) .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?13963:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V208125)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?13961)
+                                           (W::TRANSFORM ?13962)))
+                                 (W::CASE ?13960:(W::SUB W::OBJ -))
+                                 (W::AGR ?13959) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V208125) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER208135))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?14258:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V208128)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?14256)
+                                           (W::TRANSFORM ?14257)))
+                                 (W::CASE ?14255:(W::SUB W::OBJ -))
+                                 (W::AGR ?14254) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V208128) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER208137))
+*last-utt-id*=NIL  utt-id+38
+*last-utt-id*=38  utt-id+38
+*last-utt-id*=38  utt-id+NIL
+*last-utt-id*=NIL  utt-id+38
+*last-utt-id*=38  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::A W::TEACHER W::AND W::OTHER W::KIDS W::IN W::THE W::BACKGROUND
+ W::PUNC-COMMA)</lisp><word>A</word><word>TEACHER</word><word>AND</word><word>OTHER</word><word>KIDS</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;teacher&quot; :FRAME (2 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (10 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;other&quot; :FRAME (14 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kids&quot; :FRAME (20 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a teacher and other kids&quot; :FRAME (0 24) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 34.347 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (25 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (28 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (32 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (28 42) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.556 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (43 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="teacher" start="2" end="9"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="and" start="10" end="13"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="other" start="14" end="19"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="kids" start="20" end="24"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="a teacher and other kids" start="0" end="24" penn-cats="NP" score="34.347" /><word lex="in" start="25" end="27"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="28" end="31"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="32" end="42"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="28" end="42" penn-cats="NP" score="11.556" /><word lex="," start="43" end="44"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(NP (NP (SPEC (DET (ART A))) (N1 (N TEACHER))) (CONJ AND)
+ (NP
+  (N1 (N1 (ADJP (ADJ1 (ADJ OTHER))) (N1 (N KIDS)))
+   (ADVBL (ADV IN)
+    (NP (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))) (PUNC PUNC-COMMA))))))</lisp><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>TEACHER</N></N1></NP><CONJ>AND</CONJ><NP><N1><N1><ADJP><ADJ1><ADJ>OTHER</ADJ></ADJ1></ADJP><N1><N>KIDS</N></N1></N1><ADVBL><ADV>IN</ADV><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL></N1></NP></NP></tree><terms root="#V207786"><lisp>((ONT::INDEF-SET ONT::V207786 ONT::PERSON :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V207782 ONT::V207799) :START 0 :END 45)
+ (ONT::A ONT::V207782 (:* ONT::PROFESSIONAL W::TEACHER) :START 0 :END 10)
+ (ONT::INDEF-SET ONT::V207799 (:* ONT::CHILD W::KID) :LOCATION ONT::V207806
+  :MOD ONT::V207795 :START 14 :END 45)
+ (ONT::F ONT::V207795 (:* ONT::OTHER W::OTHER) :INTENSITY ONT::HI :FIGURE
+  ONT::V207799 :START 14 :END 20)
+ (ONT::F ONT::V207806 (:* ONT::IN-LOC W::IN) :GROUND ONT::V207862 :FIGURE
+  ONT::V207799 :START 25 :END 45)
+ (ONT::THE ONT::V207862 (:* ONT::IMAGE W::BACKGROUND) :START 28 :END 45))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V207786">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V207782" />
+    <role:SEQUENCE1 rdf:resource="#V207799" />
+    <LF:start>0</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207782">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>PROFESSIONAL</LF:type>
+    <LF:word>TEACHER</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>10</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207799">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:LOCATION rdf:resource="#V207806" />
+    <role:MOD rdf:resource="#V207795" />
+    <LF:start>14</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207795">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>OTHER</LF:type>
+    <LF:word>OTHER</LF:word>
+    <role:INTENSITY>HI</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V207799" />
+    <LF:start>14</LF:start>
+    <LF:end>20</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207806">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V207862" />
+    <role:FIGURE rdf:resource="#V207799" />
+    <LF:start>25</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207862">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>28</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND W::ALSO W::A W::LARGE W::WINDOW)</lisp><word>AND</word><word>ALSO</word><word>A</word><word>LARGE</word><word>WINDOW</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (45 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;also&quot; :FRAME (49 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;also&quot; :FRAME (49 53) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+  3.18 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (54 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;large&quot; :FRAME (56 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;window&quot; :FRAME (62 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a large window&quot; :FRAME (54 67) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 18.372 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background , and also a large window&quot; :FRAME (28 67) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 43.887 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="and" start="45" end="48"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="also" start="49" end="53"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="also" start="49" end="53" penn-cats="ADVP" score="3.18" /><word lex="a" start="54" end="55"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="large" start="56" end="61"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="window" start="62" end="67"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a large window" start="54" end="67" penn-cats="NP" score="18.372" /><prefer text="the background , and also a large window" start="28" end="67" penn-cats="NP" score="43.887" /></tags><tree><lisp>(UTT (ADVBL (ADV AND))
+ (UTT (ADVBL (ADV ALSO))
+  (UTT
+   (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ LARGE))) (N1 (N WINDOW)))))))</lisp><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><ADVBL><ADV>ALSO</ADV></ADVBL><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LARGE</ADJ></ADJ1></ADJP><N1><N>WINDOW</N></N1></N1></NP></UTT></UTT></UTT></tree><terms root="#V208063"><lisp>((ONT::SPEECHACT ONT::V208063 ONT::SA_IDENTIFY :CONTENT ONT::V207927 :MOD
+  ONT::V207870 :MOD ONT::V207878 :START 45 :END 67)
+ (ONT::F ONT::V207870 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V208063 :START 45
+  :END 49)
+ (ONT::F ONT::V207878 (:* ONT::CONJUNCT W::ALSO) :FIGURE ONT::V208063 :START 49
+  :END 54)
+ (ONT::A ONT::V207927 (:* ONT::DISPLAY W::WINDOW) :MOD ONT::V207924 :START 54
+  :END 67)
+ (ONT::F ONT::V207924 (:* ONT::LARGE W::LARGE) :ORIENTATION ONT::MORE
+  :INTENSITY ONT::MED :FIGURE ONT::V207927 :SCALE ONT::SIZE-SCALE :START 56
+  :END 62))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V208063">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V207927" />
+    <role:MOD rdf:resource="#V207870" />
+    <role:MOD rdf:resource="#V207878" />
+    <LF:start>45</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207870">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V208063" />
+    <LF:start>45</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207878">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>ALSO</LF:word>
+    <role:FIGURE rdf:resource="#V208063" />
+    <LF:start>49</LF:start>
+    <LF:end>54</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207927">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>DISPLAY</LF:type>
+    <LF:word>WINDOW</LF:word>
+    <role:MOD rdf:resource="#V207924" />
+    <LF:start>54</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V207924">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LARGE</LF:type>
+    <LF:word>LARGE</LF:word>
+    <role:ORIENTATION>MORE</role:ORIENTATION>
+    <role:INTENSITY>MED</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V207927" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>56</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<utt><words><lisp>(W::THUS W::THE W::PICTURE W::IS W::NOT W::VERY W::WELL W::EXPOSED)</lisp><word>THUS</word><word>THE</word><word>PICTURE</word><word>IS</word><word>NOT</word><word>VERY</word><word>WELL</word><word>EXPOSED</word></words><tags><lisp>((WORD &quot;(&quot; :FRAME (69 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN -LRB-) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;thus&quot; :FRAME (71 75) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;thus&quot; :FRAME (71 75) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+  5.974 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (76 79) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;picture&quot; :FRAME (80 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the picture&quot; :FRAME (76 87) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 10.888 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (88 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;not&quot; :FRAME (91 94) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;very&quot; :FRAME (95 99) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;well&quot; :FRAME (100 104) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;very well&quot; :FRAME (95 104) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;very_well%4:02:01&quot; &quot;very_well%4:02:00&quot;)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;exposed&quot; :FRAME (105 112) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;very well exposed&quot; :FRAME (95 112) :PENN-CATS (ADJP) :TRIPS-CATS
+  (W::ADJP) :SCORE 21.957 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is not very well exposed&quot; :FRAME (88 112) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 30.963 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;thus the picture is not very well exposed&quot; :FRAME (71 112) :PENN-CATS
+  (S) :SCORE 54.495 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (113 114) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN -RRB-) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;( thus the picture is not very well exposed )&quot; :FRAME (69 114)
+  :PENN-CATS (PRN) :SCORE 57.548 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (115 115) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="(" start="69" end="70"><sense-info penn-parts-of-speech="NN,-LRB-" trips-parts-of-speech="N" /></word><word lex="thus" start="71" end="75"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="thus" start="71" end="75" penn-cats="ADVP" score="5.974" /><word lex="the" start="76" end="79"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="picture" start="80" end="87"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the picture" start="76" end="87" penn-cats="NP" score="10.888" /><word lex="is" start="88" end="90"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="not" start="91" end="94"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><word lex="very" start="95" end="99"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><word lex="well" start="100" end="104"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><word lex="very well" start="95" end="104"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="very_well%4:02:01,very_well%4:02:00" /></word><word lex="exposed" start="105" end="112"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="very well exposed" start="95" end="112" penn-cats="ADJP" score="21.957" /><prefer text="is not very well exposed" start="88" end="112" penn-cats="VP" score="30.963" /><prefer text="thus the picture is not very well exposed" start="71" end="112" penn-cats="S" score="54.495" /><word lex=")" start="113" end="114"><sense-info penn-parts-of-speech="NN,-RRB-" trips-parts-of-speech="N" /></word><prefer text="( thus the picture is not very well exposed )" start="69" end="114" penn-cats="PRN" score="57.548" /><word lex="." start="115" end="115"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(PUNC START-PAREN)</lisp><PUNC>START-PAREN</PUNC></tree><terms root="#V211206"><lisp>((ONT::SPEECHACT ONT::V211206 ONT::SA_TELL :CONTENT ONT::V211016 :START 71 :END
+  113)
+ (ONT::F ONT::V211016 (:* ONT::VISUAL-DISPLAY W::EXPOSE) :AFFECTED ONT::V210952
+  :MOD ONT::V210936 :MOD ONT::V211010 :TENSE W::PRES :PASSIVE + :NEGATION +
+  :START 71 :END 113)
+ (ONT::F ONT::V210936 (:* ONT::THEREFORE W::THUS) :FIGURE ONT::V211016 :START
+  71 :END 76)
+ (ONT::THE ONT::V210952 (:* ONT::IMAGE W::PICTURE) :START 76 :END 88 :COREF
+  ONT::V207862)
+ (ONT::F ONT::V211010 (:* ONT::PREDICATE W::VERY-WELL) :FIGURE ONT::V211016
+  :START 95 :END 105 :WNSENSE &quot;very_well%4:02:01&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V211206">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V211016" />
+    <LF:start>71</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V211016">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>VISUAL-DISPLAY</LF:type>
+    <LF:word>EXPOSE</LF:word>
+    <role:AFFECTED rdf:resource="#V210952" />
+    <role:MOD rdf:resource="#V210936" />
+    <role:MOD rdf:resource="#V211010" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <role:NEGATION>+</role:NEGATION>
+    <LF:start>71</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V210936">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>THEREFORE</LF:type>
+    <LF:word>THUS</LF:word>
+    <role:FIGURE rdf:resource="#V211016" />
+    <LF:start>71</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V210952">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>PICTURE</LF:word>
+    <LF:start>76</LF:start>
+    <LF:end>88</LF:end>
+    <role:COREF rdf:resource="#V207862" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V211010">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PREDICATE</LF:type>
+    <LF:word>VERY-WELL</LF:word>
+    <role:FIGURE rdf:resource="#V211016" />
+    <LF:start>95</LF:start>
+    <LF:end>105</LF:end>
+    <role:WNSENSE>very_well%4:02:01</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

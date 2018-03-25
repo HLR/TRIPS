@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="ACTIVE-PERCEPTION" text="VIEW" start="0" end="86">
+   <TEXT>interior view of a room with two single beds with a yellow and red chequered bedcover a</TEXT>
+   <RELATION id="1" head="V255966" res="V256024" label="NEUTRAL"/>
+   <RELATION id="2" head="V255966" res="V256055" label="MOD"/>
+   <RELATION id="3" head="V255966" res="V256028" label="MOD"/>
+   <RELATION id="4" head="V255966" res="V255960" label="MOD"/>
+   <PHRASE id="V255960" indicator="F" type="NATIONAL-VAL" text="INTERIOR" start="0" end="9"/>
+   <RELATION id="5" head="V255960" res="V255966" label="FIGURE"/>
+   <PHRASE id="V256024" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="14" end="24"/>
+   <PHRASE id="V256028" indicator="F" type="ASSOC-WITH" text="WITH" start="24" end="45"/>
+   <RELATION id="6" head="V256028" res="V256051" label="GROUND"/>
+   <RELATION id="7" head="V256028" res="V255966" label="FIGURE"/>
+   <PHRASE id="V256051" indicator="INDEF-SET" type="FURNISHINGS" text="SINGLE-BEDS" start="29" end="45" WNSENSE="single_bed%1:06:00"/>
+   <RELATION id="8" head="V256051" res="V256041" label="SIZE"/>
+   <PHRASE id="V256041" indicator="A" type="NUMBER" VALUE="2" start="29" end="33"/>
+   <PHRASE id="V256055" indicator="F" type="ASSOC-WITH" text="WITH" start="45" end="86"/>
+   <RELATION id="9" head="V256055" res="V256161" label="GROUND"/>
+   <RELATION id="10" head="V256055" res="V255966" label="FIGURE"/>
+   <PHRASE id="V256161" indicator="A" type="BEDDING" text="BEDCOVER" start="50" end="86"/>
+   <RELATION id="11" head="V256161" res="V256379" label="MOD"/>
+   <RELATION id="12" head="V256161" res="V256147" label="MOD"/>
+   <PHRASE id="V256379" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="52" end="67"/>
+   <RELATION id="13" head="V256379" res="V256108" label="SEQUENCE"/>
+   <RELATION id="14" head="V256379" res="V256126" label="SEQUENCE1"/>
+   <PHRASE id="V256108" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="52" end="59"/>
+   <RELATION id="15" head="V256108" res="V256161" label="FIGURE"/>
+   <PHRASE id="V256126" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="63" end="67"/>
+   <RELATION id="16" head="V256126" res="V256161" label="FIGURE"/>
+   <PHRASE id="V256147" indicator="F" type="MODIFIER" text="CHEQUERED" start="67" end="77"/>
+   <RELATION id="17" head="V256147" res="V256161" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="86" end="128">
+   <TEXT>and a night table in between the two beds .</TEXT>
+   <RELATION id="18" head="V256826" res="V256221" label="CONTENT"/>
+   <RELATION id="19" head="V256826" res="V256166" label="MOD"/>
+   <PHRASE id="V256166" indicator="F" type="CONJUNCT" text="AND" start="86" end="90"/>
+   <RELATION id="20" head="V256166" res="V256826" label="FIGURE"/>
+   <PHRASE id="V256221" indicator="A" type="TABLE" text="TABLE" start="90" end="128"/>
+   <RELATION id="21" head="V256221" res="V256217" label="ASSOC-WITH"/>
+   <RELATION id="22" head="V256221" res="V256237" label="LOCATION"/>
+   <PHRASE id="V256217" indicator="KIND" type="TIME-INTERVAL" text="NIGHT" SCALE="DURATION-SCALE" start="90" end="128"/>
+   <PHRASE id="V256237" indicator="F" type="BETWEEN" text="IN-BETWEEN" start="104" end="128"/>
+   <RELATION id="23" head="V256237" res="V256300" label="GROUND"/>
+   <RELATION id="24" head="V256237" res="V256221" label="FIGURE"/>
+   <PHRASE id="V256300" indicator="THE-SET" type="FURNISHINGS" text="BED" start="115" end="128"/>
+   <RELATION id="25" head="V256300" res="V256298" label="SIZE"/>
+   <RELATION id="26" head="V256300" res="V256051" label="COREF"/>
+   <PHRASE id="V256298" indicator="A" type="NUMBER" VALUE="2" start="119" end="123"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

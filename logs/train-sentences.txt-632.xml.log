@@ -1,0 +1,256 @@
+2,222c2,33
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="other kids sitting at their desk and a blackboard in the background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?54633:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V119175)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?54631)
+<                                            (W::TRANSFORM ?54632)))
+<                                  (W::CASE ?54630:(W::SUB W::OBJ -))
+<                                  (W::AGR ?54629) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V119175) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER119267))
+< *last-utt-id*=NIL  utt-id+24
+< *last-utt-id*=24  utt-id+NIL</debug><utt><words><lisp>(W::OTHER W::KIDS W::SITTING W::AT W::THEIR W::DESK W::AND W::A W::BLACKBOARD
+<  W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>OTHER</word><word>KIDS</word><word>SITTING</word><word>AT</word><word>THEIR</word><word>DESK</word><word>AND</word><word>A</word><word>BLACKBOARD</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;other&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (6 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;other kids&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   14.846 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (11 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (19 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;their&quot; :FRAME (22 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;desk&quot; :FRAME (28 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;their desk&quot; :FRAME (22 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   15.014 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (33 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (37 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blackboard&quot; :FRAME (39 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a blackboard&quot; :FRAME (37 49) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 15.171 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;their desk and a blackboard&quot; :FRAME (22 49) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 33.018 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;at their desk and a blackboard&quot; :FRAME (19 49) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 37.329 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;in&quot; :FRAME (50 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (53 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (57 67) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (53 67) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (50 67) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.197 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting at their desk and a blackboard in the background&quot; :FRAME
+<   (11 67) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 62.474 :UTTNUM 24 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (68 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;other kids sitting at their desk and a blackboard in the background .&quot;
+<   :FRAME (0 68) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 80.762 :UTTNUM 24
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="other" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="kids" start="6" end="10"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="other kids" start="0" end="10" penn-cats="NP" score="14.846" /><word lex="sitting" start="11" end="18"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="19" end="21"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="their" start="22" end="27"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="desk" start="28" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="their desk" start="22" end="32" penn-cats="NP" score="15.014" /><word lex="and" start="33" end="36"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="37" end="38"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blackboard" start="39" end="49"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a blackboard" start="37" end="49" penn-cats="NP" score="15.171" /><prefer text="their desk and a blackboard" start="22" end="49" penn-cats="NP" score="33.018" /><prefer text="at their desk and a blackboard" start="19" end="49" penn-cats="PP" score="37.329" /><word lex="in" start="50" end="52"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="53" end="56"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="57" end="67"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="53" end="67" penn-cats="NP" score="11.972" /><prefer text="in the background" start="50" end="67" penn-cats="PP" score="14.197" /><prefer text="sitting at their desk and a blackboard in the background" start="11" end="67" penn-cats="VP" score="62.474" /><word lex="." start="68" end="68"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="other kids sitting at their desk and a blackboard in the background ." start="0" end="68" penn-cats="NP" score="80.762" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1 (N1 (ADJP (ADJ1 (ADJ OTHER))) (N1 (N KIDS)))
+<      (CP
+<       (VP
+<        (VP- (VP- (V SITTING))
+<         (ADVBL (ADV AT)
+<          (NP (NP (SPEC (DET (POSSESSOR (PRO THEIR)))) (N1 (N DESK))) (CONJ AND)
+<           (NP (SPEC (DET (ART A))) (N1 (N BLACKBOARD)))))))))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><ADJ1><ADJ>OTHER</ADJ></ADJ1></ADJP><N1><N>KIDS</N></N1></N1><CP><VP><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>AT</ADV><NP><NP><SPEC><DET><POSSESSOR><PRO>THEIR</PRO></POSSESSOR></DET></SPEC><N1><N>DESK</N></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>BLACKBOARD</N></N1></NP></NP></ADVBL></VP-></VP></CP></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V119306"><lisp>((ONT::SPEECHACT ONT::V119306 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V118367 :START 0 :END 68)
+<  (ONT::INDEF-SET ONT::V118367 (:* ONT::CHILD W::KID) :LOCATION ONT::V118469
+<   :MOD ONT::V118376 :MOD ONT::V118363 :START 0 :END 68)
+<  (ONT::F ONT::V118363 (:* ONT::OTHER W::OTHER) :INTENSITY ONT::HI :FIGURE
+<   ONT::V118367 :START 0 :END 6)
+<  (ONT::F ONT::V118376 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V118393
+<   :AGENT ONT::V118367 :VFORM W::ING :START 11 :END 50)
+<  (ONT::F ONT::V118393 (:* ONT::AT-LOC W::AT) :GROUND ONT::V118412 :FIGURE
+<   ONT::V118367 :START 19 :END 50)
+<  (ONT::INDEF-SET ONT::V118412 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V118408 ONT::V118462) :START 22 :END 50)
+<  (ONT::THE ONT::V118408 (:* ONT::FURNISHINGS W::DESK) :ASSOC-POSS ONT::V118405
+<   :START 22 :END 33)
+<  (ONT::PRO ONT::V118405 (:* ONT::REFERENTIAL-SEM W::THEIR) :PROFORM W::THEIR
+<   :START 22 :END 33 :COREF ONT::V118367)
+<  (ONT::A ONT::V118462 (:* ONT::DISPLAY W::BLACKBOARD) :START 37 :END 50)
+<  (ONT::F ONT::V118469 (:* ONT::IN-LOC W::IN) :GROUND ONT::V118525 :FIGURE
+<   ONT::V118367 :START 50 :END 68)
+<  (ONT::THE ONT::V118525 (:* ONT::IMAGE W::BACKGROUND) :START 53 :END 68))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V119306">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V118367" />
+<     <LF:start>0</LF:start>
+<     <LF:end>68</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118367">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:LOCATION rdf:resource="#V118469" />
+<     <role:MOD rdf:resource="#V118376" />
+<     <role:MOD rdf:resource="#V118363" />
+<     <LF:start>0</LF:start>
+<     <LF:end>68</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118363">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <LF:word>OTHER</LF:word>
+<     <role:INTENSITY>HI</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V118367" />
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118376">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:RESULT rdf:resource="#V118393" />
+<     <role:AGENT rdf:resource="#V118367" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>11</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118393">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V118412" />
+<     <role:FIGURE rdf:resource="#V118367" />
+<     <LF:start>19</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118412">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PHYS-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V118408" />
+<     <role:SEQUENCE1 rdf:resource="#V118462" />
+<     <LF:start>22</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118408">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>DESK</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V118405" />
+<     <LF:start>22</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118405">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEIR</LF:word>
+<     <role:PROFORM>THEIR</role:PROFORM>
+<     <LF:start>22</LF:start>
+<     <LF:end>33</LF:end>
+<     <role:COREF rdf:resource="#V118367" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118462">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>DISPLAY</LF:type>
+<     <LF:word>BLACKBOARD</LF:word>
+<     <LF:start>37</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118469">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V118525" />
+<     <role:FIGURE rdf:resource="#V118367" />
+<     <LF:start>50</LF:start>
+<     <LF:end>68</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V118525">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>53</LF:start>
+<     <LF:end>68</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="68">
+>    <TEXT>other kids sitting at their desk and a blackboard in the background .</TEXT>
+>    <RELATION id="1" head="V119306" res="V118367" label="CONTENT"/>
+>    <PHRASE id="V118367" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="68"/>
+>    <RELATION id="2" head="V118367" res="V118469" label="LOCATION"/>
+>    <RELATION id="3" head="V118367" res="V118376" label="MOD"/>
+>    <RELATION id="4" head="V118367" res="V118363" label="MOD"/>
+>    <PHRASE id="V118363" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="0" end="6"/>
+>    <RELATION id="5" head="V118363" res="V118367" label="FIGURE"/>
+>    <PHRASE id="V118376" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" VFORM="ING" start="11" end="50"/>
+>    <RELATION id="6" head="V118376" res="V118393" label="RESULT"/>
+>    <RELATION id="7" head="V118376" res="V118367" label="AGENT"/>
+>    <PHRASE id="V118393" indicator="F" type="AT-LOC" text="AT" start="19" end="50"/>
+>    <RELATION id="8" head="V118393" res="V118412" label="GROUND"/>
+>    <RELATION id="9" head="V118393" res="V118367" label="FIGURE"/>
+>    <PHRASE id="V118412" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="22" end="50"/>
+>    <RELATION id="10" head="V118412" res="V118408" label="SEQUENCE"/>
+>    <RELATION id="11" head="V118412" res="V118462" label="SEQUENCE1"/>
+>    <PHRASE id="V118408" indicator="THE" type="FURNISHINGS" text="DESK" start="22" end="33"/>
+>    <RELATION id="12" head="V118408" res="V118405" label="ASSOC-POSS"/>
+>    <PHRASE id="V118405" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="22" end="33"/>
+>    <RELATION id="13" head="V118405" res="V118367" label="COREF"/>
+>    <PHRASE id="V118462" indicator="A" type="DISPLAY" text="BLACKBOARD" start="37" end="50"/>
+>    <PHRASE id="V118469" indicator="F" type="IN-LOC" text="IN" start="50" end="68"/>
+>    <RELATION id="14" head="V118469" res="V118525" label="GROUND"/>
+>    <RELATION id="15" head="V118469" res="V118367" label="FIGURE"/>
+>    <PHRASE id="V118525" indicator="THE" type="IMAGE" text="BACKGROUND" start="53" end="68"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

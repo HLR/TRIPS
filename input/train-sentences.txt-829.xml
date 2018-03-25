@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a large black and red saurian next to a small black saurian on some sandy rocks .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?43224:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V183300)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?43222)
+                                           (W::TRANSFORM ?43223)))
+                                 (W::CASE ?43221:(W::SUB W::OBJ -))
+                                 (W::AGR ?43220) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V183300) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER183431))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?43523:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V183303)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?43521)
+                                           (W::TRANSFORM ?43522)))
+                                 (W::CASE ?43520:(W::SUB W::OBJ -))
+                                 (W::AGR ?43519) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V183303) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER183433))
+*last-utt-id*=NIL  utt-id+17
+*last-utt-id*=17  utt-id+NIL</debug><utt><words><lisp>(W::A W::LARGE W::BLACK W::AND W::RED W::SAURIAN W::NEXT W::TO W::A W::SMALL
+ W::BLACK W::SAURIAN W::ON W::SOME W::SANDY W::ROCKS W::PUNC-PERIOD)</lisp><word>A</word><word>LARGE</word><word>BLACK</word><word>AND</word><word>RED</word><word>SAURIAN</word><word>NEXT</word><word>TO</word><word>A</word><word>SMALL</word><word>BLACK</word><word>SAURIAN</word><word>ON</word><word>SOME</word><word>SANDY</word><word>ROCKS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;large&quot; :FRAME (2 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;black&quot; :FRAME (8 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (14 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (18 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;black and red&quot; :FRAME (8 21) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP)
+  :SCORE 17.504 :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;saurian&quot; :FRAME (22 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a large black and red saurian&quot; :FRAME (0 29) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 42.122 :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;next&quot; :FRAME (30 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN JJ) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::ADV W::ADJ)))
+  :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (35 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (38 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;small&quot; :FRAME (40 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;black&quot; :FRAME (46 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;saurian&quot; :FRAME (52 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a small black saurian&quot; :FRAME (38 59) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 30.245 :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (60 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;some&quot; :FRAME (63 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sandy&quot; :FRAME (68 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rocks&quot; :FRAME (74 79) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;some sandy rocks&quot; :FRAME (63 79) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 29.69 :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on some sandy rocks&quot; :FRAME (60 79) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 33.195 :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a small black saurian on some sandy rocks&quot; :FRAME (38 79) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 63.98 :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;to a small black saurian on some sandy rocks&quot; :FRAME (35 79)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 66.463 :UTTNUM 17 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;next to a small black saurian on some sandy rocks&quot; :FRAME (30 79)
+  :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP) :SCORE 76.602 :UTTNUM 17 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (80 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 17 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a large black and red saurian next to a small black saurian on some sandy rocks .&quot;
+  :FRAME (0 80) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 124.276 :UTTNUM 17
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="large" start="2" end="7"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="black" start="8" end="13"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="and" start="14" end="17"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="red" start="18" end="21"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="black and red" start="8" end="21" penn-cats="ADJP" score="17.504" /><word lex="saurian" start="22" end="29"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a large black and red saurian" start="0" end="29" penn-cats="NP" score="42.122" /><word lex="next" start="30" end="34"><sense-info penn-parts-of-speech="IN,JJ" trips-parts-of-speech="PREP,ADV,ADJ" /></word><word lex="to" start="35" end="37"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="a" start="38" end="39"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="small" start="40" end="45"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="black" start="46" end="51"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="saurian" start="52" end="59"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a small black saurian" start="38" end="59" penn-cats="NP" score="30.245" /><word lex="on" start="60" end="62"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="some" start="63" end="67"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="sandy" start="68" end="73"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="rocks" start="74" end="79"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="some sandy rocks" start="63" end="79" penn-cats="NP" score="29.69" /><prefer text="on some sandy rocks" start="60" end="79" penn-cats="PP" score="33.195" /><prefer text="a small black saurian on some sandy rocks" start="38" end="79" penn-cats="NP" score="63.98" /><prefer text="to a small black saurian on some sandy rocks" start="35" end="79" penn-cats="PP" score="66.463" /><prefer text="next to a small black saurian on some sandy rocks" start="30" end="79" penn-cats="ADJP" score="76.602" /><word lex="." start="80" end="80"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a large black and red saurian next to a small black saurian on some sandy rocks ." start="0" end="80" penn-cats="NP" score="124.276" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP (SPEC (DET (ART A)))
+    (N1 (ADJP (ADJ1 (ADJ LARGE)))
+     (N1 (ADJP (ADJP (ADJ1 (ADJ BLACK))) (CONJ AND) (ADJP (ADJ1 (ADJ RED))))
+      (N1 (N SAURIAN)))))
+   (VP
+    (VP-
+     (ADVBL (ADV (WORD NEXT) (WORD TO))
+      (NP (SPEC (DET (ART A)))
+       (N1 (ADJP (ADJ1 (ADJ SMALL)))
+        (N1 (ADJP (ADJ1 (ADJ BLACK))) (N1 (N SAURIAN))))))
+     (VP- (ADVBL (ADV ON) (NP (SPEC (QUAN SOME)) (ADJP (ADJ1 (ADJ SANDY)))))
+      (VP- (V ROCKS)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LARGE</ADJ></ADJ1></ADJP><N1><ADJP><ADJP><ADJ1><ADJ>BLACK</ADJ></ADJ1></ADJP><CONJ>AND</CONJ><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP></ADJP><N1><N>SAURIAN</N></N1></N1></N1></NP><VP><VP-><ADVBL><ADV><WORD>NEXT</WORD><WORD>TO</WORD></ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>SMALL</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>BLACK</ADJ></ADJ1></ADJP><N1><N>SAURIAN</N></N1></N1></N1></NP></ADVBL><VP-><ADVBL><ADV>ON</ADV><NP><SPEC><QUAN>SOME</QUAN></SPEC><ADJP><ADJ1><ADJ>SANDY</ADJ></ADJ1></ADJP></NP></ADVBL><VP-><V>ROCKS</V></VP-></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V187318"><lisp>((ONT::SPEECHACT ONT::V187318 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V182804 :START 0 :END 80)
+ (ONT::F ONT::V182804 (:* ONT::MOVE-BACK-AND-FORTH W::ROCK) :AFFECTED
+  ONT::V182677 :RESULT ONT::V182681 :TIME ONT::V182768 :TENSE W::PRES :START 0
+  :END 80)
+ (ONT::A ONT::V182677 (:* ONT::REPTILE W::SAURIAN) :MOD ONT::V182653 :MOD
+  ONT::V182853 :START 0 :END 30)
+ (ONT::F ONT::V182653 (:* ONT::LARGE W::LARGE) :ORIENTATION ONT::MORE
+  :INTENSITY ONT::MED :FIGURE ONT::V182677 :SCALE ONT::SIZE-SCALE :START 2 :END
+  8)
+ (ONT::F ONT::V182853 ONT::COLOR-VAL :SEQUENCE (ONT::V182656 ONT::V182669)
+  :OPERATOR ONT::AND :START 8 :END 22)
+ (ONT::F ONT::V182656 (:* ONT::BLACK W::BLACK) :FIGURE ONT::V182677 :SCALE
+  ONT::BLACKNESS*1--07--00 :START 8 :END 14)
+ (ONT::F ONT::V182669 (:* ONT::RED W::RED) :FIGURE ONT::V182677 :SCALE
+  ONT::COLOR-SCALE :START 18 :END 22)
+ (ONT::F ONT::V182681 (:* ONT::ADJACENT W::NEXT-TO) :GROUND ONT::V182762
+  :FIGURE ONT::V182804 :START 30 :END 60)
+ (ONT::A ONT::V182762 (:* ONT::REPTILE W::SAURIAN) :MOD ONT::V182755 :MOD
+  ONT::V182758 :START 38 :END 60)
+ (ONT::F ONT::V182755 (:* ONT::SMALL W::SMALL) :ORIENTATION ONT::LESS
+  :INTENSITY ONT::MED :FIGURE ONT::V182762 :SCALE ONT::SIZE-SCALE :START 40
+  :END 46)
+ (ONT::F ONT::V182758 (:* ONT::BLACK W::BLACK) :FIGURE ONT::V182762 :SCALE
+  ONT::BLACKNESS*1--07--00 :START 46 :END 52)
+ (ONT::F ONT::V182768 (:* ONT::TIME-WEEKDAY-REL W::ON) :GROUND ONT::V182957
+  :FIGURE ONT::V182804 :START 60 :END 74)
+ (ONT::INDEF-SET ONT::V182957 ONT::ANY-SEM :SIZE ONT::SOME :MOD ONT::V182800
+  :START 63 :END 74)
+ (ONT::F ONT::V182800 (:* ONT::MODIFIER W::SANDY) :FIGURE ONT::V182957 :START
+  68 :END 74))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V187318">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V182804" />
+    <LF:start>0</LF:start>
+    <LF:end>80</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182804">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MOVE-BACK-AND-FORTH</LF:type>
+    <LF:word>ROCK</LF:word>
+    <role:AFFECTED rdf:resource="#V182677" />
+    <role:RESULT rdf:resource="#V182681" />
+    <role:TIME rdf:resource="#V182768" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>80</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182677">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>REPTILE</LF:type>
+    <LF:word>SAURIAN</LF:word>
+    <role:MOD rdf:resource="#V182653" />
+    <role:MOD rdf:resource="#V182853" />
+    <LF:start>0</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182653">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LARGE</LF:type>
+    <LF:word>LARGE</LF:word>
+    <role:ORIENTATION>MORE</role:ORIENTATION>
+    <role:INTENSITY>MED</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V182677" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>2</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182853">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>COLOR-VAL</LF:type>
+    <role:SEQUENCE rdf:resource="#V182656" />
+    <role:SEQUENCE1 rdf:resource="#V182669" />
+    <role:OPERATOR>AND</role:OPERATOR>
+    <LF:start>8</LF:start>
+    <LF:end>22</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182656">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLACK</LF:type>
+    <LF:word>BLACK</LF:word>
+    <role:FIGURE rdf:resource="#V182677" />
+    <role:SCALE>BLACKNESS*1--07--00</role:SCALE>
+    <LF:start>8</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182669">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RED</LF:type>
+    <LF:word>RED</LF:word>
+    <role:FIGURE rdf:resource="#V182677" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>18</LF:start>
+    <LF:end>22</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182681">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ADJACENT</LF:type>
+    <LF:word>NEXT-TO</LF:word>
+    <role:GROUND rdf:resource="#V182762" />
+    <role:FIGURE rdf:resource="#V182804" />
+    <LF:start>30</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182762">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>REPTILE</LF:type>
+    <LF:word>SAURIAN</LF:word>
+    <role:MOD rdf:resource="#V182755" />
+    <role:MOD rdf:resource="#V182758" />
+    <LF:start>38</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182755">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SMALL</LF:type>
+    <LF:word>SMALL</LF:word>
+    <role:ORIENTATION>LESS</role:ORIENTATION>
+    <role:INTENSITY>MED</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V182762" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>40</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182758">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLACK</LF:type>
+    <LF:word>BLACK</LF:word>
+    <role:FIGURE rdf:resource="#V182762" />
+    <role:SCALE>BLACKNESS*1--07--00</role:SCALE>
+    <LF:start>46</LF:start>
+    <LF:end>52</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182768">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TIME-WEEKDAY-REL</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V182957" />
+    <role:FIGURE rdf:resource="#V182804" />
+    <LF:start>60</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182957">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <role:SIZE>SOME</role:SIZE>
+    <role:MOD rdf:resource="#V182800" />
+    <LF:start>63</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V182800">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>SANDY</LF:word>
+    <role:FIGURE rdf:resource="#V182957" />
+    <LF:start>68</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

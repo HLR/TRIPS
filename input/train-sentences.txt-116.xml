@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Rock singer wearing yellow pants and a red T-shirt on a stage .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?62192:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V50487)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::T))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::T))
+                                                             (W::VAL (W::T))))
+                                           (W::LEX W::T) (W::SEM ?62190)
+                                           (W::TRANSFORM ?62191)))
+                                 (W::CASE ?62189:(W::SUB W::OBJ -))
+                                 (W::AGR ?62188) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V50487) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::T)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER50606))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?70477:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V50625)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?70475)
+                                           (W::TRANSFORM ?70476)))
+                                 (W::CASE ?70474:(W::SUB W::OBJ -))
+                                 (W::AGR ?70473) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V50625) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER50739))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?70805:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V50628)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?70803)
+                                           (W::TRANSFORM ?70804)))
+                                 (W::CASE ?70802:(W::SUB W::OBJ -))
+                                 (W::AGR ?70801) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V50628) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER50741))
+*last-utt-id*=NIL  utt-id+13
+*last-utt-id*=13  utt-id+NIL</debug><utt><words><lisp>(W::ROCK W::SINGER W::WEARING W::YELLOW W::PANTS W::AND W::A W::RED W::T
+ W::PUNC-MINUS W::SHIRT W::ON W::A W::STAGE W::PUNC-PERIOD)</lisp><word>ROCK</word><word>SINGER</word><word>WEARING</word><word>YELLOW</word><word>PANTS</word><word>AND</word><word>A</word><word>RED</word><word>T</word><word>PUNC-MINUS</word><word>SHIRT</word><word>ON</word><word>A</word><word>STAGE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Rock&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GEOGRAPHIC-REGION)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;singer&quot; :FRAME (5 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Rock singer&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  24.942 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wearing&quot; :FRAME (12 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;yellow&quot; :FRAME (20 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pants&quot; :FRAME (27 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;yellow pants&quot; :FRAME (20 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 21.82 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (33 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (37 38) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (39 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;T&quot; :FRAME (43 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (SYM) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (44 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;shirt&quot; :FRAME (45 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;T-shirt&quot; :FRAME (43 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;T-shirt%1:06:00&quot;)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a red T-shirt&quot; :FRAME (37 50) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.292 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (51 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (54 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stage&quot; :FRAME (56 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a stage&quot; :FRAME (54 61) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.888 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on a stage&quot; :FRAME (51 61) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  15.392 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a red T-shirt on a stage&quot; :FRAME (37 61) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 39.345 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;yellow pants and a red T-shirt on a stage&quot; :FRAME (20 61) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 66.482 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;wearing yellow pants and a red T-shirt on a stage&quot; :FRAME (12 61)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 75.61 :UTTNUM 13 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (62 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Rock singer wearing yellow pants and a red T-shirt on a stage .&quot;
+  :FRAME (0 62) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 103.993 :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Rock" start="0" end="4"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="singer" start="5" end="11"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="Rock singer" start="0" end="11" penn-cats="NP" score="24.942" /><word lex="wearing" start="12" end="19"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="yellow" start="20" end="26"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="pants" start="27" end="32"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="yellow pants" start="20" end="32" penn-cats="NP" score="21.82" /><word lex="and" start="33" end="36"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="37" end="38"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="39" end="42"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="T" start="43" end="43"><sense-info penn-parts-of-speech="SYM" trips-parts-of-speech="PUNC" /></word><word lex="-" start="44" end="44"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="shirt" start="45" end="50"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="T-shirt" start="43" end="50"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="T-shirt%1:06:00" /></word><prefer text="a red T-shirt" start="37" end="50" penn-cats="NP" score="23.292" /><word lex="on" start="51" end="53"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="54" end="55"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="stage" start="56" end="61"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a stage" start="54" end="61" penn-cats="NP" score="11.888" /><prefer text="on a stage" start="51" end="61" penn-cats="PP" score="15.392" /><prefer text="a red T-shirt on a stage" start="37" end="61" penn-cats="NP" score="39.345" /><prefer text="yellow pants and a red T-shirt on a stage" start="20" end="61" penn-cats="NP" score="66.482" /><prefer text="wearing yellow pants and a red T-shirt on a stage" start="12" end="61" penn-cats="VP" score="75.61" /><word lex="." start="62" end="62"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Rock singer wearing yellow pants and a red T-shirt on a stage ." start="0" end="62" penn-cats="NP" score="103.993" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1 (N1 (NP (NAME ROCK)) (N1 (N SINGER)))
+    (CP
+     (VP
+      (VP- (V WEARING)
+       (NP (NP (N1 (ADJP (ADJ1 (ADJ YELLOW))) (N1 (N PANTS)))) (CONJ AND)
+        (NP (SPEC (DET (ART A)))
+         (N1 (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N T PUNC-MINUS SHIRT)))
+          (ADVBL (ADV ON) (NP (SPEC (DET (ART A))) (N1 (N STAGE)))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><NP><NAME>ROCK</NAME></NP><N1><N>SINGER</N></N1></N1><CP><VP><VP-><V>WEARING</V><NP><NP><N1><ADJP><ADJ1><ADJ>YELLOW</ADJ></ADJ1></ADJP><N1><N>PANTS</N></N1></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>T PUNC-MINUS SHIRT</N></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>STAGE</N></N1></NP></ADVBL></N1></NP></NP></VP-></VP></CP></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V50829"><lisp>((ONT::SPEECHACT ONT::V50829 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V49580 :START 0 :END 62)
+ (ONT::BARE ONT::V49580 (:* ONT::PERSON W::SINGER) :ASSOC-WITH ONT::V49574 :MOD
+  ONT::V49586 :START 0 :END 62)
+ (ONT::THE ONT::V49574 (:* ONT::GEOGRAPHIC-REGION W::ROCK) :NAME-OF (W::ROCK)
+  :START 0 :END 5)
+ (ONT::F ONT::V49586 (:* ONT::WEAR W::WEAR) :AGENT ONT::V49580 :NEUTRAL
+  ONT::V49604 :VFORM W::ING :START 12 :END 62)
+ (ONT::INDEF-SET ONT::V49604 ONT::ATTIRE :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V49597 ONT::V49686) :START 20 :END 62)
+ (ONT::BARE ONT::V49597 (:* ONT::ATTIRE W::PANTS) :MOD ONT::V49592 :START 20
+  :END 33)
+ (ONT::F ONT::V49592 (:* ONT::YELLOW W::YELLOW) :FIGURE ONT::V49597 :SCALE
+  ONT::YELLOW*1--07--00 :START 20 :END 27)
+ (ONT::A ONT::V49686 (:* ONT::ATTIRE W::T-PUNC-MINUS-SHIRT) :LOCATION
+  ONT::V49694 :MOD ONT::V49654 :START 37 :END 62 :WNSENSE &quot;T-shirt%1:06:00&quot;)
+ (ONT::F ONT::V49654 (:* ONT::RED W::RED) :FIGURE ONT::V49686 :SCALE
+  ONT::COLOR-SCALE :START 39 :END 43)
+ (ONT::F ONT::V49694 (:* ONT::ON W::ON) :GROUND ONT::V49763 :FIGURE ONT::V49686
+  :START 51 :END 62)
+ (ONT::A ONT::V49763 (:* ONT::LEVEL W::STAGE) :START 54 :END 62))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V50829">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V49580" />
+    <LF:start>0</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49580">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>SINGER</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V49574" />
+    <role:MOD rdf:resource="#V49586" />
+    <LF:start>0</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49574">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GEOGRAPHIC-REGION</LF:type>
+    <LF:word>ROCK</LF:word>
+    <role:NAME-OF>(ROCK)</role:NAME-OF>
+    <LF:start>0</LF:start>
+    <LF:end>5</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49586">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V49580" />
+    <role:NEUTRAL rdf:resource="#V49604" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>12</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49604">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V49597" />
+    <role:SEQUENCE1 rdf:resource="#V49686" />
+    <LF:start>20</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49597">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>PANTS</LF:word>
+    <role:MOD rdf:resource="#V49592" />
+    <LF:start>20</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49592">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>YELLOW</LF:type>
+    <LF:word>YELLOW</LF:word>
+    <role:FIGURE rdf:resource="#V49597" />
+    <role:SCALE>YELLOW*1--07--00</role:SCALE>
+    <LF:start>20</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49686">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>T-PUNC-MINUS-SHIRT</LF:word>
+    <role:LOCATION rdf:resource="#V49694" />
+    <role:MOD rdf:resource="#V49654" />
+    <LF:start>37</LF:start>
+    <LF:end>62</LF:end>
+    <role:WNSENSE>T-shirt%1:06:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49654">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RED</LF:type>
+    <LF:word>RED</LF:word>
+    <role:FIGURE rdf:resource="#V49686" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>39</LF:start>
+    <LF:end>43</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49694">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V49763" />
+    <role:FIGURE rdf:resource="#V49686" />
+    <LF:start>51</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V49763">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>LEVEL</LF:type>
+    <LF:word>STAGE</LF:word>
+    <LF:start>54</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

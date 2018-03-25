@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="tourists are standing at the entrance of classroom .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+10
+*last-utt-id*=10  utt-id+NIL</debug><utt><words><lisp>(W::TOURISTS W::ARE W::STANDING W::AT W::THE W::ENTRANCE W::OF W::CLASSROOM
+ W::PUNC-PERIOD)</lisp><word>TOURISTS</word><word>ARE</word><word>STANDING</word><word>AT</word><word>THE</word><word>ENTRANCE</word><word>OF</word><word>CLASSROOM</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;tourists&quot; :FRAME (0 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 10
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tourists&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.743 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (9 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 10
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (13 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 10
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (22 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (25 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;entrance&quot; :FRAME (29 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 10
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the entrance&quot; :FRAME (25 37) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.401 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (38 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;classroom&quot; :FRAME (41 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 10
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;classroom&quot; :FRAME (41 50) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.585 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of classroom&quot; :FRAME (38 50) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 13.652 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the entrance of classroom&quot; :FRAME (25 50) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 28.594 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at the entrance of classroom&quot; :FRAME (22 50) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 32.904 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;standing at the entrance of classroom&quot; :FRAME (13 50) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 42.078 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;are standing at the entrance of classroom&quot; :FRAME (9 50) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 46.442 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (51 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tourists are standing at the entrance of classroom .&quot; :FRAME (0 51)
+  :PENN-CATS (S) :SCORE 58.326 :UTTNUM 10 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="tourists" start="0" end="8"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="tourists" start="0" end="8" penn-cats="NP" score="10.743" /><word lex="are" start="9" end="12"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="13" end="21"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="22" end="24"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="25" end="28"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="entrance" start="29" end="37"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the entrance" start="25" end="37" penn-cats="NP" score="14.401" /><word lex="of" start="38" end="40"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="classroom" start="41" end="50"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="classroom" start="41" end="50" penn-cats="NP" score="12.585" /><prefer text="of classroom" start="38" end="50" penn-cats="PP" score="13.652" /><prefer text="the entrance of classroom" start="25" end="50" penn-cats="NP" score="28.594" /><prefer text="at the entrance of classroom" start="22" end="50" penn-cats="PP" score="32.904" /><prefer text="standing at the entrance of classroom" start="13" end="50" penn-cats="VP" score="42.078" /><prefer text="are standing at the entrance of classroom" start="9" end="50" penn-cats="VP" score="46.442" /><word lex="." start="51" end="51"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="tourists are standing at the entrance of classroom ." start="0" end="51" penn-cats="S" score="58.326" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (N1 (N TOURISTS)))
+   (VP
+    (VP- (AUX (V ARE))
+     (VP- (VP- (V STANDING))
+      (ADVBL (ADV AT)
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N ENTRANCE) (PP (PREP OF) (NP (N1 (N CLASSROOM))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N>TOURISTS</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>STANDING</V></VP-><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>ENTRANCE</N><PP><PREP>OF</PREP><NP><N1><N>CLASSROOM</N></N1></NP></PP></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V66378"><lisp>((ONT::SPEECHACT ONT::V66378 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V65642 :START 0 :END 51)
+ (ONT::F ONT::V65642 (:* ONT::BE-AT-LOC W::STAND) :NEUTRAL ONT::V65618
+  :LOCATION ONT::V65653 :TENSE W::PRES :PROGR + :START 0 :END 51)
+ (ONT::INDEF-SET ONT::V65618 (:* ONT::TRAVELLER W::TOURISTS) :START 0 :END 9)
+ (ONT::F ONT::V65653 (:* ONT::AT-LOC W::AT) :GROUND ONT::V65675 :FIGURE
+  ONT::V65642 :START 22 :END 51)
+ (ONT::THE ONT::V65675 (:* ONT::EXIT W::ENTRANCE) :FIGURE ONT::V65687 :START 25
+  :END 51)
+ (ONT::BARE ONT::V65687 (:* ONT::INTERNAL-ENCLOSURE W::CLASSROOM) :START 38
+  :END 51))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V66378">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V65642" />
+    <LF:start>0</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V65642">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE-AT-LOC</LF:type>
+    <LF:word>STAND</LF:word>
+    <role:NEUTRAL rdf:resource="#V65618" />
+    <role:LOCATION rdf:resource="#V65653" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V65618">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>TRAVELLER</LF:type>
+    <LF:word>TOURISTS</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V65653">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V65675" />
+    <role:FIGURE rdf:resource="#V65642" />
+    <LF:start>22</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V65675">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>EXIT</LF:type>
+    <LF:word>ENTRANCE</LF:word>
+    <role:FIGURE rdf:resource="#V65687" />
+    <LF:start>25</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V65687">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>INTERNAL-ENCLOSURE</LF:type>
+    <LF:word>CLASSROOM</LF:word>
+    <LF:start>38</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

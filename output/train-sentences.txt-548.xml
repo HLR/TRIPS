@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl w</TEXT>
+   <RELATION id="1" head="V233284" res="V233257" label="MOD"/>
+   <RELATION id="2" head="V233284" res="V233281" label="MOD"/>
+   <PHRASE id="V233257" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V233257" res="V233284" label="FIGURE"/>
+   <PHRASE id="V233281" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V233281" res="V233284" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="34" end="137">
+   <TEXT>wearing a green and white pullover and carrying a backpack with pink straps is standing in a classroom .</TEXT>
+   <RELATION id="5" head="V237796" res="V233458" label="CONTENT"/>
+   <PHRASE id="V233458" indicator="F" type="BE" text="BE" TENSE="PRES" start="34" end="137"/>
+   <RELATION id="6" head="V233458" res="V233767" label="NEUTRAL"/>
+   <RELATION id="7" head="V233458" res="V233475" label="NEUTRAL1"/>
+   <PHRASE id="V233767" indicator="BARE" type="EVENT-OF-ACTION" OPERATOR="AND" start="34" end="110"/>
+   <RELATION id="8" head="V233767" res="V233290" label="SEQUENCE"/>
+   <RELATION id="9" head="V233767" res="V233374" label="SEQUENCE1"/>
+   <PHRASE id="V233374" indicator="F" type="TRANSPORT" text="CARRY" start="34" end="110"/>
+   <RELATION id="10" head="V233374" res="V233421" label="AFFECTED"/>
+   <PHRASE id="V233290" indicator="F" type="WEAR" text="WEAR" start="34" end="110"/>
+   <RELATION id="11" head="V233290" res="V233360" label="NEUTRAL"/>
+   <PHRASE id="V233360" indicator="A" type="ATTIRE" text="PULLOVER" start="42" end="69"/>
+   <RELATION id="12" head="V233360" res="V233660" label="MOD"/>
+   <PHRASE id="V233660" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="44" end="60"/>
+   <RELATION id="13" head="V233660" res="V233337" label="SEQUENCE"/>
+   <RELATION id="14" head="V233660" res="V233352" label="SEQUENCE1"/>
+   <PHRASE id="V233337" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="44" end="50"/>
+   <RELATION id="15" head="V233337" res="V233360" label="FIGURE"/>
+   <PHRASE id="V233352" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="54" end="60"/>
+   <RELATION id="16" head="V233352" res="V233360" label="FIGURE"/>
+   <PHRASE id="V233421" indicator="A" type="SMALL-CONTAINER" text="BACKPACK" start="82" end="110"/>
+   <RELATION id="17" head="V233421" res="V233426" label="MOD"/>
+   <PHRASE id="V233426" indicator="F" type="ASSOC-WITH" text="WITH" start="93" end="110"/>
+   <RELATION id="18" head="V233426" res="V233446" label="GROUND"/>
+   <RELATION id="19" head="V233426" res="V233421" label="FIGURE"/>
+   <PHRASE id="V233446" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" text="STRAPS" start="98" end="110"/>
+   <RELATION id="20" head="V233446" res="V233438" label="MOD"/>
+   <PHRASE id="V233438" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="98" end="103"/>
+   <RELATION id="21" head="V233438" res="V233446" label="FIGURE"/>
+   <PHRASE id="V233475" indicator="BARE" type="BE-AT-LOC" text="STAND" start="113" end="137"/>
+   <RELATION id="22" head="V233475" res="V233484" label="LOCATION"/>
+   <PHRASE id="V233484" indicator="F" type="IN-LOC" text="IN" start="122" end="137"/>
+   <RELATION id="23" head="V233484" res="V233586" label="GROUND"/>
+   <RELATION id="24" head="V233484" res="V233475" label="FIGURE"/>
+   <PHRASE id="V233586" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="125" end="137"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

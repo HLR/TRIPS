@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one boy is holding a sweeper .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+22
+*last-utt-id*=22  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::BOY W::IS W::HOLDING W::A W::SWEEPER W::PUNC-PERIOD)</lisp><word>ONE</word><word>BOY</word><word>IS</word><word>HOLDING</word><word>A</word><word>SWEEPER</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;boy&quot; :FRAME (4 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one boy&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  18.822 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (8 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;holding&quot; :FRAME (11 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (19 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sweeper&quot; :FRAME (21 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 22
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a sweeper&quot; :FRAME (19 28) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.553 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;holding a sweeper&quot; :FRAME (11 28) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 22.92 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is holding a sweeper&quot; :FRAME (8 28) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 27.18 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (29 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one boy is holding a sweeper .&quot; :FRAME (0 29) :PENN-CATS (S) :SCORE
+  47.144 :UTTNUM 22 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="boy" start="4" end="7"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one boy" start="0" end="7" penn-cats="NP" score="18.822" /><word lex="is" start="8" end="10"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="holding" start="11" end="18"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="19" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="sweeper" start="21" end="28"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a sweeper" start="19" end="28" penn-cats="NP" score="15.553" /><prefer text="holding a sweeper" start="11" end="28" penn-cats="VP" score="22.92" /><prefer text="is holding a sweeper" start="8" end="28" penn-cats="VP" score="27.18" /><word lex="." start="29" end="29"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one boy is holding a sweeper ." start="0" end="29" penn-cats="S" score="47.144" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (NUMBER ONE)) (N1 (N BOY)))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V HOLDING) (NP (SPEC (DET (ART A))) (N1 (N SWEEPER))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>BOY</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>HOLDING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>SWEEPER</N></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V79077"><lisp>((ONT::SPEECHACT ONT::V79077 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V78841 :START 0 :END 29)
+ (ONT::F ONT::V78841 (:* ONT::BODY-MANIPULATION W::HOLD) :AGENT ONT::V78817
+  :AFFECTED ONT::V78893 :TENSE W::PRES :PROGR + :START 0 :END 29)
+ (ONT::A ONT::V78817 (:* ONT::MALE-CHILD W::BOY) :SIZE ONT::V78904 :START 0
+  :END 8)
+ (ONT::A ONT::V78904 ONT::NUMBER :VALUE 1 :START 0 :END 8)
+ (ONT::A ONT::V78893 (:* ONT::PERSON W::SWEEPER) :START 19 :END 29))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V79077">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V78841" />
+    <LF:start>0</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V78841">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MANIPULATION</LF:type>
+    <LF:word>HOLD</LF:word>
+    <role:AGENT rdf:resource="#V78817" />
+    <role:AFFECTED rdf:resource="#V78893" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V78817">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>MALE-CHILD</LF:type>
+    <LF:word>BOY</LF:word>
+    <role:SIZE rdf:resource="#V78904" />
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V78904">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V78893">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>SWEEPER</LF:word>
+    <LF:start>19</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

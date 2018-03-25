@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-skinned , dark-haired girl , wearing a skirt and a dark vest , is standing in front of a house .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+58
+*last-utt-id*=58  utt-id+58
+*last-utt-id*=58  utt-id+58
+*last-utt-id*=58  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::DARK W::PUNC-MINUS W::SKINNED)</lisp><word>DARK</word><word>PUNC-MINUS</word><word>SKINNED</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;skinned&quot; :FRAME (7 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark-skinned&quot; :FRAME (2 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;dark-skinned%5:00:00&quot;)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (15 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="skinned" start="7" end="14"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="dark-skinned" start="2" end="14"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-skinned%5:00:00" /></word><word lex="," start="15" end="16"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(DET (ART A))</lisp><DET><ART>A</ART></DET></tree><terms root="#V350634"><lisp>((ONT::F ONT::V350634 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-SKINNED) :START 2
+  :END 15 :WNSENSE &quot;dark-skinned%5:00:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V350634">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>DARK-PUNC-MINUS-SKINNED</LF:word>
+    <LF:start>2</LF:start>
+    <LF:end>15</LF:end>
+    <role:WNSENSE>dark-skinned%5:00:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::DARK W::PUNC-MINUS W::HAIRED W::GIRL W::PUNC-COMMA)</lisp><word>DARK</word><word>PUNC-MINUS</word><word>HAIRED</word><word>GIRL</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;dark&quot; :FRAME (17 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (21 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;haired&quot; :FRAME (22 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark-haired&quot; :FRAME (17 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;dark-haired%5:00:00&quot;)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;girl&quot; :FRAME (29 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a dark-skinned , dark-haired girl&quot; :FRAME (0 33) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 41.32 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;,&quot; :FRAME (34 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="dark" start="17" end="20"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="-" start="21" end="21"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="haired" start="22" end="28"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-haired" start="17" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-haired%5:00:00" /></word><word lex="girl" start="29" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-skinned , dark-haired girl" start="0" end="33" penn-cats="NP" score="41.32" /><word lex="," start="34" end="35"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(ADJP (ADJ1 (ADJ DARK PUNC-MINUS SKINNED)))</lisp><ADJP><ADJ1><ADJ>DARK PUNC-MINUS SKINNED</ADJ></ADJ1></ADJP></tree><terms root="#V350661"><lisp>((ONT::BARE ONT::V350661 (:* ONT::FEMALE-CHILD W::GIRL) :MOD ONT::V350658
+  :START 17 :END 36)
+ (ONT::F ONT::V350658 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-HAIRED) :FIGURE
+  ONT::V350661 :START 17 :END 29 :WNSENSE &quot;dark-haired%5:00:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V350661">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>FEMALE-CHILD</LF:type>
+    <LF:word>GIRL</LF:word>
+    <role:MOD rdf:resource="#V350658" />
+    <LF:start>17</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350658">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>DARK-PUNC-MINUS-HAIRED</LF:word>
+    <role:FIGURE rdf:resource="#V350661" />
+    <LF:start>17</LF:start>
+    <LF:end>29</LF:end>
+    <role:WNSENSE>dark-haired%5:00:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::WEARING W::A W::SKIRT W::AND W::A W::DARK W::VEST W::PUNC-COMMA W::IS
+ W::STANDING W::IN W::FRONT W::OF W::A W::HOUSE W::PUNC-PERIOD)</lisp><word>WEARING</word><word>A</word><word>SKIRT</word><word>AND</word><word>A</word><word>DARK</word><word>VEST</word><word>PUNC-COMMA</word><word>IS</word><word>STANDING</word><word>IN</word><word>FRONT</word><word>OF</word><word>A</word><word>HOUSE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;wearing&quot; :FRAME (36 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (44 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;skirt&quot; :FRAME (46 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a skirt&quot; :FRAME (44 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  13.978 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (52 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (56 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (58 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;vest&quot; :FRAME (63 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a dark vest&quot; :FRAME (56 67) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 24.932 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a skirt and a dark vest&quot; :FRAME (44 67) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 42.8 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wearing a skirt and a dark vest&quot; :FRAME (36 67) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 51.928 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;,&quot; :FRAME (68 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a dark-skinned , dark-haired girl , wearing a skirt and a dark vest ,&quot;
+  :FRAME (0 69) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 97.235 :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (70 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (73 81) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (82 84) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing in&quot; :FRAME (73 84) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;stand_in%2:40:00&quot;)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;front&quot; :FRAME (85 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front&quot; :FRAME (85 90) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.944 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in front&quot; :FRAME (82 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;in_front%4:02:00&quot;)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (91 93) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (94 95) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;house&quot; :FRAME (96 101) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a house&quot; :FRAME (94 101) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.534 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a house&quot; :FRAME (91 101) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 11.601 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front of a house&quot; :FRAME (85 101) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.087 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in front of a house&quot; :FRAME (82 101) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 26.295 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;standing in front of a house&quot; :FRAME (73 101) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 35.469 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is standing in front of a house&quot; :FRAME (70 101) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 39.729 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (102 102) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a dark-skinned , dark-haired girl , wearing a skirt and a dark vest , is standing in front of a house .&quot;
+  :FRAME (0 102) :PENN-CATS (S) :SCORE 140.482 :UTTNUM 58 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="wearing" start="36" end="43"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="44" end="45"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="skirt" start="46" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a skirt" start="44" end="51" penn-cats="NP" score="13.978" /><word lex="and" start="52" end="55"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="56" end="57"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="58" end="62"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="vest" start="63" end="67"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark vest" start="56" end="67" penn-cats="NP" score="24.932" /><prefer text="a skirt and a dark vest" start="44" end="67" penn-cats="NP" score="42.8" /><prefer text="wearing a skirt and a dark vest" start="36" end="67" penn-cats="VP" score="51.928" /><word lex="," start="68" end="69"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-skinned , dark-haired girl , wearing a skirt and a dark vest ," start="0" end="69" penn-cats="NP" score="97.235" /><word lex="is" start="70" end="72"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="standing" start="73" end="81"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="82" end="84"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="standing in" start="73" end="84"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="front" start="85" end="90"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="85" end="90" penn-cats="NP" score="10.944" /><word lex="in front" start="82" end="90"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="91" end="93"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="94" end="95"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="house" start="96" end="101"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a house" start="94" end="101" penn-cats="NP" score="10.534" /><prefer text="of a house" start="91" end="101" penn-cats="PP" score="11.601" /><prefer text="front of a house" start="85" end="101" penn-cats="NP" score="23.087" /><prefer text="in front of a house" start="82" end="101" penn-cats="PP" score="26.295" /><prefer text="standing in front of a house" start="73" end="101" penn-cats="VP" score="35.469" /><prefer text="is standing in front of a house" start="70" end="101" penn-cats="VP" score="39.729" /><word lex="." start="102" end="102"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-skinned , dark-haired girl , wearing a skirt and a dark vest , is standing in front of a house ." start="0" end="102" penn-cats="S" score="140.482" /></tags><tree><lisp>(PUNC PUNC-COMMA)</lisp><PUNC>PUNC-COMMA</PUNC></tree><terms root="#V352053"><lisp>((ONT::SPEECHACT ONT::V352053 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V350797 :START 36 :END 102)
+ (ONT::F ONT::V350797 (:* ONT::BE W::BE) :NEUTRAL ONT::V350670 :NEUTRAL1
+  ONT::V350814 :TENSE W::PRES :START 36 :END 102)
+ (ONT::BARE ONT::V350670 (:* ONT::WEAR W::WEAR) :NEUTRAL ONT::V350727 :START 36
+  :END 70)
+ (ONT::INDEF-SET ONT::V350727 ONT::ATTIRE :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V350720 ONT::V350785) :START 44 :END 68)
+ (ONT::A ONT::V350720 (:* ONT::ATTIRE W::SKIRT) :START 44 :END 52)
+ (ONT::A ONT::V350785 (:* ONT::ATTIRE W::VEST) :MOD ONT::V350777 :START 56 :END
+  68)
+ (ONT::F ONT::V350777 (:* ONT::DARK-VAL W::DARK) :FIGURE ONT::V350785 :START 58
+  :END 63)
+ (ONT::BARE ONT::V350814 (:* ONT::BE-AT-LOC W::STAND) :LOCATION ONT::V350823
+  :START 73 :END 102)
+ (ONT::F ONT::V350823 (:* ONT::IN-LOC W::IN) :GROUND ONT::V350884 :FIGURE
+  ONT::V350814 :START 82 :END 102)
+ (ONT::BARE ONT::V350884 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+  ONT::V350989 :START 85 :END 102)
+ (ONT::A ONT::V350989 (:* ONT::LODGING W::HOUSE) :START 91 :END 102))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V352053">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V350797" />
+    <LF:start>36</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350797">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V350670" />
+    <role:NEUTRAL1 rdf:resource="#V350814" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>36</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350670">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:NEUTRAL rdf:resource="#V350727" />
+    <LF:start>36</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350727">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V350720" />
+    <role:SEQUENCE1 rdf:resource="#V350785" />
+    <LF:start>44</LF:start>
+    <LF:end>68</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350720">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>SKIRT</LF:word>
+    <LF:start>44</LF:start>
+    <LF:end>52</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350785">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>VEST</LF:word>
+    <role:MOD rdf:resource="#V350777" />
+    <LF:start>56</LF:start>
+    <LF:end>68</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350777">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DARK-VAL</LF:type>
+    <LF:word>DARK</LF:word>
+    <role:FIGURE rdf:resource="#V350785" />
+    <LF:start>58</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350814">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BE-AT-LOC</LF:type>
+    <LF:word>STAND</LF:word>
+    <role:LOCATION rdf:resource="#V350823" />
+    <LF:start>73</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350823">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V350884" />
+    <role:FIGURE rdf:resource="#V350814" />
+    <LF:start>82</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350884">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>FRONT</LF:word>
+    <role:FIGURE rdf:resource="#V350989" />
+    <LF:start>85</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V350989">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>LODGING</LF:type>
+    <LF:word>HOUSE</LF:word>
+    <LF:start>91</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

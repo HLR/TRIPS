@@ -1,0 +1,332 @@
+2,292c2,39
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="all the kids are sitting at their desks , some of them turned around to look at the camera .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+15
+< *last-utt-id*=15  utt-id+NIL
+< *last-utt-id*=NIL  utt-id+15
+< *last-utt-id*=15  utt-id+NIL</debug><utt><words><lisp>(W::ALL W::THE W::KIDS W::ARE W::SITTING W::AT W::THEIR W::DESKS W::PUNC-COMMA)</lisp><word>ALL</word><word>THE</word><word>KIDS</word><word>ARE</word><word>SITTING</word><word>AT</word><word>THEIR</word><word>DESKS</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;all&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT PDT) :TRIPS-PARTS-OF-SPEECH
+<     (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (4 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (8 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;all the kids&quot; :FRAME (0 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 17.291 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (13 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (17 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (25 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;their&quot; :FRAME (28 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;desks&quot; :FRAME (34 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;their desks&quot; :FRAME (28 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.982 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at their desks&quot; :FRAME (25 39) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 18.31 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting at their desks&quot; :FRAME (17 39) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 27.007 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are sitting at their desks&quot; :FRAME (13 39) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 31.37 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;all the kids are sitting at their desks&quot; :FRAME (0 39) :PENN-CATS (S)
+<   :SCORE 49.217 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (40 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="all" start="0" end="3"><sense-info penn-parts-of-speech="DT,PDT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="the" start="4" end="7"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="kids" start="8" end="12"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="all the kids" start="0" end="12" penn-cats="NP" score="17.291" /><word lex="are" start="13" end="16"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="17" end="24"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="25" end="27"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="their" start="28" end="33"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="desks" start="34" end="39"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="their desks" start="28" end="39" penn-cats="NP" score="14.982" /><prefer text="at their desks" start="25" end="39" penn-cats="PP" score="18.31" /><prefer text="sitting at their desks" start="17" end="39" penn-cats="VP" score="27.007" /><prefer text="are sitting at their desks" start="13" end="39" penn-cats="VP" score="31.37" /><prefer text="all the kids are sitting at their desks" start="0" end="39" penn-cats="S" score="49.217" /><word lex="," start="40" end="40"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (SPEC (QUAN ALL)) (NP (SPEC (DET (ART THE))) (N1 (N KIDS))))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (VP- (V SITTING))
+<       (ADVBL (ADV AT)
+<        (NP (SPEC (DET (POSSESSOR (PRO THEIR)))) (N1 (N DESKS)))))))))
+<  (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><SPEC><QUAN>ALL</QUAN></SPEC><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>KIDS</N></N1></NP></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>AT</ADV><NP><SPEC><DET><POSSESSOR><PRO>THEIR</PRO></POSSESSOR></DET></SPEC><N1><N>DESKS</N></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V91289"><lisp>((ONT::SPEECHACT ONT::V91289 ONT::SA_TELL :CONTENT ONT::V90627 :START 0 :END
+<   40)
+<  (ONT::F ONT::V90627 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V90644
+<   :AGENT ONT::V90681 :TENSE W::PRES :PROGR + :START 0 :END 40)
+<  (ONT::QUANTIFIER ONT::V90681 (:* ONT::CHILD W::KID) :REFSET ONT::V90601 :QUAN
+<   ONT::UNIVERSAL :START 0 :END 13)
+<  (ONT::THE-SET ONT::V90601 (:* ONT::CHILD W::KID) :START 4 :END 13)
+<  (ONT::F ONT::V90644 (:* ONT::AT-LOC W::AT) :GROUND ONT::V90659 :FIGURE
+<   ONT::V90681 :START 25 :END 40)
+<  (ONT::THE-SET ONT::V90659 (:* ONT::FURNISHINGS W::DESK) :ASSOC-POSS
+<   ONT::V90656 :START 28 :END 40)
+<  (ONT::PRO ONT::V90656 (:* ONT::REFERENTIAL-SEM W::THEIR) :PROFORM W::THEIR
+<   :START 28 :END 40 :COREF ONT::V90601))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V91289">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V90627" />
+<     <LF:start>0</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V90627">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:RESULT rdf:resource="#V90644" />
+<     <role:AGENT rdf:resource="#V90681" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V90681">
+<     <LF:indicator>QUANTIFIER</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:REFSET rdf:resource="#V90601" />
+<     <role:QUAN>UNIVERSAL</role:QUAN>
+<     <LF:start>0</LF:start>
+<     <LF:end>13</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V90601">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <LF:start>4</LF:start>
+<     <LF:end>13</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V90644">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V90659" />
+<     <role:FIGURE rdf:resource="#V90681" />
+<     <LF:start>25</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V90659">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>DESK</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V90656" />
+<     <LF:start>28</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V90656">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEIR</LF:word>
+<     <role:PROFORM>THEIR</role:PROFORM>
+<     <LF:start>28</LF:start>
+<     <LF:end>40</LF:end>
+<     <role:COREF rdf:resource="#V90601" />
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::SOME W::OF W::THEM W::TURNED W::AROUND W::TO W::LOOK W::AT W::THE W::CAMERA
+<  W::PUNC-PERIOD)</lisp><word>SOME</word><word>OF</word><word>THEM</word><word>TURNED</word><word>AROUND</word><word>TO</word><word>LOOK</word><word>AT</word><word>THE</word><word>CAMERA</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;some&quot; :FRAME (42 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some&quot; :FRAME (42 46) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 6.574
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (47 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;them&quot; :FRAME (50 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;them&quot; :FRAME (50 54) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.534
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of them&quot; :FRAME (47 54) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   8.602 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some of them&quot; :FRAME (42 54) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 15.543 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;turned&quot; :FRAME (55 61) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;around&quot; :FRAME (62 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;around&quot; :FRAME (62 68) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   4.777 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;turned around&quot; :FRAME (55 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;turn_around%2:30:00&quot; &quot;turn_around%2:30:12&quot; &quot;turn_around%2:38:00&quot;))
+<    (:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;turn_around%2:30:00&quot; &quot;turn_around%2:30:12&quot; &quot;turn_around%2:38:00&quot;)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;to&quot; :FRAME (69 71) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;look&quot; :FRAME (72 76) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (77 79) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;look at&quot; :FRAME (72 79) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;look_at%2:31:00&quot; &quot;look_at%2:39:01&quot;)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (80 83) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;camera&quot; :FRAME (84 90) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 15
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the camera&quot; :FRAME (80 90) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.042 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at the camera&quot; :FRAME (77 90) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.37 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;look at the camera&quot; :FRAME (72 90) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 23.927 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to look at the camera&quot; :FRAME (69 90) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 23.957 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to look at the camera&quot; :FRAME (69 90) :PENN-CATS (S) :SCORE 24.221
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;turned around to look at the camera&quot; :FRAME (55 90) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 43.275 :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (91 91) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 15 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="some" start="42" end="46"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><prefer text="some" start="42" end="46" penn-cats="NP" score="6.574" /><word lex="of" start="47" end="49"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="them" start="50" end="54"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="them" start="50" end="54" penn-cats="NP" score="7.534" /><prefer text="of them" start="47" end="54" penn-cats="PP" score="8.602" /><prefer text="some of them" start="42" end="54" penn-cats="NP" score="15.543" /><word lex="turned" start="55" end="61"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="around" start="62" end="68"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="around" start="62" end="68" penn-cats="PRT" score="4.777" /><word lex="turned around" start="55" end="68"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" wn-sense-keys="turn_around%2:30:00,turn_around%2:30:12,turn_around%2:38:00" /><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" wn-sense-keys="turn_around%2:30:00,turn_around%2:30:12,turn_around%2:38:00" /></word><word lex="to" start="69" end="71"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="look" start="72" end="76"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><word lex="at" start="77" end="79"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="look at" start="72" end="79"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="look_at%2:31:00,look_at%2:39:01" /></word><word lex="the" start="80" end="83"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="camera" start="84" end="90"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the camera" start="80" end="90" penn-cats="NP" score="12.042" /><prefer text="at the camera" start="77" end="90" penn-cats="PP" score="15.37" /><prefer text="look at the camera" start="72" end="90" penn-cats="VP" score="23.927" /><prefer text="to look at the camera" start="69" end="90" penn-cats="VP" score="23.957" /><prefer text="to look at the camera" start="69" end="90" penn-cats="S" score="24.221" /><prefer text="turned around to look at the camera" start="55" end="90" penn-cats="VP" score="43.275" /><word lex="." start="91" end="91"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (SPEC (QUAN SOME)) (PP (PREP OF) (NP (PRO THEM))))
+<    (VP
+<     (VP- (VP- (V TURNED AROUND))
+<      (ADVBL (ADV TO)
+<       (VP
+<        (VP- (V LOOK)
+<         (PP (PREP AT) (NP (SPEC (DET (ART THE))) (N1 (N CAMERA)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><QUAN>SOME</QUAN></SPEC><PP><PREP>OF</PREP><NP><PRO>THEM</PRO></NP></PP></NP><VP><VP-><VP-><V>TURNED AROUND</V></VP-><ADVBL><ADV>TO</ADV><VP><VP-><V>LOOK</V><PP><PREP>AT</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>CAMERA</N></N1></NP></PP></VP-></VP></ADVBL></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V92929"><lisp>((ONT::SPEECHACT ONT::V92929 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V92254 :START 42 :END 91 :WNSENSE &quot;turn_around%2:30:00&quot;)
+<  (ONT::F ONT::V92254 (:* ONT::ROTATE W::TURNED-AROUND) :AGENT ONT::V92495
+<   :REASON ONT::V92270 :TENSE W::PAST :START 42 :END 91 :WNSENSE
+<   &quot;turn_around%2:30:00&quot;)
+<  (ONT::INDEF-SET ONT::V92495 (:* ONT::REFERENTIAL-SEM W::THEM) :REFSET
+<   ONT::V92207 :SIZE ONT::SOME :START 42 :END 55)
+<  (ONT::PRO-SET ONT::V92207 (:* ONT::REFERENTIAL-SEM W::THEM) :PROFORM W::THEM
+<   :START 47 :END 55 :COREF ONT::V92495)
+<  (ONT::F ONT::V92270 (:* ONT::PURPOSE W::TO) :GROUND ONT::V92304 :FIGURE
+<   ONT::V92254 :START 69 :END 91)
+<  (ONT::F ONT::V92304 (:* ONT::SCRUTINY W::LOOK) :NEUTRAL ONT::V92411 :VFORM
+<   W::BASE :START 72 :END 91)
+<  (ONT::THE ONT::V92411 (:* ONT::RECORDING-DEVICE W::CAMERA) :START 77 :END 91))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V92929">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V92254" />
+<     <LF:start>42</LF:start>
+<     <LF:end>91</LF:end>
+<     <role:WNSENSE>turn_around%2:30:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V92254">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ROTATE</LF:type>
+<     <LF:word>TURNED-AROUND</LF:word>
+<     <role:AGENT rdf:resource="#V92495" />
+<     <role:REASON rdf:resource="#V92270" />
+<     <role:TENSE>PAST</role:TENSE>
+<     <LF:start>42</LF:start>
+<     <LF:end>91</LF:end>
+<     <role:WNSENSE>turn_around%2:30:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V92495">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEM</LF:word>
+<     <role:REFSET rdf:resource="#V92207" />
+<     <role:SIZE>SOME</role:SIZE>
+<     <LF:start>42</LF:start>
+<     <LF:end>55</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V92207">
+<     <LF:indicator>PRO-SET</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEM</LF:word>
+<     <role:PROFORM>THEM</role:PROFORM>
+<     <LF:start>47</LF:start>
+<     <LF:end>55</LF:end>
+<     <role:COREF rdf:resource="#V92495" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V92270">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PURPOSE</LF:type>
+<     <LF:word>TO</LF:word>
+<     <role:GROUND rdf:resource="#V92304" />
+<     <role:FIGURE rdf:resource="#V92254" />
+<     <LF:start>69</LF:start>
+<     <LF:end>91</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V92304">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>SCRUTINY</LF:type>
+<     <LF:word>LOOK</LF:word>
+<     <role:NEUTRAL rdf:resource="#V92411" />
+<     <role:VFORM>BASE</role:VFORM>
+<     <LF:start>72</LF:start>
+<     <LF:end>91</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V92411">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>RECORDING-DEVICE</LF:type>
+<     <LF:word>CAMERA</LF:word>
+<     <LF:start>77</LF:start>
+<     <LF:end>91</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="40">
+>    <TEXT>all the kids are sitting at their desks ,</TEXT>
+>    <RELATION id="1" head="V91289" res="V90627" label="CONTENT"/>
+>    <PHRASE id="V90627" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="40"/>
+>    <RELATION id="2" head="V90627" res="V90644" label="RESULT"/>
+>    <RELATION id="3" head="V90627" res="V90681" label="AGENT"/>
+>    <PHRASE id="V90681" indicator="QUANTIFIER" type="CHILD" text="KID" QUAN="UNIVERSAL" start="0" end="13"/>
+>    <RELATION id="4" head="V90681" res="V90601" label="REFSET"/>
+>    <PHRASE id="V90601" indicator="THE-SET" type="CHILD" text="KID" start="4" end="13"/>
+>    <PHRASE id="V90644" indicator="F" type="AT-LOC" text="AT" start="25" end="40"/>
+>    <RELATION id="5" head="V90644" res="V90659" label="GROUND"/>
+>    <RELATION id="6" head="V90644" res="V90681" label="FIGURE"/>
+>    <PHRASE id="V90659" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="28" end="40"/>
+>    <RELATION id="7" head="V90659" res="V90656" label="ASSOC-POSS"/>
+>    <PHRASE id="V90656" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="28" end="40"/>
+>    <RELATION id="8" head="V90656" res="V90601" label="COREF"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="42" end="91" WNSENSE="turn_around%2:30:00">
+>    <TEXT>some of them turned around to look at the camera .</TEXT>
+>    <RELATION id="9" head="V92929" res="V92254" label="CONTENT"/>
+>    <PHRASE id="V92254" indicator="F" type="ROTATE" text="TURNED-AROUND" TENSE="PAST" start="42" end="91" WNSENSE="turn_around%2:30:00"/>
+>    <RELATION id="10" head="V92254" res="V92495" label="AGENT"/>
+>    <RELATION id="11" head="V92254" res="V92270" label="REASON"/>
+>    <PHRASE id="V92495" indicator="INDEF-SET" type="REFERENTIAL-SEM" text="THEM" SIZE="SOME" start="42" end="55"/>
+>    <RELATION id="12" head="V92495" res="V92207" label="REFSET"/>
+>    <PHRASE id="V92207" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="47" end="55"/>
+>    <RELATION id="13" head="V92207" res="V92495" label="COREF"/>
+>    <PHRASE id="V92270" indicator="F" type="PURPOSE" text="TO" start="69" end="91"/>
+>    <RELATION id="14" head="V92270" res="V92304" label="GROUND"/>
+>    <RELATION id="15" head="V92270" res="V92254" label="FIGURE"/>
+>    <PHRASE id="V92304" indicator="F" type="SCRUTINY" text="LOOK" VFORM="BASE" start="72" end="91"/>
+>    <RELATION id="16" head="V92304" res="V92411" label="NEUTRAL"/>
+>    <PHRASE id="V92411" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="77" end="91"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="58">
+   <TEXT>there is a smiling green and yellow plane on the pullover .</TEXT>
+   <RELATION id="1" head="V231140" res="V230661" label="CONTENT"/>
+   <PHRASE id="V230661" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="58"/>
+   <RELATION id="2" head="V230661" res="V230737" label="NEUTRAL"/>
+   <PHRASE id="V230648" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V230737" indicator="A" type="AIR-VEHICLE" text="PLANE" start="9" end="58"/>
+   <RELATION id="3" head="V230737" res="V230745" label="LOCATION"/>
+   <RELATION id="4" head="V230737" res="V230714" label="MOD"/>
+   <RELATION id="5" head="V230737" res="V230817" label="MOD"/>
+   <PHRASE id="V230714" indicator="F" type="NONVERBAL-EXPRESSION" text="SMILE" start="11" end="19"/>
+   <RELATION id="6" head="V230714" res="V230737" label="AGENT"/>
+   <PHRASE id="V230817" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="19" end="36"/>
+   <RELATION id="7" head="V230817" res="V230717" label="SEQUENCE"/>
+   <RELATION id="8" head="V230817" res="V230732" label="SEQUENCE1"/>
+   <PHRASE id="V230717" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="19" end="25"/>
+   <RELATION id="9" head="V230717" res="V230737" label="FIGURE"/>
+   <PHRASE id="V230732" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="29" end="36"/>
+   <RELATION id="10" head="V230732" res="V230737" label="FIGURE"/>
+   <PHRASE id="V230745" indicator="F" type="ON" text="ON" start="42" end="58"/>
+   <RELATION id="11" head="V230745" res="V230775" label="GROUND"/>
+   <RELATION id="12" head="V230745" res="V230737" label="FIGURE"/>
+   <PHRASE id="V230775" indicator="THE" type="ATTIRE" text="PULLOVER" start="45" end="58"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

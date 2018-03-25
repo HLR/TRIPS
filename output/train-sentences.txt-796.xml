@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired g</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="29" end="65">
+   <TEXT>girl with a traditional green hat , b</TEXT>
+   <RELATION id="1" head="V410552" res="V410556" label="MOD"/>
+   <PHRASE id="V410556" indicator="F" type="ASSOC-WITH" text="WITH" start="34" end="65"/>
+   <RELATION id="2" head="V410556" res="V410623" label="GROUND"/>
+   <RELATION id="3" head="V410556" res="V410552" label="FIGURE"/>
+   <PHRASE id="V410623" indicator="A" type="ATTIRE" text="HAT" start="39" end="65"/>
+   <RELATION id="4" head="V410623" res="V410609" label="MOD"/>
+   <RELATION id="5" head="V410623" res="V410612" label="MOD"/>
+   <PHRASE id="V410609" indicator="F" type="CONVENTIONAL-VAL" text="TRADITIONAL" start="41" end="53"/>
+   <RELATION id="6" head="V410609" res="V410623" label="FIGURE"/>
+   <PHRASE id="V410612" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="53" end="59"/>
+   <RELATION id="7" head="V410612" res="V410623" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="65" end="71">
+   <TEXT>black c</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_TELL" start="71" end="87">
+   <TEXT>chequered pants a</TEXT>
+   <RELATION id="8" head="V414305" res="V410634" label="CONTENT"/>
+   <PHRASE id="V410634" indicator="F" type="ENCODES-MESSAGE" text="CHEQUERED" TENSE="PAST" start="71" end="87"/>
+   <RELATION id="9" head="V410634" res="V414306" label="NEUTRAL"/>
+   <RELATION id="10" head="V410634" res="V410660" label="NEUTRAL1"/>
+   <PHRASE id="V414306" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="71" end="87"/>
+   <RELATION id="11" head="V414306" res="V410552" label="COREF"/>
+   <PHRASE id="V410660" indicator="BARE" type="ATTIRE" text="PANTS" start="81" end="87"/>
+  </SENTENCE>
+  <SENTENCE id="s6" indicator="SPEECHACT" type="SA_TELL" start="87" end="124">
+   <TEXT>and a pink violet poncho is standing i</TEXT>
+   <RELATION id="12" head="V416126" res="V410758" label="CONTENT"/>
+   <RELATION id="13" head="V416126" res="V410668" label="MOD"/>
+   <PHRASE id="V410668" indicator="F" type="CONJUNCT" text="AND" start="87" end="91"/>
+   <RELATION id="14" head="V410668" res="V416126" label="FIGURE"/>
+   <PHRASE id="V410758" indicator="F" type="BE-AT-LOC" text="STAND" TENSE="PRES" PROGR="+" start="91" end="124"/>
+   <RELATION id="15" head="V410758" res="V410732" label="NEUTRAL"/>
+   <PHRASE id="V410732" indicator="A" type="ATTIRE" text="PONCHO" start="91" end="112"/>
+   <RELATION id="16" head="V410732" res="V410725" label="ASSOC-WITH"/>
+   <RELATION id="17" head="V410732" res="V410717" label="MOD"/>
+   <PHRASE id="V410725" indicator="KIND" type="PLANT" text="VIOLET" start="91" end="112"/>
+   <PHRASE id="V410717" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="93" end="98"/>
+   <RELATION id="18" head="V410717" res="V410732" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s7" indicator="F" type="IN-LOC" text="IN" start="124" end="174">
+   <TEXT>in front of a white wall with a light blue fillet .</TEXT>
+   <RELATION id="19" head="V410767" res="V410828" label="GROUND"/>
+   <PHRASE id="V410828" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="127" end="174"/>
+   <RELATION id="20" head="V410828" res="V410937" label="FIGURE"/>
+   <PHRASE id="V410937" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="133" end="174"/>
+   <RELATION id="21" head="V410937" res="V410941" label="MOD"/>
+   <RELATION id="22" head="V410937" res="V410930" label="MOD"/>
+   <PHRASE id="V410930" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="138" end="144"/>
+   <RELATION id="23" head="V410930" res="V410937" label="FIGURE"/>
+   <PHRASE id="V410941" indicator="F" type="ASSOC-WITH" text="WITH" start="149" end="174"/>
+   <RELATION id="24" head="V410941" res="V411034" label="GROUND"/>
+   <RELATION id="25" head="V410941" res="V410937" label="FIGURE"/>
+   <PHRASE id="V411034" indicator="A" type="MEAT" text="FILLET" start="154" end="174"/>
+   <RELATION id="26" head="V411034" res="V410996" label="MOD"/>
+   <RELATION id="27" head="V411034" res="V411019" label="MOD"/>
+   <PHRASE id="V410996" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="156" end="162"/>
+   <RELATION id="28" head="V410996" res="V411034" label="FIGURE"/>
+   <PHRASE id="V411019" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="162" end="167"/>
+   <RELATION id="29" head="V411019" res="V411034" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

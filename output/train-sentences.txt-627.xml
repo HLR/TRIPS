@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="29">
+   <TEXT>a dark-haired , dark-skinned b</TEXT>
+   <RELATION id="1" head="V103660" res="V98377" label="CONTENT"/>
+   <PHRASE id="V98377" indicator="F" type="MOVE" text="SKINNED" TENSE="PRES" start="0" end="29"/>
+   <RELATION id="2" head="V98377" res="V98368" label="AFFECTED"/>
+   <PHRASE id="V98368" indicator="BARE" type="LIGHT" text="DARK" start="0" end="20"/>
+   <RELATION id="3" head="V98368" res="V98318" label="ASSOC-WITH"/>
+   <RELATION id="4" head="V98368" res="V98360" label="MOD"/>
+   <PHRASE id="V98318" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2"/>
+   <PHRASE id="V98360" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V98360" res="V98368" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="29" end="59">
+   <TEXT>boy in blue sleeveless jumper .</TEXT>
+   <RELATION id="6" head="V104199" res="V98394" label="CONTENT"/>
+   <PHRASE id="V98394" indicator="BARE" type="MALE-CHILD" text="BOY" start="29" end="59"/>
+   <RELATION id="7" head="V98394" res="V98401" label="LOCATION"/>
+   <PHRASE id="V98401" indicator="F" type="IN-LOC" text="IN" start="33" end="59"/>
+   <RELATION id="8" head="V98401" res="V98461" label="GROUND"/>
+   <RELATION id="9" head="V98401" res="V98394" label="FIGURE"/>
+   <PHRASE id="V98461" indicator="BARE" type="PERSON" text="JUMPER" start="36" end="59"/>
+   <RELATION id="10" head="V98461" res="V98450" label="MOD"/>
+   <RELATION id="11" head="V98461" res="V98457" label="MOD"/>
+   <PHRASE id="V98450" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="36" end="41"/>
+   <RELATION id="12" head="V98450" res="V98461" label="FIGURE"/>
+   <PHRASE id="V98457" indicator="F" type="MODIFIER" text="SLEEVELESS" start="41" end="52"/>
+   <RELATION id="13" head="V98457" res="V98461" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

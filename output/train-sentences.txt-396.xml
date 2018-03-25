@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="34">
+   <TEXT>handprints on the wall behind her .</TEXT>
+   <RELATION id="1" head="V384449" res="V384316" label="CONTENT"/>
+   <PHRASE id="V384316" indicator="INDEF-SET" type="REFERENTIAL-SEM" text="HANDPRINTS" start="0" end="34"/>
+   <RELATION id="2" head="V384316" res="V384356" label="MOD"/>
+   <RELATION id="3" head="V384316" res="V384324" label="MOD"/>
+   <PHRASE id="V384324" indicator="F" type="ON" text="ON" start="11" end="23"/>
+   <RELATION id="4" head="V384324" res="V384353" label="GROUND"/>
+   <RELATION id="5" head="V384324" res="V384316" label="FIGURE"/>
+   <PHRASE id="V384353" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="14" end="23"/>
+   <PHRASE id="V384356" indicator="F" type="BACK" text="BEHIND" start="23" end="34"/>
+   <RELATION id="6" head="V384356" res="V384361" label="GROUND"/>
+   <RELATION id="7" head="V384356" res="V384316" label="FIGURE"/>
+   <PHRASE id="V384361" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="30" end="34"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

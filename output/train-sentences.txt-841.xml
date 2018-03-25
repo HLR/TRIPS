@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="56">
+   <TEXT>there are flags and a lamp at each side of the entrance .</TEXT>
+   <RELATION id="1" head="V233228" res="V232882" label="CONTENT"/>
+   <PHRASE id="V232882" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="56"/>
+   <RELATION id="2" head="V232882" res="V232899" label="NEUTRAL"/>
+   <PHRASE id="V232870" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V232899" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="10" end="56"/>
+   <RELATION id="3" head="V232899" res="V232894" label="SEQUENCE"/>
+   <RELATION id="4" head="V232899" res="V232949" label="SEQUENCE1"/>
+   <PHRASE id="V232894" indicator="INDEF-SET" type="FLAG" text="FLAG" start="10" end="16"/>
+   <PHRASE id="V232949" indicator="A" type="DEVICE-COMPONENT" text="LAMP" start="20" end="56"/>
+   <RELATION id="5" head="V232949" res="V232960" label="LOCATION"/>
+   <PHRASE id="V232960" indicator="F" type="AT-LOC" text="AT" start="27" end="56"/>
+   <RELATION id="6" head="V232960" res="V232979" label="GROUND"/>
+   <RELATION id="7" head="V232960" res="V232949" label="FIGURE"/>
+   <PHRASE id="V232979" indicator="QUANTIFIER" type="SIDE-LOCATION" text="SIDE" QUAN="EACH" start="30" end="56"/>
+   <RELATION id="8" head="V232979" res="V233001" label="FIGURE"/>
+   <PHRASE id="V233001" indicator="THE" type="EXIT" text="ENTRANCE" start="40" end="56"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="70">
+   <TEXT>a dark-skinned , dark-haired girl in a white tee-shirt with red edges .</TEXT>
+   <RELATION id="1" head="V380817" res="V375143" label="CONTENT"/>
+   <PHRASE id="V375143" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="70"/>
+   <RELATION id="2" head="V375143" res="V375266" label="MOD"/>
+   <RELATION id="3" head="V375143" res="V375150" label="LOCATION"/>
+   <RELATION id="4" head="V375143" res="V375116" label="MOD"/>
+   <RELATION id="5" head="V375143" res="V375140" label="MOD"/>
+   <PHRASE id="V375116" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="6" head="V375116" res="V375143" label="FIGURE"/>
+   <PHRASE id="V375140" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="7" head="V375140" res="V375143" label="FIGURE"/>
+   <PHRASE id="V375150" indicator="F" type="IN-LOC" text="IN" start="34" end="55"/>
+   <RELATION id="8" head="V375150" res="V375262" label="GROUND"/>
+   <RELATION id="9" head="V375150" res="V375143" label="FIGURE"/>
+   <PHRASE id="V375262" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="37" end="55"/>
+   <RELATION id="10" head="V375262" res="V375240" label="MOD"/>
+   <PHRASE id="V375240" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="39" end="45"/>
+   <RELATION id="11" head="V375240" res="V375262" label="FIGURE"/>
+   <PHRASE id="V375266" indicator="F" type="ASSOC-WITH" text="WITH" start="55" end="70"/>
+   <RELATION id="12" head="V375266" res="V375285" label="GROUND"/>
+   <RELATION id="13" head="V375266" res="V375143" label="FIGURE"/>
+   <PHRASE id="V375285" indicator="INDEF-SET" type="EDGE" text="EDGE" start="60" end="70"/>
+   <RELATION id="14" head="V375285" res="V375278" label="MOD"/>
+   <PHRASE id="V375278" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="60" end="64"/>
+   <RELATION id="15" head="V375278" res="V375285" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

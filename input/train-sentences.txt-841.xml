@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there are flags and a lamp at each side of the entrance .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+26
+*last-utt-id*=26  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::ARE W::FLAGS W::AND W::A W::LAMP W::AT W::EACH W::SIDE W::OF
+ W::THE W::ENTRANCE W::PUNC-PERIOD)</lisp><word>THERE</word><word>ARE</word><word>FLAGS</word><word>AND</word><word>A</word><word>LAMP</word><word>AT</word><word>EACH</word><word>SIDE</word><word>OF</word><word>THE</word><word>ENTRANCE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (6 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;flags&quot; :FRAME (10 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;flags&quot; :FRAME (10 15) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.996 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (16 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (20 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;lamp&quot; :FRAME (22 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a lamp&quot; :FRAME (20 26) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.171 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (27 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;each&quot; :FRAME (30 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;side&quot; :FRAME (35 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;each side&quot; :FRAME (30 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  14.785 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (40 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (43 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;entrance&quot; :FRAME (47 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the entrance&quot; :FRAME (43 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.817 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of the entrance&quot; :FRAME (40 55) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.884 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;each side of the entrance&quot; :FRAME (30 55) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 31.209 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at each side of the entrance&quot; :FRAME (27 55) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 36.479 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;a lamp at each side of the entrance&quot; :FRAME (20 55) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 52.311 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;flags and a lamp at each side of the entrance&quot; :FRAME (10 55)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 69.624 :UTTNUM 26 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;are flags and a lamp at each side of the entrance&quot; :FRAME (6 55)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 76.216 :UTTNUM 26 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (56 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there are flags and a lamp at each side of the entrance .&quot; :FRAME
+  (0 56) :PENN-CATS (S) :SCORE 81.877 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="are" start="6" end="9"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="flags" start="10" end="15"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="flags" start="10" end="15" penn-cats="NP" score="11.996" /><word lex="and" start="16" end="19"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="20" end="21"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="lamp" start="22" end="26"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a lamp" start="20" end="26" penn-cats="NP" score="15.171" /><word lex="at" start="27" end="29"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="each" start="30" end="34"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="side" start="35" end="39"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="each side" start="30" end="39" penn-cats="NP" score="14.785" /><word lex="of" start="40" end="42"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="43" end="46"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="entrance" start="47" end="55"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the entrance" start="43" end="55" penn-cats="NP" score="14.817" /><prefer text="of the entrance" start="40" end="55" penn-cats="PP" score="15.884" /><prefer text="each side of the entrance" start="30" end="55" penn-cats="NP" score="31.209" /><prefer text="at each side of the entrance" start="27" end="55" penn-cats="PP" score="36.479" /><prefer text="a lamp at each side of the entrance" start="20" end="55" penn-cats="NP" score="52.311" /><prefer text="flags and a lamp at each side of the entrance" start="10" end="55" penn-cats="NP" score="69.624" /><prefer text="are flags and a lamp at each side of the entrance" start="6" end="55" penn-cats="VP" score="76.216" /><word lex="." start="56" end="56"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there are flags and a lamp at each side of the entrance ." start="0" end="56" penn-cats="S" score="81.877" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V ARE)
+     (NP (NP (N1 (N FLAGS))) (CONJ AND)
+      (NP (SPEC (DET (ART A)))
+       (N1 (N1 (N LAMP))
+        (ADVBL (ADV AT)
+         (NP (SPEC (QUAN EACH))
+          (N1 (N SIDE)
+           (PP (PREP OF)
+            (NP (SPEC (DET (ART THE))) (N1 (N ENTRANCE))))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>ARE</V><NP><NP><N1><N>FLAGS</N></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>LAMP</N></N1><ADVBL><ADV>AT</ADV><NP><SPEC><QUAN>EACH</QUAN></SPEC><N1><N>SIDE</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>ENTRANCE</N></N1></NP></PP></N1></NP></ADVBL></N1></NP></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V233228"><lisp>((ONT::SPEECHACT ONT::V233228 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V232882 :START 0 :END 56)
+ (ONT::F ONT::V232882 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V232899 :TENSE
+  W::PRES :START 0 :END 56)
+ (ONT::PRO ONT::V232870 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::INDEF-SET ONT::V232899 ONT::MANUFACTURED-OBJECT :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V232894 ONT::V232949) :START 10 :END 56)
+ (ONT::INDEF-SET ONT::V232894 (:* ONT::FLAG W::FLAG) :START 10 :END 16)
+ (ONT::A ONT::V232949 (:* ONT::DEVICE-COMPONENT W::LAMP) :LOCATION ONT::V232960
+  :START 20 :END 56)
+ (ONT::F ONT::V232960 (:* ONT::AT-LOC W::AT) :GROUND ONT::V232979 :FIGURE
+  ONT::V232949 :START 27 :END 56)
+ (ONT::QUANTIFIER ONT::V232979 (:* ONT::SIDE-LOCATION W::SIDE) :QUAN ONT::EACH
+  :FIGURE ONT::V233001 :START 30 :END 56)
+ (ONT::THE ONT::V233001 (:* ONT::EXIT W::ENTRANCE) :START 40 :END 56))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V233228">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V232882" />
+    <LF:start>0</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V232882">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V232899" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V232870">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V232899">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V232894" />
+    <role:SEQUENCE1 rdf:resource="#V232949" />
+    <LF:start>10</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V232894">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>FLAG</LF:type>
+    <LF:word>FLAG</LF:word>
+    <LF:start>10</LF:start>
+    <LF:end>16</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V232949">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>DEVICE-COMPONENT</LF:type>
+    <LF:word>LAMP</LF:word>
+    <role:LOCATION rdf:resource="#V232960" />
+    <LF:start>20</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V232960">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V232979" />
+    <role:FIGURE rdf:resource="#V232949" />
+    <LF:start>27</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V232979">
+    <LF:indicator>QUANTIFIER</LF:indicator>
+    <LF:type>SIDE-LOCATION</LF:type>
+    <LF:word>SIDE</LF:word>
+    <role:QUAN>EACH</role:QUAN>
+    <role:FIGURE rdf:resource="#V233001" />
+    <LF:start>30</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233001">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>EXIT</LF:type>
+    <LF:word>ENTRANCE</LF:word>
+    <LF:start>40</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="24">
+   <TEXT>rocks in the background .</TEXT>
+   <RELATION id="1" head="V107920" res="V107826" label="CONTENT"/>
+   <PHRASE id="V107826" indicator="INDEF-SET" type="NATURAL-OBJECT" text="ROCK" start="0" end="24"/>
+   <RELATION id="2" head="V107826" res="V107834" label="LOCATION"/>
+   <PHRASE id="V107834" indicator="F" type="IN-LOC" text="IN" start="6" end="24"/>
+   <RELATION id="3" head="V107834" res="V107890" label="GROUND"/>
+   <RELATION id="4" head="V107834" res="V107826" label="FIGURE"/>
+   <PHRASE id="V107890" indicator="THE" type="IMAGE" text="BACKGROUND" start="9" end="24"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

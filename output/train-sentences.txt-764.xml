@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="50">
+   <TEXT>there is also a plastic bag in front of the fence .</TEXT>
+   <RELATION id="1" head="V263440" res="V262724" label="CONTENT"/>
+   <PHRASE id="V262724" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="50"/>
+   <RELATION id="2" head="V262724" res="V262792" label="NEUTRAL"/>
+   <RELATION id="3" head="V262724" res="V262736" label="MOD"/>
+   <PHRASE id="V262711" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V262736" indicator="F" type="ADDITIVE" text="ALSO" start="9" end="14"/>
+   <RELATION id="4" head="V262736" res="V262724" label="FIGURE"/>
+   <PHRASE id="V262792" indicator="A" type="BAG" text="PLASTIC-BAG" start="14" end="50" WNSENSE="plastic_bag%1:06:00"/>
+   <RELATION id="5" head="V262792" res="V262799" label="LOCATION"/>
+   <PHRASE id="V262799" indicator="F" type="IN-LOC" text="IN" start="28" end="50"/>
+   <RELATION id="6" head="V262799" res="V262848" label="GROUND"/>
+   <RELATION id="7" head="V262799" res="V262792" label="FIGURE"/>
+   <PHRASE id="V262848" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="31" end="50"/>
+   <RELATION id="8" head="V262848" res="V262919" label="FIGURE"/>
+   <PHRASE id="V262919" indicator="THE" type="GENERAL-STRUCTURE" text="FENCE" start="37" end="50"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

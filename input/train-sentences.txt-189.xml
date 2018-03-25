@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one man is standing behind the wall .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+67
+*last-utt-id*=67  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::MAN W::IS W::STANDING W::BEHIND W::THE W::WALL W::PUNC-PERIOD)</lisp><word>ONE</word><word>MAN</word><word>IS</word><word>STANDING</word><word>BEHIND</word><word>THE</word><word>WALL</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;man&quot; :FRAME (4 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one man&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  16.314 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (8 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (11 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;behind&quot; :FRAME (20 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (27 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall&quot; :FRAME (31 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall&quot; :FRAME (27 35) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.498 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;behind the wall&quot; :FRAME (20 35) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 18.981 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;standing behind the wall&quot; :FRAME (11 35) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 28.155 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is standing behind the wall&quot; :FRAME (8 35) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 32.415 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (36 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one man is standing behind the wall .&quot; :FRAME (0 36) :PENN-CATS (S)
+  :SCORE 49.871 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="man" start="4" end="7"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one man" start="0" end="7" penn-cats="NP" score="16.314" /><word lex="is" start="8" end="10"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="standing" start="11" end="19"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="behind" start="20" end="26"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="27" end="30"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="31" end="35"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="27" end="35" penn-cats="NP" score="11.498" /><prefer text="behind the wall" start="20" end="35" penn-cats="PP" score="18.981" /><prefer text="standing behind the wall" start="11" end="35" penn-cats="VP" score="28.155" /><prefer text="is standing behind the wall" start="8" end="35" penn-cats="VP" score="32.415" /><word lex="." start="36" end="36"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one man is standing behind the wall ." start="0" end="36" penn-cats="S" score="49.871" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (NUMBER ONE)) (N1 (N MAN)))
+   (VP
+    (VP- (V IS)
+     (NP
+      (N1 (N1 (V STANDING))
+       (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N WALL))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>MAN</N></N1></NP><VP><VP-><V>IS</V><NP><N1><N1><V>STANDING</V></N1><ADVBL><ADV>BEHIND</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WALL</N></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V375273"><lisp>((ONT::SPEECHACT ONT::V375273 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V375032 :START 0 :END 36)
+ (ONT::F ONT::V375032 (:* ONT::BE W::BE) :NEUTRAL ONT::V375023 :NEUTRAL1
+  ONT::V375049 :TENSE W::PRES :START 0 :END 36)
+ (ONT::A ONT::V375023 (:* ONT::MALE-PERSON W::MAN) :SIZE ONT::V375072 :START 0
+  :END 8)
+ (ONT::A ONT::V375072 ONT::NUMBER :VALUE 1 :START 0 :END 8)
+ (ONT::BARE ONT::V375049 (:* ONT::BE-AT-LOC W::STAND) :LOCATION ONT::V375054
+  :START 11 :END 36)
+ (ONT::F ONT::V375054 (:* ONT::BACK W::BEHIND) :GROUND ONT::V375064 :FIGURE
+  ONT::V375049 :START 20 :END 36)
+ (ONT::THE ONT::V375064 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :START
+  27 :END 36))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V375273">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V375032" />
+    <LF:start>0</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V375032">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V375023" />
+    <role:NEUTRAL1 rdf:resource="#V375049" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V375023">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>MALE-PERSON</LF:type>
+    <LF:word>MAN</LF:word>
+    <role:SIZE rdf:resource="#V375072" />
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V375072">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V375049">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BE-AT-LOC</LF:type>
+    <LF:word>STAND</LF:word>
+    <role:LOCATION rdf:resource="#V375054" />
+    <LF:start>11</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V375054">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BACK</LF:type>
+    <LF:word>BEHIND</LF:word>
+    <role:GROUND rdf:resource="#V375064" />
+    <role:FIGURE rdf:resource="#V375049" />
+    <LF:start>20</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V375064">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+    <LF:word>WALL</LF:word>
+    <LF:start>27</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

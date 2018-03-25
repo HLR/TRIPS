@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there is a clock and the writing Dios es Amor above the blackboard .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?53729:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V149243)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?53727)
+                                           (W::TRANSFORM ?53728)))
+                                 (W::CASE ?53726:(W::SUB W::OBJ -))
+                                 (W::AGR ?53725) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V149243) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER149395))
+*last-utt-id*=NIL  utt-id+27
+*last-utt-id*=27  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::IS W::A W::CLOCK W::AND W::THE W::WRITING W::DIOS W::ES W::AMOR
+ W::ABOVE W::THE W::BLACKBOARD W::PUNC-PERIOD)</lisp><word>THERE</word><word>IS</word><word>A</word><word>CLOCK</word><word>AND</word><word>THE</word><word>WRITING</word><word>DIOS</word><word>ES</word><word>AMOR</word><word>ABOVE</word><word>THE</word><word>BLACKBOARD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (9 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;clock&quot; :FRAME (11 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a clock&quot; :FRAME (9 16) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  13.447 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (17 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (21 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;writing&quot; :FRAME (25 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the writing&quot; :FRAME (21 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 12.645 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFIX &quot;Di&quot; :FRAME (33 34) :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;os&quot; :FRAME (35 37) :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Dios&quot; :FRAME (33 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNPS NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME))) :UTTNUM
+  27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;es&quot; :FRAME (38 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ NNP) :TRIPS-PARTS-OF-SPEECH (W::V W::NAME)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Amor&quot; :FRAME (41 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GEOGRAPHIC-REGION)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Dios es Amor&quot; :FRAME (33 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::GEOGRAPHIC-REGION)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Dios es Amor&quot; :FRAME (33 45) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 42.486 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;above&quot; :FRAME (46 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (52 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blackboard&quot; :FRAME (56 66) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the blackboard&quot; :FRAME (52 66) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.817 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;above the blackboard&quot; :FRAME (46 66) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 21.827 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Dios es Amor above the blackboard&quot; :FRAME (33 66) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 64.974 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;the writing Dios es Amor above the blackboard&quot; :FRAME (21 66)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 83.349 :UTTNUM 27 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;a clock and the writing Dios es Amor above the blackboard&quot; :FRAME
+  (9 66) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 102.112 :UTTNUM 27 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is a clock and the writing Dios es Amor above the blackboard&quot; :FRAME
+  (6 66) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 107.228 :UTTNUM 27 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (67 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there is a clock and the writing Dios es Amor above the blackboard .&quot;
+  :FRAME (0 67) :PENN-CATS (S) :SCORE 112.889 :UTTNUM 27 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="a" start="9" end="10"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="clock" start="11" end="16"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a clock" start="9" end="16" penn-cats="NP" score="13.447" /><word lex="and" start="17" end="20"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="the" start="21" end="24"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="writing" start="25" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the writing" start="21" end="32" penn-cats="NP" score="12.645" /><prefix lex="Di" start="33" end="34" /><word lex="os" start="35" end="37" /><word lex="Dios" start="33" end="37"><sense-info penn-parts-of-speech="NNPS,NNP" trips-parts-of-speech="NAME" /></word><word lex="es" start="38" end="40"><sense-info penn-parts-of-speech="VBZ,NNP" trips-parts-of-speech="V,NAME" /></word><word lex="Amor" start="41" end="45"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="Dios es Amor" start="33" end="45"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><prefer text="Dios es Amor" start="33" end="45" penn-cats="NP" score="42.486" /><word lex="above" start="46" end="51"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="52" end="55"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blackboard" start="56" end="66"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the blackboard" start="52" end="66" penn-cats="NP" score="14.817" /><prefer text="above the blackboard" start="46" end="66" penn-cats="PP" score="21.827" /><prefer text="Dios es Amor above the blackboard" start="33" end="66" penn-cats="NP" score="64.974" /><prefer text="the writing Dios es Amor above the blackboard" start="21" end="66" penn-cats="NP" score="83.349" /><prefer text="a clock and the writing Dios es Amor above the blackboard" start="9" end="66" penn-cats="NP" score="102.112" /><prefer text="is a clock and the writing Dios es Amor above the blackboard" start="6" end="66" penn-cats="VP" score="107.228" /><word lex="." start="67" end="67"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there is a clock and the writing Dios es Amor above the blackboard ." start="0" end="67" penn-cats="S" score="112.889" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V IS)
+     (NP (NP (SPEC (DET (ART A))) (N1 (N CLOCK))) (CONJ AND)
+      (NP (SPEC (DET (ART THE)))
+       (N1 (N1 (ADJP (V WRITING)) (N1 (NAME DIOS ES AMOR)))
+        (ADVBL (ADV ABOVE)
+         (NP (SPEC (DET (ART THE))) (N1 (N BLACKBOARD)))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>CLOCK</N></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><ADJP><V>WRITING</V></ADJP><N1><NAME>DIOS ES AMOR</NAME></N1></N1><ADVBL><ADV>ABOVE</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BLACKBOARD</N></N1></NP></ADVBL></N1></NP></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V152212"><lisp>((ONT::SPEECHACT ONT::V152212 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V148443 :START 0 :END 67)
+ (ONT::F ONT::V148443 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V148519 :TENSE
+  W::PRES :START 0 :END 67)
+ (ONT::PRO ONT::V148438 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::INDEF-SET ONT::V148519 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V148512 ONT::V148585) :START 9 :END 67)
+ (ONT::A ONT::V148512 (:* ONT::DEVICE W::CLOCK) :START 9 :END 17)
+ (ONT::THE ONT::V148585 (:* ONT::GEOGRAPHIC-REGION W::DIOS-ES-AMOR) :NAME-OF
+  (W::DIOS W::ES W::AMOR) :LOCATION ONT::V148588 :MOD ONT::V148536 :START 21
+  :END 67)
+ (ONT::F ONT::V148536
+  (:* ONT::AUTHOR-WRITE-BURN-PRINT_REPRINT_TYPE_RETYPE_MISTYPE W::WRITE) :AGENT
+  ONT::V148585 :START 25 :END 33)
+ (ONT::F ONT::V148588 (:* ONT::ABOVE W::ABOVE) :GROUND ONT::V148602 :FIGURE
+  ONT::V148585 :START 46 :END 67)
+ (ONT::THE ONT::V148602 (:* ONT::DISPLAY W::BLACKBOARD) :START 52 :END 67))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V152212">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V148443" />
+    <LF:start>0</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148443">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V148519" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148438">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148519">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PHYS-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V148512" />
+    <role:SEQUENCE1 rdf:resource="#V148585" />
+    <LF:start>9</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148512">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>DEVICE</LF:type>
+    <LF:word>CLOCK</LF:word>
+    <LF:start>9</LF:start>
+    <LF:end>17</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148585">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GEOGRAPHIC-REGION</LF:type>
+    <LF:word>DIOS-ES-AMOR</LF:word>
+    <role:NAME-OF>(DIOS ES AMOR)</role:NAME-OF>
+    <role:LOCATION rdf:resource="#V148588" />
+    <role:MOD rdf:resource="#V148536" />
+    <LF:start>21</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148536">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AUTHOR-WRITE-BURN-PRINT_REPRINT_TYPE_RETYPE_MISTYPE</LF:type>
+    <LF:word>WRITE</LF:word>
+    <role:AGENT rdf:resource="#V148585" />
+    <LF:start>25</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148588">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ABOVE</LF:type>
+    <LF:word>ABOVE</LF:word>
+    <role:GROUND rdf:resource="#V148602" />
+    <role:FIGURE rdf:resource="#V148585" />
+    <LF:start>46</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V148602">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>DISPLAY</LF:type>
+    <LF:word>BLACKBOARD</LF:word>
+    <LF:start>52</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

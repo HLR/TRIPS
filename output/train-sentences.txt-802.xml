@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="40">
+   <TEXT>a dark-skinned boy wearing a grey cap , a</TEXT>
+   <RELATION id="1" head="V43271" res="V43277" label="MOD"/>
+   <RELATION id="2" head="V43271" res="V43256" label="MOD"/>
+   <PHRASE id="V43256" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="3" head="V43256" res="V43245" label="AGENT"/>
+   <RELATION id="4" head="V43256" res="V43271" label="AFFECTED"/>
+   <PHRASE id="V43245" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+   <PHRASE id="V43277" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="19" end="40"/>
+   <RELATION id="5" head="V43277" res="V43271" label="AGENT"/>
+   <RELATION id="6" head="V43277" res="V43333" label="NEUTRAL"/>
+   <PHRASE id="V43333" indicator="A" type="ATTIRE" text="CAP" start="27" end="40"/>
+   <RELATION id="7" head="V43333" res="V43324" label="MOD"/>
+   <PHRASE id="V43324" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="29" end="34"/>
+   <RELATION id="8" head="V43324" res="V43333" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="A" type="ATTIRE" text="SHIRT" start="40" end="70">
+   <TEXT>a red and white striped shirt u</TEXT>
+   <RELATION id="9" head="V43424" res="V43956" label="MOD"/>
+   <RELATION id="10" head="V43424" res="V43416" label="MOD"/>
+   <PHRASE id="V43956" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="42" end="56"/>
+   <RELATION id="11" head="V43956" res="V43382" label="SEQUENCE"/>
+   <RELATION id="12" head="V43956" res="V43399" label="SEQUENCE1"/>
+   <PHRASE id="V43382" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="42" end="46"/>
+   <RELATION id="13" head="V43382" res="V43424" label="FIGURE"/>
+   <PHRASE id="V43399" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="50" end="56"/>
+   <RELATION id="14" head="V43399" res="V43424" label="FIGURE"/>
+   <PHRASE id="V43416" indicator="F" type="MODIFIER" text="STRIPED" start="56" end="64"/>
+   <RELATION id="15" head="V43416" res="V43424" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="BELOW" text="UNDER" start="70" end="118">
+   <TEXT>under a sleeveless grey vest with a black zip , b</TEXT>
+   <RELATION id="16" head="V43428" res="V43493" label="GROUND"/>
+   <PHRASE id="V43493" indicator="A" type="ATTIRE" text="VEST" start="76" end="118"/>
+   <RELATION id="17" head="V43493" res="V43497" label="MOD"/>
+   <RELATION id="18" head="V43493" res="V43480" label="MOD"/>
+   <RELATION id="19" head="V43493" res="V43483" label="MOD"/>
+   <PHRASE id="V43480" indicator="F" type="MODIFIER" text="SLEEVELESS" start="78" end="89"/>
+   <RELATION id="20" head="V43480" res="V43493" label="FIGURE"/>
+   <PHRASE id="V43483" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="89" end="94"/>
+   <RELATION id="21" head="V43483" res="V43493" label="FIGURE"/>
+   <PHRASE id="V43497" indicator="F" type="ASSOC-WITH" text="WITH" start="99" end="118"/>
+   <RELATION id="22" head="V43497" res="V43558" label="GROUND"/>
+   <RELATION id="23" head="V43497" res="V43493" label="FIGURE"/>
+   <PHRASE id="V43558" indicator="A" type="QUANTITY" text="ZIP" start="104" end="118"/>
+   <RELATION id="24" head="V43558" res="V43550" label="MOD"/>
+   <PHRASE id="V43550" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="106" end="112"/>
+   <RELATION id="25" head="V43550" res="V43558" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="118" end="142">
+   <TEXT>black pants and runners i</TEXT>
+   <RELATION id="26" head="V43577" res="V43570" label="SEQUENCE"/>
+   <RELATION id="27" head="V43577" res="V43586" label="SEQUENCE1"/>
+   <PHRASE id="V43570" indicator="BARE" type="ATTIRE" text="PANTS" start="118" end="130"/>
+   <RELATION id="28" head="V43570" res="V43567" label="MOD"/>
+   <PHRASE id="V43567" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="118" end="124"/>
+   <RELATION id="29" head="V43567" res="V43570" label="FIGURE"/>
+   <PHRASE id="V43586" indicator="INDEF-SET" type="ATHLETE" text="RUNNER" start="134" end="142"/>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="142" end="210">
+   <TEXT>is standing at a lookout and carrying a black bag in his right hand .</TEXT>
+   <RELATION id="30" head="V50261" res="V43594" label="CONTENT"/>
+   <PHRASE id="V43594" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="142" end="210"/>
+   <RELATION id="31" head="V43594" res="V43612" label="NEUTRAL"/>
+   <RELATION id="32" head="V43594" res="V43748" label="FORMAL"/>
+   <PHRASE id="V43612" indicator="BARE" type="BE-AT-LOC" text="STAND" start="145" end="192"/>
+   <RELATION id="33" head="V43612" res="V44892" label="MOD"/>
+   <PHRASE id="V44892" indicator="F" type="ABSTRACT-OBJECT" OPERATOR="AND" start="154" end="192"/>
+   <RELATION id="34" head="V44892" res="V43623" label="SEQUENCE"/>
+   <RELATION id="35" head="V44892" res="V44499" label="SEQUENCE1"/>
+   <PHRASE id="V43623" indicator="F" type="AT-LOC" text="AT" start="154" end="167"/>
+   <RELATION id="36" head="V43623" res="V43677" label="GROUND"/>
+   <RELATION id="37" head="V43623" res="V43612" label="FIGURE"/>
+   <PHRASE id="V43677" indicator="A" type="PERSON" text="LOOKOUT" start="157" end="167"/>
+   <PHRASE id="V44499" indicator="F" type="IMPLICIT-OVERLAP" start="171" end="192"/>
+   <RELATION id="38" head="V44499" res="V43612" label="FIGURE"/>
+   <RELATION id="39" head="V44499" res="V43694" label="GROUND"/>
+   <PHRASE id="V43694" indicator="F" type="TRANSPORT" text="CARRY" VFORM="ING" start="171" end="192"/>
+   <RELATION id="40" head="V43694" res="V43741" label="AFFECTED"/>
+   <PHRASE id="V43741" indicator="A" type="BAG" text="BAG" start="180" end="192"/>
+   <RELATION id="41" head="V43741" res="V43738" label="MOD"/>
+   <PHRASE id="V43738" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="182" end="188"/>
+   <RELATION id="42" head="V43738" res="V43741" label="FIGURE"/>
+   <PHRASE id="V43748" indicator="F" type="IN-LOC" text="IN" start="192" end="210"/>
+   <RELATION id="43" head="V43748" res="V43841" label="GROUND"/>
+   <RELATION id="44" head="V43748" res="V43612" label="FIGURE"/>
+   <PHRASE id="V43841" indicator="THE" type="BODY-PART" text="RIGHT-HAND" start="195" end="210" WNSENSE="right_hand%1:08:00"/>
+   <RELATION id="45" head="V43841" res="V43798" label="ASSOC-POSS"/>
+   <PHRASE id="V43798" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="195" end="210"/>
+   <RELATION id="46" head="V43798" res="V43271" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

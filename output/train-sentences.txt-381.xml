@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="44">
+   <TEXT>baby wearing a red-and-white striped pyjama .</TEXT>
+   <RELATION id="1" head="V327490" res="V327008" label="CONTENT"/>
+   <PHRASE id="V327008" indicator="BARE" type="CHILD" text="BABY" start="0" end="44"/>
+   <RELATION id="2" head="V327008" res="V327014" label="MOD"/>
+   <PHRASE id="V327014" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="5" end="44"/>
+   <RELATION id="3" head="V327014" res="V327008" label="AGENT"/>
+   <RELATION id="4" head="V327014" res="V327126" label="NEUTRAL"/>
+   <PHRASE id="V327126" indicator="A" type="ATTIRE" text="PYJAMA" start="13" end="44"/>
+   <RELATION id="5" head="V327126" res="V327104" label="MOD"/>
+   <RELATION id="6" head="V327126" res="V327117" label="MOD"/>
+   <PHRASE id="V327104" indicator="F" type="MODIFIER" text="RED-PUNC-MINUS-AND-PUNC-MINUS-WHITE" start="15" end="29"/>
+   <RELATION id="7" head="V327104" res="V327126" label="FIGURE"/>
+   <PHRASE id="V327117" indicator="F" type="MODIFIER" text="STRIPED" start="29" end="37"/>
+   <RELATION id="8" head="V327117" res="V327126" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

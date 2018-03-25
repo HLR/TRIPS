@@ -1,0 +1,144 @@
+2,123c2,20
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="people are wearing rain coats and jackets .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+30
+< *last-utt-id*=30  utt-id+NIL</debug><utt><words><lisp>(W::PEOPLE W::ARE W::WEARING W::RAIN W::COATS W::AND W::JACKETS W::PUNC-PERIOD)</lisp><word>PEOPLE</word><word>ARE</word><word>WEARING</word><word>RAIN</word><word>COATS</word><word>AND</word><word>JACKETS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;people&quot; :FRAME (0 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;people&quot; :FRAME (0 6) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.26
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (7 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wearing&quot; :FRAME (11 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;rain&quot; :FRAME (19 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;coats&quot; :FRAME (24 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (30 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;jackets&quot; :FRAME (34 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;rain coats and jackets&quot; :FRAME (19 41) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 36.773 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;wearing rain coats and jackets&quot; :FRAME (11 41) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 45.46 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are wearing rain coats and jackets&quot; :FRAME (7 41) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 49.823 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (42 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;people are wearing rain coats and jackets .&quot; :FRAME (0 42) :PENN-CATS
+<   (S) :SCORE 58.225 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="people" start="0" end="6"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="people" start="0" end="6" penn-cats="NP" score="7.26" /><word lex="are" start="7" end="10"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="wearing" start="11" end="18"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="rain" start="19" end="23"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="coats" start="24" end="29"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="and" start="30" end="33"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="jackets" start="34" end="41"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="rain coats and jackets" start="19" end="41" penn-cats="NP" score="36.773" /><prefer text="wearing rain coats and jackets" start="11" end="41" penn-cats="VP" score="45.46" /><prefer text="are wearing rain coats and jackets" start="7" end="41" penn-cats="VP" score="49.823" /><word lex="." start="42" end="42"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="people are wearing rain coats and jackets ." start="0" end="42" penn-cats="S" score="58.225" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (N1 (N PEOPLE)))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (V WEARING)
+<       (NP (NP (N1 (N1 (N RAIN)) (N1 (N COATS)))) (CONJ AND)
+<        (NP (N1 (N JACKETS)))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N>PEOPLE</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>WEARING</V><NP><NP><N1><N1><N>RAIN</N></N1><N1><N>COATS</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><N>JACKETS</N></N1></NP></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V161792"><lisp>((ONT::SPEECHACT ONT::V161792 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V161503 :START 0 :END 42)
+<  (ONT::F ONT::V161503 (:* ONT::WEAR W::WEAR) :AGENT ONT::V161480 :NEUTRAL
+<   ONT::V161520 :TENSE W::PRES :PROGR + :START 0 :END 42)
+<  (ONT::INDEF-SET ONT::V161480 (:* ONT::PERSON W::PERSON) :START 0 :END 7)
+<  (ONT::INDEF-SET ONT::V161520 ONT::ATTIRE :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V161516 ONT::V161529) :START 19 :END 42)
+<  (ONT::INDEF-SET ONT::V161516 (:* ONT::ATTIRE W::COAT) :ASSOC-WITH ONT::V161512
+<   :START 19 :END 30)
+<  (ONT::KIND ONT::V161512 (:* ONT::PRECIPITATION W::RAIN) :START 19 :END 30)
+<  (ONT::INDEF-SET ONT::V161529 (:* ONT::ATTIRE W::JACKET) :START 34 :END 42))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V161792">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V161503" />
+<     <LF:start>0</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V161503">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:AGENT rdf:resource="#V161480" />
+<     <role:NEUTRAL rdf:resource="#V161520" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V161480">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <LF:word>PERSON</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>7</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V161520">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V161516" />
+<     <role:SEQUENCE1 rdf:resource="#V161529" />
+<     <LF:start>19</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V161516">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>COAT</LF:word>
+<     <role:ASSOC-WITH rdf:resource="#V161512" />
+<     <LF:start>19</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V161512">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>PRECIPITATION</LF:type>
+<     <LF:word>RAIN</LF:word>
+<     <LF:start>19</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V161529">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>JACKET</LF:word>
+<     <LF:start>34</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="42">
+>    <TEXT>people are wearing rain coats and jackets .</TEXT>
+>    <RELATION id="1" head="V161792" res="V161503" label="CONTENT"/>
+>    <PHRASE id="V161503" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="0" end="42"/>
+>    <RELATION id="2" head="V161503" res="V161480" label="AGENT"/>
+>    <RELATION id="3" head="V161503" res="V161520" label="NEUTRAL"/>
+>    <PHRASE id="V161480" indicator="INDEF-SET" type="PERSON" text="PERSON" start="0" end="7"/>
+>    <PHRASE id="V161520" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="19" end="42"/>
+>    <RELATION id="4" head="V161520" res="V161516" label="SEQUENCE"/>
+>    <RELATION id="5" head="V161520" res="V161529" label="SEQUENCE1"/>
+>    <PHRASE id="V161516" indicator="INDEF-SET" type="ATTIRE" text="COAT" start="19" end="30"/>
+>    <RELATION id="6" head="V161516" res="V161512" label="ASSOC-WITH"/>
+>    <PHRASE id="V161512" indicator="KIND" type="PRECIPITATION" text="RAIN" start="19" end="30"/>
+>    <PHRASE id="V161529" indicator="INDEF-SET" type="ATTIRE" text="JACKET" start="34" end="42"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

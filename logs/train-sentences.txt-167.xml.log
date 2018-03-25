@@ -1,0 +1,192 @@
+2,167c2,24
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one of the workers is sitting and talking to the kids .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+50
+< *last-utt-id*=50  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::OF W::THE W::WORKERS W::IS W::SITTING W::AND W::TALKING W::TO W::THE
+<  W::KIDS W::PUNC-PERIOD)</lisp><word>ONE</word><word>OF</word><word>THE</word><word>WORKERS</word><word>IS</word><word>SITTING</word><word>AND</word><word>TALKING</word><word>TO</word><word>THE</word><word>KIDS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one&quot; :FRAME (0 3) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.128
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (4 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (7 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;workers&quot; :FRAME (11 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the workers&quot; :FRAME (7 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.243 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of the workers&quot; :FRAME (4 18) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 11.31 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one of the workers&quot; :FRAME (0 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 18.805 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (19 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (22 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (30 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;talking&quot; :FRAME (34 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;to&quot; :FRAME (42 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;talking to&quot; :FRAME (34 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;talking_to%1:10:00&quot;)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (45 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (49 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the kids&quot; :FRAME (45 53) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.535 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to the kids&quot; :FRAME (42 53) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.003 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting and talking to the kids&quot; :FRAME (22 53) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 35.074 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;is sitting and talking to the kids&quot; :FRAME (19 53) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 39.335 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (54 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one of the workers is sitting and talking to the kids .&quot; :FRAME
+<   (0 54) :PENN-CATS (S) :SCORE 60.969 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="one" start="0" end="3" penn-cats="NP" score="7.128" /><word lex="of" start="4" end="6"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="7" end="10"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="workers" start="11" end="18"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the workers" start="7" end="18" penn-cats="NP" score="10.243" /><prefer text="of the workers" start="4" end="18" penn-cats="PP" score="11.31" /><prefer text="one of the workers" start="0" end="18" penn-cats="NP" score="18.805" /><word lex="is" start="19" end="21"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="sitting" start="22" end="29"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="and" start="30" end="33"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="talking" start="34" end="41"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="to" start="42" end="44"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="talking to" start="34" end="44"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="talking_to%1:10:00" /></word><word lex="the" start="45" end="48"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="kids" start="49" end="53"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the kids" start="45" end="53" penn-cats="NP" score="12.535" /><prefer text="to the kids" start="42" end="53" penn-cats="PP" score="15.003" /><prefer text="sitting and talking to the kids" start="22" end="53" penn-cats="VP" score="35.074" /><prefer text="is sitting and talking to the kids" start="19" end="53" penn-cats="VP" score="39.335" /><word lex="." start="54" end="54"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one of the workers is sitting and talking to the kids ." start="0" end="54" penn-cats="S" score="60.969" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (NP
+<     (N1 (N1 (N ONE))
+<      (ADVBL (ADV OF) (NP (SPEC (DET (ART THE))) (N1 (N WORKERS))))))
+<    (VP
+<     (VP- (AUX (V IS))
+<      (VP- (VP- (V SITTING)) (CONJ AND)
+<       (VP- (V TALKING)
+<        (PP (PREP TO) (NP (SPEC (DET (ART THE))) (N1 (N KIDS))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N1><N>ONE</N></N1><ADVBL><ADV>OF</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WORKERS</N></N1></NP></ADVBL></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>SITTING</V></VP-><CONJ>AND</CONJ><VP-><V>TALKING</V><PP><PREP>TO</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>KIDS</N></N1></NP></PP></VP-></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V258966"><lisp>((ONT::SPEECHACT ONT::V258966 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V258283 :START 0 :END 54)
+<  (ONT::F ONT::V258283 ONT::EVENT-OF-ACTION :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V258144 ONT::V258167) :TENSE W::PRES :PROGR + :START 0 :END 54)
+<  (ONT::F ONT::V258167 (:* ONT::TALK W::TALK) :AGENT ONT::V258095 :AGENT1
+<   ONT::V258213 :START 0 :END 54)
+<  (ONT::F ONT::V258144 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :AGENT ONT::V258095
+<   :START 0 :END 54)
+<  (ONT::BARE ONT::V258095 (:* ONT::REFERENTIAL-SEM W::ONE) :MOD ONT::V258103
+<   :START 0 :END 19)
+<  (ONT::F ONT::V258103 (:* ONT::CONTAIN-RELN W::OF) :GROUND ONT::V258116 :FIGURE
+<   ONT::V258095 :START 4 :END 19)
+<  (ONT::THE-SET ONT::V258116 (:* ONT::PROFESSIONAL W::WORKER) :START 7 :END 19)
+<  (ONT::THE-SET ONT::V258213 (:* ONT::CHILD W::KID) :START 42 :END 54))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V258966">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V258283" />
+<     <LF:start>0</LF:start>
+<     <LF:end>54</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V258283">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EVENT-OF-ACTION</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V258144" />
+<     <role:SEQUENCE1 rdf:resource="#V258167" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>54</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V258167">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TALK</LF:type>
+<     <LF:word>TALK</LF:word>
+<     <role:AGENT rdf:resource="#V258095" />
+<     <role:AGENT1 rdf:resource="#V258213" />
+<     <LF:start>0</LF:start>
+<     <LF:end>54</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V258144">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:AGENT rdf:resource="#V258095" />
+<     <LF:start>0</LF:start>
+<     <LF:end>54</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V258095">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>ONE</LF:word>
+<     <role:MOD rdf:resource="#V258103" />
+<     <LF:start>0</LF:start>
+<     <LF:end>19</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V258103">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONTAIN-RELN</LF:type>
+<     <LF:word>OF</LF:word>
+<     <role:GROUND rdf:resource="#V258116" />
+<     <role:FIGURE rdf:resource="#V258095" />
+<     <LF:start>4</LF:start>
+<     <LF:end>19</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V258116">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>PROFESSIONAL</LF:type>
+<     <LF:word>WORKER</LF:word>
+<     <LF:start>7</LF:start>
+<     <LF:end>19</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V258213">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <LF:start>42</LF:start>
+<     <LF:end>54</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="54">
+>    <TEXT>one of the workers is sitting and talking to the kids .</TEXT>
+>    <RELATION id="1" head="V258966" res="V258283" label="CONTENT"/>
+>    <PHRASE id="V258283" indicator="F" type="EVENT-OF-ACTION" OPERATOR="AND" TENSE="PRES" PROGR="+" start="0" end="54"/>
+>    <RELATION id="2" head="V258283" res="V258144" label="SEQUENCE"/>
+>    <RELATION id="3" head="V258283" res="V258167" label="SEQUENCE1"/>
+>    <PHRASE id="V258167" indicator="F" type="TALK" text="TALK" start="0" end="54"/>
+>    <RELATION id="4" head="V258167" res="V258095" label="AGENT"/>
+>    <RELATION id="5" head="V258167" res="V258213" label="AGENT1"/>
+>    <PHRASE id="V258144" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" start="0" end="54"/>
+>    <RELATION id="6" head="V258144" res="V258095" label="AGENT"/>
+>    <PHRASE id="V258095" indicator="BARE" type="REFERENTIAL-SEM" text="ONE" start="0" end="19"/>
+>    <RELATION id="7" head="V258095" res="V258103" label="MOD"/>
+>    <PHRASE id="V258103" indicator="F" type="CONTAIN-RELN" text="OF" start="4" end="19"/>
+>    <RELATION id="8" head="V258103" res="V258116" label="GROUND"/>
+>    <RELATION id="9" head="V258103" res="V258095" label="FIGURE"/>
+>    <PHRASE id="V258116" indicator="THE-SET" type="PROFESSIONAL" text="WORKER" start="7" end="19"/>
+>    <PHRASE id="V258213" indicator="THE-SET" type="CHILD" text="KID" start="42" end="54"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

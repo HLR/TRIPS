@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="33">
+   <TEXT>a dark-haired , dark-skinned boy w</TEXT>
+   <RELATION id="1" head="V311556" res="V311522" label="MOD"/>
+   <RELATION id="2" head="V311556" res="V311529" label="MOD"/>
+   <RELATION id="3" head="V311556" res="V311539" label="MOD"/>
+   <PHRASE id="V311522" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V311522" res="V311556" label="FIGURE"/>
+   <PHRASE id="V311529" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="16" end="20"/>
+   <RELATION id="5" head="V311529" res="V311556" label="FIGURE"/>
+   <PHRASE id="V311539" indicator="F" type="MOVE" text="SKINNED" start="21" end="29"/>
+   <RELATION id="6" head="V311539" res="V311556" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="33" end="70">
+   <TEXT>wearing a red pullover and a red cap (</TEXT>
+   <RELATION id="7" head="V311562" res="V311627" label="NEUTRAL"/>
+   <PHRASE id="V311627" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="41" end="70"/>
+   <RELATION id="8" head="V311627" res="V311623" label="SEQUENCE"/>
+   <RELATION id="9" head="V311627" res="V311684" label="SEQUENCE1"/>
+   <PHRASE id="V311623" indicator="A" type="ATTIRE" text="PULLOVER" start="41" end="56"/>
+   <RELATION id="10" head="V311623" res="V311609" label="MOD"/>
+   <PHRASE id="V311609" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="43" end="47"/>
+   <RELATION id="11" head="V311609" res="V311623" label="FIGURE"/>
+   <PHRASE id="V311684" indicator="A" type="ATTIRE" text="CAP" start="60" end="70"/>
+   <RELATION id="12" head="V311684" res="V311677" label="MOD"/>
+   <PHRASE id="V311677" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="62" end="66"/>
+   <RELATION id="13" head="V311677" res="V311684" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="DIRECTION" text="BACKWARDS" start="72" end="82">
+   <TEXT>backwards )</TEXT>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

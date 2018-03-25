@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="81">
+   <TEXT>there is a wall on the left with a map of Peru , a poster and Minnie Mouse on it .</TEXT>
+   <RELATION id="1" head="V43337" res="V39436" label="CONTENT"/>
+   <PHRASE id="V39436" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="81"/>
+   <RELATION id="2" head="V39436" res="V39488" label="NEUTRAL"/>
+   <PHRASE id="V39423" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V39488" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="9" end="81"/>
+   <RELATION id="3" head="V39488" res="V39723" label="LOCATION"/>
+   <RELATION id="4" head="V39488" res="V39496" label="LOCATION"/>
+   <PHRASE id="V39496" indicator="F" type="ON" text="ON" start="16" end="75"/>
+   <RELATION id="5" head="V39496" res="V39530" label="GROUND"/>
+   <RELATION id="6" head="V39496" res="V39488" label="FIGURE"/>
+   <PHRASE id="V39530" indicator="THE" type="LEFT-LOC" text="LEFT" start="19" end="75"/>
+   <RELATION id="7" head="V39530" res="V39555" label="MOD"/>
+   <PHRASE id="V39555" indicator="F" type="ASSOC-WITH" text="WITH" start="28" end="75"/>
+   <RELATION id="8" head="V39555" res="V39608" label="GROUND"/>
+   <RELATION id="9" head="V39555" res="V39530" label="FIGURE"/>
+   <PHRASE id="V39608" indicator="A" type="MAP" text="MAP" start="33" end="75"/>
+   <RELATION id="10" head="V39608" res="V39672" label="FIGURE"/>
+   <PHRASE id="V39672" indicator="THE" type="PHYS-OBJECT" NAME-OF="(OF PERU PUNC-COMMA A POSTER AND MINNIE MOUSE)" OPERATOR="AND" start="39" end="75"/>
+   <RELATION id="11" head="V39672" res="V39699" label="SEQUENCE"/>
+   <RELATION id="12" head="V39672" res="V39621" label="SEQUENCE1"/>
+   <RELATION id="13" head="V39672" res="V39668" label="SEQUENCE2"/>
+   <PHRASE id="V39621" indicator="THE" type="GEOGRAPHIC-REGION" text="PERU" NAME-OF="(PERU)" start="42" end="47"/>
+   <PHRASE id="V39668" indicator="A" type="INFO-MEDIUM" text="POSTER" start="49" end="58"/>
+   <PHRASE id="V39699" indicator="THE" type="ORGANIZATION" text="MINNIE-MOUSE" NAME-OF="(MINNIE MOUSE)" start="62" end="75"/>
+   <PHRASE id="V39723" indicator="F" type="ON" text="ON" start="75" end="81"/>
+   <RELATION id="14" head="V39723" res="V39745" label="GROUND"/>
+   <RELATION id="15" head="V39723" res="V39488" label="FIGURE"/>
+   <PHRASE id="V39745" indicator="PRO" type="REFERENTIAL-SEM" text="IT" PROFORM="IT" start="78" end="81"/>
+   <RELATION id="16" head="V39745" res="V39530" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

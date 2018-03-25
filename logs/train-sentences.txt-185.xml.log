@@ -1,0 +1,386 @@
+2,339c2,46
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Three women are sitting on a wooden bench in front of an about one metre high , red brick wall .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?155578:(F::PHYS-OBJ
+<                                                          F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V349037)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?155576)
+<                                            (W::TRANSFORM ?155577)))
+<                                  (W::CASE ?155575:(W::SUB W::OBJ -))
+<                                  (W::AGR ?155574) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V349037) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER349504))
+< *last-utt-id*=NIL  utt-id+63
+< *last-utt-id*=63  utt-id+63
+< *last-utt-id*=63  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::THREE W::WOMEN W::ARE W::SITTING W::ON W::A W::WOODEN W::BENCH)</lisp><word>THREE</word><word>WOMEN</word><word>ARE</word><word>SITTING</word><word>ON</word><word>A</word><word>WOODEN</word><word>BENCH</word></words><tags><lisp>((WORD &quot;Three&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;women&quot; :FRAME (6 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Three women&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   18.974 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (12 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (16 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (24 26) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (27 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wooden&quot; :FRAME (29 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;bench&quot; :FRAME (36 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a wooden bench&quot; :FRAME (27 41) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.338 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Three" start="0" end="5"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="women" start="6" end="11"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="Three women" start="0" end="11" penn-cats="NP" score="18.974" /><word lex="are" start="12" end="15"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="16" end="23"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="24" end="26"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="27" end="28"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wooden" start="29" end="35"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="bench" start="36" end="41"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a wooden bench" start="27" end="41" penn-cats="NP" score="22.338" /></tags><tree><lisp>(UTT
+<  (S (NP (N1 (ADJP (NUMBER THREE)) (N1 (N WOMEN))))
+<   (VP
+<    (VP- (AUX (V ARE))
+<     (VP- (VP- (V SITTING))
+<      (ADVBL (ADV ON)
+<       (NP (SPEC (DET (ART A)))
+<        (N1 (ADJP (ADJ1 (ADJ WOODEN))) (N1 (N BENCH))))))))))</lisp><UTT><S><NP><N1><ADJP><NUMBER>THREE</NUMBER></ADJP><N1><N>WOMEN</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>WOODEN</ADJ></ADJ1></ADJP><N1><N>BENCH</N></N1></N1></NP></ADVBL></VP-></VP-></VP></S></UTT></tree><terms root="#V346619"><lisp>((ONT::SPEECHACT ONT::V346619 ONT::SA_TELL :CONTENT ONT::V345846 :START 0 :END
+<   42)
+<  (ONT::F ONT::V345846 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V345862
+<   :AGENT ONT::V345820 :TENSE W::PRES :PROGR + :START 0 :END 42)
+<  (ONT::INDEF-SET ONT::V345820 (:* ONT::FEMALE-PERSON W::WOMAN) :SIZE
+<   ONT::V345818 :START 0 :END 12)
+<  (ONT::A ONT::V345818 ONT::NUMBER :VALUE 3 :START 0 :END 6)
+<  (ONT::F ONT::V345862 (:* ONT::ON W::ON) :GROUND ONT::V345932 :FIGURE
+<   ONT::V345820 :START 24 :END 42)
+<  (ONT::A ONT::V345932 (:* ONT::FURNISHINGS W::BENCH) :MOD ONT::V345926 :START
+<   27 :END 42)
+<  (ONT::F ONT::V345926 (:* ONT::AWKWARD-VAL W::WOODEN) :FIGURE ONT::V345932
+<   :START 29 :END 36))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V346619">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V345846" />
+<     <LF:start>0</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V345846">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:RESULT rdf:resource="#V345862" />
+<     <role:AGENT rdf:resource="#V345820" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V345820">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>WOMAN</LF:word>
+<     <role:SIZE rdf:resource="#V345818" />
+<     <LF:start>0</LF:start>
+<     <LF:end>12</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V345818">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>3</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V345862">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V345932" />
+<     <role:FIGURE rdf:resource="#V345820" />
+<     <LF:start>24</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V345932">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>BENCH</LF:word>
+<     <role:MOD rdf:resource="#V345926" />
+<     <LF:start>27</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V345926">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AWKWARD-VAL</LF:type>
+<     <LF:word>WOODEN</LF:word>
+<     <role:FIGURE rdf:resource="#V345932" />
+<     <LF:start>29</LF:start>
+<     <LF:end>36</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::IN W::FRONT W::OF W::AN W::ABOUT W::ONE W::METRE W::HIGH W::RED W::BRICK
+<  W::WALL)</lisp><word>IN</word><word>FRONT</word><word>OF</word><word>AN</word><word>ABOUT</word><word>ONE</word><word>METRE</word><word>HIGH</word><word>RED</word><word>BRICK</word><word>WALL</word></words><tags><lisp>((WORD &quot;in&quot; :FRAME (42 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;front&quot; :FRAME (45 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;front&quot; :FRAME (45 50) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.944 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in front&quot; :FRAME (42 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+<     (&quot;in_front%4:02:00&quot;)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (51 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;an&quot; :FRAME (54 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;about&quot; :FRAME (57 62) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN RB) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;one&quot; :FRAME (63 66) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;about one&quot; :FRAME (57 66) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP)
+<   :SCORE 10.355 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;about one&quot; :FRAME (57 66) :PENN-CATS (QP) :SCORE 10.353 :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;metre&quot; :FRAME (67 72) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;high&quot; :FRAME (73 77) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (78 79) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (80 83) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;high , red&quot; :FRAME (73 83) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP)
+<   :SCORE 18.093 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;brick&quot; :FRAME (84 89) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall&quot; :FRAME (90 94) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;an about one metre high , red brick wall&quot; :FRAME (54 94) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 74.706 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;of an about one metre high , red brick wall&quot; :FRAME (51 94)
+<   :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 77.905 :UTTNUM 63 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;front of an about one metre high , red brick wall&quot; :FRAME (45 94)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 89.39 :UTTNUM 63 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;in front of an about one metre high , red brick wall&quot; :FRAME (42 94)
+<   :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 92.986 :UTTNUM 63 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;a wooden bench in front of an about one metre high , red brick wall&quot;
+<   :FRAME (27 94) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 115.865 :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;on a wooden bench in front of an about one metre high , red brick wall&quot;
+<   :FRAME (24 94) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 120.059 :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;sitting on a wooden bench in front of an about one metre high , red brick wall&quot;
+<   :FRAME (16 94) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 128.756 :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;are sitting on a wooden bench in front of an about one metre high , red brick wall&quot;
+<   :FRAME (12 94) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 133.119 :UTTNUM 63
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (95 95) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;Three women are sitting on a wooden bench in front of an about one metre high , red brick wall .&quot;
+<   :FRAME (0 95) :PENN-CATS (S) :SCORE 153.235 :UTTNUM 63 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="in" start="42" end="44"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="front" start="45" end="50"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="45" end="50" penn-cats="NP" score="10.944" /><word lex="in front" start="42" end="50"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="51" end="53"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="an" start="54" end="56"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="about" start="57" end="62"><sense-info penn-parts-of-speech="IN,RB" trips-parts-of-speech="PREP,ADV" /></word><word lex="one" start="63" end="66"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="about one" start="57" end="66" penn-cats="ADJP" score="10.355" /><prefer text="about one" start="57" end="66" penn-cats="QP" score="10.353" /><word lex="metre" start="67" end="72"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="high" start="73" end="77"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="," start="78" end="79"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="red" start="80" end="83"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="high , red" start="73" end="83" penn-cats="ADJP" score="18.093" /><word lex="brick" start="84" end="89"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="wall" start="90" end="94"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="an about one metre high , red brick wall" start="54" end="94" penn-cats="NP" score="74.706" /><prefer text="of an about one metre high , red brick wall" start="51" end="94" penn-cats="PP" score="77.905" /><prefer text="front of an about one metre high , red brick wall" start="45" end="94" penn-cats="NP" score="89.39" /><prefer text="in front of an about one metre high , red brick wall" start="42" end="94" penn-cats="PP" score="92.986" /><prefer text="a wooden bench in front of an about one metre high , red brick wall" start="27" end="94" penn-cats="NP" score="115.865" /><prefer text="on a wooden bench in front of an about one metre high , red brick wall" start="24" end="94" penn-cats="PP" score="120.059" /><prefer text="sitting on a wooden bench in front of an about one metre high , red brick wall" start="16" end="94" penn-cats="VP" score="128.756" /><prefer text="are sitting on a wooden bench in front of an about one metre high , red brick wall" start="12" end="94" penn-cats="VP" score="133.119" /><word lex="." start="95" end="95"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Three women are sitting on a wooden bench in front of an about one metre high , red brick wall ." start="0" end="95" penn-cats="S" score="153.235" /></tags><tree><lisp>(ADVBL (ADV IN)
+<  (NP
+<   (N1 (N FRONT)
+<    (PP (PREP OF)
+<     (NP (SPEC (DET (ART AN)))
+<      (N1 (ADJP (NUMBER (ADV ABOUT) (NUMBER ONE)))
+<       (N1 (N1 (N METRE))
+<        (N1
+<         (N1 (ADJP (ADJ1 (ADJ HIGH)))
+<          (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N BRICK))))
+<         (N1 (N WALL))))))))))</lisp><ADVBL><ADV>IN</ADV><NP><N1><N>FRONT</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>AN</ART></DET></SPEC><N1><ADJP><NUMBER><ADV>ABOUT</ADV><NUMBER>ONE</NUMBER></NUMBER></ADJP><N1><N1><N>METRE</N></N1><N1><N1><ADJP><ADJ1><ADJ>HIGH</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>BRICK</N></N1></N1></N1><N1><N>WALL</N></N1></N1></N1></N1></NP></PP></N1></NP></ADVBL></tree><terms root="#V345939"><lisp>((ONT::F ONT::V345939 (:* ONT::IN-LOC W::IN) :GROUND ONT::V345988 :START 42
+<   :END 95)
+<  (ONT::BARE ONT::V345988 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+<   ONT::V346099 :START 45 :END 95)
+<  (ONT::A ONT::V346099 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :SIZE
+<   ONT::V346075 :ASSOC-WITH ONT::V346077 :ASSOC-WITH ONT::V346096 :START 51 :END
+<   95)
+<  (ONT::KIND ONT::V346096 (:* ONT::MATERIAL W::BRICK) :MOD ONT::V346080 :MOD
+<   ONT::V346089 :START 51 :END 95)
+<  (ONT::KIND ONT::V346077 (:* ONT::LENGTH-UNIT W::METRE) :START 51 :END 95)
+<  (ONT::A ONT::V346075 ONT::NUMBER :MOD ONT::V346054 :START 57 :END 67)
+<  (ONT::F ONT::V346054 (:* ONT::QMODIFIER W::APPROXIMATE) :FIGURE ONT::V346075
+<   :GROUND ONT::V346169 :START 57 :END 67)
+<  (ONT::A ONT::V346169 ONT::NUMBER :VALUE 1 :START 57 :END 67)
+<  (ONT::F ONT::V346080 (:* ONT::HIGH-VAL W::HIGH) :FIGURE ONT::V346096 :START 73
+<   :END 78)
+<  (ONT::F ONT::V346089 (:* ONT::RED W::RED) :FIGURE ONT::V346096 :SCALE
+<   ONT::COLOR-SCALE :START 80 :END 84))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V345939">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V345988" />
+<     <LF:start>42</LF:start>
+<     <LF:end>95</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V345988">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>FRONT</LF:word>
+<     <role:FIGURE rdf:resource="#V346099" />
+<     <LF:start>45</LF:start>
+<     <LF:end>95</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346099">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>WALL</LF:word>
+<     <role:SIZE rdf:resource="#V346075" />
+<     <role:ASSOC-WITH rdf:resource="#V346077" />
+<     <role:ASSOC-WITH rdf:resource="#V346096" />
+<     <LF:start>51</LF:start>
+<     <LF:end>95</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346096">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>MATERIAL</LF:type>
+<     <LF:word>BRICK</LF:word>
+<     <role:MOD rdf:resource="#V346080" />
+<     <role:MOD rdf:resource="#V346089" />
+<     <LF:start>51</LF:start>
+<     <LF:end>95</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346077">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>LENGTH-UNIT</LF:type>
+<     <LF:word>METRE</LF:word>
+<     <LF:start>51</LF:start>
+<     <LF:end>95</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346075">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:MOD rdf:resource="#V346054" />
+<     <LF:start>57</LF:start>
+<     <LF:end>67</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346054">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>QMODIFIER</LF:type>
+<     <LF:word>APPROXIMATE</LF:word>
+<     <role:FIGURE rdf:resource="#V346075" />
+<     <role:GROUND rdf:resource="#V346169" />
+<     <LF:start>57</LF:start>
+<     <LF:end>67</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346169">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>1</role:VALUE>
+<     <LF:start>57</LF:start>
+<     <LF:end>67</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346080">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>HIGH-VAL</LF:type>
+<     <LF:word>HIGH</LF:word>
+<     <role:FIGURE rdf:resource="#V346096" />
+<     <LF:start>73</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346089">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V346096" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>80</LF:start>
+<     <LF:end>84</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="42">
+>    <TEXT>Three women are sitting on a wooden bench i</TEXT>
+>    <RELATION id="1" head="V346619" res="V345846" label="CONTENT"/>
+>    <PHRASE id="V345846" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="42"/>
+>    <RELATION id="2" head="V345846" res="V345862" label="RESULT"/>
+>    <RELATION id="3" head="V345846" res="V345820" label="AGENT"/>
+>    <PHRASE id="V345820" indicator="INDEF-SET" type="FEMALE-PERSON" text="WOMAN" start="0" end="12"/>
+>    <RELATION id="4" head="V345820" res="V345818" label="SIZE"/>
+>    <PHRASE id="V345818" indicator="A" type="NUMBER" VALUE="3" start="0" end="6"/>
+>    <PHRASE id="V345862" indicator="F" type="ON" text="ON" start="24" end="42"/>
+>    <RELATION id="5" head="V345862" res="V345932" label="GROUND"/>
+>    <RELATION id="6" head="V345862" res="V345820" label="FIGURE"/>
+>    <PHRASE id="V345932" indicator="A" type="FURNISHINGS" text="BENCH" start="27" end="42"/>
+>    <RELATION id="7" head="V345932" res="V345926" label="MOD"/>
+>    <PHRASE id="V345926" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="29" end="36"/>
+>    <RELATION id="8" head="V345926" res="V345932" label="FIGURE"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="IN-LOC" text="IN" start="42" end="95">
+>    <TEXT>in front of an about one metre high , red brick wall .</TEXT>
+>    <RELATION id="9" head="V345939" res="V345988" label="GROUND"/>
+>    <PHRASE id="V345988" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="45" end="95"/>
+>    <RELATION id="10" head="V345988" res="V346099" label="FIGURE"/>
+>    <PHRASE id="V346099" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="51" end="95"/>
+>    <RELATION id="11" head="V346099" res="V346075" label="SIZE"/>
+>    <RELATION id="12" head="V346099" res="V346077" label="ASSOC-WITH"/>
+>    <RELATION id="13" head="V346099" res="V346096" label="ASSOC-WITH"/>
+>    <PHRASE id="V346096" indicator="KIND" type="MATERIAL" text="BRICK" start="51" end="95"/>
+>    <RELATION id="14" head="V346096" res="V346080" label="MOD"/>
+>    <RELATION id="15" head="V346096" res="V346089" label="MOD"/>
+>    <PHRASE id="V346077" indicator="KIND" type="LENGTH-UNIT" text="METRE" start="51" end="95"/>
+>    <PHRASE id="V346075" indicator="A" type="NUMBER" start="57" end="67"/>
+>    <RELATION id="16" head="V346075" res="V346054" label="MOD"/>
+>    <PHRASE id="V346054" indicator="F" type="QMODIFIER" text="APPROXIMATE" start="57" end="67"/>
+>    <RELATION id="17" head="V346054" res="V346075" label="FIGURE"/>
+>    <RELATION id="18" head="V346054" res="V346169" label="GROUND"/>
+>    <PHRASE id="V346169" indicator="A" type="NUMBER" VALUE="1" start="57" end="67"/>
+>    <PHRASE id="V346080" indicator="F" type="HIGH-VAL" text="HIGH" start="73" end="78"/>
+>    <RELATION id="19" head="V346080" res="V346096" label="FIGURE"/>
+>    <PHRASE id="V346089" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="80" end="84"/>
+>    <RELATION id="20" head="V346089" res="V346096" label="FIGURE"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

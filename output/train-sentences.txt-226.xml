@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="35">
+   <TEXT>a man is carrying a heavy rice bag .</TEXT>
+   <RELATION id="1" head="V129504" res="V128960" label="CONTENT"/>
+   <PHRASE id="V128960" indicator="F" type="TRANSPORT" text="CARRY" TENSE="PRES" PROGR="+" start="0" end="35"/>
+   <RELATION id="2" head="V128960" res="V128937" label="AGENT"/>
+   <RELATION id="3" head="V128960" res="V129018" label="AFFECTED"/>
+   <PHRASE id="V128937" indicator="A" type="MALE-PERSON" text="MAN" start="0" end="6"/>
+   <PHRASE id="V129018" indicator="A" type="BAG" text="BAG" start="18" end="35"/>
+   <RELATION id="4" head="V129018" res="V129014" label="ASSOC-WITH"/>
+   <RELATION id="5" head="V129018" res="V129004" label="MOD"/>
+   <PHRASE id="V129014" indicator="KIND" type="GRAINS" text="RICE" start="18" end="35"/>
+   <PHRASE id="V129004" indicator="F" type="HEAVY" text="HEAVY" ORIENTATION="MORE" INTENSITY="MED" SCALE="WEIGHT-SCALE" start="20" end="26"/>
+   <RELATION id="6" head="V129004" res="V129018" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

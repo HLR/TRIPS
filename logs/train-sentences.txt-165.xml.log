@@ -1,0 +1,362 @@
+2,316c2,45
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Three social workers and about ten local kids in a room with dark and light blue walls .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?300166:(F::PHYS-OBJ
+<                                                          F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V253095)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?300164)
+<                                            (W::TRANSFORM ?300165)))
+<                                  (W::CASE ?300163:(W::SUB W::OBJ -))
+<                                  (W::AGR ?300162) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V253095) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER253643))
+< *last-utt-id*=NIL  utt-id+48
+< *last-utt-id*=48  utt-id+48
+< *last-utt-id*=48  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::THREE W::SOCIAL W::WORKERS W::AND W::ABOUT W::TEN)</lisp><word>THREE</word><word>SOCIAL</word><word>WORKERS</word><word>AND</word><word>ABOUT</word><word>TEN</word></words><tags><lisp>((WORD &quot;Three&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;social&quot; :FRAME (6 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;workers&quot; :FRAME (13 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;social workers&quot; :FRAME (6 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;social_worker%1:18:00&quot;)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Three social workers&quot; :FRAME (0 20) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 25.217 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (21 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;about&quot; :FRAME (25 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN RB) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;ten&quot; :FRAME (31 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD NN) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT W::N)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;about ten&quot; :FRAME (25 34) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   22.456 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Three social workers and about ten&quot; :FRAME (0 34) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 50.747 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="Three" start="0" end="5"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="social" start="6" end="12"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="workers" start="13" end="20"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="social workers" start="6" end="20"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" wn-sense-keys="social_worker%1:18:00" /></word><prefer text="Three social workers" start="0" end="20" penn-cats="NP" score="25.217" /><word lex="and" start="21" end="24"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="about" start="25" end="30"><sense-info penn-parts-of-speech="IN,RB" trips-parts-of-speech="PREP,ADV" /></word><word lex="ten" start="31" end="34"><sense-info penn-parts-of-speech="CD,NN" trips-parts-of-speech="NUMBER,NUMBER-UNIT,N" /></word><prefer text="about ten" start="25" end="34" penn-cats="NP" score="22.456" /><prefer text="Three social workers and about ten" start="0" end="34" penn-cats="NP" score="50.747" /></tags><tree><lisp>(NP (NP (N1 (ADJP (NUMBER THREE)) (N1 (N SOCIAL WORKERS)))) (CONJ AND)
+<  (NP (NUMBER (ADV ABOUT) (NUMBER TEN))))</lisp><NP><NP><N1><ADJP><NUMBER>THREE</NUMBER></ADJP><N1><N>SOCIAL WORKERS</N></N1></N1></NP><CONJ>AND</CONJ><NP><NUMBER><ADV>ABOUT</ADV><NUMBER>TEN</NUMBER></NUMBER></NP></NP></tree><terms root="#V248618"><lisp>((ONT::INDEF-SET ONT::V248618 ONT::REFERENTIAL-SEM :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V248614 ONT::V248643) :START 0 :END 35 :WNSENSE
+<   &quot;social_worker%1:18:00&quot;)
+<  (ONT::INDEF-SET ONT::V248614 (:* ONT::PERSON W::SOCIAL-WORKERS) :SIZE
+<   ONT::V248595 :START 0 :END 21 :WNSENSE &quot;social_worker%1:18:00&quot;)
+<  (ONT::A ONT::V248595 ONT::NUMBER :VALUE 3 :START 0 :END 6)
+<  (ONT::INDEF-SET ONT::V248643 ONT::NUMBER :MOD ONT::V248629 :START 25 :END 35)
+<  (ONT::F ONT::V248629 (:* ONT::QMODIFIER W::APPROXIMATE) :FIGURE ONT::V248643
+<   :GROUND ONT::V248883 :START 25 :END 35)
+<  (ONT::A ONT::V248883 ONT::NUMBER :VALUE 10 :START 25 :END 35))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V248618">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V248614" />
+<     <role:SEQUENCE1 rdf:resource="#V248643" />
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<     <role:WNSENSE>social_worker%1:18:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248614">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <LF:word>SOCIAL-WORKERS</LF:word>
+<     <role:SIZE rdf:resource="#V248595" />
+<     <LF:start>0</LF:start>
+<     <LF:end>21</LF:end>
+<     <role:WNSENSE>social_worker%1:18:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248595">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>3</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248643">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:MOD rdf:resource="#V248629" />
+<     <LF:start>25</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248629">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>QMODIFIER</LF:type>
+<     <LF:word>APPROXIMATE</LF:word>
+<     <role:FIGURE rdf:resource="#V248643" />
+<     <role:GROUND rdf:resource="#V248883" />
+<     <LF:start>25</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248883">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>10</role:VALUE>
+<     <LF:start>25</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::LOCAL W::KIDS W::IN W::A W::ROOM W::WITH W::DARK W::AND W::LIGHT W::BLUE
+<  W::WALLS W::PUNC-PERIOD)</lisp><word>LOCAL</word><word>KIDS</word><word>IN</word><word>A</word><word>ROOM</word><word>WITH</word><word>DARK</word><word>AND</word><word>LIGHT</word><word>BLUE</word><word>WALLS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;local&quot; :FRAME (35 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (41 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;local kids&quot; :FRAME (35 45) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   17.033 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (46 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (49 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;room&quot; :FRAME (51 55) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a room&quot; :FRAME (49 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.709 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (56 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (61 65) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (66 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;light&quot; :FRAME (70 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;dark and light&quot; :FRAME (61 75) :PENN-CATS (ADJP) :TRIPS-CATS
+<   (W::ADJP) :SCORE 18.238 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (76 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;walls&quot; :FRAME (81 86) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue walls&quot; :FRAME (76 86) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;blue_wall%1:04:00&quot;)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;dark and light blue walls&quot; :FRAME (61 86) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 40.216 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with dark and light blue walls&quot; :FRAME (56 86) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 46.148 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;a room with dark and light blue walls&quot; :FRAME (49 86) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 57.397 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;in a room with dark and light blue walls&quot; :FRAME (46 86) :PENN-CATS
+<   (PP) :TRIPS-CATS (W::PP) :SCORE 60.994 :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;local kids in a room with dark and light blue walls&quot; :FRAME (35 86)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 78.688 :UTTNUM 48 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (87 87) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 48 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;Three social workers and about ten local kids in a room with dark and light blue walls .&quot;
+<   :FRAME (0 87) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 135.681 :UTTNUM 48
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="local" start="35" end="40"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="kids" start="41" end="45"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="local kids" start="35" end="45" penn-cats="NP" score="17.033" /><word lex="in" start="46" end="48"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="49" end="50"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="room" start="51" end="55"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a room" start="49" end="55" penn-cats="NP" score="10.709" /><word lex="with" start="56" end="60"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="dark" start="61" end="65"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="and" start="66" end="69"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="light" start="70" end="75"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="dark and light" start="61" end="75" penn-cats="ADJP" score="18.238" /><word lex="blue" start="76" end="80"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="walls" start="81" end="86"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="blue walls" start="76" end="86"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" wn-sense-keys="blue_wall%1:04:00" /></word><prefer text="dark and light blue walls" start="61" end="86" penn-cats="NP" score="40.216" /><prefer text="with dark and light blue walls" start="56" end="86" penn-cats="PP" score="46.148" /><prefer text="a room with dark and light blue walls" start="49" end="86" penn-cats="NP" score="57.397" /><prefer text="in a room with dark and light blue walls" start="46" end="86" penn-cats="PP" score="60.994" /><prefer text="local kids in a room with dark and light blue walls" start="35" end="86" penn-cats="NP" score="78.688" /><word lex="." start="87" end="87"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Three social workers and about ten local kids in a room with dark and light blue walls ." start="0" end="87" penn-cats="NP" score="135.681" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1 (N1 (ADJP (ADJ1 (ADJ LOCAL))) (N1 (N KIDS)))
+<     (ADVBL (ADV IN)
+<      (NP (SPEC (DET (ART A)))
+<       (N1 (N1 (N ROOM))
+<        (ADVBL (ADV WITH)
+<         (NP
+<          (N1
+<           (ADJP (ADJP (ADJ1 (ADJ DARK))) (CONJ AND) (ADJP (ADJ1 (ADJ LIGHT))))
+<           (N1 (N BLUE WALLS)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><ADJP><ADJ1><ADJ>LOCAL</ADJ></ADJ1></ADJP><N1><N>KIDS</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>ROOM</N></N1><ADVBL><ADV>WITH</ADV><NP><N1><ADJP><ADJP><ADJ1><ADJ>DARK</ADJ></ADJ1></ADJP><CONJ>AND</CONJ><ADJP><ADJ1><ADJ>LIGHT</ADJ></ADJ1></ADJP></ADJP><N1><N>BLUE WALLS</N></N1></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V249994"><lisp>((ONT::SPEECHACT ONT::V249994 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V248649 :START 35 :END 87)
+<  (ONT::INDEF-SET ONT::V248649 (:* ONT::CHILD W::KID) :LOCATION ONT::V248656
+<   :MOD ONT::V248645 :START 35 :END 87)
+<  (ONT::F ONT::V248645 (:* ONT::LOCAL-VAL W::LOCAL) :SCALE ONT::LINEAR-SCALE
+<   :INTENSITY ONT::MED :ORIENTATION ONT::LESS :FIGURE ONT::V248649 :START 35
+<   :END 41)
+<  (ONT::F ONT::V248656 (:* ONT::IN-LOC W::IN) :GROUND ONT::V248746 :FIGURE
+<   ONT::V248649 :START 46 :END 87)
+<  (ONT::A ONT::V248746 (:* ONT::INTERNAL-ENCLOSURE W::ROOM) :MOD ONT::V248750
+<   :START 49 :END 87)
+<  (ONT::F ONT::V248750 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V248825 :FIGURE
+<   ONT::V248746 :START 56 :END 87)
+<  (ONT::INDEF-SET ONT::V248825 (:* ONT::ACTIVITY-EVENT W::BLUE-WALLS) :MOD
+<   ONT::V248896 :START 61 :END 87 :WNSENSE &quot;blue_wall%1:04:00&quot;)
+<  (ONT::F ONT::V248896 ONT::PRESENSE-OF-LIGHT-VAL :SEQUENCE
+<   (ONT::V248762 ONT::V248780) :OPERATOR ONT::AND :START 61 :END 76)
+<  (ONT::F ONT::V248762 (:* ONT::DARK-VAL W::DARK) :FIGURE ONT::V248825 :START 61
+<   :END 66)
+<  (ONT::F ONT::V248780 (:* ONT::LIGHT-VAL W::LIGHT) :FIGURE ONT::V248825 :SCALE
+<   ONT::LUMINOSITY-SCALE :START 70 :END 76))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V249994">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V248649" />
+<     <LF:start>35</LF:start>
+<     <LF:end>87</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248649">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:LOCATION rdf:resource="#V248656" />
+<     <role:MOD rdf:resource="#V248645" />
+<     <LF:start>35</LF:start>
+<     <LF:end>87</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248645">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LOCAL-VAL</LF:type>
+<     <LF:word>LOCAL</LF:word>
+<     <role:SCALE>LINEAR-SCALE</role:SCALE>
+<     <role:INTENSITY>MED</role:INTENSITY>
+<     <role:ORIENTATION>LESS</role:ORIENTATION>
+<     <role:FIGURE rdf:resource="#V248649" />
+<     <LF:start>35</LF:start>
+<     <LF:end>41</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248656">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V248746" />
+<     <role:FIGURE rdf:resource="#V248649" />
+<     <LF:start>46</LF:start>
+<     <LF:end>87</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248746">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>ROOM</LF:word>
+<     <role:MOD rdf:resource="#V248750" />
+<     <LF:start>49</LF:start>
+<     <LF:end>87</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248750">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V248825" />
+<     <role:FIGURE rdf:resource="#V248746" />
+<     <LF:start>56</LF:start>
+<     <LF:end>87</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248825">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>ACTIVITY-EVENT</LF:type>
+<     <LF:word>BLUE-WALLS</LF:word>
+<     <role:MOD rdf:resource="#V248896" />
+<     <LF:start>61</LF:start>
+<     <LF:end>87</LF:end>
+<     <role:WNSENSE>blue_wall%1:04:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248896">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PRESENSE-OF-LIGHT-VAL</LF:type>
+<     <role:SEQUENCE rdf:resource="#V248762" />
+<     <role:SEQUENCE1 rdf:resource="#V248780" />
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <LF:start>61</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248762">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>DARK-VAL</LF:type>
+<     <LF:word>DARK</LF:word>
+<     <role:FIGURE rdf:resource="#V248825" />
+<     <LF:start>61</LF:start>
+<     <LF:end>66</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248780">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LIGHT-VAL</LF:type>
+<     <LF:word>LIGHT</LF:word>
+<     <role:FIGURE rdf:resource="#V248825" />
+<     <role:SCALE>LUMINOSITY-SCALE</role:SCALE>
+<     <LF:start>70</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="INDEF-SET" type="REFERENTIAL-SEM" OPERATOR="AND" start="0" end="35" WNSENSE="social_worker%1:18:00">
+>    <TEXT>Three social workers and about ten l</TEXT>
+>    <RELATION id="1" head="V248618" res="V248614" label="SEQUENCE"/>
+>    <RELATION id="2" head="V248618" res="V248643" label="SEQUENCE1"/>
+>    <PHRASE id="V248614" indicator="INDEF-SET" type="PERSON" text="SOCIAL-WORKERS" start="0" end="21" WNSENSE="social_worker%1:18:00"/>
+>    <RELATION id="3" head="V248614" res="V248595" label="SIZE"/>
+>    <PHRASE id="V248595" indicator="A" type="NUMBER" VALUE="3" start="0" end="6"/>
+>    <PHRASE id="V248643" indicator="INDEF-SET" type="NUMBER" start="25" end="35"/>
+>    <RELATION id="4" head="V248643" res="V248629" label="MOD"/>
+>    <PHRASE id="V248629" indicator="F" type="QMODIFIER" text="APPROXIMATE" start="25" end="35"/>
+>    <RELATION id="5" head="V248629" res="V248643" label="FIGURE"/>
+>    <RELATION id="6" head="V248629" res="V248883" label="GROUND"/>
+>    <PHRASE id="V248883" indicator="A" type="NUMBER" VALUE="10" start="25" end="35"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="35" end="87">
+>    <TEXT>local kids in a room with dark and light blue walls .</TEXT>
+>    <RELATION id="7" head="V249994" res="V248649" label="CONTENT"/>
+>    <PHRASE id="V248649" indicator="INDEF-SET" type="CHILD" text="KID" start="35" end="87"/>
+>    <RELATION id="8" head="V248649" res="V248656" label="LOCATION"/>
+>    <RELATION id="9" head="V248649" res="V248645" label="MOD"/>
+>    <PHRASE id="V248645" indicator="F" type="LOCAL-VAL" text="LOCAL" SCALE="LINEAR-SCALE" INTENSITY="MED" ORIENTATION="LESS" start="35" end="41"/>
+>    <RELATION id="10" head="V248645" res="V248649" label="FIGURE"/>
+>    <PHRASE id="V248656" indicator="F" type="IN-LOC" text="IN" start="46" end="87"/>
+>    <RELATION id="11" head="V248656" res="V248746" label="GROUND"/>
+>    <RELATION id="12" head="V248656" res="V248649" label="FIGURE"/>
+>    <PHRASE id="V248746" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="49" end="87"/>
+>    <RELATION id="13" head="V248746" res="V248750" label="MOD"/>
+>    <PHRASE id="V248750" indicator="F" type="ASSOC-WITH" text="WITH" start="56" end="87"/>
+>    <RELATION id="14" head="V248750" res="V248825" label="GROUND"/>
+>    <RELATION id="15" head="V248750" res="V248746" label="FIGURE"/>
+>    <PHRASE id="V248825" indicator="INDEF-SET" type="ACTIVITY-EVENT" text="BLUE-WALLS" start="61" end="87" WNSENSE="blue_wall%1:04:00"/>
+>    <RELATION id="16" head="V248825" res="V248896" label="MOD"/>
+>    <PHRASE id="V248896" indicator="F" type="PRESENSE-OF-LIGHT-VAL" OPERATOR="AND" start="61" end="76"/>
+>    <RELATION id="17" head="V248896" res="V248762" label="SEQUENCE"/>
+>    <RELATION id="18" head="V248896" res="V248780" label="SEQUENCE1"/>
+>    <PHRASE id="V248762" indicator="F" type="DARK-VAL" text="DARK" start="61" end="66"/>
+>    <RELATION id="19" head="V248762" res="V248825" label="FIGURE"/>
+>    <PHRASE id="V248780" indicator="F" type="LIGHT-VAL" text="LIGHT" SCALE="LUMINOSITY-SCALE" start="70" end="76"/>
+>    <RELATION id="20" head="V248780" res="V248825" label="FIGURE"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

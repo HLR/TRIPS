@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="29" end="69">
+   <TEXT>girl wearing a pinkish greyish pullover i</TEXT>
+   <RELATION id="1" head="V330085" res="V330091" label="MOD"/>
+   <PHRASE id="V330091" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="69"/>
+   <RELATION id="2" head="V330091" res="V330085" label="AGENT"/>
+   <RELATION id="3" head="V330091" res="V330147" label="NEUTRAL"/>
+   <PHRASE id="V330147" indicator="A" type="ATTIRE" text="PULLOVER" start="42" end="69"/>
+   <RELATION id="4" head="V330147" res="V330139" label="MOD"/>
+   <RELATION id="5" head="V330147" res="V330143" label="MOD"/>
+   <PHRASE id="V330139" indicator="F" type="PINK" text="PINKISH" SCALE="PINK*1--07--00" start="44" end="52"/>
+   <RELATION id="6" head="V330139" res="V330147" label="FIGURE"/>
+   <PHRASE id="V330143" indicator="F" type="GRAY" text="GREYISH" SCALE="GREYNESS*1--07--00" start="52" end="60"/>
+   <RELATION id="7" head="V330143" res="V330147" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="69" end="113">
+   <TEXT>is sitting at a desk in front of a building .</TEXT>
+   <RELATION id="8" head="V335956" res="V330155" label="CONTENT"/>
+   <PHRASE id="V330155" indicator="F" type="HAVE-PROPERTY" text="BE" start="69" end="113"/>
+   <RELATION id="9" head="V330155" res="V330170" label="NEUTRAL"/>
+   <RELATION id="10" head="V330155" res="V330252" label="FORMAL"/>
+   <RELATION id="11" head="V330155" res="V330192" label="LOCATION"/>
+   <PHRASE id="V330170" indicator="BARE" type="BODY-MOVEMENT" text="SIT-UP" start="72" end="80"/>
+   <PHRASE id="V330192" indicator="F" type="AT-LOC" text="AT" start="80" end="90"/>
+   <RELATION id="12" head="V330192" res="V330245" label="GROUND"/>
+   <RELATION id="13" head="V330192" res="V330155" label="FIGURE"/>
+   <PHRASE id="V330245" indicator="A" type="FURNISHINGS" text="DESK" start="83" end="90"/>
+   <PHRASE id="V330252" indicator="F" type="IN-LOC" text="IN" start="90" end="113"/>
+   <RELATION id="14" head="V330252" res="V330301" label="GROUND"/>
+   <RELATION id="15" head="V330252" res="V330170" label="FIGURE"/>
+   <PHRASE id="V330301" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="93" end="113"/>
+   <RELATION id="16" head="V330301" res="V330405" label="FIGURE"/>
+   <PHRASE id="V330405" indicator="A" type="GENERAL-STRUCTURE" text="BUILDING" start="99" end="113"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

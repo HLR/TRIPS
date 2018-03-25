@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-haired , dark-skinned boy wearing a black cap ( backwards ) and a red and green tee-shirt underneath a light blue anorak .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?72756:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V332599)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?72754)
+                                           (W::TRANSFORM ?72755)))
+                                 (W::CASE ?72753:(W::SUB W::OBJ -))
+                                 (W::AGR ?72752) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V332599) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER332618))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?73051:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V332602)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?73049)
+                                           (W::TRANSFORM ?73050)))
+                                 (W::CASE ?73048:(W::SUB W::OBJ -))
+                                 (W::AGR ?73047) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V332602) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER332620))
+*last-utt-id*=NIL  utt-id+53
+*last-utt-id*=53  utt-id+53
+*last-utt-id*=53  utt-id+NIL
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?68265:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V341251)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?68263)
+                                           (W::TRANSFORM ?68264)))
+                                 (W::CASE ?68262:(W::SUB W::OBJ -))
+                                 (W::AGR ?68261) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V341251) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER341424))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?68580:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V341254)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?68578)
+                                           (W::TRANSFORM ?68579)))
+                                 (W::CASE ?68577:(W::SUB W::OBJ -))
+                                 (W::AGR ?68576) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V341254) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER341426))
+*last-utt-id*=NIL  utt-id+53
+*last-utt-id*=53  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::A W::DARK W::PUNC-MINUS W::HAIRED W::DARK W::PUNC-MINUS W::SKINNED W::BOY
+ W::WEARING W::A W::BLACK W::CAP)</lisp><word>A</word><word>DARK</word><word>PUNC-MINUS</word><word>HAIRED</word><word>DARK</word><word>PUNC-MINUS</word><word>SKINNED</word><word>BOY</word><word>WEARING</word><word>A</word><word>BLACK</word><word>CAP</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;haired&quot; :FRAME (7 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark-haired&quot; :FRAME (2 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;dark-haired%5:00:00&quot;)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (14 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (16 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (20 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;skinned&quot; :FRAME (21 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark-skinned&quot; :FRAME (16 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;dark-skinned%5:00:00&quot;)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;boy&quot; :FRAME (29 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a dark-haired , dark-skinned boy&quot; :FRAME (0 32) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 40.958 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;wearing&quot; :FRAME (33 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (41 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;black&quot; :FRAME (43 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cap&quot; :FRAME (49 52) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a black cap&quot; :FRAME (41 52) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 19.242 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (53 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN -LRB-) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="haired" start="7" end="13"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="dark-haired" start="2" end="13"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-haired%5:00:00" /></word><word lex="," start="14" end="15"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="dark" start="16" end="19"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="-" start="20" end="20"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="skinned" start="21" end="28"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-skinned" start="16" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-skinned%5:00:00" /></word><word lex="boy" start="29" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-haired , dark-skinned boy" start="0" end="32" penn-cats="NP" score="40.958" /><word lex="wearing" start="33" end="40"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="41" end="42"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="black" start="43" end="48"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="cap" start="49" end="52"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a black cap" start="41" end="52" penn-cats="NP" score="19.242" /><word lex="(" start="53" end="54"><sense-info penn-parts-of-speech="NN,-LRB-" trips-parts-of-speech="N" /></word></tags><tree><lisp>(NP (SPEC (DET (ART A)))
+ (N1
+  (N1 (ADJP (ADJ1 (ADJ DARK PUNC-MINUS HAIRED)))
+   (N1 (ADJP (ADJ1 (ADJ DARK))) (WORD PUNC-MINUS)
+    (N1 (ADJP (VP- (V SKINNED))) (N1 (N BOY)))))
+  (CP
+   (VP
+    (VP- (V WEARING)
+     (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ BLACK))) (N1 (N CAP)))))))))</lisp><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>DARK PUNC-MINUS HAIRED</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>DARK</ADJ></ADJ1></ADJP><WORD>PUNC-MINUS</WORD><N1><ADJP><VP-><V>SKINNED</V></VP-></ADJP><N1><N>BOY</N></N1></N1></N1></N1><CP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>BLACK</ADJ></ADJ1></ADJP><N1><N>CAP</N></N1></N1></NP></VP-></VP></CP></N1></NP></tree><terms root="#V331567"><lisp>((ONT::A ONT::V331567 (:* ONT::MALE-CHILD W::BOY) :MOD ONT::V331573 :MOD
+  ONT::V331533 :MOD ONT::V331540 :MOD ONT::V331550 :START 0 :END 53)
+ (ONT::F ONT::V331533 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-HAIRED) :FIGURE
+  ONT::V331567 :START 2 :END 14 :WNSENSE &quot;dark-haired%5:00:00&quot;)
+ (ONT::F ONT::V331540 (:* ONT::DARK-IN-COLOR-VAL W::DARK) :FIGURE ONT::V331567
+  :START 16 :END 20)
+ (ONT::F ONT::V331550 (:* ONT::MOVE W::SKINNED) :AFFECTED ONT::V331567 :START
+  21 :END 29)
+ (ONT::F ONT::V331573 (:* ONT::WEAR W::WEAR) :AGENT ONT::V331567 :NEUTRAL
+  ONT::V331623 :VFORM W::ING :START 33 :END 53)
+ (ONT::A ONT::V331623 (:* ONT::ATTIRE W::CAP) :MOD ONT::V331620 :START 41 :END
+  53)
+ (ONT::F ONT::V331620 (:* ONT::BLACK W::BLACK) :FIGURE ONT::V331623 :SCALE
+  ONT::BLACKNESS*1--07--00 :START 43 :END 49))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V331567">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>MALE-CHILD</LF:type>
+    <LF:word>BOY</LF:word>
+    <role:MOD rdf:resource="#V331573" />
+    <role:MOD rdf:resource="#V331533" />
+    <role:MOD rdf:resource="#V331540" />
+    <role:MOD rdf:resource="#V331550" />
+    <LF:start>0</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V331533">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>DARK-PUNC-MINUS-HAIRED</LF:word>
+    <role:FIGURE rdf:resource="#V331567" />
+    <LF:start>2</LF:start>
+    <LF:end>14</LF:end>
+    <role:WNSENSE>dark-haired%5:00:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V331540">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DARK-IN-COLOR-VAL</LF:type>
+    <LF:word>DARK</LF:word>
+    <role:FIGURE rdf:resource="#V331567" />
+    <LF:start>16</LF:start>
+    <LF:end>20</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V331550">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MOVE</LF:type>
+    <LF:word>SKINNED</LF:word>
+    <role:AFFECTED rdf:resource="#V331567" />
+    <LF:start>21</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V331573">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V331567" />
+    <role:NEUTRAL rdf:resource="#V331623" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>33</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V331623">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>CAP</LF:word>
+    <role:MOD rdf:resource="#V331620" />
+    <LF:start>41</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V331620">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLACK</LF:type>
+    <LF:word>BLACK</LF:word>
+    <role:FIGURE rdf:resource="#V331623" />
+    <role:SCALE>BLACKNESS*1--07--00</role:SCALE>
+    <LF:start>43</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::BACKWARDS)</lisp><word>BACKWARDS</word></words><tags><lisp>((WORD &quot;backwards&quot; :FRAME (55 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB NNP) :TRIPS-PARTS-OF-SPEECH (W::ADV W::NAME)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;backwards&quot; :FRAME (55 64) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.786 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (65 65) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (SYM -RRB-) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;( backwards )&quot; :FRAME (53 65) :PENN-CATS (PRN) :SCORE 17.011 :UTTNUM
+  53 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="backwards" start="55" end="64"><sense-info penn-parts-of-speech="RB,NNP" trips-parts-of-speech="ADV,NAME" /></word><prefer text="backwards" start="55" end="64" penn-cats="NP" score="15.786" /><word lex=")" start="65" end="65"><sense-info penn-parts-of-speech="SYM,-RRB-" trips-parts-of-speech="PUNC" /></word><prefer text="( backwards )" start="53" end="65" penn-cats="PRN" score="17.011" /></tags><tree><lisp>(PUNC START-PAREN)</lisp><PUNC>START-PAREN</PUNC></tree><terms root="#V331631"><lisp>((ONT::F ONT::V331631 (:* ONT::DIRECTION W::BACKWARDS) :START 55 :END 65))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V331631">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DIRECTION</LF:type>
+    <LF:word>BACKWARDS</LF:word>
+    <LF:start>55</LF:start>
+    <LF:end>65</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<utt><words><lisp>(W::AND W::A W::RED W::AND W::GREEN W::TEE W::PUNC-MINUS W::SHIRT W::UNDERNEATH
+ W::A W::LIGHT W::BLUE W::ANORAK W::PUNC-PERIOD)</lisp><word>AND</word><word>A</word><word>RED</word><word>AND</word><word>GREEN</word><word>TEE</word><word>PUNC-MINUS</word><word>SHIRT</word><word>UNDERNEATH</word><word>A</word><word>LIGHT</word><word>BLUE</word><word>ANORAK</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (67 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (71 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (73 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (77 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;green&quot; :FRAME (81 86) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;red and green&quot; :FRAME (73 86) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP)
+  :SCORE 18.303 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tee&quot; :FRAME (87 89) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (90 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;shirt&quot; :FRAME (91 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tee-shirt&quot; :FRAME (87 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a red and green tee-shirt&quot; :FRAME (71 96) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 35.223 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;underneath&quot; :FRAME (97 107) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (108 109) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;light&quot; :FRAME (110 115) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blue&quot; :FRAME (116 120) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;anorak&quot; :FRAME (121 127) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a light blue anorak&quot; :FRAME (108 127) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 34.837 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;underneath a light blue anorak&quot; :FRAME (97 127) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 46.07 :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;a red and green tee-shirt underneath a light blue anorak&quot; :FRAME
+  (71 127) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 84.283 :UTTNUM 53
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (128 128) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 53 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="67" end="70"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="71" end="72"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="73" end="76"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="and" start="77" end="80"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="green" start="81" end="86"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="red and green" start="73" end="86" penn-cats="ADJP" score="18.303" /><word lex="tee" start="87" end="89"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="90" end="90"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="shirt" start="91" end="96"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="tee-shirt" start="87" end="96"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a red and green tee-shirt" start="71" end="96" penn-cats="NP" score="35.223" /><word lex="underneath" start="97" end="107"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="108" end="109"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="light" start="110" end="115"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="blue" start="116" end="120"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="anorak" start="121" end="127"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a light blue anorak" start="108" end="127" penn-cats="NP" score="34.837" /><prefer text="underneath a light blue anorak" start="97" end="127" penn-cats="PP" score="46.07" /><prefer text="a red and green tee-shirt underneath a light blue anorak" start="71" end="127" penn-cats="NP" score="84.283" /><word lex="." start="128" end="128"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT (ADVBL (ADV AND))
+  (UTT
+   (NP (SPEC (DET (ART A)))
+    (N1
+     (N1 (ADJP (ADJP (ADJ1 (ADJ RED))) (CONJ AND) (ADJP (ADJ1 (ADJ GREEN))))
+      (N1 (N TEE PUNC-MINUS SHIRT)))
+     (ADVBL (ADV UNDERNEATH)
+      (NP (SPEC (DET (ART A)))
+       (N1 (ADJP (ADJ1 (ADJ LIGHT)))
+        (N1 (ADJP (ADJ1 (ADJ BLUE))) (N1 (N ANORAK))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><CONJ>AND</CONJ><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP></ADJP><N1><N>TEE PUNC-MINUS SHIRT</N></N1></N1><ADVBL><ADV>UNDERNEATH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LIGHT</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>ANORAK</N></N1></N1></N1></NP></ADVBL></N1></NP></UTT></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V341597"><lisp>((ONT::SPEECHACT ONT::V341597 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V340607 :MOD ONT::V340521 :START 67 :END 128)
+ (ONT::F ONT::V340521 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V341597 :START 67
+  :END 71)
+ (ONT::A ONT::V340607 (:* ONT::ATTIRE W::TEE-PUNC-MINUS-SHIRT) :LOCATION
+  ONT::V340610 :MOD ONT::V340733 :START 71 :END 128)
+ (ONT::F ONT::V340733 ONT::COLOR-VAL :SEQUENCE (ONT::V340570 ONT::V340587)
+  :OPERATOR ONT::AND :START 73 :END 87)
+ (ONT::F ONT::V340570 (:* ONT::RED W::RED) :FIGURE ONT::V340607 :SCALE
+  ONT::COLOR-SCALE :START 73 :END 77)
+ (ONT::F ONT::V340587 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V340607 :SCALE
+  ONT::GREEN*1--07--00 :START 81 :END 87)
+ (ONT::F ONT::V340610 (:* ONT::BELOW W::UNDERNEATH) :GROUND ONT::V340692
+  :FIGURE ONT::V340607 :START 97 :END 128)
+ (ONT::A ONT::V340692 (:* ONT::ATTIRE W::ANORAK) :MOD ONT::V340656 :MOD
+  ONT::V340679 :START 108 :END 128)
+ (ONT::F ONT::V340656 (:* ONT::LIGHT-IN-COLOR-VAL W::LIGHT) :FIGURE
+  ONT::V340692 :START 110 :END 116)
+ (ONT::F ONT::V340679 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V340692 :SCALE
+  ONT::COLOR-SCALE :START 116 :END 121))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V341597">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V340607" />
+    <role:MOD rdf:resource="#V340521" />
+    <LF:start>67</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340521">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V341597" />
+    <LF:start>67</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340607">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>TEE-PUNC-MINUS-SHIRT</LF:word>
+    <role:LOCATION rdf:resource="#V340610" />
+    <role:MOD rdf:resource="#V340733" />
+    <LF:start>71</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340733">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>COLOR-VAL</LF:type>
+    <role:SEQUENCE rdf:resource="#V340570" />
+    <role:SEQUENCE1 rdf:resource="#V340587" />
+    <role:OPERATOR>AND</role:OPERATOR>
+    <LF:start>73</LF:start>
+    <LF:end>87</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340570">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RED</LF:type>
+    <LF:word>RED</LF:word>
+    <role:FIGURE rdf:resource="#V340607" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>73</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340587">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>GREEN</LF:type>
+    <LF:word>GREEN</LF:word>
+    <role:FIGURE rdf:resource="#V340607" />
+    <role:SCALE>GREEN*1--07--00</role:SCALE>
+    <LF:start>81</LF:start>
+    <LF:end>87</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340610">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BELOW</LF:type>
+    <LF:word>UNDERNEATH</LF:word>
+    <role:GROUND rdf:resource="#V340692" />
+    <role:FIGURE rdf:resource="#V340607" />
+    <LF:start>97</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340692">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>ANORAK</LF:word>
+    <role:MOD rdf:resource="#V340656" />
+    <role:MOD rdf:resource="#V340679" />
+    <LF:start>108</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340656">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LIGHT-IN-COLOR-VAL</LF:type>
+    <LF:word>LIGHT</LF:word>
+    <role:FIGURE rdf:resource="#V340692" />
+    <LF:start>110</LF:start>
+    <LF:end>116</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V340679">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLUE</LF:type>
+    <LF:word>BLUE</LF:word>
+    <role:FIGURE rdf:resource="#V340692" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>116</LF:start>
+    <LF:end>121</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

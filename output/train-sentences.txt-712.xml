@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="33">
+   <TEXT>some garbage is lying around too .</TEXT>
+   <RELATION id="1" head="V72084" res="V71477" label="CONTENT"/>
+   <PHRASE id="V71477" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="33"/>
+   <RELATION id="2" head="V71477" res="V71468" label="NEUTRAL"/>
+   <RELATION id="3" head="V71477" res="V71497" label="NEUTRAL1"/>
+   <PHRASE id="V71468" indicator="A" type="DISPOSABLE" text="GARBAGE" QUAN="INDEFINITE" start="0" end="13"/>
+   <PHRASE id="V71497" indicator="BARE" type="BE-AT-LOC" text="LIE" start="16" end="33"/>
+   <RELATION id="4" head="V71497" res="V71518" label="MOD"/>
+   <RELATION id="5" head="V71497" res="V71506" label="MOD"/>
+   <PHRASE id="V71506" indicator="F" type="AROUND" text="AROUND" start="22" end="29"/>
+   <RELATION id="6" head="V71506" res="V71668" label="GROUND"/>
+   <RELATION id="7" head="V71506" res="V71497" label="FIGURE"/>
+   <PHRASE id="V71668" indicator="IMPRO" type="ANY-SEM" start="22" end="29"/>
+   <RELATION id="8" head="V71668" res="V71468" label="COREF"/>
+   <PHRASE id="V71518" indicator="F" type="ADDITIVE" text="TOO" start="29" end="33"/>
+   <RELATION id="9" head="V71518" res="V71497" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

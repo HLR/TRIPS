@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_REQUEST" PUNCTYPE="DECL" start="0" end="22">
+   <TEXT>slightly overcast sky .</TEXT>
+   <RELATION id="1" head="V269088" res="V268962" label="CONTENT"/>
+   <PHRASE id="V268962" indicator="F" type="CHANGE" text="OVERCAST" TENSE="PRES" VFORM="BASE" start="0" end="22"/>
+   <RELATION id="2" head="V268962" res="V269085" label="AGENT"/>
+   <RELATION id="3" head="V268962" res="V268992" label="AFFECTED"/>
+   <RELATION id="4" head="V268962" res="V268954" label="DEGREE"/>
+   <PHRASE id="V269085" indicator="IMPRO" type="PERSON" PROFORM="*YOU*" start="0" end="22" COREF="SYS"/>
+   <PHRASE id="V268954" indicator="F" type="DEGREE-MODIFIER-LOW" text="SLIGHTLY" start="0" end="9"/>
+   <RELATION id="5" head="V268954" res="V268962" label="FIGURE"/>
+   <PHRASE id="V268992" indicator="BARE" type="GEO-OBJECT" text="SKY" start="18" end="22"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

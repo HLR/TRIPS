@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="47">
+   <TEXT>a girl with long black hair wearing a headband ,</TEXT>
+   <RELATION id="1" head="V304499" res="V304531" label="MOD"/>
+   <RELATION id="2" head="V304499" res="V304503" label="MOD"/>
+   <PHRASE id="V304503" indicator="F" type="ASSOC-WITH" text="WITH" start="7" end="28"/>
+   <RELATION id="3" head="V304503" res="V304525" label="GROUND"/>
+   <RELATION id="4" head="V304503" res="V304499" label="FIGURE"/>
+   <PHRASE id="V304525" indicator="BARE" type="EXTERNAL-BODY-PART" text="HAIR" start="12" end="28"/>
+   <RELATION id="5" head="V304525" res="V304515" label="MOD"/>
+   <RELATION id="6" head="V304525" res="V304522" label="MOD"/>
+   <PHRASE id="V304515" indicator="F" type="LONG" text="LONG" SCALE="SIZE-SCALE" start="12" end="17"/>
+   <RELATION id="7" head="V304515" res="V304525" label="FIGURE"/>
+   <PHRASE id="V304522" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="17" end="23"/>
+   <RELATION id="8" head="V304522" res="V304525" label="FIGURE"/>
+   <PHRASE id="V304531" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="28" end="47"/>
+   <RELATION id="9" head="V304531" res="V304499" label="AGENT"/>
+   <RELATION id="10" head="V304531" res="V304579" label="NEUTRAL"/>
+   <PHRASE id="V304579" indicator="A" type="MANUFACTURED-OBJECT" text="HEADBAND" start="36" end="47"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="49" end="81">
+   <TEXT>a grey vest and a long necklace .</TEXT>
+   <RELATION id="11" head="V306220" res="V305950" label="CONTENT"/>
+   <PHRASE id="V305950" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="49" end="81"/>
+   <RELATION id="12" head="V305950" res="V305946" label="SEQUENCE"/>
+   <RELATION id="13" head="V305950" res="V306008" label="SEQUENCE1"/>
+   <PHRASE id="V305946" indicator="A" type="ATTIRE" text="VEST" start="49" end="61"/>
+   <RELATION id="14" head="V305946" res="V305936" label="MOD"/>
+   <PHRASE id="V305936" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="51" end="56"/>
+   <RELATION id="15" head="V305936" res="V305946" label="FIGURE"/>
+   <PHRASE id="V306008" indicator="A" type="MANUFACTURED-OBJECT" text="NECKLACE" start="65" end="81"/>
+   <RELATION id="16" head="V306008" res="V306000" label="MOD"/>
+   <PHRASE id="V306000" indicator="F" type="LONG" text="LONG" SCALE="SIZE-SCALE" start="67" end="72"/>
+   <RELATION id="17" head="V306000" res="V306008" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

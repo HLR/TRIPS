@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="38">
+   <TEXT>traditional country house on the left .</TEXT>
+   <RELATION id="1" head="V75391" res="V75196" label="CONTENT"/>
+   <PHRASE id="V75196" indicator="BARE" type="LODGING" text="COUNTRY-HOUSE" start="0" end="38" WNSENSE="country_house%1:06:00"/>
+   <RELATION id="2" head="V75196" res="V75204" label="LOCATION"/>
+   <RELATION id="3" head="V75196" res="V75181" label="MOD"/>
+   <PHRASE id="V75181" indicator="F" type="CONVENTIONAL-VAL" text="TRADITIONAL" start="0" end="12"/>
+   <RELATION id="4" head="V75181" res="V75196" label="FIGURE"/>
+   <PHRASE id="V75204" indicator="F" type="ON" text="ON" start="26" end="38"/>
+   <RELATION id="5" head="V75204" res="V75238" label="GROUND"/>
+   <RELATION id="6" head="V75204" res="V75196" label="FIGURE"/>
+   <PHRASE id="V75238" indicator="THE" type="LEFT-LOC" text="LEFT" start="29" end="38"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

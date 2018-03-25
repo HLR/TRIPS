@@ -1,0 +1,184 @@
+2,160c2,23
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a blue sky with white clouds in the background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?15514:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V44624)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?15512)
+<                                            (W::TRANSFORM ?15513)))
+<                                  (W::CASE ?15511:(W::SUB W::OBJ -))
+<                                  (W::AGR ?15510) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V44624) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER44637))
+< *last-utt-id*=NIL  utt-id+7
+< *last-utt-id*=7  utt-id+NIL</debug><utt><words><lisp>(W::A W::BLUE W::SKY W::WITH W::WHITE W::CLOUDS W::IN W::THE W::BACKGROUND
+<  W::PUNC-PERIOD)</lisp><word>A</word><word>BLUE</word><word>SKY</word><word>WITH</word><word>WHITE</word><word>CLOUDS</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (2 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sky&quot; :FRAME (7 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue sky&quot; :FRAME (2 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;blue_sky%1:17:00&quot;)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a blue sky&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   22.446 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (11 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;white&quot; :FRAME (16 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;clouds&quot; :FRAME (22 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;white clouds&quot; :FRAME (16 28) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 19.077 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with white clouds&quot; :FRAME (11 28) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 22.877 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (29 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (32 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (36 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (32 46) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (29 46) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (47 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a blue sky with white clouds in the background .&quot; :FRAME (0 47)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 62.874 :UTTNUM 7 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blue" start="2" end="6"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="sky" start="7" end="10"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="blue sky" start="2" end="10"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="blue_sky%1:17:00" /></word><prefer text="a blue sky" start="0" end="10" penn-cats="NP" score="22.446" /><word lex="with" start="11" end="15"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="white" start="16" end="21"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="clouds" start="22" end="28"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="white clouds" start="16" end="28" penn-cats="NP" score="19.077" /><prefer text="with white clouds" start="11" end="28" penn-cats="PP" score="22.877" /><word lex="in" start="29" end="31"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="32" end="35"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="36" end="46"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="32" end="46" penn-cats="NP" score="11.972" /><prefer text="in the background" start="29" end="46" penn-cats="PP" score="14.224" /><word lex="." start="47" end="47"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a blue sky with white clouds in the background ." start="0" end="47" penn-cats="NP" score="62.874" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (SPEC (DET (ART A)))
+<    (N1
+<     (N1 (N1 (N BLUE SKY))
+<      (ADVBL (ADV WITH) (NP (N1 (ADJP (ADJ1 (ADJ WHITE))) (N1 (N CLOUDS))))))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N1><N>BLUE SKY</N></N1><ADVBL><ADV>WITH</ADV><NP><N1><ADJP><ADJ1><ADJ>WHITE</ADJ></ADJ1></ADJP><N1><N>CLOUDS</N></N1></N1></NP></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V44482"><lisp>((ONT::SPEECHACT ONT::V44482 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V44311 :START 0 :END 47)
+<  (ONT::A ONT::V44311 (:* ONT::GAS-SUBSTANCE W::BLUE-SKY) :LOCATION ONT::V44341
+<   :MOD ONT::V44315 :START 0 :END 47 :WNSENSE &quot;blue_sky%1:17:00&quot;)
+<  (ONT::F ONT::V44315 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V44334 :FIGURE
+<   ONT::V44311 :START 11 :END 29)
+<  (ONT::INDEF-SET ONT::V44334 (:* ONT::CLOUD-OBJECT W::CLOUD) :MOD ONT::V44327
+<   :START 16 :END 29)
+<  (ONT::F ONT::V44327 (:* ONT::WHITE W::WHITE) :FIGURE ONT::V44334 :SCALE
+<   ONT::WHITE*1--07--00 :START 16 :END 22)
+<  (ONT::F ONT::V44341 (:* ONT::IN-LOC W::IN) :GROUND ONT::V44397 :FIGURE
+<   ONT::V44311 :START 29 :END 47)
+<  (ONT::THE ONT::V44397 (:* ONT::IMAGE W::BACKGROUND) :START 32 :END 47))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V44482">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V44311" />
+<     <LF:start>0</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V44311">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>GAS-SUBSTANCE</LF:type>
+<     <LF:word>BLUE-SKY</LF:word>
+<     <role:LOCATION rdf:resource="#V44341" />
+<     <role:MOD rdf:resource="#V44315" />
+<     <LF:start>0</LF:start>
+<     <LF:end>47</LF:end>
+<     <role:WNSENSE>blue_sky%1:17:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V44315">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V44334" />
+<     <role:FIGURE rdf:resource="#V44311" />
+<     <LF:start>11</LF:start>
+<     <LF:end>29</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V44334">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CLOUD-OBJECT</LF:type>
+<     <LF:word>CLOUD</LF:word>
+<     <role:MOD rdf:resource="#V44327" />
+<     <LF:start>16</LF:start>
+<     <LF:end>29</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V44327">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WHITE</LF:type>
+<     <LF:word>WHITE</LF:word>
+<     <role:FIGURE rdf:resource="#V44334" />
+<     <role:SCALE>WHITE*1--07--00</role:SCALE>
+<     <LF:start>16</LF:start>
+<     <LF:end>22</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V44341">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V44397" />
+<     <role:FIGURE rdf:resource="#V44311" />
+<     <LF:start>29</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V44397">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>32</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="47">
+>    <TEXT>a blue sky with white clouds in the background .</TEXT>
+>    <RELATION id="1" head="V44482" res="V44311" label="CONTENT"/>
+>    <PHRASE id="V44311" indicator="A" type="GAS-SUBSTANCE" text="BLUE-SKY" start="0" end="47" WNSENSE="blue_sky%1:17:00"/>
+>    <RELATION id="2" head="V44311" res="V44341" label="LOCATION"/>
+>    <RELATION id="3" head="V44311" res="V44315" label="MOD"/>
+>    <PHRASE id="V44315" indicator="F" type="ASSOC-WITH" text="WITH" start="11" end="29"/>
+>    <RELATION id="4" head="V44315" res="V44334" label="GROUND"/>
+>    <RELATION id="5" head="V44315" res="V44311" label="FIGURE"/>
+>    <PHRASE id="V44334" indicator="INDEF-SET" type="CLOUD-OBJECT" text="CLOUD" start="16" end="29"/>
+>    <RELATION id="6" head="V44334" res="V44327" label="MOD"/>
+>    <PHRASE id="V44327" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="16" end="22"/>
+>    <RELATION id="7" head="V44327" res="V44334" label="FIGURE"/>
+>    <PHRASE id="V44341" indicator="F" type="IN-LOC" text="IN" start="29" end="47"/>
+>    <RELATION id="8" head="V44341" res="V44397" label="GROUND"/>
+>    <RELATION id="9" head="V44341" res="V44311" label="FIGURE"/>
+>    <PHRASE id="V44397" indicator="THE" type="IMAGE" text="BACKGROUND" start="32" end="47"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

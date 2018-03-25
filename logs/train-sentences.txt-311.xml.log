@@ -1,0 +1,144 @@
+2,122c2,21
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="bushes , houses and roofs in the foreground .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+9
+< *last-utt-id*=9  utt-id+NIL</debug><utt><words><lisp>(W::BUSHES W::PUNC-COMMA W::HOUSES W::AND W::ROOFS W::IN W::THE W::FOREGROUND
+<  W::PUNC-PERIOD)</lisp><word>BUSHES</word><word>PUNC-COMMA</word><word>HOUSES</word><word>AND</word><word>ROOFS</word><word>IN</word><word>THE</word><word>FOREGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;bushes&quot; :FRAME (0 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (7 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 9
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;houses&quot; :FRAME (9 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (16 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 9
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;roofs&quot; :FRAME (20 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;bushes , houses and roofs&quot; :FRAME (0 25) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 42.086 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (26 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (29 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;foreground&quot; :FRAME (33 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the foreground&quot; :FRAME (29 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.817 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the foreground&quot; :FRAME (26 43) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 17.068 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (44 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;bushes , houses and roofs in the foreground .&quot; :FRAME (0 44)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 61.639 :UTTNUM 9 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="bushes" start="0" end="6"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="," start="7" end="8"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="houses" start="9" end="15"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="and" start="16" end="19"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="roofs" start="20" end="25"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="bushes , houses and roofs" start="0" end="25" penn-cats="NP" score="42.086" /><word lex="in" start="26" end="28"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="29" end="32"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="foreground" start="33" end="43"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the foreground" start="29" end="43" penn-cats="NP" score="14.817" /><prefer text="in the foreground" start="26" end="43" penn-cats="PP" score="17.068" /><word lex="." start="44" end="44"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="bushes , houses and roofs in the foreground ." start="0" end="44" penn-cats="NP" score="61.639" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (NPSEQ (NP (N1 (N BUSHES))) (PUNC PUNC-COMMA) (NP (N1 (N HOUSES))))
+<    (CONJ AND)
+<    (NP
+<     (N1 (N1 (N ROOFS))
+<      (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N FOREGROUND))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NPSEQ><NP><N1><N>BUSHES</N></N1></NP><PUNC>PUNC-COMMA</PUNC><NP><N1><N>HOUSES</N></N1></NP></NPSEQ><CONJ>AND</CONJ><NP><N1><N1><N>ROOFS</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>FOREGROUND</N></N1></NP></ADVBL></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V65438"><lisp>((ONT::SPEECHACT ONT::V65438 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V65140 :START 0 :END 44)
+<  (ONT::INDEF-SET ONT::V65140 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V65149 ONT::V65124 ONT::V65135) :START 0 :END 44)
+<  (ONT::INDEF-SET ONT::V65124 (:* ONT::PLANT W::BUSHES) :START 0 :END 7)
+<  (ONT::INDEF-SET ONT::V65135 (:* ONT::LODGING W::HOUSE) :START 9 :END 16)
+<  (ONT::INDEF-SET ONT::V65149 (:* ONT::STRUCTURE-EXTERNAL-COMPONENT W::ROOF)
+<   :LOCATION ONT::V65156 :START 20 :END 44)
+<  (ONT::F ONT::V65156 (:* ONT::IN-LOC W::IN) :GROUND ONT::V65215 :FIGURE
+<   ONT::V65149 :START 26 :END 44)
+<  (ONT::THE ONT::V65215 (:* ONT::DEVICE W::FOREGROUND) :START 29 :END 44))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V65438">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V65140" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V65140">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PHYS-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V65149" />
+<     <role:SEQUENCE1 rdf:resource="#V65124" />
+<     <role:SEQUENCE2 rdf:resource="#V65135" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V65124">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <LF:word>BUSHES</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>7</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V65135">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>LODGING</LF:type>
+<     <LF:word>HOUSE</LF:word>
+<     <LF:start>9</LF:start>
+<     <LF:end>16</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V65149">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>STRUCTURE-EXTERNAL-COMPONENT</LF:type>
+<     <LF:word>ROOF</LF:word>
+<     <role:LOCATION rdf:resource="#V65156" />
+<     <LF:start>20</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V65156">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V65215" />
+<     <role:FIGURE rdf:resource="#V65149" />
+<     <LF:start>26</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V65215">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>DEVICE</LF:type>
+<     <LF:word>FOREGROUND</LF:word>
+<     <LF:start>29</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="44">
+>    <TEXT>bushes , houses and roofs in the foreground .</TEXT>
+>    <RELATION id="1" head="V65438" res="V65140" label="CONTENT"/>
+>    <PHRASE id="V65140" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="44"/>
+>    <RELATION id="2" head="V65140" res="V65149" label="SEQUENCE"/>
+>    <RELATION id="3" head="V65140" res="V65124" label="SEQUENCE1"/>
+>    <RELATION id="4" head="V65140" res="V65135" label="SEQUENCE2"/>
+>    <PHRASE id="V65124" indicator="INDEF-SET" type="PLANT" text="BUSHES" start="0" end="7"/>
+>    <PHRASE id="V65135" indicator="INDEF-SET" type="LODGING" text="HOUSE" start="9" end="16"/>
+>    <PHRASE id="V65149" indicator="INDEF-SET" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="20" end="44"/>
+>    <RELATION id="5" head="V65149" res="V65156" label="LOCATION"/>
+>    <PHRASE id="V65156" indicator="F" type="IN-LOC" text="IN" start="26" end="44"/>
+>    <RELATION id="6" head="V65156" res="V65215" label="GROUND"/>
+>    <RELATION id="7" head="V65156" res="V65149" label="FIGURE"/>
+>    <PHRASE id="V65215" indicator="THE" type="DEVICE" text="FOREGROUND" start="29" end="44"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

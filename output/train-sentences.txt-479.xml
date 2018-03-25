@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2">
+   <TEXT>a d</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33">
+   <TEXT>dark-haired boy i</TEXT>
+   <RELATION id="1" head="V409773" res="V409770" label="MOD"/>
+   <PHRASE id="V409770" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V409770" res="V409773" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_YN-QUESTION" start="33" end="92">
+   <TEXT>in a white tee-shirt is sitting at his desk in a classroom .</TEXT>
+   <RELATION id="3" head="V417725" res="V409900" label="CONTENT"/>
+   <PHRASE id="V409900" indicator="F" type="HAVE-PROPERTY" text="BE" start="33" end="92"/>
+   <RELATION id="4" head="V409900" res="V409917" label="NEUTRAL"/>
+   <RELATION id="5" head="V409900" res="V409962" label="FORMAL"/>
+   <RELATION id="6" head="V409900" res="V409780" label="LOCATION"/>
+   <RELATION id="7" head="V409900" res="V409937" label="LOCATION"/>
+   <PHRASE id="V409780" indicator="F" type="IN-LOC" text="IN" start="33" end="54"/>
+   <RELATION id="8" head="V409780" res="V409892" label="GROUND"/>
+   <RELATION id="9" head="V409780" res="V409900" label="FIGURE"/>
+   <PHRASE id="V409892" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="36" end="54"/>
+   <RELATION id="10" head="V409892" res="V409870" label="MOD"/>
+   <PHRASE id="V409870" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="38" end="44"/>
+   <RELATION id="11" head="V409870" res="V409892" label="FIGURE"/>
+   <PHRASE id="V409917" indicator="BARE" type="BODY-MOVEMENT" text="SIT-DOWN" start="57" end="65"/>
+   <PHRASE id="V409937" indicator="F" type="AT-LOC" text="AT" start="65" end="77"/>
+   <RELATION id="12" head="V409937" res="V409955" label="GROUND"/>
+   <RELATION id="13" head="V409937" res="V409900" label="FIGURE"/>
+   <PHRASE id="V409955" indicator="THE" type="FURNISHINGS" text="DESK" start="68" end="77"/>
+   <RELATION id="14" head="V409955" res="V409950" label="ASSOC-POSS"/>
+   <PHRASE id="V409950" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="68" end="77"/>
+   <RELATION id="15" head="V409950" res="V409773" label="COREF"/>
+   <PHRASE id="V409962" indicator="F" type="IN-LOC" text="IN" start="77" end="92"/>
+   <RELATION id="16" head="V409962" res="V410052" label="GROUND"/>
+   <RELATION id="17" head="V409962" res="V409917" label="FIGURE"/>
+   <PHRASE id="V410052" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="80" end="92"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

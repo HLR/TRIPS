@@ -1,0 +1,126 @@
+2,111c2,15
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a swimming pool in the foreground .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?11231:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V337163)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?11229)
+<                                            (W::TRANSFORM ?11230)))
+<                                  (W::CASE ?11228:(W::SUB W::OBJ -))
+<                                  (W::AGR ?11227) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V337163) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER337166))
+< *last-utt-id*=NIL  utt-id+49
+< *last-utt-id*=49  utt-id+NIL</debug><utt><words><lisp>(W::A W::SWIMMING W::POOL W::IN W::THE W::FOREGROUND W::PUNC-PERIOD)</lisp><word>A</word><word>SWIMMING</word><word>POOL</word><word>IN</word><word>THE</word><word>FOREGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;swimming&quot; :FRAME (2 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN VBG) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+<   49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;pool&quot; :FRAME (11 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;swimming pool&quot; :FRAME (2 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;swimming_pool%1:06:00&quot;)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a swimming pool&quot; :FRAME (0 15) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.047 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (16 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (19 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;foreground&quot; :FRAME (23 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the foreground&quot; :FRAME (19 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.817 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the foreground&quot; :FRAME (16 33) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 17.068 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (34 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a swimming pool in the foreground .&quot; :FRAME (0 34) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 41.906 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="swimming" start="2" end="10"><sense-info penn-parts-of-speech="NN,VBG" trips-parts-of-speech="N,V" /></word><word lex="pool" start="11" end="15"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="swimming pool" start="2" end="15"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="swimming_pool%1:06:00" /></word><prefer text="a swimming pool" start="0" end="15" penn-cats="NP" score="20.047" /><word lex="in" start="16" end="18"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="19" end="22"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="foreground" start="23" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the foreground" start="19" end="33" penn-cats="NP" score="14.817" /><prefer text="in the foreground" start="16" end="33" penn-cats="PP" score="17.068" /><word lex="." start="34" end="34"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a swimming pool in the foreground ." start="0" end="34" penn-cats="NP" score="41.906" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (SPEC (DET (ART A)))
+<    (N1 (N1 (N SWIMMING POOL))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N FOREGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>SWIMMING POOL</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>FOREGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V337199"><lisp>((ONT::SPEECHACT ONT::V337199 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V336962 :START 0 :END 34)
+<  (ONT::A ONT::V336962 (:* ONT::MANUFACTURED-OBJECT W::SWIMMING-POOL) :LOCATION
+<   ONT::V336972 :START 0 :END 34 :WNSENSE &quot;swimming_pool%1:06:00&quot;)
+<  (ONT::F ONT::V336972 (:* ONT::IN-LOC W::IN) :GROUND ONT::V337031 :FIGURE
+<   ONT::V336962 :START 16 :END 34)
+<  (ONT::THE ONT::V337031 (:* ONT::DEVICE W::FOREGROUND) :START 19 :END 34))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V337199">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V336962" />
+<     <LF:start>0</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V336962">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>MANUFACTURED-OBJECT</LF:type>
+<     <LF:word>SWIMMING-POOL</LF:word>
+<     <role:LOCATION rdf:resource="#V336972" />
+<     <LF:start>0</LF:start>
+<     <LF:end>34</LF:end>
+<     <role:WNSENSE>swimming_pool%1:06:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V336972">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V337031" />
+<     <role:FIGURE rdf:resource="#V336962" />
+<     <LF:start>16</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V337031">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>DEVICE</LF:type>
+<     <LF:word>FOREGROUND</LF:word>
+<     <LF:start>19</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="34">
+>    <TEXT>a swimming pool in the foreground .</TEXT>
+>    <RELATION id="1" head="V337199" res="V336962" label="CONTENT"/>
+>    <PHRASE id="V336962" indicator="A" type="MANUFACTURED-OBJECT" text="SWIMMING-POOL" start="0" end="34" WNSENSE="swimming_pool%1:06:00"/>
+>    <RELATION id="2" head="V336962" res="V336972" label="LOCATION"/>
+>    <PHRASE id="V336972" indicator="F" type="IN-LOC" text="IN" start="16" end="34"/>
+>    <RELATION id="3" head="V336972" res="V337031" label="GROUND"/>
+>    <RELATION id="4" head="V336972" res="V336962" label="FIGURE"/>
+>    <PHRASE id="V337031" indicator="THE" type="DEVICE" text="FOREGROUND" start="19" end="34"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

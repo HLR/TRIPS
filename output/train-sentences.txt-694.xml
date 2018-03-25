@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="49">
+   <TEXT>a dark-skinned dark-haired boy wearing a white cap</TEXT>
+   <RELATION id="1" head="V322973" res="V322979" label="MOD"/>
+   <RELATION id="2" head="V322973" res="V322949" label="MOD"/>
+   <RELATION id="3" head="V322973" res="V322970" label="MOD"/>
+   <PHRASE id="V322949" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="4" head="V322949" res="V322973" label="FIGURE"/>
+   <PHRASE id="V322970" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="15" end="27" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V322970" res="V322973" label="FIGURE"/>
+   <PHRASE id="V322979" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="31" end="49"/>
+   <RELATION id="6" head="V322979" res="V322973" label="AGENT"/>
+   <RELATION id="7" head="V322979" res="V323033" label="NEUTRAL"/>
+   <PHRASE id="V323033" indicator="A" type="ATTIRE" text="CAP" start="39" end="49"/>
+   <RELATION id="8" head="V323033" res="V323026" label="MOD"/>
+   <PHRASE id="V323026" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="41" end="47"/>
+   <RELATION id="9" head="V323026" res="V323033" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="ASSOC-WITH" text="WITH" start="53" end="83">
+   <TEXT>with a green woodpecker on it )</TEXT>
+   <RELATION id="10" head="V327410" res="V327469" label="GROUND"/>
+   <PHRASE id="V327469" indicator="A" type="BIRD" text="WOODPECKER" start="58" end="83"/>
+   <RELATION id="11" head="V327469" res="V327478" label="MOD"/>
+   <RELATION id="12" head="V327469" res="V327463" label="MOD"/>
+   <PHRASE id="V327463" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="60" end="66"/>
+   <RELATION id="13" head="V327463" res="V327469" label="FIGURE"/>
+   <PHRASE id="V327478" indicator="F" type="ON-MEDICATION" text="ON" start="77" end="83"/>
+   <RELATION id="14" head="V327478" res="V327499" label="GROUND"/>
+   <RELATION id="15" head="V327478" res="V327469" label="FIGURE"/>
+   <PHRASE id="V327499" indicator="PRO" type="REFERENTIAL-SEM" text="IT" PROFORM="IT" start="80" end="83"/>
+   <RELATION id="16" head="V327499" res="V323033" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="85" end="113">
+   <TEXT>and a white and pink jumper .</TEXT>
+   <RELATION id="17" head="V329322" res="V329216" label="CONTENT"/>
+   <RELATION id="18" head="V329322" res="V329140" label="MOD"/>
+   <PHRASE id="V329140" indicator="F" type="CONJUNCT" text="AND" start="85" end="89"/>
+   <RELATION id="19" head="V329140" res="V329322" label="FIGURE"/>
+   <PHRASE id="V329216" indicator="A" type="ATHLETE" text="JUMPER" start="89" end="113"/>
+   <RELATION id="20" head="V329216" res="V329236" label="MOD"/>
+   <PHRASE id="V329236" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="91" end="106"/>
+   <RELATION id="21" head="V329236" res="V329189" label="SEQUENCE"/>
+   <RELATION id="22" head="V329236" res="V329206" label="SEQUENCE1"/>
+   <PHRASE id="V329189" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="91" end="97"/>
+   <RELATION id="23" head="V329189" res="V329216" label="FIGURE"/>
+   <PHRASE id="V329206" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="101" end="106"/>
+   <RELATION id="24" head="V329206" res="V329216" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

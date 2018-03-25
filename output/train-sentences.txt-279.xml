@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="33">
+   <TEXT>one girl is standing at her desk ,</TEXT>
+   <RELATION id="1" head="V324011" res="V323809" label="CONTENT"/>
+   <PHRASE id="V323809" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="33"/>
+   <RELATION id="2" head="V323809" res="V323800" label="NEUTRAL"/>
+   <RELATION id="3" head="V323809" res="V323826" label="NEUTRAL1"/>
+   <PHRASE id="V323800" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="9"/>
+   <RELATION id="4" head="V323800" res="V323862" label="SIZE"/>
+   <PHRASE id="V323862" indicator="A" type="NUMBER" VALUE="1" start="0" end="9"/>
+   <PHRASE id="V323826" indicator="BARE" type="BE-AT-LOC" text="STAND" start="12" end="33"/>
+   <RELATION id="5" head="V323826" res="V323837" label="LOCATION"/>
+   <PHRASE id="V323837" indicator="F" type="AT-LOC" text="AT" start="21" end="33"/>
+   <RELATION id="6" head="V323837" res="V323855" label="GROUND"/>
+   <RELATION id="7" head="V323837" res="V323826" label="FIGURE"/>
+   <PHRASE id="V323855" indicator="THE" type="FURNISHINGS" text="DESK" start="24" end="33"/>
+   <RELATION id="8" head="V323855" res="V323850" label="ASSOC-POSS"/>
+   <PHRASE id="V323850" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="24" end="33"/>
+   <RELATION id="9" head="V323850" res="V323800" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="35" end="70">
+   <TEXT>another one is walking to her desk ,</TEXT>
+   <RELATION id="10" head="V324763" res="V324445" label="CONTENT"/>
+   <PHRASE id="V324445" indicator="F" type="SELF-LOCOMOTE" text="WALK" TENSE="PRES" PROGR="+" start="35" end="70"/>
+   <RELATION id="11" head="V324445" res="V324455" label="RESULT"/>
+   <RELATION id="12" head="V324445" res="V324419" label="AGENT"/>
+   <PHRASE id="V324419" indicator="A" type="REFERENTIAL-SEM" text="ONE" start="35" end="47"/>
+   <RELATION id="13" head="V324419" res="V324503" label="MOD"/>
+   <PHRASE id="V324503" indicator="F" type="OTHER" start="35" end="47"/>
+   <RELATION id="14" head="V324503" res="V324419" label="FIGURE"/>
+   <PHRASE id="V324455" indicator="F" type="TO-LOC" text="TO" start="58" end="70"/>
+   <RELATION id="15" head="V324455" res="V324482" label="GROUND"/>
+   <RELATION id="16" head="V324455" res="V324419" label="FIGURE"/>
+   <PHRASE id="V324482" indicator="THE" type="FURNISHINGS" text="DESK" start="61" end="70"/>
+   <RELATION id="17" head="V324482" res="V324477" label="ASSOC-POSS"/>
+   <RELATION id="18" head="V324482" res="V323855" label="COREF"/>
+   <PHRASE id="V324477" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="61" end="70"/>
+   <RELATION id="19" head="V324477" res="V323800" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" start="72" end="155">
+   <TEXT>three other boys are standing and looking at a picture of Minnie Mouse on the wall .</TEXT>
+   <RELATION id="20" head="V332777" res="V326476" label="CONTENT"/>
+   <PHRASE id="V326476" indicator="F" type="SITUATION-ROOT" OPERATOR="AND" TENSE="PRES" PROGR="+" start="72" end="155"/>
+   <RELATION id="21" head="V326476" res="V326177" label="SEQUENCE"/>
+   <RELATION id="22" head="V326476" res="V326198" label="SEQUENCE1"/>
+   <PHRASE id="V326198" indicator="F" type="SCRUTINY" text="LOOK" start="72" end="155"/>
+   <RELATION id="23" head="V326198" res="V326153" label="AGENT"/>
+   <RELATION id="24" head="V326198" res="V326330" label="NEUTRAL"/>
+   <PHRASE id="V326177" indicator="F" type="BE-AT-LOC" text="STAND" start="72" end="155"/>
+   <RELATION id="25" head="V326177" res="V326153" label="NEUTRAL"/>
+   <PHRASE id="V326153" indicator="INDEF-SET" type="MALE-CHILD" text="BOY" start="72" end="89"/>
+   <RELATION id="26" head="V326153" res="V326148" label="SIZE"/>
+   <RELATION id="27" head="V326153" res="V326150" label="MOD"/>
+   <PHRASE id="V326148" indicator="A" type="NUMBER" VALUE="3" start="72" end="78"/>
+   <PHRASE id="V326150" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="78" end="84"/>
+   <RELATION id="28" head="V326150" res="V326153" label="FIGURE"/>
+   <PHRASE id="V326330" indicator="A" type="IMAGE" text="PICTURE" start="114" end="155"/>
+   <RELATION id="29" head="V326330" res="V326360" label="FIGURE"/>
+   <PHRASE id="V326360" indicator="BARE" type="ORGANIZATION" text="MINNIE-MOUSE" NAME-OF="(MINNIE MOUSE)" start="127" end="155"/>
+   <RELATION id="30" head="V326360" res="V326384" label="LOCATION"/>
+   <PHRASE id="V326384" indicator="F" type="ON" text="ON" start="143" end="155"/>
+   <RELATION id="31" head="V326384" res="V326413" label="GROUND"/>
+   <RELATION id="32" head="V326384" res="V326360" label="FIGURE"/>
+   <PHRASE id="V326413" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="146" end="155"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

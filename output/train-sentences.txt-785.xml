@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="18">
+   <TEXT>a dark-haired boy w</TEXT>
+   <RELATION id="1" head="V350457" res="V350454" label="MOD"/>
+   <PHRASE id="V350454" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V350454" res="V350457" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="18" end="73">
+   <TEXT>wearing a black pullover and a light blue jeans jacket i</TEXT>
+   <RELATION id="3" head="V350463" res="V350518" label="NEUTRAL"/>
+   <PHRASE id="V350518" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="26" end="73"/>
+   <RELATION id="4" head="V350518" res="V350514" label="SEQUENCE"/>
+   <RELATION id="5" head="V350518" res="V350614" label="SEQUENCE1"/>
+   <PHRASE id="V350514" indicator="A" type="ATTIRE" text="PULLOVER" start="26" end="43"/>
+   <RELATION id="6" head="V350514" res="V350510" label="MOD"/>
+   <PHRASE id="V350510" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="28" end="34"/>
+   <RELATION id="7" head="V350510" res="V350514" label="FIGURE"/>
+   <PHRASE id="V350614" indicator="A" type="ATTIRE" text="JACKET" start="47" end="73"/>
+   <RELATION id="8" head="V350614" res="V350611" label="ASSOC-WITH"/>
+   <RELATION id="9" head="V350614" res="V350568" label="MOD"/>
+   <PHRASE id="V350611" indicator="KIND" type="ATTIRE" text="BLUE-JEANS" start="47" end="73" WNSENSE="blue_jean%1:06:00"/>
+   <PHRASE id="V350568" indicator="F" type="LIGHTWEIGHT" text="LIGHT" ORIENTATION="LESS" INTENSITY="HI" SCALE="WEIGHT-SCALE" start="49" end="55"/>
+   <RELATION id="10" head="V350568" res="V350614" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="73" end="112">
+   <TEXT>is standing in front of a painted wall .</TEXT>
+   <RELATION id="11" head="V351343" res="V350623" label="CONTENT"/>
+   <PHRASE id="V350623" indicator="F" type="BE" text="BE" TENSE="PRES" start="73" end="112"/>
+   <RELATION id="12" head="V350623" res="V350704" label="NEUTRAL"/>
+   <RELATION id="13" head="V350623" res="V350710" label="NEUTRAL1"/>
+   <PHRASE id="V350704" indicator="BARE" type="EXCHANGE" text="STANDING-IN" start="76" end="88" WNSENSE="stand_in%2:40:00"/>
+   <PHRASE id="V350710" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="88" end="112"/>
+   <RELATION id="14" head="V350710" res="V350823" label="FIGURE"/>
+   <PHRASE id="V350823" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="94" end="112"/>
+   <RELATION id="15" head="V350823" res="V350814" label="MOD"/>
+   <PHRASE id="V350814" indicator="F" type="COLORING" text="PAINT" start="99" end="107"/>
+   <RELATION id="16" head="V350814" res="V350823" label="AFFECTED"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

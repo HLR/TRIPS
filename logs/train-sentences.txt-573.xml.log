@@ -1,0 +1,128 @@
+2,107c2,20
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="red brick wall on the right .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+50
+< *last-utt-id*=50  utt-id+NIL</debug><utt><words><lisp>(W::RED W::BRICK W::WALL W::ON W::THE W::RIGHT W::PUNC-PERIOD)</lisp><word>RED</word><word>BRICK</word><word>WALL</word><word>ON</word><word>THE</word><word>RIGHT</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;red&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;brick&quot; :FRAME (4 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall&quot; :FRAME (10 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;red brick wall&quot; :FRAME (0 14) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 31.08 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (15 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (18 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;right&quot; :FRAME (22 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 50
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the right&quot; :FRAME (18 27) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   9.96 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on the right&quot; :FRAME (15 27) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 13.465 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (28 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;red brick wall on the right .&quot; :FRAME (0 28) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 47.029 :UTTNUM 50 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="red" start="0" end="3"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="brick" start="4" end="9"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="wall" start="10" end="14"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="red brick wall" start="0" end="14" penn-cats="NP" score="31.08" /><word lex="on" start="15" end="17"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="18" end="21"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="right" start="22" end="27"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the right" start="18" end="27" penn-cats="NP" score="9.96" /><prefer text="on the right" start="15" end="27" penn-cats="PP" score="13.465" /><word lex="." start="28" end="28"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="red brick wall on the right ." start="0" end="28" penn-cats="NP" score="47.029" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1 (N1 (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N BRICK))) (N1 (N WALL)))
+<     (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N RIGHT)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>BRICK</N></N1></N1><N1><N>WALL</N></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>RIGHT</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V347046"><lisp>((ONT::SPEECHACT ONT::V347046 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V346879 :START 0 :END 28)
+<  (ONT::BARE ONT::V346879 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL)
+<   :ASSOC-WITH ONT::V346876 :LOCATION ONT::V346887 :START 0 :END 28)
+<  (ONT::KIND ONT::V346876 (:* ONT::MATERIAL W::BRICK) :MOD ONT::V346869 :START 0
+<   :END 28)
+<  (ONT::F ONT::V346869 (:* ONT::RED W::RED) :FIGURE ONT::V346876 :SCALE
+<   ONT::COLOR-SCALE :START 0 :END 4)
+<  (ONT::F ONT::V346887 (:* ONT::ON W::ON) :GROUND ONT::V346924 :FIGURE
+<   ONT::V346879 :START 15 :END 28)
+<  (ONT::THE ONT::V346924 (:* ONT::RIGHT-LOC W::RIGHT) :START 18 :END 28))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V347046">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V346879" />
+<     <LF:start>0</LF:start>
+<     <LF:end>28</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346879">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>WALL</LF:word>
+<     <role:ASSOC-WITH rdf:resource="#V346876" />
+<     <role:LOCATION rdf:resource="#V346887" />
+<     <LF:start>0</LF:start>
+<     <LF:end>28</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346876">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>MATERIAL</LF:type>
+<     <LF:word>BRICK</LF:word>
+<     <role:MOD rdf:resource="#V346869" />
+<     <LF:start>0</LF:start>
+<     <LF:end>28</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346869">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V346876" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>0</LF:start>
+<     <LF:end>4</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346887">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V346924" />
+<     <role:FIGURE rdf:resource="#V346879" />
+<     <LF:start>15</LF:start>
+<     <LF:end>28</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V346924">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>RIGHT-LOC</LF:type>
+<     <LF:word>RIGHT</LF:word>
+<     <LF:start>18</LF:start>
+<     <LF:end>28</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="28">
+>    <TEXT>red brick wall on the right .</TEXT>
+>    <RELATION id="1" head="V347046" res="V346879" label="CONTENT"/>
+>    <PHRASE id="V346879" indicator="BARE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="0" end="28"/>
+>    <RELATION id="2" head="V346879" res="V346876" label="ASSOC-WITH"/>
+>    <RELATION id="3" head="V346879" res="V346887" label="LOCATION"/>
+>    <PHRASE id="V346876" indicator="KIND" type="MATERIAL" text="BRICK" start="0" end="28"/>
+>    <RELATION id="4" head="V346876" res="V346869" label="MOD"/>
+>    <PHRASE id="V346869" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="0" end="4"/>
+>    <RELATION id="5" head="V346869" res="V346876" label="FIGURE"/>
+>    <PHRASE id="V346887" indicator="F" type="ON" text="ON" start="15" end="28"/>
+>    <RELATION id="6" head="V346887" res="V346924" label="GROUND"/>
+>    <RELATION id="7" head="V346887" res="V346879" label="FIGURE"/>
+>    <PHRASE id="V346924" indicator="THE" type="RIGHT-LOC" text="RIGHT" start="18" end="28"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="BACK" text="BEHIND" start="0" end="65">
+   <TEXT>behind her a boy with a blue cap , white tee-shirt and red pants .</TEXT>
+   <RELATION id="1" head="V326893" res="V326943" label="GROUND"/>
+   <PHRASE id="V326943" indicator="THE" type="MALE-CHILD" text="BOY" start="7" end="65"/>
+   <RELATION id="2" head="V326943" res="V326897" label="ASSOC-POSS"/>
+   <RELATION id="3" head="V326943" res="V326919" label="ASSOC-WITH"/>
+   <RELATION id="4" head="V326943" res="V326947" label="MOD"/>
+   <PHRASE id="V326897" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="7" end="65"/>
+   <PHRASE id="V326919" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="11" end="13"/>
+   <PHRASE id="V326947" indicator="F" type="ASSOC-WITH" text="WITH" start="17" end="65"/>
+   <RELATION id="5" head="V326947" res="V327046" label="GROUND"/>
+   <RELATION id="6" head="V326947" res="V326943" label="FIGURE"/>
+   <PHRASE id="V327046" indicator="BARE" type="ATTIRE" OPERATOR="AND" start="22" end="65"/>
+   <RELATION id="7" head="V327046" res="V327062" label="SEQUENCE"/>
+   <RELATION id="8" head="V327046" res="V327012" label="SEQUENCE1"/>
+   <RELATION id="9" head="V327046" res="V327042" label="SEQUENCE2"/>
+   <PHRASE id="V327012" indicator="A" type="ATTIRE" text="CAP" start="22" end="33"/>
+   <RELATION id="10" head="V327012" res="V327000" label="MOD"/>
+   <PHRASE id="V327000" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="24" end="29"/>
+   <RELATION id="11" head="V327000" res="V327012" label="FIGURE"/>
+   <PHRASE id="V327042" indicator="BARE" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="35" end="51"/>
+   <RELATION id="12" head="V327042" res="V327020" label="MOD"/>
+   <PHRASE id="V327020" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="35" end="41"/>
+   <RELATION id="13" head="V327020" res="V327042" label="FIGURE"/>
+   <PHRASE id="V327062" indicator="BARE" type="ATTIRE" text="PANTS" start="55" end="65"/>
+   <RELATION id="14" head="V327062" res="V327055" label="MOD"/>
+   <PHRASE id="V327055" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="55" end="59"/>
+   <RELATION id="15" head="V327055" res="V327062" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

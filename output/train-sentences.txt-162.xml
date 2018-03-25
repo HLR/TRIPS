@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="38">
+   <TEXT>Santa Claus in middle of excited kids .</TEXT>
+   <RELATION id="1" head="V236805" res="V236627" label="CONTENT"/>
+   <PHRASE id="V236627" indicator="INDEF-SET" type="PERSON" text="SANTA-CLAUS" start="0" end="38"/>
+   <RELATION id="2" head="V236627" res="V236636" label="LOCATION"/>
+   <PHRASE id="V236636" indicator="F" type="IN-LOC" text="IN" start="12" end="38"/>
+   <RELATION id="3" head="V236636" res="V236689" label="GROUND"/>
+   <RELATION id="4" head="V236636" res="V236627" label="FIGURE"/>
+   <PHRASE id="V236689" indicator="BARE" type="CENTER" text="MIDDLE" start="15" end="38"/>
+   <RELATION id="5" head="V236689" res="V236696" label="MOD"/>
+   <PHRASE id="V236696" indicator="F" type="CONTAIN-RELN" text="OF" start="22" end="38"/>
+   <RELATION id="6" head="V236696" res="V236710" label="GROUND"/>
+   <RELATION id="7" head="V236696" res="V236689" label="FIGURE"/>
+   <PHRASE id="V236710" indicator="INDEF-SET" type="CHILD" text="KID" start="25" end="38"/>
+   <RELATION id="8" head="V236710" res="V236702" label="MOD"/>
+   <PHRASE id="V236702" indicator="F" type="EXCITED" text="EXCITED" start="25" end="33"/>
+   <RELATION id="9" head="V236702" res="V236710" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

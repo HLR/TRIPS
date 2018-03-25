@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="20">
+   <TEXT>the boy is laughing .</TEXT>
+   <RELATION id="1" head="V118840" res="V118759" label="CONTENT"/>
+   <PHRASE id="V118759" indicator="F" type="NONVERBAL-EXPRESSION" text="LAUGH" TENSE="PRES" PROGR="+" start="0" end="20"/>
+   <RELATION id="2" head="V118759" res="V118736" label="AGENT"/>
+   <PHRASE id="V118736" indicator="THE" type="MALE-CHILD" text="BOY" start="0" end="8"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

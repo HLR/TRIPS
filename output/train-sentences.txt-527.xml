@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="50">
+   <TEXT>grass , stones and some garbage in the background .</TEXT>
+   <RELATION id="1" head="V145560" res="V145321" label="CONTENT"/>
+   <PHRASE id="V145321" indicator="A" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="50"/>
+   <RELATION id="2" head="V145321" res="V145337" label="SEQUENCE"/>
+   <RELATION id="3" head="V145321" res="V145307" label="SEQUENCE1"/>
+   <RELATION id="4" head="V145321" res="V145314" label="SEQUENCE2"/>
+   <PHRASE id="V145307" indicator="BARE" type="PLANT" text="GRASS" start="0" end="6"/>
+   <PHRASE id="V145314" indicator="INDEF-SET" type="NATURAL-OBJECT" text="STONES" start="8" end="15"/>
+   <PHRASE id="V145337" indicator="A" type="DISPOSABLE" text="GARBAGE" QUAN="INDEFINITE" start="19" end="50"/>
+   <RELATION id="5" head="V145337" res="V145344" label="LOCATION"/>
+   <PHRASE id="V145344" indicator="F" type="IN-LOC" text="IN" start="32" end="50"/>
+   <RELATION id="6" head="V145344" res="V145400" label="GROUND"/>
+   <RELATION id="7" head="V145344" res="V145337" label="FIGURE"/>
+   <PHRASE id="V145400" indicator="THE" type="IMAGE" text="BACKGROUND" start="35" end="50"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

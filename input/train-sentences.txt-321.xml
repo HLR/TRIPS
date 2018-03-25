@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="many people are working on the bare brickwork of a house or are watching the workers from below .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?296325:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V100694)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?296323)
+                                           (W::TRANSFORM ?296324)))
+                                 (W::CASE ?296322:(W::SUB W::OBJ -))
+                                 (W::AGR ?296321) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V100694) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER101081))
+*last-utt-id*=NIL  utt-id+16
+*last-utt-id*=16  utt-id+16
+*last-utt-id*=16  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::MANY W::PEOPLE W::ARE W::WORKING W::ON W::THE W::BARE W::BRICKWORK W::OF
+ W::A W::HOUSE W::OR W::ARE)</lisp><word>MANY</word><word>PEOPLE</word><word>ARE</word><word>WORKING</word><word>ON</word><word>THE</word><word>BARE</word><word>BRICKWORK</word><word>OF</word><word>A</word><word>HOUSE</word><word>OR</word><word>ARE</word></words><tags><lisp>((WORD &quot;many&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;people&quot; :FRAME (5 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;many people&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.683 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (12 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;working&quot; :FRAME (16 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (24 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;working on&quot; :FRAME (16 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;work_on%2:36:00&quot; &quot;work_on%2:41:00&quot;)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (27 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bare&quot; :FRAME (31 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;brickwork&quot; :FRAME (36 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the bare brickwork&quot; :FRAME (27 45) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 26.707 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (46 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (49 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;house&quot; :FRAME (51 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a house&quot; :FRAME (49 56) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.534 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a house&quot; :FRAME (46 56) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  11.601 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the bare brickwork of a house&quot; :FRAME (27 56) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 38.849 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;on the bare brickwork of a house&quot; :FRAME (24 56) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 43.044 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;working on the bare brickwork of a house&quot; :FRAME (16 56) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 50.085 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;are working on the bare brickwork of a house&quot; :FRAME (12 56)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 55.801 :UTTNUM 16 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;or&quot; :FRAME (57 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (60 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="many" start="0" end="4"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="people" start="5" end="11"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="many people" start="0" end="11" penn-cats="NP" score="12.683" /><word lex="are" start="12" end="15"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="working" start="16" end="23"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="24" end="26"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="working on" start="16" end="26"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="work_on%2:36:00,work_on%2:41:00" /></word><word lex="the" start="27" end="30"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="bare" start="31" end="35"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="brickwork" start="36" end="45"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the bare brickwork" start="27" end="45" penn-cats="NP" score="26.707" /><word lex="of" start="46" end="48"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="49" end="50"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="house" start="51" end="56"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a house" start="49" end="56" penn-cats="NP" score="10.534" /><prefer text="of a house" start="46" end="56" penn-cats="PP" score="11.601" /><prefer text="the bare brickwork of a house" start="27" end="56" penn-cats="NP" score="38.849" /><prefer text="on the bare brickwork of a house" start="24" end="56" penn-cats="PP" score="43.044" /><prefer text="working on the bare brickwork of a house" start="16" end="56" penn-cats="VP" score="50.085" /><prefer text="are working on the bare brickwork of a house" start="12" end="56" penn-cats="VP" score="55.801" /><word lex="or" start="57" end="59"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="are" start="60" end="63"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT
+ (S
+  (S (NP (SPEC (QUAN MANY)) (N1 (N PEOPLE)))
+   (VP
+    (VP- (AUX (V ARE))
+     (VP- (V WORKING)
+      (PP (PREP ON)
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (ADJP (ADJ1 (ADJ BARE))) (N1 (N BRICKWORK)))
+         (ADVBL (ADV OF) (NP (SPEC (DET (ART A))) (N1 (N HOUSE)))))))))))
+  (CONJ OR) (VP (VP- (AUX (V ARE))))))</lisp><UTT><S><S><NP><SPEC><QUAN>MANY</QUAN></SPEC><N1><N>PEOPLE</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>WORKING</V><PP><PREP>ON</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>BARE</ADJ></ADJ1></ADJP><N1><N>BRICKWORK</N></N1></N1><ADVBL><ADV>OF</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>HOUSE</N></N1></NP></ADVBL></N1></NP></PP></VP-></VP-></VP></S><CONJ>OR</CONJ><VP><VP-><AUX><V>ARE</V></AUX></VP-></VP></S></UTT></tree><terms root="#V100119"><lisp>((ONT::SPEECHACT ONT::V100119 ONT::SA_TELL :CONTENT ONT::V93403 :START 0 :END
+  64)
+ (ONT::F ONT::V93403 ONT::SITUATION-ROOT :OPERATOR ONT::OR :SEQUENCE
+  (ONT::V93256 ONT::V93411) :TENSE W::PRES :PROGR + :START 0 :END 64)
+ (ONT::F ONT::V93256 (:* ONT::WORKING W::WORK) :AGENT ONT::V93235 :NEUTRAL
+  ONT::V93344 :TENSE W::PRES :PROGR + :START 0 :END 57)
+ (ONT::INDEF-SET ONT::V93235 (:* ONT::PERSON W::PERSON) :SIZE ONT::MANY :START
+  0 :END 12)
+ (ONT::THE ONT::V93344 (:* ONT::MANUFACTURED-OBJECT W::BRICKWORK) :MOD
+  ONT::V93348 :MOD ONT::V93337 :START 24 :END 57)
+ (ONT::F ONT::V93337 (:* ONT::NOT-CLOTHED-VAL W::BARE) :FIGURE ONT::V93344
+  :START 31 :END 36)
+ (ONT::F ONT::V93348 (:* ONT::ASSOC-WITH W::OF) :GROUND ONT::V93399 :FIGURE
+  ONT::V93344 :START 46 :END 57)
+ (ONT::A ONT::V93399 (:* ONT::LODGING W::HOUSE) :START 49 :END 57)
+ (ONT::F ONT::V93411 (:* ONT::ELLIPSIS) :NEUTRAL ONT::V93235 :TENSE W::PRES
+  :PROGR + :START 60 :END 64))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V100119">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V93403" />
+    <LF:start>0</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93403">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATION-ROOT</LF:type>
+    <role:OPERATOR>OR</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V93256" />
+    <role:SEQUENCE1 rdf:resource="#V93411" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93256">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WORKING</LF:type>
+    <LF:word>WORK</LF:word>
+    <role:AGENT rdf:resource="#V93235" />
+    <role:NEUTRAL rdf:resource="#V93344" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>57</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93235">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>PERSON</LF:word>
+    <role:SIZE>MANY</role:SIZE>
+    <LF:start>0</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93344">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <LF:word>BRICKWORK</LF:word>
+    <role:MOD rdf:resource="#V93348" />
+    <role:MOD rdf:resource="#V93337" />
+    <LF:start>24</LF:start>
+    <LF:end>57</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93337">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>NOT-CLOTHED-VAL</LF:type>
+    <LF:word>BARE</LF:word>
+    <role:FIGURE rdf:resource="#V93344" />
+    <LF:start>31</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93348">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>OF</LF:word>
+    <role:GROUND rdf:resource="#V93399" />
+    <role:FIGURE rdf:resource="#V93344" />
+    <LF:start>46</LF:start>
+    <LF:end>57</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93399">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>LODGING</LF:type>
+    <LF:word>HOUSE</LF:word>
+    <LF:start>49</LF:start>
+    <LF:end>57</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93411">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ELLIPSIS</LF:type>
+    <role:NEUTRAL rdf:resource="#V93235" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>60</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::WATCHING W::THE W::WORKERS W::FROM W::BELOW)</lisp><word>WATCHING</word><word>THE</word><word>WORKERS</word><word>FROM</word><word>BELOW</word></words><tags><lisp>((WORD &quot;watching&quot; :FRAME (64 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (73 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;workers&quot; :FRAME (77 84) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the workers&quot; :FRAME (73 84) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 9.995 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;from&quot; :FRAME (85 89) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;below&quot; :FRAME (90 95) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN RB) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;below&quot; :FRAME (90 95) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+  7.609 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;from below&quot; :FRAME (85 95) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  16.023 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;watching the workers from below&quot; :FRAME (64 95) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 35.09 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;are watching the workers from below&quot; :FRAME (60 95) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 40.805 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER
+  &quot;are working on the bare brickwork of a house or are watching the workers from below&quot;
+  :FRAME (12 95) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 103.073 :UTTNUM 16
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (96 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;many people are working on the bare brickwork of a house or are watching the workers from below .&quot;
+  :FRAME (0 96) :PENN-CATS (S) :SCORE 116.897 :UTTNUM 16 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="watching" start="64" end="72"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="the" start="73" end="76"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="workers" start="77" end="84"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the workers" start="73" end="84" penn-cats="NP" score="9.995" /><word lex="from" start="85" end="89"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="below" start="90" end="95"><sense-info penn-parts-of-speech="IN,RB" trips-parts-of-speech="PREP,ADV" /></word><prefer text="below" start="90" end="95" penn-cats="ADVP" score="7.609" /><prefer text="from below" start="85" end="95" penn-cats="PP" score="16.023" /><prefer text="watching the workers from below" start="64" end="95" penn-cats="VP" score="35.09" /><prefer text="are watching the workers from below" start="60" end="95" penn-cats="VP" score="40.805" /><prefer text="are working on the bare brickwork of a house or are watching the workers from below" start="12" end="95" penn-cats="VP" score="103.073" /><word lex="." start="96" end="96"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="many people are working on the bare brickwork of a house or are watching the workers from below ." start="0" end="96" penn-cats="S" score="116.897" /></tags><tree><lisp>(VP
+ (VP-
+  (VP- (VP- (V WATCHING) (NP (SPEC (DET (ART THE))) (N1 (N WORKERS))))
+   (ADVBL (ADV FROM)))
+  (ADVBL (ADV BELOW))))</lisp><VP><VP-><VP-><VP-><V>WATCHING</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WORKERS</N></N1></NP></VP-><ADVBL><ADV>FROM</ADV></ADVBL></VP-><ADVBL><ADV>BELOW</ADV></ADVBL></VP-></VP></tree><terms root="#V93429"><lisp>((ONT::F ONT::V93429 (:* ONT::MANAGE W::WATCH) :RESULT ONT::V93456 :AFFECTED
+  ONT::V93440 :TIME ONT::V93448 :VFORM W::ING :START 64 :END 96)
+ (ONT::THE-SET ONT::V93440 (:* ONT::PROFESSIONAL W::WORKER) :START 73 :END 85
+  :COREF ONT::V93235)
+ (ONT::F ONT::V93448 (:* ONT::EVENT-TIME-REL W::FROM) :FIGURE ONT::V93429
+  :START 85 :END 90)
+ (ONT::F ONT::V93456 (:* ONT::BELOW W::BELOW) :GROUND ONT::V94180 :FIGURE
+  ONT::V93440 :START 90 :END 96)
+ (ONT::IMPRO ONT::V94180 ONT::ANY-SEM :START 90 :END 96 :COREF ONT::V93344))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V93429">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MANAGE</LF:type>
+    <LF:word>WATCH</LF:word>
+    <role:RESULT rdf:resource="#V93456" />
+    <role:AFFECTED rdf:resource="#V93440" />
+    <role:TIME rdf:resource="#V93448" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>64</LF:start>
+    <LF:end>96</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93440">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>PROFESSIONAL</LF:type>
+    <LF:word>WORKER</LF:word>
+    <LF:start>73</LF:start>
+    <LF:end>85</LF:end>
+    <role:COREF rdf:resource="#V93235" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93448">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-TIME-REL</LF:type>
+    <LF:word>FROM</LF:word>
+    <role:FIGURE rdf:resource="#V93429" />
+    <LF:start>85</LF:start>
+    <LF:end>90</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V93456">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BELOW</LF:type>
+    <LF:word>BELOW</LF:word>
+    <role:GROUND rdf:resource="#V94180" />
+    <role:FIGURE rdf:resource="#V93440" />
+    <LF:start>90</LF:start>
+    <LF:end>96</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V94180">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <LF:start>90</LF:start>
+    <LF:end>96</LF:end>
+    <role:COREF rdf:resource="#V93344" />
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

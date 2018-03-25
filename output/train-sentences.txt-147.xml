@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="35">
+   <TEXT>two people are sitting next to her ,</TEXT>
+   <RELATION id="1" head="V156293" res="V155944" label="CONTENT"/>
+   <PHRASE id="V155944" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="35"/>
+   <RELATION id="2" head="V155944" res="V155956" label="RESULT"/>
+   <RELATION id="3" head="V155944" res="V155918" label="AGENT"/>
+   <PHRASE id="V155918" indicator="INDEF-SET" type="PERSON" text="PERSON" start="0" end="11"/>
+   <RELATION id="4" head="V155918" res="V155916" label="SIZE"/>
+   <PHRASE id="V155916" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+   <PHRASE id="V155956" indicator="F" type="ADJACENT" text="NEXT-TO" start="23" end="35"/>
+   <RELATION id="5" head="V155956" res="V155991" label="GROUND"/>
+   <RELATION id="6" head="V155956" res="V155918" label="FIGURE"/>
+   <PHRASE id="V155991" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="31" end="35"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="ASSOC-WITH" start="37" end="48">
+   <TEXT>six others a</TEXT>
+   <RELATION id="7" head="V157650" res="V157504" label="GROUND"/>
+   <PHRASE id="V157504" indicator="KIND" type="OTHER" text="OTHERS" AMOUNT="6" start="37" end="48"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="48" end="98">
+   <TEXT>are standing about ten metres away from the table .</TEXT>
+   <RELATION id="8" head="V159096" res="V157514" label="CONTENT"/>
+   <PHRASE id="V157514" indicator="F" type="BE" text="BE" TENSE="PRES" start="48" end="98"/>
+   <RELATION id="9" head="V157514" res="V159097" label="NEUTRAL"/>
+   <RELATION id="10" head="V157514" res="V157530" label="NEUTRAL1"/>
+   <RELATION id="11" head="V157514" res="V157563" label="SOURCE"/>
+   <PHRASE id="V159097" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="48" end="98"/>
+   <RELATION id="12" head="V159097" res="V155916" label="COREF"/>
+   <PHRASE id="V157530" indicator="BARE" type="BE-AT-LOC" text="STAND" start="52" end="83"/>
+   <RELATION id="13" head="V157530" res="V157557" label="MOD"/>
+   <RELATION id="14" head="V157530" res="V157540" label="MOD"/>
+   <PHRASE id="V157540" indicator="F" type="ASSOCIATED-INFORMATION" text="ABOUT" start="61" end="78"/>
+   <RELATION id="15" head="V157540" res="V157553" label="GROUND"/>
+   <RELATION id="16" head="V157540" res="V157530" label="FIGURE"/>
+   <PHRASE id="V157553" indicator="A" type="QUANTITY" UNIT="(:* LENGTH-UNIT METRE)" SCALE="LINEAR-D" start="67" end="78"/>
+   <RELATION id="17" head="V157553" res="V157551" label="AMOUNT"/>
+   <PHRASE id="V157551" indicator="A" type="NUMBER" VALUE="10" start="67" end="78"/>
+   <PHRASE id="V157557" indicator="F" type="AWAY" text="AWAY" start="78" end="83"/>
+   <RELATION id="18" head="V157557" res="V157530" label="FIGURE"/>
+   <PHRASE id="V157563" indicator="F" type="FROM" text="FROM" start="83" end="98"/>
+   <RELATION id="19" head="V157563" res="V157581" label="GROUND"/>
+   <RELATION id="20" head="V157563" res="V157514" label="FIGURE"/>
+   <PHRASE id="V157581" indicator="THE" type="TABLE" text="TABLE" start="88" end="98"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

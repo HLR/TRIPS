@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="ON" text="ON" start="0" end="47">
+   <TEXT>on the right a wooden bed with white bedcovers .</TEXT>
+   <RELATION id="1" head="V220548" res="V220645" label="GROUND"/>
+   <PHRASE id="V220645" indicator="THE" type="FURNISHINGS" text="BED" start="3" end="47"/>
+   <RELATION id="2" head="V220645" res="V220612" label="ASSOC-WITH"/>
+   <RELATION id="3" head="V220645" res="V220652" label="MOD"/>
+   <RELATION id="4" head="V220645" res="V220582" label="MOD"/>
+   <RELATION id="5" head="V220645" res="V220637" label="MOD"/>
+   <PHRASE id="V220582" indicator="F" type="CORRECT" text="RIGHT" start="7" end="13"/>
+   <RELATION id="6" head="V220582" res="V220645" label="FIGURE"/>
+   <PHRASE id="V220612" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="13" end="15"/>
+   <PHRASE id="V220637" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="15" end="22"/>
+   <RELATION id="7" head="V220637" res="V220645" label="FIGURE"/>
+   <PHRASE id="V220652" indicator="F" type="ASSOC-WITH" text="WITH" start="26" end="47"/>
+   <RELATION id="8" head="V220652" res="V220671" label="GROUND"/>
+   <RELATION id="9" head="V220652" res="V220645" label="FIGURE"/>
+   <PHRASE id="V220671" indicator="INDEF-SET" type="BEDDING" text="BEDCOVER" start="31" end="47"/>
+   <RELATION id="10" head="V220671" res="V220664" label="MOD"/>
+   <PHRASE id="V220664" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="31" end="37"/>
+   <RELATION id="11" head="V220664" res="V220671" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

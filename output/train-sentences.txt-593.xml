@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="66">
+   <TEXT>a dark-skinned dark-haired boy in grey tee-shirt with blue collar ,</TEXT>
+   <RELATION id="1" head="V443890" res="V443974" label="MOD"/>
+   <RELATION id="2" head="V443890" res="V443897" label="LOCATION"/>
+   <RELATION id="3" head="V443890" res="V443866" label="MOD"/>
+   <RELATION id="4" head="V443890" res="V443887" label="MOD"/>
+   <PHRASE id="V443866" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="5" head="V443866" res="V443890" label="FIGURE"/>
+   <PHRASE id="V443887" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="15" end="27" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="6" head="V443887" res="V443890" label="FIGURE"/>
+   <PHRASE id="V443897" indicator="F" type="IN-LOC" text="IN" start="31" end="49"/>
+   <RELATION id="7" head="V443897" res="V443970" label="GROUND"/>
+   <RELATION id="8" head="V443897" res="V443890" label="FIGURE"/>
+   <PHRASE id="V443970" indicator="BARE" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="34" end="49"/>
+   <RELATION id="9" head="V443970" res="V443946" label="MOD"/>
+   <PHRASE id="V443946" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="34" end="39"/>
+   <RELATION id="10" head="V443946" res="V443970" label="FIGURE"/>
+   <PHRASE id="V443974" indicator="F" type="ASSOC-WITH" text="WITH" start="49" end="66"/>
+   <RELATION id="11" head="V443974" res="V443993" label="GROUND"/>
+   <RELATION id="12" head="V443974" res="V443890" label="FIGURE"/>
+   <PHRASE id="V443993" indicator="BARE" type="MANUFACTURED-OBJECT" text="COLLAR" start="54" end="66"/>
+   <RELATION id="13" head="V443993" res="V443986" label="MOD"/>
+   <PHRASE id="V443986" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="54" end="59"/>
+   <RELATION id="14" head="V443986" res="V443993" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="68" end="129">
+   <TEXT>SA print and a wet spot at the front standing in a classroom .</TEXT>
+   <RELATION id="15" head="V456211" res="V452328" label="CONTENT"/>
+   <PHRASE id="V452328" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="68" end="129"/>
+   <RELATION id="16" head="V452328" res="V452322" label="SEQUENCE"/>
+   <RELATION id="17" head="V452328" res="V452384" label="SEQUENCE1"/>
+   <PHRASE id="V452322" indicator="BARE" type="TEXT-REPRESENTATION" text="PRINT" start="68" end="77"/>
+   <RELATION id="18" head="V452322" res="V452314" label="ASSOC-WITH"/>
+   <PHRASE id="V452314" indicator="THE" type="GEOGRAPHIC-REGION" text="SA" NAME-OF="(SA)" start="68" end="71"/>
+   <PHRASE id="V452384" indicator="A" type="LOC-DEFINED-BY-CONTRAST" text="SPOT" start="81" end="129"/>
+   <RELATION id="19" head="V452384" res="V452394" label="LOCATION"/>
+   <RELATION id="20" head="V452384" res="V452378" label="MOD"/>
+   <PHRASE id="V452378" indicator="F" type="WET-VAL" text="WET" start="83" end="87"/>
+   <RELATION id="21" head="V452378" res="V452384" label="FIGURE"/>
+   <PHRASE id="V452394" indicator="F" type="AT-LOC" text="AT" start="92" end="129"/>
+   <RELATION id="22" head="V452394" res="V452423" label="GROUND"/>
+   <RELATION id="23" head="V452394" res="V452384" label="FIGURE"/>
+   <PHRASE id="V452423" indicator="BARE" type="BE-AT-LOC" text="STAND" start="95" end="129"/>
+   <RELATION id="24" head="V452423" res="V452413" label="NEUTRAL"/>
+   <RELATION id="25" head="V452423" res="V452438" label="LOCATION"/>
+   <PHRASE id="V452413" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="95" end="105"/>
+   <PHRASE id="V452438" indicator="F" type="IN-LOC" text="IN" start="114" end="129"/>
+   <RELATION id="26" head="V452438" res="V452540" label="GROUND"/>
+   <RELATION id="27" head="V452438" res="V452423" label="FIGURE"/>
+   <PHRASE id="V452540" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="117" end="129"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

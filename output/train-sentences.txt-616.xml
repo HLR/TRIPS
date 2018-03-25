@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="32">
+   <TEXT>hills in the distant background .</TEXT>
+   <RELATION id="1" head="V85528" res="V85419" label="CONTENT"/>
+   <PHRASE id="V85419" indicator="INDEF-SET" type="GEO-FORMATION" text="HILLS" start="0" end="32"/>
+   <RELATION id="2" head="V85419" res="V85429" label="LOCATION"/>
+   <PHRASE id="V85429" indicator="F" type="IN-LOC" text="IN" start="6" end="32"/>
+   <RELATION id="3" head="V85429" res="V85488" label="GROUND"/>
+   <RELATION id="4" head="V85429" res="V85419" label="FIGURE"/>
+   <PHRASE id="V85488" indicator="THE" type="IMAGE" text="BACKGROUND" start="9" end="32"/>
+   <RELATION id="5" head="V85488" res="V85485" label="MOD"/>
+   <PHRASE id="V85485" indicator="F" type="REMOTE" text="DISTANT" ORIENTATION="MORE" INTENSITY="HI" SCALE="LINEAR-SCALE" start="13" end="21"/>
+   <RELATION id="6" head="V85485" res="V85488" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

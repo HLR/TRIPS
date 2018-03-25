@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="GENERAL-STRUCTURE" text="BUILDING" start="0" end="36">
+   <TEXT>a large , brown , 18 story building w</TEXT>
+   <RELATION id="1" head="V283374" res="V283369" label="ASSOC-WITH"/>
+   <RELATION id="2" head="V283374" res="V283343" label="MOD"/>
+   <RELATION id="3" head="V283374" res="V283349" label="MOD"/>
+   <PHRASE id="V283343" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="2" end="8"/>
+   <RELATION id="4" head="V283343" res="V283374" label="FIGURE"/>
+   <PHRASE id="V283349" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="10" end="16"/>
+   <RELATION id="5" head="V283349" res="V283374" label="FIGURE"/>
+   <PHRASE id="V283369" indicator="THE" type="LOCATION-ID" text="18-STORY" NAME-OF="(18 STORY)" start="18" end="27"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="ASSOC-WITH" text="WITH" start="36" end="83">
+   <TEXT>with two palm trees , lamps and flags in front .</TEXT>
+   <RELATION id="6" head="V283388" res="V283418" label="GROUND"/>
+   <PHRASE id="V283418" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="41" end="83"/>
+   <RELATION id="7" head="V283418" res="V283429" label="SEQUENCE"/>
+   <RELATION id="8" head="V283418" res="V283406" label="SEQUENCE1"/>
+   <RELATION id="9" head="V283418" res="V283412" label="SEQUENCE2"/>
+   <PHRASE id="V283406" indicator="INDEF-SET" type="PLANT" text="TREE" start="41" end="56"/>
+   <RELATION id="10" head="V283406" res="V283401" label="SIZE"/>
+   <RELATION id="11" head="V283406" res="V283403" label="ASSOC-WITH"/>
+   <PHRASE id="V283403" indicator="KIND" type="NUTS-SEEDS" text="PALM" start="41" end="56"/>
+   <PHRASE id="V283401" indicator="A" type="NUMBER" VALUE="2" start="41" end="45"/>
+   <PHRASE id="V283412" indicator="INDEF-SET" type="DEVICE-COMPONENT" text="LAMP" start="58" end="64"/>
+   <PHRASE id="V283429" indicator="INDEF-SET" type="FLAG" text="FLAG" start="68" end="83"/>
+   <RELATION id="12" head="V283429" res="V283447" label="LOCATION"/>
+   <PHRASE id="V283447" indicator="F" type="FRONT" text="IN-FRONT" start="74" end="83"/>
+   <RELATION id="13" head="V283447" res="V283722" label="GROUND"/>
+   <RELATION id="14" head="V283447" res="V283429" label="FIGURE"/>
+   <PHRASE id="V283722" indicator="IMPRO" type="ANY-SEM" start="74" end="83"/>
+   <RELATION id="15" head="V283722" res="V283401" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

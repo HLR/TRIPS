@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="classroom with most of the pupil sitting at theirs desk and wearing green hats .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+63
+*last-utt-id*=63  utt-id+63
+*last-utt-id*=63  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::CLASSROOM W::WITH W::MOST W::OF W::THE W::PUPIL W::SITTING W::AT W::THEIRS)</lisp><word>CLASSROOM</word><word>WITH</word><word>MOST</word><word>OF</word><word>THE</word><word>PUPIL</word><word>SITTING</word><word>AT</word><word>THEIRS</word></words><tags><lisp>((WORD &quot;classroom&quot; :FRAME (0 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;classroom&quot; :FRAME (0 9) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.861 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (10 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;most&quot; :FRAME (15 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJS) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;most&quot; :FRAME (15 19) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.433
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (20 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (23 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pupil&quot; :FRAME (27 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the pupil&quot; :FRAME (23 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  14.817 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of the pupil&quot; :FRAME (20 32) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.884 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;most of the pupil&quot; :FRAME (15 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.858 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with most of the pupil&quot; :FRAME (10 32) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 29.003 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;classroom with most of the pupil&quot; :FRAME (0 32) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 42.525 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;sitting&quot; :FRAME (33 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (41 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;theirs&quot; :FRAME (44 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="classroom" start="0" end="9"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="classroom" start="0" end="9" penn-cats="NP" score="12.861" /><word lex="with" start="10" end="14"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="most" start="15" end="19"><sense-info penn-parts-of-speech="JJS" trips-parts-of-speech="ADJ" /></word><prefer text="most" start="15" end="19" penn-cats="NP" score="7.433" /><word lex="of" start="20" end="22"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="23" end="26"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="pupil" start="27" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the pupil" start="23" end="32" penn-cats="NP" score="14.817" /><prefer text="of the pupil" start="20" end="32" penn-cats="PP" score="15.884" /><prefer text="most of the pupil" start="15" end="32" penn-cats="NP" score="23.858" /><prefer text="with most of the pupil" start="10" end="32" penn-cats="PP" score="29.003" /><prefer text="classroom with most of the pupil" start="0" end="32" penn-cats="NP" score="42.525" /><word lex="sitting" start="33" end="40"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="41" end="43"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="theirs" start="44" end="50"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word></tags><tree><lisp>(NP
+ (N1
+  (N1 (N1 (N CLASSROOM))
+   (ADVBL (ADV WITH)
+    (NP (SPEC (QUAN MOST))
+     (PP (PREP OF)
+      (NP (N1 (NP (SPEC (DET (ART THE))) (N1 (N PUPIL))) (N1 (V SITTING))))))))
+  (ADVBL (ADV AT) (NP (PRO THEIRS)))))</lisp><NP><N1><N1><N1><N>CLASSROOM</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><QUAN>MOST</QUAN></SPEC><PP><PREP>OF</PREP><NP><N1><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>PUPIL</N></N1></NP><N1><V>SITTING</V></N1></N1></NP></PP></NP></ADVBL></N1><ADVBL><ADV>AT</ADV><NP><PRO>THEIRS</PRO></NP></ADVBL></N1></NP></tree><terms root="#V335904"><lisp>((ONT::BARE ONT::V335904 (:* ONT::INTERNAL-ENCLOSURE W::CLASSROOM) :LOCATION
+  ONT::V335968 :MOD ONT::V335908 :START 0 :END 51)
+ (ONT::F ONT::V335908 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V336110 :FIGURE
+  ONT::V335904 :START 10 :END 41)
+ (ONT::A ONT::V336110 (:* ONT::PLACE-IN-POSITION W::SIT) :AFFECTED ONT::V335942
+  :QUAN ONT::MOST :START 15 :END 41)
+ (ONT::BARE ONT::V335952 (:* ONT::PLACE-IN-POSITION W::SIT) :AFFECTED
+  ONT::V335942 :START 20 :END 41)
+ (ONT::THE ONT::V335942 (:* ONT::EXTERNAL-BODY-PART W::PUPIL) :START 23 :END
+  33)
+ (ONT::F ONT::V335968 (:* ONT::AT-LOC W::AT) :GROUND ONT::V335980 :FIGURE
+  ONT::V335904 :START 41 :END 51)
+ (ONT::PRO ONT::V335980 (:* ONT::PERSON W::THEIRS) :PROFORM W::THEIRS :START 44
+  :END 51))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V335904">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>INTERNAL-ENCLOSURE</LF:type>
+    <LF:word>CLASSROOM</LF:word>
+    <role:LOCATION rdf:resource="#V335968" />
+    <role:MOD rdf:resource="#V335908" />
+    <LF:start>0</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335908">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V336110" />
+    <role:FIGURE rdf:resource="#V335904" />
+    <LF:start>10</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V336110">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>PLACE-IN-POSITION</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:AFFECTED rdf:resource="#V335942" />
+    <role:QUAN>MOST</role:QUAN>
+    <LF:start>15</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335952">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PLACE-IN-POSITION</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:AFFECTED rdf:resource="#V335942" />
+    <LF:start>20</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335942">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>EXTERNAL-BODY-PART</LF:type>
+    <LF:word>PUPIL</LF:word>
+    <LF:start>23</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335968">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V335980" />
+    <role:FIGURE rdf:resource="#V335904" />
+    <LF:start>41</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335980">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>THEIRS</LF:word>
+    <role:PROFORM>THEIRS</role:PROFORM>
+    <LF:start>44</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::DESK W::AND W::WEARING W::GREEN W::HATS W::PUNC-PERIOD)</lisp><word>DESK</word><word>AND</word><word>WEARING</word><word>GREEN</word><word>HATS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;desk&quot; :FRAME (51 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;theirs desk&quot; :FRAME (44 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.055 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at theirs desk&quot; :FRAME (41 55) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 25.382 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting at theirs desk&quot; :FRAME (33 55) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 34.079 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (56 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wearing&quot; :FRAME (60 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;green&quot; :FRAME (68 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hats&quot; :FRAME (74 78) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;green hats&quot; :FRAME (68 78) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  20.143 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wearing green hats&quot; :FRAME (60 78) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 28.83 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting at theirs desk and wearing green hats&quot; :FRAME (33 78)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 67.589 :UTTNUM 63 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (79 79) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;classroom with most of the pupil sitting at theirs desk and wearing green hats .&quot;
+  :FRAME (0 79) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 115.465 :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="desk" start="51" end="55"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="theirs desk" start="44" end="55" penn-cats="NP" score="22.055" /><prefer text="at theirs desk" start="41" end="55" penn-cats="PP" score="25.382" /><prefer text="sitting at theirs desk" start="33" end="55" penn-cats="VP" score="34.079" /><word lex="and" start="56" end="59"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="wearing" start="60" end="67"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="green" start="68" end="73"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="hats" start="74" end="78"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="green hats" start="68" end="78" penn-cats="NP" score="20.143" /><prefer text="wearing green hats" start="60" end="78" penn-cats="VP" score="28.83" /><prefer text="sitting at theirs desk and wearing green hats" start="33" end="78" penn-cats="VP" score="67.589" /><word lex="." start="79" end="79"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="classroom with most of the pupil sitting at theirs desk and wearing green hats ." start="0" end="79" penn-cats="NP" score="115.465" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (NP (N1 (N DESK))) (CONJ AND)
+   (NP (N1 (ADJP (V WEARING)) (N1 (ADJP (ADJ1 (ADJ GREEN))) (N1 (N HATS)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><N1><N>DESK</N></N1></NP><CONJ>AND</CONJ><NP><N1><ADJP><V>WEARING</V></ADJP><N1><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><N1><N>HATS</N></N1></N1></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V338213"><lisp>((ONT::SPEECHACT ONT::V338213 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V335987 :START 51 :END 79)
+ (ONT::INDEF-SET ONT::V335987 ONT::MANUFACTURED-OBJECT :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V335983 ONT::V336010) :START 51 :END 79)
+ (ONT::BARE ONT::V335983 (:* ONT::FURNISHINGS W::DESK) :START 51 :END 56)
+ (ONT::INDEF-SET ONT::V336010 (:* ONT::ATTIRE W::HAT) :MOD ONT::V335999 :MOD
+  ONT::V336005 :START 60 :END 79)
+ (ONT::F ONT::V335999 (:* ONT::WEAR W::WEAR) :AGENT ONT::V336010 :START 60 :END
+  68)
+ (ONT::F ONT::V336005 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V336010 :SCALE
+  ONT::GREEN*1--07--00 :START 68 :END 74))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V338213">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V335987" />
+    <LF:start>51</LF:start>
+    <LF:end>79</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335987">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V335983" />
+    <role:SEQUENCE1 rdf:resource="#V336010" />
+    <LF:start>51</LF:start>
+    <LF:end>79</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335983">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>DESK</LF:word>
+    <LF:start>51</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V336010">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>HAT</LF:word>
+    <role:MOD rdf:resource="#V335999" />
+    <role:MOD rdf:resource="#V336005" />
+    <LF:start>60</LF:start>
+    <LF:end>79</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V335999">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V336010" />
+    <LF:start>60</LF:start>
+    <LF:end>68</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V336005">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>GREEN</LF:type>
+    <LF:word>GREEN</LF:word>
+    <role:FIGURE rdf:resource="#V336010" />
+    <role:SCALE>GREEN*1--07--00</role:SCALE>
+    <LF:start>68</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

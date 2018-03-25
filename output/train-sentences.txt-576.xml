@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="79">
+   <TEXT>one girl wearing the same outfit plus a pink nametag standing right behind her .</TEXT>
+   <RELATION id="1" head="V368643" res="V368777" label="SIZE"/>
+   <RELATION id="2" head="V368643" res="V368649" label="MOD"/>
+   <PHRASE id="V368777" indicator="A" type="NUMBER" VALUE="1" start="0" end="79"/>
+   <PHRASE id="V368649" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="9" end="79"/>
+   <RELATION id="3" head="V368649" res="V368643" label="AGENT"/>
+   <RELATION id="4" head="V368649" res="V368673" label="NEUTRAL"/>
+   <PHRASE id="V368673" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="17" end="79"/>
+   <RELATION id="5" head="V368673" res="V368666" label="SEQUENCE"/>
+   <RELATION id="6" head="V368673" res="V368753" label="SEQUENCE1"/>
+   <PHRASE id="V368666" indicator="THE" type="ORGANIZATION" text="OUTFIT" start="17" end="33"/>
+   <RELATION id="7" head="V368666" res="V368662" label="MOD"/>
+   <PHRASE id="V368662" indicator="F" type="SAME" text="SAME" INTENSITY="HI" start="21" end="26"/>
+   <RELATION id="8" head="V368662" res="V368666" label="FIGURE"/>
+   <PHRASE id="V368753" indicator="A" type="RIGHT-LOC" text="RIGHT" start="38" end="79"/>
+   <RELATION id="9" head="V368753" res="V368727" label="ASSOC-WITH"/>
+   <RELATION id="10" head="V368753" res="V368736" label="ASSOC-WITH"/>
+   <RELATION id="11" head="V368753" res="V368763" label="LOCATION"/>
+   <RELATION id="12" head="V368753" res="V368718" label="MOD"/>
+   <PHRASE id="V368736" indicator="KIND" type="NONESSENTIAL-CONTRACT" text="STANDING" start="38" end="79"/>
+   <PHRASE id="V368727" indicator="KIND" type="REFERENTIAL-SEM" text="NAMETAG" start="38" end="79"/>
+   <PHRASE id="V368718" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="40" end="45"/>
+   <RELATION id="13" head="V368718" res="V368753" label="FIGURE"/>
+   <PHRASE id="V368763" indicator="F" type="BACK" text="BEHIND" start="68" end="79"/>
+   <RELATION id="14" head="V368763" res="V368768" label="GROUND"/>
+   <RELATION id="15" head="V368763" res="V368753" label="FIGURE"/>
+   <PHRASE id="V368768" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="75" end="79"/>
+   <RELATION id="16" head="V368768" res="V368643" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

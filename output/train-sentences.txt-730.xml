@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="54">
+   <TEXT>a dark-skinned , dark-haired girl wearing a black hat ,</TEXT>
+   <RELATION id="1" head="V137612" res="V137618" label="MOD"/>
+   <RELATION id="2" head="V137612" res="V137585" label="MOD"/>
+   <RELATION id="3" head="V137612" res="V137609" label="MOD"/>
+   <PHRASE id="V137585" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="4" head="V137585" res="V137612" label="FIGURE"/>
+   <PHRASE id="V137609" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V137609" res="V137612" label="FIGURE"/>
+   <PHRASE id="V137618" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="54"/>
+   <RELATION id="6" head="V137618" res="V137612" label="AGENT"/>
+   <RELATION id="7" head="V137618" res="V137668" label="NEUTRAL"/>
+   <PHRASE id="V137668" indicator="A" type="ATTIRE" text="HAT" start="42" end="54"/>
+   <RELATION id="8" head="V137668" res="V137665" label="MOD"/>
+   <PHRASE id="V137665" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="44" end="50"/>
+   <RELATION id="9" head="V137665" res="V137668" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="56" end="90">
+   <TEXT>a white cardigan and a red poncho .</TEXT>
+   <RELATION id="10" head="V144236" res="V143903" label="CONTENT"/>
+   <PHRASE id="V143903" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="56" end="90"/>
+   <RELATION id="11" head="V143903" res="V143896" label="SEQUENCE"/>
+   <RELATION id="12" head="V143903" res="V143967" label="SEQUENCE1"/>
+   <PHRASE id="V143896" indicator="A" type="ATTIRE" text="CARDIGAN" start="56" end="73"/>
+   <RELATION id="13" head="V143896" res="V143888" label="MOD"/>
+   <PHRASE id="V143888" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="58" end="64"/>
+   <RELATION id="14" head="V143888" res="V143896" label="FIGURE"/>
+   <PHRASE id="V143967" indicator="A" type="ATTIRE" text="PONCHO" start="77" end="90"/>
+   <RELATION id="15" head="V143967" res="V143953" label="MOD"/>
+   <PHRASE id="V143953" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="79" end="83"/>
+   <RELATION id="16" head="V143953" res="V143967" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

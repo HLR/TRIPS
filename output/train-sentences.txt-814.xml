@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="33">
+   <TEXT>thatched roofs in the background .</TEXT>
+   <RELATION id="1" head="V108896" res="V108703" label="CONTENT"/>
+   <PHRASE id="V108703" indicator="F" type="COVER" text="THATCHED" TENSE="PRES" start="0" end="33"/>
+   <RELATION id="2" head="V108703" res="V108897" label="AGENT"/>
+   <RELATION id="3" head="V108703" res="V108711" label="AFFECTED"/>
+   <RELATION id="4" head="V108703" res="V108778" label="AFFECTED1"/>
+   <PHRASE id="V108897" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="0" end="33"/>
+   <PHRASE id="V108711" indicator="INDEF-SET" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="9" end="15"/>
+   <PHRASE id="V108778" indicator="THE" type="IMAGE" text="BACKGROUND" start="15" end="33"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

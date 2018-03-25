@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="68">
+   <TEXT>more kids sitting at their desks and a blackboard in the background .</TEXT>
+   <RELATION id="1" head="V202056" res="V201149" label="CONTENT"/>
+   <PHRASE id="V201149" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="0" end="68"/>
+   <RELATION id="2" head="V201149" res="V201251" label="LOCATION"/>
+   <RELATION id="3" head="V201149" res="V201158" label="MOD"/>
+   <PHRASE id="V201158" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" VFORM="ING" start="10" end="50"/>
+   <RELATION id="4" head="V201158" res="V201175" label="RESULT"/>
+   <RELATION id="5" head="V201158" res="V201149" label="AGENT"/>
+   <PHRASE id="V201175" indicator="F" type="AT-LOC" text="AT" start="18" end="50"/>
+   <RELATION id="6" head="V201175" res="V201194" label="GROUND"/>
+   <RELATION id="7" head="V201175" res="V201149" label="FIGURE"/>
+   <PHRASE id="V201194" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="21" end="50"/>
+   <RELATION id="8" head="V201194" res="V201190" label="SEQUENCE"/>
+   <RELATION id="9" head="V201194" res="V201244" label="SEQUENCE1"/>
+   <PHRASE id="V201190" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="21" end="33"/>
+   <RELATION id="10" head="V201190" res="V201187" label="ASSOC-POSS"/>
+   <PHRASE id="V201187" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="21" end="33"/>
+   <RELATION id="11" head="V201187" res="V201149" label="COREF"/>
+   <PHRASE id="V201244" indicator="A" type="DISPLAY" text="BLACKBOARD" start="37" end="50"/>
+   <PHRASE id="V201251" indicator="F" type="IN-LOC" text="IN" start="50" end="68"/>
+   <RELATION id="12" head="V201251" res="V201307" label="GROUND"/>
+   <RELATION id="13" head="V201251" res="V201149" label="FIGURE"/>
+   <PHRASE id="V201307" indicator="THE" type="IMAGE" text="BACKGROUND" start="53" end="68"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

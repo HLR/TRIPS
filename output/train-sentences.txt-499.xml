@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="48">
+   <TEXT>two comic figures on the wall in the background .</TEXT>
+   <RELATION id="1" head="V508173" res="V507856" label="CONTENT"/>
+   <PHRASE id="V507856" indicator="INDEF-SET" type="SHAPE-OBJECT" text="FIGURE" start="0" end="48"/>
+   <RELATION id="2" head="V507856" res="V507847" label="SIZE"/>
+   <RELATION id="3" head="V507856" res="V507902" label="LOCATION"/>
+   <RELATION id="4" head="V507856" res="V507866" label="LOCATION"/>
+   <RELATION id="5" head="V507856" res="V507850" label="MOD"/>
+   <PHRASE id="V507847" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+   <PHRASE id="V507850" indicator="F" type="MODIFIER" text="COMIC" start="4" end="10"/>
+   <RELATION id="6" head="V507850" res="V507856" label="FIGURE"/>
+   <PHRASE id="V507866" indicator="F" type="ON" text="ON" start="18" end="30"/>
+   <RELATION id="7" head="V507866" res="V507895" label="GROUND"/>
+   <RELATION id="8" head="V507866" res="V507856" label="FIGURE"/>
+   <PHRASE id="V507895" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="21" end="30"/>
+   <PHRASE id="V507902" indicator="F" type="IN-LOC" text="IN" start="30" end="48"/>
+   <RELATION id="9" head="V507902" res="V507967" label="GROUND"/>
+   <RELATION id="10" head="V507902" res="V507856" label="FIGURE"/>
+   <PHRASE id="V507967" indicator="THE" type="IMAGE" text="BACKGROUND" start="33" end="48"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

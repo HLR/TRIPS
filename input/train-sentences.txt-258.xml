@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="each tourist is leading one old lady , arm in arm .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+46
+*last-utt-id*=46  utt-id+NIL</debug><utt><words><lisp>(W::EACH W::TOURIST W::IS W::LEADING W::ONE W::OLD W::LADY W::PUNC-COMMA W::ARM
+ W::IN W::ARM W::PUNC-PERIOD)</lisp><word>EACH</word><word>TOURIST</word><word>IS</word><word>LEADING</word><word>ONE</word><word>OLD</word><word>LADY</word><word>PUNC-COMMA</word><word>ARM</word><word>IN</word><word>ARM</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;each&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tourist&quot; :FRAME (5 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;each tourist&quot; :FRAME (0 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 16.917 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (13 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;leading&quot; :FRAME (16 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (24 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;old&quot; :FRAME (28 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;lady&quot; :FRAME (32 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;old lady&quot; :FRAME (28 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;old_lady%1:18:00&quot;)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one old lady&quot; :FRAME (24 36) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 26.554 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (37 38) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;arm&quot; :FRAME (39 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;arm&quot; :FRAME (39 42) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 11.042
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (43 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;arm&quot; :FRAME (46 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;arm&quot; :FRAME (46 49) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 10.766
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in arm&quot; :FRAME (43 49) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  13.018 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;arm in arm&quot; :FRAME (39 49) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  24.721 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one old lady , arm in arm&quot; :FRAME (24 49) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 56.327 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;leading one old lady , arm in arm&quot; :FRAME (16 49) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 65.059 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is leading one old lady , arm in arm&quot; :FRAME (13 49) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 69.319 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (50 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;each tourist is leading one old lady , arm in arm .&quot; :FRAME (0 50)
+  :PENN-CATS (S) :SCORE 87.378 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="each" start="0" end="4"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="tourist" start="5" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="each tourist" start="0" end="12" penn-cats="NP" score="16.917" /><word lex="is" start="13" end="15"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="leading" start="16" end="23"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="one" start="24" end="27"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="old" start="28" end="31"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="lady" start="32" end="36"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="old lady" start="28" end="36"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="old_lady%1:18:00" /></word><prefer text="one old lady" start="24" end="36" penn-cats="NP" score="26.554" /><word lex="," start="37" end="38"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="arm" start="39" end="42"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="arm" start="39" end="42" penn-cats="NP" score="11.042" /><word lex="in" start="43" end="45"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="arm" start="46" end="49"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="arm" start="46" end="49" penn-cats="NP" score="10.766" /><prefer text="in arm" start="43" end="49" penn-cats="PP" score="13.018" /><prefer text="arm in arm" start="39" end="49" penn-cats="NP" score="24.721" /><prefer text="one old lady , arm in arm" start="24" end="49" penn-cats="NP" score="56.327" /><prefer text="leading one old lady , arm in arm" start="16" end="49" penn-cats="VP" score="65.059" /><prefer text="is leading one old lady , arm in arm" start="13" end="49" penn-cats="VP" score="69.319" /><word lex="." start="50" end="50"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="each tourist is leading one old lady , arm in arm ." start="0" end="50" penn-cats="S" score="87.378" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (QUAN EACH)) (N1 (N TOURIST)))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V LEADING)
+      (NP (NP (SPEC (NUMBER ONE)) (N1 (N OLD LADY))) (PUNC PUNC-COMMA))
+      (NP (N1 (N1 (N ARM)) (ADVBL (ADV IN) (NP (N1 (N ARM)))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><QUAN>EACH</QUAN></SPEC><N1><N>TOURIST</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>LEADING</V><NP><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>OLD LADY</N></N1></NP><PUNC>PUNC-COMMA</PUNC></NP><NP><N1><N1><N>ARM</N></N1><ADVBL><ADV>IN</ADV><NP><N1><N>ARM</N></N1></NP></ADVBL></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V244586"><lisp>((ONT::SPEECHACT ONT::V244586 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V240800 :START 0 :END 50)
+ (ONT::F ONT::V240800 (:* ONT::GUIDING W::LEAD) :AGENT ONT::V240775 :AFFECTED
+  ONT::V240841 :BENEFICIARY ONT::V241014 :TENSE W::PRES :PROGR + :START 0 :END
+  50)
+ (ONT::F ONT::V241014 (:* ONT::BENEFICIARY W::IOBJ) :GROUND ONT::V240833
+  :FIGURE ONT::V240800 :START 0 :END 50)
+ (ONT::QUANTIFIER ONT::V240775 (:* ONT::TRAVELLER W::TOURIST) :QUAN ONT::EACH
+  :START 0 :END 13)
+ (ONT::A ONT::V240833 (:* ONT::FEMALE-PERSON W::OLD-LADY) :SIZE ONT::V240907
+  :START 24 :END 39 :WNSENSE &quot;old_lady%1:18:00&quot;)
+ (ONT::A ONT::V240907 ONT::NUMBER :VALUE 1 :START 24 :END 39)
+ (ONT::BARE ONT::V240841 (:* ONT::EXTERNAL-BODY-PART W::ARM) :LOCATION
+  ONT::V240848 :START 39 :END 50)
+ (ONT::F ONT::V240848 (:* ONT::IN-LOC W::IN) :GROUND ONT::V240899 :FIGURE
+  ONT::V240841 :START 43 :END 50)
+ (ONT::BARE ONT::V240899 (:* ONT::EXTERNAL-BODY-PART W::ARM) :START 46 :END 50))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V244586">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V240800" />
+    <LF:start>0</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V240800">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>GUIDING</LF:type>
+    <LF:word>LEAD</LF:word>
+    <role:AGENT rdf:resource="#V240775" />
+    <role:AFFECTED rdf:resource="#V240841" />
+    <role:BENEFICIARY rdf:resource="#V241014" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V241014">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BENEFICIARY</LF:type>
+    <LF:word>IOBJ</LF:word>
+    <role:GROUND rdf:resource="#V240833" />
+    <role:FIGURE rdf:resource="#V240800" />
+    <LF:start>0</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V240775">
+    <LF:indicator>QUANTIFIER</LF:indicator>
+    <LF:type>TRAVELLER</LF:type>
+    <LF:word>TOURIST</LF:word>
+    <role:QUAN>EACH</role:QUAN>
+    <LF:start>0</LF:start>
+    <LF:end>13</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V240833">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FEMALE-PERSON</LF:type>
+    <LF:word>OLD-LADY</LF:word>
+    <role:SIZE rdf:resource="#V240907" />
+    <LF:start>24</LF:start>
+    <LF:end>39</LF:end>
+    <role:WNSENSE>old_lady%1:18:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V240907">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>24</LF:start>
+    <LF:end>39</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V240841">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>EXTERNAL-BODY-PART</LF:type>
+    <LF:word>ARM</LF:word>
+    <role:LOCATION rdf:resource="#V240848" />
+    <LF:start>39</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V240848">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V240899" />
+    <role:FIGURE rdf:resource="#V240841" />
+    <LF:start>43</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V240899">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>EXTERNAL-BODY-PART</LF:type>
+    <LF:word>ARM</LF:word>
+    <LF:start>46</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="24">
+   <TEXT>green trees behind them .</TEXT>
+   <RELATION id="1" head="V33211" res="V33171" label="CONTENT"/>
+   <PHRASE id="V33171" indicator="INDEF-SET" type="PLANT" text="TREE" start="0" end="24"/>
+   <RELATION id="2" head="V33171" res="V33174" label="LOCATION"/>
+   <RELATION id="3" head="V33171" res="V33166" label="MOD"/>
+   <PHRASE id="V33166" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="0" end="6"/>
+   <RELATION id="4" head="V33166" res="V33171" label="FIGURE"/>
+   <PHRASE id="V33174" indicator="F" type="BACK" text="BEHIND" start="12" end="24"/>
+   <RELATION id="5" head="V33174" res="V33177" label="GROUND"/>
+   <RELATION id="6" head="V33174" res="V33171" label="FIGURE"/>
+   <PHRASE id="V33177" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="19" end="24"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

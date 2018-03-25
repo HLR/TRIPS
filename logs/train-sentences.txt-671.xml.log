@@ -1,0 +1,112 @@
+2,93c2,18
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="rocky desert in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+51
+< *last-utt-id*=51  utt-id+NIL</debug><utt><words><lisp>(W::ROCKY W::DESERT W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>ROCKY</word><word>DESERT</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;rocky&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 51
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;desert&quot; :FRAME (6 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 51
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;rocky desert&quot; :FRAME (0 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.926 :UTTNUM 51 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (13 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 51 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (16 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 51 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (20 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 51
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (16 30) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 51 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (13 30) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 51 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (31 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 51 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;rocky desert in the background .&quot; :FRAME (0 31) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 39.634 :UTTNUM 51 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="rocky" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="desert" start="6" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="rocky desert" start="0" end="12" penn-cats="NP" score="22.926" /><word lex="in" start="13" end="15"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="16" end="19"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="20" end="30"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="16" end="30" penn-cats="NP" score="11.972" /><prefer text="in the background" start="13" end="30" penn-cats="PP" score="14.224" /><word lex="." start="31" end="31"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="rocky desert in the background ." start="0" end="31" penn-cats="NP" score="39.634" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1 (N1 (ADJP (ADJ1 (ADJ ROCKY))) (N1 (N DESERT)))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><ADJP><ADJ1><ADJ>ROCKY</ADJ></ADJ1></ADJP><N1><N>DESERT</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V254301"><lisp>((ONT::SPEECHACT ONT::V254301 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V254146 :START 0 :END 31)
+<  (ONT::BARE ONT::V254146 (:* ONT::GROUP-OBJECT W::DESERT) :LOCATION
+<   ONT::V254155 :MOD ONT::V254134 :START 0 :END 31)
+<  (ONT::F ONT::V254134 (:* ONT::NOT-SMOOTH-VAL W::ROCKY) :FIGURE ONT::V254146
+<   :START 0 :END 6)
+<  (ONT::F ONT::V254155 (:* ONT::IN-LOC W::IN) :GROUND ONT::V254211 :FIGURE
+<   ONT::V254146 :START 13 :END 31)
+<  (ONT::THE ONT::V254211 (:* ONT::IMAGE W::BACKGROUND) :START 16 :END 31))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V254301">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V254146" />
+<     <LF:start>0</LF:start>
+<     <LF:end>31</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V254146">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>GROUP-OBJECT</LF:type>
+<     <LF:word>DESERT</LF:word>
+<     <role:LOCATION rdf:resource="#V254155" />
+<     <role:MOD rdf:resource="#V254134" />
+<     <LF:start>0</LF:start>
+<     <LF:end>31</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V254134">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>NOT-SMOOTH-VAL</LF:type>
+<     <LF:word>ROCKY</LF:word>
+<     <role:FIGURE rdf:resource="#V254146" />
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V254155">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V254211" />
+<     <role:FIGURE rdf:resource="#V254146" />
+<     <LF:start>13</LF:start>
+<     <LF:end>31</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V254211">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>16</LF:start>
+<     <LF:end>31</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="31">
+>    <TEXT>rocky desert in the background .</TEXT>
+>    <RELATION id="1" head="V254301" res="V254146" label="CONTENT"/>
+>    <PHRASE id="V254146" indicator="BARE" type="GROUP-OBJECT" text="DESERT" start="0" end="31"/>
+>    <RELATION id="2" head="V254146" res="V254155" label="LOCATION"/>
+>    <RELATION id="3" head="V254146" res="V254134" label="MOD"/>
+>    <PHRASE id="V254134" indicator="F" type="NOT-SMOOTH-VAL" text="ROCKY" start="0" end="6"/>
+>    <RELATION id="4" head="V254134" res="V254146" label="FIGURE"/>
+>    <PHRASE id="V254155" indicator="F" type="IN-LOC" text="IN" start="13" end="31"/>
+>    <RELATION id="5" head="V254155" res="V254211" label="GROUND"/>
+>    <RELATION id="6" head="V254155" res="V254146" label="FIGURE"/>
+>    <PHRASE id="V254211" indicator="THE" type="IMAGE" text="BACKGROUND" start="16" end="31"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2">
+   <TEXT>a d</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" start="17" end="91" WNSENSE="stand_in%2:40:00">
+   <TEXT>dark-haired boy wearing a light blue tee-shirt is standing in a classroom .</TEXT>
+   <RELATION id="1" head="V196605" res="V189639" label="CONTENT"/>
+   <PHRASE id="V189639" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="17" end="91" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="2" head="V189639" res="V189450" label="AGENT"/>
+   <RELATION id="3" head="V189639" res="V189686" label="AFFECTED"/>
+   <PHRASE id="V189450" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="64"/>
+   <RELATION id="4" head="V189450" res="V189456" label="MOD"/>
+   <RELATION id="5" head="V189450" res="V189447" label="MOD"/>
+   <PHRASE id="V189447" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="6" head="V189447" res="V189450" label="FIGURE"/>
+   <PHRASE id="V189456" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="33" end="64"/>
+   <RELATION id="7" head="V189456" res="V189450" label="AGENT"/>
+   <RELATION id="8" head="V189456" res="V189549" label="NEUTRAL"/>
+   <PHRASE id="V189549" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="41" end="64"/>
+   <RELATION id="9" head="V189549" res="V189505" label="MOD"/>
+   <RELATION id="10" head="V189549" res="V189528" label="MOD"/>
+   <PHRASE id="V189505" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="43" end="49"/>
+   <RELATION id="11" head="V189505" res="V189549" label="FIGURE"/>
+   <PHRASE id="V189528" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="49" end="54"/>
+   <RELATION id="12" head="V189528" res="V189549" label="FIGURE"/>
+   <PHRASE id="V189686" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="79" end="91"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

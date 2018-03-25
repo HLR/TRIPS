@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="colourful handprints on the wall behind him .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+9
+*last-utt-id*=9  utt-id+NIL</debug><utt><words><lisp>(W::COLOURFUL W::HANDPRINTS W::ON W::THE W::WALL W::BEHIND W::HIM
+ W::PUNC-PERIOD)</lisp><word>COLOURFUL</word><word>HANDPRINTS</word><word>ON</word><word>THE</word><word>WALL</word><word>BEHIND</word><word>HIM</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;colourful&quot; :FRAME (0 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :ALTERNATE-SPELLINGS (&quot;colorful&quot;)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;handprints&quot; :FRAME (10 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;colourful handprints&quot; :FRAME (0 20) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 26.395 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (21 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (24 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall&quot; :FRAME (28 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall&quot; :FRAME (24 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.498 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the wall&quot; :FRAME (21 32) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.003 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;behind&quot; :FRAME (33 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;him&quot; :FRAME (40 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;him&quot; :FRAME (40 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 8.209
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;behind him&quot; :FRAME (33 43) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  15.981 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (44 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;colourful handprints on the wall behind him .&quot; :FRAME (0 44)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 60.707 :UTTNUM 9 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="colourful" start="0" end="9"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" alternate-spellings="colorful" /></word><word lex="handprints" start="10" end="20"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="colourful handprints" start="0" end="20" penn-cats="NP" score="26.395" /><word lex="on" start="21" end="23"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="24" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="28" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="24" end="32" penn-cats="NP" score="11.498" /><prefer text="on the wall" start="21" end="32" penn-cats="PP" score="15.003" /><word lex="behind" start="33" end="39"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="him" start="40" end="43"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="him" start="40" end="43" penn-cats="NP" score="8.209" /><prefer text="behind him" start="33" end="43" penn-cats="PP" score="15.981" /><word lex="." start="44" end="44"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="colourful handprints on the wall behind him ." start="0" end="44" penn-cats="NP" score="60.707" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1
+    (N1 (N1 (ADJP (ADJ1 (ADJ COLOURFUL))) (N1 (N HANDPRINTS)))
+     (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N WALL)))))
+    (ADVBL (ADV BEHIND) (NP (PRO HIM))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><ADJ1><ADJ>COLOURFUL</ADJ></ADJ1></ADJP><N1><N>HANDPRINTS</N></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WALL</N></N1></NP></ADVBL></N1><ADVBL><ADV>BEHIND</ADV><NP><PRO>HIM</PRO></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V102230"><lisp>((ONT::SPEECHACT ONT::V102230 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V102030 :START 0 :END 44)
+ (ONT::INDEF-SET ONT::V102030 (:* ONT::REFERENTIAL-SEM W::HANDPRINTS) :MOD
+  ONT::V102070 :MOD ONT::V102038 :MOD ONT::V102025 :START 0 :END 44)
+ (ONT::F ONT::V102025 (:* ONT::MODIFIER W::COLOURFUL) :FIGURE ONT::V102030
+  :START 0 :END 10)
+ (ONT::F ONT::V102038 (:* ONT::ON W::ON) :GROUND ONT::V102067 :FIGURE
+  ONT::V102030 :START 21 :END 33)
+ (ONT::THE ONT::V102067 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :START
+  24 :END 33)
+ (ONT::F ONT::V102070 (:* ONT::BACK W::BEHIND) :GROUND ONT::V102073 :FIGURE
+  ONT::V102030 :START 33 :END 44)
+ (ONT::PRO ONT::V102073 (:* ONT::MALE-PERSON W::HIM) :PROFORM W::HIM :START 40
+  :END 44))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V102230">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V102030" />
+    <LF:start>0</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V102030">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>HANDPRINTS</LF:word>
+    <role:MOD rdf:resource="#V102070" />
+    <role:MOD rdf:resource="#V102038" />
+    <role:MOD rdf:resource="#V102025" />
+    <LF:start>0</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V102025">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>COLOURFUL</LF:word>
+    <role:FIGURE rdf:resource="#V102030" />
+    <LF:start>0</LF:start>
+    <LF:end>10</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V102038">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V102067" />
+    <role:FIGURE rdf:resource="#V102030" />
+    <LF:start>21</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V102067">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+    <LF:word>WALL</LF:word>
+    <LF:start>24</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V102070">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BACK</LF:type>
+    <LF:word>BEHIND</LF:word>
+    <role:GROUND rdf:resource="#V102073" />
+    <role:FIGURE rdf:resource="#V102030" />
+    <LF:start>33</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V102073">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>MALE-PERSON</LF:type>
+    <LF:word>HIM</LF:word>
+    <role:PROFORM>HIM</role:PROFORM>
+    <LF:start>40</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

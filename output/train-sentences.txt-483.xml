@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33">
+   <TEXT>dark-haired boy i</TEXT>
+   <RELATION id="1" head="V431452" res="V431449" label="MOD"/>
+   <PHRASE id="V431449" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V431449" res="V431452" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="36" end="94">
+   <TEXT>a dark blue tee-shirt is sitting at a desk in a classroom .</TEXT>
+   <RELATION id="3" head="V432326" res="V431618" label="CONTENT"/>
+   <PHRASE id="V431618" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="36" end="94"/>
+   <RELATION id="4" head="V431618" res="V431635" label="RESULT"/>
+   <RELATION id="5" head="V431618" res="V431590" label="AGENT"/>
+   <PHRASE id="V431590" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="36" end="58"/>
+   <RELATION id="6" head="V431590" res="V431549" label="MOD"/>
+   <RELATION id="7" head="V431590" res="V431556" label="MOD"/>
+   <PHRASE id="V431549" indicator="F" type="DARK-VAL" text="DARK" start="38" end="43"/>
+   <RELATION id="8" head="V431549" res="V431590" label="FIGURE"/>
+   <PHRASE id="V431556" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="43" end="48"/>
+   <RELATION id="9" head="V431556" res="V431590" label="FIGURE"/>
+   <PHRASE id="V431635" indicator="F" type="AT-LOC" text="AT" start="69" end="94"/>
+   <RELATION id="10" head="V431635" res="V431688" label="GROUND"/>
+   <RELATION id="11" head="V431635" res="V431590" label="FIGURE"/>
+   <PHRASE id="V431688" indicator="A" type="FURNISHINGS" text="DESK" start="72" end="94"/>
+   <RELATION id="12" head="V431688" res="V431695" label="LOCATION"/>
+   <PHRASE id="V431695" indicator="F" type="IN-LOC" text="IN" start="79" end="94"/>
+   <RELATION id="13" head="V431695" res="V431785" label="GROUND"/>
+   <RELATION id="14" head="V431695" res="V431688" label="FIGURE"/>
+   <PHRASE id="V431785" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="82" end="94"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

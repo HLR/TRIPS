@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="short grass and some garbage in the background .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+21
+*last-utt-id*=21  utt-id+NIL</debug><utt><words><lisp>(W::SHORT W::GRASS W::AND W::SOME W::GARBAGE W::IN W::THE W::BACKGROUND
+ W::PUNC-PERIOD)</lisp><word>SHORT</word><word>GRASS</word><word>AND</word><word>SOME</word><word>GARBAGE</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;short&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 21
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;grass&quot; :FRAME (6 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 21
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;short grass&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  21.386 :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (12 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 21
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;some&quot; :FRAME (16 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;garbage&quot; :FRAME (21 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :ALTERNATE-SPELLINGS (&quot;rubbish&quot;)))
+  :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;some garbage&quot; :FRAME (16 28) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 15.638 :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;short grass and some garbage&quot; :FRAME (0 28) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 40.098 :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;in&quot; :FRAME (29 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (32 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (36 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 21
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (32 46) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (29 46) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (47 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 21 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;short grass and some garbage in the background .&quot; :FRAME (0 47)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 61.26 :UTTNUM 21 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="short" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="grass" start="6" end="11"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="short grass" start="0" end="11" penn-cats="NP" score="21.386" /><word lex="and" start="12" end="15"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="some" start="16" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="garbage" start="21" end="28"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" alternate-spellings="rubbish" /></word><prefer text="some garbage" start="16" end="28" penn-cats="NP" score="15.638" /><prefer text="short grass and some garbage" start="0" end="28" penn-cats="NP" score="40.098" /><word lex="in" start="29" end="31"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="32" end="35"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="36" end="46"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="32" end="46" penn-cats="NP" score="11.972" /><prefer text="in the background" start="29" end="46" penn-cats="PP" score="14.224" /><word lex="." start="47" end="47"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="short grass and some garbage in the background ." start="0" end="47" penn-cats="NP" score="61.26" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (NP (N1 (ADJP (ADJ1 (ADJ SHORT))) (N1 (N GRASS)))) (CONJ AND)
+   (NP (SPEC (QUAN SOME))
+    (N1 (N1 (N GARBAGE))
+     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><N1><ADJP><ADJ1><ADJ>SHORT</ADJ></ADJ1></ADJP><N1><N>GRASS</N></N1></N1></NP><CONJ>AND</CONJ><NP><SPEC><QUAN>SOME</QUAN></SPEC><N1><N1><N>GARBAGE</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V145315"><lisp>((ONT::SPEECHACT ONT::V145315 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V145107 :START 0 :END 47)
+ (ONT::INDEF-SET ONT::V145107 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V145103 ONT::V145123) :START 0 :END 47)
+ (ONT::BARE ONT::V145103 (:* ONT::PLANT W::GRASS) :MOD ONT::V145093 :START 0
+  :END 12)
+ (ONT::F ONT::V145093 (:* ONT::SHORT-VAL W::SHORT) :FIGURE ONT::V145103 :SCALE
+  ONT::SIZE-SCALE :START 0 :END 6)
+ (ONT::A ONT::V145123 (:* ONT::DISPOSABLE W::GARBAGE) :QUAN ONT::INDEFINITE
+  :LOCATION ONT::V145130 :START 16 :END 47)
+ (ONT::F ONT::V145130 (:* ONT::IN-LOC W::IN) :GROUND ONT::V145186 :FIGURE
+  ONT::V145123 :START 29 :END 47)
+ (ONT::THE ONT::V145186 (:* ONT::IMAGE W::BACKGROUND) :START 32 :END 47))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V145315">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V145107" />
+    <LF:start>0</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V145107">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PHYS-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V145103" />
+    <role:SEQUENCE1 rdf:resource="#V145123" />
+    <LF:start>0</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V145103">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PLANT</LF:type>
+    <LF:word>GRASS</LF:word>
+    <role:MOD rdf:resource="#V145093" />
+    <LF:start>0</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V145093">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SHORT-VAL</LF:type>
+    <LF:word>SHORT</LF:word>
+    <role:FIGURE rdf:resource="#V145103" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V145123">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>DISPOSABLE</LF:type>
+    <LF:word>GARBAGE</LF:word>
+    <role:QUAN>INDEFINITE</role:QUAN>
+    <role:LOCATION rdf:resource="#V145130" />
+    <LF:start>16</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V145130">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V145186" />
+    <role:FIGURE rdf:resource="#V145123" />
+    <LF:start>29</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V145186">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>32</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

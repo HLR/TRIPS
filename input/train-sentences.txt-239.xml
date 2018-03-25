@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="movable wooden walls are leaning on the wall in the background .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+31
+*last-utt-id*=31  utt-id+NIL</debug><utt><words><lisp>(W::MOVABLE W::WOODEN W::WALLS W::ARE W::LEANING W::ON W::THE W::WALL W::IN
+ W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>MOVABLE</word><word>WOODEN</word><word>WALLS</word><word>ARE</word><word>LEANING</word><word>ON</word><word>THE</word><word>WALL</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;movable&quot; :FRAME (0 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 31
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wooden&quot; :FRAME (8 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 31
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;walls&quot; :FRAME (15 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 31
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;movable wooden walls&quot; :FRAME (0 20) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 35.776 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (21 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 31
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;leaning&quot; :FRAME (25 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 31
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (33 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;leaning on&quot; :FRAME (25 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;lean_on%2:35:00&quot;)))
+  :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (36 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall&quot; :FRAME (40 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 31
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall&quot; :FRAME (36 44) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.083 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (45 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall in&quot; :FRAME (40 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;wall_in%2:35:00&quot;)))
+  :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (48 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (52 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 31
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (48 62) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (45 62) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall in the background&quot; :FRAME (36 62) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 25.847 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;on the wall in the background&quot; :FRAME (33 62) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 30.041 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;leaning on the wall in the background&quot; :FRAME (25 62) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 40.436 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;are leaning on the wall in the background&quot; :FRAME (21 62) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 44.799 :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (63 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 31 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;movable wooden walls are leaning on the wall in the background .&quot;
+  :FRAME (0 63) :PENN-CATS (S) :SCORE 81.717 :UTTNUM 31 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="movable" start="0" end="7"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="wooden" start="8" end="14"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="walls" start="15" end="20"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="movable wooden walls" start="0" end="20" penn-cats="NP" score="35.776" /><word lex="are" start="21" end="24"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="leaning" start="25" end="32"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="33" end="35"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="leaning on" start="25" end="35"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="lean_on%2:35:00" /></word><word lex="the" start="36" end="39"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="40" end="44"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="36" end="44" penn-cats="NP" score="11.083" /><word lex="in" start="45" end="47"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="wall in" start="40" end="47"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="wall_in%2:35:00" /></word><word lex="the" start="48" end="51"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="52" end="62"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="48" end="62" penn-cats="NP" score="11.972" /><prefer text="in the background" start="45" end="62" penn-cats="PP" score="14.224" /><prefer text="the wall in the background" start="36" end="62" penn-cats="NP" score="25.847" /><prefer text="on the wall in the background" start="33" end="62" penn-cats="PP" score="30.041" /><prefer text="leaning on the wall in the background" start="25" end="62" penn-cats="VP" score="40.436" /><prefer text="are leaning on the wall in the background" start="21" end="62" penn-cats="VP" score="44.799" /><word lex="." start="63" end="63"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="movable wooden walls are leaning on the wall in the background ." start="0" end="63" penn-cats="S" score="81.717" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP
+    (N1 (ADJP (ADJ1 (ADJ MOVABLE)))
+     (N1 (ADJP (ADJ1 (ADJ WOODEN))) (N1 (N WALLS)))))
+   (VP
+    (VP- (AUX (V ARE))
+     (VP- (VP- (V LEANING))
+      (ADVBL (ADV ON)
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (N WALL))
+         (ADVBL (ADV IN)
+          (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><ADJP><ADJ1><ADJ>MOVABLE</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>WOODEN</ADJ></ADJ1></ADJP><N1><N>WALLS</N></N1></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>LEANING</V></VP-><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>WALL</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V172321"><lisp>((ONT::SPEECHACT ONT::V172321 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V171862 :START 0 :END 63)
+ (ONT::F ONT::V171862 (:* ONT::BODY-MOVEMENT-PLACE W::LEAN) :RESULT
+  ONT::V171873 :AGENT ONT::V171840 :TENSE W::PRES :PROGR + :START 0 :END 63)
+ (ONT::INDEF-SET ONT::V171840 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL)
+  :MOD ONT::V171830 :MOD ONT::V171834 :START 0 :END 21)
+ (ONT::F ONT::V171830 (:* ONT::PORTABLE-VAL W::MOVABLE) :FIGURE ONT::V171840
+  :START 0 :END 8)
+ (ONT::F ONT::V171834 (:* ONT::AWKWARD-VAL W::WOODEN) :FIGURE ONT::V171840
+  :START 8 :END 15)
+ (ONT::F ONT::V171873 (:* ONT::ON W::ON) :GROUND ONT::V171910 :FIGURE
+  ONT::V171840 :START 33 :END 63)
+ (ONT::THE ONT::V171910 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL)
+  :LOCATION ONT::V171917 :START 36 :END 63)
+ (ONT::F ONT::V171917 (:* ONT::IN-LOC W::IN) :GROUND ONT::V171982 :FIGURE
+  ONT::V171910 :START 45 :END 63)
+ (ONT::THE ONT::V171982 (:* ONT::IMAGE W::BACKGROUND) :START 48 :END 63))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V172321">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V171862" />
+    <LF:start>0</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171862">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+    <LF:word>LEAN</LF:word>
+    <role:RESULT rdf:resource="#V171873" />
+    <role:AGENT rdf:resource="#V171840" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171840">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+    <LF:word>WALL</LF:word>
+    <role:MOD rdf:resource="#V171830" />
+    <role:MOD rdf:resource="#V171834" />
+    <LF:start>0</LF:start>
+    <LF:end>21</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171830">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PORTABLE-VAL</LF:type>
+    <LF:word>MOVABLE</LF:word>
+    <role:FIGURE rdf:resource="#V171840" />
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171834">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AWKWARD-VAL</LF:type>
+    <LF:word>WOODEN</LF:word>
+    <role:FIGURE rdf:resource="#V171840" />
+    <LF:start>8</LF:start>
+    <LF:end>15</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171873">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V171910" />
+    <role:FIGURE rdf:resource="#V171840" />
+    <LF:start>33</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171910">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+    <LF:word>WALL</LF:word>
+    <role:LOCATION rdf:resource="#V171917" />
+    <LF:start>36</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171917">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V171982" />
+    <role:FIGURE rdf:resource="#V171910" />
+    <LF:start>45</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V171982">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>48</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

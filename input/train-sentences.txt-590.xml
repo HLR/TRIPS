@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there is also a blackboard in the background .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?10392:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V441215)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?10390)
+                                           (W::TRANSFORM ?10391)))
+                                 (W::CASE ?10389:(W::SUB W::OBJ -))
+                                 (W::AGR ?10388) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V441215) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER441223))
+*last-utt-id*=NIL  utt-id+63
+*last-utt-id*=63  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::IS W::ALSO W::A W::BLACKBOARD W::IN W::THE W::BACKGROUND
+ W::PUNC-PERIOD)</lisp><word>THERE</word><word>IS</word><word>ALSO</word><word>A</word><word>BLACKBOARD</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;also&quot; :FRAME (9 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;also&quot; :FRAME (9 13) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+  2.654 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (14 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blackboard&quot; :FRAME (16 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a blackboard&quot; :FRAME (14 26) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 15.171 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (27 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (30 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (34 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 63
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (30 44) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (27 44) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a blackboard in the background&quot; :FRAME (14 44) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 29.8 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is also a blackboard in the background&quot; :FRAME (6 44) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 39.971 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (45 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there is also a blackboard in the background .&quot; :FRAME (0 45)
+  :PENN-CATS (S) :SCORE 45.632 :UTTNUM 63 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="also" start="9" end="13"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="also" start="9" end="13" penn-cats="ADVP" score="2.654" /><word lex="a" start="14" end="15"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blackboard" start="16" end="26"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a blackboard" start="14" end="26" penn-cats="NP" score="15.171" /><word lex="in" start="27" end="29"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="30" end="33"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="34" end="44"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="30" end="44" penn-cats="NP" score="11.972" /><prefer text="in the background" start="27" end="44" penn-cats="PP" score="14.224" /><prefer text="a blackboard in the background" start="14" end="44" penn-cats="NP" score="29.8" /><prefer text="is also a blackboard in the background" start="6" end="44" penn-cats="VP" score="39.971" /><word lex="." start="45" end="45"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there is also a blackboard in the background ." start="0" end="45" penn-cats="S" score="45.632" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V IS) (ADVBL (ADV ALSO))
+     (NP (SPEC (DET (ART A)))
+      (N1 (N1 (N BLACKBOARD))
+       (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><ADVBL><ADV>ALSO</ADV></ADVBL><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>BLACKBOARD</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V441134"><lisp>((ONT::SPEECHACT ONT::V441134 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V440848 :START 0 :END 45)
+ (ONT::F ONT::V440848 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V440905 :MOD
+  ONT::V440860 :TENSE W::PRES :START 0 :END 45)
+ (ONT::PRO ONT::V440835 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::F ONT::V440860 (:* ONT::ADDITIVE W::ALSO) :FIGURE ONT::V440848 :START 9
+  :END 14)
+ (ONT::A ONT::V440905 (:* ONT::DISPLAY W::BLACKBOARD) :LOCATION ONT::V440912
+  :START 14 :END 45)
+ (ONT::F ONT::V440912 (:* ONT::IN-LOC W::IN) :GROUND ONT::V440968 :FIGURE
+  ONT::V440905 :START 27 :END 45)
+ (ONT::THE ONT::V440968 (:* ONT::IMAGE W::BACKGROUND) :START 30 :END 45))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V441134">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V440848" />
+    <LF:start>0</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V440848">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V440905" />
+    <role:MOD rdf:resource="#V440860" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V440835">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V440860">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ADDITIVE</LF:type>
+    <LF:word>ALSO</LF:word>
+    <role:FIGURE rdf:resource="#V440848" />
+    <LF:start>9</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V440905">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>DISPLAY</LF:type>
+    <LF:word>BLACKBOARD</LF:word>
+    <role:LOCATION rdf:resource="#V440912" />
+    <LF:start>14</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V440912">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V440968" />
+    <role:FIGURE rdf:resource="#V440905" />
+    <LF:start>27</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V440968">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>30</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

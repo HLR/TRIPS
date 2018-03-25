@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="83">
+   <TEXT>a dark-skinned , dark-haired girl wearing a traditional brown hat and a green vest .</TEXT>
+   <RELATION id="1" head="V77297" res="V73257" label="CONTENT"/>
+   <PHRASE id="V73257" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="83"/>
+   <RELATION id="2" head="V73257" res="V73263" label="MOD"/>
+   <RELATION id="3" head="V73257" res="V73230" label="MOD"/>
+   <RELATION id="4" head="V73257" res="V73254" label="MOD"/>
+   <PHRASE id="V73230" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="5" head="V73230" res="V73257" label="FIGURE"/>
+   <PHRASE id="V73254" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="6" head="V73254" res="V73257" label="FIGURE"/>
+   <PHRASE id="V73263" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="83"/>
+   <RELATION id="7" head="V73263" res="V73257" label="AGENT"/>
+   <RELATION id="8" head="V73263" res="V73326" label="NEUTRAL"/>
+   <PHRASE id="V73326" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="42" end="83"/>
+   <RELATION id="9" head="V73326" res="V73322" label="SEQUENCE"/>
+   <RELATION id="10" head="V73326" res="V73382" label="SEQUENCE1"/>
+   <PHRASE id="V73322" indicator="A" type="ATTIRE" text="HAT" start="42" end="66"/>
+   <RELATION id="11" head="V73322" res="V73310" label="MOD"/>
+   <RELATION id="12" head="V73322" res="V73313" label="MOD"/>
+   <PHRASE id="V73310" indicator="F" type="CONVENTIONAL-VAL" text="TRADITIONAL" start="44" end="56"/>
+   <RELATION id="13" head="V73310" res="V73322" label="FIGURE"/>
+   <PHRASE id="V73313" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="56" end="62"/>
+   <RELATION id="14" head="V73313" res="V73322" label="FIGURE"/>
+   <PHRASE id="V73382" indicator="A" type="ATTIRE" text="VEST" start="70" end="83"/>
+   <RELATION id="15" head="V73382" res="V73376" label="MOD"/>
+   <PHRASE id="V73376" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="72" end="78"/>
+   <RELATION id="16" head="V73376" res="V73382" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

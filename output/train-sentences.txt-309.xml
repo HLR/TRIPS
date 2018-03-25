@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="27">
+   <TEXT>View of a city in a valley .</TEXT>
+   <RELATION id="1" head="V64249" res="V64013" label="CONTENT"/>
+   <PHRASE id="V64013" indicator="BARE" type="ACTIVE-PERCEPTION" text="VIEW" start="0" end="27"/>
+   <RELATION id="2" head="V64013" res="V64075" label="NEUTRAL"/>
+   <RELATION id="3" head="V64013" res="V64082" label="LOCATION"/>
+   <PHRASE id="V64075" indicator="A" type="CITY" text="CITY" start="5" end="15"/>
+   <PHRASE id="V64082" indicator="F" type="IN-LOC" text="IN" start="15" end="27"/>
+   <RELATION id="4" head="V64082" res="V64172" label="GROUND"/>
+   <RELATION id="5" head="V64082" res="V64013" label="FIGURE"/>
+   <PHRASE id="V64172" indicator="A" type="GEO-FORMATION" text="VALLEY" start="18" end="27"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

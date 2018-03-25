@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="29">
+   <TEXT>houses and trees in distance .</TEXT>
+   <RELATION id="1" head="V53321" res="V53173" label="CONTENT"/>
+   <PHRASE id="V53173" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="29"/>
+   <RELATION id="2" head="V53173" res="V53168" label="SEQUENCE"/>
+   <RELATION id="3" head="V53173" res="V53182" label="SEQUENCE1"/>
+   <PHRASE id="V53168" indicator="INDEF-SET" type="LODGING" text="HOUSE" start="0" end="7"/>
+   <PHRASE id="V53182" indicator="INDEF-SET" type="PLANT" text="TREE" start="11" end="29"/>
+   <RELATION id="4" head="V53182" res="V53189" label="LOCATION"/>
+   <PHRASE id="V53189" indicator="F" type="IN-LOC" text="IN" start="17" end="29"/>
+   <RELATION id="5" head="V53189" res="V53238" label="GROUND"/>
+   <RELATION id="6" head="V53189" res="V53182" label="FIGURE"/>
+   <PHRASE id="V53238" indicator="BARE" type="DISTANCE-SCALE" text="DISTANCE" start="20" end="29"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

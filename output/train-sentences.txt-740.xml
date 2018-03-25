@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="54">
+   <TEXT>a dark-skinned , dark-haired girl wearing a black hat ,</TEXT>
+   <RELATION id="1" head="V170317" res="V170323" label="MOD"/>
+   <RELATION id="2" head="V170317" res="V170290" label="MOD"/>
+   <RELATION id="3" head="V170317" res="V170314" label="MOD"/>
+   <PHRASE id="V170290" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="4" head="V170290" res="V170317" label="FIGURE"/>
+   <PHRASE id="V170314" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V170314" res="V170317" label="FIGURE"/>
+   <PHRASE id="V170323" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="54"/>
+   <RELATION id="6" head="V170323" res="V170317" label="AGENT"/>
+   <RELATION id="7" head="V170323" res="V170373" label="NEUTRAL"/>
+   <PHRASE id="V170373" indicator="A" type="ATTIRE" text="HAT" start="42" end="54"/>
+   <RELATION id="8" head="V170373" res="V170370" label="MOD"/>
+   <PHRASE id="V170370" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="44" end="50"/>
+   <RELATION id="9" head="V170370" res="V170373" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="A" type="ATTIRE" text="PULLOVER" start="56" end="86">
+   <TEXT>a white pullover underneath a l</TEXT>
+   <RELATION id="10" head="V176601" res="V176604" label="LOCATION"/>
+   <RELATION id="11" head="V176601" res="V176593" label="MOD"/>
+   <PHRASE id="V176593" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="58" end="64"/>
+   <RELATION id="12" head="V176593" res="V176601" label="FIGURE"/>
+   <PHRASE id="V176604" indicator="F" type="BELOW" text="UNDERNEATH" start="73" end="86"/>
+   <RELATION id="13" head="V176604" res="V176624" label="GROUND"/>
+   <RELATION id="14" head="V176604" res="V176601" label="FIGURE"/>
+   <PHRASE id="V176624" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="84" end="86"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="86" end="92">
+   <TEXT>large ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="94" end="126">
+   <TEXT>red poncho and a brown necklace .</TEXT>
+   <RELATION id="15" head="V178055" res="V177461" label="CONTENT"/>
+   <PHRASE id="V177461" indicator="F" type="COOKING" text="BROWN" TENSE="PRES" start="94" end="126"/>
+   <RELATION id="16" head="V177461" res="V177408" label="AGENT"/>
+   <RELATION id="17" head="V177461" res="V177468" label="AFFECTED"/>
+   <PHRASE id="V177408" indicator="INDEF-SET" type="REFERENTIAL-SEM" OPERATOR="AND" start="94" end="111"/>
+   <RELATION id="18" head="V177408" res="V177403" label="SEQUENCE"/>
+   <RELATION id="19" head="V177408" res="V177434" label="SEQUENCE1"/>
+   <PHRASE id="V177403" indicator="BARE" type="ATTIRE" text="PONCHO" start="94" end="105"/>
+   <RELATION id="20" head="V177403" res="V177395" label="MOD"/>
+   <PHRASE id="V177395" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="94" end="98"/>
+   <RELATION id="21" head="V177395" res="V177403" label="FIGURE"/>
+   <PHRASE id="V177434" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="109" end="111"/>
+   <PHRASE id="V177468" indicator="BARE" type="MANUFACTURED-OBJECT" text="NECKLACE" start="117" end="126"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

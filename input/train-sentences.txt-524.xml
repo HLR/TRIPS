@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a picture of a sunflower on the wall next to him .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?11345:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V143784)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?11343)
+                                           (W::TRANSFORM ?11344)))
+                                 (W::CASE ?11342:(W::SUB W::OBJ -))
+                                 (W::AGR ?11341) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V143784) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER143805))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?11642:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V143787)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?11640)
+                                           (W::TRANSFORM ?11641)))
+                                 (W::CASE ?11639:(W::SUB W::OBJ -))
+                                 (W::AGR ?11638) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V143787) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER143807))
+*last-utt-id*=NIL  utt-id+18
+*last-utt-id*=18  utt-id+NIL</debug><utt><words><lisp>(W::A W::PICTURE W::OF W::A W::SUNFLOWER W::ON W::THE W::WALL W::NEXT W::TO
+ W::HIM W::PUNC-PERIOD)</lisp><word>A</word><word>PICTURE</word><word>OF</word><word>A</word><word>SUNFLOWER</word><word>ON</word><word>THE</word><word>WALL</word><word>NEXT</word><word>TO</word><word>HIM</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;picture&quot; :FRAME (2 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a picture&quot; :FRAME (0 9) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.267 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (10 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (13 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sunflower&quot; :FRAME (15 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a sunflower&quot; :FRAME (13 24) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 15.342 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (25 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (28 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall&quot; :FRAME (32 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall&quot; :FRAME (28 36) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.498 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the wall&quot; :FRAME (25 36) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.003 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a sunflower on the wall&quot; :FRAME (13 36) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 30.886 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a sunflower on the wall&quot; :FRAME (10 36) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 33.298 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;next&quot; :FRAME (37 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (42 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;him&quot; :FRAME (45 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;him&quot; :FRAME (45 48) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 8.209
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;to him&quot; :FRAME (42 48) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  10.191 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;next to him&quot; :FRAME (37 48) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL)
+  :SCORE 18.005 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (49 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a picture of a sunflower on the wall next to him .&quot; :FRAME (0 49)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 68.815 :UTTNUM 18 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="picture" start="2" end="9"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a picture" start="0" end="9" penn-cats="NP" score="11.267" /><word lex="of" start="10" end="12"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="13" end="14"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="sunflower" start="15" end="24"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a sunflower" start="13" end="24" penn-cats="NP" score="15.342" /><word lex="on" start="25" end="27"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="28" end="31"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="32" end="36"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="28" end="36" penn-cats="NP" score="11.498" /><prefer text="on the wall" start="25" end="36" penn-cats="PP" score="15.003" /><prefer text="a sunflower on the wall" start="13" end="36" penn-cats="NP" score="30.886" /><prefer text="of a sunflower on the wall" start="10" end="36" penn-cats="PP" score="33.298" /><word lex="next" start="37" end="41"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="to" start="42" end="44"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="him" start="45" end="48"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="him" start="45" end="48" penn-cats="NP" score="8.209" /><prefer text="to him" start="42" end="48" penn-cats="PP" score="10.191" /><prefer text="next to him" start="37" end="48" penn-cats="ADVP" score="18.005" /><word lex="." start="49" end="49"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a picture of a sunflower on the wall next to him ." start="0" end="49" penn-cats="NP" score="68.815" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (SPEC (DET (ART A)))
+   (N1
+    (N1 (N PICTURE)
+     (PP (PREP OF)
+      (NP
+       (N1 (N1 (NP (NAME (VALUE A))) (N1 (N SUNFLOWER)))
+        (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N WALL))))))))
+    (ADVBL (ADV (WORD NEXT) (WORD TO)) (NP (PRO HIM))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>PICTURE</N><PP><PREP>OF</PREP><NP><N1><N1><NP><NAME><VALUE>A</VALUE></NAME></NP><N1><N>SUNFLOWER</N></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WALL</N></N1></NP></ADVBL></N1></NP></PP></N1><ADVBL><ADV><WORD>NEXT</WORD><WORD>TO</WORD></ADV><NP><PRO>HIM</PRO></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V144004"><lisp>((ONT::SPEECHACT ONT::V144004 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V143474 :START 0 :END 49)
+ (ONT::A ONT::V143474 (:* ONT::IMAGE W::PICTURE) :FIGURE ONT::V143527 :LOCATION
+  ONT::V143568 :START 0 :END 49)
+ (ONT::BARE ONT::V143527 (:* ONT::NUTS-SEEDS W::SUNFLOWER) :ASSOC-WITH
+  ONT::V143503 :LOCATION ONT::V143535 :START 10 :END 37)
+ (ONT::THE ONT::V143503 ONT::LETTER-SYMBOL :NAME-OF (W::A) :START 13 :END 15)
+ (ONT::F ONT::V143535 (:* ONT::ON W::ON) :GROUND ONT::V143564 :FIGURE
+  ONT::V143527 :START 25 :END 37)
+ (ONT::THE ONT::V143564 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :START
+  28 :END 37)
+ (ONT::F ONT::V143568 (:* ONT::ADJACENT W::NEXT-TO) :GROUND ONT::V143601
+  :FIGURE ONT::V143474 :START 37 :END 49)
+ (ONT::PRO ONT::V143601 (:* ONT::MALE-PERSON W::HIM) :PROFORM W::HIM :START 45
+  :END 49))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V144004">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V143474" />
+    <LF:start>0</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143474">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>PICTURE</LF:word>
+    <role:FIGURE rdf:resource="#V143527" />
+    <role:LOCATION rdf:resource="#V143568" />
+    <LF:start>0</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143527">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>NUTS-SEEDS</LF:type>
+    <LF:word>SUNFLOWER</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V143503" />
+    <role:LOCATION rdf:resource="#V143535" />
+    <LF:start>10</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143503">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LETTER-SYMBOL</LF:type>
+    <role:NAME-OF>(A)</role:NAME-OF>
+    <LF:start>13</LF:start>
+    <LF:end>15</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143535">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V143564" />
+    <role:FIGURE rdf:resource="#V143527" />
+    <LF:start>25</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143564">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+    <LF:word>WALL</LF:word>
+    <LF:start>28</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143568">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ADJACENT</LF:type>
+    <LF:word>NEXT-TO</LF:word>
+    <role:GROUND rdf:resource="#V143601" />
+    <role:FIGURE rdf:resource="#V143474" />
+    <LF:start>37</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143601">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>MALE-PERSON</LF:type>
+    <LF:word>HIM</LF:word>
+    <role:PROFORM>HIM</role:PROFORM>
+    <LF:start>45</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="45">
+   <TEXT>red brick wall and windows in the background .</TEXT>
+   <RELATION id="1" head="V222456" res="V222232" label="CONTENT"/>
+   <PHRASE id="V222232" indicator="INDEF-SET" type="GENERAL-STRUCTURE" OPERATOR="AND" start="0" end="45"/>
+   <RELATION id="2" head="V222232" res="V222228" label="SEQUENCE"/>
+   <RELATION id="3" head="V222232" res="V222242" label="SEQUENCE1"/>
+   <PHRASE id="V222228" indicator="BARE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="0" end="15"/>
+   <RELATION id="4" head="V222228" res="V222225" label="ASSOC-WITH"/>
+   <PHRASE id="V222225" indicator="KIND" type="MATERIAL" text="BRICK" start="0" end="15"/>
+   <RELATION id="5" head="V222225" res="V222218" label="MOD"/>
+   <PHRASE id="V222218" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="0" end="4"/>
+   <RELATION id="6" head="V222218" res="V222225" label="FIGURE"/>
+   <PHRASE id="V222242" indicator="INDEF-SET" type="STRUCTURAL-OPENING" text="WINDOW" start="19" end="45"/>
+   <RELATION id="7" head="V222242" res="V222250" label="LOCATION"/>
+   <PHRASE id="V222250" indicator="F" type="IN-LOC" text="IN" start="27" end="45"/>
+   <RELATION id="8" head="V222250" res="V222306" label="GROUND"/>
+   <RELATION id="9" head="V222250" res="V222242" label="FIGURE"/>
+   <PHRASE id="V222306" indicator="THE" type="IMAGE" text="BACKGROUND" start="30" end="45"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

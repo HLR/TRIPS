@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="88">
+   <TEXT>another woman is carrying a basket in her left hand , with a kid holding her other hand .</TEXT>
+   <RELATION id="1" head="V89416" res="V85347" label="CONTENT"/>
+   <PHRASE id="V85347" indicator="F" type="TRANSPORT" text="CARRY" TENSE="PRES" PROGR="+" start="0" end="88"/>
+   <RELATION id="2" head="V85347" res="V85324" label="AGENT"/>
+   <RELATION id="3" head="V85347" res="V85391" label="AFFECTED"/>
+   <RELATION id="4" head="V85347" res="V85518" label="AGENT1"/>
+   <PHRASE id="V85324" indicator="A" type="FEMALE-PERSON" text="WOMAN" start="0" end="14"/>
+   <RELATION id="5" head="V85324" res="V85607" label="MOD"/>
+   <PHRASE id="V85607" indicator="F" type="OTHER" start="0" end="14"/>
+   <RELATION id="6" head="V85607" res="V85324" label="FIGURE"/>
+   <PHRASE id="V85391" indicator="A" type="SMALL-CONTAINER" text="BASKET" start="26" end="54"/>
+   <RELATION id="7" head="V85391" res="V85398" label="LOCATION"/>
+   <PHRASE id="V85398" indicator="F" type="IN-LOC" text="IN" start="35" end="52"/>
+   <RELATION id="8" head="V85398" res="V85509" label="GROUND"/>
+   <RELATION id="9" head="V85398" res="V85391" label="FIGURE"/>
+   <PHRASE id="V85509" indicator="THE" type="BODY-PART" text="LEFT-HAND" start="38" end="52" WNSENSE="left_hand%1:08:00"/>
+   <RELATION id="10" head="V85509" res="V85448" label="ASSOC-POSS"/>
+   <PHRASE id="V85448" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="38" end="52"/>
+   <RELATION id="11" head="V85448" res="V85324" label="COREF"/>
+   <PHRASE id="V85518" indicator="F" type="ACCOMPANIMENT" text="WITH" start="54" end="88"/>
+   <RELATION id="12" head="V85518" res="V85570" label="GROUND"/>
+   <RELATION id="13" head="V85518" res="V85347" label="FIGURE"/>
+   <PHRASE id="V85570" indicator="A" type="CHILD" text="KID" start="59" end="88"/>
+   <RELATION id="14" head="V85570" res="V85575" label="MOD"/>
+   <PHRASE id="V85575" indicator="F" type="BODY-MANIPULATION" text="HOLD" VFORM="ING" start="65" end="88"/>
+   <RELATION id="15" head="V85575" res="V85570" label="AGENT"/>
+   <RELATION id="16" head="V85575" res="V85597" label="AFFECTED"/>
+   <PHRASE id="V85597" indicator="THE" type="EXTERNAL-BODY-PART" text="HAND" start="73" end="88"/>
+   <RELATION id="17" head="V85597" res="V85586" label="ASSOC-POSS"/>
+   <RELATION id="18" head="V85597" res="V85591" label="MOD"/>
+   <PHRASE id="V85586" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="73" end="88"/>
+   <RELATION id="19" head="V85586" res="V85324" label="COREF"/>
+   <PHRASE id="V85591" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="77" end="83"/>
+   <RELATION id="20" head="V85591" res="V85597" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

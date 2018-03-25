@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="on the right a wooden bed with white bedcovers .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?12271:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V220878)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?12269)
+                                           (W::TRANSFORM ?12270)))
+                                 (W::CASE ?12268:(W::SUB W::OBJ -))
+                                 (W::AGR ?12267) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V220878) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER220889))
+*last-utt-id*=NIL  utt-id+23
+*last-utt-id*=23  utt-id+NIL</debug><utt><words><lisp>(W::ON W::THE W::RIGHT W::A W::WOODEN W::BED W::WITH W::WHITE W::BEDCOVERS)</lisp><word>ON</word><word>THE</word><word>RIGHT</word><word>A</word><word>WOODEN</word><word>BED</word><word>WITH</word><word>WHITE</word><word>BEDCOVERS</word></words><tags><lisp>((WORD &quot;on&quot; :FRAME (0 2) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (3 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;right&quot; :FRAME (7 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 23
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the right&quot; :FRAME (3 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  9.96 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the right&quot; :FRAME (0 12) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.097 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (13 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wooden&quot; :FRAME (15 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 23
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bed&quot; :FRAME (22 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 23
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a wooden bed&quot; :FRAME (13 25) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.89 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (26 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;white&quot; :FRAME (31 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 23
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;white&quot; :FRAME (31 36) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.95 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with white&quot; :FRAME (26 36) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  16.75 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a wooden bed with white&quot; :FRAME (13 36) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 40.007 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bedcovers&quot; :FRAME (37 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS VBZ) :TRIPS-PARTS-OF-SPEECH (W::N W::V)))
+  :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;bedcovers&quot; :FRAME (37 46) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE
+  15.296 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (47 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the right a wooden bed with white bedcovers .&quot; :FRAME (0 47)
+  :PENN-CATS (S) :SCORE 77.675 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="on" start="0" end="2"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="3" end="6"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="right" start="7" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the right" start="3" end="12" penn-cats="NP" score="9.96" /><prefer text="on the right" start="0" end="12" penn-cats="PP" score="14.097" /><word lex="a" start="13" end="14"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wooden" start="15" end="21"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="bed" start="22" end="25"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a wooden bed" start="13" end="25" penn-cats="NP" score="22.89" /><word lex="with" start="26" end="30"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="white" start="31" end="36"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="white" start="31" end="36" penn-cats="NP" score="12.95" /><prefer text="with white" start="26" end="36" penn-cats="PP" score="16.75" /><prefer text="a wooden bed with white" start="13" end="36" penn-cats="NP" score="40.007" /><word lex="bedcovers" start="37" end="46"><sense-info penn-parts-of-speech="NNS,VBZ" trips-parts-of-speech="N,V" /></word><prefer text="bedcovers" start="37" end="46" penn-cats="VP" score="15.296" /><word lex="." start="47" end="47"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="on the right a wooden bed with white bedcovers ." start="0" end="47" penn-cats="S" score="77.675" /></tags><tree><lisp>(ADVBL (ADV ON)
+ (NP (SPEC (DET (ART THE)))
+  (N1
+   (N1 (ADJP (ADJ1 (ADJ RIGHT)))
+    (N1 (NP (NAME (VALUE A))) (N1 (ADJP (ADJ1 (ADJ WOODEN))) (N1 (N BED)))))
+   (ADVBL (ADV WITH) (NP (N1 (ADJP (ADJ1 (ADJ WHITE))) (N1 (N BEDCOVERS))))))))</lisp><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>RIGHT</ADJ></ADJ1></ADJP><N1><NP><NAME><VALUE>A</VALUE></NAME></NP><N1><ADJP><ADJ1><ADJ>WOODEN</ADJ></ADJ1></ADJP><N1><N>BED</N></N1></N1></N1></N1><ADVBL><ADV>WITH</ADV><NP><N1><ADJP><ADJ1><ADJ>WHITE</ADJ></ADJ1></ADJP><N1><N>BEDCOVERS</N></N1></N1></NP></ADVBL></N1></NP></ADVBL></tree><terms root="#V220548"><lisp>((ONT::F ONT::V220548 (:* ONT::ON W::ON) :GROUND ONT::V220645 :START 0 :END 47)
+ (ONT::THE ONT::V220645 (:* ONT::FURNISHINGS W::BED) :ASSOC-WITH ONT::V220612
+  :MOD ONT::V220652 :MOD ONT::V220582 :MOD ONT::V220637 :START 3 :END 47)
+ (ONT::F ONT::V220582 (:* ONT::CORRECT W::RIGHT) :FIGURE ONT::V220645 :START 7
+  :END 13)
+ (ONT::THE ONT::V220612 ONT::LETTER-SYMBOL :NAME-OF (W::A) :START 13 :END 15)
+ (ONT::F ONT::V220637 (:* ONT::AWKWARD-VAL W::WOODEN) :FIGURE ONT::V220645
+  :START 15 :END 22)
+ (ONT::F ONT::V220652 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V220671 :FIGURE
+  ONT::V220645 :START 26 :END 47)
+ (ONT::INDEF-SET ONT::V220671 (:* ONT::BEDDING W::BEDCOVER) :MOD ONT::V220664
+  :START 31 :END 47)
+ (ONT::F ONT::V220664 (:* ONT::WHITE W::WHITE) :FIGURE ONT::V220671 :SCALE
+  ONT::WHITE*1--07--00 :START 31 :END 37))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V220548">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V220645" />
+    <LF:start>0</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V220645">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>BED</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V220612" />
+    <role:MOD rdf:resource="#V220652" />
+    <role:MOD rdf:resource="#V220582" />
+    <role:MOD rdf:resource="#V220637" />
+    <LF:start>3</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V220582">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CORRECT</LF:type>
+    <LF:word>RIGHT</LF:word>
+    <role:FIGURE rdf:resource="#V220645" />
+    <LF:start>7</LF:start>
+    <LF:end>13</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V220612">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LETTER-SYMBOL</LF:type>
+    <role:NAME-OF>(A)</role:NAME-OF>
+    <LF:start>13</LF:start>
+    <LF:end>15</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V220637">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AWKWARD-VAL</LF:type>
+    <LF:word>WOODEN</LF:word>
+    <role:FIGURE rdf:resource="#V220645" />
+    <LF:start>15</LF:start>
+    <LF:end>22</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V220652">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V220671" />
+    <role:FIGURE rdf:resource="#V220645" />
+    <LF:start>26</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V220671">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>BEDDING</LF:type>
+    <LF:word>BEDCOVER</LF:word>
+    <role:MOD rdf:resource="#V220664" />
+    <LF:start>31</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V220664">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WHITE</LF:type>
+    <LF:word>WHITE</LF:word>
+    <role:FIGURE rdf:resource="#V220671" />
+    <role:SCALE>WHITE*1--07--00</role:SCALE>
+    <LF:start>31</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

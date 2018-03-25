@@ -101,8 +101,30 @@ def refine_cleaned_parse(f):
             for m in etext.finditer(str(sent_text)):
                 textstart = m.start()
                 textend = m.end()
-            df.ix[idx_root.index[i]]['start'] = textstart
-            df.ix[idx_root.index[i]]['end'] = textend
+            try:
+                df.ix[idx_root.index[i]]['start'] = textstart
+                df.ix[idx_root.index[i]]['end'] = textend
+            except UnboundLocalError:
+                if '-' in idx_root_text:
+                    idx_root_text = idx_root_text.replace('-', ' ')
+                    etext = re.compile(idx_root_text.lower())
+                    for m in etext.finditer(str(sent_text)):
+                        textstart = m.start()
+                        textend = m.end()
+                    try:
+                        df.ix[idx_root.index[i]]['start'] = textstart
+                        df.ix[idx_root.index[i]]['end'] = textend
+                    except UnboundLocalError as err:
+                        out = "---------------------------\n"
+                        out += "Error:\n"
+                        out += str(type(err))+"\n"
+                        out += str(err)+"\n"
+                        for argument in err.args:
+                            out += "\t"+str(argument)+"\n"
+                        print(out)
+                        error.write(out)
+                        return
+
         elif 'OPERATOR' in df.columns:
             idx_root_operator = df.ix[idx_root.index[i]]['OPERATOR']
             print("*****idx_root_operator: ", idx_root_operator)
@@ -121,8 +143,19 @@ def refine_cleaned_parse(f):
 ########################################################################################
 ######## Find row for the relevant SA phrase- it has the same start and end points as sentence and has SPEECHACT as indicator. Find its index.
 ########################################################################################
-    idx = df[((df['start'] == sent_start) & (df['end'] == sent_end) & (df['indicator'] == "SPEECHACT"))].index[0] #getting the fist one for which condition is true, it should be the only one though in our data. But have not checked for that yet if that is indeed true.
-    df.ix[idx]['text'] = sent_text
+    try:
+        idx = df[((df['start'] == sent_start) & (df['end'] == sent_end) & (df['indicator'] == "SPEECHACT"))].index[0] #getting the fist one for which condition is true, it should be the only one though in our data. But have not checked for that yet if that is indeed true.
+        df.ix[idx]['text'] = sent_text
+    except IndexError as err:
+        out = "---------------------------\n"
+        out += "Error:\n"
+        out += str(type(err)) + "\n"
+        out += str(err) + "\n"
+        for argument in err.args:
+            out+="\t"+str(argument)+"\n"
+        print(out)
+        error.write(out)
+        return 
 
 
 ########################################################################
@@ -195,16 +228,16 @@ if __name__ == '__main__':
 
     with open(time.strftime("%Y%m%d-%H%M") + '.err', 'a') as error:
         error.write("The following files did not have a parse.\n\n")
-        for dir in os.listdir(args.path):
-            if dir.startswith("batch"):
-                dir = os.path.join(args.path, dir)
-                for file in os.listdir(dir):
+        for directory in os.listdir(args.path):
+            if directory.startswith("batch"):
+                directory = os.path.join(args.path, directory)
+                for file in os.listdir(directory):
                     if file.endswith(".xml"):
                         try:
-                            with open(os.path.join(args.path, dir, file), 'r') as f:
+                            with open(os.path.join(args.path, directory, file), 'r') as f:m
                                 a = f.read()
-                                refine_cleaned_parse(os.path.join(dir, file))
-                        except Exception as e:
+                                refine_cleaned_parse(os.path.join(directory, file))
+                        except FileNotFoundError as e:
                             out = "--------------------\nError:\nFile:\n"
                             print("Error:")
                             print("File:")
@@ -218,6 +251,7 @@ if __name__ == '__main__':
                                 out += str(arg)+"\n"
                                 print(arg)
                             error.write(out)
+
 
     print("********************\nCleaned parses are in the same directory as the original parse files.\n\nFile %s in the current directory contains the list of files that did not have parses to be cleaned.\n********************\n" % str(error).split("'")[1])
 

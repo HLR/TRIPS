@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="30">
+   <TEXT>three are wearing a green hat .</TEXT>
+   <RELATION id="1" head="V219774" res="V219588" label="CONTENT"/>
+   <PHRASE id="V219588" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="0" end="30"/>
+   <RELATION id="2" head="V219588" res="V219566" label="AGENT"/>
+   <RELATION id="3" head="V219588" res="V219646" label="NEUTRAL"/>
+   <PHRASE id="V219566" indicator="INDEF-SET" type="NUMBER" NUMBER="3" start="0" end="6"/>
+   <PHRASE id="V219646" indicator="A" type="ATTIRE" text="HAT" start="18" end="30"/>
+   <RELATION id="4" head="V219646" res="V219635" label="MOD"/>
+   <PHRASE id="V219635" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="20" end="26"/>
+   <RELATION id="5" head="V219635" res="V219646" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

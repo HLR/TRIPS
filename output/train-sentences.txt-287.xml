@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="49">
+   <TEXT>several kids are around him , looking at the box w</TEXT>
+   <RELATION id="1" head="V373531" res="V371161" label="CONTENT"/>
+   <PHRASE id="V371161" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="0" end="49"/>
+   <RELATION id="2" head="V371161" res="V371154" label="NEUTRAL"/>
+   <RELATION id="3" head="V371161" res="V371176" label="FORMAL"/>
+   <RELATION id="4" head="V371161" res="V371884" label="TIME"/>
+   <PHRASE id="V371154" indicator="INDEF-SET" type="CHILD" text="KID" SIZE="SEVERAL" start="0" end="13"/>
+   <PHRASE id="V371176" indicator="F" type="AROUND" text="AROUND" start="17" end="30"/>
+   <RELATION id="5" head="V371176" res="V371187" label="GROUND"/>
+   <RELATION id="6" head="V371176" res="V371154" label="FIGURE"/>
+   <PHRASE id="V371187" indicator="PRO" type="MALE-PERSON" text="HIM" PROFORM="HIM" start="24" end="30"/>
+   <PHRASE id="V371884" indicator="F" type="IMPLICIT-OVERLAP" start="30" end="49"/>
+   <RELATION id="7" head="V371884" res="V371161" label="FIGURE"/>
+   <RELATION id="8" head="V371884" res="V371199" label="GROUND"/>
+   <PHRASE id="V371199" indicator="F" type="SCRUTINY" text="LOOK" VFORM="ING" start="30" end="49"/>
+   <RELATION id="9" head="V371199" res="V371292" label="NEUTRAL"/>
+   <PHRASE id="V371292" indicator="THE" type="BOX" text="BOX" start="38" end="49"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="TIME-INTERVAL" text="WHILE" start="49" end="55">
+   <TEXT>while t</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="THE" type="MALE-CHILD" text="BOY" start="55" end="63">
+   <TEXT>the boy h</TEXT>
+   <RELATION id="10" head="V371312" res="V371187" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="PRO" type="PERSON" text="HIMSELF" PROFORM="HIMSELF" start="63" end="71">
+   <TEXT>himself i</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="71" end="97">
+   <TEXT>is looking somewhere else .</TEXT>
+   <RELATION id="11" head="V374618" res="V371320" label="CONTENT"/>
+   <PHRASE id="V371320" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="71" end="97"/>
+   <RELATION id="12" head="V371320" res="V371342" label="NEUTRAL"/>
+   <PHRASE id="V371342" indicator="BARE" type="PHYSICAL-SCRUTINY" text="LOOK" start="74" end="97"/>
+   <RELATION id="13" head="V371342" res="V371359" label="MOD"/>
+   <PHRASE id="V371359" indicator="F" type="WH-LOCATION" text="SOMEWHERE" start="82" end="97"/>
+   <RELATION id="14" head="V371359" res="V371433" label="GROUND"/>
+   <RELATION id="15" head="V371359" res="V371342" label="FIGURE"/>
+   <PHRASE id="V371433" indicator="IMPRO" type="NIL" PROFORM="SOMEWHERE" start="82" end="97"/>
+   <RELATION id="16" head="V371433" res="V371359" label="SUCHTHAT"/>
+   <RELATION id="17" head="V371433" res="V371364" label="MOD"/>
+   <PHRASE id="V371364" indicator="F" type="IDENTITY-VAL" text="ELSE" INTENSITY="HI" start="92" end="97"/>
+   <RELATION id="18" head="V371364" res="V371359" label="FORMAL"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

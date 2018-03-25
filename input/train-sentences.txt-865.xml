@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="blue sky in the background .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+44
+*last-utt-id*=44  utt-id+NIL</debug><utt><words><lisp>(W::BLUE W::SKY W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>BLUE</word><word>SKY</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;blue&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 44
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sky&quot; :FRAME (5 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 44
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blue sky&quot; :FRAME (0 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;blue_sky%1:17:00&quot;)))
+  :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;blue sky&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  22.114 :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (9 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (12 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (16 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 44
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (12 26) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (9 26) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (27 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;blue sky in the background .&quot; :FRAME (0 27) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 38.821 :UTTNUM 44 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="blue" start="0" end="4"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="sky" start="5" end="8"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="blue sky" start="0" end="8"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="blue_sky%1:17:00" /></word><prefer text="blue sky" start="0" end="8" penn-cats="NP" score="22.114" /><word lex="in" start="9" end="11"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="12" end="15"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="16" end="26"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="12" end="26" penn-cats="NP" score="11.972" /><prefer text="in the background" start="9" end="26" penn-cats="PP" score="14.224" /><word lex="." start="27" end="27"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="blue sky in the background ." start="0" end="27" penn-cats="NP" score="38.821" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1 (N1 (N BLUE SKY))
+    (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N>BLUE SKY</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V310207"><lisp>((ONT::SPEECHACT ONT::V310207 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V310100 :START 0 :END 27)
+ (ONT::BARE ONT::V310100 (:* ONT::GAS-SUBSTANCE W::BLUE-SKY) :LOCATION
+  ONT::V310107 :START 0 :END 27 :WNSENSE &quot;blue_sky%1:17:00&quot;)
+ (ONT::F ONT::V310107 (:* ONT::IN-LOC W::IN) :GROUND ONT::V310163 :FIGURE
+  ONT::V310100 :START 9 :END 27)
+ (ONT::THE ONT::V310163 (:* ONT::IMAGE W::BACKGROUND) :START 12 :END 27))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V310207">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V310100" />
+    <LF:start>0</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V310100">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GAS-SUBSTANCE</LF:type>
+    <LF:word>BLUE-SKY</LF:word>
+    <role:LOCATION rdf:resource="#V310107" />
+    <LF:start>0</LF:start>
+    <LF:end>27</LF:end>
+    <role:WNSENSE>blue_sky%1:17:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V310107">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V310163" />
+    <role:FIGURE rdf:resource="#V310100" />
+    <LF:start>9</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V310163">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>12</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

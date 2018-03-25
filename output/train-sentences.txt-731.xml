@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="47">
+   <TEXT>short grass and some garbage in the background .</TEXT>
+   <RELATION id="1" head="V145315" res="V145107" label="CONTENT"/>
+   <PHRASE id="V145107" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="47"/>
+   <RELATION id="2" head="V145107" res="V145103" label="SEQUENCE"/>
+   <RELATION id="3" head="V145107" res="V145123" label="SEQUENCE1"/>
+   <PHRASE id="V145103" indicator="BARE" type="PLANT" text="GRASS" start="0" end="12"/>
+   <RELATION id="4" head="V145103" res="V145093" label="MOD"/>
+   <PHRASE id="V145093" indicator="F" type="SHORT-VAL" text="SHORT" SCALE="SIZE-SCALE" start="0" end="6"/>
+   <RELATION id="5" head="V145093" res="V145103" label="FIGURE"/>
+   <PHRASE id="V145123" indicator="A" type="DISPOSABLE" text="GARBAGE" QUAN="INDEFINITE" start="16" end="47"/>
+   <RELATION id="6" head="V145123" res="V145130" label="LOCATION"/>
+   <PHRASE id="V145130" indicator="F" type="IN-LOC" text="IN" start="29" end="47"/>
+   <RELATION id="7" head="V145130" res="V145186" label="GROUND"/>
+   <RELATION id="8" head="V145130" res="V145123" label="FIGURE"/>
+   <PHRASE id="V145186" indicator="THE" type="IMAGE" text="BACKGROUND" start="32" end="47"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

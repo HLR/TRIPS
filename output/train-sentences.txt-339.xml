@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="42">
+   <TEXT>people are wearing rain coats and jackets .</TEXT>
+   <RELATION id="1" head="V161792" res="V161503" label="CONTENT"/>
+   <PHRASE id="V161503" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="0" end="42"/>
+   <RELATION id="2" head="V161503" res="V161480" label="AGENT"/>
+   <RELATION id="3" head="V161503" res="V161520" label="NEUTRAL"/>
+   <PHRASE id="V161480" indicator="INDEF-SET" type="PERSON" text="PERSON" start="0" end="7"/>
+   <PHRASE id="V161520" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="19" end="42"/>
+   <RELATION id="4" head="V161520" res="V161516" label="SEQUENCE"/>
+   <RELATION id="5" head="V161520" res="V161529" label="SEQUENCE1"/>
+   <PHRASE id="V161516" indicator="INDEF-SET" type="ATTIRE" text="COAT" start="19" end="30"/>
+   <RELATION id="6" head="V161516" res="V161512" label="ASSOC-WITH"/>
+   <PHRASE id="V161512" indicator="KIND" type="PRECIPITATION" text="RAIN" start="19" end="30"/>
+   <PHRASE id="V161529" indicator="INDEF-SET" type="ATTIRE" text="JACKET" start="34" end="42"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

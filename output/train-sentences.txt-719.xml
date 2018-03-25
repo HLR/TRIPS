@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="40">
+   <TEXT>some rocks and stones in the background .</TEXT>
+   <RELATION id="1" head="V92635" res="V92468" label="CONTENT"/>
+   <PHRASE id="V92468" indicator="INDEF-SET" type="NATURAL-OBJECT" OPERATOR="AND" start="0" end="40"/>
+   <RELATION id="2" head="V92468" res="V92463" label="SEQUENCE"/>
+   <RELATION id="3" head="V92468" res="V92478" label="SEQUENCE1"/>
+   <PHRASE id="V92463" indicator="INDEF-SET" type="NATURAL-OBJECT" text="ROCK" SIZE="SOME" start="0" end="11"/>
+   <PHRASE id="V92478" indicator="INDEF-SET" type="NATURAL-OBJECT" text="STONES" start="15" end="40"/>
+   <RELATION id="4" head="V92478" res="V92488" label="LOCATION"/>
+   <PHRASE id="V92488" indicator="F" type="IN-LOC" text="IN" start="22" end="40"/>
+   <RELATION id="5" head="V92488" res="V92544" label="GROUND"/>
+   <RELATION id="6" head="V92488" res="V92478" label="FIGURE"/>
+   <PHRASE id="V92544" indicator="THE" type="IMAGE" text="BACKGROUND" start="25" end="40"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

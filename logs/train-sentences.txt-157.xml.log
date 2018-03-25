@@ -1,0 +1,367 @@
+2,320c2,46
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Young girl wearing a red trainer with blue and white sleeves is bending down to two old ladies .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?81835:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V204849)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?81833)
+<                                            (W::TRANSFORM ?81834)))
+<                                  (W::CASE ?81832:(W::SUB W::OBJ -))
+<                                  (W::AGR ?81831) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V204849) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER205174))
+< *last-utt-id*=NIL  utt-id+43
+< *last-utt-id*=43  utt-id+43
+< *last-utt-id*=43  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::YOUNG W::GIRL W::WEARING W::A W::RED W::TRAINER W::WITH W::BLUE W::AND
+<  W::WHITE W::SLEEVES W::IS W::BENDING W::DOWN)</lisp><word>YOUNG</word><word>GIRL</word><word>WEARING</word><word>A</word><word>RED</word><word>TRAINER</word><word>WITH</word><word>BLUE</word><word>AND</word><word>WHITE</word><word>SLEEVES</word><word>IS</word><word>BENDING</word><word>DOWN</word></words><tags><lisp>((WORD &quot;Young&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+<     :ONT-TYPES (ONT::GEOGRAPHIC-REGION)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;girl&quot; :FRAME (6 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Young girl&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   23.895 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wearing&quot; :FRAME (11 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (19 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (21 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;trainer&quot; :FRAME (25 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a red trainer&quot; :FRAME (19 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.568 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (33 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (38 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (43 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;white&quot; :FRAME (47 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sleeves&quot; :FRAME (53 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;blue and white sleeves&quot; :FRAME (38 60) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 34.076 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with blue and white sleeves&quot; :FRAME (33 60) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 37.343 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;wearing a red trainer with blue and white sleeves&quot; :FRAME (11 60)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 69.619 :UTTNUM 43 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;Young girl wearing a red trainer with blue and white sleeves&quot; :FRAME
+<   (0 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 96.076 :UTTNUM 43 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (61 63) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;bending&quot; :FRAME (64 71) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;down&quot; :FRAME (72 76) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;down&quot; :FRAME (72 76) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   2.647 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Young" start="0" end="5"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="girl" start="6" end="10"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="Young girl" start="0" end="10" penn-cats="NP" score="23.895" /><word lex="wearing" start="11" end="18"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="19" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="21" end="24"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="trainer" start="25" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a red trainer" start="19" end="32" penn-cats="NP" score="22.568" /><word lex="with" start="33" end="37"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="blue" start="38" end="42"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="and" start="43" end="46"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="white" start="47" end="52"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="sleeves" start="53" end="60"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="blue and white sleeves" start="38" end="60" penn-cats="NP" score="34.076" /><prefer text="with blue and white sleeves" start="33" end="60" penn-cats="PP" score="37.343" /><prefer text="wearing a red trainer with blue and white sleeves" start="11" end="60" penn-cats="VP" score="69.619" /><prefer text="Young girl wearing a red trainer with blue and white sleeves" start="0" end="60" penn-cats="NP" score="96.076" /><word lex="is" start="61" end="63"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="bending" start="64" end="71"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="down" start="72" end="76"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="down" start="72" end="76" penn-cats="PRT" score="2.647" /></tags><tree><lisp>(UTT
+<  (S
+<   (NP
+<    (N1 (N1 (ADJP (ADJ1 (ADJ YOUNG))) (N1 (N GIRL)))
+<     (CP
+<      (VP
+<       (VP- (V WEARING)
+<        (NP (SPEC (DET (ART A)))
+<         (N1 (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N TRAINER)))
+<          (ADVBL (ADV WITH)
+<           (NP
+<            (N1
+<             (ADJP (ADJP (ADJ1 (ADJ BLUE))) (CONJ AND)
+<              (ADJP (ADJ1 (ADJ WHITE))))
+<             (N1 (N SLEEVES))))))))))))
+<   (VP (VP- (AUX (V IS)) (VP- (VP- (V BENDING)) (ADVBL (ADV DOWN)))))))</lisp><UTT><S><NP><N1><N1><ADJP><ADJ1><ADJ>YOUNG</ADJ></ADJ1></ADJP><N1><N>GIRL</N></N1></N1><CP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>TRAINER</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><N1><ADJP><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><CONJ>AND</CONJ><ADJP><ADJ1><ADJ>WHITE</ADJ></ADJ1></ADJP></ADJP><N1><N>SLEEVES</N></N1></N1></NP></ADVBL></N1></NP></VP-></VP></CP></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>BENDING</V></VP-><ADVBL><ADV>DOWN</ADV></ADVBL></VP-></VP-></VP></S></UTT></tree><terms root="#V206986"><lisp>((ONT::SPEECHACT ONT::V206986 ONT::SA_TELL :CONTENT ONT::V203262 :START 0 :END
+<   77)
+<  (ONT::F ONT::V203262 (:* ONT::BODY-MOVEMENT-PLACE W::BEND) :RESULT
+<   ONT::V203294 :AGENT ONT::V203130 :TENSE W::PRES :PROGR + :START 0 :END 77)
+<  (ONT::BARE ONT::V203130 (:* ONT::FEMALE-CHILD W::GIRL) :MOD ONT::V203136 :MOD
+<   ONT::V203121 :START 0 :END 61)
+<  (ONT::F ONT::V203121 (:* ONT::YOUNG-VAL W::YOUNG) :FIGURE ONT::V203130 :SCALE
+<   ONT::AGE-SCALE :START 0 :END 6)
+<  (ONT::F ONT::V203136 (:* ONT::WEAR W::WEAR) :AGENT ONT::V203130 :NEUTRAL
+<   ONT::V203196 :VFORM W::ING :START 11 :END 61)
+<  (ONT::A ONT::V203196 (:* ONT::PROFESSIONAL W::TRAINER) :MOD ONT::V203200 :MOD
+<   ONT::V203183 :START 19 :END 61)
+<  (ONT::F ONT::V203183 (:* ONT::RED W::RED) :FIGURE ONT::V203196 :SCALE
+<   ONT::COLOR-SCALE :START 21 :END 25)
+<  (ONT::F ONT::V203200 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V203236 :FIGURE
+<   ONT::V203196 :START 33 :END 61)
+<  (ONT::INDEF-SET ONT::V203236 (:* ONT::COVERING W::SLEEVES) :MOD ONT::V203410
+<   :START 38 :END 61)
+<  (ONT::F ONT::V203410 ONT::COLOR-VAL :SEQUENCE (ONT::V203212 ONT::V203228)
+<   :OPERATOR ONT::AND :START 38 :END 53)
+<  (ONT::F ONT::V203212 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V203236 :SCALE
+<   ONT::COLOR-SCALE :START 38 :END 43)
+<  (ONT::F ONT::V203228 (:* ONT::WHITE W::WHITE) :FIGURE ONT::V203236 :SCALE
+<   ONT::WHITE*1--07--00 :START 47 :END 53)
+<  (ONT::F ONT::V203294 (:* ONT::DIRECTION-DOWN W::DOWN) :FIGURE ONT::V203130
+<   :START 72 :END 77))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V206986">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V203262" />
+<     <LF:start>0</LF:start>
+<     <LF:end>77</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203262">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>BEND</LF:word>
+<     <role:RESULT rdf:resource="#V203294" />
+<     <role:AGENT rdf:resource="#V203130" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>77</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203130">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>FEMALE-CHILD</LF:type>
+<     <LF:word>GIRL</LF:word>
+<     <role:MOD rdf:resource="#V203136" />
+<     <role:MOD rdf:resource="#V203121" />
+<     <LF:start>0</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203121">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>YOUNG-VAL</LF:type>
+<     <LF:word>YOUNG</LF:word>
+<     <role:FIGURE rdf:resource="#V203130" />
+<     <role:SCALE>AGE-SCALE</role:SCALE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203136">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:AGENT rdf:resource="#V203130" />
+<     <role:NEUTRAL rdf:resource="#V203196" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>11</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203196">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>PROFESSIONAL</LF:type>
+<     <LF:word>TRAINER</LF:word>
+<     <role:MOD rdf:resource="#V203200" />
+<     <role:MOD rdf:resource="#V203183" />
+<     <LF:start>19</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203183">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V203196" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>21</LF:start>
+<     <LF:end>25</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203200">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V203236" />
+<     <role:FIGURE rdf:resource="#V203196" />
+<     <LF:start>33</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203236">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>COVERING</LF:type>
+<     <LF:word>SLEEVES</LF:word>
+<     <role:MOD rdf:resource="#V203410" />
+<     <LF:start>38</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203410">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>COLOR-VAL</LF:type>
+<     <role:SEQUENCE rdf:resource="#V203212" />
+<     <role:SEQUENCE1 rdf:resource="#V203228" />
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <LF:start>38</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203212">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BLUE</LF:type>
+<     <LF:word>BLUE</LF:word>
+<     <role:FIGURE rdf:resource="#V203236" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>38</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203228">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WHITE</LF:type>
+<     <LF:word>WHITE</LF:word>
+<     <role:FIGURE rdf:resource="#V203236" />
+<     <role:SCALE>WHITE*1--07--00</role:SCALE>
+<     <LF:start>47</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203294">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>DIRECTION-DOWN</LF:type>
+<     <LF:word>DOWN</LF:word>
+<     <role:FIGURE rdf:resource="#V203130" />
+<     <LF:start>72</LF:start>
+<     <LF:end>77</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::TO W::TWO W::OLD W::LADIES)</lisp><word>TO</word><word>TWO</word><word>OLD</word><word>LADIES</word></words><tags><lisp>((WORD &quot;to&quot; :FRAME (77 79) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;two&quot; :FRAME (80 83) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;old&quot; :FRAME (84 87) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;ladies&quot; :FRAME (88 94) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;old ladies&quot; :FRAME (84 94) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;old_lady%1:18:00&quot;)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two old ladies&quot; :FRAME (80 94) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 25.487 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to two old ladies&quot; :FRAME (77 94) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 27.955 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;bending down to two old ladies&quot; :FRAME (64 94) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 45.329 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;is bending down to two old ladies&quot; :FRAME (61 94) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 49.589 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (95 95) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;Young girl wearing a red trainer with blue and white sleeves is bending down to two old ladies .&quot;
+<   :FRAME (0 95) :PENN-CATS (S) :SCORE 149.579 :UTTNUM 43 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="to" start="77" end="79"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="two" start="80" end="83"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="old" start="84" end="87"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="ladies" start="88" end="94"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="old ladies" start="84" end="94"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" wn-sense-keys="old_lady%1:18:00" /></word><prefer text="two old ladies" start="80" end="94" penn-cats="NP" score="25.487" /><prefer text="to two old ladies" start="77" end="94" penn-cats="PP" score="27.955" /><prefer text="bending down to two old ladies" start="64" end="94" penn-cats="VP" score="45.329" /><prefer text="is bending down to two old ladies" start="61" end="94" penn-cats="VP" score="49.589" /><word lex="." start="95" end="95"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Young girl wearing a red trainer with blue and white sleeves is bending down to two old ladies ." start="0" end="95" penn-cats="S" score="149.579" /></tags><tree><lisp>(ADVBL (ADV TO) (NP (N1 (ADJP (NUMBER TWO)) (N1 (N OLD LADIES)))))</lisp><ADVBL><ADV>TO</ADV><NP><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>OLD LADIES</N></N1></N1></NP></ADVBL></tree><terms root="#V203309"><lisp>((ONT::F ONT::V203309 (:* ONT::TO-LOC W::TO) :GROUND ONT::V203347 :START 77
+<   :END 95)
+<  (ONT::INDEF-SET ONT::V203347 (:* ONT::FEMALE-PERSON W::OLD-LADIES) :SIZE
+<   ONT::V203331 :START 80 :END 95 :WNSENSE &quot;old_lady%1:18:00&quot;)
+<  (ONT::A ONT::V203331 ONT::NUMBER :VALUE 2 :START 80 :END 84))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V203309">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TO-LOC</LF:type>
+<     <LF:word>TO</LF:word>
+<     <role:GROUND rdf:resource="#V203347" />
+<     <LF:start>77</LF:start>
+<     <LF:end>95</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203347">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>OLD-LADIES</LF:word>
+<     <role:SIZE rdf:resource="#V203331" />
+<     <LF:start>80</LF:start>
+<     <LF:end>95</LF:end>
+<     <role:WNSENSE>old_lady%1:18:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V203331">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>2</role:VALUE>
+<     <LF:start>80</LF:start>
+<     <LF:end>84</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="77">
+>    <TEXT>Young girl wearing a red trainer with blue and white sleeves is bending down t</TEXT>
+>    <RELATION id="1" head="V206986" res="V203262" label="CONTENT"/>
+>    <PHRASE id="V203262" indicator="F" type="BODY-MOVEMENT-PLACE" text="BEND" TENSE="PRES" PROGR="+" start="0" end="77"/>
+>    <RELATION id="2" head="V203262" res="V203294" label="RESULT"/>
+>    <RELATION id="3" head="V203262" res="V203130" label="AGENT"/>
+>    <PHRASE id="V203130" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="0" end="61"/>
+>    <RELATION id="4" head="V203130" res="V203136" label="MOD"/>
+>    <RELATION id="5" head="V203130" res="V203121" label="MOD"/>
+>    <PHRASE id="V203121" indicator="F" type="YOUNG-VAL" text="YOUNG" SCALE="AGE-SCALE" start="0" end="6"/>
+>    <RELATION id="6" head="V203121" res="V203130" label="FIGURE"/>
+>    <PHRASE id="V203136" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="11" end="61"/>
+>    <RELATION id="7" head="V203136" res="V203130" label="AGENT"/>
+>    <RELATION id="8" head="V203136" res="V203196" label="NEUTRAL"/>
+>    <PHRASE id="V203196" indicator="A" type="PROFESSIONAL" text="TRAINER" start="19" end="61"/>
+>    <RELATION id="9" head="V203196" res="V203200" label="MOD"/>
+>    <RELATION id="10" head="V203196" res="V203183" label="MOD"/>
+>    <PHRASE id="V203183" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="21" end="25"/>
+>    <RELATION id="11" head="V203183" res="V203196" label="FIGURE"/>
+>    <PHRASE id="V203200" indicator="F" type="ASSOC-WITH" text="WITH" start="33" end="61"/>
+>    <RELATION id="12" head="V203200" res="V203236" label="GROUND"/>
+>    <RELATION id="13" head="V203200" res="V203196" label="FIGURE"/>
+>    <PHRASE id="V203236" indicator="INDEF-SET" type="COVERING" text="SLEEVES" start="38" end="61"/>
+>    <RELATION id="14" head="V203236" res="V203410" label="MOD"/>
+>    <PHRASE id="V203410" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="38" end="53"/>
+>    <RELATION id="15" head="V203410" res="V203212" label="SEQUENCE"/>
+>    <RELATION id="16" head="V203410" res="V203228" label="SEQUENCE1"/>
+>    <PHRASE id="V203212" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="38" end="43"/>
+>    <RELATION id="17" head="V203212" res="V203236" label="FIGURE"/>
+>    <PHRASE id="V203228" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="47" end="53"/>
+>    <RELATION id="18" head="V203228" res="V203236" label="FIGURE"/>
+>    <PHRASE id="V203294" indicator="F" type="DIRECTION-DOWN" text="DOWN" start="72" end="77"/>
+>    <RELATION id="19" head="V203294" res="V203130" label="FIGURE"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="TO-LOC" text="TO" start="77" end="95">
+>    <TEXT>to two old ladies .</TEXT>
+>    <RELATION id="20" head="V203309" res="V203347" label="GROUND"/>
+>    <PHRASE id="V203347" indicator="INDEF-SET" type="FEMALE-PERSON" text="OLD-LADIES" start="80" end="95" WNSENSE="old_lady%1:18:00"/>
+>    <RELATION id="21" head="V203347" res="V203331" label="SIZE"/>
+>    <PHRASE id="V203331" indicator="A" type="NUMBER" VALUE="2" start="80" end="84"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

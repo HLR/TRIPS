@@ -1,0 +1,364 @@
+2,321c2,42
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there is a picture on the wall in the background , and also an old lady carrying a green balloon .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+47
+< *last-utt-id*=47  utt-id+NIL
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?30235:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V249220)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?30233)
+<                                            (W::TRANSFORM ?30234)))
+<                                  (W::CASE ?30232:(W::SUB W::OBJ -))
+<                                  (W::AGR ?30231) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V249220) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER249274))
+< *last-utt-id*=NIL  utt-id+47
+< *last-utt-id*=47  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::IS W::A W::PICTURE W::ON W::THE W::WALL W::IN W::THE W::BACKGROUND
+<  W::PUNC-COMMA)</lisp><word>THERE</word><word>IS</word><word>A</word><word>PICTURE</word><word>ON</word><word>THE</word><word>WALL</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (9 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;picture&quot; :FRAME (11 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a picture&quot; :FRAME (9 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.267 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (19 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (22 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall&quot; :FRAME (26 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the wall&quot; :FRAME (22 30) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.083 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (31 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall in&quot; :FRAME (26 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;wall_in%2:35:00&quot;)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (34 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (38 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (34 48) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (31 48) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the wall in the background&quot; :FRAME (22 48) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 25.847 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;on the wall in the background&quot; :FRAME (19 48) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 30.696 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;a picture on the wall in the background&quot; :FRAME (9 48) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 42.369 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;is a picture on the wall in the background&quot; :FRAME (6 48) :PENN-CATS
+<   (VP) :TRIPS-CATS (W::VP) :SCORE 47.485 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;there is a picture on the wall in the background&quot; :FRAME (0 48)
+<   :PENN-CATS (S) :SCORE 52.559 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (49 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="a" start="9" end="10"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="picture" start="11" end="18"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a picture" start="9" end="18" penn-cats="NP" score="11.267" /><word lex="on" start="19" end="21"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="22" end="25"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="26" end="30"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="22" end="30" penn-cats="NP" score="11.083" /><word lex="in" start="31" end="33"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="wall in" start="26" end="33"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="wall_in%2:35:00" /></word><word lex="the" start="34" end="37"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="38" end="48"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="34" end="48" penn-cats="NP" score="11.972" /><prefer text="in the background" start="31" end="48" penn-cats="PP" score="14.224" /><prefer text="the wall in the background" start="22" end="48" penn-cats="NP" score="25.847" /><prefer text="on the wall in the background" start="19" end="48" penn-cats="PP" score="30.696" /><prefer text="a picture on the wall in the background" start="9" end="48" penn-cats="NP" score="42.369" /><prefer text="is a picture on the wall in the background" start="6" end="48" penn-cats="VP" score="47.485" /><prefer text="there is a picture on the wall in the background" start="0" end="48" penn-cats="S" score="52.559" /><word lex="," start="49" end="49"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (PRO THERE))
+<    (VP
+<     (VP- (V IS)
+<      (NP (SPEC (DET (ART A)))
+<       (N1 (N1 (N PICTURE))
+<        (ADVBL (ADV ON)
+<         (NP (SPEC (DET (ART THE)))
+<          (N1 (N1 (N WALL))
+<           (ADVBL (ADV IN)
+<            (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))))))))
+<  (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>PICTURE</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>WALL</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V248560"><lisp>((ONT::SPEECHACT ONT::V248560 ONT::SA_TELL :CONTENT ONT::V248299 :START 0 :END
+<   49)
+<  (ONT::F ONT::V248299 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V248354 :TENSE
+<   W::PRES :START 0 :END 49)
+<  (ONT::PRO ONT::V248286 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+<  (ONT::A ONT::V248354 (:* ONT::IMAGE W::PICTURE) :LOCATION ONT::V248363 :START
+<   9 :END 49)
+<  (ONT::F ONT::V248363 (:* ONT::ON W::ON) :GROUND ONT::V248392 :FIGURE
+<   ONT::V248354 :START 19 :END 49)
+<  (ONT::THE ONT::V248392 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL)
+<   :LOCATION ONT::V248399 :START 22 :END 49)
+<  (ONT::F ONT::V248399 (:* ONT::IN-LOC W::IN) :GROUND ONT::V248464 :FIGURE
+<   ONT::V248392 :START 31 :END 49)
+<  (ONT::THE ONT::V248464 (:* ONT::IMAGE W::BACKGROUND) :START 34 :END 49))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V248560">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V248299" />
+<     <LF:start>0</LF:start>
+<     <LF:end>49</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248299">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EXISTS</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V248354" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>49</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248286">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>EXPLETIVE</LF:type>
+<     <role:PROFORM>THERE</role:PROFORM>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248354">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>PICTURE</LF:word>
+<     <role:LOCATION rdf:resource="#V248363" />
+<     <LF:start>9</LF:start>
+<     <LF:end>49</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248363">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V248392" />
+<     <role:FIGURE rdf:resource="#V248354" />
+<     <LF:start>19</LF:start>
+<     <LF:end>49</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248392">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>WALL</LF:word>
+<     <role:LOCATION rdf:resource="#V248399" />
+<     <LF:start>22</LF:start>
+<     <LF:end>49</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248399">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V248464" />
+<     <role:FIGURE rdf:resource="#V248392" />
+<     <LF:start>31</LF:start>
+<     <LF:end>49</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248464">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>34</LF:start>
+<     <LF:end>49</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::AND W::ALSO W::AN W::OLD W::LADY W::CARRYING W::A W::GREEN W::BALLOON
+<  W::PUNC-PERIOD)</lisp><word>AND</word><word>ALSO</word><word>AN</word><word>OLD</word><word>LADY</word><word>CARRYING</word><word>A</word><word>GREEN</word><word>BALLOON</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (51 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;also&quot; :FRAME (55 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;also&quot; :FRAME (55 59) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+<   2.442 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;an&quot; :FRAME (60 62) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;old&quot; :FRAME (63 66) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;lady&quot; :FRAME (67 71) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;old lady&quot; :FRAME (63 71) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;old_lady%1:18:00&quot;)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;an old lady&quot; :FRAME (60 71) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 23.184 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;carrying&quot; :FRAME (72 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (81 82) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;green&quot; :FRAME (83 88) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;balloon&quot; :FRAME (89 96) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green balloon&quot; :FRAME (81 96) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 21.933 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;carrying a green balloon&quot; :FRAME (72 96) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 29.729 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;an old lady carrying a green balloon&quot; :FRAME (60 96) :PENN-CATS (S)
+<   :SCORE 58.528 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (97 97) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="51" end="54"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="also" start="55" end="59"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="also" start="55" end="59" penn-cats="ADVP" score="2.442" /><word lex="an" start="60" end="62"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="old" start="63" end="66"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="lady" start="67" end="71"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="old lady" start="63" end="71"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="old_lady%1:18:00" /></word><prefer text="an old lady" start="60" end="71" penn-cats="NP" score="23.184" /><word lex="carrying" start="72" end="80"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="81" end="82"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="green" start="83" end="88"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="balloon" start="89" end="96"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a green balloon" start="81" end="96" penn-cats="NP" score="21.933" /><prefer text="carrying a green balloon" start="72" end="96" penn-cats="VP" score="29.729" /><prefer text="an old lady carrying a green balloon" start="60" end="96" penn-cats="S" score="58.528" /><word lex="." start="97" end="97"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT (ADVBL (ADV AND))
+<   (UTT (ADVBL (ADV ALSO))
+<    (UTT
+<     (NP (SPEC (DET (ART AN)))
+<      (N1 (N1 (N OLD LADY))
+<       (CP
+<        (VP
+<         (VP- (V CARRYING)
+<          (NP (SPEC (DET (ART A)))
+<           (N1 (ADJP (ADJ1 (ADJ GREEN))) (N1 (N BALLOON))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><ADVBL><ADV>ALSO</ADV></ADVBL><UTT><NP><SPEC><DET><ART>AN</ART></DET></SPEC><N1><N1><N>OLD LADY</N></N1><CP><VP><VP-><V>CARRYING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><N1><N>BALLOON</N></N1></N1></NP></VP-></VP></CP></N1></NP></UTT></UTT></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V249302"><lisp>((ONT::SPEECHACT ONT::V249302 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V248885 :MOD ONT::V248853 :MOD ONT::V248861 :START 51 :END 97)
+<  (ONT::F ONT::V248853 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V249302 :START 51
+<   :END 55)
+<  (ONT::F ONT::V248861 (:* ONT::CONJUNCT W::ALSO) :FIGURE ONT::V249302 :START 55
+<   :END 60)
+<  (ONT::A ONT::V248885 (:* ONT::FEMALE-PERSON W::OLD-LADY) :MOD ONT::V248889
+<   :START 60 :END 97 :WNSENSE &quot;old_lady%1:18:00&quot;)
+<  (ONT::F ONT::V248889 (:* ONT::TRANSPORT W::CARRY) :AGENT ONT::V248885
+<   :AFFECTED ONT::V248945 :VFORM W::ING :START 72 :END 97)
+<  (ONT::A ONT::V248945 (:* ONT::AIR-VEHICLE W::BALLOON) :MOD ONT::V248933 :START
+<   81 :END 97)
+<  (ONT::F ONT::V248933 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V248945 :SCALE
+<   ONT::GREEN*1--07--00 :START 83 :END 89))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V249302">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V248885" />
+<     <role:MOD rdf:resource="#V248853" />
+<     <role:MOD rdf:resource="#V248861" />
+<     <LF:start>51</LF:start>
+<     <LF:end>97</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248853">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONJUNCT</LF:type>
+<     <LF:word>AND</LF:word>
+<     <role:FIGURE rdf:resource="#V249302" />
+<     <LF:start>51</LF:start>
+<     <LF:end>55</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248861">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONJUNCT</LF:type>
+<     <LF:word>ALSO</LF:word>
+<     <role:FIGURE rdf:resource="#V249302" />
+<     <LF:start>55</LF:start>
+<     <LF:end>60</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248885">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>OLD-LADY</LF:word>
+<     <role:MOD rdf:resource="#V248889" />
+<     <LF:start>60</LF:start>
+<     <LF:end>97</LF:end>
+<     <role:WNSENSE>old_lady%1:18:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248889">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TRANSPORT</LF:type>
+<     <LF:word>CARRY</LF:word>
+<     <role:AGENT rdf:resource="#V248885" />
+<     <role:AFFECTED rdf:resource="#V248945" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>72</LF:start>
+<     <LF:end>97</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248945">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>AIR-VEHICLE</LF:type>
+<     <LF:word>BALLOON</LF:word>
+<     <role:MOD rdf:resource="#V248933" />
+<     <LF:start>81</LF:start>
+<     <LF:end>97</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V248933">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>GREEN</LF:type>
+<     <LF:word>GREEN</LF:word>
+<     <role:FIGURE rdf:resource="#V248945" />
+<     <role:SCALE>GREEN*1--07--00</role:SCALE>
+<     <LF:start>83</LF:start>
+<     <LF:end>89</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="49">
+>    <TEXT>there is a picture on the wall in the background ,</TEXT>
+>    <RELATION id="1" head="V248560" res="V248299" label="CONTENT"/>
+>    <PHRASE id="V248299" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="49"/>
+>    <RELATION id="2" head="V248299" res="V248354" label="NEUTRAL"/>
+>    <PHRASE id="V248286" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+>    <PHRASE id="V248354" indicator="A" type="IMAGE" text="PICTURE" start="9" end="49"/>
+>    <RELATION id="3" head="V248354" res="V248363" label="LOCATION"/>
+>    <PHRASE id="V248363" indicator="F" type="ON" text="ON" start="19" end="49"/>
+>    <RELATION id="4" head="V248363" res="V248392" label="GROUND"/>
+>    <RELATION id="5" head="V248363" res="V248354" label="FIGURE"/>
+>    <PHRASE id="V248392" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="22" end="49"/>
+>    <RELATION id="6" head="V248392" res="V248399" label="LOCATION"/>
+>    <PHRASE id="V248399" indicator="F" type="IN-LOC" text="IN" start="31" end="49"/>
+>    <RELATION id="7" head="V248399" res="V248464" label="GROUND"/>
+>    <RELATION id="8" head="V248399" res="V248392" label="FIGURE"/>
+>    <PHRASE id="V248464" indicator="THE" type="IMAGE" text="BACKGROUND" start="34" end="49"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="51" end="97">
+>    <TEXT>and also an old lady carrying a green balloon .</TEXT>
+>    <RELATION id="9" head="V249302" res="V248885" label="CONTENT"/>
+>    <RELATION id="10" head="V249302" res="V248853" label="MOD"/>
+>    <RELATION id="11" head="V249302" res="V248861" label="MOD"/>
+>    <PHRASE id="V248853" indicator="F" type="CONJUNCT" text="AND" start="51" end="55"/>
+>    <RELATION id="12" head="V248853" res="V249302" label="FIGURE"/>
+>    <PHRASE id="V248861" indicator="F" type="CONJUNCT" text="ALSO" start="55" end="60"/>
+>    <RELATION id="13" head="V248861" res="V249302" label="FIGURE"/>
+>    <PHRASE id="V248885" indicator="A" type="FEMALE-PERSON" text="OLD-LADY" start="60" end="97" WNSENSE="old_lady%1:18:00"/>
+>    <RELATION id="14" head="V248885" res="V248889" label="MOD"/>
+>    <PHRASE id="V248889" indicator="F" type="TRANSPORT" text="CARRY" VFORM="ING" start="72" end="97"/>
+>    <RELATION id="15" head="V248889" res="V248885" label="AGENT"/>
+>    <RELATION id="16" head="V248889" res="V248945" label="AFFECTED"/>
+>    <PHRASE id="V248945" indicator="A" type="AIR-VEHICLE" text="BALLOON" start="81" end="97"/>
+>    <RELATION id="17" head="V248945" res="V248933" label="MOD"/>
+>    <PHRASE id="V248933" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="83" end="89"/>
+>    <RELATION id="18" head="V248933" res="V248945" label="FIGURE"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

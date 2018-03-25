@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="MALE-CHILD" text="BOY" start="16" end="33">
+   <TEXT>dark-skinned boy i</TEXT>
+   <RELATION id="1" head="V206291" res="V206263" label="MOD"/>
+   <RELATION id="2" head="V206291" res="V206276" label="MOD"/>
+   <PHRASE id="V206263" indicator="F" type="DARK-VAL" text="DARK" start="16" end="20"/>
+   <RELATION id="3" head="V206263" res="V206291" label="FIGURE"/>
+   <PHRASE id="V206276" indicator="F" type="MOVE" text="SKINNED" start="21" end="29"/>
+   <RELATION id="4" head="V206276" res="V206291" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="36" end="71">
+   <TEXT>a black tee-shirt and a light blue n</TEXT>
+   <RELATION id="5" head="V206410" res="V206406" label="SEQUENCE"/>
+   <RELATION id="6" head="V206410" res="V206492" label="SEQUENCE1"/>
+   <PHRASE id="V206406" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="36" end="54"/>
+   <RELATION id="7" head="V206406" res="V206388" label="MOD"/>
+   <PHRASE id="V206388" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="38" end="44"/>
+   <RELATION id="8" head="V206388" res="V206406" label="FIGURE"/>
+   <PHRASE id="V206492" indicator="A" type="ATTIRE" text="BLUE" start="58" end="71"/>
+   <RELATION id="9" head="V206492" res="V206460" label="MOD"/>
+   <PHRASE id="V206460" indicator="F" type="LIGHTWEIGHT" text="LIGHT" ORIENTATION="LESS" INTENSITY="HI" SCALE="WEIGHT-SCALE" start="60" end="66"/>
+   <RELATION id="10" head="V206460" res="V206492" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="71" end="133">
+   <TEXT>name tag is standing in front of all the desks in a classroom .</TEXT>
+   <RELATION id="11" head="V209353" res="V206527" label="CONTENT"/>
+   <PHRASE id="V206527" indicator="F" type="BE" text="BE" TENSE="PRES" start="71" end="133"/>
+   <RELATION id="12" head="V206527" res="V206518" label="NEUTRAL"/>
+   <RELATION id="13" head="V206527" res="V206544" label="NEUTRAL1"/>
+   <PHRASE id="V206518" indicator="BARE" type="ICON" text="NAME-TAG" start="71" end="80" WNSENSE="name_tag%1:10:00"/>
+   <PHRASE id="V206544" indicator="BARE" type="BE-AT-LOC" text="STAND" start="83" end="133"/>
+   <RELATION id="14" head="V206544" res="V206553" label="LOCATION"/>
+   <PHRASE id="V206553" indicator="F" type="IN-LOC" text="IN" start="92" end="133"/>
+   <RELATION id="15" head="V206553" res="V206614" label="GROUND"/>
+   <RELATION id="16" head="V206553" res="V206544" label="FIGURE"/>
+   <PHRASE id="V206614" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="95" end="133"/>
+   <RELATION id="17" head="V206614" res="V206870" label="FIGURE"/>
+   <PHRASE id="V206870" indicator="QUANTIFIER" type="FURNISHINGS" text="DESK" QUAN="UNIVERSAL" start="101" end="133"/>
+   <RELATION id="18" head="V206870" res="V206698" label="REFSET"/>
+   <RELATION id="19" head="V206870" res="V206705" label="LOCATION"/>
+   <PHRASE id="V206698" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="108" end="133"/>
+   <RELATION id="20" head="V206698" res="V206705" label="LOCATION"/>
+   <RELATION id="21" head="V206698" res="V206410" label="COREF"/>
+   <PHRASE id="V206705" indicator="F" type="IN-LOC" text="IN" start="118" end="133"/>
+   <RELATION id="22" head="V206705" res="V206795" label="GROUND"/>
+   <RELATION id="23" head="V206705" res="V206698" label="FIGURE"/>
+   <PHRASE id="V206795" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="121" end="133"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

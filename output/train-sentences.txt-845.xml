@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="65">
+   <TEXT>an inner courtyard with a fountain and flower pots in the centre .</TEXT>
+   <RELATION id="1" head="V243404" res="V242018" label="CONTENT"/>
+   <PHRASE id="V242018" indicator="A" type="MANUFACTURED-OBJECT" text="COURTYARD" start="0" end="65"/>
+   <RELATION id="2" head="V242018" res="V242133" label="LOCATION"/>
+   <RELATION id="3" head="V242018" res="V242022" label="MOD"/>
+   <RELATION id="4" head="V242018" res="V242014" label="MOD"/>
+   <PHRASE id="V242014" indicator="F" type="INTERNAL" text="INNER" start="3" end="9"/>
+   <RELATION id="5" head="V242014" res="V242018" label="FIGURE"/>
+   <PHRASE id="V242022" indicator="F" type="ASSOC-WITH" text="WITH" start="19" end="51"/>
+   <RELATION id="6" head="V242022" res="V242083" label="GROUND"/>
+   <RELATION id="7" head="V242022" res="V242018" label="FIGURE"/>
+   <PHRASE id="V242083" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="24" end="51"/>
+   <RELATION id="8" head="V242083" res="V242076" label="SEQUENCE"/>
+   <RELATION id="9" head="V242083" res="V242101" label="SEQUENCE1"/>
+   <PHRASE id="V242076" indicator="A" type="MANUFACTURED-OBJECT" text="FOUNTAIN" start="24" end="35"/>
+   <PHRASE id="V242101" indicator="INDEF-SET" type="POT" text="POT" start="39" end="51"/>
+   <RELATION id="10" head="V242101" res="V242096" label="ASSOC-WITH"/>
+   <PHRASE id="V242096" indicator="KIND" type="PLANT" text="FLOWER" start="39" end="51"/>
+   <PHRASE id="V242133" indicator="F" type="IN-LOC" text="IN" start="51" end="65"/>
+   <RELATION id="11" head="V242133" res="V242189" label="GROUND"/>
+   <RELATION id="12" head="V242133" res="V242018" label="FIGURE"/>
+   <PHRASE id="V242189" indicator="THE" type="CENTER" text="CENTRE" start="54" end="65"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="A school kid is sitting at a desk , smiling into the camera and being offered a red apple .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?88906:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V282410)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?88904)
+                                           (W::TRANSFORM ?88905)))
+                                 (W::CASE ?88903:(W::SUB W::OBJ -))
+                                 (W::AGR ?88902) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V282410) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER282496))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?89202:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V282413)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?89200)
+                                           (W::TRANSFORM ?89201)))
+                                 (W::CASE ?89199:(W::SUB W::OBJ -))
+                                 (W::AGR ?89198) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V282413) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER282498))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?89511:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V282416)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?89509)
+                                           (W::TRANSFORM ?89510)))
+                                 (W::CASE ?89508:(W::SUB W::OBJ -))
+                                 (W::AGR ?89507) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V282416) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER282500))
+*last-utt-id*=NIL  utt-id+55
+*last-utt-id*=55  utt-id+55
+*last-utt-id*=55  utt-id+55
+*last-utt-id*=55  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::A W::SCHOOL W::KID W::IS W::SITTING W::AT W::A W::DESK W::PUNC-COMMA
+ W::SMILING)</lisp><word>A</word><word>SCHOOL</word><word>KID</word><word>IS</word><word>SITTING</word><word>AT</word><word>A</word><word>DESK</word><word>PUNC-COMMA</word><word>SMILING</word></words><tags><lisp>((WORD &quot;A&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;school&quot; :FRAME (2 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kid&quot; :FRAME (9 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;A school kid&quot; :FRAME (0 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 26.339 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (13 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (16 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (24 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (27 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;desk&quot; :FRAME (29 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a desk&quot; :FRAME (27 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.558 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at a desk&quot; :FRAME (24 33) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  15.886 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting at a desk&quot; :FRAME (16 33) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 24.583 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (34 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;smiling&quot; :FRAME (36 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="A" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="school" start="2" end="8"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="kid" start="9" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="A school kid" start="0" end="12" penn-cats="NP" score="26.339" /><word lex="is" start="13" end="15"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="sitting" start="16" end="23"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="24" end="26"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="27" end="28"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="desk" start="29" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a desk" start="27" end="33" penn-cats="NP" score="12.558" /><prefer text="at a desk" start="24" end="33" penn-cats="PP" score="15.886" /><prefer text="sitting at a desk" start="16" end="33" penn-cats="VP" score="24.583" /><word lex="," start="34" end="35"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="smiling" start="36" end="43"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT
+ (S
+  (S (NP (SPEC (DET (ART A))) (N1 (N1 (N SCHOOL)) (N1 (N KID))))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (VP- (V SITTING))
+      (ADVBL (ADV AT) (NP (SPEC (DET (ART A))) (N1 (N DESK))))))))
+  (PUNC PUNC-COMMA) (ADJP (V SMILING))))</lisp><UTT><S><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>SCHOOL</N></N1><N1><N>KID</N></N1></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>DESK</N></N1></NP></ADVBL></VP-></VP-></VP></S><PUNC>PUNC-COMMA</PUNC><ADJP><V>SMILING</V></ADJP></S></UTT></tree><terms root="#V280717"><lisp>((ONT::SPEECHACT ONT::V280717 ONT::SA_TELL :CONTENT ONT::V279246 :START 0 :END
+  44)
+ (ONT::F ONT::V279246 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :TIME ONT::V280714
+  :RESULT ONT::V279263 :AGENT ONT::V279218 :TENSE W::PRES :PROGR + :START 0
+  :END 44)
+ (ONT::F ONT::V280714 ONT::EVENT-TIME-REL :FIGURE ONT::V279246 :GROUND
+  ONT::V279323 :START 0 :END 44)
+ (ONT::A ONT::V279218 (:* ONT::CHILD W::KID) :ASSOC-WITH ONT::V279214 :START 0
+  :END 13)
+ (ONT::KIND ONT::V279214 (:* ONT::ACADEMIC-INSTITUTION W::SCHOOL) :START 0 :END
+  13)
+ (ONT::F ONT::V279263 (:* ONT::AT-LOC W::AT) :GROUND ONT::V279316 :FIGURE
+  ONT::V279218 :START 24 :END 34)
+ (ONT::A ONT::V279316 (:* ONT::FURNISHINGS W::DESK) :START 27 :END 34)
+ (ONT::F ONT::V279323 (:* ONT::NONVERBAL-EXPRESSION W::SMILE) :AGENT
+  ONT::V279218 :START 36 :END 44))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V280717">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V279246" />
+    <LF:start>0</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279246">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:TIME rdf:resource="#V280714" />
+    <role:RESULT rdf:resource="#V279263" />
+    <role:AGENT rdf:resource="#V279218" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V280714">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-TIME-REL</LF:type>
+    <role:FIGURE rdf:resource="#V279246" />
+    <role:GROUND rdf:resource="#V279323" />
+    <LF:start>0</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279218">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V279214" />
+    <LF:start>0</LF:start>
+    <LF:end>13</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279214">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>ACADEMIC-INSTITUTION</LF:type>
+    <LF:word>SCHOOL</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>13</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279263">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V279316" />
+    <role:FIGURE rdf:resource="#V279218" />
+    <LF:start>24</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279316">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>DESK</LF:word>
+    <LF:start>27</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279323">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>NONVERBAL-EXPRESSION</LF:type>
+    <LF:word>SMILE</LF:word>
+    <role:AGENT rdf:resource="#V279218" />
+    <LF:start>36</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::INTO W::THE W::CAMERA)</lisp><word>INTO</word><word>THE</word><word>CAMERA</word></words><tags><lisp>((WORD &quot;into&quot; :FRAME (44 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (49 52) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;camera&quot; :FRAME (53 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the camera&quot; :FRAME (49 59) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.042 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;into the camera&quot; :FRAME (44 59) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 16.516 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;smiling into the camera&quot; :FRAME (36 59) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 27.618 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="into" start="44" end="48"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="49" end="52"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="camera" start="53" end="59"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the camera" start="49" end="59" penn-cats="NP" score="12.042" /><prefer text="into the camera" start="44" end="59" penn-cats="PP" score="16.516" /><prefer text="smiling into the camera" start="36" end="59" penn-cats="VP" score="27.618" /></tags><tree><lisp>(ADVBL (ADV INTO) (NP (SPEC (DET (ART THE))) (N1 (N CAMERA))))</lisp><ADVBL><ADV>INTO</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>CAMERA</N></N1></NP></ADVBL></tree><terms root="#V279327"><lisp>((ONT::F ONT::V279327 (:* ONT::RESULTING-OBJECT W::INTO) :GROUND ONT::V279342
+  :START 44 :END 60)
+ (ONT::THE ONT::V279342 (:* ONT::RECORDING-DEVICE W::CAMERA) :START 49 :END 60))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V279327">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RESULTING-OBJECT</LF:type>
+    <LF:word>INTO</LF:word>
+    <role:GROUND rdf:resource="#V279342" />
+    <LF:start>44</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279342">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>RECORDING-DEVICE</LF:type>
+    <LF:word>CAMERA</LF:word>
+    <LF:start>49</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND W::BEING W::OFFERED W::A W::RED W::APPLE W::PUNC-PERIOD)</lisp><word>AND</word><word>BEING</word><word>OFFERED</word><word>A</word><word>RED</word><word>APPLE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (60 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;being&quot; :FRAME (64 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;offered&quot; :FRAME (70 77) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (78 79) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (80 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;apple&quot; :FRAME (84 89) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a red apple&quot; :FRAME (78 89) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 20.086 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;offered a red apple&quot; :FRAME (70 89) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 28.869 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;being offered a red apple&quot; :FRAME (64 89) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 32.171 :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;sitting at a desk , smiling into the camera and being offered a red apple&quot;
+  :FRAME (16 89) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 92.095 :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;is sitting at a desk , smiling into the camera and being offered a red apple&quot;
+  :FRAME (13 89) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 96.356 :UTTNUM 55
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (90 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 55 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;A school kid is sitting at a desk , smiling into the camera and being offered a red apple .&quot;
+  :FRAME (0 90) :PENN-CATS (S) :SCORE 123.836 :UTTNUM 55 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="and" start="60" end="63"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="being" start="64" end="69"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="offered" start="70" end="77"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="a" start="78" end="79"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="80" end="83"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="apple" start="84" end="89"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a red apple" start="78" end="89" penn-cats="NP" score="20.086" /><prefer text="offered a red apple" start="70" end="89" penn-cats="VP" score="28.869" /><prefer text="being offered a red apple" start="64" end="89" penn-cats="VP" score="32.171" /><prefer text="sitting at a desk , smiling into the camera and being offered a red apple" start="16" end="89" penn-cats="VP" score="92.095" /><prefer text="is sitting at a desk , smiling into the camera and being offered a red apple" start="13" end="89" penn-cats="VP" score="96.356" /><word lex="." start="90" end="90"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="A school kid is sitting at a desk , smiling into the camera and being offered a red apple ." start="0" end="90" penn-cats="S" score="123.836" /></tags><tree><lisp>(UTT
+ (UTT (ADVBL (ADV AND))
+  (UTT
+   (S (NP (N1 (N BEING)))
+    (VP
+     (VP- (V OFFERED)
+      (NP (SPEC (DET (ART A)))
+       (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N APPLE)))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><S><NP><N1><N>BEING</N></N1></NP><VP><VP-><V>OFFERED</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>APPLE</N></N1></N1></NP></VP-></VP></S></UTT></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V282668"><lisp>((ONT::SPEECHACT ONT::V282668 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V279367 :MOD ONT::V279347 :START 60 :END 90)
+ (ONT::F ONT::V279347 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V282668 :START 60
+  :END 64)
+ (ONT::F ONT::V279367 (:* ONT::OFFER W::OFFER) :AGENT ONT::V279358 :AFFECTED
+  ONT::V279425 :TENSE W::PAST :START 64 :END 90)
+ (ONT::BARE ONT::V279358 (:* ONT::ORGANISM W::BEING) :START 64 :END 70)
+ (ONT::A ONT::V279425 (:* ONT::FRUIT W::APPLE) :MOD ONT::V279412 :START 78 :END
+  90)
+ (ONT::F ONT::V279412 (:* ONT::RED W::RED) :FIGURE ONT::V279425 :SCALE
+  ONT::COLOR-SCALE :START 80 :END 84))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V282668">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V279367" />
+    <role:MOD rdf:resource="#V279347" />
+    <LF:start>60</LF:start>
+    <LF:end>90</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279347">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V282668" />
+    <LF:start>60</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279367">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>OFFER</LF:type>
+    <LF:word>OFFER</LF:word>
+    <role:AGENT rdf:resource="#V279358" />
+    <role:AFFECTED rdf:resource="#V279425" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>64</LF:start>
+    <LF:end>90</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279358">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ORGANISM</LF:type>
+    <LF:word>BEING</LF:word>
+    <LF:start>64</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279425">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FRUIT</LF:type>
+    <LF:word>APPLE</LF:word>
+    <role:MOD rdf:resource="#V279412" />
+    <LF:start>78</LF:start>
+    <LF:end>90</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V279412">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RED</LF:type>
+    <LF:word>RED</LF:word>
+    <role:FIGURE rdf:resource="#V279425" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>80</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

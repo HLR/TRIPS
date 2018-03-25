@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="local kids are sitting at their desks , singing and clapping .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+27
+*last-utt-id*=27  utt-id+NIL</debug><utt><words><lisp>(W::LOCAL W::KIDS W::ARE W::SITTING W::AT W::THEIR W::DESKS W::PUNC-COMMA
+ W::SINGING W::AND W::CLAPPING W::PUNC-PERIOD)</lisp><word>LOCAL</word><word>KIDS</word><word>ARE</word><word>SITTING</word><word>AT</word><word>THEIR</word><word>DESKS</word><word>PUNC-COMMA</word><word>SINGING</word><word>AND</word><word>CLAPPING</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;local&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kids&quot; :FRAME (6 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;local kids&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  17.607 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (11 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (15 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (23 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;their&quot; :FRAME (26 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;desks&quot; :FRAME (32 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;their desks&quot; :FRAME (26 37) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.982 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at their desks&quot; :FRAME (23 37) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 18.31 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (38 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;singing&quot; :FRAME (40 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (48 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;clapping&quot; :FRAME (52 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;singing and clapping&quot; :FRAME (40 60) :PENN-CATS (S) :SCORE 28.622
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;singing and clapping&quot; :FRAME (40 60) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 26.971 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting at their desks , singing and clapping&quot; :FRAME (15 60)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 59.811 :UTTNUM 27 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;are sitting at their desks , singing and clapping&quot; :FRAME (11 60)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 64.174 :UTTNUM 27 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (61 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;local kids are sitting at their desks , singing and clapping .&quot;
+  :FRAME (0 61) :PENN-CATS (S) :SCORE 82.923 :UTTNUM 27 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="local" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="kids" start="6" end="10"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="local kids" start="0" end="10" penn-cats="NP" score="17.607" /><word lex="are" start="11" end="14"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="15" end="22"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="23" end="25"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="their" start="26" end="31"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="desks" start="32" end="37"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="their desks" start="26" end="37" penn-cats="NP" score="14.982" /><prefer text="at their desks" start="23" end="37" penn-cats="PP" score="18.31" /><word lex="," start="38" end="39"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="singing" start="40" end="47"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="and" start="48" end="51"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="clapping" start="52" end="60"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><prefer text="singing and clapping" start="40" end="60" penn-cats="S" score="28.622" /><prefer text="singing and clapping" start="40" end="60" penn-cats="VP" score="26.971" /><prefer text="sitting at their desks , singing and clapping" start="15" end="60" penn-cats="VP" score="59.811" /><prefer text="are sitting at their desks , singing and clapping" start="11" end="60" penn-cats="VP" score="64.174" /><word lex="." start="61" end="61"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="local kids are sitting at their desks , singing and clapping ." start="0" end="61" penn-cats="S" score="82.923" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (S (NP (N1 (ADJP (ADJ1 (ADJ LOCAL))) (N1 (N KIDS))))
+    (VP
+     (VP- (AUX (V ARE))
+      (VP- (VP- (V SITTING))
+       (ADVBL (ADV AT)
+        (NP (SPEC (DET (POSSESSOR (PRO THEIR)))) (N1 (N DESKS))))))))
+   (PUNC PUNC-COMMA) (ADJP (ADJP (V SINGING)) (CONJ AND) (ADJP (V CLAPPING)))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><S><NP><N1><ADJP><ADJ1><ADJ>LOCAL</ADJ></ADJ1></ADJP><N1><N>KIDS</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>AT</ADV><NP><SPEC><DET><POSSESSOR><PRO>THEIR</PRO></POSSESSOR></DET></SPEC><N1><N>DESKS</N></N1></NP></ADVBL></VP-></VP-></VP></S><PUNC>PUNC-COMMA</PUNC><ADJP><ADJP><V>SINGING</V></ADJP><CONJ>AND</CONJ><ADJP><V>CLAPPING</V></ADJP></ADJP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V142273"><lisp>((ONT::SPEECHACT ONT::V142273 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V140785 :START 0 :END 61)
+ (ONT::F ONT::V140785 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :TIME ONT::V142062
+  :RESULT ONT::V140802 :AGENT ONT::V140759 :TENSE W::PRES :PROGR + :START 0
+  :END 61)
+ (ONT::F ONT::V142062 ONT::EVENT-TIME-REL :FIGURE ONT::V140785 :GROUND
+  ONT::V140927 :START 0 :END 61)
+ (ONT::INDEF-SET ONT::V140759 (:* ONT::CHILD W::KID) :MOD ONT::V140755 :START 0
+  :END 11)
+ (ONT::F ONT::V140755 (:* ONT::LOCAL-VAL W::LOCAL) :SCALE ONT::LINEAR-SCALE
+  :INTENSITY ONT::MED :ORIENTATION ONT::LESS :FIGURE ONT::V140759 :START 0 :END
+  6)
+ (ONT::F ONT::V140802 (:* ONT::AT-LOC W::AT) :GROUND ONT::V140817 :FIGURE
+  ONT::V140759 :START 23 :END 38)
+ (ONT::THE-SET ONT::V140817 (:* ONT::FURNISHINGS W::DESK) :ASSOC-POSS
+  ONT::V140814 :START 26 :END 38)
+ (ONT::PRO ONT::V140814 (:* ONT::REFERENTIAL-SEM W::THEIR) :PROFORM W::THEIR
+  :START 26 :END 38 :COREF ONT::V140759)
+ (ONT::F ONT::V140927 ONT::EVENT-OF-ACTION :SEQUENCE
+  (ONT::V140824 ONT::V140840) :OPERATOR ONT::AND :START 40 :END 61)
+ (ONT::F ONT::V140824 (:* ONT::NONVERBAL-EXPRESSION W::SING) :AGENT
+  ONT::V140759 :START 40 :END 48)
+ (ONT::F ONT::V140840 (:* ONT::PUT W::CLAPPING) :AGENT ONT::V140759 :START 52
+  :END 61))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V142273">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V140785" />
+    <LF:start>0</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140785">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:TIME rdf:resource="#V142062" />
+    <role:RESULT rdf:resource="#V140802" />
+    <role:AGENT rdf:resource="#V140759" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142062">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-TIME-REL</LF:type>
+    <role:FIGURE rdf:resource="#V140785" />
+    <role:GROUND rdf:resource="#V140927" />
+    <LF:start>0</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140759">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:MOD rdf:resource="#V140755" />
+    <LF:start>0</LF:start>
+    <LF:end>11</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140755">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LOCAL-VAL</LF:type>
+    <LF:word>LOCAL</LF:word>
+    <role:SCALE>LINEAR-SCALE</role:SCALE>
+    <role:INTENSITY>MED</role:INTENSITY>
+    <role:ORIENTATION>LESS</role:ORIENTATION>
+    <role:FIGURE rdf:resource="#V140759" />
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140802">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V140817" />
+    <role:FIGURE rdf:resource="#V140759" />
+    <LF:start>23</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140817">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>DESK</LF:word>
+    <role:ASSOC-POSS rdf:resource="#V140814" />
+    <LF:start>26</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140814">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THEIR</LF:word>
+    <role:PROFORM>THEIR</role:PROFORM>
+    <LF:start>26</LF:start>
+    <LF:end>38</LF:end>
+    <role:COREF rdf:resource="#V140759" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140927">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-OF-ACTION</LF:type>
+    <role:SEQUENCE rdf:resource="#V140824" />
+    <role:SEQUENCE1 rdf:resource="#V140840" />
+    <role:OPERATOR>AND</role:OPERATOR>
+    <LF:start>40</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140824">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>NONVERBAL-EXPRESSION</LF:type>
+    <LF:word>SING</LF:word>
+    <role:AGENT rdf:resource="#V140759" />
+    <LF:start>40</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V140840">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PUT</LF:type>
+    <LF:word>CLAPPING</LF:word>
+    <role:AGENT rdf:resource="#V140759" />
+    <LF:start>52</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

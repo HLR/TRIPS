@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="37">
+   <TEXT>further curtains and a standard lamp .</TEXT>
+   <RELATION id="1" head="V266090" res="V265972" label="CONTENT"/>
+   <PHRASE id="V265972" indicator="INDEF-SET" type="DEVICE-COMPONENT" OPERATOR="AND" start="0" end="37"/>
+   <RELATION id="2" head="V265972" res="V265968" label="SEQUENCE"/>
+   <RELATION id="3" head="V265972" res="V266031" label="SEQUENCE1"/>
+   <PHRASE id="V265968" indicator="INDEF-SET" type="COVERING" text="CURTAIN" start="0" end="17"/>
+   <RELATION id="4" head="V265968" res="V265962" label="MOD"/>
+   <PHRASE id="V265962" indicator="F" type="REMOTE" text="FURTHER" SCALE="LINEAR-SCALE" start="0" end="8"/>
+   <RELATION id="5" head="V265962" res="V265968" label="FIGURE"/>
+   <PHRASE id="V266031" indicator="A" type="DEVICE-COMPONENT" text="LAMP" start="21" end="37"/>
+   <RELATION id="6" head="V266031" res="V266022" label="MOD"/>
+   <PHRASE id="V266022" indicator="F" type="TYPICAL-VAL" text="STANDARD" start="23" end="32"/>
+   <RELATION id="7" head="V266022" res="V266031" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

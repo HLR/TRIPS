@@ -1,0 +1,292 @@
+2,256c2,35
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Children are sitting at their desks and are singing a song with their teacher .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?34692:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V50523)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?34690)
+<                                            (W::TRANSFORM ?34691)))
+<                                  (W::CASE ?34689:(W::SUB W::OBJ -))
+<                                  (W::AGR ?34688) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V50523) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER50586))
+< *last-utt-id*=NIL  utt-id+4
+< *last-utt-id*=4  utt-id+NIL</debug><utt><words><lisp>(W::CHILDREN W::ARE W::SITTING W::AT W::THEIR W::DESKS W::AND W::ARE W::SINGING
+<  W::A W::SONG W::WITH W::THEIR W::TEACHER W::PUNC-PERIOD)</lisp><word>CHILDREN</word><word>ARE</word><word>SITTING</word><word>AT</word><word>THEIR</word><word>DESKS</word><word>AND</word><word>ARE</word><word>SINGING</word><word>A</word><word>SONG</word><word>WITH</word><word>THEIR</word><word>TEACHER</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Children&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+<     (ONT::GEOGRAPHIC-REGION)))
+<   :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Children&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.539 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (9 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (13 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (21 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;their&quot; :FRAME (24 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;desks&quot; :FRAME (30 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;their desks&quot; :FRAME (24 35) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.982 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at their desks&quot; :FRAME (21 35) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 18.31 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting at their desks&quot; :FRAME (13 35) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 27.007 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are sitting at their desks&quot; :FRAME (9 35) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 32.722 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (36 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (40 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;singing&quot; :FRAME (44 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (52 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;song&quot; :FRAME (54 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a song&quot; :FRAME (52 58) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.682 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (59 63) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;their&quot; :FRAME (64 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;teacher&quot; :FRAME (70 77) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;their teacher&quot; :FRAME (64 77) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 15.966 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with their teacher&quot; :FRAME (59 77) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 19.233 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;singing a song with their teacher&quot; :FRAME (44 77) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 44.537 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are singing a song with their teacher&quot; :FRAME (40 77) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 50.252 :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are sitting at their desks and are singing a song with their teacher&quot;
+<   :FRAME (9 77) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 87.247 :UTTNUM 4
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (78 78) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 4 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;Children are sitting at their desks and are singing a song with their teacher .&quot;
+<   :FRAME (0 78) :PENN-CATS (S) :SCORE 100.928 :UTTNUM 4 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="Children" start="0" end="8"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><prefer text="Children" start="0" end="8" penn-cats="NP" score="12.539" /><word lex="are" start="9" end="12"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="13" end="20"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="21" end="23"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="their" start="24" end="29"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="desks" start="30" end="35"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="their desks" start="24" end="35" penn-cats="NP" score="14.982" /><prefer text="at their desks" start="21" end="35" penn-cats="PP" score="18.31" /><prefer text="sitting at their desks" start="13" end="35" penn-cats="VP" score="27.007" /><prefer text="are sitting at their desks" start="9" end="35" penn-cats="VP" score="32.722" /><word lex="and" start="36" end="39"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="are" start="40" end="43"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="singing" start="44" end="51"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="52" end="53"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="song" start="54" end="58"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a song" start="52" end="58" penn-cats="NP" score="12.682" /><word lex="with" start="59" end="63"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="their" start="64" end="69"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="teacher" start="70" end="77"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="their teacher" start="64" end="77" penn-cats="NP" score="15.966" /><prefer text="with their teacher" start="59" end="77" penn-cats="PP" score="19.233" /><prefer text="singing a song with their teacher" start="44" end="77" penn-cats="VP" score="44.537" /><prefer text="are singing a song with their teacher" start="40" end="77" penn-cats="VP" score="50.252" /><prefer text="are sitting at their desks and are singing a song with their teacher" start="9" end="77" penn-cats="VP" score="87.247" /><word lex="." start="78" end="78"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Children are sitting at their desks and are singing a song with their teacher ." start="0" end="78" penn-cats="S" score="100.928" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (S (NP (N1 (N CHILDREN)))
+<     (VP
+<      (VP- (AUX (V ARE))
+<       (VP- (VP- (V SITTING))
+<        (ADVBL (ADV AT)
+<         (NP (SPEC (DET (POSSESSOR (PRO THEIR)))) (N1 (N DESKS))))))))
+<    (CONJ AND)
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (V SINGING)
+<       (NP (SPEC (DET (ART A)))
+<        (N1 (N1 (N SONG))
+<         (ADVBL (ADV WITH)
+<          (NP (SPEC (DET (POSSESSOR (PRO THEIR)))) (N1 (N TEACHER)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><S><NP><N1><N>CHILDREN</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>AT</ADV><NP><SPEC><DET><POSSESSOR><PRO>THEIR</PRO></POSSESSOR></DET></SPEC><N1><N>DESKS</N></N1></NP></ADVBL></VP-></VP-></VP></S><CONJ>AND</CONJ><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>SINGING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>SONG</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><POSSESSOR><PRO>THEIR</PRO></POSSESSOR></DET></SPEC><N1><N>TEACHER</N></N1></NP></ADVBL></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V50104"><lisp>((ONT::SPEECHACT ONT::V50104 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V49623 :START 0 :END 78)
+<  (ONT::F ONT::V49623 ONT::EVENT-OF-ACTION :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V49587 ONT::V49650) :TENSE W::PRES :PROGR + :START 0 :END 78)
+<  (ONT::F ONT::V49587 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V49604
+<   :AGENT ONT::V49557 :TENSE W::PRES :PROGR + :START 0 :END 36)
+<  (ONT::INDEF-SET ONT::V49557 (:* ONT::CHILD W::CHILD) :START 0 :END 9)
+<  (ONT::F ONT::V49604 (:* ONT::AT-LOC W::AT) :GROUND ONT::V49619 :FIGURE
+<   ONT::V49557 :START 21 :END 36)
+<  (ONT::THE-SET ONT::V49619 (:* ONT::FURNISHINGS W::DESK) :ASSOC-POSS
+<   ONT::V49616 :START 24 :END 36)
+<  (ONT::PRO ONT::V49616 (:* ONT::REFERENTIAL-SEM W::THEIR) :PROFORM W::THEIR
+<   :START 24 :END 36 :COREF ONT::V49557)
+<  (ONT::F ONT::V49650 (:* ONT::NONVERBAL-EXPRESSION W::SING) :AGENT ONT::V49557
+<   :NEUTRAL ONT::V49696 :TENSE W::PRES :PROGR + :START 40 :END 78)
+<  (ONT::A ONT::V49696 (:* ONT::MUSIC W::SONG) :MOD ONT::V49700 :START 52 :END
+<   78)
+<  (ONT::F ONT::V49700 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V49715 :FIGURE
+<   ONT::V49696 :START 59 :END 78)
+<  (ONT::THE ONT::V49715 (:* ONT::PROFESSIONAL W::TEACHER) :ASSOC-POSS
+<   ONT::V49712 :START 64 :END 78)
+<  (ONT::PRO ONT::V49712 (:* ONT::REFERENTIAL-SEM W::THEIR) :PROFORM W::THEIR
+<   :START 64 :END 78 :COREF ONT::V49557))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V50104">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V49623" />
+<     <LF:start>0</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49623">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EVENT-OF-ACTION</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V49587" />
+<     <role:SEQUENCE1 rdf:resource="#V49650" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49587">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:RESULT rdf:resource="#V49604" />
+<     <role:AGENT rdf:resource="#V49557" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>36</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49557">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>CHILD</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>9</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49604">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V49619" />
+<     <role:FIGURE rdf:resource="#V49557" />
+<     <LF:start>21</LF:start>
+<     <LF:end>36</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49619">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>DESK</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V49616" />
+<     <LF:start>24</LF:start>
+<     <LF:end>36</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49616">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEIR</LF:word>
+<     <role:PROFORM>THEIR</role:PROFORM>
+<     <LF:start>24</LF:start>
+<     <LF:end>36</LF:end>
+<     <role:COREF rdf:resource="#V49557" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49650">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>NONVERBAL-EXPRESSION</LF:type>
+<     <LF:word>SING</LF:word>
+<     <role:AGENT rdf:resource="#V49557" />
+<     <role:NEUTRAL rdf:resource="#V49696" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>40</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49696">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>MUSIC</LF:type>
+<     <LF:word>SONG</LF:word>
+<     <role:MOD rdf:resource="#V49700" />
+<     <LF:start>52</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49700">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V49715" />
+<     <role:FIGURE rdf:resource="#V49696" />
+<     <LF:start>59</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49715">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>PROFESSIONAL</LF:type>
+<     <LF:word>TEACHER</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V49712" />
+<     <LF:start>64</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V49712">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEIR</LF:word>
+<     <role:PROFORM>THEIR</role:PROFORM>
+<     <LF:start>64</LF:start>
+<     <LF:end>78</LF:end>
+<     <role:COREF rdf:resource="#V49557" />
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="78">
+>    <TEXT>Children are sitting at their desks and are singing a song with their teacher .</TEXT>
+>    <RELATION id="1" head="V50104" res="V49623" label="CONTENT"/>
+>    <PHRASE id="V49623" indicator="F" type="EVENT-OF-ACTION" OPERATOR="AND" TENSE="PRES" PROGR="+" start="0" end="78"/>
+>    <RELATION id="2" head="V49623" res="V49587" label="SEQUENCE"/>
+>    <RELATION id="3" head="V49623" res="V49650" label="SEQUENCE1"/>
+>    <PHRASE id="V49587" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="36"/>
+>    <RELATION id="4" head="V49587" res="V49604" label="RESULT"/>
+>    <RELATION id="5" head="V49587" res="V49557" label="AGENT"/>
+>    <PHRASE id="V49557" indicator="INDEF-SET" type="CHILD" text="CHILD" start="0" end="9"/>
+>    <PHRASE id="V49604" indicator="F" type="AT-LOC" text="AT" start="21" end="36"/>
+>    <RELATION id="6" head="V49604" res="V49619" label="GROUND"/>
+>    <RELATION id="7" head="V49604" res="V49557" label="FIGURE"/>
+>    <PHRASE id="V49619" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="24" end="36"/>
+>    <RELATION id="8" head="V49619" res="V49616" label="ASSOC-POSS"/>
+>    <PHRASE id="V49616" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="24" end="36"/>
+>    <RELATION id="9" head="V49616" res="V49557" label="COREF"/>
+>    <PHRASE id="V49650" indicator="F" type="NONVERBAL-EXPRESSION" text="SING" TENSE="PRES" PROGR="+" start="40" end="78"/>
+>    <RELATION id="10" head="V49650" res="V49557" label="AGENT"/>
+>    <RELATION id="11" head="V49650" res="V49696" label="NEUTRAL"/>
+>    <PHRASE id="V49696" indicator="A" type="MUSIC" text="SONG" start="52" end="78"/>
+>    <RELATION id="12" head="V49696" res="V49700" label="MOD"/>
+>    <PHRASE id="V49700" indicator="F" type="ASSOC-WITH" text="WITH" start="59" end="78"/>
+>    <RELATION id="13" head="V49700" res="V49715" label="GROUND"/>
+>    <RELATION id="14" head="V49700" res="V49696" label="FIGURE"/>
+>    <PHRASE id="V49715" indicator="THE" type="PROFESSIONAL" text="TEACHER" start="64" end="78"/>
+>    <RELATION id="15" head="V49715" res="V49712" label="ASSOC-POSS"/>
+>    <PHRASE id="V49712" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="64" end="78"/>
+>    <RELATION id="16" head="V49712" res="V49557" label="COREF"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

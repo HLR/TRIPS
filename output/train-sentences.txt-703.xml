@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="PORTRAIT-VAL" text="PORTRAIT" start="0" end="9">
+   <TEXT>portrait o</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="CONTAIN-RELN" text="OF" start="9" end="45">
+   <TEXT>of a dark-haired , dark-skinned boy w</TEXT>
+   <RELATION id="1" head="V44066" res="V44165" label="GROUND"/>
+   <PHRASE id="V44165" indicator="A" type="MALE-CHILD" text="BOY" start="12" end="45"/>
+   <RELATION id="2" head="V44165" res="V44131" label="MOD"/>
+   <RELATION id="3" head="V44165" res="V44138" label="MOD"/>
+   <RELATION id="4" head="V44165" res="V44148" label="MOD"/>
+   <PHRASE id="V44131" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="14" end="26" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V44131" res="V44165" label="FIGURE"/>
+   <PHRASE id="V44138" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="28" end="32"/>
+   <RELATION id="6" head="V44138" res="V44165" label="FIGURE"/>
+   <PHRASE id="V44148" indicator="F" type="MOVE" text="SKINNED" start="33" end="41"/>
+   <RELATION id="7" head="V44148" res="V44165" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="45" end="107">
+   <TEXT>wearing a black cap with a red shield and a light blue jacket .</TEXT>
+   <RELATION id="8" head="V46122" res="V44171" label="CONTENT"/>
+   <PHRASE id="V44171" indicator="BARE" type="WEAR" text="WEAR" start="45" end="107"/>
+   <RELATION id="9" head="V44171" res="V44292" label="NEUTRAL"/>
+   <PHRASE id="V44292" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="53" end="107"/>
+   <RELATION id="10" head="V44292" res="V44221" label="SEQUENCE"/>
+   <RELATION id="11" head="V44292" res="V44379" label="SEQUENCE1"/>
+   <PHRASE id="V44221" indicator="A" type="ATTIRE" text="CAP" start="53" end="83"/>
+   <RELATION id="12" head="V44221" res="V44227" label="MOD"/>
+   <RELATION id="13" head="V44221" res="V44218" label="MOD"/>
+   <PHRASE id="V44218" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="55" end="61"/>
+   <RELATION id="14" head="V44218" res="V44221" label="FIGURE"/>
+   <PHRASE id="V44227" indicator="F" type="ASSOC-WITH" text="WITH" start="65" end="83"/>
+   <RELATION id="15" head="V44227" res="V44288" label="GROUND"/>
+   <RELATION id="16" head="V44227" res="V44221" label="FIGURE"/>
+   <PHRASE id="V44288" indicator="A" type="COVERING" text="SHIELD" start="70" end="83"/>
+   <RELATION id="17" head="V44288" res="V44280" label="MOD"/>
+   <PHRASE id="V44280" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="72" end="76"/>
+   <RELATION id="18" head="V44280" res="V44288" label="FIGURE"/>
+   <PHRASE id="V44379" indicator="A" type="ATTIRE" text="JACKET" start="87" end="107"/>
+   <RELATION id="19" head="V44379" res="V44344" label="MOD"/>
+   <RELATION id="20" head="V44379" res="V44367" label="MOD"/>
+   <PHRASE id="V44344" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="89" end="95"/>
+   <RELATION id="21" head="V44344" res="V44379" label="FIGURE"/>
+   <PHRASE id="V44367" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="95" end="100"/>
+   <RELATION id="22" head="V44367" res="V44379" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

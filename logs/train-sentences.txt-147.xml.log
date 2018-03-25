@@ -1,0 +1,368 @@
+2,318c2,49
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="two people are sitting next to her , six others are standing about ten metres away from the table .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+36
+< *last-utt-id*=36  utt-id+NIL
+< *last-utt-id*=NIL  utt-id+36
+< *last-utt-id*=36  utt-id+36
+< *last-utt-id*=36  utt-id+NIL</debug><utt><words><lisp>(W::TWO W::PEOPLE W::ARE W::SITTING W::NEXT W::TO W::HER W::PUNC-COMMA)</lisp><word>TWO</word><word>PEOPLE</word><word>ARE</word><word>SITTING</word><word>NEXT</word><word>TO</word><word>HER</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;two&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;people&quot; :FRAME (4 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two people&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.859 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (11 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (15 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;next&quot; :FRAME (23 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;next&quot; :FRAME (23 27) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+<   8.056 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;to&quot; :FRAME (28 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;her&quot; :FRAME (31 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;her&quot; :FRAME (31 34) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 9.988
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to her&quot; :FRAME (28 34) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   12.456 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting next to her&quot; :FRAME (15 34) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 31.331 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are sitting next to her&quot; :FRAME (11 34) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 35.694 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two people are sitting next to her&quot; :FRAME (0 34) :PENN-CATS (S)
+<   :SCORE 50.109 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (35 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="two" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="people" start="4" end="10"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two people" start="0" end="10" penn-cats="NP" score="13.859" /><word lex="are" start="11" end="14"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="15" end="22"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="next" start="23" end="27"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="next" start="23" end="27" penn-cats="ADVP" score="8.056" /><word lex="to" start="28" end="30"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="her" start="31" end="34"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="her" start="31" end="34" penn-cats="NP" score="9.988" /><prefer text="to her" start="28" end="34" penn-cats="PP" score="12.456" /><prefer text="sitting next to her" start="15" end="34" penn-cats="VP" score="31.331" /><prefer text="are sitting next to her" start="11" end="34" penn-cats="VP" score="35.694" /><prefer text="two people are sitting next to her" start="0" end="34" penn-cats="S" score="50.109" /><word lex="," start="35" end="35"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (N1 (ADJP (NUMBER TWO)) (N1 (N PEOPLE))))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (VP- (V SITTING))
+<       (ADVBL (ADV (WORD NEXT) (WORD TO)) (NP (PRO HER))))))))
+<  (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>PEOPLE</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV><WORD>NEXT</WORD><WORD>TO</WORD></ADV><NP><PRO>HER</PRO></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V156293"><lisp>((ONT::SPEECHACT ONT::V156293 ONT::SA_TELL :CONTENT ONT::V155944 :START 0 :END
+<   35)
+<  (ONT::F ONT::V155944 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V155956
+<   :AGENT ONT::V155918 :TENSE W::PRES :PROGR + :START 0 :END 35)
+<  (ONT::INDEF-SET ONT::V155918 (:* ONT::PERSON W::PERSON) :SIZE ONT::V155916
+<   :START 0 :END 11)
+<  (ONT::A ONT::V155916 ONT::NUMBER :VALUE 2 :START 0 :END 4)
+<  (ONT::F ONT::V155956 (:* ONT::ADJACENT W::NEXT-TO) :GROUND ONT::V155991
+<   :FIGURE ONT::V155918 :START 23 :END 35)
+<  (ONT::PRO ONT::V155991 (:* ONT::FEMALE-PERSON W::HER) :PROFORM W::HER :START
+<   31 :END 35))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V156293">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V155944" />
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V155944">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:RESULT rdf:resource="#V155956" />
+<     <role:AGENT rdf:resource="#V155918" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V155918">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <LF:word>PERSON</LF:word>
+<     <role:SIZE rdf:resource="#V155916" />
+<     <LF:start>0</LF:start>
+<     <LF:end>11</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V155916">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>2</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>4</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V155956">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ADJACENT</LF:type>
+<     <LF:word>NEXT-TO</LF:word>
+<     <role:GROUND rdf:resource="#V155991" />
+<     <role:FIGURE rdf:resource="#V155918" />
+<     <LF:start>23</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V155991">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>HER</LF:word>
+<     <role:PROFORM>HER</role:PROFORM>
+<     <LF:start>31</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><compound-communication-act>
+< <utt><words><lisp>(W::SIX W::OTHERS)</lisp><word>SIX</word><word>OTHERS</word></words><tags><lisp>((WORD &quot;six&quot; :FRAME (37 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;others&quot; :FRAME (41 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;six others&quot; :FRAME (37 47) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   16.533 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="six" start="37" end="40"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="others" start="41" end="47"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="six others" start="37" end="47" penn-cats="NP" score="16.533" /></tags><tree><lisp>(ADJP (NUMBER SIX) (N1 (N OTHERS)))</lisp><ADJP><NUMBER>SIX</NUMBER><N1><N>OTHERS</N></N1></ADJP></tree><terms root="#V157650"><lisp>((ONT::F ONT::V157650 ONT::ASSOC-WITH :GROUND ONT::V157504 :START 37 :END 48)
+<  (ONT::KIND ONT::V157504 (:* ONT::OTHER W::OTHERS) :AMOUNT 6 :START 37 :END 48))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V157650">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <role:GROUND rdf:resource="#V157504" />
+<     <LF:start>37</LF:start>
+<     <LF:end>48</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157504">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <LF:word>OTHERS</LF:word>
+<     <role:AMOUNT>6</role:AMOUNT>
+<     <LF:start>37</LF:start>
+<     <LF:end>48</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::ARE W::STANDING W::ABOUT W::TEN W::METRES W::AWAY W::FROM W::THE W::TABLE
+<  W::PUNC-PERIOD)</lisp><word>ARE</word><word>STANDING</word><word>ABOUT</word><word>TEN</word><word>METRES</word><word>AWAY</word><word>FROM</word><word>THE</word><word>TABLE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;are&quot; :FRAME (48 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing&quot; :FRAME (52 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;about&quot; :FRAME (61 66) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;ten&quot; :FRAME (67 70) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD NN) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT W::N)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;metres&quot; :FRAME (71 77) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;ten metres&quot; :FRAME (67 77) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   27.391 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;about ten metres&quot; :FRAME (61 77) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 32.415 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;away&quot; :FRAME (78 82) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;away&quot; :FRAME (78 82) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+<   5.8 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;from&quot; :FRAME (83 87) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (88 91) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;table&quot; :FRAME (92 97) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 36
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the table&quot; :FRAME (88 97) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.209 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;from the table&quot; :FRAME (83 97) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.331 :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;standing about ten metres away from the table&quot; :FRAME (52 97)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 67.581 :UTTNUM 36 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;are standing about ten metres away from the table&quot; :FRAME (48 97)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 71.944 :UTTNUM 36 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (98 98) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 36 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="are" start="48" end="51"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="52" end="60"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="about" start="61" end="66"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="ten" start="67" end="70"><sense-info penn-parts-of-speech="CD,NN" trips-parts-of-speech="NUMBER,NUMBER-UNIT,N" /></word><word lex="metres" start="71" end="77"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="ten metres" start="67" end="77" penn-cats="NP" score="27.391" /><prefer text="about ten metres" start="61" end="77" penn-cats="PP" score="32.415" /><word lex="away" start="78" end="82"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="away" start="78" end="82" penn-cats="ADVP" score="5.8" /><word lex="from" start="83" end="87"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="88" end="91"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="table" start="92" end="97"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the table" start="88" end="97" penn-cats="NP" score="11.209" /><prefer text="from the table" start="83" end="97" penn-cats="PP" score="14.331" /><prefer text="standing about ten metres away from the table" start="52" end="97" penn-cats="VP" score="67.581" /><prefer text="are standing about ten metres away from the table" start="48" end="97" penn-cats="VP" score="71.944" /><word lex="." start="98" end="98"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (VP
+<    (VP-
+<     (VP- (V ARE)
+<      (NP
+<       (N1
+<        (N1 (N1 (V STANDING))
+<         (ADVBL (ADV ABOUT) (NP (NUMBER TEN) (N1 (N METRES)))))
+<        (ADVBL (ADV AWAY)))))
+<     (ADVBL (ADV FROM) (NP (SPEC (DET (ART THE))) (N1 (N TABLE)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><VP><VP-><VP-><V>ARE</V><NP><N1><N1><N1><V>STANDING</V></N1><ADVBL><ADV>ABOUT</ADV><NP><NUMBER>TEN</NUMBER><N1><N>METRES</N></N1></NP></ADVBL></N1><ADVBL><ADV>AWAY</ADV></ADVBL></N1></NP></VP-><ADVBL><ADV>FROM</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>TABLE</N></N1></NP></ADVBL></VP-></VP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V159096"><lisp>((ONT::SPEECHACT ONT::V159096 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V157514 :START 48 :END 98)
+<  (ONT::F ONT::V157514 (:* ONT::BE W::BE) :NEUTRAL ONT::V159097 :NEUTRAL1
+<   ONT::V157530 :SOURCE ONT::V157563 :TENSE W::PRES :START 48 :END 98)
+<  (ONT::IMPRO ONT::V159097 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 48 :END
+<   98 :COREF ONT::V155916)
+<  (ONT::BARE ONT::V157530 (:* ONT::BE-AT-LOC W::STAND) :MOD ONT::V157557 :MOD
+<   ONT::V157540 :START 52 :END 83)
+<  (ONT::F ONT::V157540 (:* ONT::ASSOCIATED-INFORMATION W::ABOUT) :GROUND
+<   ONT::V157553 :FIGURE ONT::V157530 :START 61 :END 78)
+<  (ONT::A ONT::V157553 ONT::QUANTITY :AMOUNT ONT::V157551 :UNIT
+<   (:* ONT::LENGTH-UNIT W::METRE) :SCALE ONT::LINEAR-D :START 67 :END 78)
+<  (ONT::A ONT::V157551 ONT::NUMBER :VALUE 10 :START 67 :END 78)
+<  (ONT::F ONT::V157557 (:* ONT::AWAY W::AWAY) :FIGURE ONT::V157530 :START 78
+<   :END 83)
+<  (ONT::F ONT::V157563 (:* ONT::FROM W::FROM) :GROUND ONT::V157581 :FIGURE
+<   ONT::V157514 :START 83 :END 98)
+<  (ONT::THE ONT::V157581 (:* ONT::TABLE W::TABLE) :START 88 :END 98))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V159096">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V157514" />
+<     <LF:start>48</LF:start>
+<     <LF:end>98</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157514">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BE</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V159097" />
+<     <role:NEUTRAL1 rdf:resource="#V157530" />
+<     <role:SOURCE rdf:resource="#V157563" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>48</LF:start>
+<     <LF:end>98</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V159097">
+<     <LF:indicator>IMPRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <role:PROFORM>SUBJ</role:PROFORM>
+<     <LF:start>48</LF:start>
+<     <LF:end>98</LF:end>
+<     <role:COREF rdf:resource="#V155916" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157530">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>BE-AT-LOC</LF:type>
+<     <LF:word>STAND</LF:word>
+<     <role:MOD rdf:resource="#V157557" />
+<     <role:MOD rdf:resource="#V157540" />
+<     <LF:start>52</LF:start>
+<     <LF:end>83</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157540">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOCIATED-INFORMATION</LF:type>
+<     <LF:word>ABOUT</LF:word>
+<     <role:GROUND rdf:resource="#V157553" />
+<     <role:FIGURE rdf:resource="#V157530" />
+<     <LF:start>61</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157553">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>QUANTITY</LF:type>
+<     <role:AMOUNT rdf:resource="#V157551" />
+<     <role:UNIT>(:* LENGTH-UNIT METRE)</role:UNIT>
+<     <role:SCALE>LINEAR-D</role:SCALE>
+<     <LF:start>67</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157551">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>10</role:VALUE>
+<     <LF:start>67</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157557">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AWAY</LF:type>
+<     <LF:word>AWAY</LF:word>
+<     <role:FIGURE rdf:resource="#V157530" />
+<     <LF:start>78</LF:start>
+<     <LF:end>83</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157563">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>FROM</LF:type>
+<     <LF:word>FROM</LF:word>
+<     <role:GROUND rdf:resource="#V157581" />
+<     <role:FIGURE rdf:resource="#V157514" />
+<     <LF:start>83</LF:start>
+<     <LF:end>98</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V157581">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>TABLE</LF:type>
+<     <LF:word>TABLE</LF:word>
+<     <LF:start>88</LF:start>
+<     <LF:end>98</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="35">
+>    <TEXT>two people are sitting next to her ,</TEXT>
+>    <RELATION id="1" head="V156293" res="V155944" label="CONTENT"/>
+>    <PHRASE id="V155944" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="35"/>
+>    <RELATION id="2" head="V155944" res="V155956" label="RESULT"/>
+>    <RELATION id="3" head="V155944" res="V155918" label="AGENT"/>
+>    <PHRASE id="V155918" indicator="INDEF-SET" type="PERSON" text="PERSON" start="0" end="11"/>
+>    <RELATION id="4" head="V155918" res="V155916" label="SIZE"/>
+>    <PHRASE id="V155916" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+>    <PHRASE id="V155956" indicator="F" type="ADJACENT" text="NEXT-TO" start="23" end="35"/>
+>    <RELATION id="5" head="V155956" res="V155991" label="GROUND"/>
+>    <RELATION id="6" head="V155956" res="V155918" label="FIGURE"/>
+>    <PHRASE id="V155991" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="31" end="35"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="ASSOC-WITH" start="37" end="48">
+>    <TEXT>six others a</TEXT>
+>    <RELATION id="7" head="V157650" res="V157504" label="GROUND"/>
+>    <PHRASE id="V157504" indicator="KIND" type="OTHER" text="OTHERS" AMOUNT="6" start="37" end="48"/>
+>   </SENTENCE>
+>   <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="48" end="98">
+>    <TEXT>are standing about ten metres away from the table .</TEXT>
+>    <RELATION id="8" head="V159096" res="V157514" label="CONTENT"/>
+>    <PHRASE id="V157514" indicator="F" type="BE" text="BE" TENSE="PRES" start="48" end="98"/>
+>    <RELATION id="9" head="V157514" res="V159097" label="NEUTRAL"/>
+>    <RELATION id="10" head="V157514" res="V157530" label="NEUTRAL1"/>
+>    <RELATION id="11" head="V157514" res="V157563" label="SOURCE"/>
+>    <PHRASE id="V159097" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="48" end="98"/>
+>    <RELATION id="12" head="V159097" res="V155916" label="COREF"/>
+>    <PHRASE id="V157530" indicator="BARE" type="BE-AT-LOC" text="STAND" start="52" end="83"/>
+>    <RELATION id="13" head="V157530" res="V157557" label="MOD"/>
+>    <RELATION id="14" head="V157530" res="V157540" label="MOD"/>
+>    <PHRASE id="V157540" indicator="F" type="ASSOCIATED-INFORMATION" text="ABOUT" start="61" end="78"/>
+>    <RELATION id="15" head="V157540" res="V157553" label="GROUND"/>
+>    <RELATION id="16" head="V157540" res="V157530" label="FIGURE"/>
+>    <PHRASE id="V157553" indicator="A" type="QUANTITY" UNIT="(:* LENGTH-UNIT METRE)" SCALE="LINEAR-D" start="67" end="78"/>
+>    <RELATION id="17" head="V157553" res="V157551" label="AMOUNT"/>
+>    <PHRASE id="V157551" indicator="A" type="NUMBER" VALUE="10" start="67" end="78"/>
+>    <PHRASE id="V157557" indicator="F" type="AWAY" text="AWAY" start="78" end="83"/>
+>    <RELATION id="18" head="V157557" res="V157530" label="FIGURE"/>
+>    <PHRASE id="V157563" indicator="F" type="FROM" text="FROM" start="83" end="98"/>
+>    <RELATION id="19" head="V157563" res="V157581" label="GROUND"/>
+>    <RELATION id="20" head="V157563" res="V157514" label="FIGURE"/>
+>    <PHRASE id="V157581" indicator="THE" type="TABLE" text="TABLE" start="88" end="98"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

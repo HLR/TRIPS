@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="36">
+   <TEXT>one man is standing behind the wall .</TEXT>
+   <RELATION id="1" head="V375273" res="V375032" label="CONTENT"/>
+   <PHRASE id="V375032" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="36"/>
+   <RELATION id="2" head="V375032" res="V375023" label="NEUTRAL"/>
+   <RELATION id="3" head="V375032" res="V375049" label="NEUTRAL1"/>
+   <PHRASE id="V375023" indicator="A" type="MALE-PERSON" text="MAN" start="0" end="8"/>
+   <RELATION id="4" head="V375023" res="V375072" label="SIZE"/>
+   <PHRASE id="V375072" indicator="A" type="NUMBER" VALUE="1" start="0" end="8"/>
+   <PHRASE id="V375049" indicator="BARE" type="BE-AT-LOC" text="STAND" start="11" end="36"/>
+   <RELATION id="5" head="V375049" res="V375054" label="LOCATION"/>
+   <PHRASE id="V375054" indicator="F" type="BACK" text="BEHIND" start="20" end="36"/>
+   <RELATION id="6" head="V375054" res="V375064" label="GROUND"/>
+   <RELATION id="7" head="V375054" res="V375049" label="FIGURE"/>
+   <PHRASE id="V375064" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="27" end="36"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

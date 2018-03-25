@@ -1,0 +1,346 @@
+2,303c2,42
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="tourists are posing in a room , ten of them are standing , one is squatting .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?37190:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V189874)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?37188)
+<                                            (W::TRANSFORM ?37189)))
+<                                  (W::CASE ?37187:(W::SUB W::OBJ -))
+<                                  (W::AGR ?37186) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V189874) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER189925))
+< *last-utt-id*=NIL  utt-id+33
+< *last-utt-id*=33  utt-id+33
+< *last-utt-id*=33  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::TOURISTS W::ARE W::POSING W::IN W::A W::ROOM W::PUNC-COMMA W::TEN W::OF
+<  W::THEM)</lisp><word>TOURISTS</word><word>ARE</word><word>POSING</word><word>IN</word><word>A</word><word>ROOM</word><word>PUNC-COMMA</word><word>TEN</word><word>OF</word><word>THEM</word></words><tags><lisp>((WORD &quot;tourists&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;tourists&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.743 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (9 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;posing&quot; :FRAME (13 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (20 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (23 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;room&quot; :FRAME (25 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a room&quot; :FRAME (23 29) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.124 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in a room&quot; :FRAME (20 29) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   13.349 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;posing in a room&quot; :FRAME (13 29) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 23.744 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are posing in a room&quot; :FRAME (9 29) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 28.107 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;tourists are posing in a room&quot; :FRAME (0 29) :PENN-CATS (S) :SCORE
+<   39.405 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (30 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;ten&quot; :FRAME (32 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;ten&quot; :FRAME (32 35) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 14.829
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (36 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;them&quot; :FRAME (39 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;them&quot; :FRAME (39 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.534
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of them&quot; :FRAME (36 43) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   8.602 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;ten of them&quot; :FRAME (32 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 23.797 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="tourists" start="0" end="8"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="tourists" start="0" end="8" penn-cats="NP" score="10.743" /><word lex="are" start="9" end="12"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="posing" start="13" end="19"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="20" end="22"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="23" end="24"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="room" start="25" end="29"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a room" start="23" end="29" penn-cats="NP" score="11.124" /><prefer text="in a room" start="20" end="29" penn-cats="PP" score="13.349" /><prefer text="posing in a room" start="13" end="29" penn-cats="VP" score="23.744" /><prefer text="are posing in a room" start="9" end="29" penn-cats="VP" score="28.107" /><prefer text="tourists are posing in a room" start="0" end="29" penn-cats="S" score="39.405" /><word lex="," start="30" end="31"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="ten" start="32" end="35"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="ten" start="32" end="35" penn-cats="NP" score="14.829" /><word lex="of" start="36" end="38"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="them" start="39" end="43"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="them" start="39" end="43" penn-cats="NP" score="7.534" /><prefer text="of them" start="36" end="43" penn-cats="PP" score="8.602" /><prefer text="ten of them" start="32" end="43" penn-cats="NP" score="23.797" /></tags><tree><lisp>(UTT
+<  (S (NP (N1 (N TOURISTS)))
+<   (VP
+<    (VP- (AUX (V ARE))
+<     (VP-
+<      (VP- (V POSING)
+<       (ADVBL (ADV IN)
+<        (NP (NP (SPEC (DET (ART A))) (N1 (N ROOM))) (PUNC PUNC-COMMA)))
+<       (NP (NUMBER TEN)))
+<      (ADVBL (ADV OF) (NP (PRO THEM))))))))</lisp><UTT><S><NP><N1><N>TOURISTS</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>POSING</V><ADVBL><ADV>IN</ADV><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>ROOM</N></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL><NP><NUMBER>TEN</NUMBER></NP></VP-><ADVBL><ADV>OF</ADV><NP><PRO>THEM</PRO></NP></ADVBL></VP-></VP-></VP></S></UTT></tree><terms root="#V192147"><lisp>((ONT::SPEECHACT ONT::V192147 ONT::SA_TELL :CONTENT ONT::V188795 :START 0 :END
+<   44)
+<  (ONT::F ONT::V188795 (:* ONT::VISUAL-DISPLAY W::POSING) :RESULT ONT::V188905
+<   :AGENT ONT::V188772 :AFFECTED ONT::V188902 :LOCATION ONT::V188805 :TENSE
+<   W::PRES :PROGR + :START 0 :END 44)
+<  (ONT::INDEF-SET ONT::V188772 (:* ONT::TRAVELLER W::TOURISTS) :START 0 :END 9)
+<  (ONT::F ONT::V188805 (:* ONT::IN-LOC W::IN) :GROUND ONT::V188895 :FIGURE
+<   ONT::V188795 :START 20 :END 32)
+<  (ONT::A ONT::V188895 (:* ONT::INTERNAL-ENCLOSURE W::ROOM) :START 23 :END 32)
+<  (ONT::INDEF-SET ONT::V188902 ONT::NUMBER :NUMBER 10 :START 32 :END 36)
+<  (ONT::F ONT::V188905 (:* ONT::ASSOC-WITH W::OF) :GROUND ONT::V188912 :FIGURE
+<   ONT::V188902 :START 36 :END 44)
+<  (ONT::PRO-SET ONT::V188912 (:* ONT::REFERENTIAL-SEM W::THEM) :PROFORM W::THEM
+<   :START 39 :END 44 :COREF ONT::V188772))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V192147">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V188795" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188795">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>VISUAL-DISPLAY</LF:type>
+<     <LF:word>POSING</LF:word>
+<     <role:RESULT rdf:resource="#V188905" />
+<     <role:AGENT rdf:resource="#V188772" />
+<     <role:AFFECTED rdf:resource="#V188902" />
+<     <role:LOCATION rdf:resource="#V188805" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188772">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>TRAVELLER</LF:type>
+<     <LF:word>TOURISTS</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>9</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188805">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V188895" />
+<     <role:FIGURE rdf:resource="#V188795" />
+<     <LF:start>20</LF:start>
+<     <LF:end>32</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188895">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>ROOM</LF:word>
+<     <LF:start>23</LF:start>
+<     <LF:end>32</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188902">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:NUMBER>10</role:NUMBER>
+<     <LF:start>32</LF:start>
+<     <LF:end>36</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188905">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>OF</LF:word>
+<     <role:GROUND rdf:resource="#V188912" />
+<     <role:FIGURE rdf:resource="#V188902" />
+<     <LF:start>36</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188912">
+<     <LF:indicator>PRO-SET</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEM</LF:word>
+<     <role:PROFORM>THEM</role:PROFORM>
+<     <LF:start>39</LF:start>
+<     <LF:end>44</LF:end>
+<     <role:COREF rdf:resource="#V188772" />
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::ARE W::STANDING W::PUNC-COMMA W::ONE W::IS W::SQUATTING W::PUNC-PERIOD)</lisp><word>ARE</word><word>STANDING</word><word>PUNC-COMMA</word><word>ONE</word><word>IS</word><word>SQUATTING</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;are&quot; :FRAME (44 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing&quot; :FRAME (48 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;standing&quot; :FRAME (48 56) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE
+<   9.946 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are standing&quot; :FRAME (44 56) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 14.309 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;ten of them are standing&quot; :FRAME (32 56) :PENN-CATS (S) :SCORE 40.602
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (57 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;one&quot; :FRAME (59 62) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD PRP) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT W::PRO)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one&quot; :FRAME (59 62) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.44
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (63 65) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;squatting&quot; :FRAME (66 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;squatting&quot; :FRAME (66 75) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE
+<   13.008 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;is squatting&quot; :FRAME (63 75) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 17.268 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one is squatting&quot; :FRAME (59 75) :PENN-CATS (S) :SCORE 25.264 :UTTNUM
+<   33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (76 76) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;tourists are posing in a room , ten of them are standing , one is squatting .&quot;
+<   :FRAME (0 76) :PENN-CATS (S) :SCORE 113.905 :UTTNUM 33 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="are" start="44" end="47"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="48" end="56"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><prefer text="standing" start="48" end="56" penn-cats="VP" score="9.946" /><prefer text="are standing" start="44" end="56" penn-cats="VP" score="14.309" /><prefer text="ten of them are standing" start="32" end="56" penn-cats="S" score="40.602" /><word lex="," start="57" end="58"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="one" start="59" end="62"><sense-info penn-parts-of-speech="CD,PRP" trips-parts-of-speech="NUMBER,NUMBER-UNIT,PRO" /></word><prefer text="one" start="59" end="62" penn-cats="NP" score="7.44" /><word lex="is" start="63" end="65"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="squatting" start="66" end="75"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><prefer text="squatting" start="66" end="75" penn-cats="VP" score="13.008" /><prefer text="is squatting" start="63" end="75" penn-cats="VP" score="17.268" /><prefer text="one is squatting" start="59" end="75" penn-cats="S" score="25.264" /><word lex="." start="76" end="76"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="tourists are posing in a room , ten of them are standing , one is squatting ." start="0" end="76" penn-cats="S" score="113.905" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (VP
+<    (VP- (V ARE)
+<     (CP
+<      (S (ADVBL (VP (VP- (V STANDING)))) (PUNC PUNC-COMMA)
+<       (S (NP (PRO ONE)) (VP (VP- (AUX (V IS)) (VP- (V SQUATTING))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><VP><VP-><V>ARE</V><CP><S><ADVBL><VP><VP-><V>STANDING</V></VP-></VP></ADVBL><PUNC>PUNC-COMMA</PUNC><S><NP><PRO>ONE</PRO></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>SQUATTING</V></VP-></VP-></VP></S></S></CP></VP-></VP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V194053"><lisp>((ONT::SPEECHACT ONT::V194053 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V188921 :START 44 :END 76)
+<  (ONT::F ONT::V188921 (:* ONT::PROPOSITION-EQUAL W::BE) :NEUTRAL ONT::V194054
+<   :NEUTRAL1 ONT::V188974 :TENSE W::PRES :START 44 :END 76)
+<  (ONT::IMPRO ONT::V194054 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 44 :END
+<   76 :COREF ONT::V188895)
+<  (ONT::F ONT::V188974 (:* ONT::BODY-MOVEMENT-SELF W::SQUAT) :AGENT ONT::V188945
+<   :TIME ONT::V189153 :PROP + :TENSE W::PRES :PROGR + :START 48 :END 76)
+<  (ONT::F ONT::V189153 ONT::IMPLICIT-OVERLAP :FIGURE ONT::V188974 :GROUND
+<   ONT::V188936 :START 48 :END 57)
+<  (ONT::F ONT::V188936 (:* ONT::BE-AT-LOC W::STAND) :VFORM W::ING :START 48 :END
+<   57)
+<  (ONT::PRO ONT::V188945 (:* ONT::REFERENTIAL-SEM W::ONE) :PROFORM W::ONE :START
+<   59 :END 63))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V194053">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V188921" />
+<     <LF:start>44</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188921">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PROPOSITION-EQUAL</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V194054" />
+<     <role:NEUTRAL1 rdf:resource="#V188974" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>44</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V194054">
+<     <LF:indicator>IMPRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <role:PROFORM>SUBJ</role:PROFORM>
+<     <LF:start>44</LF:start>
+<     <LF:end>76</LF:end>
+<     <role:COREF rdf:resource="#V188895" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188974">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-SELF</LF:type>
+<     <LF:word>SQUAT</LF:word>
+<     <role:AGENT rdf:resource="#V188945" />
+<     <role:TIME rdf:resource="#V189153" />
+<     <role:PROP>+</role:PROP>
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>48</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V189153">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IMPLICIT-OVERLAP</LF:type>
+<     <role:FIGURE rdf:resource="#V188974" />
+<     <role:GROUND rdf:resource="#V188936" />
+<     <LF:start>48</LF:start>
+<     <LF:end>57</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188936">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BE-AT-LOC</LF:type>
+<     <LF:word>STAND</LF:word>
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>48</LF:start>
+<     <LF:end>57</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V188945">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>ONE</LF:word>
+<     <role:PROFORM>ONE</role:PROFORM>
+<     <LF:start>59</LF:start>
+<     <LF:end>63</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="44">
+>    <TEXT>tourists are posing in a room , ten of them a</TEXT>
+>    <RELATION id="1" head="V192147" res="V188795" label="CONTENT"/>
+>    <PHRASE id="V188795" indicator="F" type="VISUAL-DISPLAY" text="POSING" TENSE="PRES" PROGR="+" start="0" end="44"/>
+>    <RELATION id="2" head="V188795" res="V188905" label="RESULT"/>
+>    <RELATION id="3" head="V188795" res="V188772" label="AGENT"/>
+>    <RELATION id="4" head="V188795" res="V188902" label="AFFECTED"/>
+>    <RELATION id="5" head="V188795" res="V188805" label="LOCATION"/>
+>    <PHRASE id="V188772" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="9"/>
+>    <PHRASE id="V188805" indicator="F" type="IN-LOC" text="IN" start="20" end="32"/>
+>    <RELATION id="6" head="V188805" res="V188895" label="GROUND"/>
+>    <RELATION id="7" head="V188805" res="V188795" label="FIGURE"/>
+>    <PHRASE id="V188895" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="23" end="32"/>
+>    <PHRASE id="V188902" indicator="INDEF-SET" type="NUMBER" NUMBER="10" start="32" end="36"/>
+>    <PHRASE id="V188905" indicator="F" type="ASSOC-WITH" text="OF" start="36" end="44"/>
+>    <RELATION id="8" head="V188905" res="V188912" label="GROUND"/>
+>    <RELATION id="9" head="V188905" res="V188902" label="FIGURE"/>
+>    <PHRASE id="V188912" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="39" end="44"/>
+>    <RELATION id="10" head="V188912" res="V188772" label="COREF"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="44" end="76">
+>    <TEXT>are standing , one is squatting .</TEXT>
+>    <RELATION id="11" head="V194053" res="V188921" label="CONTENT"/>
+>    <PHRASE id="V188921" indicator="F" type="PROPOSITION-EQUAL" text="BE" TENSE="PRES" start="44" end="76"/>
+>    <RELATION id="12" head="V188921" res="V194054" label="NEUTRAL"/>
+>    <RELATION id="13" head="V188921" res="V188974" label="NEUTRAL1"/>
+>    <PHRASE id="V194054" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="44" end="76"/>
+>    <RELATION id="14" head="V194054" res="V188895" label="COREF"/>
+>    <PHRASE id="V188974" indicator="F" type="BODY-MOVEMENT-SELF" text="SQUAT" PROP="+" TENSE="PRES" PROGR="+" start="48" end="76"/>
+>    <RELATION id="15" head="V188974" res="V188945" label="AGENT"/>
+>    <RELATION id="16" head="V188974" res="V189153" label="TIME"/>
+>    <PHRASE id="V189153" indicator="F" type="IMPLICIT-OVERLAP" start="48" end="57"/>
+>    <RELATION id="17" head="V189153" res="V188974" label="FIGURE"/>
+>    <RELATION id="18" head="V189153" res="V188936" label="GROUND"/>
+>    <PHRASE id="V188936" indicator="F" type="BE-AT-LOC" text="STAND" VFORM="ING" start="48" end="57"/>
+>    <PHRASE id="V188945" indicator="PRO" type="REFERENTIAL-SEM" text="ONE" PROFORM="ONE" start="59" end="63"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

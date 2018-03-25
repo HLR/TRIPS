@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one of them is stroking the girl's face with her right hand .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+42
+*last-utt-id*=42  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::OF W::THEM W::IS W::STROKING W::THE W::GIRL W::^S W::FACE W::WITH
+ W::HER W::RIGHT W::HAND W::PUNC-PERIOD)</lisp><word>ONE</word><word>OF</word><word>THEM</word><word>IS</word><word>STROKING</word><word>THE</word><word>GIRL</word><word>^S</word><word>FACE</word><word>WITH</word><word>HER</word><word>RIGHT</word><word>HAND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one&quot; :FRAME (0 3) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.128
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (4 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;them&quot; :FRAME (7 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;them&quot; :FRAME (7 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.534
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of them&quot; :FRAME (4 11) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  8.602 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one of them&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  16.096 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (12 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stroking&quot; :FRAME (15 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (24 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;girl&quot; :FRAME (28 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;'s&quot; :FRAME (32 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (POS) :TRIPS-PARTS-OF-SPEECH (W::^S))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;'&quot; :FRAME (32 34) :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;girl's&quot; :FRAME (28 34) :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the girl's&quot; :FRAME (24 34) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.045 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;face&quot; :FRAME (35 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the girl's face&quot; :FRAME (24 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 21.539 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (40 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;her&quot; :FRAME (45 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;right&quot; :FRAME (49 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hand&quot; :FRAME (55 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 42
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;right hand&quot; :FRAME (49 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;right_hand%1:08:00&quot;)))
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;her right hand&quot; :FRAME (45 59) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.817 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with her right hand&quot; :FRAME (40 59) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 26.617 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the girl's face with her right hand&quot; :FRAME (24 59) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 50.691 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;stroking the girl's face with her right hand&quot; :FRAME (15 59)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 63.145 :UTTNUM 42 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;is stroking the girl's face with her right hand&quot; :FRAME (12 59)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 67.406 :UTTNUM 42 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (60 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one of them is stroking the girl's face with her right hand .&quot; :FRAME
+  (0 60) :PENN-CATS (S) :SCORE 86.331 :UTTNUM 42 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="one" start="0" end="3" penn-cats="NP" score="7.128" /><word lex="of" start="4" end="6"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="them" start="7" end="11"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="them" start="7" end="11" penn-cats="NP" score="7.534" /><prefer text="of them" start="4" end="11" penn-cats="PP" score="8.602" /><prefer text="one of them" start="0" end="11" penn-cats="NP" score="16.096" /><word lex="is" start="12" end="14"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="stroking" start="15" end="23"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="the" start="24" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="girl" start="28" end="31"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="'s" start="32" end="34"><sense-info penn-parts-of-speech="POS" trips-parts-of-speech="^S" /></word><word lex="'" start="32" end="34" /><word lex="girl's" start="28" end="34" /><prefer text="the girl's" start="24" end="34" penn-cats="NP" score="12.045" /><word lex="face" start="35" end="39"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the girl's face" start="24" end="39" penn-cats="NP" score="21.539" /><word lex="with" start="40" end="44"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="her" start="45" end="48"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="right" start="49" end="54"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="hand" start="55" end="59"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="right hand" start="49" end="59"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="right_hand%1:08:00" /></word><prefer text="her right hand" start="45" end="59" penn-cats="NP" score="22.817" /><prefer text="with her right hand" start="40" end="59" penn-cats="PP" score="26.617" /><prefer text="the girl's face with her right hand" start="24" end="59" penn-cats="NP" score="50.691" /><prefer text="stroking the girl's face with her right hand" start="15" end="59" penn-cats="VP" score="63.145" /><prefer text="is stroking the girl's face with her right hand" start="12" end="59" penn-cats="VP" score="67.406" /><word lex="." start="60" end="60"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one of them is stroking the girl's face with her right hand ." start="0" end="60" penn-cats="S" score="86.331" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (N1 (N1 (N ONE)) (ADVBL (ADV OF) (NP (PRO THEM)))))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V STROKING)
+      (NP
+       (SPEC
+        (DET (POSSESSOR (NP (SPEC (DET (ART THE))) (N1 (N GIRL))) (^S ^S))))
+       (N1 (N1 (N FACE))
+        (ADVBL (ADV WITH)
+         (NP (SPEC (DET (POSSESSOR (PRO HER)))) (N1 (N RIGHT HAND)))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N1><N>ONE</N></N1><ADVBL><ADV>OF</ADV><NP><PRO>THEM</PRO></NP></ADVBL></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>STROKING</V><NP><SPEC><DET><POSSESSOR><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>GIRL</N></N1></NP><apostrophe-S>^S</apostrophe-S></POSSESSOR></DET></SPEC><N1><N1><N>FACE</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><POSSESSOR><PRO>HER</PRO></POSSESSOR></DET></SPEC><N1><N>RIGHT HAND</N></N1></NP></ADVBL></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V202997"><lisp>((ONT::SPEECHACT ONT::V202997 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V197367 :START 0 :END 60)
+ (ONT::F ONT::V197367 (:* ONT::RUB-SCRAPE-WIPE W::STROKING) :AGENT ONT::V197330
+  :AFFECTED ONT::V197438 :TENSE W::PRES :PROGR + :START 0 :END 60)
+ (ONT::BARE ONT::V197330 (:* ONT::REFERENTIAL-SEM W::ONE) :MOD ONT::V197338
+  :START 0 :END 12)
+ (ONT::F ONT::V197338 (:* ONT::CONTAIN-RELN W::OF) :GROUND ONT::V197344 :FIGURE
+  ONT::V197330 :START 4 :END 12)
+ (ONT::PRO-SET ONT::V197344 (:* ONT::REFERENTIAL-SEM W::THEM) :PROFORM W::THEM
+  :START 7 :END 12)
+ (ONT::THE ONT::V197438 (:* ONT::EXTERNAL-BODY-PART W::FACE) :ASSOC-POSS
+  ONT::V197382 :MOD ONT::V197445 :START 24 :END 60)
+ (ONT::THE ONT::V197382 (:* ONT::FEMALE-CHILD W::GIRL) :START 24 :END 32)
+ (ONT::F ONT::V197445 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V197501 :FIGURE
+  ONT::V197438 :START 40 :END 60)
+ (ONT::THE ONT::V197501 (:* ONT::BODY-PART W::RIGHT-HAND) :ASSOC-POSS
+  ONT::V197458 :START 45 :END 60 :WNSENSE &quot;right_hand%1:08:00&quot;)
+ (ONT::PRO ONT::V197458 (:* ONT::FEMALE-PERSON W::HER) :PROFORM W::HER :START
+  45 :END 60 :COREF ONT::V197382))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V202997">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V197367" />
+    <LF:start>0</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197367">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RUB-SCRAPE-WIPE</LF:type>
+    <LF:word>STROKING</LF:word>
+    <role:AGENT rdf:resource="#V197330" />
+    <role:AFFECTED rdf:resource="#V197438" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197330">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>ONE</LF:word>
+    <role:MOD rdf:resource="#V197338" />
+    <LF:start>0</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197338">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONTAIN-RELN</LF:type>
+    <LF:word>OF</LF:word>
+    <role:GROUND rdf:resource="#V197344" />
+    <role:FIGURE rdf:resource="#V197330" />
+    <LF:start>4</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197344">
+    <LF:indicator>PRO-SET</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THEM</LF:word>
+    <role:PROFORM>THEM</role:PROFORM>
+    <LF:start>7</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197438">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>EXTERNAL-BODY-PART</LF:type>
+    <LF:word>FACE</LF:word>
+    <role:ASSOC-POSS rdf:resource="#V197382" />
+    <role:MOD rdf:resource="#V197445" />
+    <LF:start>24</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197382">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>FEMALE-CHILD</LF:type>
+    <LF:word>GIRL</LF:word>
+    <LF:start>24</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197445">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V197501" />
+    <role:FIGURE rdf:resource="#V197438" />
+    <LF:start>40</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197501">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>BODY-PART</LF:type>
+    <LF:word>RIGHT-HAND</LF:word>
+    <role:ASSOC-POSS rdf:resource="#V197458" />
+    <LF:start>45</LF:start>
+    <LF:end>60</LF:end>
+    <role:WNSENSE>right_hand%1:08:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V197458">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>FEMALE-PERSON</LF:type>
+    <LF:word>HER</LF:word>
+    <role:PROFORM>HER</role:PROFORM>
+    <LF:start>45</LF:start>
+    <LF:end>60</LF:end>
+    <role:COREF rdf:resource="#V197382" />
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

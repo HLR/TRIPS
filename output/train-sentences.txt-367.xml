@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired b</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="29" end="94" WNSENSE="stand_in%2:40:00">
+   <TEXT>boy wearing a blue pullover is standing in front of a brown door .</TEXT>
+   <RELATION id="1" head="V287781" res="V280772" label="CONTENT"/>
+   <PHRASE id="V280772" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="29" end="94" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="2" head="V280772" res="V280616" label="AGENT"/>
+   <RELATION id="3" head="V280772" res="V280778" label="AFFECTED"/>
+   <PHRASE id="V280616" indicator="BARE" type="MALE-CHILD" text="BOY" start="29" end="57"/>
+   <RELATION id="4" head="V280616" res="V280622" label="MOD"/>
+   <PHRASE id="V280622" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="33" end="57"/>
+   <RELATION id="5" head="V280622" res="V280616" label="AGENT"/>
+   <RELATION id="6" head="V280622" res="V280682" label="NEUTRAL"/>
+   <PHRASE id="V280682" indicator="A" type="ATTIRE" text="PULLOVER" start="41" end="57"/>
+   <RELATION id="7" head="V280682" res="V280669" label="MOD"/>
+   <PHRASE id="V280669" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="43" end="48"/>
+   <RELATION id="8" head="V280669" res="V280682" label="FIGURE"/>
+   <PHRASE id="V280778" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="72" end="94"/>
+   <RELATION id="9" head="V280778" res="V280889" label="FIGURE"/>
+   <PHRASE id="V280889" indicator="A" type="STRUCTURAL-OPENING" text="DOOR" start="78" end="94"/>
+   <RELATION id="10" head="V280889" res="V280880" label="MOD"/>
+   <PHRASE id="V280880" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="83" end="89"/>
+   <RELATION id="11" head="V280880" res="V280889" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

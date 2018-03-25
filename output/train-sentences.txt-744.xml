@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-haired , dark-skinned girl w</TEXT>
+   <RELATION id="1" head="V180285" res="V180251" label="MOD"/>
+   <RELATION id="2" head="V180285" res="V180258" label="MOD"/>
+   <RELATION id="3" head="V180285" res="V180268" label="MOD"/>
+   <PHRASE id="V180251" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V180251" res="V180285" label="FIGURE"/>
+   <PHRASE id="V180258" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="16" end="20"/>
+   <RELATION id="5" head="V180258" res="V180285" label="FIGURE"/>
+   <PHRASE id="V180268" indicator="F" type="MOVE" text="SKINNED" start="21" end="29"/>
+   <RELATION id="6" head="V180268" res="V180285" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="59">
+   <TEXT>wearing a dark green hat ,</TEXT>
+   <RELATION id="7" head="V180291" res="V180356" label="NEUTRAL"/>
+   <PHRASE id="V180356" indicator="A" type="ATTIRE" text="HAT" start="42" end="59"/>
+   <RELATION id="8" head="V180356" res="V180338" label="MOD"/>
+   <RELATION id="9" head="V180356" res="V180345" label="MOD"/>
+   <PHRASE id="V180338" indicator="F" type="DARK-VAL" text="DARK" start="44" end="49"/>
+   <RELATION id="10" head="V180338" res="V180356" label="FIGURE"/>
+   <PHRASE id="V180345" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="49" end="55"/>
+   <RELATION id="11" head="V180345" res="V180356" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="61" end="132">
+   <TEXT>a grey pullover with blue sleeves and a light blue and yellow necklace .</TEXT>
+   <RELATION id="12" head="V190604" res="V189647" label="CONTENT"/>
+   <PHRASE id="V189647" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="61" end="132"/>
+   <RELATION id="13" head="V189647" res="V189617" label="SEQUENCE"/>
+   <RELATION id="14" head="V189647" res="V189744" label="SEQUENCE1"/>
+   <PHRASE id="V189617" indicator="A" type="ATTIRE" text="PULLOVER" start="61" end="95"/>
+   <RELATION id="15" head="V189617" res="V189621" label="MOD"/>
+   <RELATION id="16" head="V189617" res="V189607" label="MOD"/>
+   <PHRASE id="V189607" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="63" end="68"/>
+   <RELATION id="17" head="V189607" res="V189617" label="FIGURE"/>
+   <PHRASE id="V189621" indicator="F" type="ASSOC-WITH" text="WITH" start="77" end="95"/>
+   <RELATION id="18" head="V189621" res="V189640" label="GROUND"/>
+   <RELATION id="19" head="V189621" res="V189617" label="FIGURE"/>
+   <PHRASE id="V189640" indicator="INDEF-SET" type="COVERING" text="SLEEVES" start="82" end="95"/>
+   <RELATION id="20" head="V189640" res="V189633" label="MOD"/>
+   <PHRASE id="V189633" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="82" end="87"/>
+   <RELATION id="21" head="V189633" res="V189640" label="FIGURE"/>
+   <PHRASE id="V189744" indicator="A" type="MANUFACTURED-OBJECT" text="NECKLACE" start="99" end="132"/>
+   <RELATION id="22" head="V189744" res="V189699" label="MOD"/>
+   <RELATION id="23" head="V189744" res="V189790" label="MOD"/>
+   <PHRASE id="V189699" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="101" end="107"/>
+   <RELATION id="24" head="V189699" res="V189744" label="FIGURE"/>
+   <PHRASE id="V189790" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="107" end="123"/>
+   <RELATION id="25" head="V189790" res="V189722" label="SEQUENCE"/>
+   <RELATION id="26" head="V189790" res="V189738" label="SEQUENCE1"/>
+   <PHRASE id="V189722" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="107" end="112"/>
+   <RELATION id="27" head="V189722" res="V189744" label="FIGURE"/>
+   <PHRASE id="V189738" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="116" end="123"/>
+   <RELATION id="28" head="V189738" res="V189744" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

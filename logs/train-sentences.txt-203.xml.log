@@ -1,0 +1,142 @@
+2,122c2,19
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="panorama view of houses in La Paz .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+3
+< *last-utt-id*=3  utt-id+NIL</debug><utt><words><lisp>(W::PANORAMA W::VIEW W::OF W::HOUSES W::IN W::LA W::PAZ W::PUNC-PERIOD)</lisp><word>PANORAMA</word><word>VIEW</word><word>OF</word><word>HOUSES</word><word>IN</word><word>LA</word><word>PAZ</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;panorama&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 3
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;view&quot; :FRAME (9 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 3
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;panorama view&quot; :FRAME (0 13) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 23.639 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (14 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;houses&quot; :FRAME (17 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 3
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;houses&quot; :FRAME (17 23) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   9.755 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of houses&quot; :FRAME (14 23) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   10.822 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (24 26) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;La&quot; :FRAME (27 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME))) :UTTNUM 3
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;Paz&quot; :FRAME (30 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+<     (ONT::REFERENTIAL-SEM)))
+<   :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;La Paz&quot; :FRAME (27 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+<     :ONT-TYPES (ONT::GEOGRAPHIC-REGION))
+<    (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :WN-SENSE-KEYS
+<     (&quot;La_Paz%1:15:00&quot;)))
+<   :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;La Paz&quot; :FRAME (27 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   23.192 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in La Paz&quot; :FRAME (24 33) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   25.443 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (34 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;panorama view of houses in La Paz .&quot; :FRAME (0 34) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 63.232 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="panorama" start="0" end="8"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="view" start="9" end="13"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="panorama view" start="0" end="13" penn-cats="NP" score="23.639" /><word lex="of" start="14" end="16"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="houses" start="17" end="23"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="houses" start="17" end="23" penn-cats="NP" score="9.755" /><prefer text="of houses" start="14" end="23" penn-cats="PP" score="10.822" /><word lex="in" start="24" end="26"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="La" start="27" end="29"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" /></word><word lex="Paz" start="30" end="33"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="La Paz" start="27" end="33"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" wn-sense-keys="La_Paz%1:15:00" /></word><prefer text="La Paz" start="27" end="33" penn-cats="NP" score="23.192" /><prefer text="in La Paz" start="24" end="33" penn-cats="PP" score="25.443" /><word lex="." start="34" end="34"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="panorama view of houses in La Paz ." start="0" end="34" penn-cats="NP" score="63.232" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1 (N1 (N1 (N PANORAMA)) (N1 (N VIEW)))
+<      (PP (PREP OF) (NP (N1 (N HOUSES)))))
+<     (ADVBL (ADV IN) (NP (NAME LA PAZ))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><N1><N>PANORAMA</N></N1><N1><N>VIEW</N></N1></N1><PP><PREP>OF</PREP><NP><N1><N>HOUSES</N></N1></NP></PP></N1><ADVBL><ADV>IN</ADV><NP><NAME>LA PAZ</NAME></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V37095"><lisp>((ONT::SPEECHACT ONT::V37095 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V36861 :START 0 :END 34)
+<  (ONT::BARE ONT::V36861 (:* ONT::ACTIVE-PERCEPTION W::VIEW) :ASSOC-WITH
+<   ONT::V36855 :NEUTRAL ONT::V36880 :LOCATION ONT::V36888 :START 0 :END 34)
+<  (ONT::KIND ONT::V36855 (:* ONT::KNOWLEDGE-BELIEF W::PANORAMA) :START 0 :END
+<   34)
+<  (ONT::INDEF-SET ONT::V36880 (:* ONT::LODGING W::HOUSE) :START 14 :END 24)
+<  (ONT::F ONT::V36888 (:* ONT::IN-LOC W::IN) :GROUND ONT::V36951 :FIGURE
+<   ONT::V36861 :START 24 :END 34)
+<  (ONT::THE ONT::V36951 (:* ONT::GEOGRAPHIC-REGION W::LA-PAZ) :NAME-OF
+<   (W::LA W::PAZ) :START 27 :END 34))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V37095">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V36861" />
+<     <LF:start>0</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V36861">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>ACTIVE-PERCEPTION</LF:type>
+<     <LF:word>VIEW</LF:word>
+<     <role:ASSOC-WITH rdf:resource="#V36855" />
+<     <role:NEUTRAL rdf:resource="#V36880" />
+<     <role:LOCATION rdf:resource="#V36888" />
+<     <LF:start>0</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V36855">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>KNOWLEDGE-BELIEF</LF:type>
+<     <LF:word>PANORAMA</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V36880">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>LODGING</LF:type>
+<     <LF:word>HOUSE</LF:word>
+<     <LF:start>14</LF:start>
+<     <LF:end>24</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V36888">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V36951" />
+<     <role:FIGURE rdf:resource="#V36861" />
+<     <LF:start>24</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V36951">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>GEOGRAPHIC-REGION</LF:type>
+<     <LF:word>LA-PAZ</LF:word>
+<     <role:NAME-OF>(LA PAZ)</role:NAME-OF>
+<     <LF:start>27</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="34">
+>    <TEXT>panorama view of houses in La Paz .</TEXT>
+>    <RELATION id="1" head="V37095" res="V36861" label="CONTENT"/>
+>    <PHRASE id="V36861" indicator="BARE" type="ACTIVE-PERCEPTION" text="VIEW" start="0" end="34"/>
+>    <RELATION id="2" head="V36861" res="V36855" label="ASSOC-WITH"/>
+>    <RELATION id="3" head="V36861" res="V36880" label="NEUTRAL"/>
+>    <RELATION id="4" head="V36861" res="V36888" label="LOCATION"/>
+>    <PHRASE id="V36855" indicator="KIND" type="KNOWLEDGE-BELIEF" text="PANORAMA" start="0" end="34"/>
+>    <PHRASE id="V36880" indicator="INDEF-SET" type="LODGING" text="HOUSE" start="14" end="24"/>
+>    <PHRASE id="V36888" indicator="F" type="IN-LOC" text="IN" start="24" end="34"/>
+>    <RELATION id="5" head="V36888" res="V36951" label="GROUND"/>
+>    <RELATION id="6" head="V36888" res="V36861" label="FIGURE"/>
+>    <PHRASE id="V36951" indicator="THE" type="GEOGRAPHIC-REGION" text="LA-PAZ" NAME-OF="(LA PAZ)" start="27" end="34"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

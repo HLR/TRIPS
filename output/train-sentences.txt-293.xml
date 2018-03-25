@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="64">
+   <TEXT>a volunteer , squatting down and browsing through a school book .</TEXT>
+   <RELATION id="1" head="V403466" res="V402013" label="CONTENT"/>
+   <PHRASE id="V402013" indicator="INDEF-SET" type="REFERENTIAL-SEM" OPERATOR="AND" start="0" end="64"/>
+   <RELATION id="2" head="V402013" res="V401963" label="SEQUENCE"/>
+   <RELATION id="3" head="V402013" res="V402023" label="SEQUENCE1"/>
+   <PHRASE id="V401963" indicator="A" type="PERSON" text="VOLUNTEER" start="0" end="29"/>
+   <RELATION id="4" head="V401963" res="V401970" label="MOD"/>
+   <PHRASE id="V401970" indicator="F" type="BODY-MOVEMENT-SELF" text="SQUAT" VFORM="ING" start="14" end="29"/>
+   <RELATION id="5" head="V401970" res="V402001" label="RESULT"/>
+   <RELATION id="6" head="V401970" res="V401963" label="AGENT"/>
+   <PHRASE id="V402001" indicator="F" type="DIRECTION-DOWN" text="DOWN" start="24" end="29"/>
+   <RELATION id="7" head="V402001" res="V401963" label="FIGURE"/>
+   <PHRASE id="V402023" indicator="BARE" type="SCRUTINY" text="BROWSE" start="33" end="64"/>
+   <RELATION id="8" head="V402023" res="V402026" label="MOD"/>
+   <PHRASE id="V402026" indicator="F" type="THROUGH" text="THROUGH" start="42" end="64"/>
+   <RELATION id="9" head="V402026" res="V402086" label="GROUND"/>
+   <RELATION id="10" head="V402026" res="V402023" label="FIGURE"/>
+   <PHRASE id="V402086" indicator="A" type="BOOK" text="BOOK" start="50" end="64"/>
+   <RELATION id="11" head="V402086" res="V402080" label="ASSOC-WITH"/>
+   <PHRASE id="V402080" indicator="KIND" type="ACADEMIC-INSTITUTION" text="SCHOOL" start="50" end="64"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

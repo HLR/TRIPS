@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="ACTIVE-PERCEPTION" text="VIEW" start="0" end="41">
+   <TEXT>interior view of a room with white walls ,</TEXT>
+   <RELATION id="1" head="V310543" res="V310601" label="NEUTRAL"/>
+   <RELATION id="2" head="V310543" res="V310605" label="MOD"/>
+   <RELATION id="3" head="V310543" res="V310537" label="MOD"/>
+   <PHRASE id="V310537" indicator="F" type="NATIONAL-VAL" text="INTERIOR" start="0" end="9"/>
+   <RELATION id="4" head="V310537" res="V310543" label="FIGURE"/>
+   <PHRASE id="V310601" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="14" end="24"/>
+   <PHRASE id="V310605" indicator="F" type="ASSOC-WITH" text="WITH" start="24" end="41"/>
+   <RELATION id="5" head="V310605" res="V310624" label="GROUND"/>
+   <RELATION id="6" head="V310605" res="V310543" label="FIGURE"/>
+   <PHRASE id="V310624" indicator="INDEF-SET" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="29" end="41"/>
+   <RELATION id="7" head="V310624" res="V310617" label="MOD"/>
+   <PHRASE id="V310617" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="29" end="35"/>
+   <RELATION id="8" head="V310617" res="V310624" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="A" type="FURNISHINGS" text="DOUBLE-BED" start="43" end="89" WNSENSE="double_bed%1:06:00">
+   <TEXT>a wooden double bed , white pillows , a brown ,</TEXT>
+   <RELATION id="9" head="V310963" res="V310976" label="PARENTHETICAL"/>
+   <RELATION id="10" head="V310963" res="V310931" label="MOD"/>
+   <PHRASE id="V310931" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="45" end="52"/>
+   <RELATION id="11" head="V310931" res="V310963" label="FIGURE"/>
+   <PHRASE id="V314235" indicator="SPEECHACT" type="SA_IDENTIFY" start="65" end="89"/>
+   <RELATION id="12" head="V314235" res="V310976" label="CONTENT"/>
+   <PHRASE id="V310976" indicator="INDEF-SET" type="BEDDING" text="PILLOW" start="65" end="89"/>
+   <RELATION id="13" head="V310976" res="V311026" label="MOD"/>
+   <RELATION id="14" head="V310976" res="V310969" label="MOD"/>
+   <PHRASE id="V310969" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="65" end="71"/>
+   <RELATION id="15" head="V310969" res="V310976" label="FIGURE"/>
+   <PHRASE id="V311026" indicator="F" type="COOKING" text="BROWN" TENSE="PRES" start="81" end="89"/>
+   <RELATION id="16" head="V311026" res="V311272" label="AGENT"/>
+   <RELATION id="17" head="V311026" res="V310976" label="AFFECTED"/>
+   <PHRASE id="V311272" indicator="THE" type="SEQUENCE" NAME-OF="(A)" VAL="(A)" start="81" end="83"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="91" end="105">
+   <TEXT>green and red s</TEXT>
+   <RELATION id="18" head="V318538" res="V318279" label="SEQUENCE"/>
+   <RELATION id="19" head="V318538" res="V318294" label="SEQUENCE1"/>
+   <PHRASE id="V318279" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="91" end="97"/>
+   <PHRASE id="V318294" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="101" end="105"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" start="105" end="121">
+   <TEXT>striped blanked a</TEXT>
+   <RELATION id="20" head="V322686" res="V318308" label="CONTENT"/>
+   <PHRASE id="V318308" indicator="F" type="UNDRESS" text="STRIPED" TENSE="PAST" start="105" end="121"/>
+   <RELATION id="21" head="V318308" res="V318317" label="RESULT"/>
+   <RELATION id="22" head="V318308" res="V322687" label="AGENT"/>
+   <PHRASE id="V322687" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="105" end="121"/>
+   <RELATION id="23" head="V322687" res="V310963" label="COREF"/>
+   <PHRASE id="V318317" indicator="F" type="PREVENT" text="BLANKED" start="113" end="121"/>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="121" end="165">
+   <TEXT>and a night table with a bedside lamp on it .</TEXT>
+   <RELATION id="24" head="V319204" res="V318380" label="CONTENT"/>
+   <RELATION id="25" head="V319204" res="V318324" label="MOD"/>
+   <PHRASE id="V318324" indicator="F" type="CONJUNCT" text="AND" start="121" end="125"/>
+   <RELATION id="26" head="V318324" res="V319204" label="FIGURE"/>
+   <PHRASE id="V318380" indicator="A" type="CHART" text="TABLE" start="125" end="165"/>
+   <RELATION id="27" head="V318380" res="V318375" label="ASSOC-WITH"/>
+   <RELATION id="28" head="V318380" res="V318385" label="MOD"/>
+   <PHRASE id="V318375" indicator="KIND" type="TIME-INTERVAL" text="NIGHT" SCALE="DURATION-SCALE" start="125" end="165"/>
+   <PHRASE id="V318385" indicator="F" type="ASSOC-WITH" text="WITH" start="139" end="165"/>
+   <RELATION id="29" head="V318385" res="V318442" label="GROUND"/>
+   <RELATION id="30" head="V318385" res="V318380" label="FIGURE"/>
+   <PHRASE id="V318442" indicator="A" type="DEVICE-COMPONENT" text="LAMP" start="144" end="165"/>
+   <RELATION id="31" head="V318442" res="V318439" label="ASSOC-WITH"/>
+   <RELATION id="32" head="V318442" res="V318452" label="LOCATION"/>
+   <PHRASE id="V318439" indicator="KIND" type="SIDE-LOCATION" text="BEDSIDE" start="144" end="165"/>
+   <PHRASE id="V318452" indicator="F" type="ON" text="ON" start="159" end="165"/>
+   <RELATION id="33" head="V318452" res="V318474" label="GROUND"/>
+   <RELATION id="34" head="V318452" res="V318442" label="FIGURE"/>
+   <PHRASE id="V318474" indicator="PRO" type="REFERENTIAL-SEM" text="IT" PROFORM="IT" start="162" end="165"/>
+   <RELATION id="35" head="V318474" res="V318380" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

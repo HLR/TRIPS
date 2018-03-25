@@ -1,0 +1,332 @@
+2,290c2,41
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="two men are standing on a lawn in front of a light brown house with blue corners .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+32
+< *last-utt-id*=32  utt-id+32
+< *last-utt-id*=32  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::TWO W::MEN W::ARE W::STANDING)</lisp><word>TWO</word><word>MEN</word><word>ARE</word><word>STANDING</word></words><tags><lisp>((WORD &quot;two&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;men&quot; :FRAME (4 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two men&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   15.725 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (8 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing&quot; :FRAME (12 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="two" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="men" start="4" end="7"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two men" start="0" end="7" penn-cats="NP" score="15.725" /><word lex="are" start="8" end="11"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="12" end="20"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT
+<  (S (NP (N1 (ADJP (NUMBER TWO)) (N1 (N MEN))))
+<   (VP (VP- (AUX (V ARE)) (VP- (V STANDING))))))</lisp><UTT><S><NP><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>MEN</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>STANDING</V></VP-></VP-></VP></S></UTT></tree><terms root="#V122278"><lisp>((ONT::SPEECHACT ONT::V122278 ONT::SA_TELL :CONTENT ONT::V120906 :START 0 :END
+<   21)
+<  (ONT::F ONT::V120906 (:* ONT::BE-AT-LOC W::STAND) :NEUTRAL ONT::V120882 :TENSE
+<   W::PRES :PROGR + :START 0 :END 21)
+<  (ONT::INDEF-SET ONT::V120882 (:* ONT::MALE-PERSON W::MAN) :SIZE ONT::V120880
+<   :START 0 :END 8)
+<  (ONT::A ONT::V120880 ONT::NUMBER :VALUE 2 :START 0 :END 4))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V122278">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V120906" />
+<     <LF:start>0</LF:start>
+<     <LF:end>21</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120906">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BE-AT-LOC</LF:type>
+<     <LF:word>STAND</LF:word>
+<     <role:NEUTRAL rdf:resource="#V120882" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>21</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120882">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>MALE-PERSON</LF:type>
+<     <LF:word>MAN</LF:word>
+<     <role:SIZE rdf:resource="#V120880" />
+<     <LF:start>0</LF:start>
+<     <LF:end>8</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120880">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>2</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>4</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::ON W::A W::LAWN W::IN W::FRONT W::OF W::A W::LIGHT W::BROWN W::HOUSE
+<  W::WITH W::BLUE W::CORNERS W::PUNC-PERIOD)</lisp><word>ON</word><word>A</word><word>LAWN</word><word>IN</word><word>FRONT</word><word>OF</word><word>A</word><word>LIGHT</word><word>BROWN</word><word>HOUSE</word><word>WITH</word><word>BLUE</word><word>CORNERS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;on&quot; :FRAME (21 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (24 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;lawn&quot; :FRAME (26 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a lawn&quot; :FRAME (24 30) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.639 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (31 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;front&quot; :FRAME (34 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;front&quot; :FRAME (34 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.944 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in front&quot; :FRAME (31 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+<     (&quot;in_front%4:02:00&quot;)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (40 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (43 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;light&quot; :FRAME (45 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;brown&quot; :FRAME (51 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;light brown&quot; :FRAME (45 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;light_brown%1:07:00&quot;)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;house&quot; :FRAME (57 62) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a light brown house&quot; :FRAME (43 62) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 31.249 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (63 67) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (68 72) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;corners&quot; :FRAME (73 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;blue corners&quot; :FRAME (68 80) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.396 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with blue corners&quot; :FRAME (63 80) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 24.196 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a light brown house with blue corners&quot; :FRAME (43 80) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 55.986 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;of a light brown house with blue corners&quot; :FRAME (40 80) :PENN-CATS
+<   (PP) :TRIPS-CATS (W::PP) :SCORE 58.398 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;front of a light brown house with blue corners&quot; :FRAME (34 80)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 69.884 :UTTNUM 32 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;in front of a light brown house with blue corners&quot; :FRAME (31 80)
+<   :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 73.48 :UTTNUM 32 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;a lawn in front of a light brown house with blue corners&quot; :FRAME
+<   (24 80) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 86.66 :UTTNUM 32 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on a lawn in front of a light brown house with blue corners&quot; :FRAME
+<   (21 80) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 90.855 :UTTNUM 32 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;standing on a lawn in front of a light brown house with blue corners&quot;
+<   :FRAME (12 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 100.029 :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;are standing on a lawn in front of a light brown house with blue corners&quot;
+<   :FRAME (8 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 104.392 :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (81 81) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;two men are standing on a lawn in front of a light brown house with blue corners .&quot;
+<   :FRAME (0 81) :PENN-CATS (S) :SCORE 121.259 :UTTNUM 32 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="on" start="21" end="23"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="24" end="25"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="lawn" start="26" end="30"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a lawn" start="24" end="30" penn-cats="NP" score="12.639" /><word lex="in" start="31" end="33"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="front" start="34" end="39"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="34" end="39" penn-cats="NP" score="10.944" /><word lex="in front" start="31" end="39"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="40" end="42"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="43" end="44"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="light" start="45" end="50"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="brown" start="51" end="56"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="light brown" start="45" end="56"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="light_brown%1:07:00" /></word><word lex="house" start="57" end="62"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a light brown house" start="43" end="62" penn-cats="NP" score="31.249" /><word lex="with" start="63" end="67"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="blue" start="68" end="72"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="corners" start="73" end="80"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="blue corners" start="68" end="80" penn-cats="NP" score="20.396" /><prefer text="with blue corners" start="63" end="80" penn-cats="PP" score="24.196" /><prefer text="a light brown house with blue corners" start="43" end="80" penn-cats="NP" score="55.986" /><prefer text="of a light brown house with blue corners" start="40" end="80" penn-cats="PP" score="58.398" /><prefer text="front of a light brown house with blue corners" start="34" end="80" penn-cats="NP" score="69.884" /><prefer text="in front of a light brown house with blue corners" start="31" end="80" penn-cats="PP" score="73.48" /><prefer text="a lawn in front of a light brown house with blue corners" start="24" end="80" penn-cats="NP" score="86.66" /><prefer text="on a lawn in front of a light brown house with blue corners" start="21" end="80" penn-cats="PP" score="90.855" /><prefer text="standing on a lawn in front of a light brown house with blue corners" start="12" end="80" penn-cats="VP" score="100.029" /><prefer text="are standing on a lawn in front of a light brown house with blue corners" start="8" end="80" penn-cats="VP" score="104.392" /><word lex="." start="81" end="81"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="two men are standing on a lawn in front of a light brown house with blue corners ." start="0" end="81" penn-cats="S" score="121.259" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (ADVBL (ADV ON) (NP (SPEC (DET (ART A))) (N1 (N LAWN))))
+<    (S
+<     (ADVBL (ADV (WORD IN) (WORD FRONT))
+<      (PP (PREP OF) (NP (SPEC (DET (ART A))) (N1 (N LIGHT)))))
+<     (S
+<      (VP
+<       (VP- (VP- (V BROWN) (NP (N1 (N HOUSE))))
+<        (ADVBL (ADV WITH)
+<         (NP (N1 (ADJP (ADJ1 (ADJ BLUE))) (N1 (N CORNERS)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>LAWN</N></N1></NP></ADVBL><S><ADVBL><ADV><WORD>IN</WORD><WORD>FRONT</WORD></ADV><PP><PREP>OF</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>LIGHT</N></N1></NP></PP></ADVBL><S><VP><VP-><VP-><V>BROWN</V><NP><N1><N>HOUSE</N></N1></NP></VP-><ADVBL><ADV>WITH</ADV><NP><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>CORNERS</N></N1></N1></NP></ADVBL></VP-></VP></S></S></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V125095"><lisp>((ONT::SPEECHACT ONT::V125095 ONT::SA_REQUEST :PUNCTYPE W::DECL :CONTENT
+<   ONT::V121165 :START 21 :END 81)
+<  (ONT::F ONT::V121165 (:* ONT::COOKING W::BROWN) :AGENT ONT::V125072 :AFFECTED
+<   ONT::V121194 :LOCATION ONT::V120916 :LOCATION ONT::V120996 :METHOD
+<   ONT::V121202 :TENSE W::PRES :VFORM W::BASE :START 21 :END 81)
+<  (ONT::IMPRO ONT::V125072 ONT::PERSON :PROFORM W::*YOU* :START 21 :END 81
+<   :COREF SYS)
+<  (ONT::F ONT::V120916 (:* ONT::ON W::ON) :GROUND ONT::V120979 :FIGURE
+<   ONT::V121165 :START 21 :END 31)
+<  (ONT::A ONT::V120979 (:* ONT::STRUCTURE-EXTERNAL-COMPONENT W::LAWN) :START 24
+<   :END 31)
+<  (ONT::F ONT::V120996 (:* ONT::FRONT W::IN-FRONT) :GROUND ONT::V121149 :FIGURE
+<   ONT::V121165 :START 31 :END 51)
+<  (ONT::A ONT::V121149 (:* ONT::DEVICE-COMPONENT W::LIGHT) :START 40 :END 51)
+<  (ONT::BARE ONT::V121194 (:* ONT::LODGING W::HOUSE) :START 57 :END 63)
+<  (ONT::F ONT::V121202 (:* ONT::WITH-INSTRUMENT W::WITH) :GROUND ONT::V121217
+<   :FIGURE ONT::V121165 :START 63 :END 81)
+<  (ONT::INDEF-SET ONT::V121217 (:* ONT::CORNER W::CORNER) :MOD ONT::V121211
+<   :START 68 :END 81)
+<  (ONT::F ONT::V121211 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V121217 :SCALE
+<   ONT::COLOR-SCALE :START 68 :END 73))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V125095">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_REQUEST</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V121165" />
+<     <LF:start>21</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V121165">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>COOKING</LF:type>
+<     <LF:word>BROWN</LF:word>
+<     <role:AGENT rdf:resource="#V125072" />
+<     <role:AFFECTED rdf:resource="#V121194" />
+<     <role:LOCATION rdf:resource="#V120916" />
+<     <role:LOCATION rdf:resource="#V120996" />
+<     <role:METHOD rdf:resource="#V121202" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:VFORM>BASE</role:VFORM>
+<     <LF:start>21</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125072">
+<     <LF:indicator>IMPRO</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <role:PROFORM>*YOU*</role:PROFORM>
+<     <LF:start>21</LF:start>
+<     <LF:end>81</LF:end>
+<     <role:COREF>SYS</role:COREF>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120916">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V120979" />
+<     <role:FIGURE rdf:resource="#V121165" />
+<     <LF:start>21</LF:start>
+<     <LF:end>31</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120979">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>STRUCTURE-EXTERNAL-COMPONENT</LF:type>
+<     <LF:word>LAWN</LF:word>
+<     <LF:start>24</LF:start>
+<     <LF:end>31</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120996">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>FRONT</LF:type>
+<     <LF:word>IN-FRONT</LF:word>
+<     <role:GROUND rdf:resource="#V121149" />
+<     <role:FIGURE rdf:resource="#V121165" />
+<     <LF:start>31</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V121149">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>DEVICE-COMPONENT</LF:type>
+<     <LF:word>LIGHT</LF:word>
+<     <LF:start>40</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V121194">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>LODGING</LF:type>
+<     <LF:word>HOUSE</LF:word>
+<     <LF:start>57</LF:start>
+<     <LF:end>63</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V121202">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WITH-INSTRUMENT</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V121217" />
+<     <role:FIGURE rdf:resource="#V121165" />
+<     <LF:start>63</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V121217">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CORNER</LF:type>
+<     <LF:word>CORNER</LF:word>
+<     <role:MOD rdf:resource="#V121211" />
+<     <LF:start>68</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V121211">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BLUE</LF:type>
+<     <LF:word>BLUE</LF:word>
+<     <role:FIGURE rdf:resource="#V121217" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>68</LF:start>
+<     <LF:end>73</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="21">
+>    <TEXT>two men are standing o</TEXT>
+>    <RELATION id="1" head="V122278" res="V120906" label="CONTENT"/>
+>    <PHRASE id="V120906" indicator="F" type="BE-AT-LOC" text="STAND" TENSE="PRES" PROGR="+" start="0" end="21"/>
+>    <RELATION id="2" head="V120906" res="V120882" label="NEUTRAL"/>
+>    <PHRASE id="V120882" indicator="INDEF-SET" type="MALE-PERSON" text="MAN" start="0" end="8"/>
+>    <RELATION id="3" head="V120882" res="V120880" label="SIZE"/>
+>    <PHRASE id="V120880" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_REQUEST" PUNCTYPE="DECL" start="21" end="81">
+>    <TEXT>on a lawn in front of a light brown house with blue corners .</TEXT>
+>    <RELATION id="4" head="V125095" res="V121165" label="CONTENT"/>
+>    <PHRASE id="V121165" indicator="F" type="COOKING" text="BROWN" TENSE="PRES" VFORM="BASE" start="21" end="81"/>
+>    <RELATION id="5" head="V121165" res="V125072" label="AGENT"/>
+>    <RELATION id="6" head="V121165" res="V121194" label="AFFECTED"/>
+>    <RELATION id="7" head="V121165" res="V120916" label="LOCATION"/>
+>    <RELATION id="8" head="V121165" res="V120996" label="LOCATION"/>
+>    <RELATION id="9" head="V121165" res="V121202" label="METHOD"/>
+>    <PHRASE id="V125072" indicator="IMPRO" type="PERSON" PROFORM="*YOU*" start="21" end="81" COREF="SYS"/>
+>    <PHRASE id="V120916" indicator="F" type="ON" text="ON" start="21" end="31"/>
+>    <RELATION id="10" head="V120916" res="V120979" label="GROUND"/>
+>    <RELATION id="11" head="V120916" res="V121165" label="FIGURE"/>
+>    <PHRASE id="V120979" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="LAWN" start="24" end="31"/>
+>    <PHRASE id="V120996" indicator="F" type="FRONT" text="IN-FRONT" start="31" end="51"/>
+>    <RELATION id="12" head="V120996" res="V121149" label="GROUND"/>
+>    <RELATION id="13" head="V120996" res="V121165" label="FIGURE"/>
+>    <PHRASE id="V121149" indicator="A" type="DEVICE-COMPONENT" text="LIGHT" start="40" end="51"/>
+>    <PHRASE id="V121194" indicator="BARE" type="LODGING" text="HOUSE" start="57" end="63"/>
+>    <PHRASE id="V121202" indicator="F" type="WITH-INSTRUMENT" text="WITH" start="63" end="81"/>
+>    <RELATION id="14" head="V121202" res="V121217" label="GROUND"/>
+>    <RELATION id="15" head="V121202" res="V121165" label="FIGURE"/>
+>    <PHRASE id="V121217" indicator="INDEF-SET" type="CORNER" text="CORNER" start="68" end="81"/>
+>    <RELATION id="16" head="V121217" res="V121211" label="MOD"/>
+>    <PHRASE id="V121211" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="68" end="73"/>
+>    <RELATION id="17" head="V121211" res="V121217" label="FIGURE"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

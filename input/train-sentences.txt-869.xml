@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Front view of the first three levels of the Hotel and Casino Boulevard .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+46
+*last-utt-id*=46  utt-id+NIL</debug><utt><words><lisp>(W::FRONT W::VIEW W::OF W::THE W::FIRST W::THREE W::LEVELS W::OF W::THE
+ W::HOTEL W::AND W::CASINO W::BOULEVARD W::PUNC-PERIOD)</lisp><word>FRONT</word><word>VIEW</word><word>OF</word><word>THE</word><word>FIRST</word><word>THREE</word><word>LEVELS</word><word>OF</word><word>THE</word><word>HOTEL</word><word>AND</word><word>CASINO</word><word>BOULEVARD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Front&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GEOGRAPHIC-REGION)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Front&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 14.259
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;view&quot; :FRAME (6 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN VBP) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+  46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (11 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (14 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;first&quot; :FRAME (18 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;three&quot; :FRAME (24 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;levels&quot; :FRAME (30 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the first three levels&quot; :FRAME (14 36) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 21.051 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (37 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (40 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Hotel&quot; :FRAME (44 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (50 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Casino&quot; :FRAME (54 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GEOGRAPHIC-REGION)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Boulevard&quot; :FRAME (61 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GEOGRAPHIC-REGION)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Casino Boulevard&quot; :FRAME (54 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::ORGANIZATION)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the Hotel and Casino Boulevard&quot; :FRAME (40 70) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 39.397 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;of the Hotel and Casino Boulevard&quot; :FRAME (37 70) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 40.465 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;the first three levels of the Hotel and Casino Boulevard&quot; :FRAME
+  (14 70) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 62.057 :UTTNUM 46 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of the first three levels of the Hotel and Casino Boulevard&quot; :FRAME
+  (11 70) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 66.855 :UTTNUM 46 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;view of the first three levels of the Hotel and Casino Boulevard&quot;
+  :FRAME (6 70) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 78.581 :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (71 71) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;Front view of the first three levels of the Hotel and Casino Boulevard .&quot;
+  :FRAME (0 71) :PENN-CATS (S) :SCORE 93.982 :UTTNUM 46 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="Front" start="0" end="5"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><prefer text="Front" start="0" end="5" penn-cats="NP" score="14.259" /><word lex="view" start="6" end="10"><sense-info penn-parts-of-speech="NN,VBP" trips-parts-of-speech="N,V" /></word><word lex="of" start="11" end="13"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="14" end="17"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="first" start="18" end="23"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="three" start="24" end="29"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="levels" start="30" end="36"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the first three levels" start="14" end="36" penn-cats="NP" score="21.051" /><word lex="of" start="37" end="39"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="40" end="43"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="Hotel" start="44" end="49"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="and" start="50" end="53"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="Casino" start="54" end="60"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="Boulevard" start="61" end="70"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="Casino Boulevard" start="54" end="70"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="ORGANIZATION" /></word><prefer text="the Hotel and Casino Boulevard" start="40" end="70" penn-cats="NP" score="39.397" /><prefer text="of the Hotel and Casino Boulevard" start="37" end="70" penn-cats="PP" score="40.465" /><prefer text="the first three levels of the Hotel and Casino Boulevard" start="14" end="70" penn-cats="NP" score="62.057" /><prefer text="of the first three levels of the Hotel and Casino Boulevard" start="11" end="70" penn-cats="PP" score="66.855" /><prefer text="view of the first three levels of the Hotel and Casino Boulevard" start="6" end="70" penn-cats="VP" score="78.581" /><word lex="." start="71" end="71"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Front view of the first three levels of the Hotel and Casino Boulevard ." start="0" end="71" penn-cats="S" score="93.982" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1 (NP (NAME FRONT))
+    (N1 (N VIEW)
+     (PP (PREP OF)
+      (NP (SPEC (DET (ART THE)) (ORDINAL FIRST))
+       (N1 (ADJP (NUMBER THREE))
+        (N1 (N LEVELS)
+         (PP (PREP OF)
+          (NP (NP (SPEC (DET (ART THE))) (N1 (N HOTEL))) (CONJ AND)
+           (NP (NAME CASINO BOULEVARD))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><NP><NAME>FRONT</NAME></NP><N1><N>VIEW</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET><ORDINAL>FIRST</ORDINAL></SPEC><N1><ADJP><NUMBER>THREE</NUMBER></ADJP><N1><N>LEVELS</N><PP><PREP>OF</PREP><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>HOTEL</N></N1></NP><CONJ>AND</CONJ><NP><NAME>CASINO BOULEVARD</NAME></NP></NP></PP></N1></N1></NP></PP></N1></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V328647"><lisp>((ONT::SPEECHACT ONT::V328647 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V327640 :START 0 :END 71)
+ (ONT::BARE ONT::V327640 (:* ONT::MENTAL-OBJECT W::VIEW) :ASSOC-WITH
+  ONT::V327632 :FIGURE ONT::V327672 :START 0 :END 71)
+ (ONT::THE ONT::V327632 (:* ONT::GEOGRAPHIC-REGION W::FRONT) :NAME-OF
+  (W::FRONT) :START 0 :END 6)
+ (ONT::THE-SET ONT::V327672 (:* ONT::LEVEL W::LEVEL) :ORDINAL 1 :SIZE
+  ONT::V327670 :SCALE ONT::LINEAR-SCALE :FIGURE ONT::V327698 :START 11 :END 71)
+ (ONT::A ONT::V327670 ONT::NUMBER :VALUE 3 :START 24 :END 30)
+ (ONT::INDEF-SET ONT::V327698 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V327693 ONT::V327724) :START 37 :END 71)
+ (ONT::THE ONT::V327693 (:* ONT::ACCOMMODATION W::HOTEL) :START 40 :END 50)
+ (ONT::THE ONT::V327724 (:* ONT::ORGANIZATION W::CASINO-BOULEVARD) :NAME-OF
+  (W::CASINO W::BOULEVARD) :START 54 :END 71))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V328647">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V327640" />
+    <LF:start>0</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327640">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MENTAL-OBJECT</LF:type>
+    <LF:word>VIEW</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V327632" />
+    <role:FIGURE rdf:resource="#V327672" />
+    <LF:start>0</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327632">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GEOGRAPHIC-REGION</LF:type>
+    <LF:word>FRONT</LF:word>
+    <role:NAME-OF>(FRONT)</role:NAME-OF>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327672">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>LEVEL</LF:type>
+    <LF:word>LEVEL</LF:word>
+    <role:ORDINAL>1</role:ORDINAL>
+    <role:SIZE rdf:resource="#V327670" />
+    <role:SCALE>LINEAR-SCALE</role:SCALE>
+    <role:FIGURE rdf:resource="#V327698" />
+    <LF:start>11</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327670">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>3</role:VALUE>
+    <LF:start>24</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327698">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PHYS-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V327693" />
+    <role:SEQUENCE1 rdf:resource="#V327724" />
+    <LF:start>37</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327693">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>ACCOMMODATION</LF:type>
+    <LF:word>HOTEL</LF:word>
+    <LF:start>40</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327724">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>ORGANIZATION</LF:type>
+    <LF:word>CASINO-BOULEVARD</LF:word>
+    <role:NAME-OF>(CASINO BOULEVARD)</role:NAME-OF>
+    <LF:start>54</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

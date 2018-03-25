@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="48">
+   <TEXT>a dark-skinned boy wearing a knitted woolly hat a</TEXT>
+   <RELATION id="1" head="V53424" res="V53430" label="MOD"/>
+   <RELATION id="2" head="V53424" res="V53409" label="MOD"/>
+   <PHRASE id="V53409" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="3" head="V53409" res="V53398" label="AGENT"/>
+   <RELATION id="4" head="V53409" res="V53424" label="AFFECTED"/>
+   <PHRASE id="V53398" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+   <PHRASE id="V53430" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="19" end="48"/>
+   <RELATION id="5" head="V53430" res="V53424" label="AGENT"/>
+   <RELATION id="6" head="V53430" res="V53492" label="NEUTRAL"/>
+   <PHRASE id="V53492" indicator="A" type="ATTIRE" text="HAT" start="27" end="48"/>
+   <RELATION id="7" head="V53492" res="V53479" label="MOD"/>
+   <RELATION id="8" head="V53492" res="V53486" label="MOD"/>
+   <PHRASE id="V53479" indicator="F" type="CREATE" text="KNIT" start="29" end="37"/>
+   <RELATION id="9" head="V53479" res="V53492" label="AFFECTED"/>
+   <PHRASE id="V53486" indicator="F" type="SOFT-VAL" text="WOOLLY" SCALE="SOFTNESS*1--07--00" start="37" end="44"/>
+   <RELATION id="10" head="V53486" res="V53492" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="48" end="89">
+   <TEXT>and a light and dark grey striped jumper w</TEXT>
+   <RELATION id="11" head="V55260" res="V53604" label="CONTENT"/>
+   <RELATION id="12" head="V55260" res="V53497" label="MOD"/>
+   <PHRASE id="V53497" indicator="F" type="CONJUNCT" text="AND" start="48" end="52"/>
+   <RELATION id="13" head="V53497" res="V55260" label="FIGURE"/>
+   <PHRASE id="V53604" indicator="F" type="UNDRESS" text="STRIPED" TENSE="PAST" start="52" end="89"/>
+   <RELATION id="14" head="V53604" res="V53590" label="AGENT"/>
+   <RELATION id="15" head="V53604" res="V53613" label="AFFECTED"/>
+   <PHRASE id="V53590" indicator="A" type="ORGANIZATION" text="GREY" start="52" end="74"/>
+   <RELATION id="16" head="V53590" res="V53878" label="MOD"/>
+   <PHRASE id="V53878" indicator="F" type="COLOR-SATURATION-VAL" OPERATOR="AND" start="54" end="69"/>
+   <RELATION id="17" head="V53878" res="V53548" label="SEQUENCE"/>
+   <RELATION id="18" head="V53878" res="V53582" label="SEQUENCE1"/>
+   <PHRASE id="V53548" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="54" end="60"/>
+   <RELATION id="19" head="V53548" res="V53590" label="FIGURE"/>
+   <PHRASE id="V53582" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="64" end="69"/>
+   <RELATION id="20" head="V53582" res="V53590" label="FIGURE"/>
+   <PHRASE id="V53613" indicator="BARE" type="PERSON" text="JUMPER" start="82" end="89"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="ASSOC-WITH" text="WITH" start="89" end="107">
+   <TEXT>with a grey zip , l</TEXT>
+   <RELATION id="21" head="V53620" res="V53687" label="GROUND"/>
+   <PHRASE id="V53687" indicator="A" type="QUANTITY" text="ZIP" start="94" end="107"/>
+   <RELATION id="22" head="V53687" res="V53673" label="MOD"/>
+   <PHRASE id="V53673" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="96" end="101"/>
+   <RELATION id="23" head="V53673" res="V53687" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="107" end="130">
+   <TEXT>leaning on a grey wall .</TEXT>
+   <RELATION id="24" head="V54376" res="V53697" label="CONTENT"/>
+   <PHRASE id="V53697" indicator="BARE" type="LEANING" text="LEAN" start="107" end="130"/>
+   <RELATION id="25" head="V53697" res="V53709" label="LOCATION"/>
+   <PHRASE id="V53709" indicator="F" type="ON" text="ON" start="115" end="130"/>
+   <RELATION id="26" head="V53709" res="V53789" label="GROUND"/>
+   <RELATION id="27" head="V53709" res="V53697" label="FIGURE"/>
+   <PHRASE id="V53789" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="118" end="130"/>
+   <RELATION id="28" head="V53789" res="V53780" label="MOD"/>
+   <PHRASE id="V53780" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="120" end="125"/>
+   <RELATION id="29" head="V53780" res="V53789" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

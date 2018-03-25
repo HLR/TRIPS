@@ -2,8 +2,10 @@
 #February 4, 2018
 #Read SPRL XML file and parse matching data from other files into new file
 
+import os
 import xml.etree.ElementTree as ET
 import re
+import argparse
 class File:
     def __init__(self):
         self.text=""
@@ -34,15 +36,18 @@ def findMatch(text,files):
             return file.fileName
     return ""
 
-def indexFiles():
+def indexFiles(dirPath):
     files=[]
-    for i in range(0,774):
-        name = "TRIPS_parses/train-sentences.txt-"+str(i+100)+".xml"
+    #for i in range(0,774):
+    dirName = dirPath#"/Users/michaelfurst/Desktop/TRIPSCleaned/"
+    for name in os.listdir(dirName):
+        name = os.path.join(dirName,name)
         try:
             _tree = ET.parse(name)
-        except (FileNotFoundError,ET.ParseError):
+        except (FileNotFoundError,ET.ParseError) as e:
+            print(e)
             continue
-        if (_tree.getroot().tag=='SPRL'):
+        if (_tree.getroot().tag=='SpRL'):
             for scene in _tree.getroot():
                 for element in scene:
                     if element.tag=='SENTENCE':
@@ -72,7 +77,7 @@ def _pullElements(root):
 def pullElements(fileName):
     tree=ET.parse(fileName)
     root=tree.getroot()
-    if root.tag=='SPRL':
+    if root.tag=='SpRL':
         #If is using older format call specialized function
         return _pullElements(root)
     elements=[]
@@ -82,12 +87,12 @@ def pullElements(fileName):
             elements+=[elem]
     return elements
         
-def run(xmlName):
-    files = indexFiles()
+def run(xmlName,pathToCleanedXMLS):
+    files = indexFiles(pathToCleanedXMLS)
     try:
-        tree = ET.parse(xmlName+'.xml')
+        tree = ET.parse(xmlName)
     except (FileNotFoundError,ET.ParseError):
-        print("Could not load \'sprl2017_train.xml\'")
+        print("Could not load \'"+xmlName)
         return
     log=""
     root = tree.getroot()
@@ -113,19 +118,30 @@ def run(xmlName):
                     for elem in list(pullElements(match)):
                         element.append(elem)
     #write tree to output file
-    tree.write(xmlName+"-output.xml")
-    print(xmlName+"-output.xml successfully created")
+    tree.write(xmlName[:-4]+"-output.xml")
+    print(xmlName[:-4]+"-output.xml successfully created")
     #write log
     if log!="":
-        logFile = open(xmlName+"-log.txt",'a')
+        logFile = open(xmlName[:-4]+"-log.txt",'a')
         logFile.write(log)
         logFile.close()
-        print("An error log (\'"+xmlName+"-log.txt\') has been generated.")
+        print("An error log (\'"+xmlName[:-4]+"-log.txt\') has been generated.")
     return
 
 
-def main():
-    run("sprl2017_train")
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(
+        description='This is a script to join SpRL file data into a core file.')
+    parser.add_argument(
+        "--path",
+        dest="path",
+        required=True,
+        help='Path to the cleaned files')
+    parser.add_argument(
+        "--file",
+        dest="file",
+        required=True,
+        help='Core SpRL file')
+    args=parser.parse_args()
+    run(args.file,args.path)
 
-
-main()

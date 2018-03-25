@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="children are sitting at their desks , together with a tourist sitting in the last row .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?207538:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V359517)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?207536)
+                                           (W::TRANSFORM ?207537)))
+                                 (W::CASE ?207535:(W::SUB W::OBJ -))
+                                 (W::AGR ?207534) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V359517) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER360081))
+*last-utt-id*=NIL  utt-id+66
+*last-utt-id*=66  utt-id+66
+*last-utt-id*=66  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::CHILDREN W::ARE W::SITTING W::AT W::THEIR W::DESKS W::PUNC-COMMA
+ W::TOGETHER W::WITH W::A W::TOURIST W::SITTING W::IN)</lisp><word>CHILDREN</word><word>ARE</word><word>SITTING</word><word>AT</word><word>THEIR</word><word>DESKS</word><word>PUNC-COMMA</word><word>TOGETHER</word><word>WITH</word><word>A</word><word>TOURIST</word><word>SITTING</word><word>IN</word></words><tags><lisp>((WORD &quot;children&quot; :FRAME (0 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;children&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  9.246 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (9 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (13 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (21 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;their&quot; :FRAME (24 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;desks&quot; :FRAME (30 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;their desks&quot; :FRAME (24 35) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.982 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at their desks&quot; :FRAME (21 35) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 18.31 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (36 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;together&quot; :FRAME (38 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;together&quot; :FRAME (38 46) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL)
+  :SCORE 5.849 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (47 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;together with&quot; :FRAME (38 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;together_with%4:02:00&quot;)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (52 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tourist&quot; :FRAME (54 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a tourist&quot; :FRAME (52 61) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.2 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (62 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (70 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting in&quot; :FRAME (62 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;sit_in%2:41:00&quot; &quot;sit_in%2:42:00&quot;)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="children" start="0" end="8"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="children" start="0" end="8" penn-cats="NP" score="9.246" /><word lex="are" start="9" end="12"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="13" end="20"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="21" end="23"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="their" start="24" end="29"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="desks" start="30" end="35"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="their desks" start="24" end="35" penn-cats="NP" score="14.982" /><prefer text="at their desks" start="21" end="35" penn-cats="PP" score="18.31" /><word lex="," start="36" end="37"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="together" start="38" end="46"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="together" start="38" end="46" penn-cats="ADVP" score="5.849" /><word lex="with" start="47" end="51"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="together with" start="38" end="51"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="together_with%4:02:00" /></word><word lex="a" start="52" end="53"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="tourist" start="54" end="61"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a tourist" start="52" end="61" penn-cats="NP" score="12.2" /><word lex="sitting" start="62" end="69"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="70" end="72"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="sitting in" start="62" end="72"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="sit_in%2:41:00,sit_in%2:42:00" /></word></tags><tree><lisp>(UTT
+ (S (NP (N1 (N CHILDREN)))
+  (VP
+   (VP- (AUX (V ARE))
+    (VP-
+     (VP-
+      (VP-
+       (VP- (VP- (V SITTING))
+        (ADVBL (ADV AT)
+         (NP (SPEC (DET (POSSESSOR (PRO THEIR)))) (N1 (N DESKS)))))
+       (ADVBL (ADV (PUNC PUNC-COMMA) (ADV TOGETHER))))
+      (ADVBL (ADV WITH) (NP (SPEC (DET (ART A))) (N1 (N TOURIST)))))
+     (ADVBL (VP (VP- (V SITTING IN)))))))))</lisp><UTT><S><NP><N1><N>CHILDREN</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><VP-><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>AT</ADV><NP><SPEC><DET><POSSESSOR><PRO>THEIR</PRO></POSSESSOR></DET></SPEC><N1><N>DESKS</N></N1></NP></ADVBL></VP-><ADVBL><ADV><PUNC>PUNC-COMMA</PUNC><ADV>TOGETHER</ADV></ADV></ADVBL></VP-><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>TOURIST</N></N1></NP></ADVBL></VP-><ADVBL><VP><VP-><V>SITTING IN</V></VP-></VP></ADVBL></VP-></VP-></VP></S></UTT></tree><terms root="#V361005"><lisp>((ONT::SPEECHACT ONT::V361005 ONT::SA_TELL :CONTENT ONT::V356363 :START 0 :END
+  73)
+ (ONT::F ONT::V356363 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V356380
+  :AGENT ONT::V356337 :TIME ONT::V356795 :AGENT1 ONT::V356407 :MANNER
+  ONT::V356401 :TENSE W::PRES :PROGR + :START 0 :END 73)
+ (ONT::INDEF-SET ONT::V356337 (:* ONT::CHILD W::CHILD) :START 0 :END 9)
+ (ONT::F ONT::V356380 (:* ONT::AT-LOC W::AT) :GROUND ONT::V356395 :START 21
+  :END 36)
+ (ONT::THE-SET ONT::V356395 (:* ONT::FURNISHINGS W::DESK) :ASSOC-POSS
+  ONT::V356392 :START 24 :END 36)
+ (ONT::PRO ONT::V356392 (:* ONT::REFERENTIAL-SEM W::THEIR) :PROFORM W::THEIR
+  :START 24 :END 36 :COREF ONT::V356337)
+ (ONT::F ONT::V356401 (:* ONT::INCLUSIVE W::TOGETHER) :FIGURE ONT::V356363
+  :START 36 :END 47)
+ (ONT::F ONT::V356407 (:* ONT::ACCOMPANIMENT W::WITH) :GROUND ONT::V356468
+  :FIGURE ONT::V356363 :START 47 :END 62)
+ (ONT::A ONT::V356468 (:* ONT::TRAVELLER W::TOURIST) :START 52 :END 62)
+ (ONT::F ONT::V356795 ONT::IMPLICIT-OVERLAP :FIGURE ONT::V356363 :GROUND
+  ONT::V356552 :START 62 :END 73)
+ (ONT::F ONT::V356552 (:* ONT::RESPONSE W::SITTING-IN) :VFORM W::ING :START 62
+  :END 73 :WNSENSE &quot;sit_in%2:41:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V361005">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V356363" />
+    <LF:start>0</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356363">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:RESULT rdf:resource="#V356380" />
+    <role:AGENT rdf:resource="#V356337" />
+    <role:TIME rdf:resource="#V356795" />
+    <role:AGENT1 rdf:resource="#V356407" />
+    <role:MANNER rdf:resource="#V356401" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356337">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>CHILD</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356380">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V356395" />
+    <LF:start>21</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356395">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>DESK</LF:word>
+    <role:ASSOC-POSS rdf:resource="#V356392" />
+    <LF:start>24</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356392">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THEIR</LF:word>
+    <role:PROFORM>THEIR</role:PROFORM>
+    <LF:start>24</LF:start>
+    <LF:end>36</LF:end>
+    <role:COREF rdf:resource="#V356337" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356401">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>INCLUSIVE</LF:type>
+    <LF:word>TOGETHER</LF:word>
+    <role:FIGURE rdf:resource="#V356363" />
+    <LF:start>36</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356407">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ACCOMPANIMENT</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V356468" />
+    <role:FIGURE rdf:resource="#V356363" />
+    <LF:start>47</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356468">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>TRAVELLER</LF:type>
+    <LF:word>TOURIST</LF:word>
+    <LF:start>52</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356795">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IMPLICIT-OVERLAP</LF:type>
+    <role:FIGURE rdf:resource="#V356363" />
+    <role:GROUND rdf:resource="#V356552" />
+    <LF:start>62</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356552">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RESPONSE</LF:type>
+    <LF:word>SITTING-IN</LF:word>
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>62</LF:start>
+    <LF:end>73</LF:end>
+    <role:WNSENSE>sit_in%2:41:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::THE W::LAST W::ROW W::PUNC-PERIOD)</lisp><word>THE</word><word>LAST</word><word>ROW</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;the&quot; :FRAME (73 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;last&quot; :FRAME (77 81) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;row&quot; :FRAME (82 85) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the last row&quot; :FRAME (73 85) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 16.507 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the last row&quot; :FRAME (70 85) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 18.732 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting in the last row&quot; :FRAME (62 85) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 27.429 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a tourist sitting in the last row&quot; :FRAME (52 85) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 42.667 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;with a tourist sitting in the last row&quot; :FRAME (47 85) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :SCORE 46.09 :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER
+  &quot;sitting at their desks , together with a tourist sitting in the last row&quot;
+  :FRAME (13 85) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 87.04 :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;are sitting at their desks , together with a tourist sitting in the last row&quot;
+  :FRAME (9 85) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 91.403 :UTTNUM 66
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (86 86) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 66 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;children are sitting at their desks , together with a tourist sitting in the last row .&quot;
+  :FRAME (0 86) :PENN-CATS (S) :SCORE 101.79 :UTTNUM 66 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="the" start="73" end="76"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="last" start="77" end="81"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="row" start="82" end="85"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the last row" start="73" end="85" penn-cats="NP" score="16.507" /><prefer text="in the last row" start="70" end="85" penn-cats="PP" score="18.732" /><prefer text="sitting in the last row" start="62" end="85" penn-cats="VP" score="27.429" /><prefer text="a tourist sitting in the last row" start="52" end="85" penn-cats="NP" score="42.667" /><prefer text="with a tourist sitting in the last row" start="47" end="85" penn-cats="PP" score="46.09" /><prefer text="sitting at their desks , together with a tourist sitting in the last row" start="13" end="85" penn-cats="VP" score="87.04" /><prefer text="are sitting at their desks , together with a tourist sitting in the last row" start="9" end="85" penn-cats="VP" score="91.403" /><word lex="." start="86" end="86"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="children are sitting at their desks , together with a tourist sitting in the last row ." start="0" end="86" penn-cats="S" score="101.79" /></tags><tree><lisp>(UTT
+ (UTT (NP (SPEC (DET (ART THE))) (N1 (ADJP (ADJ1 (ADJ LAST))) (N1 (N ROW)))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LAST</ADJ></ADJ1></ADJP><N1><N>ROW</N></N1></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V357675"><lisp>((ONT::SPEECHACT ONT::V357675 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V356585 :START 73 :END 86)
+ (ONT::THE ONT::V356585 (:* ONT::ROW-FORMATION W::ROW) :MOD ONT::V356570 :START
+  73 :END 86)
+ (ONT::F ONT::V356570 (:* ONT::LAST-VAL W::LAST) :FIGURE ONT::V356585 :START 77
+  :END 82))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V357675">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V356585" />
+    <LF:start>73</LF:start>
+    <LF:end>86</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356585">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>ROW-FORMATION</LF:type>
+    <LF:word>ROW</LF:word>
+    <role:MOD rdf:resource="#V356570" />
+    <LF:start>73</LF:start>
+    <LF:end>86</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V356570">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LAST-VAL</LF:type>
+    <LF:word>LAST</LF:word>
+    <role:FIGURE rdf:resource="#V356585" />
+    <LF:start>77</LF:start>
+    <LF:end>82</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

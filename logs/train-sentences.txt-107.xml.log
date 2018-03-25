@@ -1,0 +1,250 @@
+2,219c2,30
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Several flagpoles with waving flags on a green lawn in the foreground .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?39119:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V41581)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?39117)
+<                                            (W::TRANSFORM ?39118)))
+<                                  (W::CASE ?39116:(W::SUB W::OBJ -))
+<                                  (W::AGR ?39115) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V41581) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER41633))
+< *last-utt-id*=NIL  utt-id+6
+< *last-utt-id*=6  utt-id+NIL</debug><utt><words><lisp>(W::SEVERAL W::FLAGPOLES W::WITH W::WAVING W::FLAGS W::ON W::A W::GREEN W::LAWN
+<  W::IN W::THE W::FOREGROUND W::PUNC-PERIOD)</lisp><word>SEVERAL</word><word>FLAGPOLES</word><word>WITH</word><word>WAVING</word><word>FLAGS</word><word>ON</word><word>A</word><word>GREEN</word><word>LAWN</word><word>IN</word><word>THE</word><word>FOREGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Several&quot; :FRAME (0 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;flagpoles&quot; :FRAME (8 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Several flagpoles&quot; :FRAME (0 17) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 21.977 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (18 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;waving&quot; :FRAME (23 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;flags&quot; :FRAME (30 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;flags&quot; :FRAME (30 35) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.07 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (36 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (39 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;green&quot; :FRAME (41 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;lawn&quot; :FRAME (47 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green lawn&quot; :FRAME (39 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.177 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (52 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (55 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;foreground&quot; :FRAME (59 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the foreground&quot; :FRAME (55 69) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.817 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the foreground&quot; :FRAME (52 69) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 17.068 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green lawn in the foreground&quot; :FRAME (39 69) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 39.786 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;on a green lawn in the foreground&quot; :FRAME (36 69) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 43.981 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;waving flags on a green lawn in the foreground&quot; :FRAME (23 69)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 66.52 :UTTNUM 6 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;waving flags on a green lawn in the foreground&quot; :FRAME (23 69)
+<   :PENN-CATS (S) :SCORE 66.525 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with waving flags on a green lawn in the foreground&quot; :FRAME (18 69)
+<   :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 72.06 :UTTNUM 6 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (70 70) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;Several flagpoles with waving flags on a green lawn in the foreground .&quot;
+<   :FRAME (0 70) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 97.11 :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Several" start="0" end="7"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="flagpoles" start="8" end="17"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="Several flagpoles" start="0" end="17" penn-cats="NP" score="21.977" /><word lex="with" start="18" end="22"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="waving" start="23" end="29"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="flags" start="30" end="35"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="flags" start="30" end="35" penn-cats="NP" score="12.07" /><word lex="on" start="36" end="38"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="39" end="40"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="green" start="41" end="46"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="lawn" start="47" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a green lawn" start="39" end="51" penn-cats="NP" score="22.177" /><word lex="in" start="52" end="54"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="55" end="58"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="foreground" start="59" end="69"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the foreground" start="55" end="69" penn-cats="NP" score="14.817" /><prefer text="in the foreground" start="52" end="69" penn-cats="PP" score="17.068" /><prefer text="a green lawn in the foreground" start="39" end="69" penn-cats="NP" score="39.786" /><prefer text="on a green lawn in the foreground" start="36" end="69" penn-cats="PP" score="43.981" /><prefer text="waving flags on a green lawn in the foreground" start="23" end="69" penn-cats="VP" score="66.52" /><prefer text="waving flags on a green lawn in the foreground" start="23" end="69" penn-cats="S" score="66.525" /><prefer text="with waving flags on a green lawn in the foreground" start="18" end="69" penn-cats="PP" score="72.06" /><word lex="." start="70" end="70"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Several flagpoles with waving flags on a green lawn in the foreground ." start="0" end="70" penn-cats="NP" score="97.11" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (SPEC (QUAN SEVERAL))
+<    (N1 (N1 (N FLAGPOLES))
+<     (ADVBL (ADV WITH)
+<      (NP
+<       (VP
+<        (VP- (V WAVING)
+<         (NP
+<          (N1 (N1 (N FLAGS))
+<           (ADVBL (ADV ON)
+<            (NP (SPEC (DET (ART A)))
+<             (N1 (N1 (ADJP (ADJ1 (ADJ GREEN))) (N1 (N LAWN)))
+<              (ADVBL (ADV IN)
+<               (NP (SPEC (DET (ART THE))) (N1 (N FOREGROUND))))))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><QUAN>SEVERAL</QUAN></SPEC><N1><N1><N>FLAGPOLES</N></N1><ADVBL><ADV>WITH</ADV><NP><VP><VP-><V>WAVING</V><NP><N1><N1><N>FLAGS</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><N1><N>LAWN</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>FOREGROUND</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></VP-></VP></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V42819"><lisp>((ONT::SPEECHACT ONT::V42819 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V40785 :START 0 :END 70)
+<  (ONT::INDEF-SET ONT::V40785 (:* ONT::FUNCTIONAL-PHYS-OBJECT W::FLAGPOLE) :SIZE
+<   ONT::SEVERAL :MOD ONT::V40789 :START 0 :END 70)
+<  (ONT::F ONT::V40789 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V40808 :FIGURE
+<   ONT::V40785 :START 18 :END 70)
+<  (ONT::BARE ONT::V40808 (:* ONT::MOVE W::WAVING) :AFFECTED ONT::V40818 :START
+<   23 :END 70)
+<  (ONT::INDEF-SET ONT::V40818 (:* ONT::FLAG W::FLAG) :LOCATION ONT::V40827
+<   :START 30 :END 70)
+<  (ONT::F ONT::V40827 (:* ONT::ON W::ON) :GROUND ONT::V40895 :FIGURE ONT::V40818
+<   :START 36 :END 70)
+<  (ONT::A ONT::V40895 (:* ONT::STRUCTURE-EXTERNAL-COMPONENT W::LAWN) :LOCATION
+<   ONT::V40902 :MOD ONT::V40890 :START 39 :END 70)
+<  (ONT::F ONT::V40890 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V40895 :SCALE
+<   ONT::GREEN*1--07--00 :START 41 :END 47)
+<  (ONT::F ONT::V40902 (:* ONT::IN-LOC W::IN) :GROUND ONT::V40961 :FIGURE
+<   ONT::V40895 :START 52 :END 70)
+<  (ONT::THE ONT::V40961 (:* ONT::DEVICE W::FOREGROUND) :START 55 :END 70))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V42819">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V40785" />
+<     <LF:start>0</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40785">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>FUNCTIONAL-PHYS-OBJECT</LF:type>
+<     <LF:word>FLAGPOLE</LF:word>
+<     <role:SIZE>SEVERAL</role:SIZE>
+<     <role:MOD rdf:resource="#V40789" />
+<     <LF:start>0</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40789">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V40808" />
+<     <role:FIGURE rdf:resource="#V40785" />
+<     <LF:start>18</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40808">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>MOVE</LF:type>
+<     <LF:word>WAVING</LF:word>
+<     <role:AFFECTED rdf:resource="#V40818" />
+<     <LF:start>23</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40818">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>FLAG</LF:type>
+<     <LF:word>FLAG</LF:word>
+<     <role:LOCATION rdf:resource="#V40827" />
+<     <LF:start>30</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40827">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V40895" />
+<     <role:FIGURE rdf:resource="#V40818" />
+<     <LF:start>36</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40895">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>STRUCTURE-EXTERNAL-COMPONENT</LF:type>
+<     <LF:word>LAWN</LF:word>
+<     <role:LOCATION rdf:resource="#V40902" />
+<     <role:MOD rdf:resource="#V40890" />
+<     <LF:start>39</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40890">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>GREEN</LF:type>
+<     <LF:word>GREEN</LF:word>
+<     <role:FIGURE rdf:resource="#V40895" />
+<     <role:SCALE>GREEN*1--07--00</role:SCALE>
+<     <LF:start>41</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40902">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V40961" />
+<     <role:FIGURE rdf:resource="#V40895" />
+<     <LF:start>52</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V40961">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>DEVICE</LF:type>
+<     <LF:word>FOREGROUND</LF:word>
+<     <LF:start>55</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="70">
+>    <TEXT>Several flagpoles with waving flags on a green lawn in the foreground .</TEXT>
+>    <RELATION id="1" head="V42819" res="V40785" label="CONTENT"/>
+>    <PHRASE id="V40785" indicator="INDEF-SET" type="FUNCTIONAL-PHYS-OBJECT" text="FLAGPOLE" SIZE="SEVERAL" start="0" end="70"/>
+>    <RELATION id="2" head="V40785" res="V40789" label="MOD"/>
+>    <PHRASE id="V40789" indicator="F" type="ASSOC-WITH" text="WITH" start="18" end="70"/>
+>    <RELATION id="3" head="V40789" res="V40808" label="GROUND"/>
+>    <RELATION id="4" head="V40789" res="V40785" label="FIGURE"/>
+>    <PHRASE id="V40808" indicator="BARE" type="MOVE" text="WAVING" start="23" end="70"/>
+>    <RELATION id="5" head="V40808" res="V40818" label="AFFECTED"/>
+>    <PHRASE id="V40818" indicator="INDEF-SET" type="FLAG" text="FLAG" start="30" end="70"/>
+>    <RELATION id="6" head="V40818" res="V40827" label="LOCATION"/>
+>    <PHRASE id="V40827" indicator="F" type="ON" text="ON" start="36" end="70"/>
+>    <RELATION id="7" head="V40827" res="V40895" label="GROUND"/>
+>    <RELATION id="8" head="V40827" res="V40818" label="FIGURE"/>
+>    <PHRASE id="V40895" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="LAWN" start="39" end="70"/>
+>    <RELATION id="9" head="V40895" res="V40902" label="LOCATION"/>
+>    <RELATION id="10" head="V40895" res="V40890" label="MOD"/>
+>    <PHRASE id="V40890" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="41" end="47"/>
+>    <RELATION id="11" head="V40890" res="V40895" label="FIGURE"/>
+>    <PHRASE id="V40902" indicator="F" type="IN-LOC" text="IN" start="52" end="70"/>
+>    <RELATION id="12" head="V40902" res="V40961" label="GROUND"/>
+>    <RELATION id="13" head="V40902" res="V40895" label="FIGURE"/>
+>    <PHRASE id="V40961" indicator="THE" type="DEVICE" text="FOREGROUND" start="55" end="70"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

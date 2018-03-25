@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="74">
+   <TEXT>a boy with a light blue cap , a red pullover , blue jeans and black shoes i</TEXT>
+   <RELATION id="1" head="V109268" res="V109272" label="MOD"/>
+   <PHRASE id="V109272" indicator="F" type="ASSOC-WITH" text="WITH" start="6" end="74"/>
+   <RELATION id="2" head="V109272" res="V109453" label="GROUND"/>
+   <RELATION id="3" head="V109272" res="V109268" label="FIGURE"/>
+   <PHRASE id="V109453" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="11" end="74"/>
+   <RELATION id="4" head="V109453" res="V109465" label="SEQUENCE"/>
+   <RELATION id="5" head="V109453" res="V109449" label="SEQUENCE1"/>
+   <RELATION id="6" head="V109453" res="V109362" label="SEQUENCE2"/>
+   <RELATION id="7" head="V109453" res="V109425" label="SEQUENCE3"/>
+   <PHRASE id="V109362" indicator="A" type="ATTIRE" text="CAP" start="11" end="28"/>
+   <RELATION id="8" head="V109362" res="V109325" label="MOD"/>
+   <RELATION id="9" head="V109362" res="V109350" label="MOD"/>
+   <PHRASE id="V109325" indicator="F" type="LIGHTWEIGHT" text="LIGHT" ORIENTATION="LESS" INTENSITY="HI" SCALE="WEIGHT-SCALE" start="13" end="19"/>
+   <RELATION id="10" head="V109325" res="V109362" label="FIGURE"/>
+   <PHRASE id="V109350" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="19" end="24"/>
+   <RELATION id="11" head="V109350" res="V109362" label="FIGURE"/>
+   <PHRASE id="V109425" indicator="A" type="ATTIRE" text="PULLOVER" start="30" end="45"/>
+   <RELATION id="12" head="V109425" res="V109411" label="MOD"/>
+   <PHRASE id="V109411" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="32" end="36"/>
+   <RELATION id="13" head="V109411" res="V109425" label="FIGURE"/>
+   <PHRASE id="V109449" indicator="INDEF-SET" type="ATTIRE" text="BLUE-JEANS" start="47" end="58" WNSENSE="blue_jean%1:06:00"/>
+   <PHRASE id="V109465" indicator="INDEF-SET" type="ATTIRE" text="SHOE" start="62" end="74"/>
+   <RELATION id="14" head="V109465" res="V109462" label="MOD"/>
+   <PHRASE id="V109462" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="62" end="68"/>
+   <RELATION id="15" head="V109462" res="V109465" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_YN-QUESTION" start="74" end="151">
+   <TEXT>is standing in front of a pile of red bricks , with his hands in his pockets .</TEXT>
+   <RELATION id="16" head="V117859" res="V109473" label="CONTENT"/>
+   <PHRASE id="V109473" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="74" end="151"/>
+   <RELATION id="17" head="V109473" res="V109557" label="NEUTRAL"/>
+   <RELATION id="18" head="V109473" res="V109727" label="FORMAL"/>
+   <PHRASE id="V109557" indicator="BARE" type="EXCHANGE" text="STANDING-IN" start="77" end="136" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="19" head="V109557" res="V109561" label="AFFECTED"/>
+   <RELATION id="20" head="V109557" res="V109719" label="AFFECTED1"/>
+   <PHRASE id="V109561" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="89" end="121"/>
+   <RELATION id="21" head="V109561" res="V109670" label="FIGURE"/>
+   <RELATION id="22" head="V109561" res="V109679" label="MOD"/>
+   <PHRASE id="V109670" indicator="A" type="COLUMN-FORMATION" text="PILE" start="95" end="105"/>
+   <PHRASE id="V109679" indicator="F" type="CONTAIN-RELN" text="OF" start="105" end="119"/>
+   <RELATION id="23" head="V109679" res="V109692" label="GROUND"/>
+   <RELATION id="24" head="V109679" res="V109561" label="FIGURE"/>
+   <PHRASE id="V109692" indicator="INDEF-SET" type="MATERIAL" text="BRICK" start="108" end="119"/>
+   <RELATION id="25" head="V109692" res="V109685" label="MOD"/>
+   <PHRASE id="V109685" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="108" end="112"/>
+   <RELATION id="26" head="V109685" res="V109692" label="FIGURE"/>
+   <PHRASE id="V109719" indicator="THE-SET" type="EXTERNAL-BODY-PART" text="HAND" start="121" end="136"/>
+   <RELATION id="27" head="V109719" res="V109712" label="ASSOC-POSS"/>
+   <PHRASE id="V109712" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="121" end="136"/>
+   <RELATION id="28" head="V109712" res="V109268" label="COREF"/>
+   <PHRASE id="V109727" indicator="F" type="IN-LOC" text="IN" start="136" end="151"/>
+   <RELATION id="29" head="V109727" res="V109783" label="GROUND"/>
+   <RELATION id="30" head="V109727" res="V109557" label="FIGURE"/>
+   <PHRASE id="V109783" indicator="THE" type="BAG" text="POCKETS" start="139" end="151"/>
+   <RELATION id="31" head="V109783" res="V109777" label="ASSOC-POSS"/>
+   <PHRASE id="V109777" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="139" end="151"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

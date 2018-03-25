@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl i</TEXT>
+   <RELATION id="1" head="V339410" res="V339383" label="MOD"/>
+   <RELATION id="2" head="V339410" res="V339407" label="MOD"/>
+   <PHRASE id="V339383" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V339383" res="V339410" label="FIGURE"/>
+   <PHRASE id="V339407" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V339407" res="V339410" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="34" end="79">
+   <TEXT>in a red tee-shirt is holding a green pencil .</TEXT>
+   <RELATION id="5" head="V344884" res="V339558" label="CONTENT"/>
+   <PHRASE id="V339558" indicator="F" type="CONTAINMENT" text="HOLD" TENSE="PRES" PROGR="+" start="34" end="79"/>
+   <RELATION id="6" head="V339558" res="V339535" label="NEUTRAL"/>
+   <RELATION id="7" head="V339558" res="V339615" label="NEUTRAL1"/>
+   <RELATION id="8" head="V339558" res="V339417" label="LOCATION"/>
+   <PHRASE id="V339417" indicator="F" type="IN-LOC" text="IN" start="34" end="39"/>
+   <RELATION id="9" head="V339417" res="V340794" label="GROUND"/>
+   <RELATION id="10" head="V339417" res="V339558" label="FIGURE"/>
+   <PHRASE id="V340794" indicator="THE" type="SEQUENCE" NAME-OF="(A)" VAL="(A)" start="37" end="39"/>
+   <PHRASE id="V339535" indicator="BARE" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="39" end="53"/>
+   <RELATION id="11" head="V339535" res="V339507" label="MOD"/>
+   <PHRASE id="V339507" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="39" end="43"/>
+   <RELATION id="12" head="V339507" res="V339535" label="FIGURE"/>
+   <PHRASE id="V339615" indicator="A" type="WRITING-IMPLEMENT" text="PENCIL" start="64" end="79"/>
+   <RELATION id="13" head="V339615" res="V339610" label="MOD"/>
+   <PHRASE id="V339610" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="66" end="72"/>
+   <RELATION id="14" head="V339610" res="V339615" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

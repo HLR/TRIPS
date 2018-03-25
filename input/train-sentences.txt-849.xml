@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a window at the back , with the curtains closed .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+32
+*last-utt-id*=32  utt-id+NIL</debug><utt><words><lisp>(W::A W::WINDOW W::AT W::THE W::BACK W::PUNC-COMMA W::WITH W::THE W::CURTAINS
+ W::CLOSED W::PUNC-PERIOD)</lisp><word>A</word><word>WINDOW</word><word>AT</word><word>THE</word><word>BACK</word><word>PUNC-COMMA</word><word>WITH</word><word>THE</word><word>CURTAINS</word><word>CLOSED</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;window&quot; :FRAME (2 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a window&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.987 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (9 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (12 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;back&quot; :FRAME (16 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the back&quot; :FRAME (12 20) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.119 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (21 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 32
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (23 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (28 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;curtains&quot; :FRAME (32 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the curtains&quot; :FRAME (28 40) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 15.735 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with the curtains&quot; :FRAME (23 40) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 19.535 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the back , with the curtains&quot; :FRAME (12 40) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 36.479 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;at the back , with the curtains&quot; :FRAME (9 40) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 41.749 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;a window at the back , with the curtains&quot; :FRAME (0 40) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 54.103 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;closed&quot; :FRAME (41 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;closed&quot; :FRAME (41 47) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE
+  7.971 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (48 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a window at the back , with the curtains closed .&quot; :FRAME (0 48)
+  :PENN-CATS (S) :SCORE 64.903 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="window" start="2" end="8"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a window" start="0" end="8" penn-cats="NP" score="11.987" /><word lex="at" start="9" end="11"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="12" end="15"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="back" start="16" end="20"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the back" start="12" end="20" penn-cats="NP" score="11.119" /><word lex="," start="21" end="22"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="with" start="23" end="27"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="28" end="31"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="curtains" start="32" end="40"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the curtains" start="28" end="40" penn-cats="NP" score="15.735" /><prefer text="with the curtains" start="23" end="40" penn-cats="PP" score="19.535" /><prefer text="the back , with the curtains" start="12" end="40" penn-cats="NP" score="36.479" /><prefer text="at the back , with the curtains" start="9" end="40" penn-cats="PP" score="41.749" /><prefer text="a window at the back , with the curtains" start="0" end="40" penn-cats="NP" score="54.103" /><word lex="closed" start="41" end="47"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><prefer text="closed" start="41" end="47" penn-cats="VP" score="7.971" /><word lex="." start="48" end="48"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a window at the back , with the curtains closed ." start="0" end="48" penn-cats="S" score="64.903" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP (SPEC (DET (ART A)))
+    (N1 (N1 (N WINDOW))
+     (ADVBL (ADV AT)
+      (NP (SPEC (DET (ART THE)))
+       (N1 (N1 (N BACK))
+        (ADVBL (ADV (PUNC PUNC-COMMA) (ADV WITH))
+         (NP (SPEC (DET (ART THE))) (N1 (N CURTAINS)))))))))
+   (VP (VP- (V CLOSED)))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>WINDOW</N></N1><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>BACK</N></N1><ADVBL><ADV><PUNC>PUNC-COMMA</PUNC><ADV>WITH</ADV></ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>CURTAINS</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP><VP><VP-><V>CLOSED</V></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V265273"><lisp>((ONT::SPEECHACT ONT::V265273 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V265056 :START 0 :END 48)
+ (ONT::F ONT::V265056 (:* ONT::CLOSE W::CLOSE) :AFFECTED ONT::V264985 :TENSE
+  W::PAST :START 0 :END 48)
+ (ONT::A ONT::V264985 (:* ONT::STRUCTURAL-OPENING W::WINDOW) :LOCATION
+  ONT::V264995 :START 0 :END 41)
+ (ONT::F ONT::V264995 (:* ONT::AT-LOC W::AT) :GROUND ONT::V265020 :FIGURE
+  ONT::V264985 :START 9 :END 41)
+ (ONT::THE ONT::V265020 (:* ONT::OBJECT-DEPENDENT-LOCATION W::BACK) :MOD
+  ONT::V265030 :START 12 :END 41)
+ (ONT::F ONT::V265030 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V265049 :FIGURE
+  ONT::V265020 :START 21 :END 41)
+ (ONT::THE-SET ONT::V265049 (:* ONT::COVERING W::CURTAIN) :START 28 :END 41))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V265273">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V265056" />
+    <LF:start>0</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V265056">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CLOSE</LF:type>
+    <LF:word>CLOSE</LF:word>
+    <role:AFFECTED rdf:resource="#V264985" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264985">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>STRUCTURAL-OPENING</LF:type>
+    <LF:word>WINDOW</LF:word>
+    <role:LOCATION rdf:resource="#V264995" />
+    <LF:start>0</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264995">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V265020" />
+    <role:FIGURE rdf:resource="#V264985" />
+    <LF:start>9</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V265020">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>BACK</LF:word>
+    <role:MOD rdf:resource="#V265030" />
+    <LF:start>12</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V265030">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V265049" />
+    <role:FIGURE rdf:resource="#V265020" />
+    <LF:start>21</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V265049">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>COVERING</LF:type>
+    <LF:word>CURTAIN</LF:word>
+    <LF:start>28</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

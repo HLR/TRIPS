@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="50">
+   <TEXT>many wires are sticking out of the bare brickwork .</TEXT>
+   <RELATION id="1" head="V120116" res="V118448" label="CONTENT"/>
+   <PHRASE id="V118448" indicator="F" type="PENETRATE" text="STICK" TENSE="PRES" PROGR="+" start="0" end="50"/>
+   <RELATION id="2" head="V118448" res="V118423" label="AGENT"/>
+   <RELATION id="3" head="V118448" res="V118540" label="AFFECTED"/>
+   <RELATION id="4" head="V118448" res="V118465" label="LOCATION"/>
+   <PHRASE id="V118423" indicator="INDEF-SET" type="DEVICE-COMPONENT" text="WIRE" SIZE="MANY" start="0" end="11"/>
+   <PHRASE id="V118465" indicator="F" type="OUTSIDE" text="OUT-OF" start="24" end="40"/>
+   <RELATION id="5" head="V118465" res="V118881" label="GROUND"/>
+   <RELATION id="6" head="V118465" res="V118448" label="FIGURE"/>
+   <PHRASE id="V118881" indicator="THE-SET" type="ANY-SEM" start="31" end="40"/>
+   <RELATION id="7" head="V118881" res="V118531" label="MOD"/>
+   <PHRASE id="V118531" indicator="F" type="BASIC-VAL" text="BARE" start="35" end="40"/>
+   <RELATION id="8" head="V118531" res="V118881" label="FIGURE"/>
+   <PHRASE id="V118540" indicator="BARE" type="MANUFACTURED-OBJECT" text="BRICKWORK" start="40" end="50"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

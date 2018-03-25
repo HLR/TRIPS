@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="tourists are standing in front of the blackboard in a classroom .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+13
+*last-utt-id*=13  utt-id+NIL</debug><utt><words><lisp>(W::TOURISTS W::ARE W::STANDING W::IN W::FRONT W::OF W::THE W::BLACKBOARD W::IN
+ W::A W::CLASSROOM W::PUNC-PERIOD)</lisp><word>TOURISTS</word><word>ARE</word><word>STANDING</word><word>IN</word><word>FRONT</word><word>OF</word><word>THE</word><word>BLACKBOARD</word><word>IN</word><word>A</word><word>CLASSROOM</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;tourists&quot; :FRAME (0 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tourists&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.743 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (9 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (13 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (22 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing in&quot; :FRAME (13 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;stand_in%2:40:00&quot;)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;front&quot; :FRAME (25 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front&quot; :FRAME (25 30) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.944 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in front&quot; :FRAME (22 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;in_front%4:02:00&quot;)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (31 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (34 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blackboard&quot; :FRAME (38 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the blackboard&quot; :FRAME (34 48) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.401 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (49 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (52 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;classroom&quot; :FRAME (54 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a classroom&quot; :FRAME (52 63) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 13.862 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in a classroom&quot; :FRAME (49 63) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 16.114 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the blackboard in a classroom&quot; :FRAME (34 63) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 31.056 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;of the blackboard in a classroom&quot; :FRAME (31 63) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 33.468 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;front of the blackboard in a classroom&quot; :FRAME (25 63) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 44.953 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;in front of the blackboard in a classroom&quot; :FRAME (22 63) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :SCORE 48.161 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;standing in front of the blackboard in a classroom&quot; :FRAME (13 63)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 57.335 :UTTNUM 13 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;are standing in front of the blackboard in a classroom&quot; :FRAME (9 63)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 61.698 :UTTNUM 13 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (64 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tourists are standing in front of the blackboard in a classroom .&quot;
+  :FRAME (0 64) :PENN-CATS (S) :SCORE 73.583 :UTTNUM 13 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="tourists" start="0" end="8"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="tourists" start="0" end="8" penn-cats="NP" score="10.743" /><word lex="are" start="9" end="12"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="13" end="21"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="22" end="24"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="standing in" start="13" end="24"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="front" start="25" end="30"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="25" end="30" penn-cats="NP" score="10.944" /><word lex="in front" start="22" end="30"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="31" end="33"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="34" end="37"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blackboard" start="38" end="48"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the blackboard" start="34" end="48" penn-cats="NP" score="14.401" /><word lex="in" start="49" end="51"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="52" end="53"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="classroom" start="54" end="63"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a classroom" start="52" end="63" penn-cats="NP" score="13.862" /><prefer text="in a classroom" start="49" end="63" penn-cats="PP" score="16.114" /><prefer text="the blackboard in a classroom" start="34" end="63" penn-cats="NP" score="31.056" /><prefer text="of the blackboard in a classroom" start="31" end="63" penn-cats="PP" score="33.468" /><prefer text="front of the blackboard in a classroom" start="25" end="63" penn-cats="NP" score="44.953" /><prefer text="in front of the blackboard in a classroom" start="22" end="63" penn-cats="PP" score="48.161" /><prefer text="standing in front of the blackboard in a classroom" start="13" end="63" penn-cats="VP" score="57.335" /><prefer text="are standing in front of the blackboard in a classroom" start="9" end="63" penn-cats="VP" score="61.698" /><word lex="." start="64" end="64"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="tourists are standing in front of the blackboard in a classroom ." start="0" end="64" penn-cats="S" score="73.583" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (N1 (N TOURISTS)))
+   (VP
+    (VP- (AUX (V ARE))
+     (VP- (V STANDING IN)
+      (NP
+       (N1 (N FRONT)
+        (PP (PREP OF)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (N1 (N BLACKBOARD))
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART A))) (N1 (N CLASSROOM))))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N>TOURISTS</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>STANDING IN</V><NP><N1><N>FRONT</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>BLACKBOARD</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>CLASSROOM</N></N1></NP></ADVBL></N1></NP></PP></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V74628"><lisp>((ONT::SPEECHACT ONT::V74628 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V73888 :START 0 :END 64 :WNSENSE &quot;stand_in%2:40:00&quot;)
+ (ONT::F ONT::V73888 (:* ONT::EXCHANGE W::STANDING-IN) :AGENT ONT::V73800
+  :AFFECTED ONT::V73894 :TENSE W::PRES :PROGR + :START 0 :END 64 :WNSENSE
+  &quot;stand_in%2:40:00&quot;)
+ (ONT::INDEF-SET ONT::V73800 (:* ONT::TRAVELLER W::TOURISTS) :START 0 :END 9)
+ (ONT::BARE ONT::V73894 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+  ONT::V73962 :START 25 :END 64)
+ (ONT::THE ONT::V73962 (:* ONT::DISPLAY W::BLACKBOARD) :LOCATION ONT::V73969
+  :START 31 :END 64)
+ (ONT::F ONT::V73969 (:* ONT::IN-LOC W::IN) :GROUND ONT::V74059 :FIGURE
+  ONT::V73962 :START 49 :END 64)
+ (ONT::A ONT::V74059 (:* ONT::INTERNAL-ENCLOSURE W::CLASSROOM) :START 52 :END
+  64))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V74628">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V73888" />
+    <LF:start>0</LF:start>
+    <LF:end>64</LF:end>
+    <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V73888">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXCHANGE</LF:type>
+    <LF:word>STANDING-IN</LF:word>
+    <role:AGENT rdf:resource="#V73800" />
+    <role:AFFECTED rdf:resource="#V73894" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>64</LF:end>
+    <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V73800">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>TRAVELLER</LF:type>
+    <LF:word>TOURISTS</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V73894">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>FRONT</LF:word>
+    <role:FIGURE rdf:resource="#V73962" />
+    <LF:start>25</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V73962">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>DISPLAY</LF:type>
+    <LF:word>BLACKBOARD</LF:word>
+    <role:LOCATION rdf:resource="#V73969" />
+    <LF:start>31</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V73969">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V74059" />
+    <role:FIGURE rdf:resource="#V73962" />
+    <LF:start>49</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V74059">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>INTERNAL-ENCLOSURE</LF:type>
+    <LF:word>CLASSROOM</LF:word>
+    <LF:start>52</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

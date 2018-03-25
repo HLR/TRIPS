@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="several arches surround the courtyard on two levels in front of the red building with a blue entrance .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+28
+*last-utt-id*=28  utt-id+NIL</debug><utt><words><lisp>(W::SEVERAL W::ARCHES W::SURROUND W::THE W::COURTYARD W::ON W::TWO W::LEVELS
+ W::IN W::FRONT W::OF W::THE W::RED W::BUILDING W::WITH W::A W::BLUE
+ W::ENTRANCE W::PUNC-PERIOD)</lisp><word>SEVERAL</word><word>ARCHES</word><word>SURROUND</word><word>THE</word><word>COURTYARD</word><word>ON</word><word>TWO</word><word>LEVELS</word><word>IN</word><word>FRONT</word><word>OF</word><word>THE</word><word>RED</word><word>BUILDING</word><word>WITH</word><word>A</word><word>BLUE</word><word>ENTRANCE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;several&quot; :FRAME (0 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;arches&quot; :FRAME (8 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;several arches&quot; :FRAME (0 14) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 20.176 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;surround&quot; :FRAME (15 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (24 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;courtyard&quot; :FRAME (28 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the courtyard&quot; :FRAME (24 37) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 13.419 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (38 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;two&quot; :FRAME (41 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;levels&quot; :FRAME (45 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two levels&quot; :FRAME (41 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.738 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (52 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;front&quot; :FRAME (55 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front&quot; :FRAME (55 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.944 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in front&quot; :FRAME (52 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;in_front%4:02:00&quot;)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (61 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (64 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (68 71) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;building&quot; :FRAME (72 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the red building&quot; :FRAME (64 80) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 17.399 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (81 85) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (86 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blue&quot; :FRAME (88 92) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;entrance&quot; :FRAME (93 101) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a blue entrance&quot; :FRAME (86 101) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 24.456 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with a blue entrance&quot; :FRAME (81 101) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 28.256 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the red building with a blue entrance&quot; :FRAME (64 101) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 46.196 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;of the red building with a blue entrance&quot; :FRAME (61 101) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :SCORE 48.608 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;front of the red building with a blue entrance&quot; :FRAME (55 101)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 60.093 :UTTNUM 28 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;in front of the red building with a blue entrance&quot; :FRAME (52 101)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 63.689 :UTTNUM 28 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;two levels in front of the red building with a blue entrance&quot; :FRAME
+  (41 101) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 76.968 :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on two levels in front of the red building with a blue entrance&quot;
+  :FRAME (38 101) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 81.163 :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;surround the courtyard on two levels in front of the red building with a blue entrance&quot;
+  :FRAME (15 101) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 108.907 :UTTNUM 28
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (102 102) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;several arches surround the courtyard on two levels in front of the red building with a blue entrance .&quot;
+  :FRAME (0 102) :PENN-CATS (S) :SCORE 130.225 :UTTNUM 28 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="several" start="0" end="7"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="arches" start="8" end="14"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="several arches" start="0" end="14" penn-cats="NP" score="20.176" /><word lex="surround" start="15" end="23"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="the" start="24" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="courtyard" start="28" end="37"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the courtyard" start="24" end="37" penn-cats="NP" score="13.419" /><word lex="on" start="38" end="40"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="two" start="41" end="44"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="levels" start="45" end="51"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two levels" start="41" end="51" penn-cats="NP" score="12.738" /><word lex="in" start="52" end="54"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="front" start="55" end="60"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="55" end="60" penn-cats="NP" score="10.944" /><word lex="in front" start="52" end="60"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="61" end="63"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="64" end="67"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="68" end="71"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="building" start="72" end="80"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the red building" start="64" end="80" penn-cats="NP" score="17.399" /><word lex="with" start="81" end="85"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="86" end="87"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blue" start="88" end="92"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="entrance" start="93" end="101"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a blue entrance" start="86" end="101" penn-cats="NP" score="24.456" /><prefer text="with a blue entrance" start="81" end="101" penn-cats="PP" score="28.256" /><prefer text="the red building with a blue entrance" start="64" end="101" penn-cats="NP" score="46.196" /><prefer text="of the red building with a blue entrance" start="61" end="101" penn-cats="PP" score="48.608" /><prefer text="front of the red building with a blue entrance" start="55" end="101" penn-cats="NP" score="60.093" /><prefer text="in front of the red building with a blue entrance" start="52" end="101" penn-cats="PP" score="63.689" /><prefer text="two levels in front of the red building with a blue entrance" start="41" end="101" penn-cats="NP" score="76.968" /><prefer text="on two levels in front of the red building with a blue entrance" start="38" end="101" penn-cats="PP" score="81.163" /><prefer text="surround the courtyard on two levels in front of the red building with a blue entrance" start="15" end="101" penn-cats="VP" score="108.907" /><word lex="." start="102" end="102"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="several arches surround the courtyard on two levels in front of the red building with a blue entrance ." start="0" end="102" penn-cats="S" score="130.225" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (QUAN SEVERAL)) (N1 (N ARCHES)))
+   (VP
+    (VP- (V SURROUND)
+     (NP (SPEC (DET (ART THE)))
+      (N1 (N1 (N COURTYARD))
+       (ADVBL (ADV ON)
+        (NP
+         (N1 (N1 (ADJP (NUMBER TWO)) (N1 (N LEVELS)))
+          (ADVBL (ADV IN)
+           (NP
+            (N1 (N FRONT)
+             (PP (PREP OF)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N BUILDING)))
+                (ADVBL (ADV WITH)
+                 (NP (SPEC (DET (ART A)))
+                  (N1 (ADJP (ADJ1 (ADJ BLUE)))
+                   (N1 (N ENTRANCE))))))))))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><QUAN>SEVERAL</QUAN></SPEC><N1><N>ARCHES</N></N1></NP><VP><VP-><V>SURROUND</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>COURTYARD</N></N1><ADVBL><ADV>ON</ADV><NP><N1><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>LEVELS</N></N1></N1><ADVBL><ADV>IN</ADV><NP><N1><N>FRONT</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>BUILDING</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>ENTRANCE</N></N1></N1></NP></ADVBL></N1></NP></PP></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V238826"><lisp>((ONT::SPEECHACT ONT::V238826 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V234756 :START 0 :END 102)
+ (ONT::F ONT::V234756 (:* ONT::SURROUND W::SURROUND) :NEUTRAL ONT::V234748
+  :NEUTRAL1 ONT::V234767 :TENSE W::PRES :START 0 :END 102)
+ (ONT::INDEF-SET ONT::V234748 (:* ONT::DOMAIN W::ARCHES) :SIZE ONT::SEVERAL
+  :START 0 :END 15)
+ (ONT::THE ONT::V234767 (:* ONT::MANUFACTURED-OBJECT W::COURTYARD) :LOCATION
+  ONT::V234775 :START 24 :END 102)
+ (ONT::F ONT::V234775 (:* ONT::ON W::ON) :GROUND ONT::V234800 :FIGURE
+  ONT::V234767 :START 38 :END 102)
+ (ONT::INDEF-SET ONT::V234800 (:* ONT::LEVEL W::LEVEL) :SIZE ONT::V234798
+  :SCALE ONT::LINEAR-SCALE :LOCATION ONT::V234809 :START 41 :END 102)
+ (ONT::A ONT::V234798 ONT::NUMBER :VALUE 2 :START 41 :END 45)
+ (ONT::F ONT::V234809 (:* ONT::IN-LOC W::IN) :GROUND ONT::V234858 :FIGURE
+  ONT::V234800 :START 52 :END 102)
+ (ONT::BARE ONT::V234858 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+  ONT::V234941 :START 55 :END 102)
+ (ONT::THE ONT::V234941 (:* ONT::GENERAL-STRUCTURE W::BUILDING) :MOD
+  ONT::V234955 :MOD ONT::V234926 :START 61 :END 102)
+ (ONT::F ONT::V234926 (:* ONT::RED W::RED) :FIGURE ONT::V234941 :SCALE
+  ONT::COLOR-SCALE :START 68 :END 72)
+ (ONT::F ONT::V234955 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V235023 :FIGURE
+  ONT::V234941 :START 81 :END 102)
+ (ONT::A ONT::V235023 (:* ONT::EXIT W::ENTRANCE) :MOD ONT::V235008 :START 86
+  :END 102)
+ (ONT::F ONT::V235008 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V235023 :SCALE
+  ONT::COLOR-SCALE :START 88 :END 93))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V238826">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V234756" />
+    <LF:start>0</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234756">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SURROUND</LF:type>
+    <LF:word>SURROUND</LF:word>
+    <role:NEUTRAL rdf:resource="#V234748" />
+    <role:NEUTRAL1 rdf:resource="#V234767" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234748">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>DOMAIN</LF:type>
+    <LF:word>ARCHES</LF:word>
+    <role:SIZE>SEVERAL</role:SIZE>
+    <LF:start>0</LF:start>
+    <LF:end>15</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234767">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <LF:word>COURTYARD</LF:word>
+    <role:LOCATION rdf:resource="#V234775" />
+    <LF:start>24</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234775">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V234800" />
+    <role:FIGURE rdf:resource="#V234767" />
+    <LF:start>38</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234800">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>LEVEL</LF:type>
+    <LF:word>LEVEL</LF:word>
+    <role:SIZE rdf:resource="#V234798" />
+    <role:SCALE>LINEAR-SCALE</role:SCALE>
+    <role:LOCATION rdf:resource="#V234809" />
+    <LF:start>41</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234798">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>2</role:VALUE>
+    <LF:start>41</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234809">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V234858" />
+    <role:FIGURE rdf:resource="#V234800" />
+    <LF:start>52</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234858">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>FRONT</LF:word>
+    <role:FIGURE rdf:resource="#V234941" />
+    <LF:start>55</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234941">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENERAL-STRUCTURE</LF:type>
+    <LF:word>BUILDING</LF:word>
+    <role:MOD rdf:resource="#V234955" />
+    <role:MOD rdf:resource="#V234926" />
+    <LF:start>61</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234926">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RED</LF:type>
+    <LF:word>RED</LF:word>
+    <role:FIGURE rdf:resource="#V234941" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>68</LF:start>
+    <LF:end>72</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V234955">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V235023" />
+    <role:FIGURE rdf:resource="#V234941" />
+    <LF:start>81</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V235023">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>EXIT</LF:type>
+    <LF:word>ENTRANCE</LF:word>
+    <role:MOD rdf:resource="#V235008" />
+    <LF:start>86</LF:start>
+    <LF:end>102</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V235008">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLUE</LF:type>
+    <LF:word>BLUE</LF:word>
+    <role:FIGURE rdf:resource="#V235023" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>88</LF:start>
+    <LF:end>93</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

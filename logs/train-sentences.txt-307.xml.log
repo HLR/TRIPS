@@ -1,0 +1,486 @@
+2,423c2,62
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Close-up photo of a building with a blue front , red doors , brown bricks below the windows and the wires that stick out from the roof .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+6
+< *last-utt-id*=6  utt-id+NIL
+< *last-utt-id*=NIL  utt-id+6
+< *last-utt-id*=6  utt-id+NIL</debug><utt><words><lisp>(W::CLOSE W::PUNC-MINUS W::UP W::PHOTO W::OF W::A W::BUILDING W::WITH W::A
+<  W::BLUE W::FRONT W::PUNC-COMMA W::RED W::DOORS W::PUNC-COMMA)</lisp><word>CLOSE</word><word>PUNC-MINUS</word><word>UP</word><word>PHOTO</word><word>OF</word><word>A</word><word>BUILDING</word><word>WITH</word><word>A</word><word>BLUE</word><word>FRONT</word><word>PUNC-COMMA</word><word>RED</word><word>DOORS</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;Close&quot; :FRAME (0 4) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (5 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;up&quot; :FRAME (6 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;Close-up&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;photo&quot; :FRAME (9 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Close-up photo&quot; :FRAME (0 14) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 26.713 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (15 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (18 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;building&quot; :FRAME (20 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a building&quot; :FRAME (18 28) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.047 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (29 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (34 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (36 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;front&quot; :FRAME (41 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a blue front&quot; :FRAME (34 46) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.536 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (47 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (49 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;doors&quot; :FRAME (53 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;red doors&quot; :FRAME (49 58) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   18.635 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (59 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Close" start="0" end="4"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="-" start="5" end="5"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="up" start="6" end="8"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><word lex="Close-up" start="0" end="8"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="photo" start="9" end="14"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="Close-up photo" start="0" end="14" penn-cats="NP" score="26.713" /><word lex="of" start="15" end="17"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="18" end="19"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="building" start="20" end="28"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a building" start="18" end="28" penn-cats="NP" score="10.047" /><word lex="with" start="29" end="33"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="34" end="35"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blue" start="36" end="40"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="front" start="41" end="46"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a blue front" start="34" end="46" penn-cats="NP" score="20.536" /><word lex="," start="47" end="48"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="red" start="49" end="52"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="doors" start="53" end="58"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="red doors" start="49" end="58" penn-cats="NP" score="18.635" /><word lex="," start="59" end="59"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (VP
+<   (VP- (V CLOSE PUNC-MINUS UP)
+<    (NP
+<     (NP
+<      (N1 (N PHOTO)
+<       (PP (PREP OF)
+<        (NP (SPEC (DET (ART A)))
+<         (N1 (N1 (N BUILDING))
+<          (ADVBL (ADV WITH)
+<           (NP (SPEC (DET (ART A)))
+<            (N1 (ADJP (ADJ1 (ADJ BLUE))) (N1 (N FRONT))))))))))
+<     (PARENTHETICAL (PUNC PUNC-COMMA)
+<      (UTT (NP (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N DOORS)))))
+<      (PUNC PUNC-COMMA))))))</lisp><UTT><VP><VP-><V>CLOSE PUNC-MINUS UP</V><NP><NP><N1><N>PHOTO</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>BUILDING</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>FRONT</N></N1></N1></NP></ADVBL></N1></NP></PP></N1></NP><PARENTHETICAL><PUNC>PUNC-COMMA</PUNC><UTT><NP><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>DOORS</N></N1></N1></NP></UTT><PUNC>PUNC-COMMA</PUNC></PARENTHETICAL></NP></VP-></VP></UTT></tree><terms root="#V61401"><lisp>((ONT::SPEECHACT ONT::V61401 ONT::SA_TELL :CONTENT ONT::V52237 :START 0 :END
+<   59)
+<  (ONT::F ONT::V52237 (:* ONT::PREVENT W::CLOSE-PUNC-MINUS-UP) :AGENT
+<   ONT::V61402 :AFFECTED ONT::V52253 :TENSE W::PRES :START 0 :END 59)
+<  (ONT::IMPRO ONT::V61402 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 0 :END 59
+<   :COREF ONT::V52308)
+<  (ONT::BARE ONT::V52253 (:* ONT::IMAGE W::PHOTO) :PARENTHETICAL ONT::V52400
+<   :FIGURE ONT::V52308 :START 9 :END 59)
+<  (ONT::A ONT::V52308 (:* ONT::GENERAL-STRUCTURE W::BUILDING) :MOD ONT::V52322
+<   :START 15 :END 47)
+<  (ONT::F ONT::V52322 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V52387 :FIGURE
+<   ONT::V52308 :START 29 :END 47)
+<  (ONT::A ONT::V52387 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :MOD
+<   ONT::V52375 :START 34 :END 47)
+<  (ONT::F ONT::V52375 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V52387 :SCALE
+<   ONT::COLOR-SCALE :START 36 :END 41)
+<  (ONT::SPEECHACT ONT::V55692 ONT::SA_IDENTIFY :CONTENT ONT::V52400 :START 49
+<   :END 59)
+<  (ONT::INDEF-SET ONT::V52400 (:* ONT::STRUCTURAL-OPENING W::DOOR) :MOD
+<   ONT::V52393 :START 49 :END 59)
+<  (ONT::F ONT::V52393 (:* ONT::RED W::RED) :FIGURE ONT::V52400 :SCALE
+<   ONT::COLOR-SCALE :START 49 :END 53))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V61401">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V52237" />
+<     <LF:start>0</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52237">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PREVENT</LF:type>
+<     <LF:word>CLOSE-PUNC-MINUS-UP</LF:word>
+<     <role:AGENT rdf:resource="#V61402" />
+<     <role:AFFECTED rdf:resource="#V52253" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61402">
+<     <LF:indicator>IMPRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <role:PROFORM>SUBJ</role:PROFORM>
+<     <LF:start>0</LF:start>
+<     <LF:end>59</LF:end>
+<     <role:COREF rdf:resource="#V52308" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52253">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>PHOTO</LF:word>
+<     <role:PARENTHETICAL rdf:resource="#V52400" />
+<     <role:FIGURE rdf:resource="#V52308" />
+<     <LF:start>9</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52308">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>GENERAL-STRUCTURE</LF:type>
+<     <LF:word>BUILDING</LF:word>
+<     <role:MOD rdf:resource="#V52322" />
+<     <LF:start>15</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52322">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V52387" />
+<     <role:FIGURE rdf:resource="#V52308" />
+<     <LF:start>29</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52387">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>FRONT</LF:word>
+<     <role:MOD rdf:resource="#V52375" />
+<     <LF:start>34</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52375">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BLUE</LF:type>
+<     <LF:word>BLUE</LF:word>
+<     <role:FIGURE rdf:resource="#V52387" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>36</LF:start>
+<     <LF:end>41</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V55692">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:CONTENT rdf:resource="#V52400" />
+<     <LF:start>49</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52400">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>STRUCTURAL-OPENING</LF:type>
+<     <LF:word>DOOR</LF:word>
+<     <role:MOD rdf:resource="#V52393" />
+<     <LF:start>49</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52393">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V52400" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>49</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::BROWN W::BRICKS W::BELOW W::THE W::WINDOWS W::AND W::THE W::WIRES W::THAT
+<  W::STICK W::OUT W::FROM W::THE W::ROOF W::PUNC-PERIOD)</lisp><word>BROWN</word><word>BRICKS</word><word>BELOW</word><word>THE</word><word>WINDOWS</word><word>AND</word><word>THE</word><word>WIRES</word><word>THAT</word><word>STICK</word><word>OUT</word><word>FROM</word><word>THE</word><word>ROOF</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;brown&quot; :FRAME (61 66) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;bricks&quot; :FRAME (67 73) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;brown bricks&quot; :FRAME (61 73) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.38 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;below&quot; :FRAME (74 79) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (80 83) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;windows&quot; :FRAME (84 91) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the windows&quot; :FRAME (80 91) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 12.636 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;below the windows&quot; :FRAME (74 91) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 20.555 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;brown bricks below the windows&quot; :FRAME (61 91) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 43.596 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;and&quot; :FRAME (92 95) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (96 99) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wires&quot; :FRAME (100 105) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the wires&quot; :FRAME (96 105) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.191 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;that&quot; :FRAME (106 110) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (WDT) :TRIPS-PARTS-OF-SPEECH (W::ART))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;that&quot; :FRAME (106 110) :PENN-CATS (WHNP) :TRIPS-CATS (W::NP) :SCORE
+<   1.348 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;stick&quot; :FRAME (111 116) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;out&quot; :FRAME (117 120) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;out&quot; :FRAME (117 120) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   1.594 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;stick out&quot; :FRAME (111 120) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;stick_out%2:31:00&quot; &quot;stick_out%2:42:02&quot; &quot;stick_out%2:42:01&quot;)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;from&quot; :FRAME (121 125) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (126 129) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;roof&quot; :FRAME (130 134) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the roof&quot; :FRAME (126 134) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.624 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;from the roof&quot; :FRAME (121 134) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 16.746 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;stick out from the roof&quot; :FRAME (111 134) :PENN-CATS (S) :SCORE
+<   35.172 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;stick out from the roof&quot; :FRAME (111 134) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 34.898 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;that stick out from the roof&quot; :FRAME (106 134) :PENN-CATS (SBAR)
+<   :TRIPS-CATS (W::CP) :SCORE 36.969 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;the wires that stick out from the roof&quot; :FRAME (96 134) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 51.964 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (135 135) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="brown" start="61" end="66"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="bricks" start="67" end="73"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="brown bricks" start="61" end="73" penn-cats="NP" score="22.38" /><word lex="below" start="74" end="79"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="80" end="83"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="windows" start="84" end="91"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the windows" start="80" end="91" penn-cats="NP" score="12.636" /><prefer text="below the windows" start="74" end="91" penn-cats="PP" score="20.555" /><prefer text="brown bricks below the windows" start="61" end="91" penn-cats="NP" score="43.596" /><word lex="and" start="92" end="95"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="the" start="96" end="99"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wires" start="100" end="105"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the wires" start="96" end="105" penn-cats="NP" score="13.191" /><word lex="that" start="106" end="110"><sense-info penn-parts-of-speech="WDT" trips-parts-of-speech="ART" /></word><prefer text="that" start="106" end="110" penn-cats="WHNP" score="1.348" /><word lex="stick" start="111" end="116"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="out" start="117" end="120"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="out" start="117" end="120" penn-cats="PRT" score="1.594" /><word lex="stick out" start="111" end="120"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="stick_out%2:31:00,stick_out%2:42:02,stick_out%2:42:01" /></word><word lex="from" start="121" end="125"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="126" end="129"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="roof" start="130" end="134"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the roof" start="126" end="134" penn-cats="NP" score="13.624" /><prefer text="from the roof" start="121" end="134" penn-cats="PP" score="16.746" /><prefer text="stick out from the roof" start="111" end="134" penn-cats="S" score="35.172" /><prefer text="stick out from the roof" start="111" end="134" penn-cats="VP" score="34.898" /><prefer text="that stick out from the roof" start="106" end="134" penn-cats="SBAR" score="36.969" /><prefer text="the wires that stick out from the roof" start="96" end="134" penn-cats="NP" score="51.964" /><word lex="." start="135" end="135"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (VP
+<     (VP- (V BROWN)
+<      (NP
+<       (NP
+<        (N1 (N1 (N BRICKS))
+<         (ADVBL (ADV BELOW) (NP (SPEC (DET (ART THE))) (N1 (N WINDOWS))))))
+<       (CONJ AND)
+<       (NP (SPEC (DET (ART THE)))
+<        (N1
+<         (N1 (N1 (N WIRES))
+<          (CP (PRO THAT) (VP (VP- (V STICK) (PRED (ADJP (ADJ1 (ADJ OUT))))))))
+<         (ADVBL (ADV FROM) (NP (SPEC (DET (ART THE))) (N1 (N ROOF)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><VP><VP-><V>BROWN</V><NP><NP><N1><N1><N>BRICKS</N></N1><ADVBL><ADV>BELOW</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WINDOWS</N></N1></NP></ADVBL></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N1><N>WIRES</N></N1><CP><PRO>THAT</PRO><VP><VP-><V>STICK</V><PRED><ADJP><ADJ1><ADJ>OUT</ADJ></ADJ1></ADJP></PRED></VP-></VP></CP></N1><ADVBL><ADV>FROM</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>ROOF</N></N1></NP></ADVBL></N1></NP></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V63608"><lisp>((ONT::SPEECHACT ONT::V63608 ONT::SA_REQUEST :PUNCTYPE W::DECL :CONTENT
+<   ONT::V61466 :START 61 :END 135)
+<  (ONT::F ONT::V61466 (:* ONT::COOKING W::BROWN) :AGENT ONT::V63606 :AFFECTED
+<   ONT::V61495 :TENSE W::PRES :VFORM W::BASE :START 61 :END 135)
+<  (ONT::IMPRO ONT::V63606 ONT::PERSON :PROFORM W::*YOU* :START 61 :END 135
+<   :COREF SYS)
+<  (ONT::INDEF-SET ONT::V61495 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V61472 ONT::V61514) :START 67 :END 135)
+<  (ONT::INDEF-SET ONT::V61472 (:* ONT::MATERIAL W::BRICK) :LOCATION ONT::V61475
+<   :START 67 :END 92)
+<  (ONT::F ONT::V61475 (:* ONT::BELOW W::BELOW) :GROUND ONT::V61490 :FIGURE
+<   ONT::V61472 :START 74 :END 92)
+<  (ONT::THE-SET ONT::V61490 (:* ONT::STRUCTURAL-OPENING W::WINDOW) :START 80
+<   :END 92 :COREF ONT::V52400)
+<  (ONT::THE-SET ONT::V61514 (:* ONT::DEVICE-COMPONENT W::WIRE) :MOD ONT::V61593
+<   :MOD ONT::V61535 :START 96 :END 135)
+<  (ONT::F ONT::V61535 (:* ONT::STAY W::STICK) :AGENT ONT::V61514 :FORMAL
+<   ONT::V61561 :TENSE W::PRES :START 106 :END 121)
+<  (ONT::F ONT::V61561 (:* ONT::NOT-IN-WORKING-ORDER-VAL W::OUT) :FIGURE
+<   ONT::V61514 :START 117 :END 121)
+<  (ONT::F ONT::V61593 (:* ONT::FROM-LOC W::FROM) :GROUND ONT::V61612 :FIGURE
+<   ONT::V61514 :START 121 :END 135)
+<  (ONT::THE ONT::V61612 (:* ONT::STRUCTURE-EXTERNAL-COMPONENT W::ROOF) :START
+<   126 :END 135))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V63608">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_REQUEST</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V61466" />
+<     <LF:start>61</LF:start>
+<     <LF:end>135</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61466">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>COOKING</LF:type>
+<     <LF:word>BROWN</LF:word>
+<     <role:AGENT rdf:resource="#V63606" />
+<     <role:AFFECTED rdf:resource="#V61495" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:VFORM>BASE</role:VFORM>
+<     <LF:start>61</LF:start>
+<     <LF:end>135</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V63606">
+<     <LF:indicator>IMPRO</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <role:PROFORM>*YOU*</role:PROFORM>
+<     <LF:start>61</LF:start>
+<     <LF:end>135</LF:end>
+<     <role:COREF>SYS</role:COREF>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61495">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PHYS-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V61472" />
+<     <role:SEQUENCE1 rdf:resource="#V61514" />
+<     <LF:start>67</LF:start>
+<     <LF:end>135</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61472">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>MATERIAL</LF:type>
+<     <LF:word>BRICK</LF:word>
+<     <role:LOCATION rdf:resource="#V61475" />
+<     <LF:start>67</LF:start>
+<     <LF:end>92</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61475">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BELOW</LF:type>
+<     <LF:word>BELOW</LF:word>
+<     <role:GROUND rdf:resource="#V61490" />
+<     <role:FIGURE rdf:resource="#V61472" />
+<     <LF:start>74</LF:start>
+<     <LF:end>92</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61490">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>STRUCTURAL-OPENING</LF:type>
+<     <LF:word>WINDOW</LF:word>
+<     <LF:start>80</LF:start>
+<     <LF:end>92</LF:end>
+<     <role:COREF rdf:resource="#V52400" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61514">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>DEVICE-COMPONENT</LF:type>
+<     <LF:word>WIRE</LF:word>
+<     <role:MOD rdf:resource="#V61593" />
+<     <role:MOD rdf:resource="#V61535" />
+<     <LF:start>96</LF:start>
+<     <LF:end>135</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61535">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>STAY</LF:type>
+<     <LF:word>STICK</LF:word>
+<     <role:AGENT rdf:resource="#V61514" />
+<     <role:FORMAL rdf:resource="#V61561" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>106</LF:start>
+<     <LF:end>121</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61561">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>NOT-IN-WORKING-ORDER-VAL</LF:type>
+<     <LF:word>OUT</LF:word>
+<     <role:FIGURE rdf:resource="#V61514" />
+<     <LF:start>117</LF:start>
+<     <LF:end>121</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61593">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>FROM-LOC</LF:type>
+<     <LF:word>FROM</LF:word>
+<     <role:GROUND rdf:resource="#V61612" />
+<     <role:FIGURE rdf:resource="#V61514" />
+<     <LF:start>121</LF:start>
+<     <LF:end>135</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V61612">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>STRUCTURE-EXTERNAL-COMPONENT</LF:type>
+<     <LF:word>ROOF</LF:word>
+<     <LF:start>126</LF:start>
+<     <LF:end>135</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="59">
+>    <TEXT>Close-up photo of a building with a blue front , red doors ,</TEXT>
+>    <RELATION id="1" head="V61401" res="V52237" label="CONTENT"/>
+>    <PHRASE id="V52237" indicator="F" type="PREVENT" text="CLOSE-PUNC-MINUS-UP" TENSE="PRES" start="0" end="59"/>
+>    <RELATION id="2" head="V52237" res="V61402" label="AGENT"/>
+>    <RELATION id="3" head="V52237" res="V52253" label="AFFECTED"/>
+>    <PHRASE id="V61402" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="0" end="59"/>
+>    <RELATION id="4" head="V61402" res="V52308" label="COREF"/>
+>    <PHRASE id="V52253" indicator="BARE" type="IMAGE" text="PHOTO" start="9" end="59"/>
+>    <RELATION id="5" head="V52253" res="V52400" label="PARENTHETICAL"/>
+>    <RELATION id="6" head="V52253" res="V52308" label="FIGURE"/>
+>    <PHRASE id="V52308" indicator="A" type="GENERAL-STRUCTURE" text="BUILDING" start="15" end="47"/>
+>    <RELATION id="7" head="V52308" res="V52322" label="MOD"/>
+>    <PHRASE id="V52322" indicator="F" type="ASSOC-WITH" text="WITH" start="29" end="47"/>
+>    <RELATION id="8" head="V52322" res="V52387" label="GROUND"/>
+>    <RELATION id="9" head="V52322" res="V52308" label="FIGURE"/>
+>    <PHRASE id="V52387" indicator="A" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="34" end="47"/>
+>    <RELATION id="10" head="V52387" res="V52375" label="MOD"/>
+>    <PHRASE id="V52375" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="36" end="41"/>
+>    <RELATION id="11" head="V52375" res="V52387" label="FIGURE"/>
+>    <PHRASE id="V55692" indicator="SPEECHACT" type="SA_IDENTIFY" start="49" end="59"/>
+>    <RELATION id="12" head="V55692" res="V52400" label="CONTENT"/>
+>    <PHRASE id="V52400" indicator="INDEF-SET" type="STRUCTURAL-OPENING" text="DOOR" start="49" end="59"/>
+>    <RELATION id="13" head="V52400" res="V52393" label="MOD"/>
+>    <PHRASE id="V52393" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="49" end="53"/>
+>    <RELATION id="14" head="V52393" res="V52400" label="FIGURE"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_REQUEST" PUNCTYPE="DECL" start="61" end="135">
+>    <TEXT>brown bricks below the windows and the wires that stick out from the roof .</TEXT>
+>    <RELATION id="15" head="V63608" res="V61466" label="CONTENT"/>
+>    <PHRASE id="V61466" indicator="F" type="COOKING" text="BROWN" TENSE="PRES" VFORM="BASE" start="61" end="135"/>
+>    <RELATION id="16" head="V61466" res="V63606" label="AGENT"/>
+>    <RELATION id="17" head="V61466" res="V61495" label="AFFECTED"/>
+>    <PHRASE id="V63606" indicator="IMPRO" type="PERSON" PROFORM="*YOU*" start="61" end="135" COREF="SYS"/>
+>    <PHRASE id="V61495" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="67" end="135"/>
+>    <RELATION id="18" head="V61495" res="V61472" label="SEQUENCE"/>
+>    <RELATION id="19" head="V61495" res="V61514" label="SEQUENCE1"/>
+>    <PHRASE id="V61472" indicator="INDEF-SET" type="MATERIAL" text="BRICK" start="67" end="92"/>
+>    <RELATION id="20" head="V61472" res="V61475" label="LOCATION"/>
+>    <PHRASE id="V61475" indicator="F" type="BELOW" text="BELOW" start="74" end="92"/>
+>    <RELATION id="21" head="V61475" res="V61490" label="GROUND"/>
+>    <RELATION id="22" head="V61475" res="V61472" label="FIGURE"/>
+>    <PHRASE id="V61490" indicator="THE-SET" type="STRUCTURAL-OPENING" text="WINDOW" start="80" end="92"/>
+>    <RELATION id="23" head="V61490" res="V52400" label="COREF"/>
+>    <PHRASE id="V61514" indicator="THE-SET" type="DEVICE-COMPONENT" text="WIRE" start="96" end="135"/>
+>    <RELATION id="24" head="V61514" res="V61593" label="MOD"/>
+>    <RELATION id="25" head="V61514" res="V61535" label="MOD"/>
+>    <PHRASE id="V61535" indicator="F" type="STAY" text="STICK" TENSE="PRES" start="106" end="121"/>
+>    <RELATION id="26" head="V61535" res="V61514" label="AGENT"/>
+>    <RELATION id="27" head="V61535" res="V61561" label="FORMAL"/>
+>    <PHRASE id="V61561" indicator="F" type="NOT-IN-WORKING-ORDER-VAL" text="OUT" start="117" end="121"/>
+>    <RELATION id="28" head="V61561" res="V61514" label="FIGURE"/>
+>    <PHRASE id="V61593" indicator="F" type="FROM-LOC" text="FROM" start="121" end="135"/>
+>    <RELATION id="29" head="V61593" res="V61612" label="GROUND"/>
+>    <RELATION id="30" head="V61593" res="V61514" label="FIGURE"/>
+>    <PHRASE id="V61612" indicator="THE" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="126" end="135"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

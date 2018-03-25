@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="baby wearing a red-and-white striped pyjama .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?20077:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V327476)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?20075)
+                                           (W::TRANSFORM ?20076)))
+                                 (W::CASE ?20074:(W::SUB W::OBJ -))
+                                 (W::AGR ?20073) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V327476) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER327482))
+*last-utt-id*=NIL  utt-id+54
+*last-utt-id*=54  utt-id+NIL</debug><utt><words><lisp>(W::BABY W::WEARING W::A W::RED W::PUNC-MINUS W::AND W::PUNC-MINUS W::WHITE
+ W::STRIPED W::PYJAMA W::PUNC-PERIOD)</lisp><word>BABY</word><word>WEARING</word><word>A</word><word>RED</word><word>PUNC-MINUS</word><word>AND</word><word>PUNC-MINUS</word><word>WHITE</word><word>STRIPED</word><word>PYJAMA</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;baby&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;baby&quot; :FRAME (0 4) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 11.45
+  :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wearing&quot; :FRAME (5 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (13 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (15 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (18 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (19 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (22 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;white&quot; :FRAME (23 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red-and-white&quot; :FRAME (15 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;striped&quot; :FRAME (29 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD JJ) :TRIPS-PARTS-OF-SPEECH (W::V W::ADJ)))
+  :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pyjama&quot; :FRAME (37 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a red-and-white striped pyjama&quot; :FRAME (13 43) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 42.844 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;wearing a red-and-white striped pyjama&quot; :FRAME (5 43) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 51.531 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (44 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;baby wearing a red-and-white striped pyjama .&quot; :FRAME (0 44)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 66.423 :UTTNUM 54 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="baby" start="0" end="4"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="baby" start="0" end="4" penn-cats="NP" score="11.45" /><word lex="wearing" start="5" end="12"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="13" end="14"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="15" end="17"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="18" end="18"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="and" start="19" end="21"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="-" start="22" end="22"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="white" start="23" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="red-and-white" start="15" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="striped" start="29" end="36"><sense-info penn-parts-of-speech="VBD,JJ" trips-parts-of-speech="V,ADJ" /></word><word lex="pyjama" start="37" end="43"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a red-and-white striped pyjama" start="13" end="43" penn-cats="NP" score="42.844" /><prefer text="wearing a red-and-white striped pyjama" start="5" end="43" penn-cats="VP" score="51.531" /><word lex="." start="44" end="44"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="baby wearing a red-and-white striped pyjama ." start="0" end="44" penn-cats="NP" score="66.423" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1 (N1 (N BABY))
+    (CP
+     (VP
+      (VP- (V WEARING)
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (ADJ1 (ADJ RED PUNC-MINUS AND PUNC-MINUS WHITE)))
+         (N1 (ADJP (ADJ1 (ADJ STRIPED))) (N1 (N PYJAMA)))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N>BABY</N></N1><CP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>RED PUNC-MINUS AND PUNC-MINUS WHITE</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>STRIPED</ADJ></ADJ1></ADJP><N1><N>PYJAMA</N></N1></N1></N1></NP></VP-></VP></CP></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V327490"><lisp>((ONT::SPEECHACT ONT::V327490 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V327008 :START 0 :END 44)
+ (ONT::BARE ONT::V327008 (:* ONT::CHILD W::BABY) :MOD ONT::V327014 :START 0
+  :END 44)
+ (ONT::F ONT::V327014 (:* ONT::WEAR W::WEAR) :AGENT ONT::V327008 :NEUTRAL
+  ONT::V327126 :VFORM W::ING :START 5 :END 44)
+ (ONT::A ONT::V327126 (:* ONT::ATTIRE W::PYJAMA) :MOD ONT::V327104 :MOD
+  ONT::V327117 :START 13 :END 44)
+ (ONT::F ONT::V327104 (:* ONT::MODIFIER W::RED-PUNC-MINUS-AND-PUNC-MINUS-WHITE)
+  :FIGURE ONT::V327126 :START 15 :END 29)
+ (ONT::F ONT::V327117 (:* ONT::MODIFIER W::STRIPED) :FIGURE ONT::V327126 :START
+  29 :END 37))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V327490">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V327008" />
+    <LF:start>0</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327008">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>BABY</LF:word>
+    <role:MOD rdf:resource="#V327014" />
+    <LF:start>0</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327014">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V327008" />
+    <role:NEUTRAL rdf:resource="#V327126" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>5</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327126">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>PYJAMA</LF:word>
+    <role:MOD rdf:resource="#V327104" />
+    <role:MOD rdf:resource="#V327117" />
+    <LF:start>13</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327104">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>RED-PUNC-MINUS-AND-PUNC-MINUS-WHITE</LF:word>
+    <role:FIGURE rdf:resource="#V327126" />
+    <LF:start>15</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V327117">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>STRIPED</LF:word>
+    <role:FIGURE rdf:resource="#V327126" />
+    <LF:start>29</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired b</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" start="29" end="82">
+   <TEXT>boy is wearing a blue pullover with a white elephant h</TEXT>
+   <RELATION id="1" head="V122490" res="V119829" label="CONTENT"/>
+   <PHRASE id="V119829" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="29" end="82"/>
+   <RELATION id="2" head="V119829" res="V119804" label="AGENT"/>
+   <RELATION id="3" head="V119829" res="V119889" label="NEUTRAL"/>
+   <PHRASE id="V119804" indicator="BARE" type="MALE-CHILD" text="BOY" start="29" end="33"/>
+   <PHRASE id="V119889" indicator="A" type="ATTIRE" text="PULLOVER" start="44" end="82"/>
+   <RELATION id="4" head="V119889" res="V119893" label="MOD"/>
+   <RELATION id="5" head="V119889" res="V119876" label="MOD"/>
+   <PHRASE id="V119876" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="46" end="51"/>
+   <RELATION id="6" head="V119876" res="V119889" label="FIGURE"/>
+   <PHRASE id="V119893" indicator="F" type="ASSOC-WITH" text="WITH" start="60" end="82"/>
+   <RELATION id="7" head="V119893" res="V119962" label="GROUND"/>
+   <RELATION id="8" head="V119893" res="V119889" label="FIGURE"/>
+   <PHRASE id="V119962" indicator="A" type="MAMMAL" text="WHITE-ELEPHANT" start="65" end="82" WNSENSE="white_elephant%1:05:00"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="82" end="127">
+   <TEXT>having a yellow hat on its head at the front .</TEXT>
+   <RELATION id="9" head="V122280" res="V119972" label="CONTENT"/>
+   <PHRASE id="V119972" indicator="BARE" type="HAVE" text="HAVE" start="82" end="127"/>
+   <RELATION id="10" head="V119972" res="V120037" label="NEUTRAL1"/>
+   <PHRASE id="V120037" indicator="A" type="ATTIRE" text="HAT" start="89" end="127"/>
+   <RELATION id="11" head="V120037" res="V120045" label="LOCATION"/>
+   <RELATION id="12" head="V120037" res="V120029" label="MOD"/>
+   <PHRASE id="V120029" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="91" end="98"/>
+   <RELATION id="13" head="V120029" res="V120037" label="FIGURE"/>
+   <PHRASE id="V120045" indicator="F" type="ON" text="ON" start="102" end="127"/>
+   <RELATION id="14" head="V120045" res="V120075" label="GROUND"/>
+   <RELATION id="15" head="V120045" res="V120037" label="FIGURE"/>
+   <PHRASE id="V120075" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="HEAD" start="105" end="127"/>
+   <RELATION id="16" head="V120075" res="V120067" label="ASSOC-POSS"/>
+   <RELATION id="17" head="V120075" res="V120087" label="LOCATION"/>
+   <PHRASE id="V120067" indicator="PRO" type="REFERENTIAL-SEM" text="ITS" PROFORM="ITS" start="105" end="127"/>
+   <RELATION id="18" head="V120067" res="V119972" label="COREF"/>
+   <PHRASE id="V120087" indicator="F" type="AT-LOC" text="AT" start="114" end="127"/>
+   <RELATION id="19" head="V120087" res="V120106" label="GROUND"/>
+   <RELATION id="20" head="V120087" res="V120075" label="FIGURE"/>
+   <PHRASE id="V120106" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="117" end="127"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

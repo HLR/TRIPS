@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="47">
+   <TEXT>there are two social workers in the foreground .</TEXT>
+   <RELATION id="1" head="V109263" res="V108409" label="CONTENT"/>
+   <PHRASE id="V108409" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="47"/>
+   <RELATION id="2" head="V108409" res="V108439" label="NEUTRAL"/>
+   <PHRASE id="V108397" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V108439" indicator="INDEF-SET" type="PERSON" text="SOCIAL-WORKERS" start="10" end="47" WNSENSE="social_worker%1:18:00"/>
+   <RELATION id="3" head="V108439" res="V108420" label="SIZE"/>
+   <RELATION id="4" head="V108439" res="V108446" label="LOCATION"/>
+   <PHRASE id="V108420" indicator="A" type="NUMBER" VALUE="2" start="10" end="14"/>
+   <PHRASE id="V108446" indicator="F" type="IN-LOC" text="IN" start="29" end="47"/>
+   <RELATION id="5" head="V108446" res="V108505" label="GROUND"/>
+   <RELATION id="6" head="V108446" res="V108439" label="FIGURE"/>
+   <PHRASE id="V108505" indicator="THE" type="DEVICE" text="FOREGROUND" start="32" end="47"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

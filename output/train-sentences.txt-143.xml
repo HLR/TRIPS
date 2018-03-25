@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="63">
+   <TEXT>School kids on a grey square , some are dressed in dark blue , o</TEXT>
+   <RELATION id="1" head="V129482" res="V129601" label="PARENTHETICAL"/>
+   <RELATION id="2" head="V129482" res="V129477" label="ASSOC-WITH"/>
+   <RELATION id="3" head="V129482" res="V129490" label="LOCATION"/>
+   <PHRASE id="V129477" indicator="THE" type="GEOGRAPHIC-REGION" text="SCHOOL" NAME-OF="(SCHOOL)" start="0" end="7"/>
+   <PHRASE id="V129490" indicator="F" type="ON" text="ON" start="12" end="29"/>
+   <RELATION id="4" head="V129490" res="V129565" label="GROUND"/>
+   <RELATION id="5" head="V129490" res="V129482" label="FIGURE"/>
+   <PHRASE id="V129565" indicator="A" type="SHAPE-OBJECT" text="SQUARE" start="15" end="29"/>
+   <RELATION id="6" head="V129565" res="V129553" label="MOD"/>
+   <PHRASE id="V129553" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="17" end="22"/>
+   <RELATION id="7" head="V129553" res="V129565" label="FIGURE"/>
+   <PHRASE id="V131428" indicator="SPEECHACT" type="SA_TELL" start="31" end="61"/>
+   <RELATION id="8" head="V131428" res="V129601" label="CONTENT"/>
+   <PHRASE id="V129601" indicator="F" type="PUT-ON" text="DRESS" TENSE="PRES" PASSIVE="+" start="31" end="61"/>
+   <RELATION id="9" head="V129601" res="V129665" label="RESULT"/>
+   <RELATION id="10" head="V129601" res="V129782" label="AFFECTED"/>
+   <RELATION id="11" head="V129601" res="V129620" label="MANNER"/>
+   <PHRASE id="V129782" indicator="INDEF-SET" type="ANY-SEM" SIZE="SOME" start="31" end="36"/>
+   <PHRASE id="V129620" indicator="F" type="MANNER" text="IN" start="48" end="56"/>
+   <RELATION id="12" head="V129620" res="V129658" label="GROUND"/>
+   <RELATION id="13" head="V129620" res="V129601" label="FIGURE"/>
+   <PHRASE id="V129658" indicator="F" type="DARK-VAL" text="DARK" start="51" end="56"/>
+   <PHRASE id="V129665" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="56" end="61"/>
+   <RELATION id="14" head="V129665" res="V129782" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="63" end="80">
+   <TEXT>others in orange .</TEXT>
+   <RELATION id="15" head="V132069" res="V129687" label="CONTENT"/>
+   <PHRASE id="V129687" indicator="BARE" type="OTHER" text="OTHERS" start="63" end="80"/>
+   <RELATION id="16" head="V129687" res="V129694" label="LOCATION"/>
+   <PHRASE id="V129694" indicator="F" type="IN-LOC" text="IN" start="70" end="80"/>
+   <RELATION id="17" head="V129694" res="V129746" label="GROUND"/>
+   <RELATION id="18" head="V129694" res="V129687" label="FIGURE"/>
+   <PHRASE id="V129746" indicator="BARE" type="FRUIT" text="ORANGE" start="73" end="80"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

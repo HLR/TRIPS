@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired g</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="29" end="34">
+   <TEXT>girl i</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="F" type="DIRECTION" text="IN" start="34" end="37">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="37" end="90">
+   <TEXT>a coloured shirt is standing in front of a blue wall .</TEXT>
+   <RELATION id="1" head="V44749" res="V43359" label="CONTENT"/>
+   <PHRASE id="V43359" indicator="F" type="BE" text="BE" TENSE="PRES" start="37" end="90"/>
+   <RELATION id="2" head="V43359" res="V43350" label="NEUTRAL"/>
+   <RELATION id="3" head="V43359" res="V43376" label="NEUTRAL1"/>
+   <PHRASE id="V43350" indicator="A" type="ATTIRE" text="SHIRT" start="37" end="54"/>
+   <RELATION id="4" head="V43350" res="V43323" label="MOD"/>
+   <PHRASE id="V43323" indicator="F" type="CHANGE" text="COLOURED" start="39" end="48"/>
+   <RELATION id="5" head="V43323" res="V43350" label="AFFECTED"/>
+   <PHRASE id="V43376" indicator="BARE" type="BE-AT-LOC" text="STAND" start="57" end="90"/>
+   <RELATION id="6" head="V43376" res="V43395" label="LOCATION"/>
+   <PHRASE id="V43395" indicator="F" type="FRONT" text="IN-FRONT" start="66" end="90"/>
+   <RELATION id="7" head="V43395" res="V43569" label="GROUND"/>
+   <RELATION id="8" head="V43395" res="V43376" label="FIGURE"/>
+   <PHRASE id="V43569" indicator="A" type="ACTIVITY-EVENT" text="BLUE-WALL" start="75" end="90" WNSENSE="blue_wall%1:04:00"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>
