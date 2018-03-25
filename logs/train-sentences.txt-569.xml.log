@@ -1,0 +1,118 @@
+2,103c2,14
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="more kids are standing in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+47
+< *last-utt-id*=47  utt-id+NIL</debug><utt><words><lisp>(W::MORE W::KIDS W::ARE W::STANDING W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>MORE</word><word>KIDS</word><word>ARE</word><word>STANDING</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;more&quot; :FRAME (0 4) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJR) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (5 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;more kids&quot; :FRAME (0 9) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   16.324 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (10 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing&quot; :FRAME (14 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (23 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing in&quot; :FRAME (14 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;stand_in%2:40:00&quot;)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (26 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (30 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 47
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (26 40) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (23 40) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.197 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;standing in the background&quot; :FRAME (14 40) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 23.371 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are standing in the background&quot; :FRAME (10 40) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 27.734 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (41 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;more kids are standing in the background .&quot; :FRAME (0 41) :PENN-CATS
+<   (S) :SCORE 45.2 :UTTNUM 47 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="more" start="0" end="4"><sense-info penn-parts-of-speech="JJR" trips-parts-of-speech="ADJ" /></word><word lex="kids" start="5" end="9"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="more kids" start="0" end="9" penn-cats="NP" score="16.324" /><word lex="are" start="10" end="13"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="14" end="22"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="23" end="25"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="standing in" start="14" end="25"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="the" start="26" end="29"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="30" end="40"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="26" end="40" penn-cats="NP" score="11.972" /><prefer text="in the background" start="23" end="40" penn-cats="PP" score="14.197" /><prefer text="standing in the background" start="14" end="40" penn-cats="VP" score="23.371" /><prefer text="are standing in the background" start="10" end="40" penn-cats="VP" score="27.734" /><word lex="." start="41" end="41"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="more kids are standing in the background ." start="0" end="41" penn-cats="S" score="45.2" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (SPEC (QUAN MORE)) (N1 (N KIDS)))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (V STANDING IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><QUAN>MORE</QUAN></SPEC><N1><N>KIDS</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>STANDING IN</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V336588"><lisp>((ONT::SPEECHACT ONT::V336588 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V336340 :START 0 :END 41 :WNSENSE &quot;stand_in%2:40:00&quot;)
+<  (ONT::F ONT::V336340 (:* ONT::EXCHANGE W::STANDING-IN) :AGENT ONT::V336252
+<   :AFFECTED ONT::V336353 :TENSE W::PRES :PROGR + :START 0 :END 41 :WNSENSE
+<   &quot;stand_in%2:40:00&quot;)
+<  (ONT::INDEF-SET ONT::V336252 (:* ONT::CHILD W::KID) :QUAN
+<   (:* ONT::QMODIFIER W::MORE) :START 0 :END 10)
+<  (ONT::THE ONT::V336353 (:* ONT::IMAGE W::BACKGROUND) :START 26 :END 41))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V336588">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V336340" />
+<     <LF:start>0</LF:start>
+<     <LF:end>41</LF:end>
+<     <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V336340">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EXCHANGE</LF:type>
+<     <LF:word>STANDING-IN</LF:word>
+<     <role:AGENT rdf:resource="#V336252" />
+<     <role:AFFECTED rdf:resource="#V336353" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>41</LF:end>
+<     <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V336252">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:QUAN>(:* QMODIFIER MORE)</role:QUAN>
+<     <LF:start>0</LF:start>
+<     <LF:end>10</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V336353">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>26</LF:start>
+<     <LF:end>41</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="41" WNSENSE="stand_in%2:40:00">
+>    <TEXT>more kids are standing in the background .</TEXT>
+>    <RELATION id="1" head="V336588" res="V336340" label="CONTENT"/>
+>    <PHRASE id="V336340" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="0" end="41" WNSENSE="stand_in%2:40:00"/>
+>    <RELATION id="2" head="V336340" res="V336252" label="AGENT"/>
+>    <RELATION id="3" head="V336340" res="V336353" label="AFFECTED"/>
+>    <PHRASE id="V336252" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="0" end="10"/>
+>    <PHRASE id="V336353" indicator="THE" type="IMAGE" text="BACKGROUND" start="26" end="41"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

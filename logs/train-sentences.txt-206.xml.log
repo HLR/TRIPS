@@ -1,0 +1,227 @@
+2,199c2,27
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a basketball court in the background , with one kid standing below the basket .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?13872:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V42222)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?13870)
+<                                            (W::TRANSFORM ?13871)))
+<                                  (W::CASE ?13869:(W::SUB W::OBJ -))
+<                                  (W::AGR ?13868) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V42222) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER42229))
+< *last-utt-id*=NIL  utt-id+5
+< *last-utt-id*=5  utt-id+NIL
+< *last-utt-id*=NIL  utt-id+5
+< *last-utt-id*=5  utt-id+NIL</debug><utt><words><lisp>(W::A W::BASKETBALL W::COURT W::IN W::THE W::BACKGROUND W::PUNC-COMMA)</lisp><word>A</word><word>BASKETBALL</word><word>COURT</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;basketball&quot; :FRAME (2 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 5
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;court&quot; :FRAME (13 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 5
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;basketball court&quot; :FRAME (2 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;basketball_court%1:06:00&quot;)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a basketball court&quot; :FRAME (0 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.424 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (19 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (22 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (26 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 5
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (22 36) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.556 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (37 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 5
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="basketball" start="2" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="court" start="13" end="18"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="basketball court" start="2" end="18"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="basketball_court%1:06:00" /></word><prefer text="a basketball court" start="0" end="18" penn-cats="NP" score="20.424" /><word lex="in" start="19" end="21"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="22" end="25"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="26" end="36"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="22" end="36" penn-cats="NP" score="11.556" /><word lex="," start="37" end="37"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(NP (SPEC (DET (ART A)))
+<  (N1 (N1 (N BASKETBALL COURT))
+<   (ADVBL (ADV IN)
+<    (NP (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))) (PUNC PUNC-COMMA)))))</lisp><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>BASKETBALL COURT</N></N1><ADVBL><ADV>IN</ADV><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL></N1></NP></tree><terms root="#V41973"><lisp>((ONT::A ONT::V41973 (:* ONT::GEO-OBJECT W::BASKETBALL-COURT) :LOCATION
+<   ONT::V41980 :START 0 :END 37 :WNSENSE &quot;basketball_court%1:06:00&quot;)
+<  (ONT::F ONT::V41980 (:* ONT::IN-LOC W::IN) :GROUND ONT::V42036 :FIGURE
+<   ONT::V41973 :START 19 :END 37)
+<  (ONT::THE ONT::V42036 (:* ONT::IMAGE W::BACKGROUND) :START 22 :END 37))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V41973">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>GEO-OBJECT</LF:type>
+<     <LF:word>BASKETBALL-COURT</LF:word>
+<     <role:LOCATION rdf:resource="#V41980" />
+<     <LF:start>0</LF:start>
+<     <LF:end>37</LF:end>
+<     <role:WNSENSE>basketball_court%1:06:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V41980">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V42036" />
+<     <role:FIGURE rdf:resource="#V41973" />
+<     <LF:start>19</LF:start>
+<     <LF:end>37</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V42036">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>22</LF:start>
+<     <LF:end>37</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::WITH W::ONE W::KID W::STANDING W::BELOW W::THE W::BASKET)</lisp><word>WITH</word><word>ONE</word><word>KID</word><word>STANDING</word><word>BELOW</word><word>THE</word><word>BASKET</word></words><tags><lisp>((WORD &quot;with&quot; :FRAME (39 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;one&quot; :FRAME (44 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kid&quot; :FRAME (48 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 5
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one kid&quot; :FRAME (44 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   18.472 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing&quot; :FRAME (52 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN VBG) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+<   5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;below&quot; :FRAME (61 66) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (67 70) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;basket&quot; :FRAME (71 77) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 5
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the basket&quot; :FRAME (67 77) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.343 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;below the basket&quot; :FRAME (61 77) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 17.93 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;standing below the basket&quot; :FRAME (52 77) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 27.104 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one kid standing below the basket&quot; :FRAME (44 77) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 48.614 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;with one kid standing below the basket&quot; :FRAME (39 77) :PENN-CATS
+<   (PP) :TRIPS-CATS (W::PP) :SCORE 52.673 :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (78 78) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 5 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="with" start="39" end="43"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="one" start="44" end="47"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="kid" start="48" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one kid" start="44" end="51" penn-cats="NP" score="18.472" /><word lex="standing" start="52" end="60"><sense-info penn-parts-of-speech="NN,VBG" trips-parts-of-speech="N,V" /></word><word lex="below" start="61" end="66"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="67" end="70"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="basket" start="71" end="77"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the basket" start="67" end="77" penn-cats="NP" score="11.343" /><prefer text="below the basket" start="61" end="77" penn-cats="PP" score="17.93" /><prefer text="standing below the basket" start="52" end="77" penn-cats="VP" score="27.104" /><prefer text="one kid standing below the basket" start="44" end="77" penn-cats="NP" score="48.614" /><prefer text="with one kid standing below the basket" start="39" end="77" penn-cats="PP" score="52.673" /><word lex="." start="78" end="78"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(ADVBL (ADV WITH)
+<  (NP
+<   (N1 (N1 (NP (SPEC (NUMBER ONE)) (N1 (N KID))) (N1 (V STANDING)))
+<    (ADVBL (ADV BELOW) (NP (SPEC (DET (ART THE))) (N1 (N BASKET)))))))</lisp><ADVBL><ADV>WITH</ADV><NP><N1><N1><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>KID</N></N1></NP><N1><V>STANDING</V></N1></N1><ADVBL><ADV>BELOW</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BASKET</N></N1></NP></ADVBL></N1></NP></ADVBL></tree><terms root="#V42288"><lisp>((ONT::F ONT::V42288 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V42315 :START 39
+<   :END 78)
+<  (ONT::BARE ONT::V42315 (:* ONT::BODY-MOVEMENT-PLACE W::STAND-UP) :AGENT
+<   ONT::V42311 :LOCATION ONT::V42329 :START 44 :END 78)
+<  (ONT::A ONT::V42311 (:* ONT::CHILD W::KID) :SIZE ONT::V42352 :START 44 :END
+<   52)
+<  (ONT::A ONT::V42352 ONT::NUMBER :VALUE 1 :START 44 :END 52)
+<  (ONT::F ONT::V42329 (:* ONT::BELOW W::BELOW) :GROUND ONT::V42343 :FIGURE
+<   ONT::V42315 :START 61 :END 78)
+<  (ONT::THE ONT::V42343 (:* ONT::SMALL-CONTAINER W::BASKET) :START 67 :END 78))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V42288">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V42315" />
+<     <LF:start>39</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V42315">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>STAND-UP</LF:word>
+<     <role:AGENT rdf:resource="#V42311" />
+<     <role:LOCATION rdf:resource="#V42329" />
+<     <LF:start>44</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V42311">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:SIZE rdf:resource="#V42352" />
+<     <LF:start>44</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V42352">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>1</role:VALUE>
+<     <LF:start>44</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V42329">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BELOW</LF:type>
+<     <LF:word>BELOW</LF:word>
+<     <role:GROUND rdf:resource="#V42343" />
+<     <role:FIGURE rdf:resource="#V42315" />
+<     <LF:start>61</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V42343">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>SMALL-CONTAINER</LF:type>
+<     <LF:word>BASKET</LF:word>
+<     <LF:start>67</LF:start>
+<     <LF:end>78</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="A" type="GEO-OBJECT" text="BASKETBALL-COURT" start="0" end="37" WNSENSE="basketball_court%1:06:00">
+>    <TEXT>a basketball court in the background ,</TEXT>
+>    <RELATION id="1" head="V41973" res="V41980" label="LOCATION"/>
+>    <PHRASE id="V41980" indicator="F" type="IN-LOC" text="IN" start="19" end="37"/>
+>    <RELATION id="2" head="V41980" res="V42036" label="GROUND"/>
+>    <RELATION id="3" head="V41980" res="V41973" label="FIGURE"/>
+>    <PHRASE id="V42036" indicator="THE" type="IMAGE" text="BACKGROUND" start="22" end="37"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="ASSOC-WITH" text="WITH" start="39" end="78">
+>    <TEXT>with one kid standing below the basket .</TEXT>
+>    <RELATION id="4" head="V42288" res="V42315" label="GROUND"/>
+>    <PHRASE id="V42315" indicator="BARE" type="BODY-MOVEMENT-PLACE" text="STAND-UP" start="44" end="78"/>
+>    <RELATION id="5" head="V42315" res="V42311" label="AGENT"/>
+>    <RELATION id="6" head="V42315" res="V42329" label="LOCATION"/>
+>    <PHRASE id="V42311" indicator="A" type="CHILD" text="KID" start="44" end="52"/>
+>    <RELATION id="7" head="V42311" res="V42352" label="SIZE"/>
+>    <PHRASE id="V42352" indicator="A" type="NUMBER" VALUE="1" start="44" end="52"/>
+>    <PHRASE id="V42329" indicator="F" type="BELOW" text="BELOW" start="61" end="78"/>
+>    <RELATION id="8" head="V42329" res="V42343" label="GROUND"/>
+>    <RELATION id="9" head="V42329" res="V42315" label="FIGURE"/>
+>    <PHRASE id="V42343" indicator="THE" type="SMALL-CONTAINER" text="BASKET" start="67" end="78"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

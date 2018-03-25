@@ -1,0 +1,243 @@
+2,219c2,23
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="the painting shows a sunset behind a hill and a tree .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?18279:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V361800)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?18277)
+<                                            (W::TRANSFORM ?18278)))
+<                                  (W::CASE ?18276:(W::SUB W::OBJ -))
+<                                  (W::AGR ?18275) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V361800) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER361822))
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?18640:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V361803)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?18638)
+<                                            (W::TRANSFORM ?18639)))
+<                                  (W::CASE ?18637:(W::SUB W::OBJ -))
+<                                  (W::AGR ?18636) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V361803) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER361824))
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?18939:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V361806)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?18937)
+<                                            (W::TRANSFORM ?18938)))
+<                                  (W::CASE ?18936:(W::SUB W::OBJ -))
+<                                  (W::AGR ?18935) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V361806) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER361826))
+< *last-utt-id*=NIL  utt-id+57
+< *last-utt-id*=57  utt-id+NIL</debug><utt><words><lisp>(W::THE W::PAINTING W::SHOWS W::A W::SUNSET W::BEHIND W::A W::HILL W::AND W::A
+<  W::TREE W::PUNC-PERIOD)</lisp><word>THE</word><word>PAINTING</word><word>SHOWS</word><word>A</word><word>SUNSET</word><word>BEHIND</word><word>A</word><word>HILL</word><word>AND</word><word>A</word><word>TREE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;the&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;painting&quot; :FRAME (4 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the painting&quot; :FRAME (0 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.319 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;shows&quot; :FRAME (13 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (19 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sunset&quot; :FRAME (21 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a sunset&quot; :FRAME (19 27) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   15.645 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;behind&quot; :FRAME (28 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (35 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hill&quot; :FRAME (37 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a hill&quot; :FRAME (35 41) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.678 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (42 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (46 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tree&quot; :FRAME (48 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a tree&quot; :FRAME (46 52) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.641 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a hill and a tree&quot; :FRAME (35 52) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 29.153 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;behind a hill and a tree&quot; :FRAME (28 52) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 38.27 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a sunset behind a hill and a tree&quot; :FRAME (19 52) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 54.32 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;shows a sunset behind a hill and a tree&quot; :FRAME (13 52) :PENN-CATS
+<   (VP) :TRIPS-CATS (W::VP) :SCORE 64.228 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (53 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the painting shows a sunset behind a hill and a tree .&quot; :FRAME (0 53)
+<   :PENN-CATS (S) :SCORE 76.689 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="the" start="0" end="3"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="painting" start="4" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the painting" start="0" end="12" penn-cats="NP" score="11.319" /><word lex="shows" start="13" end="18"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="a" start="19" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="sunset" start="21" end="27"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a sunset" start="19" end="27" penn-cats="NP" score="15.645" /><word lex="behind" start="28" end="34"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="35" end="36"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="hill" start="37" end="41"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a hill" start="35" end="41" penn-cats="NP" score="13.678" /><word lex="and" start="42" end="45"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="46" end="47"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="tree" start="48" end="52"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a tree" start="46" end="52" penn-cats="NP" score="12.641" /><prefer text="a hill and a tree" start="35" end="52" penn-cats="NP" score="29.153" /><prefer text="behind a hill and a tree" start="28" end="52" penn-cats="PP" score="38.27" /><prefer text="a sunset behind a hill and a tree" start="19" end="52" penn-cats="NP" score="54.32" /><prefer text="shows a sunset behind a hill and a tree" start="13" end="52" penn-cats="VP" score="64.228" /><word lex="." start="53" end="53"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="the painting shows a sunset behind a hill and a tree ." start="0" end="53" penn-cats="S" score="76.689" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (SPEC (DET (ART THE))) (N1 (V PAINTING)))
+<    (VP
+<     (VP- (V (V SHOWS))
+<      (NP (SPEC (DET (ART A)))
+<       (N1 (N1 (N SUNSET))
+<        (ADVBL (ADV BEHIND)
+<         (NP (NP (SPEC (DET (ART A))) (N1 (N HILL))) (CONJ AND)
+<          (NP (SPEC (DET (ART A))) (N1 (N TREE)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><V>PAINTING</V></N1></NP><VP><VP-><V><V>SHOWS</V></V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>SUNSET</N></N1><ADVBL><ADV>BEHIND</ADV><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>HILL</N></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>TREE</N></N1></NP></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V364600"><lisp>((ONT::SPEECHACT ONT::V364600 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V361318 :START 0 :END 53)
+<  (ONT::F ONT::V361318 (:* ONT::SHOW W::SHOW) :AGENT ONT::V361311 :FORMAL
+<   ONT::V361377 :TENSE W::PRES :START 0 :END 53)
+<  (ONT::THE ONT::V361311 (:* ONT::COLORING W::PAINT) :START 0 :END 13)
+<  (ONT::A ONT::V361377 (:* ONT::NYCHTHEMERON-EVENT W::SUNSET) :LOCATION
+<   ONT::V361380 :START 19 :END 53)
+<  (ONT::F ONT::V361380 (:* ONT::BACK W::BEHIND) :GROUND ONT::V361432 :FIGURE
+<   ONT::V361377 :START 28 :END 53)
+<  (ONT::INDEF-SET ONT::V361432 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V361425 ONT::V361482) :START 35 :END 53)
+<  (ONT::A ONT::V361425 (:* ONT::GEO-FORMATION W::HILL) :START 35 :END 42)
+<  (ONT::A ONT::V361482 (:* ONT::PLANT W::TREE) :START 46 :END 53))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V364600">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V361318" />
+<     <LF:start>0</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V361318">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>SHOW</LF:type>
+<     <LF:word>SHOW</LF:word>
+<     <role:AGENT rdf:resource="#V361311" />
+<     <role:FORMAL rdf:resource="#V361377" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V361311">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>COLORING</LF:type>
+<     <LF:word>PAINT</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>13</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V361377">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NYCHTHEMERON-EVENT</LF:type>
+<     <LF:word>SUNSET</LF:word>
+<     <role:LOCATION rdf:resource="#V361380" />
+<     <LF:start>19</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V361380">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BACK</LF:type>
+<     <LF:word>BEHIND</LF:word>
+<     <role:GROUND rdf:resource="#V361432" />
+<     <role:FIGURE rdf:resource="#V361377" />
+<     <LF:start>28</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V361432">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PHYS-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V361425" />
+<     <role:SEQUENCE1 rdf:resource="#V361482" />
+<     <LF:start>35</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V361425">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>HILL</LF:word>
+<     <LF:start>35</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V361482">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <LF:word>TREE</LF:word>
+<     <LF:start>46</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="53">
+>    <TEXT>the painting shows a sunset behind a hill and a tree .</TEXT>
+>    <RELATION id="1" head="V364600" res="V361318" label="CONTENT"/>
+>    <PHRASE id="V361318" indicator="F" type="SHOW" text="SHOW" TENSE="PRES" start="0" end="53"/>
+>    <RELATION id="2" head="V361318" res="V361311" label="AGENT"/>
+>    <RELATION id="3" head="V361318" res="V361377" label="FORMAL"/>
+>    <PHRASE id="V361311" indicator="THE" type="COLORING" text="PAINT" start="0" end="13"/>
+>    <PHRASE id="V361377" indicator="A" type="NYCHTHEMERON-EVENT" text="SUNSET" start="19" end="53"/>
+>    <RELATION id="4" head="V361377" res="V361380" label="LOCATION"/>
+>    <PHRASE id="V361380" indicator="F" type="BACK" text="BEHIND" start="28" end="53"/>
+>    <RELATION id="5" head="V361380" res="V361432" label="GROUND"/>
+>    <RELATION id="6" head="V361380" res="V361377" label="FIGURE"/>
+>    <PHRASE id="V361432" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="35" end="53"/>
+>    <RELATION id="7" head="V361432" res="V361425" label="SEQUENCE"/>
+>    <RELATION id="8" head="V361432" res="V361482" label="SEQUENCE1"/>
+>    <PHRASE id="V361425" indicator="A" type="GEO-FORMATION" text="HILL" start="35" end="42"/>
+>    <PHRASE id="V361482" indicator="A" type="PLANT" text="TREE" start="46" end="53"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

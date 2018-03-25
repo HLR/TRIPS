@@ -88,7 +88,7 @@ def pullElements(fileName):
     return elements
         
 def run(xmlName,pathToCleanedXMLS):
-    files = indexFiles()
+    files = indexFiles(pathToCleanedXMLS)
     try:
         tree = ET.parse(xmlName)
     except (FileNotFoundError,ET.ParseError):
@@ -145,5 +145,3 @@ if __name__ == '__main__':
     args=parser.parse_args()
     run(args.file,args.path)
 
-
-main()

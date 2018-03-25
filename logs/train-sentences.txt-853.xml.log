@@ -1,0 +1,152 @@
+2,131c2,20
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="inside photograph of a room with a red carpet .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+35
+< *last-utt-id*=35  utt-id+NIL</debug><utt><words><lisp>(W::INSIDE W::PHOTOGRAPH W::OF W::A W::ROOM W::WITH W::A W::RED W::CARPET
+<  W::PUNC-PERIOD)</lisp><word>INSIDE</word><word>PHOTOGRAPH</word><word>OF</word><word>A</word><word>ROOM</word><word>WITH</word><word>A</word><word>RED</word><word>CARPET</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;inside&quot; :FRAME (0 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN JJ) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::ADV W::ADJ)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;photograph&quot; :FRAME (7 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 35
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;inside photograph&quot; :FRAME (0 17) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 23.155 :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (18 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (21 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;room&quot; :FRAME (23 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 35
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a room&quot; :FRAME (21 27) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.124 :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of a room&quot; :FRAME (18 27) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   12.191 :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (28 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (33 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (35 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;carpet&quot; :FRAME (39 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 35
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red carpet&quot; :FRAME (35 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+<     (&quot;red_carpet%5:00:00&quot;))
+<    (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;red_carpet%1:06:00&quot;)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a red carpet&quot; :FRAME (33 45) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 21.138 :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with a red carpet&quot; :FRAME (28 45) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 24.938 :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (46 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 35 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;inside photograph of a room with a red carpet .&quot; :FRAME (0 46)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 63.613 :UTTNUM 35 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="inside" start="0" end="6"><sense-info penn-parts-of-speech="IN,JJ" trips-parts-of-speech="PREP,ADV,ADJ" /></word><word lex="photograph" start="7" end="17"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="inside photograph" start="0" end="17" penn-cats="NP" score="23.155" /><word lex="of" start="18" end="20"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="21" end="22"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="room" start="23" end="27"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a room" start="21" end="27" penn-cats="NP" score="11.124" /><prefer text="of a room" start="18" end="27" penn-cats="PP" score="12.191" /><word lex="with" start="28" end="32"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="33" end="34"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="35" end="38"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="carpet" start="39" end="45"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="red carpet" start="35" end="45"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="red_carpet%5:00:00" /><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="red_carpet%1:06:00" /></word><prefer text="a red carpet" start="33" end="45" penn-cats="NP" score="21.138" /><prefer text="with a red carpet" start="28" end="45" penn-cats="PP" score="24.938" /><word lex="." start="46" end="46"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="inside photograph of a room with a red carpet ." start="0" end="46" penn-cats="NP" score="63.613" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1 (ADJP (ADJ1 (ADJ INSIDE)))
+<      (N1 (N PHOTOGRAPH)
+<       (PP (PREP OF) (NP (SPEC (DET (ART A))) (N1 (N ROOM))))))
+<     (ADVBL (ADV WITH) (NP (SPEC (DET (ART A))) (N1 (N RED CARPET)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><ADJP><ADJ1><ADJ>INSIDE</ADJ></ADJ1></ADJP><N1><N>PHOTOGRAPH</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>ROOM</N></N1></NP></PP></N1></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>RED CARPET</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V266554"><lisp>((ONT::SPEECHACT ONT::V266554 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V266310 :START 0 :END 46)
+<  (ONT::BARE ONT::V266310 (:* ONT::IMAGE W::PHOTOGRAPH) :FIGURE ONT::V266363
+<   :MOD ONT::V266367 :MOD ONT::V266300 :START 0 :END 46)
+<  (ONT::F ONT::V266300 (:* ONT::PRIVATE W::INSIDE) :FIGURE ONT::V266310 :START 0
+<   :END 7)
+<  (ONT::A ONT::V266363 (:* ONT::INTERNAL-ENCLOSURE W::ROOM) :START 18 :END 28)
+<  (ONT::F ONT::V266367 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V266448 :FIGURE
+<   ONT::V266310 :START 28 :END 46)
+<  (ONT::A ONT::V266448 (:* ONT::COVERING W::RED-CARPET) :START 33 :END 46
+<   :WNSENSE &quot;red_carpet%5:00:00&quot;))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V266554">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V266310" />
+<     <LF:start>0</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V266310">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>PHOTOGRAPH</LF:word>
+<     <role:FIGURE rdf:resource="#V266363" />
+<     <role:MOD rdf:resource="#V266367" />
+<     <role:MOD rdf:resource="#V266300" />
+<     <LF:start>0</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V266300">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PRIVATE</LF:type>
+<     <LF:word>INSIDE</LF:word>
+<     <role:FIGURE rdf:resource="#V266310" />
+<     <LF:start>0</LF:start>
+<     <LF:end>7</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V266363">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>ROOM</LF:word>
+<     <LF:start>18</LF:start>
+<     <LF:end>28</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V266367">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V266448" />
+<     <role:FIGURE rdf:resource="#V266310" />
+<     <LF:start>28</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V266448">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>COVERING</LF:type>
+<     <LF:word>RED-CARPET</LF:word>
+<     <LF:start>33</LF:start>
+<     <LF:end>46</LF:end>
+<     <role:WNSENSE>red_carpet%5:00:00</role:WNSENSE>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="46">
+>    <TEXT>inside photograph of a room with a red carpet .</TEXT>
+>    <RELATION id="1" head="V266554" res="V266310" label="CONTENT"/>
+>    <PHRASE id="V266310" indicator="BARE" type="IMAGE" text="PHOTOGRAPH" start="0" end="46"/>
+>    <RELATION id="2" head="V266310" res="V266363" label="FIGURE"/>
+>    <RELATION id="3" head="V266310" res="V266367" label="MOD"/>
+>    <RELATION id="4" head="V266310" res="V266300" label="MOD"/>
+>    <PHRASE id="V266300" indicator="F" type="PRIVATE" text="INSIDE" start="0" end="7"/>
+>    <RELATION id="5" head="V266300" res="V266310" label="FIGURE"/>
+>    <PHRASE id="V266363" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="18" end="28"/>
+>    <PHRASE id="V266367" indicator="F" type="ASSOC-WITH" text="WITH" start="28" end="46"/>
+>    <RELATION id="6" head="V266367" res="V266448" label="GROUND"/>
+>    <RELATION id="7" head="V266367" res="V266310" label="FIGURE"/>
+>    <PHRASE id="V266448" indicator="A" type="COVERING" text="RED-CARPET" start="33" end="46" WNSENSE="red_carpet%5:00:00"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

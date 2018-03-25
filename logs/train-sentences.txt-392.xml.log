@@ -1,0 +1,180 @@
+2,156c2,23
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="pictures on a wooden wall in the background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?14729:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V374844)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?14727)
+<                                            (W::TRANSFORM ?14728)))
+<                                  (W::CASE ?14726:(W::SUB W::OBJ -))
+<                                  (W::AGR ?14725) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V374844) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER374892))
+< *last-utt-id*=NIL  utt-id+61
+< *last-utt-id*=61  utt-id+NIL</debug><utt><words><lisp>(W::PICTURES W::ON W::A W::WOODEN W::WALL W::IN W::THE W::BACKGROUND
+<  W::PUNC-PERIOD)</lisp><word>PICTURES</word><word>ON</word><word>A</word><word>WOODEN</word><word>WALL</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;pictures&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 61
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;pictures&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.441 :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (9 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (12 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wooden&quot; :FRAME (14 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 61
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall&quot; :FRAME (21 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 61
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a wooden wall&quot; :FRAME (12 25) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.382 :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on a wooden wall&quot; :FRAME (9 25) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 25.886 :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (26 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall in&quot; :FRAME (21 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;wall_in%2:35:00&quot;)))
+<   :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (29 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (33 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 61
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (29 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (26 43) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (44 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;pictures on a wooden wall in the background .&quot; :FRAME (0 44)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 53.879 :UTTNUM 61 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="pictures" start="0" end="8"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="pictures" start="0" end="8" penn-cats="NP" score="10.441" /><word lex="on" start="9" end="11"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="12" end="13"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wooden" start="14" end="20"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="wall" start="21" end="25"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a wooden wall" start="12" end="25" penn-cats="NP" score="22.382" /><prefer text="on a wooden wall" start="9" end="25" penn-cats="PP" score="25.886" /><word lex="in" start="26" end="28"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="wall in" start="21" end="28"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="wall_in%2:35:00" /></word><word lex="the" start="29" end="32"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="33" end="43"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="29" end="43" penn-cats="NP" score="11.972" /><prefer text="in the background" start="26" end="43" penn-cats="PP" score="14.224" /><word lex="." start="44" end="44"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="pictures on a wooden wall in the background ." start="0" end="44" penn-cats="NP" score="53.879" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1 (N1 (N PICTURES))
+<      (ADVBL (ADV ON)
+<       (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ WOODEN))) (N1 (N WALL))))))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><N>PICTURES</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>WOODEN</ADJ></ADJ1></ADJP><N1><N>WALL</N></N1></N1></NP></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V374761"><lisp>((ONT::SPEECHACT ONT::V374761 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V374494 :START 0 :END 44)
+<  (ONT::INDEF-SET ONT::V374494 (:* ONT::IMAGE W::PICTURE) :LOCATION ONT::V374580
+<   :LOCATION ONT::V374503 :START 0 :END 44)
+<  (ONT::F ONT::V374503 (:* ONT::ON W::ON) :GROUND ONT::V374573 :FIGURE
+<   ONT::V374494 :START 9 :END 26)
+<  (ONT::A ONT::V374573 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :MOD
+<   ONT::V374567 :START 12 :END 26)
+<  (ONT::F ONT::V374567 (:* ONT::AWKWARD-VAL W::WOODEN) :FIGURE ONT::V374573
+<   :START 14 :END 21)
+<  (ONT::F ONT::V374580 (:* ONT::IN-LOC W::IN) :GROUND ONT::V374645 :FIGURE
+<   ONT::V374494 :START 26 :END 44)
+<  (ONT::THE ONT::V374645 (:* ONT::IMAGE W::BACKGROUND) :START 29 :END 44))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V374761">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V374494" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V374494">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>PICTURE</LF:word>
+<     <role:LOCATION rdf:resource="#V374580" />
+<     <role:LOCATION rdf:resource="#V374503" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V374503">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V374573" />
+<     <role:FIGURE rdf:resource="#V374494" />
+<     <LF:start>9</LF:start>
+<     <LF:end>26</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V374573">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>WALL</LF:word>
+<     <role:MOD rdf:resource="#V374567" />
+<     <LF:start>12</LF:start>
+<     <LF:end>26</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V374567">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AWKWARD-VAL</LF:type>
+<     <LF:word>WOODEN</LF:word>
+<     <role:FIGURE rdf:resource="#V374573" />
+<     <LF:start>14</LF:start>
+<     <LF:end>21</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V374580">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V374645" />
+<     <role:FIGURE rdf:resource="#V374494" />
+<     <LF:start>26</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V374645">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>29</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="44">
+>    <TEXT>pictures on a wooden wall in the background .</TEXT>
+>    <RELATION id="1" head="V374761" res="V374494" label="CONTENT"/>
+>    <PHRASE id="V374494" indicator="INDEF-SET" type="IMAGE" text="PICTURE" start="0" end="44"/>
+>    <RELATION id="2" head="V374494" res="V374580" label="LOCATION"/>
+>    <RELATION id="3" head="V374494" res="V374503" label="LOCATION"/>
+>    <PHRASE id="V374503" indicator="F" type="ON" text="ON" start="9" end="26"/>
+>    <RELATION id="4" head="V374503" res="V374573" label="GROUND"/>
+>    <RELATION id="5" head="V374503" res="V374494" label="FIGURE"/>
+>    <PHRASE id="V374573" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="12" end="26"/>
+>    <RELATION id="6" head="V374573" res="V374567" label="MOD"/>
+>    <PHRASE id="V374567" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="14" end="21"/>
+>    <RELATION id="7" head="V374567" res="V374573" label="FIGURE"/>
+>    <PHRASE id="V374580" indicator="F" type="IN-LOC" text="IN" start="26" end="44"/>
+>    <RELATION id="8" head="V374580" res="V374645" label="GROUND"/>
+>    <RELATION id="9" head="V374580" res="V374494" label="FIGURE"/>
+>    <PHRASE id="V374645" indicator="THE" type="IMAGE" text="BACKGROUND" start="29" end="44"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

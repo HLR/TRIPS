@@ -1,0 +1,115 @@
+2,98c2,16
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one tourist is taking a photo .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+26
+< *last-utt-id*=26  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::TOURIST W::IS W::TAKING W::A W::PHOTO W::PUNC-PERIOD)</lisp><word>ONE</word><word>TOURIST</word><word>IS</word><word>TAKING</word><word>A</word><word>PHOTO</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tourist&quot; :FRAME (4 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one tourist&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   18.286 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (12 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;taking&quot; :FRAME (15 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (22 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;photo&quot; :FRAME (24 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a photo&quot; :FRAME (22 29) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.465 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;taking a photo&quot; :FRAME (15 29) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 20.131 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;is taking a photo&quot; :FRAME (12 29) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 24.392 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (30 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one tourist is taking a photo .&quot; :FRAME (0 30) :PENN-CATS (S) :SCORE
+<   43.82 :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="tourist" start="4" end="11"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one tourist" start="0" end="11" penn-cats="NP" score="18.286" /><word lex="is" start="12" end="14"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="taking" start="15" end="21"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="22" end="23"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="photo" start="24" end="29"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a photo" start="22" end="29" penn-cats="NP" score="13.465" /><prefer text="taking a photo" start="15" end="29" penn-cats="VP" score="20.131" /><prefer text="is taking a photo" start="12" end="29" penn-cats="VP" score="24.392" /><word lex="." start="30" end="30"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one tourist is taking a photo ." start="0" end="30" penn-cats="S" score="43.82" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (SPEC (NUMBER ONE)) (N1 (N TOURIST)))
+<    (VP
+<     (VP- (AUX (V IS))
+<      (VP- (V TAKING) (NP (SPEC (DET (ART A))) (N1 (N PHOTO))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>TOURIST</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>TAKING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>PHOTO</N></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V140043"><lisp>((ONT::SPEECHACT ONT::V140043 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V139446 :START 0 :END 30)
+<  (ONT::F ONT::V139446 (:* ONT::CREATE W::TAKE) :AGENT ONT::V139406
+<   :AFFECTED-RESULT ONT::V139517 :TENSE W::PRES :PROGR + :START 0 :END 30)
+<  (ONT::A ONT::V139406 (:* ONT::TRAVELLER W::TOURIST) :SIZE ONT::V139526 :START
+<   0 :END 12)
+<  (ONT::A ONT::V139526 ONT::NUMBER :VALUE 1 :START 0 :END 12)
+<  (ONT::A ONT::V139517 (:* ONT::IMAGE W::PHOTO) :START 22 :END 30))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V140043">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V139446" />
+<     <LF:start>0</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V139446">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CREATE</LF:type>
+<     <LF:word>TAKE</LF:word>
+<     <role:AGENT rdf:resource="#V139406" />
+<     <role:AFFECTED-RESULT rdf:resource="#V139517" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V139406">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>TRAVELLER</LF:type>
+<     <LF:word>TOURIST</LF:word>
+<     <role:SIZE rdf:resource="#V139526" />
+<     <LF:start>0</LF:start>
+<     <LF:end>12</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V139526">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>1</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>12</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V139517">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>PHOTO</LF:word>
+<     <LF:start>22</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="30">
+>    <TEXT>one tourist is taking a photo .</TEXT>
+>    <RELATION id="1" head="V140043" res="V139446" label="CONTENT"/>
+>    <PHRASE id="V139446" indicator="F" type="CREATE" text="TAKE" TENSE="PRES" PROGR="+" start="0" end="30"/>
+>    <RELATION id="2" head="V139446" res="V139406" label="AGENT"/>
+>    <RELATION id="3" head="V139446" res="V139517" label="AFFECTED-RESULT"/>
+>    <PHRASE id="V139406" indicator="A" type="TRAVELLER" text="TOURIST" start="0" end="12"/>
+>    <RELATION id="4" head="V139406" res="V139526" label="SIZE"/>
+>    <PHRASE id="V139526" indicator="A" type="NUMBER" VALUE="1" start="0" end="12"/>
+>    <PHRASE id="V139517" indicator="A" type="IMAGE" text="PHOTO" start="22" end="30"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

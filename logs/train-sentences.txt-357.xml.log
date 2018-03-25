@@ -1,0 +1,402 @@
+2,354c2,47
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-skinned , dark-haired girl in a blue jumper and red pants is sitting on the floor .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?82023:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V232213)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?82021)
+<                                            (W::TRANSFORM ?82022)))
+<                                  (W::CASE ?82020:(W::SUB W::OBJ -))
+<                                  (W::AGR ?82019) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V232213) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER232315))
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?82318:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V232216)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?82316)
+<                                            (W::TRANSFORM ?82317)))
+<                                  (W::CASE ?82315:(W::SUB W::OBJ -))
+<                                  (W::AGR ?82314) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V232216) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER232317))
+< *last-utt-id*=NIL  utt-id+41
+< *last-utt-id*=41  utt-id+41
+< *last-utt-id*=41  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::A W::DARK W::SKINNED W::PUNC-COMMA W::DARK W::PUNC-MINUS W::HAIRED)</lisp><word>A</word><word>DARK</word><word>SKINNED</word><word>PUNC-COMMA</word><word>DARK</word><word>PUNC-MINUS</word><word>HAIRED</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;skinned&quot; :FRAME (7 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark-skinned&quot; :FRAME (2 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+<     (&quot;dark-skinned%5:00:00&quot;)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (15 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (17 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (21 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;haired&quot; :FRAME (22 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark-haired&quot; :FRAME (17 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+<     (&quot;dark-haired%5:00:00&quot;)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="skinned" start="7" end="14"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="dark-skinned" start="2" end="14"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-skinned%5:00:00" /></word><word lex="," start="15" end="16"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="dark" start="17" end="20"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="-" start="21" end="21"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="haired" start="22" end="28"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-haired" start="17" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-haired%5:00:00" /></word></tags><tree><lisp>(UTT
+<  (S (S (NP (N1 (NP (NAME (VALUE A))) (N1 (N DARK)))) (VP (VP- (V SKINNED))))
+<   (PUNC PUNC-COMMA) (ADJP (ADJ1 (ADJ DARK PUNC-MINUS HAIRED)))))</lisp><UTT><S><S><NP><N1><NP><NAME><VALUE>A</VALUE></NAME></NP><N1><N>DARK</N></N1></N1></NP><VP><VP-><V>SKINNED</V></VP-></VP></S><PUNC>PUNC-COMMA</PUNC><ADJP><ADJ1><ADJ>DARK PUNC-MINUS HAIRED</ADJ></ADJ1></ADJP></S></UTT></tree><terms root="#V239717"><lisp>((ONT::SPEECHACT ONT::V239717 ONT::SA_TELL :CONTENT ONT::V229832 :START 0 :END
+<   29)
+<  (ONT::F ONT::V229832 (:* ONT::MOVE W::SKINNED) :TIME ONT::V239674 :AFFECTED
+<   ONT::V229823 :TENSE W::PAST :START 0 :END 29)
+<  (ONT::F ONT::V239674 ONT::EVENT-TIME-REL :FIGURE ONT::V229832 :GROUND
+<   ONT::V229870 :START 0 :END 29)
+<  (ONT::BARE ONT::V229823 (:* ONT::LIGHT W::DARK) :ASSOC-WITH ONT::V229797
+<   :START 0 :END 6)
+<  (ONT::THE ONT::V229797 ONT::LETTER-SYMBOL :NAME-OF (W::A) :START 0 :END 2)
+<  (ONT::F ONT::V229870 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-HAIRED) :FIGURE
+<   ONT::V229823 :START 17 :END 29 :WNSENSE &quot;dark-haired%5:00:00&quot;))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V239717">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V229832" />
+<     <LF:start>0</LF:start>
+<     <LF:end>29</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229832">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MOVE</LF:type>
+<     <LF:word>SKINNED</LF:word>
+<     <role:TIME rdf:resource="#V239674" />
+<     <role:AFFECTED rdf:resource="#V229823" />
+<     <role:TENSE>PAST</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>29</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V239674">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EVENT-TIME-REL</LF:type>
+<     <role:FIGURE rdf:resource="#V229832" />
+<     <role:GROUND rdf:resource="#V229870" />
+<     <LF:start>0</LF:start>
+<     <LF:end>29</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229823">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>LIGHT</LF:type>
+<     <LF:word>DARK</LF:word>
+<     <role:ASSOC-WITH rdf:resource="#V229797" />
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229797">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>LETTER-SYMBOL</LF:type>
+<     <role:NAME-OF>(A)</role:NAME-OF>
+<     <LF:start>0</LF:start>
+<     <LF:end>2</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229870">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MODIFIER</LF:type>
+<     <LF:word>DARK-PUNC-MINUS-HAIRED</LF:word>
+<     <role:FIGURE rdf:resource="#V229823" />
+<     <LF:start>17</LF:start>
+<     <LF:end>29</LF:end>
+<     <role:WNSENSE>dark-haired%5:00:00</role:WNSENSE>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::GIRL W::IN W::A W::BLUE W::JUMPER W::AND W::RED W::PANTS W::IS W::SITTING
+<  W::ON W::THE W::FLOOR W::PUNC-PERIOD)</lisp><word>GIRL</word><word>IN</word><word>A</word><word>BLUE</word><word>JUMPER</word><word>AND</word><word>RED</word><word>PANTS</word><word>IS</word><word>SITTING</word><word>ON</word><word>THE</word><word>FLOOR</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;girl&quot; :FRAME (29 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a dark-skinned , dark-haired girl&quot; :FRAME (0 33) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 41.32 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;in&quot; :FRAME (34 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (37 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (39 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;jumper&quot; :FRAME (44 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a blue jumper&quot; :FRAME (37 50) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 24.348 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (51 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (55 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;pants&quot; :FRAME (59 64) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;red pants&quot; :FRAME (55 64) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   19.696 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a blue jumper and red pants&quot; :FRAME (37 64) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 46.878 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;in a blue jumper and red pants&quot; :FRAME (34 64) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 50.474 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;a dark-skinned , dark-haired girl in a blue jumper and red pants&quot;
+<   :FRAME (0 64) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 92.161 :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (65 67) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (68 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (76 78) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (79 82) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;floor&quot; :FRAME (83 88) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the floor&quot; :FRAME (79 88) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.075 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on the floor&quot; :FRAME (76 88) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 13.286 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting on the floor&quot; :FRAME (68 88) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 21.983 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;is sitting on the floor&quot; :FRAME (65 88) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 26.243 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (89 89) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;a dark-skinned , dark-haired girl in a blue jumper and red pants is sitting on the floor .&quot;
+<   :FRAME (0 89) :PENN-CATS (S) :SCORE 121.233 :UTTNUM 41 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="girl" start="29" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-skinned , dark-haired girl" start="0" end="33" penn-cats="NP" score="41.32" /><word lex="in" start="34" end="36"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="37" end="38"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blue" start="39" end="43"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="jumper" start="44" end="50"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a blue jumper" start="37" end="50" penn-cats="NP" score="24.348" /><word lex="and" start="51" end="54"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="red" start="55" end="58"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="pants" start="59" end="64"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="red pants" start="55" end="64" penn-cats="NP" score="19.696" /><prefer text="a blue jumper and red pants" start="37" end="64" penn-cats="NP" score="46.878" /><prefer text="in a blue jumper and red pants" start="34" end="64" penn-cats="PP" score="50.474" /><prefer text="a dark-skinned , dark-haired girl in a blue jumper and red pants" start="0" end="64" penn-cats="NP" score="92.161" /><word lex="is" start="65" end="67"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="sitting" start="68" end="75"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="76" end="78"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="79" end="82"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="floor" start="83" end="88"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the floor" start="79" end="88" penn-cats="NP" score="10.075" /><prefer text="on the floor" start="76" end="88" penn-cats="PP" score="13.286" /><prefer text="sitting on the floor" start="68" end="88" penn-cats="VP" score="21.983" /><prefer text="is sitting on the floor" start="65" end="88" penn-cats="VP" score="26.243" /><word lex="." start="89" end="89"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-skinned , dark-haired girl in a blue jumper and red pants is sitting on the floor ." start="0" end="89" penn-cats="S" score="121.233" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (NP
+<     (N1 (N1 (N GIRL))
+<      (ADVBL (ADV IN)
+<       (NP
+<        (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ BLUE))) (N1 (N JUMPER))))
+<        (CONJ AND) (NP (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N PANTS))))))))
+<    (VP
+<     (VP- (AUX (V IS))
+<      (VP- (VP- (V SITTING))
+<       (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N FLOOR)))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N1><N>GIRL</N></N1><ADVBL><ADV>IN</ADV><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>JUMPER</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>PANTS</N></N1></N1></NP></NP></ADVBL></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>FLOOR</N></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V235829"><lisp>((ONT::SPEECHACT ONT::V235829 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V230037 :START 29 :END 89)
+<  (ONT::F ONT::V230037 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V230053
+<   :AGENT ONT::V229873 :TENSE W::PRES :PROGR + :START 29 :END 89)
+<  (ONT::BARE ONT::V229873 (:* ONT::FEMALE-CHILD W::GIRL) :LOCATION ONT::V229880
+<   :START 29 :END 65)
+<  (ONT::F ONT::V229880 (:* ONT::IN-LOC W::IN) :GROUND ONT::V229990 :FIGURE
+<   ONT::V229873 :START 34 :END 65)
+<  (ONT::INDEF-SET ONT::V229990 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V229983 ONT::V230006) :START 37 :END 65)
+<  (ONT::A ONT::V229983 (:* ONT::PERSON W::JUMPER) :MOD ONT::V229970 :START 37
+<   :END 51)
+<  (ONT::F ONT::V229970 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V229983 :SCALE
+<   ONT::COLOR-SCALE :START 39 :END 44)
+<  (ONT::BARE ONT::V230006 (:* ONT::ATTIRE W::PANTS) :MOD ONT::V229999 :START 55
+<   :END 65)
+<  (ONT::F ONT::V229999 (:* ONT::RED W::RED) :FIGURE ONT::V230006 :SCALE
+<   ONT::COLOR-SCALE :START 55 :END 59)
+<  (ONT::F ONT::V230053 (:* ONT::ON W::ON) :GROUND ONT::V230085 :FIGURE
+<   ONT::V229873 :START 76 :END 89)
+<  (ONT::THE ONT::V230085 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::FLOOR) :START
+<   79 :END 89))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V235829">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V230037" />
+<     <LF:start>29</LF:start>
+<     <LF:end>89</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V230037">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:RESULT rdf:resource="#V230053" />
+<     <role:AGENT rdf:resource="#V229873" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>29</LF:start>
+<     <LF:end>89</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229873">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>FEMALE-CHILD</LF:type>
+<     <LF:word>GIRL</LF:word>
+<     <role:LOCATION rdf:resource="#V229880" />
+<     <LF:start>29</LF:start>
+<     <LF:end>65</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229880">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V229990" />
+<     <role:FIGURE rdf:resource="#V229873" />
+<     <LF:start>34</LF:start>
+<     <LF:end>65</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229990">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PHYS-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V229983" />
+<     <role:SEQUENCE1 rdf:resource="#V230006" />
+<     <LF:start>37</LF:start>
+<     <LF:end>65</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229983">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <LF:word>JUMPER</LF:word>
+<     <role:MOD rdf:resource="#V229970" />
+<     <LF:start>37</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229970">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BLUE</LF:type>
+<     <LF:word>BLUE</LF:word>
+<     <role:FIGURE rdf:resource="#V229983" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>39</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V230006">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>PANTS</LF:word>
+<     <role:MOD rdf:resource="#V229999" />
+<     <LF:start>55</LF:start>
+<     <LF:end>65</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229999">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V230006" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>55</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V230053">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V230085" />
+<     <role:FIGURE rdf:resource="#V229873" />
+<     <LF:start>76</LF:start>
+<     <LF:end>89</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V230085">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>FLOOR</LF:word>
+<     <LF:start>79</LF:start>
+<     <LF:end>89</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="29">
+>    <TEXT>a dark-skinned , dark-haired g</TEXT>
+>    <RELATION id="1" head="V239717" res="V229832" label="CONTENT"/>
+>    <PHRASE id="V229832" indicator="F" type="MOVE" text="SKINNED" TENSE="PAST" start="0" end="29"/>
+>    <RELATION id="2" head="V229832" res="V239674" label="TIME"/>
+>    <RELATION id="3" head="V229832" res="V229823" label="AFFECTED"/>
+>    <PHRASE id="V239674" indicator="F" type="EVENT-TIME-REL" start="0" end="29"/>
+>    <RELATION id="4" head="V239674" res="V229832" label="FIGURE"/>
+>    <RELATION id="5" head="V239674" res="V229870" label="GROUND"/>
+>    <PHRASE id="V229823" indicator="BARE" type="LIGHT" text="DARK" start="0" end="6"/>
+>    <RELATION id="6" head="V229823" res="V229797" label="ASSOC-WITH"/>
+>    <PHRASE id="V229797" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2"/>
+>    <PHRASE id="V229870" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+>    <RELATION id="7" head="V229870" res="V229823" label="FIGURE"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="29" end="89">
+>    <TEXT>girl in a blue jumper and red pants is sitting on the floor .</TEXT>
+>    <RELATION id="8" head="V235829" res="V230037" label="CONTENT"/>
+>    <PHRASE id="V230037" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="29" end="89"/>
+>    <RELATION id="9" head="V230037" res="V230053" label="RESULT"/>
+>    <RELATION id="10" head="V230037" res="V229873" label="AGENT"/>
+>    <PHRASE id="V229873" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="29" end="65"/>
+>    <RELATION id="11" head="V229873" res="V229880" label="LOCATION"/>
+>    <PHRASE id="V229880" indicator="F" type="IN-LOC" text="IN" start="34" end="65"/>
+>    <RELATION id="12" head="V229880" res="V229990" label="GROUND"/>
+>    <RELATION id="13" head="V229880" res="V229873" label="FIGURE"/>
+>    <PHRASE id="V229990" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="37" end="65"/>
+>    <RELATION id="14" head="V229990" res="V229983" label="SEQUENCE"/>
+>    <RELATION id="15" head="V229990" res="V230006" label="SEQUENCE1"/>
+>    <PHRASE id="V229983" indicator="A" type="PERSON" text="JUMPER" start="37" end="51"/>
+>    <RELATION id="16" head="V229983" res="V229970" label="MOD"/>
+>    <PHRASE id="V229970" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="39" end="44"/>
+>    <RELATION id="17" head="V229970" res="V229983" label="FIGURE"/>
+>    <PHRASE id="V230006" indicator="BARE" type="ATTIRE" text="PANTS" start="55" end="65"/>
+>    <RELATION id="18" head="V230006" res="V229999" label="MOD"/>
+>    <PHRASE id="V229999" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="55" end="59"/>
+>    <RELATION id="19" head="V229999" res="V230006" label="FIGURE"/>
+>    <PHRASE id="V230053" indicator="F" type="ON" text="ON" start="76" end="89"/>
+>    <RELATION id="20" head="V230053" res="V230085" label="GROUND"/>
+>    <RELATION id="21" head="V230053" res="V229873" label="FIGURE"/>
+>    <PHRASE id="V230085" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="FLOOR" start="79" end="89"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

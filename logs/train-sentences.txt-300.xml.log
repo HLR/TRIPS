@@ -1,0 +1,305 @@
+2,267c2,37
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a boy wearing a green jacket and a red cap is carrying a little girl on his back .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+1
+< *last-utt-id*=1  utt-id+NIL</debug><utt><words><lisp>(W::A W::BOY W::WEARING W::A W::GREEN W::JACKET W::AND W::A W::RED W::CAP W::IS
+<  W::CARRYING W::A W::LITTLE W::GIRL W::ON W::HIS W::BACK W::PUNC-PERIOD)</lisp><word>A</word><word>BOY</word><word>WEARING</word><word>A</word><word>GREEN</word><word>JACKET</word><word>AND</word><word>A</word><word>RED</word><word>CAP</word><word>IS</word><word>CARRYING</word><word>A</word><word>LITTLE</word><word>GIRL</word><word>ON</word><word>HIS</word><word>BACK</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;boy&quot; :FRAME (2 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a boy&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 12.736
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wearing&quot; :FRAME (6 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (14 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;green&quot; :FRAME (16 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;jacket&quot; :FRAME (22 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green jacket&quot; :FRAME (14 28) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 23.206 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (29 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (33 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (35 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;cap&quot; :FRAME (39 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a red cap&quot; :FRAME (33 42) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   20.156 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green jacket and a red cap&quot; :FRAME (14 42) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 47.252 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;wearing a green jacket and a red cap&quot; :FRAME (6 42) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 56.38 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a boy wearing a green jacket and a red cap&quot; :FRAME (0 42) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 71.677 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;is&quot; :FRAME (43 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;carrying&quot; :FRAME (46 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (55 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;little&quot; :FRAME (57 63) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a little&quot; :FRAME (55 63) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+<     (&quot;a_little%4:02:00&quot;)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;girl&quot; :FRAME (64 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;little girl&quot; :FRAME (57 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;little_girl%1:18:00&quot;)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a little girl&quot; :FRAME (55 68) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 19.742 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (69 71) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;his&quot; :FRAME (72 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;back&quot; :FRAME (76 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;his back&quot; :FRAME (72 80) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   14.597 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on his back&quot; :FRAME (69 80) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 17.808 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;carrying a little girl on his back&quot; :FRAME (46 80) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 46.72 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;is carrying a little girl on his back&quot; :FRAME (43 80) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 50.98 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (81 81) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;a boy wearing a green jacket and a red cap is carrying a little girl on his back .&quot;
+<   :FRAME (0 81) :PENN-CATS (S) :SCORE 126.571 :UTTNUM 1 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="boy" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a boy" start="0" end="5" penn-cats="NP" score="12.736" /><word lex="wearing" start="6" end="13"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="14" end="15"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="green" start="16" end="21"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="jacket" start="22" end="28"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a green jacket" start="14" end="28" penn-cats="NP" score="23.206" /><word lex="and" start="29" end="32"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="33" end="34"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="35" end="38"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="cap" start="39" end="42"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a red cap" start="33" end="42" penn-cats="NP" score="20.156" /><prefer text="a green jacket and a red cap" start="14" end="42" penn-cats="NP" score="47.252" /><prefer text="wearing a green jacket and a red cap" start="6" end="42" penn-cats="VP" score="56.38" /><prefer text="a boy wearing a green jacket and a red cap" start="0" end="42" penn-cats="NP" score="71.677" /><word lex="is" start="43" end="45"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="carrying" start="46" end="54"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="55" end="56"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="little" start="57" end="63"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="a little" start="55" end="63"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="a_little%4:02:00" /></word><word lex="girl" start="64" end="68"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="little girl" start="57" end="68"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="little_girl%1:18:00" /></word><prefer text="a little girl" start="55" end="68" penn-cats="NP" score="19.742" /><word lex="on" start="69" end="71"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="his" start="72" end="75"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="back" start="76" end="80"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="his back" start="72" end="80" penn-cats="NP" score="14.597" /><prefer text="on his back" start="69" end="80" penn-cats="PP" score="17.808" /><prefer text="carrying a little girl on his back" start="46" end="80" penn-cats="VP" score="46.72" /><prefer text="is carrying a little girl on his back" start="43" end="80" penn-cats="VP" score="50.98" /><word lex="." start="81" end="81"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a boy wearing a green jacket and a red cap is carrying a little girl on his back ." start="0" end="81" penn-cats="S" score="126.571" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (NP (SPEC (DET (ART A)))
+<     (N1 (N1 (N BOY))
+<      (CP
+<       (VP
+<        (VP- (V WEARING)
+<         (NP
+<          (NP (SPEC (DET (ART A)))
+<           (N1 (ADJP (ADJ1 (ADJ GREEN))) (N1 (N JACKET))))
+<          (CONJ AND)
+<          (NP (SPEC (DET (ART A)))
+<           (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N CAP))))))))))
+<    (VP
+<     (VP- (AUX (V IS))
+<      (VP- (V CARRYING)
+<       (NP (SPEC (DET (ART A)))
+<        (N1 (N1 (N LITTLE GIRL))
+<         (ADVBL (ADV ON)
+<          (NP (SPEC (DET (POSSESSOR (PRO HIS)))) (N1 (N BACK)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>BOY</N></N1><CP><VP><VP-><V>WEARING</V><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><N1><N>JACKET</N></N1></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>CAP</N></N1></N1></NP></NP></VP-></VP></CP></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>CARRYING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>LITTLE GIRL</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><POSSESSOR><PRO>HIS</PRO></POSSESSOR></DET></SPEC><N1><N>BACK</N></N1></NP></ADVBL></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V36628"><lisp>((ONT::SPEECHACT ONT::V36628 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V33357 :START 0 :END 81)
+<  (ONT::F ONT::V33357 (:* ONT::TRANSPORT W::CARRY) :AGENT ONT::V33207 :AFFECTED
+<   ONT::V33463 :TENSE W::PRES :PROGR + :START 0 :END 81)
+<  (ONT::A ONT::V33207 (:* ONT::MALE-CHILD W::BOY) :MOD ONT::V33213 :START 0 :END
+<   43)
+<  (ONT::F ONT::V33213 (:* ONT::WEAR W::WEAR) :AGENT ONT::V33207 :NEUTRAL
+<   ONT::V33275 :VFORM W::ING :START 6 :END 43)
+<  (ONT::INDEF-SET ONT::V33275 ONT::ATTIRE :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V33271 ONT::V33332) :START 14 :END 43)
+<  (ONT::A ONT::V33271 (:* ONT::ATTIRE W::JACKET) :MOD ONT::V33260 :START 14 :END
+<   29)
+<  (ONT::F ONT::V33260 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V33271 :SCALE
+<   ONT::GREEN*1--07--00 :START 16 :END 22)
+<  (ONT::A ONT::V33332 (:* ONT::ATTIRE W::CAP) :MOD ONT::V33325 :START 33 :END
+<   43)
+<  (ONT::F ONT::V33325 (:* ONT::RED W::RED) :FIGURE ONT::V33332 :SCALE
+<   ONT::COLOR-SCALE :START 35 :END 39)
+<  (ONT::A ONT::V33463 (:* ONT::FEMALE-CHILD W::LITTLE-GIRL) :LOCATION
+<   ONT::V33471 :START 55 :END 81 :WNSENSE &quot;little_girl%1:18:00&quot;)
+<  (ONT::F ONT::V33471 (:* ONT::ON W::ON) :GROUND ONT::V33505 :FIGURE ONT::V33463
+<   :START 69 :END 81)
+<  (ONT::THE ONT::V33505 (:* ONT::OBJECT-DEPENDENT-LOCATION W::BACK) :ASSOC-POSS
+<   ONT::V33494 :START 72 :END 81)
+<  (ONT::PRO ONT::V33494 (:* ONT::MALE-PERSON W::HIS) :PROFORM W::HIS :START 72
+<   :END 81 :COREF ONT::V33207))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V36628">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V33357" />
+<     <LF:start>0</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33357">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TRANSPORT</LF:type>
+<     <LF:word>CARRY</LF:word>
+<     <role:AGENT rdf:resource="#V33207" />
+<     <role:AFFECTED rdf:resource="#V33463" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33207">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>MALE-CHILD</LF:type>
+<     <LF:word>BOY</LF:word>
+<     <role:MOD rdf:resource="#V33213" />
+<     <LF:start>0</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33213">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:AGENT rdf:resource="#V33207" />
+<     <role:NEUTRAL rdf:resource="#V33275" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>6</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33275">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V33271" />
+<     <role:SEQUENCE1 rdf:resource="#V33332" />
+<     <LF:start>14</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33271">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>JACKET</LF:word>
+<     <role:MOD rdf:resource="#V33260" />
+<     <LF:start>14</LF:start>
+<     <LF:end>29</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33260">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>GREEN</LF:type>
+<     <LF:word>GREEN</LF:word>
+<     <role:FIGURE rdf:resource="#V33271" />
+<     <role:SCALE>GREEN*1--07--00</role:SCALE>
+<     <LF:start>16</LF:start>
+<     <LF:end>22</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33332">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>CAP</LF:word>
+<     <role:MOD rdf:resource="#V33325" />
+<     <LF:start>33</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33325">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V33332" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>35</LF:start>
+<     <LF:end>39</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33463">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FEMALE-CHILD</LF:type>
+<     <LF:word>LITTLE-GIRL</LF:word>
+<     <role:LOCATION rdf:resource="#V33471" />
+<     <LF:start>55</LF:start>
+<     <LF:end>81</LF:end>
+<     <role:WNSENSE>little_girl%1:18:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33471">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V33505" />
+<     <role:FIGURE rdf:resource="#V33463" />
+<     <LF:start>69</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33505">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>BACK</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V33494" />
+<     <LF:start>72</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33494">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>MALE-PERSON</LF:type>
+<     <LF:word>HIS</LF:word>
+<     <role:PROFORM>HIS</role:PROFORM>
+<     <LF:start>72</LF:start>
+<     <LF:end>81</LF:end>
+<     <role:COREF rdf:resource="#V33207" />
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="81">
+>    <TEXT>a boy wearing a green jacket and a red cap is carrying a little girl on his back .</TEXT>
+>    <RELATION id="1" head="V36628" res="V33357" label="CONTENT"/>
+>    <PHRASE id="V33357" indicator="F" type="TRANSPORT" text="CARRY" TENSE="PRES" PROGR="+" start="0" end="81"/>
+>    <RELATION id="2" head="V33357" res="V33207" label="AGENT"/>
+>    <RELATION id="3" head="V33357" res="V33463" label="AFFECTED"/>
+>    <PHRASE id="V33207" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="43"/>
+>    <RELATION id="4" head="V33207" res="V33213" label="MOD"/>
+>    <PHRASE id="V33213" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="6" end="43"/>
+>    <RELATION id="5" head="V33213" res="V33207" label="AGENT"/>
+>    <RELATION id="6" head="V33213" res="V33275" label="NEUTRAL"/>
+>    <PHRASE id="V33275" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="14" end="43"/>
+>    <RELATION id="7" head="V33275" res="V33271" label="SEQUENCE"/>
+>    <RELATION id="8" head="V33275" res="V33332" label="SEQUENCE1"/>
+>    <PHRASE id="V33271" indicator="A" type="ATTIRE" text="JACKET" start="14" end="29"/>
+>    <RELATION id="9" head="V33271" res="V33260" label="MOD"/>
+>    <PHRASE id="V33260" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="16" end="22"/>
+>    <RELATION id="10" head="V33260" res="V33271" label="FIGURE"/>
+>    <PHRASE id="V33332" indicator="A" type="ATTIRE" text="CAP" start="33" end="43"/>
+>    <RELATION id="11" head="V33332" res="V33325" label="MOD"/>
+>    <PHRASE id="V33325" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="35" end="39"/>
+>    <RELATION id="12" head="V33325" res="V33332" label="FIGURE"/>
+>    <PHRASE id="V33463" indicator="A" type="FEMALE-CHILD" text="LITTLE-GIRL" start="55" end="81" WNSENSE="little_girl%1:18:00"/>
+>    <RELATION id="13" head="V33463" res="V33471" label="LOCATION"/>
+>    <PHRASE id="V33471" indicator="F" type="ON" text="ON" start="69" end="81"/>
+>    <RELATION id="14" head="V33471" res="V33505" label="GROUND"/>
+>    <RELATION id="15" head="V33471" res="V33463" label="FIGURE"/>
+>    <PHRASE id="V33505" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="BACK" start="72" end="81"/>
+>    <RELATION id="16" head="V33505" res="V33494" label="ASSOC-POSS"/>
+>    <PHRASE id="V33494" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="72" end="81"/>
+>    <RELATION id="17" head="V33494" res="V33207" label="COREF"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

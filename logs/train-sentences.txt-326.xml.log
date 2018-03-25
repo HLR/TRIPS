@@ -1,0 +1,209 @@
+2,183c2,25
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there are pictures of trees on the wall at the back .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+20
+< *last-utt-id*=20  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::ARE W::PICTURES W::OF W::TREES W::ON W::THE W::WALL W::AT W::THE
+<  W::BACK W::PUNC-PERIOD)</lisp><word>THERE</word><word>ARE</word><word>PICTURES</word><word>OF</word><word>TREES</word><word>ON</word><word>THE</word><word>WALL</word><word>AT</word><word>THE</word><word>BACK</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 20
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+<   :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (6 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 20
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;pictures&quot; :FRAME (10 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;pictures&quot; :FRAME (10 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.441 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (19 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;trees&quot; :FRAME (22 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;trees&quot; :FRAME (22 27) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.873 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (28 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (31 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall&quot; :FRAME (35 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the wall&quot; :FRAME (31 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.083 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (40 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (43 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;back&quot; :FRAME (47 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the back&quot; :FRAME (43 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.534 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at the back&quot; :FRAME (40 51) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.46 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the wall at the back&quot; :FRAME (31 51) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 27.083 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on the wall at the back&quot; :FRAME (28 51) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 31.932 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;trees on the wall at the back&quot; :FRAME (22 51) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 43.347 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;of trees on the wall at the back&quot; :FRAME (19 51) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 45.759 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;pictures of trees on the wall at the back&quot; :FRAME (10 51) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 56.606 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are pictures of trees on the wall at the back&quot; :FRAME (6 51)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 63.199 :UTTNUM 20 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (52 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;there are pictures of trees on the wall at the back .&quot; :FRAME (0 52)
+<   :PENN-CATS (S) :SCORE 68.859 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="are" start="6" end="9"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="pictures" start="10" end="18"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="pictures" start="10" end="18" penn-cats="NP" score="10.441" /><word lex="of" start="19" end="21"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="trees" start="22" end="27"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="trees" start="22" end="27" penn-cats="NP" score="10.873" /><word lex="on" start="28" end="30"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="31" end="34"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="35" end="39"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="31" end="39" penn-cats="NP" score="11.083" /><word lex="at" start="40" end="42"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="43" end="46"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="back" start="47" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the back" start="43" end="51" penn-cats="NP" score="11.534" /><prefer text="at the back" start="40" end="51" penn-cats="PP" score="15.46" /><prefer text="the wall at the back" start="31" end="51" penn-cats="NP" score="27.083" /><prefer text="on the wall at the back" start="28" end="51" penn-cats="PP" score="31.932" /><prefer text="trees on the wall at the back" start="22" end="51" penn-cats="NP" score="43.347" /><prefer text="of trees on the wall at the back" start="19" end="51" penn-cats="PP" score="45.759" /><prefer text="pictures of trees on the wall at the back" start="10" end="51" penn-cats="NP" score="56.606" /><prefer text="are pictures of trees on the wall at the back" start="6" end="51" penn-cats="VP" score="63.199" /><word lex="." start="52" end="52"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there are pictures of trees on the wall at the back ." start="0" end="52" penn-cats="S" score="68.859" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (PRO THERE))
+<    (VP
+<     (VP- (V ARE)
+<      (NP
+<       (N1 (N PICTURES)
+<        (PP (PREP OF)
+<         (NP
+<          (N1 (N1 (N TREES))
+<           (ADVBL (ADV ON)
+<            (NP (SPEC (DET (ART THE)))
+<             (N1 (N1 (N WALL))
+<              (ADVBL (ADV AT)
+<               (NP (SPEC (DET (ART THE))) (N1 (N BACK))))))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>ARE</V><NP><N1><N>PICTURES</N><PP><PREP>OF</PREP><NP><N1><N1><N>TREES</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>WALL</N></N1><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACK</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></PP></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V120827"><lisp>((ONT::SPEECHACT ONT::V120827 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V120593 :START 0 :END 52)
+<  (ONT::F ONT::V120593 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V120605 :TENSE
+<   W::PRES :START 0 :END 52)
+<  (ONT::PRO ONT::V120581 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+<  (ONT::INDEF-SET ONT::V120605 (:* ONT::IMAGE W::PICTURE) :FIGURE ONT::V120617
+<   :START 10 :END 52)
+<  (ONT::INDEF-SET ONT::V120617 (:* ONT::PLANT W::TREE) :LOCATION ONT::V120625
+<   :START 19 :END 52)
+<  (ONT::F ONT::V120625 (:* ONT::ON W::ON) :GROUND ONT::V120654 :FIGURE
+<   ONT::V120617 :START 28 :END 52)
+<  (ONT::THE ONT::V120654 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL)
+<   :LOCATION ONT::V120663 :START 31 :END 52)
+<  (ONT::F ONT::V120663 (:* ONT::AT-LOC W::AT) :GROUND ONT::V120688 :FIGURE
+<   ONT::V120654 :START 40 :END 52)
+<  (ONT::THE ONT::V120688 (:* ONT::OBJECT-DEPENDENT-LOCATION W::BACK) :START 43
+<   :END 52))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V120827">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V120593" />
+<     <LF:start>0</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120593">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EXISTS</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V120605" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120581">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>EXPLETIVE</LF:type>
+<     <role:PROFORM>THERE</role:PROFORM>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120605">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>PICTURE</LF:word>
+<     <role:FIGURE rdf:resource="#V120617" />
+<     <LF:start>10</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120617">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <LF:word>TREE</LF:word>
+<     <role:LOCATION rdf:resource="#V120625" />
+<     <LF:start>19</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120625">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V120654" />
+<     <role:FIGURE rdf:resource="#V120617" />
+<     <LF:start>28</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120654">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>WALL</LF:word>
+<     <role:LOCATION rdf:resource="#V120663" />
+<     <LF:start>31</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120663">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V120688" />
+<     <role:FIGURE rdf:resource="#V120654" />
+<     <LF:start>40</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V120688">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>BACK</LF:word>
+<     <LF:start>43</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="52">
+>    <TEXT>there are pictures of trees on the wall at the back .</TEXT>
+>    <RELATION id="1" head="V120827" res="V120593" label="CONTENT"/>
+>    <PHRASE id="V120593" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="52"/>
+>    <RELATION id="2" head="V120593" res="V120605" label="NEUTRAL"/>
+>    <PHRASE id="V120581" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+>    <PHRASE id="V120605" indicator="INDEF-SET" type="IMAGE" text="PICTURE" start="10" end="52"/>
+>    <RELATION id="3" head="V120605" res="V120617" label="FIGURE"/>
+>    <PHRASE id="V120617" indicator="INDEF-SET" type="PLANT" text="TREE" start="19" end="52"/>
+>    <RELATION id="4" head="V120617" res="V120625" label="LOCATION"/>
+>    <PHRASE id="V120625" indicator="F" type="ON" text="ON" start="28" end="52"/>
+>    <RELATION id="5" head="V120625" res="V120654" label="GROUND"/>
+>    <RELATION id="6" head="V120625" res="V120617" label="FIGURE"/>
+>    <PHRASE id="V120654" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="31" end="52"/>
+>    <RELATION id="7" head="V120654" res="V120663" label="LOCATION"/>
+>    <PHRASE id="V120663" indicator="F" type="AT-LOC" text="AT" start="40" end="52"/>
+>    <RELATION id="8" head="V120663" res="V120688" label="GROUND"/>
+>    <RELATION id="9" head="V120663" res="V120654" label="FIGURE"/>
+>    <PHRASE id="V120688" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="BACK" start="43" end="52"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

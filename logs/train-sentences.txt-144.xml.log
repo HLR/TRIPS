@@ -1,0 +1,274 @@
+2,237c2,36
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="two light blue houses behind them with a steep hill in the background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?137337:(F::PHYS-OBJ
+<                                                          F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V143167)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?137335)
+<                                            (W::TRANSFORM ?137336)))
+<                                  (W::CASE ?137334:(W::SUB W::OBJ -))
+<                                  (W::AGR ?137333) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V143167) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER143463))
+< *last-utt-id*=NIL  utt-id+34
+< *last-utt-id*=34  utt-id+NIL</debug><utt><words><lisp>(W::TWO W::LIGHT W::BLUE W::HOUSES W::BEHIND W::THEM W::WITH W::A W::STEEP
+<  W::HILL W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>TWO</word><word>LIGHT</word><word>BLUE</word><word>HOUSES</word><word>BEHIND</word><word>THEM</word><word>WITH</word><word>A</word><word>STEEP</word><word>HILL</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;two&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;light&quot; :FRAME (4 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 34
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (10 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;houses&quot; :FRAME (15 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 34
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two light blue houses&quot; :FRAME (0 21) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 33.58 :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;behind&quot; :FRAME (22 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;them&quot; :FRAME (29 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 34
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;them&quot; :FRAME (29 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.534
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;behind them&quot; :FRAME (22 33) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.307 :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (34 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (39 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;steep&quot; :FRAME (41 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 34
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hill&quot; :FRAME (47 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 34
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a steep hill&quot; :FRAME (39 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.424 :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (52 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (55 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (59 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 34
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (55 69) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (52 69) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a steep hill in the background&quot; :FRAME (39 69) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 37.188 :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;with a steep hill in the background&quot; :FRAME (34 69) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 42.333 :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (70 70) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 34 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;two light blue houses behind them with a steep hill in the background .&quot;
+<   :FRAME (0 70) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 94.547 :UTTNUM 34
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="two" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="light" start="4" end="9"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="blue" start="10" end="14"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="houses" start="15" end="21"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two light blue houses" start="0" end="21" penn-cats="NP" score="33.58" /><word lex="behind" start="22" end="28"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="them" start="29" end="33"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="them" start="29" end="33" penn-cats="NP" score="7.534" /><prefer text="behind them" start="22" end="33" penn-cats="PP" score="15.307" /><word lex="with" start="34" end="38"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="39" end="40"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="steep" start="41" end="46"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="hill" start="47" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a steep hill" start="39" end="51" penn-cats="NP" score="22.424" /><word lex="in" start="52" end="54"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="55" end="58"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="59" end="69"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="55" end="69" penn-cats="NP" score="11.972" /><prefer text="in the background" start="52" end="69" penn-cats="PP" score="14.224" /><prefer text="a steep hill in the background" start="39" end="69" penn-cats="NP" score="37.188" /><prefer text="with a steep hill in the background" start="34" end="69" penn-cats="PP" score="42.333" /><word lex="." start="70" end="70"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="two light blue houses behind them with a steep hill in the background ." start="0" end="70" penn-cats="NP" score="94.547" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1
+<      (N1 (ADJP (NUMBER TWO))
+<       (N1 (ADJP (ADJ1 (ADJ LIGHT)))
+<        (N1 (ADJP (ADJ1 (ADJ BLUE))) (N1 (N HOUSES)))))
+<      (ADVBL (ADV BEHIND) (NP (PRO THEM))))
+<     (ADVBL (ADV WITH)
+<      (NP (SPEC (DET (ART A)))
+<       (N1 (N1 (ADJP (ADJ1 (ADJ STEEP))) (N1 (N HILL)))
+<        (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><ADJP><ADJ1><ADJ>LIGHT</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>HOUSES</N></N1></N1></N1></N1><ADVBL><ADV>BEHIND</ADV><NP><PRO>THEM</PRO></NP></ADVBL></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>STEEP</ADJ></ADJ1></ADJP><N1><N>HILL</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V143103"><lisp>((ONT::SPEECHACT ONT::V143103 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V141278 :START 0 :END 70)
+<  (ONT::INDEF-SET ONT::V141278 (:* ONT::LODGING W::HOUSE) :SIZE ONT::V141237
+<   :MOD ONT::V141290 :LOCATION ONT::V141283 :MOD ONT::V141241 :MOD ONT::V141264
+<   :START 0 :END 70)
+<  (ONT::A ONT::V141237 ONT::NUMBER :VALUE 2 :START 0 :END 4)
+<  (ONT::F ONT::V141241 (:* ONT::LIGHT-IN-COLOR-VAL W::LIGHT) :FIGURE
+<   ONT::V141278 :START 4 :END 10)
+<  (ONT::F ONT::V141264 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V141278 :SCALE
+<   ONT::COLOR-SCALE :START 10 :END 15)
+<  (ONT::F ONT::V141283 (:* ONT::BACK W::BEHIND) :GROUND ONT::V141286 :FIGURE
+<   ONT::V141278 :START 22 :END 34)
+<  (ONT::PRO-SET ONT::V141286 (:* ONT::REFERENTIAL-SEM W::THEM) :PROFORM W::THEM
+<   :START 29 :END 34)
+<  (ONT::F ONT::V141290 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V141357 :FIGURE
+<   ONT::V141278 :START 34 :END 70)
+<  (ONT::A ONT::V141357 (:* ONT::GEO-FORMATION W::HILL) :LOCATION ONT::V141368
+<   :MOD ONT::V141348 :START 39 :END 70)
+<  (ONT::F ONT::V141348 (:* ONT::HIGH-VAL W::STEEP) :FIGURE ONT::V141357 :START
+<   41 :END 47)
+<  (ONT::F ONT::V141368 (:* ONT::IN-LOC W::IN) :GROUND ONT::V141425 :FIGURE
+<   ONT::V141357 :START 52 :END 70)
+<  (ONT::THE ONT::V141425 (:* ONT::IMAGE W::BACKGROUND) :START 55 :END 70))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V143103">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V141278" />
+<     <LF:start>0</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141278">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>LODGING</LF:type>
+<     <LF:word>HOUSE</LF:word>
+<     <role:SIZE rdf:resource="#V141237" />
+<     <role:MOD rdf:resource="#V141290" />
+<     <role:LOCATION rdf:resource="#V141283" />
+<     <role:MOD rdf:resource="#V141241" />
+<     <role:MOD rdf:resource="#V141264" />
+<     <LF:start>0</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141237">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>2</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>4</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141241">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LIGHT-IN-COLOR-VAL</LF:type>
+<     <LF:word>LIGHT</LF:word>
+<     <role:FIGURE rdf:resource="#V141278" />
+<     <LF:start>4</LF:start>
+<     <LF:end>10</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141264">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BLUE</LF:type>
+<     <LF:word>BLUE</LF:word>
+<     <role:FIGURE rdf:resource="#V141278" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>10</LF:start>
+<     <LF:end>15</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141283">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BACK</LF:type>
+<     <LF:word>BEHIND</LF:word>
+<     <role:GROUND rdf:resource="#V141286" />
+<     <role:FIGURE rdf:resource="#V141278" />
+<     <LF:start>22</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141286">
+<     <LF:indicator>PRO-SET</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEM</LF:word>
+<     <role:PROFORM>THEM</role:PROFORM>
+<     <LF:start>29</LF:start>
+<     <LF:end>34</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141290">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V141357" />
+<     <role:FIGURE rdf:resource="#V141278" />
+<     <LF:start>34</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141357">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>HILL</LF:word>
+<     <role:LOCATION rdf:resource="#V141368" />
+<     <role:MOD rdf:resource="#V141348" />
+<     <LF:start>39</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141348">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>HIGH-VAL</LF:type>
+<     <LF:word>STEEP</LF:word>
+<     <role:FIGURE rdf:resource="#V141357" />
+<     <LF:start>41</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141368">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V141425" />
+<     <role:FIGURE rdf:resource="#V141357" />
+<     <LF:start>52</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V141425">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>55</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="70">
+>    <TEXT>two light blue houses behind them with a steep hill in the background .</TEXT>
+>    <RELATION id="1" head="V143103" res="V141278" label="CONTENT"/>
+>    <PHRASE id="V141278" indicator="INDEF-SET" type="LODGING" text="HOUSE" start="0" end="70"/>
+>    <RELATION id="2" head="V141278" res="V141237" label="SIZE"/>
+>    <RELATION id="3" head="V141278" res="V141290" label="MOD"/>
+>    <RELATION id="4" head="V141278" res="V141283" label="LOCATION"/>
+>    <RELATION id="5" head="V141278" res="V141241" label="MOD"/>
+>    <RELATION id="6" head="V141278" res="V141264" label="MOD"/>
+>    <PHRASE id="V141237" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+>    <PHRASE id="V141241" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="4" end="10"/>
+>    <RELATION id="7" head="V141241" res="V141278" label="FIGURE"/>
+>    <PHRASE id="V141264" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="10" end="15"/>
+>    <RELATION id="8" head="V141264" res="V141278" label="FIGURE"/>
+>    <PHRASE id="V141283" indicator="F" type="BACK" text="BEHIND" start="22" end="34"/>
+>    <RELATION id="9" head="V141283" res="V141286" label="GROUND"/>
+>    <RELATION id="10" head="V141283" res="V141278" label="FIGURE"/>
+>    <PHRASE id="V141286" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="29" end="34"/>
+>    <PHRASE id="V141290" indicator="F" type="ASSOC-WITH" text="WITH" start="34" end="70"/>
+>    <RELATION id="11" head="V141290" res="V141357" label="GROUND"/>
+>    <RELATION id="12" head="V141290" res="V141278" label="FIGURE"/>
+>    <PHRASE id="V141357" indicator="A" type="GEO-FORMATION" text="HILL" start="39" end="70"/>
+>    <RELATION id="13" head="V141357" res="V141368" label="LOCATION"/>
+>    <RELATION id="14" head="V141357" res="V141348" label="MOD"/>
+>    <PHRASE id="V141348" indicator="F" type="HIGH-VAL" text="STEEP" start="41" end="47"/>
+>    <RELATION id="15" head="V141348" res="V141357" label="FIGURE"/>
+>    <PHRASE id="V141368" indicator="F" type="IN-LOC" text="IN" start="52" end="70"/>
+>    <RELATION id="16" head="V141368" res="V141425" label="GROUND"/>
+>    <RELATION id="17" head="V141368" res="V141357" label="FIGURE"/>
+>    <PHRASE id="V141425" indicator="THE" type="IMAGE" text="BACKGROUND" start="55" end="70"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

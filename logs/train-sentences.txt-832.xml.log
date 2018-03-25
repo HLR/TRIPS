@@ -1,0 +1,228 @@
+2,196c2,31
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="interior view of a room with a large wooden bed in the centre .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+19
+< *last-utt-id*=19  utt-id+NIL</debug><utt><words><lisp>(W::INTERIOR W::VIEW W::OF W::A W::ROOM W::WITH W::A W::LARGE W::WOODEN W::BED
+<  W::IN W::THE W::CENTRE W::PUNC-PERIOD)</lisp><word>INTERIOR</word><word>VIEW</word><word>OF</word><word>A</word><word>ROOM</word><word>WITH</word><word>A</word><word>LARGE</word><word>WOODEN</word><word>BED</word><word>IN</word><word>THE</word><word>CENTRE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;interior&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 19
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;view&quot; :FRAME (9 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 19
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;interior view&quot; :FRAME (0 13) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.476 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (14 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (17 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;room&quot; :FRAME (19 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 19
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a room&quot; :FRAME (17 23) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.709 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (24 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (29 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;large&quot; :FRAME (31 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 19
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wooden&quot; :FRAME (37 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 19
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;bed&quot; :FRAME (44 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 19
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a large wooden bed&quot; :FRAME (29 47) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 31.162 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with a large wooden bed&quot; :FRAME (24 47) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 34.962 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a room with a large wooden bed&quot; :FRAME (17 47) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 46.212 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;of a room with a large wooden bed&quot; :FRAME (14 47) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 48.623 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;in&quot; :FRAME (48 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (51 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;centre&quot; :FRAME (55 61) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+<     :ALTERNATE-SPELLINGS (&quot;center&quot;)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the centre&quot; :FRAME (51 61) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.085 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the centre&quot; :FRAME (48 61) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 12.337 :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (62 62) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 19 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;interior view of a room with a large wooden bed in the centre .&quot;
+<   :FRAME (0 62) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 84.764 :UTTNUM 19
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="interior" start="0" end="8"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="view" start="9" end="13"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="interior view" start="0" end="13" penn-cats="NP" score="20.476" /><word lex="of" start="14" end="16"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="17" end="18"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="room" start="19" end="23"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a room" start="17" end="23" penn-cats="NP" score="10.709" /><word lex="with" start="24" end="28"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="29" end="30"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="large" start="31" end="36"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="wooden" start="37" end="43"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="bed" start="44" end="47"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a large wooden bed" start="29" end="47" penn-cats="NP" score="31.162" /><prefer text="with a large wooden bed" start="24" end="47" penn-cats="PP" score="34.962" /><prefer text="a room with a large wooden bed" start="17" end="47" penn-cats="NP" score="46.212" /><prefer text="of a room with a large wooden bed" start="14" end="47" penn-cats="PP" score="48.623" /><word lex="in" start="48" end="50"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="51" end="54"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="centre" start="55" end="61"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" alternate-spellings="center" /></word><prefer text="the centre" start="51" end="61" penn-cats="NP" score="10.085" /><prefer text="in the centre" start="48" end="61" penn-cats="PP" score="12.337" /><word lex="." start="62" end="62"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="interior view of a room with a large wooden bed in the centre ." start="0" end="62" penn-cats="NP" score="84.764" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1 (N1 (ADJP (ADJ1 (ADJ INTERIOR))) (N1 (N VIEW)))
+<      (PP (PREP OF)
+<       (NP (SPEC (DET (ART A)))
+<        (N1 (N1 (N ROOM))
+<         (ADVBL (ADV WITH)
+<          (NP (SPEC (DET (ART A)))
+<           (N1 (ADJP (ADJ1 (ADJ LARGE)))
+<            (N1 (ADJP (ADJ1 (ADJ WOODEN))) (N1 (N BED))))))))))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N CENTRE)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><ADJ1><ADJ>INTERIOR</ADJ></ADJ1></ADJP><N1><N>VIEW</N></N1></N1><PP><PREP>OF</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>ROOM</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LARGE</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>WOODEN</ADJ></ADJ1></ADJP><N1><N>BED</N></N1></N1></N1></NP></ADVBL></N1></NP></PP></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>CENTRE</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V199124"><lisp>((ONT::SPEECHACT ONT::V199124 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V198655 :START 0 :END 62)
+<  (ONT::BARE ONT::V198655 (:* ONT::ACTIVE-PERCEPTION W::VIEW) :NEUTRAL
+<   ONT::V198713 :LOCATION ONT::V198792 :MOD ONT::V198649 :START 0 :END 62)
+<  (ONT::F ONT::V198649 (:* ONT::NATIONAL-VAL W::INTERIOR) :FIGURE ONT::V198655
+<   :START 0 :END 9)
+<  (ONT::A ONT::V198713 (:* ONT::INTERNAL-ENCLOSURE W::ROOM) :MOD ONT::V198717
+<   :START 14 :END 48)
+<  (ONT::F ONT::V198717 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V198782 :FIGURE
+<   ONT::V198713 :START 24 :END 48)
+<  (ONT::A ONT::V198782 (:* ONT::FURNISHINGS W::BED) :MOD ONT::V198770 :MOD
+<   ONT::V198774 :START 29 :END 48)
+<  (ONT::F ONT::V198770 (:* ONT::LARGE W::LARGE) :ORIENTATION ONT::MORE
+<   :INTENSITY ONT::MED :FIGURE ONT::V198782 :SCALE ONT::SIZE-SCALE :START 31
+<   :END 37)
+<  (ONT::F ONT::V198774 (:* ONT::AWKWARD-VAL W::WOODEN) :FIGURE ONT::V198782
+<   :START 37 :END 44)
+<  (ONT::F ONT::V198792 (:* ONT::IN-LOC W::IN) :GROUND ONT::V198848 :FIGURE
+<   ONT::V198655 :START 48 :END 62)
+<  (ONT::THE ONT::V198848 (:* ONT::CENTER W::CENTRE) :START 51 :END 62))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V199124">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V198655" />
+<     <LF:start>0</LF:start>
+<     <LF:end>62</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198655">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>ACTIVE-PERCEPTION</LF:type>
+<     <LF:word>VIEW</LF:word>
+<     <role:NEUTRAL rdf:resource="#V198713" />
+<     <role:LOCATION rdf:resource="#V198792" />
+<     <role:MOD rdf:resource="#V198649" />
+<     <LF:start>0</LF:start>
+<     <LF:end>62</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198649">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>NATIONAL-VAL</LF:type>
+<     <LF:word>INTERIOR</LF:word>
+<     <role:FIGURE rdf:resource="#V198655" />
+<     <LF:start>0</LF:start>
+<     <LF:end>9</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198713">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>ROOM</LF:word>
+<     <role:MOD rdf:resource="#V198717" />
+<     <LF:start>14</LF:start>
+<     <LF:end>48</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198717">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V198782" />
+<     <role:FIGURE rdf:resource="#V198713" />
+<     <LF:start>24</LF:start>
+<     <LF:end>48</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198782">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>BED</LF:word>
+<     <role:MOD rdf:resource="#V198770" />
+<     <role:MOD rdf:resource="#V198774" />
+<     <LF:start>29</LF:start>
+<     <LF:end>48</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198770">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LARGE</LF:type>
+<     <LF:word>LARGE</LF:word>
+<     <role:ORIENTATION>MORE</role:ORIENTATION>
+<     <role:INTENSITY>MED</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V198782" />
+<     <role:SCALE>SIZE-SCALE</role:SCALE>
+<     <LF:start>31</LF:start>
+<     <LF:end>37</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198774">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AWKWARD-VAL</LF:type>
+<     <LF:word>WOODEN</LF:word>
+<     <role:FIGURE rdf:resource="#V198782" />
+<     <LF:start>37</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198792">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V198848" />
+<     <role:FIGURE rdf:resource="#V198655" />
+<     <LF:start>48</LF:start>
+<     <LF:end>62</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V198848">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>CENTER</LF:type>
+<     <LF:word>CENTRE</LF:word>
+<     <LF:start>51</LF:start>
+<     <LF:end>62</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="62">
+>    <TEXT>interior view of a room with a large wooden bed in the centre .</TEXT>
+>    <RELATION id="1" head="V199124" res="V198655" label="CONTENT"/>
+>    <PHRASE id="V198655" indicator="BARE" type="ACTIVE-PERCEPTION" text="VIEW" start="0" end="62"/>
+>    <RELATION id="2" head="V198655" res="V198713" label="NEUTRAL"/>
+>    <RELATION id="3" head="V198655" res="V198792" label="LOCATION"/>
+>    <RELATION id="4" head="V198655" res="V198649" label="MOD"/>
+>    <PHRASE id="V198649" indicator="F" type="NATIONAL-VAL" text="INTERIOR" start="0" end="9"/>
+>    <RELATION id="5" head="V198649" res="V198655" label="FIGURE"/>
+>    <PHRASE id="V198713" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="14" end="48"/>
+>    <RELATION id="6" head="V198713" res="V198717" label="MOD"/>
+>    <PHRASE id="V198717" indicator="F" type="ASSOC-WITH" text="WITH" start="24" end="48"/>
+>    <RELATION id="7" head="V198717" res="V198782" label="GROUND"/>
+>    <RELATION id="8" head="V198717" res="V198713" label="FIGURE"/>
+>    <PHRASE id="V198782" indicator="A" type="FURNISHINGS" text="BED" start="29" end="48"/>
+>    <RELATION id="9" head="V198782" res="V198770" label="MOD"/>
+>    <RELATION id="10" head="V198782" res="V198774" label="MOD"/>
+>    <PHRASE id="V198770" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="31" end="37"/>
+>    <RELATION id="11" head="V198770" res="V198782" label="FIGURE"/>
+>    <PHRASE id="V198774" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="37" end="44"/>
+>    <RELATION id="12" head="V198774" res="V198782" label="FIGURE"/>
+>    <PHRASE id="V198792" indicator="F" type="IN-LOC" text="IN" start="48" end="62"/>
+>    <RELATION id="13" head="V198792" res="V198848" label="GROUND"/>
+>    <RELATION id="14" head="V198792" res="V198655" label="FIGURE"/>
+>    <PHRASE id="V198848" indicator="THE" type="CENTER" text="CENTRE" start="51" end="62"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

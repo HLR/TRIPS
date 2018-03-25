@@ -1,0 +1,362 @@
+2,316c2,45
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one kid is about to slide down the slide , with one grown up waiting to catch it .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+11
+< *last-utt-id*=11  utt-id+11
+< *last-utt-id*=11  utt-id+11
+< *last-utt-id*=11  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::ONE W::KID W::IS)</lisp><word>ONE</word><word>KID</word><word>IS</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kid&quot; :FRAME (4 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one kid&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   19.532 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (8 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="kid" start="4" end="7"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one kid" start="0" end="7" penn-cats="NP" score="19.532" /><word lex="is" start="8" end="10"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT (S (NP (SPEC (NUMBER ONE)) (N1 (N KID))) (VP (VP- (AUX (V IS))))))</lisp><UTT><S><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>KID</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX></VP-></VP></S></UTT></tree><terms root="#V78043"><lisp>((ONT::SPEECHACT ONT::V78043 ONT::SA_TELL :CONTENT ONT::V74241 :START 0 :END
+<   11)
+<  (ONT::F ONT::V74241 (:* ONT::ELLIPSIS) :NEUTRAL ONT::V74236 :TENSE W::PRES
+<   :PROGR + :START 0 :END 11)
+<  (ONT::A ONT::V74236 (:* ONT::CHILD W::KID) :SIZE ONT::V74506 :START 0 :END 8)
+<  (ONT::A ONT::V74506 ONT::NUMBER :VALUE 1 :START 0 :END 8))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V78043">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V74241" />
+<     <LF:start>0</LF:start>
+<     <LF:end>11</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74241">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ELLIPSIS</LF:type>
+<     <role:NEUTRAL rdf:resource="#V74236" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>11</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74236">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:SIZE rdf:resource="#V74506" />
+<     <LF:start>0</LF:start>
+<     <LF:end>8</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74506">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>1</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>8</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::ABOUT)</lisp><word>ABOUT</word></words><tags><lisp>((WORD &quot;about&quot; :FRAME (11 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="about" start="11" end="16"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word></tags><tree><lisp>(ADVBL (ADV ABOUT))</lisp><ADVBL><ADV>ABOUT</ADV></ADVBL></tree><terms root="#V74264"><lisp>((ONT::F ONT::V74264 (:* ONT::DEGREE-MODIFIER-MED W::ABOUT) :START 11 :END 17))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V74264">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>DEGREE-MODIFIER-MED</LF:type>
+<     <LF:word>ABOUT</LF:word>
+<     <LF:start>11</LF:start>
+<     <LF:end>17</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::TO W::SLIDE W::DOWN W::THE W::SLIDE W::PUNC-COMMA W::WITH W::ONE W::GROWN
+<  W::UP W::WAITING W::TO W::CATCH W::IT)</lisp><word>TO</word><word>SLIDE</word><word>DOWN</word><word>THE</word><word>SLIDE</word><word>PUNC-COMMA</word><word>WITH</word><word>ONE</word><word>GROWN</word><word>UP</word><word>WAITING</word><word>TO</word><word>CATCH</word><word>IT</word></words><tags><lisp>((WORD &quot;to&quot; :FRAME (17 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;slide&quot; :FRAME (20 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;down&quot; :FRAME (26 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;down&quot; :FRAME (26 30) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   2.647 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;slide down&quot; :FRAME (20 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;slide_down%2:38:00&quot;)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (31 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;slide&quot; :FRAME (35 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the slide&quot; :FRAME (31 40) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.755 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (41 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (43 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;one&quot; :FRAME (48 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;one&quot; :FRAME (48 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.128
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;grown&quot; :FRAME (52 57) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;up&quot; :FRAME (58 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;up&quot; :FRAME (58 60) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   1.114 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;waiting&quot; :FRAME (61 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;to&quot; :FRAME (69 71) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;catch&quot; :FRAME (72 77) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;it&quot; :FRAME (78 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;it&quot; :FRAME (78 80) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 3.957
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;catch it&quot; :FRAME (72 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;catch_it%2:41:00&quot;)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;catch it&quot; :FRAME (72 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE
+<   12.871 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to catch it&quot; :FRAME (69 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 12.901 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to catch it&quot; :FRAME (69 80) :PENN-CATS (S) :SCORE 13.166 :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;waiting to catch it&quot; :FRAME (61 80) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 22.251 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;waiting to catch it&quot; :FRAME (61 80) :PENN-CATS (S) :SCORE 23.901
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;grown up waiting to catch it&quot; :FRAME (52 80) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 38.522 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;one grown up waiting to catch it&quot; :FRAME (48 80) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 47.883 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;with one grown up waiting to catch it&quot; :FRAME (43 80) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 51.305 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;slide down the slide , with one grown up waiting to catch it&quot; :FRAME
+<   (20 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 84.351 :UTTNUM 11 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to slide down the slide , with one grown up waiting to catch it&quot;
+<   :FRAME (17 80) :PENN-CATS (S) :SCORE 84.646 :UTTNUM 11 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;to slide down the slide , with one grown up waiting to catch it&quot;
+<   :FRAME (17 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 84.381 :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;about to slide down the slide , with one grown up waiting to catch it&quot;
+<   :FRAME (11 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 87.299 :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;is about to slide down the slide , with one grown up waiting to catch it&quot;
+<   :FRAME (8 80) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 95.893 :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (81 81) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;one kid is about to slide down the slide , with one grown up waiting to catch it .&quot;
+<   :FRAME (0 81) :PENN-CATS (S) :SCORE 116.567 :UTTNUM 11 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="to" start="17" end="19"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="slide" start="20" end="25"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><word lex="down" start="26" end="30"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="down" start="26" end="30" penn-cats="PRT" score="2.647" /><word lex="slide down" start="20" end="30"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="slide_down%2:38:00" /></word><word lex="the" start="31" end="34"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="slide" start="35" end="40"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the slide" start="31" end="40" penn-cats="NP" score="10.755" /><word lex="," start="41" end="42"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="with" start="43" end="47"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="one" start="48" end="51"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="one" start="48" end="51" penn-cats="NP" score="7.128" /><word lex="grown" start="52" end="57"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="up" start="58" end="60"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="up" start="58" end="60" penn-cats="PRT" score="1.114" /><word lex="waiting" start="61" end="68"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="to" start="69" end="71"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="catch" start="72" end="77"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><word lex="it" start="78" end="80"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="it" start="78" end="80" penn-cats="NP" score="3.957" /><word lex="catch it" start="72" end="80"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="catch_it%2:41:00" /></word><prefer text="catch it" start="72" end="80" penn-cats="VP" score="12.871" /><prefer text="to catch it" start="69" end="80" penn-cats="VP" score="12.901" /><prefer text="to catch it" start="69" end="80" penn-cats="S" score="13.166" /><prefer text="waiting to catch it" start="61" end="80" penn-cats="VP" score="22.251" /><prefer text="waiting to catch it" start="61" end="80" penn-cats="S" score="23.901" /><prefer text="grown up waiting to catch it" start="52" end="80" penn-cats="VP" score="38.522" /><prefer text="one grown up waiting to catch it" start="48" end="80" penn-cats="NP" score="47.883" /><prefer text="with one grown up waiting to catch it" start="43" end="80" penn-cats="PP" score="51.305" /><prefer text="slide down the slide , with one grown up waiting to catch it" start="20" end="80" penn-cats="VP" score="84.351" /><prefer text="to slide down the slide , with one grown up waiting to catch it" start="17" end="80" penn-cats="S" score="84.646" /><prefer text="to slide down the slide , with one grown up waiting to catch it" start="17" end="80" penn-cats="VP" score="84.381" /><prefer text="about to slide down the slide , with one grown up waiting to catch it" start="11" end="80" penn-cats="VP" score="87.299" /><prefer text="is about to slide down the slide , with one grown up waiting to catch it" start="8" end="80" penn-cats="VP" score="95.893" /><word lex="." start="81" end="81"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one kid is about to slide down the slide , with one grown up waiting to catch it ." start="0" end="81" penn-cats="S" score="116.567" /></tags><tree><lisp>(ADVBL (ADV TO)
+<  (VP
+<   (VP-
+<    (VP- (V SLIDE DOWN)
+<     (NP (SPEC (DET (ART THE)))
+<      (N1 (N1 (N SLIDE))
+<       (ADVBL (ADV (PUNC PUNC-COMMA) (ADV WITH))
+<        (NP (SPEC (NUMBER ONE))
+<         (N1 (ADJP (VP- (V GROWN) (PRED (ADJP (ADJ1 (ADJ UP))))))
+<          (N1 (V WAITING))))))))
+<    (ADVBL (ADV TO) (VP (VP- (V CATCH) (NP (PRO IT))))))))</lisp><ADVBL><ADV>TO</ADV><VP><VP-><VP-><V>SLIDE DOWN</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>SLIDE</N></N1><ADVBL><ADV><PUNC>PUNC-COMMA</PUNC><ADV>WITH</ADV></ADV><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><ADJP><VP-><V>GROWN</V><PRED><ADJP><ADJ1><ADJ>UP</ADJ></ADJ1></ADJP></PRED></VP-></ADJP><N1><V>WAITING</V></N1></N1></NP></ADVBL></N1></NP></VP-><ADVBL><ADV>TO</ADV><VP><VP-><V>CATCH</V><NP><PRO>IT</PRO></NP></VP-></VP></ADVBL></VP-></VP></ADVBL></tree><terms root="#V74275"><lisp>((ONT::F ONT::V74275 (:* ONT::PURPOSE W::TO) :GROUND ONT::V74355 :START 17 :END
+<   81)
+<  (ONT::F ONT::V74355 (:* ONT::CHANGE W::SLIDE-DOWN) :AFFECTED ONT::V74371
+<   :REASON ONT::V74458 :VFORM W::BASE :START 20 :END 81 :WNSENSE
+<   &quot;slide_down%2:38:00&quot;)
+<  (ONT::THE ONT::V74371 (:* ONT::IMAGE W::SLIDE) :MOD ONT::V74381 :START 31 :END
+<   69)
+<  (ONT::F ONT::V74381 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V74453 :FIGURE
+<   ONT::V74371 :START 41 :END 69)
+<  (ONT::A ONT::V74453 (:* ONT::PAUSE W::WAIT) :SIZE ONT::V74520 :MOD ONT::V74404
+<   :START 48 :END 69)
+<  (ONT::A ONT::V74520 ONT::NUMBER :VALUE 1 :START 48 :END 69)
+<  (ONT::F ONT::V74404 (:* ONT::BECOME W::GROW) :FORMAL ONT::V74438 :AFFECTED
+<   ONT::V74453 :START 52 :END 61)
+<  (ONT::F ONT::V74438 (:* ONT::DIRECTION-UP W::UP) :FIGURE ONT::V74453 :START 58
+<   :END 61)
+<  (ONT::F ONT::V74458 (:* ONT::PURPOSE W::TO) :GROUND ONT::V74483 :FIGURE
+<   ONT::V74355 :START 69 :END 81)
+<  (ONT::F ONT::V74483 (:* ONT::CAPTURE W::CATCH) :AFFECTED ONT::V74487 :VFORM
+<   W::BASE :START 72 :END 81)
+<  (ONT::PRO ONT::V74487 (:* ONT::REFERENTIAL-SEM W::IT) :PROFORM W::IT :START 78
+<   :END 81 :COREF ONT::V74371))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V74275">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PURPOSE</LF:type>
+<     <LF:word>TO</LF:word>
+<     <role:GROUND rdf:resource="#V74355" />
+<     <LF:start>17</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74355">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CHANGE</LF:type>
+<     <LF:word>SLIDE-DOWN</LF:word>
+<     <role:AFFECTED rdf:resource="#V74371" />
+<     <role:REASON rdf:resource="#V74458" />
+<     <role:VFORM>BASE</role:VFORM>
+<     <LF:start>20</LF:start>
+<     <LF:end>81</LF:end>
+<     <role:WNSENSE>slide_down%2:38:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74371">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>SLIDE</LF:word>
+<     <role:MOD rdf:resource="#V74381" />
+<     <LF:start>31</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74381">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V74453" />
+<     <role:FIGURE rdf:resource="#V74371" />
+<     <LF:start>41</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74453">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>PAUSE</LF:type>
+<     <LF:word>WAIT</LF:word>
+<     <role:SIZE rdf:resource="#V74520" />
+<     <role:MOD rdf:resource="#V74404" />
+<     <LF:start>48</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74520">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>1</role:VALUE>
+<     <LF:start>48</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74404">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BECOME</LF:type>
+<     <LF:word>GROW</LF:word>
+<     <role:FORMAL rdf:resource="#V74438" />
+<     <role:AFFECTED rdf:resource="#V74453" />
+<     <LF:start>52</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74438">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>DIRECTION-UP</LF:type>
+<     <LF:word>UP</LF:word>
+<     <role:FIGURE rdf:resource="#V74453" />
+<     <LF:start>58</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74458">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PURPOSE</LF:type>
+<     <LF:word>TO</LF:word>
+<     <role:GROUND rdf:resource="#V74483" />
+<     <role:FIGURE rdf:resource="#V74355" />
+<     <LF:start>69</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74483">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CAPTURE</LF:type>
+<     <LF:word>CATCH</LF:word>
+<     <role:AFFECTED rdf:resource="#V74487" />
+<     <role:VFORM>BASE</role:VFORM>
+<     <LF:start>72</LF:start>
+<     <LF:end>81</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74487">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>IT</LF:word>
+<     <role:PROFORM>IT</role:PROFORM>
+<     <LF:start>78</LF:start>
+<     <LF:end>81</LF:end>
+<     <role:COREF rdf:resource="#V74371" />
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="11">
+>    <TEXT>one kid is a</TEXT>
+>    <RELATION id="1" head="V78043" res="V74241" label="CONTENT"/>
+>    <PHRASE id="V74241" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="0" end="11"/>
+>    <RELATION id="2" head="V74241" res="V74236" label="NEUTRAL"/>
+>    <PHRASE id="V74236" indicator="A" type="CHILD" text="KID" start="0" end="8"/>
+>    <RELATION id="3" head="V74236" res="V74506" label="SIZE"/>
+>    <PHRASE id="V74506" indicator="A" type="NUMBER" VALUE="1" start="0" end="8"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="DEGREE-MODIFIER-MED" text="ABOUT" start="11" end="17">
+>    <TEXT>about t</TEXT>
+>   </SENTENCE>
+>   <SENTENCE id="s3" indicator="F" type="PURPOSE" text="TO" start="17" end="81">
+>    <TEXT>to slide down the slide , with one grown up waiting to catch it .</TEXT>
+>    <RELATION id="4" head="V74275" res="V74355" label="GROUND"/>
+>    <PHRASE id="V74355" indicator="F" type="CHANGE" text="SLIDE-DOWN" VFORM="BASE" start="20" end="81" WNSENSE="slide_down%2:38:00"/>
+>    <RELATION id="5" head="V74355" res="V74371" label="AFFECTED"/>
+>    <RELATION id="6" head="V74355" res="V74458" label="REASON"/>
+>    <PHRASE id="V74371" indicator="THE" type="IMAGE" text="SLIDE" start="31" end="69"/>
+>    <RELATION id="7" head="V74371" res="V74381" label="MOD"/>
+>    <PHRASE id="V74381" indicator="F" type="ASSOC-WITH" text="WITH" start="41" end="69"/>
+>    <RELATION id="8" head="V74381" res="V74453" label="GROUND"/>
+>    <RELATION id="9" head="V74381" res="V74371" label="FIGURE"/>
+>    <PHRASE id="V74453" indicator="A" type="PAUSE" text="WAIT" start="48" end="69"/>
+>    <RELATION id="10" head="V74453" res="V74520" label="SIZE"/>
+>    <RELATION id="11" head="V74453" res="V74404" label="MOD"/>
+>    <PHRASE id="V74520" indicator="A" type="NUMBER" VALUE="1" start="48" end="69"/>
+>    <PHRASE id="V74404" indicator="F" type="BECOME" text="GROW" start="52" end="61"/>
+>    <RELATION id="12" head="V74404" res="V74438" label="FORMAL"/>
+>    <RELATION id="13" head="V74404" res="V74453" label="AFFECTED"/>
+>    <PHRASE id="V74438" indicator="F" type="DIRECTION-UP" text="UP" start="58" end="61"/>
+>    <RELATION id="14" head="V74438" res="V74453" label="FIGURE"/>
+>    <PHRASE id="V74458" indicator="F" type="PURPOSE" text="TO" start="69" end="81"/>
+>    <RELATION id="15" head="V74458" res="V74483" label="GROUND"/>
+>    <RELATION id="16" head="V74458" res="V74355" label="FIGURE"/>
+>    <PHRASE id="V74483" indicator="F" type="CAPTURE" text="CATCH" VFORM="BASE" start="72" end="81"/>
+>    <RELATION id="17" head="V74483" res="V74487" label="AFFECTED"/>
+>    <PHRASE id="V74487" indicator="PRO" type="REFERENTIAL-SEM" text="IT" PROFORM="IT" start="78" end="81"/>
+>    <RELATION id="18" head="V74487" res="V74371" label="COREF"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

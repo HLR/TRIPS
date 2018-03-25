@@ -1,0 +1,493 @@
+2,435c2,57
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="exterior view of a light brown house , with stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+41
+< *last-utt-id*=41  utt-id+41
+< *last-utt-id*=41  utt-id+41
+< *last-utt-id*=41  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::EXTERIOR W::VIEW W::OF W::A W::LIGHT W::BROWN W::HOUSE W::PUNC-COMMA
+<  W::WITH W::STAIRS)</lisp><word>EXTERIOR</word><word>VIEW</word><word>OF</word><word>A</word><word>LIGHT</word><word>BROWN</word><word>HOUSE</word><word>PUNC-COMMA</word><word>WITH</word><word>STAIRS</word></words><tags><lisp>((WORD &quot;exterior&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ NN) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::N)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;exterior&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   15.852 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;view&quot; :FRAME (9 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN VBP) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+<   41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (14 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (17 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;light&quot; :FRAME (19 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;brown&quot; :FRAME (25 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;light brown&quot; :FRAME (19 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;light_brown%1:07:00&quot;)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;house&quot; :FRAME (31 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a light brown house&quot; :FRAME (17 36) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 31.593 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of a light brown house&quot; :FRAME (14 36) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 35.408 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (37 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (39 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;stairs&quot; :FRAME (44 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;stairs&quot; :FRAME (44 50) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.734 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="exterior" start="0" end="8"><sense-info penn-parts-of-speech="JJ,NN" trips-parts-of-speech="ADJ,N" /></word><prefer text="exterior" start="0" end="8" penn-cats="NP" score="15.852" /><word lex="view" start="9" end="13"><sense-info penn-parts-of-speech="NN,VBP" trips-parts-of-speech="N,V" /></word><word lex="of" start="14" end="16"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="17" end="18"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="light" start="19" end="24"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="brown" start="25" end="30"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="light brown" start="19" end="30"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="light_brown%1:07:00" /></word><word lex="house" start="31" end="36"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a light brown house" start="17" end="36" penn-cats="NP" score="31.593" /><prefer text="of a light brown house" start="14" end="36" penn-cats="PP" score="35.408" /><word lex="," start="37" end="38"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="with" start="39" end="43"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="stairs" start="44" end="50"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="stairs" start="44" end="50" penn-cats="NP" score="13.734" /></tags><tree><lisp>(NP
+<  (N1
+<   (N1 (N1 (N EXTERIOR))
+<    (N1 (N1 (N VIEW))
+<     (PP (PREP OF)
+<      (NP (SPEC (DET (ART A)))
+<       (N1 (ADJP (ADJ1 (ADJ LIGHT)))
+<        (N1 (ADJP (ADJ1 (ADJ BROWN))) (N1 (N HOUSE))))))))
+<   (ADVBL (ADV (PUNC PUNC-COMMA) (ADV WITH)) (NP (N1 (N STAIRS))))))</lisp><NP><N1><N1><N1><N>EXTERIOR</N></N1><N1><N1><N>VIEW</N></N1><PP><PREP>OF</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LIGHT</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>BROWN</ADJ></ADJ1></ADJP><N1><N>HOUSE</N></N1></N1></N1></NP></PP></N1></N1><ADVBL><ADV><PUNC>PUNC-COMMA</PUNC><ADV>WITH</ADV></ADV><NP><N1><N>STAIRS</N></N1></NP></ADVBL></N1></NP></tree><terms root="#V292291"><lisp>((ONT::BARE ONT::V292291 (:* ONT::ACTIVE-PERCEPTION W::VIEW) :ASSOC-WITH
+<   ONT::V292285 :NEUTRAL ONT::V292406 :MOD ONT::V292414 :START 0 :END 51)
+<  (ONT::KIND ONT::V292285 (:* ONT::OBJECT-DEPENDENT-LOCATION W::EXTERIOR) :START
+<   0 :END 51)
+<  (ONT::A ONT::V292406 (:* ONT::LODGING W::HOUSE) :MOD ONT::V292351 :MOD
+<   ONT::V292374 :START 14 :END 37)
+<  (ONT::F ONT::V292351 (:* ONT::LIGHT-IN-COLOR-VAL W::LIGHT) :FIGURE
+<   ONT::V292406 :START 19 :END 25)
+<  (ONT::F ONT::V292374 (:* ONT::BROWN W::BROWN) :FIGURE ONT::V292406 :SCALE
+<   ONT::BROWNNESS*1--07--00 :START 25 :END 31)
+<  (ONT::F ONT::V292414 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V292426 :FIGURE
+<   ONT::V292291 :START 37 :END 51)
+<  (ONT::BARE ONT::V292426 (:* ONT::STAIRS W::STAIRS) :START 44 :END 51))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V292291">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>ACTIVE-PERCEPTION</LF:type>
+<     <LF:word>VIEW</LF:word>
+<     <role:ASSOC-WITH rdf:resource="#V292285" />
+<     <role:NEUTRAL rdf:resource="#V292406" />
+<     <role:MOD rdf:resource="#V292414" />
+<     <LF:start>0</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292285">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>EXTERIOR</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292406">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>LODGING</LF:type>
+<     <LF:word>HOUSE</LF:word>
+<     <role:MOD rdf:resource="#V292351" />
+<     <role:MOD rdf:resource="#V292374" />
+<     <LF:start>14</LF:start>
+<     <LF:end>37</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292351">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LIGHT-IN-COLOR-VAL</LF:type>
+<     <LF:word>LIGHT</LF:word>
+<     <role:FIGURE rdf:resource="#V292406" />
+<     <LF:start>19</LF:start>
+<     <LF:end>25</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292374">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BROWN</LF:type>
+<     <LF:word>BROWN</LF:word>
+<     <role:FIGURE rdf:resource="#V292406" />
+<     <role:SCALE>BROWNNESS*1--07--00</role:SCALE>
+<     <LF:start>25</LF:start>
+<     <LF:end>31</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292414">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V292426" />
+<     <role:FIGURE rdf:resource="#V292291" />
+<     <LF:start>37</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292426">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>STAIRS</LF:type>
+<     <LF:word>STAIRS</LF:word>
+<     <LF:start>44</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::RISING W::TO W::THE W::ENTRANCE W::OF W::THE W::SECOND W::FLOOR W::ON
+<  W::THE W::LEFT W::PUNC-COMMA)</lisp><word>RISING</word><word>TO</word><word>THE</word><word>ENTRANCE</word><word>OF</word><word>THE</word><word>SECOND</word><word>FLOOR</word><word>ON</word><word>THE</word><word>LEFT</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;rising&quot; :FRAME (51 57) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;to&quot; :FRAME (58 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (61 64) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;entrance&quot; :FRAME (65 73) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the entrance&quot; :FRAME (61 73) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.401 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (74 76) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (77 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;second&quot; :FRAME (81 87) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;floor&quot; :FRAME (88 93) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the second floor&quot; :FRAME (77 93) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 16.21 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of the second floor&quot; :FRAME (74 93) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 17.278 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the entrance of the second floor&quot; :FRAME (61 93) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 32.22 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;to the entrance of the second floor&quot; :FRAME (58 93) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 35.788 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;on&quot; :FRAME (94 96) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (97 100) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;left&quot; :FRAME (101 105) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the left&quot; :FRAME (97 105) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.645 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (106 107) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="rising" start="51" end="57"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="to" start="58" end="60"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="the" start="61" end="64"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="entrance" start="65" end="73"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the entrance" start="61" end="73" penn-cats="NP" score="14.401" /><word lex="of" start="74" end="76"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="77" end="80"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="second" start="81" end="87"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="floor" start="88" end="93"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the second floor" start="77" end="93" penn-cats="NP" score="16.21" /><prefer text="of the second floor" start="74" end="93" penn-cats="PP" score="17.278" /><prefer text="the entrance of the second floor" start="61" end="93" penn-cats="NP" score="32.22" /><prefer text="to the entrance of the second floor" start="58" end="93" penn-cats="PP" score="35.788" /><word lex="on" start="94" end="96"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="97" end="100"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="left" start="101" end="105"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the left" start="97" end="105" penn-cats="NP" score="12.645" /><word lex="," start="106" end="107"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(VP
+<  (VP- (VP- (V RISING))
+<   (ADVBL (ADV TO)
+<    (NP (SPEC (DET (ART THE)))
+<     (N1
+<      (N1 (N ENTRANCE)
+<       (PP (PREP OF)
+<        (NP (SPEC (DET (ART THE)) (ORDINAL SECOND)) (N1 (N FLOOR)))))
+<      (ADVBL (ADV ON)
+<       (NP (NP (SPEC (DET (ART THE))) (N1 (N LEFT))) (PUNC PUNC-COMMA))))))))</lisp><VP><VP-><VP-><V>RISING</V></VP-><ADVBL><ADV>TO</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>ENTRANCE</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET><ORDINAL>SECOND</ORDINAL></SPEC><N1><N>FLOOR</N></N1></NP></PP></N1><ADVBL><ADV>ON</ADV><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>LEFT</N></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL></N1></NP></ADVBL></VP-></VP></tree><terms root="#V292433"><lisp>((ONT::F ONT::V292433 (:* ONT::BODY-MOVEMENT-SELF W::RISE) :RESULT ONT::V292440
+<   :VFORM W::ING :START 51 :END 108)
+<  (ONT::F ONT::V292440 (:* ONT::TO-LOC W::TO) :GROUND ONT::V292471 :START 58
+<   :END 108)
+<  (ONT::THE ONT::V292471 (:* ONT::EXIT W::ENTRANCE) :FIGURE ONT::V292502
+<   :LOCATION ONT::V292511 :START 61 :END 108)
+<  (ONT::THE ONT::V292502 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::FLOOR)
+<   :ORDINAL 2 :START 74 :END 94)
+<  (ONT::F ONT::V292511 (:* ONT::ON W::ON) :GROUND ONT::V292545 :FIGURE
+<   ONT::V292471 :START 94 :END 108)
+<  (ONT::THE ONT::V292545 (:* ONT::LEFT-LOC W::LEFT) :START 97 :END 108))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V292433">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-SELF</LF:type>
+<     <LF:word>RISE</LF:word>
+<     <role:RESULT rdf:resource="#V292440" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>51</LF:start>
+<     <LF:end>108</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292440">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TO-LOC</LF:type>
+<     <LF:word>TO</LF:word>
+<     <role:GROUND rdf:resource="#V292471" />
+<     <LF:start>58</LF:start>
+<     <LF:end>108</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292471">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>EXIT</LF:type>
+<     <LF:word>ENTRANCE</LF:word>
+<     <role:FIGURE rdf:resource="#V292502" />
+<     <role:LOCATION rdf:resource="#V292511" />
+<     <LF:start>61</LF:start>
+<     <LF:end>108</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292502">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>FLOOR</LF:word>
+<     <role:ORDINAL>2</role:ORDINAL>
+<     <LF:start>74</LF:start>
+<     <LF:end>94</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292511">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V292545" />
+<     <role:FIGURE rdf:resource="#V292471" />
+<     <LF:start>94</LF:start>
+<     <LF:end>108</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292545">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>LEFT-LOC</LF:type>
+<     <LF:word>LEFT</LF:word>
+<     <LF:start>97</LF:start>
+<     <LF:end>108</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::A W::TOWER W::WITH W::TWO W::SMALL W::WINDOWS W::IN W::THE W::CENTRE
+<  W::PUNC-PERIOD)</lisp><word>A</word><word>TOWER</word><word>WITH</word><word>TWO</word><word>SMALL</word><word>WINDOWS</word><word>IN</word><word>THE</word><word>CENTRE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (108 109) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tower&quot; :FRAME (110 115) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a tower&quot; :FRAME (108 115) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.261 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (116 120) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;two&quot; :FRAME (121 124) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;small&quot; :FRAME (125 130) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;windows&quot; :FRAME (131 138) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two small windows&quot; :FRAME (121 138) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 22.482 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (139 141) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (142 145) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;centre&quot; :FRAME (146 152) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+<     :ALTERNATE-SPELLINGS (&quot;center&quot;)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the centre&quot; :FRAME (142 152) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 10.085 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the centre&quot; :FRAME (139 152) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 12.337 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two small windows in the centre&quot; :FRAME (121 152) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 35.36 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;with two small windows in the centre&quot; :FRAME (116 152) :PENN-CATS
+<   (PP) :TRIPS-CATS (W::PP) :SCORE 40.504 :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;a tower with two small windows in the centre&quot; :FRAME (108 152)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 53.427 :UTTNUM 41 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;the left , a tower with two small windows in the centre&quot; :FRAME
+<   (97 152) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 70.238 :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on the left , a tower with two small windows in the centre&quot; :FRAME
+<   (94 152) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 74.432 :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;rising to the entrance of the second floor on the left , a tower with two small windows in the centre&quot;
+<   :FRAME (51 152) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 120.236 :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre&quot;
+<   :FRAME (44 152) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 137.007 :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;with stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre&quot;
+<   :FRAME (39 152) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 140.43 :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;view of a light brown house , with stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre&quot;
+<   :FRAME (9 152) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 192.702 :UTTNUM 41
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (153 153) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 41 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;exterior view of a light brown house , with stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre .&quot;
+<   :FRAME (0 153) :PENN-CATS (S) :SCORE 209.695 :UTTNUM 41 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="a" start="108" end="109"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="tower" start="110" end="115"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a tower" start="108" end="115" penn-cats="NP" score="12.261" /><word lex="with" start="116" end="120"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="two" start="121" end="124"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="small" start="125" end="130"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="windows" start="131" end="138"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two small windows" start="121" end="138" penn-cats="NP" score="22.482" /><word lex="in" start="139" end="141"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="142" end="145"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="centre" start="146" end="152"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" alternate-spellings="center" /></word><prefer text="the centre" start="142" end="152" penn-cats="NP" score="10.085" /><prefer text="in the centre" start="139" end="152" penn-cats="PP" score="12.337" /><prefer text="two small windows in the centre" start="121" end="152" penn-cats="NP" score="35.36" /><prefer text="with two small windows in the centre" start="116" end="152" penn-cats="PP" score="40.504" /><prefer text="a tower with two small windows in the centre" start="108" end="152" penn-cats="NP" score="53.427" /><prefer text="the left , a tower with two small windows in the centre" start="97" end="152" penn-cats="NP" score="70.238" /><prefer text="on the left , a tower with two small windows in the centre" start="94" end="152" penn-cats="PP" score="74.432" /><prefer text="rising to the entrance of the second floor on the left , a tower with two small windows in the centre" start="51" end="152" penn-cats="VP" score="120.236" /><prefer text="stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre" start="44" end="152" penn-cats="NP" score="137.007" /><prefer text="with stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre" start="39" end="152" penn-cats="PP" score="140.43" /><prefer text="view of a light brown house , with stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre" start="9" end="152" penn-cats="VP" score="192.702" /><word lex="." start="153" end="153"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="exterior view of a light brown house , with stairs rising to the entrance of the second floor on the left , a tower with two small windows in the centre ." start="0" end="153" penn-cats="S" score="209.695" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (SPEC (DET (ART A)))
+<    (N1 (N1 (N TOWER))
+<     (ADVBL (ADV WITH)
+<      (NP
+<       (N1
+<        (N1 (ADJP (NUMBER TWO)) (N1 (ADJP (ADJ1 (ADJ SMALL))) (N1 (N WINDOWS))))
+<        (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N CENTRE))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>TOWER</N></N1><ADVBL><ADV>WITH</ADV><NP><N1><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><ADJP><ADJ1><ADJ>SMALL</ADJ></ADJ1></ADJP><N1><N>WINDOWS</N></N1></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>CENTRE</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V293427"><lisp>((ONT::SPEECHACT ONT::V293427 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V292613 :START 108 :END 153)
+<  (ONT::A ONT::V292613 (:* ONT::TOWER W::TOWER) :MOD ONT::V292617 :START 108
+<   :END 153)
+<  (ONT::F ONT::V292617 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V292636 :FIGURE
+<   ONT::V292613 :START 116 :END 153)
+<  (ONT::INDEF-SET ONT::V292636 (:* ONT::STRUCTURAL-OPENING W::WINDOW) :SIZE
+<   ONT::V292630 :LOCATION ONT::V292644 :MOD ONT::V292632 :START 121 :END 153)
+<  (ONT::A ONT::V292630 ONT::NUMBER :VALUE 2 :START 121 :END 125)
+<  (ONT::F ONT::V292632 (:* ONT::SMALL W::SMALL) :ORIENTATION ONT::LESS
+<   :INTENSITY ONT::MED :FIGURE ONT::V292636 :SCALE ONT::SIZE-SCALE :START 125
+<   :END 131)
+<  (ONT::F ONT::V292644 (:* ONT::IN-LOC W::IN) :GROUND ONT::V292700 :FIGURE
+<   ONT::V292636 :START 139 :END 153)
+<  (ONT::THE ONT::V292700 (:* ONT::CENTER W::CENTRE) :START 142 :END 153))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V293427">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V292613" />
+<     <LF:start>108</LF:start>
+<     <LF:end>153</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292613">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>TOWER</LF:type>
+<     <LF:word>TOWER</LF:word>
+<     <role:MOD rdf:resource="#V292617" />
+<     <LF:start>108</LF:start>
+<     <LF:end>153</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292617">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V292636" />
+<     <role:FIGURE rdf:resource="#V292613" />
+<     <LF:start>116</LF:start>
+<     <LF:end>153</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292636">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>STRUCTURAL-OPENING</LF:type>
+<     <LF:word>WINDOW</LF:word>
+<     <role:SIZE rdf:resource="#V292630" />
+<     <role:LOCATION rdf:resource="#V292644" />
+<     <role:MOD rdf:resource="#V292632" />
+<     <LF:start>121</LF:start>
+<     <LF:end>153</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292630">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>2</role:VALUE>
+<     <LF:start>121</LF:start>
+<     <LF:end>125</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292632">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>SMALL</LF:type>
+<     <LF:word>SMALL</LF:word>
+<     <role:ORIENTATION>LESS</role:ORIENTATION>
+<     <role:INTENSITY>MED</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V292636" />
+<     <role:SCALE>SIZE-SCALE</role:SCALE>
+<     <LF:start>125</LF:start>
+<     <LF:end>131</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292644">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V292700" />
+<     <role:FIGURE rdf:resource="#V292636" />
+<     <LF:start>139</LF:start>
+<     <LF:end>153</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V292700">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>CENTER</LF:type>
+<     <LF:word>CENTRE</LF:word>
+<     <LF:start>142</LF:start>
+<     <LF:end>153</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="BARE" type="ACTIVE-PERCEPTION" text="VIEW" start="0" end="51">
+>    <TEXT>exterior view of a light brown house , with stairs r</TEXT>
+>    <RELATION id="1" head="V292291" res="V292285" label="ASSOC-WITH"/>
+>    <RELATION id="2" head="V292291" res="V292406" label="NEUTRAL"/>
+>    <RELATION id="3" head="V292291" res="V292414" label="MOD"/>
+>    <PHRASE id="V292285" indicator="KIND" type="OBJECT-DEPENDENT-LOCATION" text="EXTERIOR" start="0" end="51"/>
+>    <PHRASE id="V292406" indicator="A" type="LODGING" text="HOUSE" start="14" end="37"/>
+>    <RELATION id="4" head="V292406" res="V292351" label="MOD"/>
+>    <RELATION id="5" head="V292406" res="V292374" label="MOD"/>
+>    <PHRASE id="V292351" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="19" end="25"/>
+>    <RELATION id="6" head="V292351" res="V292406" label="FIGURE"/>
+>    <PHRASE id="V292374" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="25" end="31"/>
+>    <RELATION id="7" head="V292374" res="V292406" label="FIGURE"/>
+>    <PHRASE id="V292414" indicator="F" type="ASSOC-WITH" text="WITH" start="37" end="51"/>
+>    <RELATION id="8" head="V292414" res="V292426" label="GROUND"/>
+>    <RELATION id="9" head="V292414" res="V292291" label="FIGURE"/>
+>    <PHRASE id="V292426" indicator="BARE" type="STAIRS" text="STAIRS" start="44" end="51"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="BODY-MOVEMENT-SELF" text="RISE" VFORM="ING" start="51" end="108">
+>    <TEXT>rising to the entrance of the second floor on the left , a</TEXT>
+>    <RELATION id="10" head="V292433" res="V292440" label="RESULT"/>
+>    <PHRASE id="V292440" indicator="F" type="TO-LOC" text="TO" start="58" end="108"/>
+>    <RELATION id="11" head="V292440" res="V292471" label="GROUND"/>
+>    <PHRASE id="V292471" indicator="THE" type="EXIT" text="ENTRANCE" start="61" end="108"/>
+>    <RELATION id="12" head="V292471" res="V292502" label="FIGURE"/>
+>    <RELATION id="13" head="V292471" res="V292511" label="LOCATION"/>
+>    <PHRASE id="V292502" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="FLOOR" ORDINAL="2" start="74" end="94"/>
+>    <PHRASE id="V292511" indicator="F" type="ON" text="ON" start="94" end="108"/>
+>    <RELATION id="14" head="V292511" res="V292545" label="GROUND"/>
+>    <RELATION id="15" head="V292511" res="V292471" label="FIGURE"/>
+>    <PHRASE id="V292545" indicator="THE" type="LEFT-LOC" text="LEFT" start="97" end="108"/>
+>   </SENTENCE>
+>   <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="108" end="153">
+>    <TEXT>a tower with two small windows in the centre .</TEXT>
+>    <RELATION id="16" head="V293427" res="V292613" label="CONTENT"/>
+>    <PHRASE id="V292613" indicator="A" type="TOWER" text="TOWER" start="108" end="153"/>
+>    <RELATION id="17" head="V292613" res="V292617" label="MOD"/>
+>    <PHRASE id="V292617" indicator="F" type="ASSOC-WITH" text="WITH" start="116" end="153"/>
+>    <RELATION id="18" head="V292617" res="V292636" label="GROUND"/>
+>    <RELATION id="19" head="V292617" res="V292613" label="FIGURE"/>
+>    <PHRASE id="V292636" indicator="INDEF-SET" type="STRUCTURAL-OPENING" text="WINDOW" start="121" end="153"/>
+>    <RELATION id="20" head="V292636" res="V292630" label="SIZE"/>
+>    <RELATION id="21" head="V292636" res="V292644" label="LOCATION"/>
+>    <RELATION id="22" head="V292636" res="V292632" label="MOD"/>
+>    <PHRASE id="V292630" indicator="A" type="NUMBER" VALUE="2" start="121" end="125"/>
+>    <PHRASE id="V292632" indicator="F" type="SMALL" text="SMALL" ORIENTATION="LESS" INTENSITY="MED" SCALE="SIZE-SCALE" start="125" end="131"/>
+>    <RELATION id="23" head="V292632" res="V292636" label="FIGURE"/>
+>    <PHRASE id="V292644" indicator="F" type="IN-LOC" text="IN" start="139" end="153"/>
+>    <RELATION id="24" head="V292644" res="V292700" label="GROUND"/>
+>    <RELATION id="25" head="V292644" res="V292636" label="FIGURE"/>
+>    <PHRASE id="V292700" indicator="THE" type="CENTER" text="CENTRE" start="142" end="153"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

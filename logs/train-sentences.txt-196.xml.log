@@ -1,0 +1,161 @@
+2,139c2,21
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there is a second , empty table in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+72
+< *last-utt-id*=72  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::IS W::A W::SECOND W::EMPTY W::TABLE W::IN W::THE W::BACKGROUND
+<  W::PUNC-PERIOD)</lisp><word>THERE</word><word>IS</word><word>A</word><word>SECOND</word><word>EMPTY</word><word>TABLE</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 72
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+<   :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 72
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (9 10) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;second&quot; :FRAME (11 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 72
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (18 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 72
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;empty&quot; :FRAME (20 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 72
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;table&quot; :FRAME (26 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 72
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a second , empty table&quot; :FRAME (9 31) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 31.824 :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (32 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (35 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (39 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 72
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (35 49) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (32 49) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a second , empty table in the background&quot; :FRAME (9 49) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 46.454 :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;is a second , empty table in the background&quot; :FRAME (6 49) :PENN-CATS
+<   (VP) :TRIPS-CATS (W::VP) :SCORE 51.57 :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (50 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;there is a second , empty table in the background .&quot; :FRAME (0 50)
+<   :PENN-CATS (S) :SCORE 57.23 :UTTNUM 72 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="a" start="9" end="10"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="second" start="11" end="17"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="," start="18" end="19"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="empty" start="20" end="25"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="table" start="26" end="31"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a second , empty table" start="9" end="31" penn-cats="NP" score="31.824" /><word lex="in" start="32" end="34"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="35" end="38"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="39" end="49"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="35" end="49" penn-cats="NP" score="11.972" /><prefer text="in the background" start="32" end="49" penn-cats="PP" score="14.224" /><prefer text="a second , empty table in the background" start="9" end="49" penn-cats="NP" score="46.454" /><prefer text="is a second , empty table in the background" start="6" end="49" penn-cats="VP" score="51.57" /><word lex="." start="50" end="50"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there is a second , empty table in the background ." start="0" end="50" penn-cats="S" score="57.23" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (PRO THERE))
+<    (VP
+<     (VP- (V IS)
+<      (NP (SPEC (DET (ART A)) (ORDINAL SECOND))
+<       (N1 (N1 (ADJP (ADJ1 (ADJ EMPTY))) (N1 (N TABLE)))
+<        (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><NP><SPEC><DET><ART>A</ART></DET><ORDINAL>SECOND</ORDINAL></SPEC><N1><N1><ADJP><ADJ1><ADJ>EMPTY</ADJ></ADJ1></ADJP><N1><N>TABLE</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V390938"><lisp>((ONT::SPEECHACT ONT::V390938 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V390228 :START 0 :END 50)
+<  (ONT::F ONT::V390228 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V390307 :TENSE
+<   W::PRES :START 0 :END 50)
+<  (ONT::PRO ONT::V390215 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+<  (ONT::A ONT::V390307 (:* ONT::TABLE W::TABLE) :ORDINAL 2 :LOCATION
+<   ONT::V390316 :MOD ONT::V390292 :START 9 :END 50)
+<  (ONT::F ONT::V390292 (:* ONT::UNFILLED W::EMPTY) :FIGURE ONT::V390307 :START
+<   20 :END 26)
+<  (ONT::F ONT::V390316 (:* ONT::IN-LOC W::IN) :GROUND ONT::V390372 :FIGURE
+<   ONT::V390307 :START 32 :END 50)
+<  (ONT::THE ONT::V390372 (:* ONT::IMAGE W::BACKGROUND) :START 35 :END 50))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V390938">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V390228" />
+<     <LF:start>0</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V390228">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EXISTS</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V390307" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V390215">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>EXPLETIVE</LF:type>
+<     <role:PROFORM>THERE</role:PROFORM>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V390307">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>TABLE</LF:type>
+<     <LF:word>TABLE</LF:word>
+<     <role:ORDINAL>2</role:ORDINAL>
+<     <role:LOCATION rdf:resource="#V390316" />
+<     <role:MOD rdf:resource="#V390292" />
+<     <LF:start>9</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V390292">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>UNFILLED</LF:type>
+<     <LF:word>EMPTY</LF:word>
+<     <role:FIGURE rdf:resource="#V390307" />
+<     <LF:start>20</LF:start>
+<     <LF:end>26</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V390316">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V390372" />
+<     <role:FIGURE rdf:resource="#V390307" />
+<     <LF:start>32</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V390372">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>35</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="50">
+>    <TEXT>there is a second , empty table in the background .</TEXT>
+>    <RELATION id="1" head="V390938" res="V390228" label="CONTENT"/>
+>    <PHRASE id="V390228" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="50"/>
+>    <RELATION id="2" head="V390228" res="V390307" label="NEUTRAL"/>
+>    <PHRASE id="V390215" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+>    <PHRASE id="V390307" indicator="A" type="TABLE" text="TABLE" ORDINAL="2" start="9" end="50"/>
+>    <RELATION id="3" head="V390307" res="V390316" label="LOCATION"/>
+>    <RELATION id="4" head="V390307" res="V390292" label="MOD"/>
+>    <PHRASE id="V390292" indicator="F" type="UNFILLED" text="EMPTY" start="20" end="26"/>
+>    <RELATION id="5" head="V390292" res="V390307" label="FIGURE"/>
+>    <PHRASE id="V390316" indicator="F" type="IN-LOC" text="IN" start="32" end="50"/>
+>    <RELATION id="6" head="V390316" res="V390372" label="GROUND"/>
+>    <RELATION id="7" head="V390316" res="V390307" label="FIGURE"/>
+>    <PHRASE id="V390372" indicator="THE" type="IMAGE" text="BACKGROUND" start="35" end="50"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

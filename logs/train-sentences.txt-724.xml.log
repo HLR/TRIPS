@@ -1,0 +1,172 @@
+2,146c2,25
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="some dowels are lying around in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+16
+< *last-utt-id*=16  utt-id+NIL</debug><utt><words><lisp>(W::SOME W::DOWELS W::ARE W::LYING W::AROUND W::IN W::THE W::BACKGROUND
+<  W::PUNC-PERIOD)</lisp><word>SOME</word><word>DOWELS</word><word>ARE</word><word>LYING</word><word>AROUND</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;some&quot; :FRAME (0 4) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dowels&quot; :FRAME (5 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 16
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some dowels&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   19.235 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (12 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 16
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;lying&quot; :FRAME (16 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 16
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;around&quot; :FRAME (22 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN RP) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::ADV W::PART)))
+<   :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;around&quot; :FRAME (22 28) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   4.777 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (29 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (32 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (36 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 16
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (32 46) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (29 46) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.197 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;lying around in the background&quot; :FRAME (16 46) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 32.242 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are lying around in the background&quot; :FRAME (12 46) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 36.605 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (47 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some dowels are lying around in the background .&quot; :FRAME (0 47)
+<   :PENN-CATS (S) :SCORE 56.982 :UTTNUM 16 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="some" start="0" end="4"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dowels" start="5" end="11"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="some dowels" start="0" end="11" penn-cats="NP" score="19.235" /><word lex="are" start="12" end="15"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="lying" start="16" end="21"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="around" start="22" end="28"><sense-info penn-parts-of-speech="IN,RP" trips-parts-of-speech="PREP,ADV,PART" /></word><prefer text="around" start="22" end="28" penn-cats="PRT" score="4.777" /><word lex="in" start="29" end="31"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="32" end="35"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="36" end="46"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="32" end="46" penn-cats="NP" score="11.972" /><prefer text="in the background" start="29" end="46" penn-cats="PP" score="14.197" /><prefer text="lying around in the background" start="16" end="46" penn-cats="VP" score="32.242" /><prefer text="are lying around in the background" start="12" end="46" penn-cats="VP" score="36.605" /><word lex="." start="47" end="47"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="some dowels are lying around in the background ." start="0" end="47" penn-cats="S" score="56.982" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (SPEC (QUAN SOME)) (N1 (N DOWELS)))
+<    (VP
+<     (VP- (V ARE)
+<      (PRED
+<       (NP
+<        (N1 (N1 (N1 (V LYING)) (ADVBL (ADV AROUND)))
+<         (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><QUAN>SOME</QUAN></SPEC><N1><N>DOWELS</N></N1></NP><VP><VP-><V>ARE</V><PRED><NP><N1><N1><N1><V>LYING</V></N1><ADVBL><ADV>AROUND</ADV></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></PRED></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V117247"><lisp>((ONT::SPEECHACT ONT::V117247 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V113131 :START 0 :END 47)
+<  (ONT::F ONT::V113131 (:* ONT::HAVE-PROPERTY W::BE) :NEUTRAL ONT::V113124
+<   :FORMAL ONT::V113145 :TENSE W::PRES :START 0 :END 47)
+<  (ONT::INDEF-SET ONT::V113124 (:* ONT::DEVICE W::DOWELS) :SIZE ONT::SOME :START
+<   0 :END 12)
+<  (ONT::F ONT::V113145 (:* ONT::BODY-MOVEMENT-SELF W::LIE-DOWN) :LOCATION
+<   ONT::V113175 :MOD ONT::V113160 :START 16 :END 47)
+<  (ONT::F ONT::V113160 (:* ONT::AROUND W::AROUND) :GROUND ONT::V113370 :FIGURE
+<   ONT::V113145 :START 22 :END 29)
+<  (ONT::IMPRO ONT::V113370 ONT::ANY-SEM :START 22 :END 29 :COREF ONT::V113231)
+<  (ONT::F ONT::V113175 (:* ONT::IN-LOC W::IN) :GROUND ONT::V113231 :FIGURE
+<   ONT::V113145 :START 29 :END 47)
+<  (ONT::THE ONT::V113231 (:* ONT::IMAGE W::BACKGROUND) :START 32 :END 47))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V117247">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V113131" />
+<     <LF:start>0</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V113131">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>HAVE-PROPERTY</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V113124" />
+<     <role:FORMAL rdf:resource="#V113145" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V113124">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>DEVICE</LF:type>
+<     <LF:word>DOWELS</LF:word>
+<     <role:SIZE>SOME</role:SIZE>
+<     <LF:start>0</LF:start>
+<     <LF:end>12</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V113145">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-SELF</LF:type>
+<     <LF:word>LIE-DOWN</LF:word>
+<     <role:LOCATION rdf:resource="#V113175" />
+<     <role:MOD rdf:resource="#V113160" />
+<     <LF:start>16</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V113160">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AROUND</LF:type>
+<     <LF:word>AROUND</LF:word>
+<     <role:GROUND rdf:resource="#V113370" />
+<     <role:FIGURE rdf:resource="#V113145" />
+<     <LF:start>22</LF:start>
+<     <LF:end>29</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V113370">
+<     <LF:indicator>IMPRO</LF:indicator>
+<     <LF:type>ANY-SEM</LF:type>
+<     <LF:start>22</LF:start>
+<     <LF:end>29</LF:end>
+<     <role:COREF rdf:resource="#V113231" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V113175">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V113231" />
+<     <role:FIGURE rdf:resource="#V113145" />
+<     <LF:start>29</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V113231">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>32</LF:start>
+<     <LF:end>47</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="47">
+>    <TEXT>some dowels are lying around in the background .</TEXT>
+>    <RELATION id="1" head="V117247" res="V113131" label="CONTENT"/>
+>    <PHRASE id="V113131" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="0" end="47"/>
+>    <RELATION id="2" head="V113131" res="V113124" label="NEUTRAL"/>
+>    <RELATION id="3" head="V113131" res="V113145" label="FORMAL"/>
+>    <PHRASE id="V113124" indicator="INDEF-SET" type="DEVICE" text="DOWELS" SIZE="SOME" start="0" end="12"/>
+>    <PHRASE id="V113145" indicator="F" type="BODY-MOVEMENT-SELF" text="LIE-DOWN" start="16" end="47"/>
+>    <RELATION id="4" head="V113145" res="V113175" label="LOCATION"/>
+>    <RELATION id="5" head="V113145" res="V113160" label="MOD"/>
+>    <PHRASE id="V113160" indicator="F" type="AROUND" text="AROUND" start="22" end="29"/>
+>    <RELATION id="6" head="V113160" res="V113370" label="GROUND"/>
+>    <RELATION id="7" head="V113160" res="V113145" label="FIGURE"/>
+>    <PHRASE id="V113370" indicator="IMPRO" type="ANY-SEM" start="22" end="29"/>
+>    <RELATION id="8" head="V113370" res="V113231" label="COREF"/>
+>    <PHRASE id="V113175" indicator="F" type="IN-LOC" text="IN" start="29" end="47"/>
+>    <RELATION id="9" head="V113175" res="V113231" label="GROUND"/>
+>    <RELATION id="10" head="V113175" res="V113145" label="FIGURE"/>
+>    <PHRASE id="V113231" indicator="THE" type="IMAGE" text="BACKGROUND" start="32" end="47"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

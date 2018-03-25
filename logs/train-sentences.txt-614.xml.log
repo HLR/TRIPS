@@ -1,0 +1,361 @@
+2,319c2,41
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a boy wearing a turquoise shirt and white hat is sitting on the ground and eating an orange .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?157875:(F::PHYS-OBJ
+<                                                          F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V78880)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?157873)
+<                                            (W::TRANSFORM ?157874)))
+<                                  (W::CASE ?157872:(W::SUB W::OBJ -))
+<                                  (W::AGR ?157871) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V78880) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER79590))
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?158187:(F::PHYS-OBJ
+<                                                          F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V78883)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?158185)
+<                                            (W::TRANSFORM ?158186)))
+<                                  (W::CASE ?158184:(W::SUB W::OBJ -))
+<                                  (W::AGR ?158183) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V78883) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER79592))
+< *last-utt-id*=NIL  utt-id+11
+< *last-utt-id*=11  utt-id+11
+< *last-utt-id*=11  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::A W::BOY W::WEARING W::A W::TURQUOISE W::SHIRT W::AND W::WHITE W::HAT W::IS
+<  W::SITTING W::ON W::THE W::GROUND)</lisp><word>A</word><word>BOY</word><word>WEARING</word><word>A</word><word>TURQUOISE</word><word>SHIRT</word><word>AND</word><word>WHITE</word><word>HAT</word><word>IS</word><word>SITTING</word><word>ON</word><word>THE</word><word>GROUND</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;boy&quot; :FRAME (2 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a boy&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 12.736
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wearing&quot; :FRAME (6 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (14 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;turquoise&quot; :FRAME (16 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;shirt&quot; :FRAME (26 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a turquoise shirt&quot; :FRAME (14 31) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 28.056 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (32 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;white&quot; :FRAME (36 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hat&quot; :FRAME (42 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;white hat&quot; :FRAME (36 45) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   20.095 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a turquoise shirt and white hat&quot; :FRAME (14 45) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 52.04 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;wearing a turquoise shirt and white hat&quot; :FRAME (6 45) :PENN-CATS
+<   (VP) :TRIPS-CATS (W::VP) :SCORE 61.168 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;a boy wearing a turquoise shirt and white hat&quot; :FRAME (0 45)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 76.465 :UTTNUM 11 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (46 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sitting&quot; :FRAME (49 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (57 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (60 63) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;ground&quot; :FRAME (64 70) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the ground&quot; :FRAME (60 70) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.802 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on the ground&quot; :FRAME (57 70) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.013 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting on the ground&quot; :FRAME (49 70) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 22.71 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="boy" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a boy" start="0" end="5" penn-cats="NP" score="12.736" /><word lex="wearing" start="6" end="13"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="14" end="15"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="turquoise" start="16" end="25"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="shirt" start="26" end="31"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a turquoise shirt" start="14" end="31" penn-cats="NP" score="28.056" /><word lex="and" start="32" end="35"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="white" start="36" end="41"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="hat" start="42" end="45"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="white hat" start="36" end="45" penn-cats="NP" score="20.095" /><prefer text="a turquoise shirt and white hat" start="14" end="45" penn-cats="NP" score="52.04" /><prefer text="wearing a turquoise shirt and white hat" start="6" end="45" penn-cats="VP" score="61.168" /><prefer text="a boy wearing a turquoise shirt and white hat" start="0" end="45" penn-cats="NP" score="76.465" /><word lex="is" start="46" end="48"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="sitting" start="49" end="56"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="57" end="59"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="60" end="63"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="ground" start="64" end="70"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the ground" start="60" end="70" penn-cats="NP" score="10.802" /><prefer text="on the ground" start="57" end="70" penn-cats="PP" score="14.013" /><prefer text="sitting on the ground" start="49" end="70" penn-cats="VP" score="22.71" /></tags><tree><lisp>(UTT
+<  (S
+<   (NP (SPEC (DET (ART A)))
+<    (N1 (N1 (N BOY))
+<     (CP
+<      (VP
+<       (VP- (V WEARING)
+<        (NP (NP (SPEC (DET (ART A))) (N1 (N1 (N TURQUOISE)) (N1 (N SHIRT))))
+<         (CONJ AND) (NP (N1 (ADJP (ADJ1 (ADJ WHITE))) (N1 (N HAT))))))))))
+<   (VP
+<    (VP- (AUX (V IS))
+<     (VP- (VP- (V SITTING))
+<      (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GROUND)))))))))</lisp><UTT><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>BOY</N></N1><CP><VP><VP-><V>WEARING</V><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>TURQUOISE</N></N1><N1><N>SHIRT</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><ADJP><ADJ1><ADJ>WHITE</ADJ></ADJ1></ADJP><N1><N>HAT</N></N1></N1></NP></NP></VP-></VP></CP></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>GROUND</N></N1></NP></ADVBL></VP-></VP-></VP></S></UTT></tree><terms root="#V80425"><lisp>((ONT::SPEECHACT ONT::V80425 ONT::SA_TELL :CONTENT ONT::V74351 :START 0 :END
+<   71)
+<  (ONT::F ONT::V74351 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V74367
+<   :AGENT ONT::V74243 :TENSE W::PRES :PROGR + :START 0 :END 71)
+<  (ONT::A ONT::V74243 (:* ONT::MALE-CHILD W::BOY) :MOD ONT::V74249 :START 0 :END
+<   46)
+<  (ONT::F ONT::V74249 (:* ONT::WEAR W::WEAR) :AGENT ONT::V74243 :NEUTRAL
+<   ONT::V74307 :VFORM W::ING :START 6 :END 46)
+<  (ONT::INDEF-SET ONT::V74307 ONT::ATTIRE :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V74303 ONT::V74323) :START 14 :END 46)
+<  (ONT::A ONT::V74303 (:* ONT::ATTIRE W::SHIRT) :ASSOC-WITH ONT::V74297 :START
+<   14 :END 32)
+<  (ONT::KIND ONT::V74297 (:* ONT::MATERIAL W::TURQUOISE) :START 14 :END 32)
+<  (ONT::BARE ONT::V74323 (:* ONT::ATTIRE W::HAT) :MOD ONT::V74316 :START 36 :END
+<   46)
+<  (ONT::F ONT::V74316 (:* ONT::WHITE W::WHITE) :FIGURE ONT::V74323 :SCALE
+<   ONT::WHITE*1--07--00 :START 36 :END 42)
+<  (ONT::F ONT::V74367 (:* ONT::ON W::ON) :GROUND ONT::V74400 :FIGURE ONT::V74243
+<   :START 57 :END 71)
+<  (ONT::THE ONT::V74400 (:* ONT::GEO-FORMATION W::GROUND) :START 60 :END 71))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V80425">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V74351" />
+<     <LF:start>0</LF:start>
+<     <LF:end>71</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74351">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+<     <LF:word>SIT</LF:word>
+<     <role:RESULT rdf:resource="#V74367" />
+<     <role:AGENT rdf:resource="#V74243" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>71</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74243">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>MALE-CHILD</LF:type>
+<     <LF:word>BOY</LF:word>
+<     <role:MOD rdf:resource="#V74249" />
+<     <LF:start>0</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74249">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:AGENT rdf:resource="#V74243" />
+<     <role:NEUTRAL rdf:resource="#V74307" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>6</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74307">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V74303" />
+<     <role:SEQUENCE1 rdf:resource="#V74323" />
+<     <LF:start>14</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74303">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>SHIRT</LF:word>
+<     <role:ASSOC-WITH rdf:resource="#V74297" />
+<     <LF:start>14</LF:start>
+<     <LF:end>32</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74297">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>MATERIAL</LF:type>
+<     <LF:word>TURQUOISE</LF:word>
+<     <LF:start>14</LF:start>
+<     <LF:end>32</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74323">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>HAT</LF:word>
+<     <role:MOD rdf:resource="#V74316" />
+<     <LF:start>36</LF:start>
+<     <LF:end>46</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74316">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WHITE</LF:type>
+<     <LF:word>WHITE</LF:word>
+<     <role:FIGURE rdf:resource="#V74323" />
+<     <role:SCALE>WHITE*1--07--00</role:SCALE>
+<     <LF:start>36</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74367">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V74400" />
+<     <role:FIGURE rdf:resource="#V74243" />
+<     <LF:start>57</LF:start>
+<     <LF:end>71</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74400">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>GROUND</LF:word>
+<     <LF:start>60</LF:start>
+<     <LF:end>71</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::AND W::EATING W::AN W::ORANGE W::PUNC-PERIOD)</lisp><word>AND</word><word>EATING</word><word>AN</word><word>ORANGE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (71 74) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;eating&quot; :FRAME (75 81) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;an&quot; :FRAME (82 84) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;orange&quot; :FRAME (85 91) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;an orange&quot; :FRAME (82 91) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   16.39 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;eating an orange&quot; :FRAME (75 91) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 25.516 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sitting on the ground and eating an orange&quot; :FRAME (49 91) :PENN-CATS
+<   (VP) :TRIPS-CATS (W::VP) :SCORE 52.907 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;is sitting on the ground and eating an orange&quot; :FRAME (46 91)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 57.167 :UTTNUM 11 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (92 92) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;a boy wearing a turquoise shirt and white hat is sitting on the ground and eating an orange .&quot;
+<   :FRAME (0 92) :PENN-CATS (S) :SCORE 137.546 :UTTNUM 11 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="and" start="71" end="74"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="eating" start="75" end="81"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="an" start="82" end="84"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="orange" start="85" end="91"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="an orange" start="82" end="91" penn-cats="NP" score="16.39" /><prefer text="eating an orange" start="75" end="91" penn-cats="VP" score="25.516" /><prefer text="sitting on the ground and eating an orange" start="49" end="91" penn-cats="VP" score="52.907" /><prefer text="is sitting on the ground and eating an orange" start="46" end="91" penn-cats="VP" score="57.167" /><word lex="." start="92" end="92"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a boy wearing a turquoise shirt and white hat is sitting on the ground and eating an orange ." start="0" end="92" penn-cats="S" score="137.546" /></tags><tree><lisp>(UTT
+<  (UTT (ADVBL (ADV AND))
+<   (UTT (NP (VP (VP- (V EATING) (NP (SPEC (DET (ART AN))) (N1 (N ORANGE))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><NP><VP><VP-><V>EATING</V><NP><SPEC><DET><ART>AN</ART></DET></SPEC><N1><N>ORANGE</N></N1></NP></VP-></VP></NP></UTT></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V74624"><lisp>((ONT::SPEECHACT ONT::V74624 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V74421 :MOD ONT::V74412 :START 71 :END 92)
+<  (ONT::F ONT::V74412 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V74624 :START 71
+<   :END 75)
+<  (ONT::BARE ONT::V74421 (:* ONT::CONSUME W::EAT) :AFFECTED ONT::V74432 :START
+<   75 :END 92)
+<  (ONT::A ONT::V74432 (:* ONT::FRUIT W::ORANGE) :START 82 :END 92))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V74624">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V74421" />
+<     <role:MOD rdf:resource="#V74412" />
+<     <LF:start>71</LF:start>
+<     <LF:end>92</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74412">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONJUNCT</LF:type>
+<     <LF:word>AND</LF:word>
+<     <role:FIGURE rdf:resource="#V74624" />
+<     <LF:start>71</LF:start>
+<     <LF:end>75</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74421">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>CONSUME</LF:type>
+<     <LF:word>EAT</LF:word>
+<     <role:AFFECTED rdf:resource="#V74432" />
+<     <LF:start>75</LF:start>
+<     <LF:end>92</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V74432">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FRUIT</LF:type>
+<     <LF:word>ORANGE</LF:word>
+<     <LF:start>82</LF:start>
+<     <LF:end>92</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="71">
+>    <TEXT>a boy wearing a turquoise shirt and white hat is sitting on the ground a</TEXT>
+>    <RELATION id="1" head="V80425" res="V74351" label="CONTENT"/>
+>    <PHRASE id="V74351" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="71"/>
+>    <RELATION id="2" head="V74351" res="V74367" label="RESULT"/>
+>    <RELATION id="3" head="V74351" res="V74243" label="AGENT"/>
+>    <PHRASE id="V74243" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="46"/>
+>    <RELATION id="4" head="V74243" res="V74249" label="MOD"/>
+>    <PHRASE id="V74249" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="6" end="46"/>
+>    <RELATION id="5" head="V74249" res="V74243" label="AGENT"/>
+>    <RELATION id="6" head="V74249" res="V74307" label="NEUTRAL"/>
+>    <PHRASE id="V74307" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="14" end="46"/>
+>    <RELATION id="7" head="V74307" res="V74303" label="SEQUENCE"/>
+>    <RELATION id="8" head="V74307" res="V74323" label="SEQUENCE1"/>
+>    <PHRASE id="V74303" indicator="A" type="ATTIRE" text="SHIRT" start="14" end="32"/>
+>    <RELATION id="9" head="V74303" res="V74297" label="ASSOC-WITH"/>
+>    <PHRASE id="V74297" indicator="KIND" type="MATERIAL" text="TURQUOISE" start="14" end="32"/>
+>    <PHRASE id="V74323" indicator="BARE" type="ATTIRE" text="HAT" start="36" end="46"/>
+>    <RELATION id="10" head="V74323" res="V74316" label="MOD"/>
+>    <PHRASE id="V74316" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="36" end="42"/>
+>    <RELATION id="11" head="V74316" res="V74323" label="FIGURE"/>
+>    <PHRASE id="V74367" indicator="F" type="ON" text="ON" start="57" end="71"/>
+>    <RELATION id="12" head="V74367" res="V74400" label="GROUND"/>
+>    <RELATION id="13" head="V74367" res="V74243" label="FIGURE"/>
+>    <PHRASE id="V74400" indicator="THE" type="GEO-FORMATION" text="GROUND" start="60" end="71"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="71" end="92">
+>    <TEXT>and eating an orange .</TEXT>
+>    <RELATION id="14" head="V74624" res="V74421" label="CONTENT"/>
+>    <RELATION id="15" head="V74624" res="V74412" label="MOD"/>
+>    <PHRASE id="V74412" indicator="F" type="CONJUNCT" text="AND" start="71" end="75"/>
+>    <RELATION id="16" head="V74412" res="V74624" label="FIGURE"/>
+>    <PHRASE id="V74421" indicator="BARE" type="CONSUME" text="EAT" start="75" end="92"/>
+>    <RELATION id="17" head="V74421" res="V74432" label="AFFECTED"/>
+>    <PHRASE id="V74432" indicator="A" type="FRUIT" text="ORANGE" start="82" end="92"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

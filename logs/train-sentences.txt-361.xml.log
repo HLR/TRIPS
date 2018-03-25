@@ -1,0 +1,434 @@
+2,384c2,49
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-skinned , dark-haired girl wearing a white tee-shirt with pink edges and blue pants is kneeing on the ground .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?85557:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V248994)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?85555)
+<                                            (W::TRANSFORM ?85556)))
+<                                  (W::CASE ?85554:(W::SUB W::OBJ -))
+<                                  (W::AGR ?85553) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V248994) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER249161))
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?85852:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V248997)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?85850)
+<                                            (W::TRANSFORM ?85851)))
+<                                  (W::CASE ?85849:(W::SUB W::OBJ -))
+<                                  (W::AGR ?85848) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V248997) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER249163))
+< *last-utt-id*=NIL  utt-id+43
+< *last-utt-id*=43  utt-id+43
+< *last-utt-id*=43  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::A W::DARK W::PUNC-MINUS W::SKINNED W::DARK W::PUNC-MINUS W::HAIRED W::GIRL
+<  W::WEARING W::A W::WHITE W::TEE W::PUNC-MINUS W::SHIRT)</lisp><word>A</word><word>DARK</word><word>PUNC-MINUS</word><word>SKINNED</word><word>DARK</word><word>PUNC-MINUS</word><word>HAIRED</word><word>GIRL</word><word>WEARING</word><word>A</word><word>WHITE</word><word>TEE</word><word>PUNC-MINUS</word><word>SHIRT</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;skinned&quot; :FRAME (7 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark-skinned&quot; :FRAME (2 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+<     (&quot;dark-skinned%5:00:00&quot;)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (15 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (17 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (21 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;haired&quot; :FRAME (22 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark-haired&quot; :FRAME (17 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+<     (&quot;dark-haired%5:00:00&quot;)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;girl&quot; :FRAME (29 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a dark-skinned , dark-haired girl&quot; :FRAME (0 33) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 41.32 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;wearing&quot; :FRAME (34 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (42 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;white&quot; :FRAME (44 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tee&quot; :FRAME (50 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (53 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;shirt&quot; :FRAME (54 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tee-shirt&quot; :FRAME (50 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a white tee-shirt&quot; :FRAME (42 59) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 24.059 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="skinned" start="7" end="14"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="dark-skinned" start="2" end="14"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-skinned%5:00:00" /></word><word lex="," start="15" end="16"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="dark" start="17" end="20"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="-" start="21" end="21"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="haired" start="22" end="28"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-haired" start="17" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-haired%5:00:00" /></word><word lex="girl" start="29" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-skinned , dark-haired girl" start="0" end="33" penn-cats="NP" score="41.32" /><word lex="wearing" start="34" end="41"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="42" end="43"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="white" start="44" end="49"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="tee" start="50" end="52"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="53" end="53"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="shirt" start="54" end="59"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="tee-shirt" start="50" end="59"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a white tee-shirt" start="42" end="59" penn-cats="NP" score="24.059" /></tags><tree><lisp>(NP (SPEC (DET (ART A)))
+<  (N1
+<   (N1 (ADJP (ADJ1 (ADJ DARK PUNC-MINUS SKINNED)))
+<    (N1 (ADJP (ADJ1 (ADJ DARK PUNC-MINUS HAIRED))) (N1 (N GIRL))))
+<   (CP
+<    (VP
+<     (VP- (V WEARING)
+<      (NP (SPEC (DET (ART A)))
+<       (N1 (ADJP (ADJ1 (ADJ WHITE))) (N1 (N TEE PUNC-MINUS SHIRT)))))))))</lisp><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>DARK PUNC-MINUS SKINNED</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>DARK PUNC-MINUS HAIRED</ADJ></ADJ1></ADJP><N1><N>GIRL</N></N1></N1></N1><CP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>WHITE</ADJ></ADJ1></ADJP><N1><N>TEE PUNC-MINUS SHIRT</N></N1></N1></NP></VP-></VP></CP></N1></NP></tree><terms root="#V247623"><lisp>((ONT::A ONT::V247623 (:* ONT::FEMALE-CHILD W::GIRL) :MOD ONT::V247629 :MOD
+<   ONT::V247596 :MOD ONT::V247620 :START 0 :END 60)
+<  (ONT::F ONT::V247596 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-SKINNED) :FIGURE
+<   ONT::V247623 :START 2 :END 15 :WNSENSE &quot;dark-skinned%5:00:00&quot;)
+<  (ONT::F ONT::V247620 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-HAIRED) :FIGURE
+<   ONT::V247623 :START 17 :END 29 :WNSENSE &quot;dark-haired%5:00:00&quot;)
+<  (ONT::F ONT::V247629 (:* ONT::WEAR W::WEAR) :AGENT ONT::V247623 :NEUTRAL
+<   ONT::V247698 :VFORM W::ING :START 34 :END 60)
+<  (ONT::A ONT::V247698 (:* ONT::ATTIRE W::TEE-PUNC-MINUS-SHIRT) :MOD
+<   ONT::V247676 :START 42 :END 60)
+<  (ONT::F ONT::V247676 (:* ONT::WHITE W::WHITE) :FIGURE ONT::V247698 :SCALE
+<   ONT::WHITE*1--07--00 :START 44 :END 50))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V247623">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FEMALE-CHILD</LF:type>
+<     <LF:word>GIRL</LF:word>
+<     <role:MOD rdf:resource="#V247629" />
+<     <role:MOD rdf:resource="#V247596" />
+<     <role:MOD rdf:resource="#V247620" />
+<     <LF:start>0</LF:start>
+<     <LF:end>60</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247596">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MODIFIER</LF:type>
+<     <LF:word>DARK-PUNC-MINUS-SKINNED</LF:word>
+<     <role:FIGURE rdf:resource="#V247623" />
+<     <LF:start>2</LF:start>
+<     <LF:end>15</LF:end>
+<     <role:WNSENSE>dark-skinned%5:00:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247620">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MODIFIER</LF:type>
+<     <LF:word>DARK-PUNC-MINUS-HAIRED</LF:word>
+<     <role:FIGURE rdf:resource="#V247623" />
+<     <LF:start>17</LF:start>
+<     <LF:end>29</LF:end>
+<     <role:WNSENSE>dark-haired%5:00:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247629">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:AGENT rdf:resource="#V247623" />
+<     <role:NEUTRAL rdf:resource="#V247698" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>34</LF:start>
+<     <LF:end>60</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247698">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>TEE-PUNC-MINUS-SHIRT</LF:word>
+<     <role:MOD rdf:resource="#V247676" />
+<     <LF:start>42</LF:start>
+<     <LF:end>60</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247676">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WHITE</LF:type>
+<     <LF:word>WHITE</LF:word>
+<     <role:FIGURE rdf:resource="#V247698" />
+<     <role:SCALE>WHITE*1--07--00</role:SCALE>
+<     <LF:start>44</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::WITH W::PINK W::EDGES W::AND W::BLUE W::PANTS W::IS W::KNEEING W::ON W::THE
+<  W::GROUND W::PUNC-PERIOD)</lisp><word>WITH</word><word>PINK</word><word>EDGES</word><word>AND</word><word>BLUE</word><word>PANTS</word><word>IS</word><word>KNEEING</word><word>ON</word><word>THE</word><word>GROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;with&quot; :FRAME (60 64) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;pink&quot; :FRAME (65 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;edges&quot; :FRAME (70 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;pink edges&quot; :FRAME (65 75) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   25.314 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (76 79) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blue&quot; :FRAME (80 84) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;pants&quot; :FRAME (85 90) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;blue pants&quot; :FRAME (80 90) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   20.581 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;pink edges and blue pants&quot; :FRAME (65 90) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 48.729 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with pink edges and blue pants&quot; :FRAME (60 90) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 52.979 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;wearing a white tee-shirt with pink edges and blue pants&quot; :FRAME
+<   (34 90) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 86.745 :UTTNUM 43 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;a dark-skinned , dark-haired girl wearing a white tee-shirt with pink edges and blue pants&quot;
+<   :FRAME (0 90) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 130.627 :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (91 93) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kneeing&quot; :FRAME (94 101) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (102 104) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (105 108) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;ground&quot; :FRAME (109 115) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the ground&quot; :FRAME (105 115) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 10.802 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on the ground&quot; :FRAME (102 115) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.013 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;kneeing on the ground&quot; :FRAME (94 115) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 26.25 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;is kneeing on the ground&quot; :FRAME (91 115) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 30.51 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (116 116) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;a dark-skinned , dark-haired girl wearing a white tee-shirt with pink edges and blue pants is kneeing on the ground .&quot;
+<   :FRAME (0 116) :PENN-CATS (S) :SCORE 165.05 :UTTNUM 43 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="with" start="60" end="64"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="pink" start="65" end="69"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="edges" start="70" end="75"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="pink edges" start="65" end="75" penn-cats="NP" score="25.314" /><word lex="and" start="76" end="79"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="blue" start="80" end="84"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="pants" start="85" end="90"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="blue pants" start="80" end="90" penn-cats="NP" score="20.581" /><prefer text="pink edges and blue pants" start="65" end="90" penn-cats="NP" score="48.729" /><prefer text="with pink edges and blue pants" start="60" end="90" penn-cats="PP" score="52.979" /><prefer text="wearing a white tee-shirt with pink edges and blue pants" start="34" end="90" penn-cats="VP" score="86.745" /><prefer text="a dark-skinned , dark-haired girl wearing a white tee-shirt with pink edges and blue pants" start="0" end="90" penn-cats="NP" score="130.627" /><word lex="is" start="91" end="93"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="kneeing" start="94" end="101"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="102" end="104"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="105" end="108"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="ground" start="109" end="115"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the ground" start="105" end="115" penn-cats="NP" score="10.802" /><prefer text="on the ground" start="102" end="115" penn-cats="PP" score="14.013" /><prefer text="kneeing on the ground" start="94" end="115" penn-cats="VP" score="26.25" /><prefer text="is kneeing on the ground" start="91" end="115" penn-cats="VP" score="30.51" /><word lex="." start="116" end="116"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-skinned , dark-haired girl wearing a white tee-shirt with pink edges and blue pants is kneeing on the ground ." start="0" end="116" penn-cats="S" score="165.05" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (ADVBL (ADV WITH)
+<     (NP (NP (N1 (ADJP (ADJ1 (ADJ PINK))) (N1 (N EDGES)))) (CONJ AND)
+<      (NP (N1 (ADJP (ADJ1 (ADJ BLUE))) (N1 (N PANTS))))))
+<    (S (V IS) (NP (VP (VP- (V KNEEING))))
+<     (PRED (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N GROUND))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><ADVBL><ADV>WITH</ADV><NP><NP><N1><ADJP><ADJ1><ADJ>PINK</ADJ></ADJ1></ADJP><N1><N>EDGES</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>PANTS</N></N1></N1></NP></NP></ADVBL><S><V>IS</V><NP><VP><VP-><V>KNEEING</V></VP-></VP></NP><PRED><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>GROUND</N></N1></NP></ADVBL></PRED></S></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V252533"><lisp>((ONT::SPEECHACT ONT::V252533 ONT::SA_YN-QUESTION :PUNCTYPE W::DECL :CONTENT
+<   ONT::V247751 :START 60 :END 116)
+<  (ONT::F ONT::V247751 (:* ONT::HAVE-PROPERTY W::BE) :NEUTRAL ONT::V247767
+<   :FORMAL ONT::V247775 :MANNER ONT::V247703 :TENSE W::PRES :START 60 :END 116)
+<  (ONT::F ONT::V247703 (:* ONT::MANNER W::WITH) :GROUND ONT::V247725 :FIGURE
+<   ONT::V247751 :START 60 :END 91)
+<  (ONT::INDEF-SET ONT::V247725 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V247721 ONT::V247740) :START 65 :END 91)
+<  (ONT::INDEF-SET ONT::V247721 (:* ONT::EDGE W::EDGE) :MOD ONT::V247714 :START
+<   65 :END 76)
+<  (ONT::F ONT::V247714 (:* ONT::PINK W::PINK) :FIGURE ONT::V247721 :SCALE
+<   ONT::PINK*1--07--00 :START 65 :END 70)
+<  (ONT::BARE ONT::V247740 (:* ONT::ATTIRE W::PANTS) :MOD ONT::V247734 :START 80
+<   :END 91)
+<  (ONT::F ONT::V247734 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V247740 :SCALE
+<   ONT::COLOR-SCALE :START 80 :END 85)
+<  (ONT::BARE ONT::V247767 (:* ONT::SITUATION-ROOT W::KNEEING) :START 94 :END
+<   102)
+<  (ONT::F ONT::V247775 (:* ONT::ON W::ON) :GROUND ONT::V247808 :FIGURE
+<   ONT::V247767 :START 102 :END 116)
+<  (ONT::THE ONT::V247808 (:* ONT::GEO-FORMATION W::GROUND) :START 105 :END 116))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V252533">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_YN-QUESTION</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V247751" />
+<     <LF:start>60</LF:start>
+<     <LF:end>116</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247751">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>HAVE-PROPERTY</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V247767" />
+<     <role:FORMAL rdf:resource="#V247775" />
+<     <role:MANNER rdf:resource="#V247703" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>60</LF:start>
+<     <LF:end>116</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247703">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MANNER</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V247725" />
+<     <role:FIGURE rdf:resource="#V247751" />
+<     <LF:start>60</LF:start>
+<     <LF:end>91</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247725">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PHYS-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V247721" />
+<     <role:SEQUENCE1 rdf:resource="#V247740" />
+<     <LF:start>65</LF:start>
+<     <LF:end>91</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247721">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>EDGE</LF:type>
+<     <LF:word>EDGE</LF:word>
+<     <role:MOD rdf:resource="#V247714" />
+<     <LF:start>65</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247714">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>PINK</LF:type>
+<     <LF:word>PINK</LF:word>
+<     <role:FIGURE rdf:resource="#V247721" />
+<     <role:SCALE>PINK*1--07--00</role:SCALE>
+<     <LF:start>65</LF:start>
+<     <LF:end>70</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247740">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>PANTS</LF:word>
+<     <role:MOD rdf:resource="#V247734" />
+<     <LF:start>80</LF:start>
+<     <LF:end>91</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247734">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BLUE</LF:type>
+<     <LF:word>BLUE</LF:word>
+<     <role:FIGURE rdf:resource="#V247740" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>80</LF:start>
+<     <LF:end>85</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247767">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>SITUATION-ROOT</LF:type>
+<     <LF:word>KNEEING</LF:word>
+<     <LF:start>94</LF:start>
+<     <LF:end>102</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247775">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V247808" />
+<     <role:FIGURE rdf:resource="#V247767" />
+<     <LF:start>102</LF:start>
+<     <LF:end>116</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V247808">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>GROUND</LF:word>
+<     <LF:start>105</LF:start>
+<     <LF:end>116</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="60">
+>    <TEXT>a dark-skinned , dark-haired girl wearing a white tee-shirt w</TEXT>
+>    <RELATION id="1" head="V247623" res="V247629" label="MOD"/>
+>    <RELATION id="2" head="V247623" res="V247596" label="MOD"/>
+>    <RELATION id="3" head="V247623" res="V247620" label="MOD"/>
+>    <PHRASE id="V247596" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+>    <RELATION id="4" head="V247596" res="V247623" label="FIGURE"/>
+>    <PHRASE id="V247620" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+>    <RELATION id="5" head="V247620" res="V247623" label="FIGURE"/>
+>    <PHRASE id="V247629" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="60"/>
+>    <RELATION id="6" head="V247629" res="V247623" label="AGENT"/>
+>    <RELATION id="7" head="V247629" res="V247698" label="NEUTRAL"/>
+>    <PHRASE id="V247698" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="42" end="60"/>
+>    <RELATION id="8" head="V247698" res="V247676" label="MOD"/>
+>    <PHRASE id="V247676" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="44" end="50"/>
+>    <RELATION id="9" head="V247676" res="V247698" label="FIGURE"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="60" end="116">
+>    <TEXT>with pink edges and blue pants is kneeing on the ground .</TEXT>
+>    <RELATION id="10" head="V252533" res="V247751" label="CONTENT"/>
+>    <PHRASE id="V247751" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="60" end="116"/>
+>    <RELATION id="11" head="V247751" res="V247767" label="NEUTRAL"/>
+>    <RELATION id="12" head="V247751" res="V247775" label="FORMAL"/>
+>    <RELATION id="13" head="V247751" res="V247703" label="MANNER"/>
+>    <PHRASE id="V247703" indicator="F" type="MANNER" text="WITH" start="60" end="91"/>
+>    <RELATION id="14" head="V247703" res="V247725" label="GROUND"/>
+>    <RELATION id="15" head="V247703" res="V247751" label="FIGURE"/>
+>    <PHRASE id="V247725" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="65" end="91"/>
+>    <RELATION id="16" head="V247725" res="V247721" label="SEQUENCE"/>
+>    <RELATION id="17" head="V247725" res="V247740" label="SEQUENCE1"/>
+>    <PHRASE id="V247721" indicator="INDEF-SET" type="EDGE" text="EDGE" start="65" end="76"/>
+>    <RELATION id="18" head="V247721" res="V247714" label="MOD"/>
+>    <PHRASE id="V247714" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="65" end="70"/>
+>    <RELATION id="19" head="V247714" res="V247721" label="FIGURE"/>
+>    <PHRASE id="V247740" indicator="BARE" type="ATTIRE" text="PANTS" start="80" end="91"/>
+>    <RELATION id="20" head="V247740" res="V247734" label="MOD"/>
+>    <PHRASE id="V247734" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="80" end="85"/>
+>    <RELATION id="21" head="V247734" res="V247740" label="FIGURE"/>
+>    <PHRASE id="V247767" indicator="BARE" type="SITUATION-ROOT" text="KNEEING" start="94" end="102"/>
+>    <PHRASE id="V247775" indicator="F" type="ON" text="ON" start="102" end="116"/>
+>    <RELATION id="22" head="V247775" res="V247808" label="GROUND"/>
+>    <RELATION id="23" head="V247775" res="V247767" label="FIGURE"/>
+>    <PHRASE id="V247808" indicator="THE" type="GEO-FORMATION" text="GROUND" start="105" end="116"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

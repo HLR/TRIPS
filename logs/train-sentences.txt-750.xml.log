@@ -1,0 +1,175 @@
+2,149c2,25
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="short grass and some large stones in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+33
+< *last-utt-id*=33  utt-id+NIL</debug><utt><words><lisp>(W::SHORT W::GRASS W::AND W::SOME W::LARGE W::STONES W::IN W::THE W::BACKGROUND
+<  W::PUNC-PERIOD)</lisp><word>SHORT</word><word>GRASS</word><word>AND</word><word>SOME</word><word>LARGE</word><word>STONES</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;short&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;grass&quot; :FRAME (6 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;short grass&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   21.386 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (12 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;some&quot; :FRAME (16 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;large&quot; :FRAME (21 26) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;stones&quot; :FRAME (27 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some large stones&quot; :FRAME (16 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 23.57 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;short grass and some large stones&quot; :FRAME (0 33) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 48.03 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;in&quot; :FRAME (34 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (37 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (41 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (37 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (34 51) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (52 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;short grass and some large stones in the background .&quot; :FRAME (0 52)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 69.192 :UTTNUM 33 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="short" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="grass" start="6" end="11"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="short grass" start="0" end="11" penn-cats="NP" score="21.386" /><word lex="and" start="12" end="15"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="some" start="16" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="large" start="21" end="26"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="stones" start="27" end="33"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="some large stones" start="16" end="33" penn-cats="NP" score="23.57" /><prefer text="short grass and some large stones" start="0" end="33" penn-cats="NP" score="48.03" /><word lex="in" start="34" end="36"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="37" end="40"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="41" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="37" end="51" penn-cats="NP" score="11.972" /><prefer text="in the background" start="34" end="51" penn-cats="PP" score="14.224" /><word lex="." start="52" end="52"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="short grass and some large stones in the background ." start="0" end="52" penn-cats="NP" score="69.192" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (NP (N1 (ADJP (ADJ1 (ADJ SHORT))) (N1 (N GRASS)))) (CONJ AND)
+<    (NP (SPEC (QUAN SOME))
+<     (N1 (N1 (ADJP (ADJ1 (ADJ LARGE))) (N1 (N STONES)))
+<      (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><N1><ADJP><ADJ1><ADJ>SHORT</ADJ></ADJ1></ADJP><N1><N>GRASS</N></N1></N1></NP><CONJ>AND</CONJ><NP><SPEC><QUAN>SOME</QUAN></SPEC><N1><N1><ADJP><ADJ1><ADJ>LARGE</ADJ></ADJ1></ADJP><N1><N>STONES</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V213049"><lisp>((ONT::SPEECHACT ONT::V213049 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V212722 :START 0 :END 52)
+<  (ONT::INDEF-SET ONT::V212722 ONT::NATURAL-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V212718 ONT::V212742) :START 0 :END 52)
+<  (ONT::BARE ONT::V212718 (:* ONT::PLANT W::GRASS) :MOD ONT::V212708 :START 0
+<   :END 12)
+<  (ONT::F ONT::V212708 (:* ONT::SHORT-VAL W::SHORT) :FIGURE ONT::V212718 :SCALE
+<   ONT::SIZE-SCALE :START 0 :END 6)
+<  (ONT::INDEF-SET ONT::V212742 (:* ONT::NATURAL-OBJECT W::STONES) :SIZE
+<   ONT::SOME :LOCATION ONT::V212752 :MOD ONT::V212738 :START 16 :END 52)
+<  (ONT::F ONT::V212738 (:* ONT::LARGE W::LARGE) :ORIENTATION ONT::MORE
+<   :INTENSITY ONT::MED :FIGURE ONT::V212742 :SCALE ONT::SIZE-SCALE :START 21
+<   :END 27)
+<  (ONT::F ONT::V212752 (:* ONT::IN-LOC W::IN) :GROUND ONT::V212808 :FIGURE
+<   ONT::V212742 :START 34 :END 52)
+<  (ONT::THE ONT::V212808 (:* ONT::IMAGE W::BACKGROUND) :START 37 :END 52))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V213049">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V212722" />
+<     <LF:start>0</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V212722">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NATURAL-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V212718" />
+<     <role:SEQUENCE1 rdf:resource="#V212742" />
+<     <LF:start>0</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V212718">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <LF:word>GRASS</LF:word>
+<     <role:MOD rdf:resource="#V212708" />
+<     <LF:start>0</LF:start>
+<     <LF:end>12</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V212708">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>SHORT-VAL</LF:type>
+<     <LF:word>SHORT</LF:word>
+<     <role:FIGURE rdf:resource="#V212718" />
+<     <role:SCALE>SIZE-SCALE</role:SCALE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V212742">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NATURAL-OBJECT</LF:type>
+<     <LF:word>STONES</LF:word>
+<     <role:SIZE>SOME</role:SIZE>
+<     <role:LOCATION rdf:resource="#V212752" />
+<     <role:MOD rdf:resource="#V212738" />
+<     <LF:start>16</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V212738">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LARGE</LF:type>
+<     <LF:word>LARGE</LF:word>
+<     <role:ORIENTATION>MORE</role:ORIENTATION>
+<     <role:INTENSITY>MED</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V212742" />
+<     <role:SCALE>SIZE-SCALE</role:SCALE>
+<     <LF:start>21</LF:start>
+<     <LF:end>27</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V212752">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V212808" />
+<     <role:FIGURE rdf:resource="#V212742" />
+<     <LF:start>34</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V212808">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>37</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="52">
+>    <TEXT>short grass and some large stones in the background .</TEXT>
+>    <RELATION id="1" head="V213049" res="V212722" label="CONTENT"/>
+>    <PHRASE id="V212722" indicator="INDEF-SET" type="NATURAL-OBJECT" OPERATOR="AND" start="0" end="52"/>
+>    <RELATION id="2" head="V212722" res="V212718" label="SEQUENCE"/>
+>    <RELATION id="3" head="V212722" res="V212742" label="SEQUENCE1"/>
+>    <PHRASE id="V212718" indicator="BARE" type="PLANT" text="GRASS" start="0" end="12"/>
+>    <RELATION id="4" head="V212718" res="V212708" label="MOD"/>
+>    <PHRASE id="V212708" indicator="F" type="SHORT-VAL" text="SHORT" SCALE="SIZE-SCALE" start="0" end="6"/>
+>    <RELATION id="5" head="V212708" res="V212718" label="FIGURE"/>
+>    <PHRASE id="V212742" indicator="INDEF-SET" type="NATURAL-OBJECT" text="STONES" SIZE="SOME" start="16" end="52"/>
+>    <RELATION id="6" head="V212742" res="V212752" label="LOCATION"/>
+>    <RELATION id="7" head="V212742" res="V212738" label="MOD"/>
+>    <PHRASE id="V212738" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="21" end="27"/>
+>    <RELATION id="8" head="V212738" res="V212742" label="FIGURE"/>
+>    <PHRASE id="V212752" indicator="F" type="IN-LOC" text="IN" start="34" end="52"/>
+>    <RELATION id="9" head="V212752" res="V212808" label="GROUND"/>
+>    <RELATION id="10" head="V212752" res="V212742" label="FIGURE"/>
+>    <PHRASE id="V212808" indicator="THE" type="IMAGE" text="BACKGROUND" start="37" end="52"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

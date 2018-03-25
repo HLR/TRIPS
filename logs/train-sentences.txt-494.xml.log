@@ -1,0 +1,228 @@
+2,200c2,27
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="some sheets of paper are lying on the desk in front of her .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+57
+< *last-utt-id*=57  utt-id+NIL</debug><utt><words><lisp>(W::SOME W::SHEETS W::OF W::PAPER W::ARE W::LYING W::ON W::THE W::DESK W::IN
+<  W::FRONT W::OF W::HER W::PUNC-PERIOD)</lisp><word>SOME</word><word>SHEETS</word><word>OF</word><word>PAPER</word><word>ARE</word><word>LYING</word><word>ON</word><word>THE</word><word>DESK</word><word>IN</word><word>FRONT</word><word>OF</word><word>HER</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;some&quot; :FRAME (0 4) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;sheets&quot; :FRAME (5 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some sheets&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   16.616 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (12 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;paper&quot; :FRAME (15 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;paper&quot; :FRAME (15 20) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 8.82
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of paper&quot; :FRAME (12 20) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   9.887 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some sheets of paper&quot; :FRAME (0 20) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 26.869 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (21 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;lying&quot; :FRAME (25 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (31 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (34 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;desk&quot; :FRAME (38 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the desk&quot; :FRAME (34 42) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.373 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (43 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;front&quot; :FRAME (46 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;front&quot; :FRAME (46 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.944 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in front&quot; :FRAME (43 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+<     (&quot;in_front%4:02:00&quot;)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (52 54) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;her&quot; :FRAME (55 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 57
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;her&quot; :FRAME (55 58) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 9.988
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of her&quot; :FRAME (52 58) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   11.055 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;front of her&quot; :FRAME (46 58) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.54 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in front of her&quot; :FRAME (43 58) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 26.137 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the desk in front of her&quot; :FRAME (34 58) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 38.051 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on the desk in front of her&quot; :FRAME (31 58) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 42.245 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;lying on the desk in front of her&quot; :FRAME (25 58) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 51.918 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are lying on the desk in front of her&quot; :FRAME (21 58) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 56.281 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (59 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some sheets of paper are lying on the desk in front of her .&quot; :FRAME
+<   (0 59) :PENN-CATS (S) :SCORE 85.98 :UTTNUM 57 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="some" start="0" end="4"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="sheets" start="5" end="11"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="some sheets" start="0" end="11" penn-cats="NP" score="16.616" /><word lex="of" start="12" end="14"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="paper" start="15" end="20"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="paper" start="15" end="20" penn-cats="NP" score="8.82" /><prefer text="of paper" start="12" end="20" penn-cats="PP" score="9.887" /><prefer text="some sheets of paper" start="0" end="20" penn-cats="NP" score="26.869" /><word lex="are" start="21" end="24"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="lying" start="25" end="30"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="31" end="33"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="34" end="37"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="desk" start="38" end="42"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the desk" start="34" end="42" penn-cats="NP" score="11.373" /><word lex="in" start="43" end="45"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="front" start="46" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="46" end="51" penn-cats="NP" score="10.944" /><word lex="in front" start="43" end="51"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="52" end="54"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="her" start="55" end="58"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="her" start="55" end="58" penn-cats="NP" score="9.988" /><prefer text="of her" start="52" end="58" penn-cats="PP" score="11.055" /><prefer text="front of her" start="46" end="58" penn-cats="NP" score="22.54" /><prefer text="in front of her" start="43" end="58" penn-cats="PP" score="26.137" /><prefer text="the desk in front of her" start="34" end="58" penn-cats="NP" score="38.051" /><prefer text="on the desk in front of her" start="31" end="58" penn-cats="PP" score="42.245" /><prefer text="lying on the desk in front of her" start="25" end="58" penn-cats="VP" score="51.918" /><prefer text="are lying on the desk in front of her" start="21" end="58" penn-cats="VP" score="56.281" /><word lex="." start="59" end="59"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="some sheets of paper are lying on the desk in front of her ." start="0" end="59" penn-cats="S" score="85.98" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (NP (SPEC (QUAN SOME))
+<     (N1 (N1 (N SHEETS)) (ADVBL (ADV OF) (NP (N1 (N PAPER))))))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (VP- (V LYING))
+<       (ADVBL (ADV ON)
+<        (NP (SPEC (DET (ART THE)))
+<         (N1 (N1 (N DESK))
+<          (ADVBL (ADV (WORD IN) (WORD FRONT))
+<           (PP (PREP OF) (NP (PRO HER))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><QUAN>SOME</QUAN></SPEC><N1><N1><N>SHEETS</N></N1><ADVBL><ADV>OF</ADV><NP><N1><N>PAPER</N></N1></NP></ADVBL></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>LYING</V></VP-><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>DESK</N></N1><ADVBL><ADV><WORD>IN</WORD><WORD>FRONT</WORD></ADV><PP><PREP>OF</PREP><NP><PRO>HER</PRO></NP></PP></ADVBL></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V498898"><lisp>((ONT::SPEECHACT ONT::V498898 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V488461 :START 0 :END 59)
+<  (ONT::F ONT::V488461 (:* ONT::BE-AT-LOC W::LIE) :NEUTRAL ONT::V488412
+<   :LOCATION ONT::V488473 :TENSE W::PRES :PROGR + :START 0 :END 59)
+<  (ONT::INDEF-SET ONT::V488412 (:* ONT::INFO-MEDIUM W::SHEET) :SIZE ONT::SOME
+<   :MOD ONT::V488421 :START 0 :END 21)
+<  (ONT::F ONT::V488421 (:* ONT::CONTAIN-RELN W::OF) :GROUND ONT::V488427 :FIGURE
+<   ONT::V488412 :START 12 :END 21)
+<  (ONT::BARE ONT::V488427 (:* ONT::MATERIAL W::PAPER) :START 15 :END 21)
+<  (ONT::F ONT::V488473 (:* ONT::ON W::ON) :GROUND ONT::V488502 :FIGURE
+<   ONT::V488461 :START 31 :END 59)
+<  (ONT::THE ONT::V488502 (:* ONT::FURNISHINGS W::DESK) :LOCATION ONT::V488519
+<   :START 34 :END 59)
+<  (ONT::F ONT::V488519 (:* ONT::FRONT W::IN-FRONT) :GROUND ONT::V488621 :FIGURE
+<   ONT::V488502 :START 43 :END 59)
+<  (ONT::PRO ONT::V488621 (:* ONT::FEMALE-PERSON W::HER) :PROFORM W::HER :START
+<   52 :END 59))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V498898">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V488461" />
+<     <LF:start>0</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488461">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BE-AT-LOC</LF:type>
+<     <LF:word>LIE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V488412" />
+<     <role:LOCATION rdf:resource="#V488473" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488412">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>INFO-MEDIUM</LF:type>
+<     <LF:word>SHEET</LF:word>
+<     <role:SIZE>SOME</role:SIZE>
+<     <role:MOD rdf:resource="#V488421" />
+<     <LF:start>0</LF:start>
+<     <LF:end>21</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488421">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONTAIN-RELN</LF:type>
+<     <LF:word>OF</LF:word>
+<     <role:GROUND rdf:resource="#V488427" />
+<     <role:FIGURE rdf:resource="#V488412" />
+<     <LF:start>12</LF:start>
+<     <LF:end>21</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488427">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>MATERIAL</LF:type>
+<     <LF:word>PAPER</LF:word>
+<     <LF:start>15</LF:start>
+<     <LF:end>21</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488473">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V488502" />
+<     <role:FIGURE rdf:resource="#V488461" />
+<     <LF:start>31</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488502">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>DESK</LF:word>
+<     <role:LOCATION rdf:resource="#V488519" />
+<     <LF:start>34</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488519">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>FRONT</LF:type>
+<     <LF:word>IN-FRONT</LF:word>
+<     <role:GROUND rdf:resource="#V488621" />
+<     <role:FIGURE rdf:resource="#V488502" />
+<     <LF:start>43</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V488621">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>HER</LF:word>
+<     <role:PROFORM>HER</role:PROFORM>
+<     <LF:start>52</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="59">
+>    <TEXT>some sheets of paper are lying on the desk in front of her .</TEXT>
+>    <RELATION id="1" head="V498898" res="V488461" label="CONTENT"/>
+>    <PHRASE id="V488461" indicator="F" type="BE-AT-LOC" text="LIE" TENSE="PRES" PROGR="+" start="0" end="59"/>
+>    <RELATION id="2" head="V488461" res="V488412" label="NEUTRAL"/>
+>    <RELATION id="3" head="V488461" res="V488473" label="LOCATION"/>
+>    <PHRASE id="V488412" indicator="INDEF-SET" type="INFO-MEDIUM" text="SHEET" SIZE="SOME" start="0" end="21"/>
+>    <RELATION id="4" head="V488412" res="V488421" label="MOD"/>
+>    <PHRASE id="V488421" indicator="F" type="CONTAIN-RELN" text="OF" start="12" end="21"/>
+>    <RELATION id="5" head="V488421" res="V488427" label="GROUND"/>
+>    <RELATION id="6" head="V488421" res="V488412" label="FIGURE"/>
+>    <PHRASE id="V488427" indicator="BARE" type="MATERIAL" text="PAPER" start="15" end="21"/>
+>    <PHRASE id="V488473" indicator="F" type="ON" text="ON" start="31" end="59"/>
+>    <RELATION id="7" head="V488473" res="V488502" label="GROUND"/>
+>    <RELATION id="8" head="V488473" res="V488461" label="FIGURE"/>
+>    <PHRASE id="V488502" indicator="THE" type="FURNISHINGS" text="DESK" start="34" end="59"/>
+>    <RELATION id="9" head="V488502" res="V488519" label="LOCATION"/>
+>    <PHRASE id="V488519" indicator="F" type="FRONT" text="IN-FRONT" start="43" end="59"/>
+>    <RELATION id="10" head="V488519" res="V488621" label="GROUND"/>
+>    <RELATION id="11" head="V488519" res="V488502" label="FIGURE"/>
+>    <PHRASE id="V488621" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="52" end="59"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,288 @@
+2,252c2,35
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="four volunteers are squatting down and are trying to prise the ground with hammer and chisel .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+32
+< *last-utt-id*=32  utt-id+32
+< *last-utt-id*=32  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::FOUR W::VOLUNTEERS W::ARE W::SQUATTING W::DOWN W::AND W::ARE W::TRYING
+<  W::TO W::PRISE W::THE W::GROUND W::WITH W::HAMMER)</lisp><word>FOUR</word><word>VOLUNTEERS</word><word>ARE</word><word>SQUATTING</word><word>DOWN</word><word>AND</word><word>ARE</word><word>TRYING</word><word>TO</word><word>PRISE</word><word>THE</word><word>GROUND</word><word>WITH</word><word>HAMMER</word></words><tags><lisp>((WORD &quot;four&quot; :FRAME (0 4) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;volunteers&quot; :FRAME (5 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;four volunteers&quot; :FRAME (0 15) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.482 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (16 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;squatting&quot; :FRAME (20 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;down&quot; :FRAME (30 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN RP) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::ADV W::PART)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;down&quot; :FRAME (30 34) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   2.647 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;squatting down&quot; :FRAME (20 34) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 17.813 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are squatting down&quot; :FRAME (16 34) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 23.529 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (35 38) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (39 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;trying&quot; :FRAME (43 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;to&quot; :FRAME (50 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;prise&quot; :FRAME (53 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (59 62) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;ground&quot; :FRAME (63 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the ground&quot; :FRAME (59 69) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.597 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (70 74) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hammer&quot; :FRAME (75 81) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJR NNP) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::NAME)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;hammer&quot; :FRAME (75 81) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   17.115 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with hammer&quot; :FRAME (70 81) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 20.382 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;prise the ground with hammer&quot; :FRAME (53 81) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 45.843 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="four" start="0" end="4"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="volunteers" start="5" end="15"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="four volunteers" start="0" end="15" penn-cats="NP" score="20.482" /><word lex="are" start="16" end="19"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="squatting" start="20" end="29"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="down" start="30" end="34"><sense-info penn-parts-of-speech="IN,RP" trips-parts-of-speech="PREP,ADV,PART" /></word><prefer text="down" start="30" end="34" penn-cats="PRT" score="2.647" /><prefer text="squatting down" start="20" end="34" penn-cats="VP" score="17.813" /><prefer text="are squatting down" start="16" end="34" penn-cats="VP" score="23.529" /><word lex="and" start="35" end="38"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="are" start="39" end="42"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="trying" start="43" end="49"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="to" start="50" end="52"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="prise" start="53" end="58"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><word lex="the" start="59" end="62"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="ground" start="63" end="69"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the ground" start="59" end="69" penn-cats="NP" score="10.597" /><word lex="with" start="70" end="74"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="hammer" start="75" end="81"><sense-info penn-parts-of-speech="JJR,NNP" trips-parts-of-speech="ADJ,NAME" /></word><prefer text="hammer" start="75" end="81" penn-cats="NP" score="17.115" /><prefer text="with hammer" start="70" end="81" penn-cats="PP" score="20.382" /><prefer text="prise the ground with hammer" start="53" end="81" penn-cats="VP" score="45.843" /></tags><tree><lisp>(UTT
+<  (S
+<   (S (NP (N1 (ADJP (NUMBER FOUR)) (N1 (N VOLUNTEERS))))
+<    (VP (VP- (AUX (V ARE)) (VP- (VP- (V SQUATTING)) (ADVBL (ADV DOWN))))))
+<   (CONJ AND)
+<   (VP
+<    (VP- (AUX (V ARE))
+<     (VP- (V TRYING)
+<      (CP (INFINITIVAL-TO TO)
+<       (VP
+<        (VP- (V PRISE)
+<         (NP (SPEC (DET (ART THE)))
+<          (N1 (N1 (N GROUND)) (ADVBL (ADV WITH) (NP (N1 (N HAMMER))))))))))))))</lisp><UTT><S><S><NP><N1><ADJP><NUMBER>FOUR</NUMBER></ADJP><N1><N>VOLUNTEERS</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>SQUATTING</V></VP-><ADVBL><ADV>DOWN</ADV></ADVBL></VP-></VP-></VP></S><CONJ>AND</CONJ><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>TRYING</V><CP><INFINITIVAL-TO>TO</INFINITIVAL-TO><VP><VP-><V>PRISE</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>GROUND</N></N1><ADVBL><ADV>WITH</ADV><NP><N1><N>HAMMER</N></N1></NP></ADVBL></N1></NP></VP-></VP></CP></VP-></VP-></VP></S></UTT></tree><terms root="#V179144"><lisp>((ONT::SPEECHACT ONT::V179144 ONT::SA_TELL :CONTENT ONT::V175227 :START 0 :END
+<   82)
+<  (ONT::F ONT::V175227 ONT::EVENT-OF-ACTION :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V175184 ONT::V175257) :TENSE W::PRES :PROGR + :START 0 :END 82)
+<  (ONT::F ONT::V175184 (:* ONT::BODY-MOVEMENT-SELF W::SQUAT) :RESULT
+<   ONT::V175215 :AGENT ONT::V175163 :TENSE W::PRES :PROGR + :START 0 :END 35)
+<  (ONT::INDEF-SET ONT::V175163 (:* ONT::PERSON W::VOLUNTEERS) :SIZE ONT::V175160
+<   :START 0 :END 16)
+<  (ONT::A ONT::V175160 ONT::NUMBER :VALUE 4 :START 0 :END 5)
+<  (ONT::F ONT::V175215 (:* ONT::DIRECTION-DOWN W::DOWN) :FIGURE ONT::V175163
+<   :START 30 :END 35)
+<  (ONT::F ONT::V175257 (:* ONT::TRY W::TRY) :AGENT ONT::V175163 :FORMAL
+<   ONT::V175296 :TENSE W::PRES :PROGR + :START 39 :END 82)
+<  (ONT::F ONT::V175296 (:* ONT::ACQUIRE W::PRISE) :AGENT ONT::V175163 :AFFECTED
+<   ONT::V175313 :VFORM W::BASE :START 50 :END 82)
+<  (ONT::THE ONT::V175313 (:* ONT::GEO-FORMATION W::GROUND) :MOD ONT::V175324
+<   :START 59 :END 82)
+<  (ONT::F ONT::V175324 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V175336 :FIGURE
+<   ONT::V175313 :START 70 :END 82)
+<  (ONT::BARE ONT::V175336 (:* ONT::TOOL W::HAMMER) :START 75 :END 82))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V179144">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V175227" />
+<     <LF:start>0</LF:start>
+<     <LF:end>82</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175227">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EVENT-OF-ACTION</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V175184" />
+<     <role:SEQUENCE1 rdf:resource="#V175257" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>82</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175184">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MOVEMENT-SELF</LF:type>
+<     <LF:word>SQUAT</LF:word>
+<     <role:RESULT rdf:resource="#V175215" />
+<     <role:AGENT rdf:resource="#V175163" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175163">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <LF:word>VOLUNTEERS</LF:word>
+<     <role:SIZE rdf:resource="#V175160" />
+<     <LF:start>0</LF:start>
+<     <LF:end>16</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175160">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>4</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>5</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175215">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>DIRECTION-DOWN</LF:type>
+<     <LF:word>DOWN</LF:word>
+<     <role:FIGURE rdf:resource="#V175163" />
+<     <LF:start>30</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175257">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TRY</LF:type>
+<     <LF:word>TRY</LF:word>
+<     <role:AGENT rdf:resource="#V175163" />
+<     <role:FORMAL rdf:resource="#V175296" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>39</LF:start>
+<     <LF:end>82</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175296">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ACQUIRE</LF:type>
+<     <LF:word>PRISE</LF:word>
+<     <role:AGENT rdf:resource="#V175163" />
+<     <role:AFFECTED rdf:resource="#V175313" />
+<     <role:VFORM>BASE</role:VFORM>
+<     <LF:start>50</LF:start>
+<     <LF:end>82</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175313">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>GROUND</LF:word>
+<     <role:MOD rdf:resource="#V175324" />
+<     <LF:start>59</LF:start>
+<     <LF:end>82</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175324">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V175336" />
+<     <role:FIGURE rdf:resource="#V175313" />
+<     <LF:start>70</LF:start>
+<     <LF:end>82</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V175336">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>TOOL</LF:type>
+<     <LF:word>HAMMER</LF:word>
+<     <LF:start>75</LF:start>
+<     <LF:end>82</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::AND W::CHISEL)</lisp><word>AND</word><word>CHISEL</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (82 85) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;chisel&quot; :FRAME (86 92) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;chisel&quot; :FRAME (86 92) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE
+<   13.278 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;prise the ground with hammer and chisel&quot; :FRAME (53 92) :PENN-CATS
+<   (VP) :TRIPS-CATS (W::VP) :SCORE 63.379 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;to prise the ground with hammer and chisel&quot; :FRAME (50 92) :PENN-CATS
+<   (VP) :TRIPS-CATS (W::VP) :SCORE 63.409 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;to prise the ground with hammer and chisel&quot; :FRAME (50 92) :PENN-CATS
+<   (S) :SCORE 63.673 :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;trying to prise the ground with hammer and chisel&quot; :FRAME (43 92)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 70.21 :UTTNUM 32 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;are trying to prise the ground with hammer and chisel&quot; :FRAME (39 92)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 75.926 :UTTNUM 32 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER
+<   &quot;are squatting down and are trying to prise the ground with hammer and chisel&quot;
+<   :FRAME (16 92) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 103.727 :UTTNUM 32
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (93 93) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 32 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;four volunteers are squatting down and are trying to prise the ground with hammer and chisel .&quot;
+<   :FRAME (0 93) :PENN-CATS (S) :SCORE 125.351 :UTTNUM 32 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="and" start="82" end="85"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="chisel" start="86" end="92"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><prefer text="chisel" start="86" end="92" penn-cats="VP" score="13.278" /><prefer text="prise the ground with hammer and chisel" start="53" end="92" penn-cats="VP" score="63.379" /><prefer text="to prise the ground with hammer and chisel" start="50" end="92" penn-cats="VP" score="63.409" /><prefer text="to prise the ground with hammer and chisel" start="50" end="92" penn-cats="S" score="63.673" /><prefer text="trying to prise the ground with hammer and chisel" start="43" end="92" penn-cats="VP" score="70.21" /><prefer text="are trying to prise the ground with hammer and chisel" start="39" end="92" penn-cats="VP" score="75.926" /><prefer text="are squatting down and are trying to prise the ground with hammer and chisel" start="16" end="92" penn-cats="VP" score="103.727" /><word lex="." start="93" end="93"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="four volunteers are squatting down and are trying to prise the ground with hammer and chisel ." start="0" end="93" penn-cats="S" score="125.351" /></tags><tree><lisp>(CP (WORD AND) (VP (VP- (V CHISEL))))</lisp><CP><WORD>AND</WORD><VP><VP-><V>CHISEL</V></VP-></VP></CP></tree><terms root="#V175353"><lisp>((ONT::F ONT::V175353 (:* ONT::TAKE-BY-DECEPTION W::CHISEL) :VFORM W::BASE
+<   :START 82 :END 93))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V175353">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TAKE-BY-DECEPTION</LF:type>
+<     <LF:word>CHISEL</LF:word>
+<     <role:VFORM>BASE</role:VFORM>
+<     <LF:start>82</LF:start>
+<     <LF:end>93</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="82">
+>    <TEXT>four volunteers are squatting down and are trying to prise the ground with hammer a</TEXT>
+>    <RELATION id="1" head="V179144" res="V175227" label="CONTENT"/>
+>    <PHRASE id="V175227" indicator="F" type="EVENT-OF-ACTION" OPERATOR="AND" TENSE="PRES" PROGR="+" start="0" end="82"/>
+>    <RELATION id="2" head="V175227" res="V175184" label="SEQUENCE"/>
+>    <RELATION id="3" head="V175227" res="V175257" label="SEQUENCE1"/>
+>    <PHRASE id="V175184" indicator="F" type="BODY-MOVEMENT-SELF" text="SQUAT" TENSE="PRES" PROGR="+" start="0" end="35"/>
+>    <RELATION id="4" head="V175184" res="V175215" label="RESULT"/>
+>    <RELATION id="5" head="V175184" res="V175163" label="AGENT"/>
+>    <PHRASE id="V175163" indicator="INDEF-SET" type="PERSON" text="VOLUNTEERS" start="0" end="16"/>
+>    <RELATION id="6" head="V175163" res="V175160" label="SIZE"/>
+>    <PHRASE id="V175160" indicator="A" type="NUMBER" VALUE="4" start="0" end="5"/>
+>    <PHRASE id="V175215" indicator="F" type="DIRECTION-DOWN" text="DOWN" start="30" end="35"/>
+>    <RELATION id="7" head="V175215" res="V175163" label="FIGURE"/>
+>    <PHRASE id="V175257" indicator="F" type="TRY" text="TRY" TENSE="PRES" PROGR="+" start="39" end="82"/>
+>    <RELATION id="8" head="V175257" res="V175163" label="AGENT"/>
+>    <RELATION id="9" head="V175257" res="V175296" label="FORMAL"/>
+>    <PHRASE id="V175296" indicator="F" type="ACQUIRE" text="PRISE" VFORM="BASE" start="50" end="82"/>
+>    <RELATION id="10" head="V175296" res="V175163" label="AGENT"/>
+>    <RELATION id="11" head="V175296" res="V175313" label="AFFECTED"/>
+>    <PHRASE id="V175313" indicator="THE" type="GEO-FORMATION" text="GROUND" start="59" end="82"/>
+>    <RELATION id="12" head="V175313" res="V175324" label="MOD"/>
+>    <PHRASE id="V175324" indicator="F" type="ASSOC-WITH" text="WITH" start="70" end="82"/>
+>    <RELATION id="13" head="V175324" res="V175336" label="GROUND"/>
+>    <RELATION id="14" head="V175324" res="V175313" label="FIGURE"/>
+>    <PHRASE id="V175336" indicator="BARE" type="TOOL" text="HAMMER" start="75" end="82"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="F" type="TAKE-BY-DECEPTION" text="CHISEL" VFORM="BASE" start="82" end="93">
+>    <TEXT>and chisel .</TEXT>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

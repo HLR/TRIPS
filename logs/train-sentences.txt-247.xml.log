@@ -1,0 +1,142 @@
+2,124c2,17
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="three are wearing a green hat .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?16708:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V219976)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?16706)
+<                                            (W::TRANSFORM ?16707)))
+<                                  (W::CASE ?16705:(W::SUB W::OBJ -))
+<                                  (W::AGR ?16704) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V219976) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER219990))
+< *last-utt-id*=NIL  utt-id+37
+< *last-utt-id*=37  utt-id+NIL</debug><utt><words><lisp>(W::THREE W::ARE W::WEARING W::A W::GREEN W::HAT W::PUNC-PERIOD)</lisp><word>THREE</word><word>ARE</word><word>WEARING</word><word>A</word><word>GREEN</word><word>HAT</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;three&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;three&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 10.228
+<   :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (6 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 37
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wearing&quot; :FRAME (10 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 37
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (18 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;green&quot; :FRAME (20 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hat&quot; :FRAME (26 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 37
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a green hat&quot; :FRAME (18 29) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.344 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;wearing a green hat&quot; :FRAME (10 29) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 31.031 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are wearing a green hat&quot; :FRAME (6 29) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 35.394 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (30 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;three are wearing a green hat .&quot; :FRAME (0 30) :PENN-CATS (S) :SCORE
+<   46.764 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="three" start="0" end="5"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="three" start="0" end="5" penn-cats="NP" score="10.228" /><word lex="are" start="6" end="9"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="wearing" start="10" end="17"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="18" end="19"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="green" start="20" end="25"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="hat" start="26" end="29"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a green hat" start="18" end="29" penn-cats="NP" score="22.344" /><prefer text="wearing a green hat" start="10" end="29" penn-cats="VP" score="31.031" /><prefer text="are wearing a green hat" start="6" end="29" penn-cats="VP" score="35.394" /><word lex="." start="30" end="30"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="three are wearing a green hat ." start="0" end="30" penn-cats="S" score="46.764" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (NUMBER THREE))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (V WEARING)
+<       (NP (SPEC (DET (ART A)))
+<        (N1 (ADJP (ADJ1 (ADJ GREEN))) (N1 (N HAT)))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><NUMBER>THREE</NUMBER></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><N1><N>HAT</N></N1></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V219774"><lisp>((ONT::SPEECHACT ONT::V219774 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V219588 :START 0 :END 30)
+<  (ONT::F ONT::V219588 (:* ONT::WEAR W::WEAR) :AGENT ONT::V219566 :NEUTRAL
+<   ONT::V219646 :TENSE W::PRES :PROGR + :START 0 :END 30)
+<  (ONT::INDEF-SET ONT::V219566 ONT::NUMBER :NUMBER 3 :START 0 :END 6)
+<  (ONT::A ONT::V219646 (:* ONT::ATTIRE W::HAT) :MOD ONT::V219635 :START 18 :END
+<   30)
+<  (ONT::F ONT::V219635 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V219646 :SCALE
+<   ONT::GREEN*1--07--00 :START 20 :END 26))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V219774">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V219588" />
+<     <LF:start>0</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V219588">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:AGENT rdf:resource="#V219566" />
+<     <role:NEUTRAL rdf:resource="#V219646" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V219566">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:NUMBER>3</role:NUMBER>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V219646">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>HAT</LF:word>
+<     <role:MOD rdf:resource="#V219635" />
+<     <LF:start>18</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V219635">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>GREEN</LF:type>
+<     <LF:word>GREEN</LF:word>
+<     <role:FIGURE rdf:resource="#V219646" />
+<     <role:SCALE>GREEN*1--07--00</role:SCALE>
+<     <LF:start>20</LF:start>
+<     <LF:end>26</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="30">
+>    <TEXT>three are wearing a green hat .</TEXT>
+>    <RELATION id="1" head="V219774" res="V219588" label="CONTENT"/>
+>    <PHRASE id="V219588" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="0" end="30"/>
+>    <RELATION id="2" head="V219588" res="V219566" label="AGENT"/>
+>    <RELATION id="3" head="V219588" res="V219646" label="NEUTRAL"/>
+>    <PHRASE id="V219566" indicator="INDEF-SET" type="NUMBER" NUMBER="3" start="0" end="6"/>
+>    <PHRASE id="V219646" indicator="A" type="ATTIRE" text="HAT" start="18" end="30"/>
+>    <RELATION id="4" head="V219646" res="V219635" label="MOD"/>
+>    <PHRASE id="V219635" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="20" end="26"/>
+>    <RELATION id="5" head="V219635" res="V219646" label="FIGURE"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>
