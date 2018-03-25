@@ -1,0 +1,19 @@
+digraph Terms {
+  node [shape=none]
+  "HANDPRINTS ON THE WALL BEHIND HER PUNC-PERIOD"
+  "V316536" [label="(SPEECHACT V316536 SA_IDENTIFY)"]
+  "V316536" -> "V316403" [label=":CONTENT"]
+  "V316403" [label="(INDEF-SET V316403 (:* REFERENTIAL-SEM HANDPRINTS))"]
+  "V316403" -> "V316443" [label=":MOD"]
+  "V316403" -> "V316411" [label=":MOD"]
+  "V316411" [label="(F V316411 (:* ON ON))"]
+  "V316411" -> "V316440" [label=":GROUND"]
+  "V316411" -> "V316403" [label=":FIGURE"]
+  "V316440" [label="(THE V316440 (:* STRUCTURE-INTERNAL-COMPONENT WALL))"]
+  "V316443" [label="(F V316443 (:* BACK BEHIND))"]
+  "V316443" -> "V316448" [label=":GROUND"]
+  "V316443" -> "V316403" [label=":FIGURE"]
+  "V316448" [label="(PRO V316448 (:* FEMALE-PERSON HER))"]
+  "V316448" -> "NT316794" [label=":PROFORM"]
+  "NT316794" [label="HER"]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="49">
+   <TEXT>one kid in the foreground is wearing a green hat .</TEXT>
+   <RELATION id="1" head="V399012" res="V398055" label="CONTENT"/>
+   <PHRASE id="V398055" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="0" end="49"/>
+   <RELATION id="2" head="V398055" res="V397963" label="AGENT"/>
+   <RELATION id="3" head="V398055" res="V398113" label="NEUTRAL"/>
+   <PHRASE id="V397963" indicator="A" type="CHILD" text="KID" start="0" end="26"/>
+   <RELATION id="4" head="V397963" res="V398121" label="SIZE"/>
+   <RELATION id="5" head="V397963" res="V397970" label="LOCATION"/>
+   <PHRASE id="V398121" indicator="A" type="NUMBER" VALUE="1" start="0" end="26"/>
+   <PHRASE id="V397970" indicator="F" type="IN-LOC" text="IN" start="8" end="26"/>
+   <RELATION id="6" head="V397970" res="V398029" label="GROUND"/>
+   <RELATION id="7" head="V397970" res="V397963" label="FIGURE"/>
+   <PHRASE id="V398029" indicator="THE" type="DEVICE" text="FOREGROUND" start="11" end="26"/>
+   <PHRASE id="V398113" indicator="A" type="ATTIRE" text="HAT" start="37" end="49"/>
+   <RELATION id="8" head="V398113" res="V398102" label="MOD"/>
+   <PHRASE id="V398102" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="39" end="45"/>
+   <RELATION id="9" head="V398102" res="V398113" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

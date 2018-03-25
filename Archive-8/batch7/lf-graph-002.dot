@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "HOUSES AND TREES IN DISTANCE PUNC-PERIOD"
+  "V53321" [label="(SPEECHACT V53321 SA_IDENTIFY)"]
+  "V53321" -> "V53173" [label=":CONTENT"]
+  "V53173" [label="(INDEF-SET V53173 PHYS-OBJECT)"]
+  "V53173" -> "NT53688" [label=":OPERATOR"]
+  "NT53688" [label="AND"]
+  "V53173" -> "V53168" [label=":SEQUENCE"]
+  "V53173" -> "V53182" [label=":SEQUENCE-1"]
+  "V53168" [label="(INDEF-SET V53168 (:* LODGING HOUSE))"]
+  "V53182" [label="(INDEF-SET V53182 (:* PLANT TREE))"]
+  "V53182" -> "V53189" [label=":LOCATION"]
+  "V53189" [label="(F V53189 (:* IN-LOC IN))"]
+  "V53189" -> "V53238" [label=":GROUND"]
+  "V53189" -> "V53182" [label=":FIGURE"]
+  "V53238" [label="(BARE V53238 (:* DISTANCE-SCALE DISTANCE))"]
+}

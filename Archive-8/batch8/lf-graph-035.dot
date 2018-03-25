@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "FURTHER CURTAINS AND A STANDARD LAMP PUNC-PERIOD"
+  "V266090" [label="(SPEECHACT V266090 SA_IDENTIFY)"]
+  "V266090" -> "V265972" [label=":CONTENT"]
+  "V265972" [label="(INDEF-SET V265972 DEVICE-COMPONENT)"]
+  "V265972" -> "NT266290" [label=":OPERATOR"]
+  "NT266290" [label="AND"]
+  "V265972" -> "V265968" [label=":SEQUENCE"]
+  "V265972" -> "V266031" [label=":SEQUENCE-1"]
+  "V265968" [label="(INDEF-SET V265968 (:* COVERING CURTAIN))"]
+  "V265968" -> "V265962" [label=":MOD"]
+  "V265962" [label="(F V265962 (:* REMOTE FURTHER))"]
+  "V265962" -> "V265968" [label=":FIGURE"]
+  "V265962" -> "NT266291" [label=":SCALE"]
+  "NT266291" [label="LINEAR-SCALE"]
+  "V266031" [label="(A V266031 (:* DEVICE-COMPONENT LAMP))"]
+  "V266031" -> "V266022" [label=":MOD"]
+  "V266022" [label="(F V266022 (:* TYPICAL-VAL STANDARD))"]
+  "V266022" -> "V266031" [label=":FIGURE"]
+}

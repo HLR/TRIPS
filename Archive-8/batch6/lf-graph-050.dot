@@ -1,0 +1,15 @@
+digraph Terms {
+  node [shape=none]
+  "ROCKY DESERT IN THE BACKGROUND PUNC-PERIOD"
+  "V254301" [label="(SPEECHACT V254301 SA_IDENTIFY)"]
+  "V254301" -> "V254146" [label=":CONTENT"]
+  "V254146" [label="(BARE V254146 (:* GROUP-OBJECT DESERT))"]
+  "V254146" -> "V254155" [label=":LOCATION"]
+  "V254146" -> "V254134" [label=":MOD"]
+  "V254134" [label="(F V254134 (:* NOT-SMOOTH-VAL ROCKY))"]
+  "V254134" -> "V254146" [label=":FIGURE"]
+  "V254155" [label="(F V254155 (:* IN-LOC IN))"]
+  "V254155" -> "V254211" [label=":GROUND"]
+  "V254155" -> "V254146" [label=":FIGURE"]
+  "V254211" [label="(THE V254211 (:* IMAGE BACKGROUND))"]
+}

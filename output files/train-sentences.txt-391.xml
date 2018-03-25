@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="17" end="34">
+   <TEXT>dark-haired girl i</TEXT>
+   <RELATION id="1" head="V362916" res="V362913" label="MOD"/>
+   <PHRASE id="V362913" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V362913" res="V362916" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="DIRECTION" text="IN" start="34" end="37">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="37" end="107" WNSENSE="stand_in%2:40:00">
+   <TEXT>a light brown jumper with orange edges is standing in front of a desk .</TEXT>
+   <RELATION id="3" head="V364140" res="V363196" label="CONTENT"/>
+   <PHRASE id="V363196" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="37" end="107" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="4" head="V363196" res="V363068" label="AGENT"/>
+   <RELATION id="5" head="V363196" res="V363202" label="AFFECTED"/>
+   <PHRASE id="V363068" indicator="A" type="PERSON" text="JUMPER" start="37" end="76"/>
+   <RELATION id="6" head="V363068" res="V363075" label="MOD"/>
+   <RELATION id="7" head="V363068" res="V363013" label="MOD"/>
+   <RELATION id="8" head="V363068" res="V363038" label="MOD"/>
+   <PHRASE id="V363013" indicator="F" type="LIGHTWEIGHT" text="LIGHT" ORIENTATION="LESS" INTENSITY="HI" SCALE="WEIGHT-SCALE" start="39" end="45"/>
+   <RELATION id="9" head="V363013" res="V363068" label="FIGURE"/>
+   <PHRASE id="V363038" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="45" end="51"/>
+   <RELATION id="10" head="V363038" res="V363068" label="FIGURE"/>
+   <PHRASE id="V363075" indicator="F" type="ASSOC-WITH" text="WITH" start="58" end="76"/>
+   <RELATION id="11" head="V363075" res="V363094" label="GROUND"/>
+   <RELATION id="12" head="V363075" res="V363068" label="FIGURE"/>
+   <PHRASE id="V363094" indicator="INDEF-SET" type="EDGE" text="EDGE" start="63" end="76"/>
+   <RELATION id="13" head="V363094" res="V363087" label="MOD"/>
+   <PHRASE id="V363087" indicator="F" type="ORANGE" text="ORANGE" SCALE="ORANGE*1--07--00" start="63" end="70"/>
+   <RELATION id="14" head="V363087" res="V363094" label="FIGURE"/>
+   <PHRASE id="V363202" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="91" end="107"/>
+   <RELATION id="15" head="V363202" res="V363304" label="FIGURE"/>
+   <PHRASE id="V363304" indicator="A" type="FURNISHINGS" text="DESK" start="97" end="107"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

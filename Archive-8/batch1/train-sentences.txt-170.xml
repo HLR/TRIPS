@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="the woman is wearing brown shorts and a yellow sleveless top .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?22102:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V264503)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?22100)
+                                           (W::TRANSFORM ?22101)))
+                                 (W::CASE ?22099:(W::SUB W::OBJ -))
+                                 (W::AGR ?22098) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V264503) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER264607))
+*last-utt-id*=NIL  utt-id+52
+*last-utt-id*=52  utt-id+NIL</debug><utt><words><lisp>(W::THE W::WOMAN W::IS W::WEARING W::BROWN W::SHORTS W::AND W::A W::YELLOW
+ W::SLEVELESS W::TOP W::PUNC-PERIOD)</lisp><word>THE</word><word>WOMAN</word><word>IS</word><word>WEARING</word><word>BROWN</word><word>SHORTS</word><word>AND</word><word>A</word><word>YELLOW</word><word>SLEVELESS</word><word>TOP</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;the&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;woman&quot; :FRAME (4 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the woman&quot; :FRAME (0 9) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.317 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (10 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wearing&quot; :FRAME (13 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;brown&quot; :FRAME (21 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;shorts&quot; :FRAME (27 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;brown shorts&quot; :FRAME (21 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 24.721 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (34 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (38 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;yellow&quot; :FRAME (40 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sleveless&quot; :FRAME (47 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;top&quot; :FRAME (57 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 52
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a yellow sleveless top&quot; :FRAME (38 60) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 37.264 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;brown shorts and a yellow sleveless top&quot; :FRAME (21 60) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 65.875 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;wearing brown shorts and a yellow sleveless top&quot; :FRAME (13 60)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 75.003 :UTTNUM 52 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;is wearing brown shorts and a yellow sleveless top&quot; :FRAME (10 60)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 79.263 :UTTNUM 52 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (61 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the woman is wearing brown shorts and a yellow sleveless top .&quot;
+  :FRAME (0 61) :PENN-CATS (S) :SCORE 90.722 :UTTNUM 52 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="the" start="0" end="3"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="woman" start="4" end="9"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the woman" start="0" end="9" penn-cats="NP" score="10.317" /><word lex="is" start="10" end="12"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="wearing" start="13" end="20"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="brown" start="21" end="26"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="shorts" start="27" end="33"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="brown shorts" start="21" end="33" penn-cats="NP" score="24.721" /><word lex="and" start="34" end="37"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="38" end="39"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="yellow" start="40" end="46"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="sleveless" start="47" end="56"><sense-info penn-parts-of-speech="NN,NNS" trips-parts-of-speech="N" /></word><word lex="top" start="57" end="60"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a yellow sleveless top" start="38" end="60" penn-cats="NP" score="37.264" /><prefer text="brown shorts and a yellow sleveless top" start="21" end="60" penn-cats="NP" score="65.875" /><prefer text="wearing brown shorts and a yellow sleveless top" start="13" end="60" penn-cats="VP" score="75.003" /><prefer text="is wearing brown shorts and a yellow sleveless top" start="10" end="60" penn-cats="VP" score="79.263" /><word lex="." start="61" end="61"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="the woman is wearing brown shorts and a yellow sleveless top ." start="0" end="61" penn-cats="S" score="90.722" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (DET (ART THE))) (N1 (N WOMAN)))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V WEARING)
+      (NP (NP (N1 (ADJP (ADJ1 (ADJ BROWN))) (N1 (N SHORTS)))) (CONJ AND)
+       (NP (SPEC (DET (ART A)))
+        (N1 (N1 (ADJP (ADJ1 (ADJ YELLOW))) (N1 (N SLEVELESS)))
+         (N1 (N TOP))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WOMAN</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>WEARING</V><NP><NP><N1><ADJP><ADJ1><ADJ>BROWN</ADJ></ADJ1></ADJP><N1><N>SHORTS</N></N1></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>YELLOW</ADJ></ADJ1></ADJP><N1><N>SLEVELESS</N></N1></N1><N1><N>TOP</N></N1></N1></NP></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V264570"><lisp>((ONT::SPEECHACT ONT::V264570 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V264037 :START 0 :END 61)
+ (ONT::F ONT::V264037 (:* ONT::WEAR W::WEAR) :AGENT ONT::V264012 :NEUTRAL
+  ONT::V264056 :TENSE W::PRES :PROGR + :START 0 :END 61)
+ (ONT::THE ONT::V264012 (:* ONT::FEMALE-PERSON W::WOMAN) :START 0 :END 10)
+ (ONT::INDEF-SET ONT::V264056 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V264052 ONT::V264120) :START 21 :END 61)
+ (ONT::BARE ONT::V264052 (:* ONT::ATTIRE W::SHORTS) :MOD ONT::V264043 :START 21
+  :END 34)
+ (ONT::F ONT::V264043 (:* ONT::BROWN W::BROWN) :FIGURE ONT::V264052 :SCALE
+  ONT::BROWNNESS*1--07--00 :START 21 :END 27)
+ (ONT::A ONT::V264120 (:* ONT::TOP-LOCATION W::TOP) :ASSOC-WITH ONT::V264113
+  :START 38 :END 61)
+ (ONT::KIND ONT::V264113 (:* ONT::REFERENTIAL-SEM W::SLEVELESS) :MOD
+  ONT::V264106 :START 38 :END 61)
+ (ONT::F ONT::V264106 (:* ONT::YELLOW W::YELLOW) :FIGURE ONT::V264113 :SCALE
+  ONT::YELLOW*1--07--00 :START 40 :END 47))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V264570">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V264037" />
+    <LF:start>0</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264037">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V264012" />
+    <role:NEUTRAL rdf:resource="#V264056" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264012">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>FEMALE-PERSON</LF:type>
+    <LF:word>WOMAN</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>10</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264056">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PHYS-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V264052" />
+    <role:SEQUENCE1 rdf:resource="#V264120" />
+    <LF:start>21</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264052">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>SHORTS</LF:word>
+    <role:MOD rdf:resource="#V264043" />
+    <LF:start>21</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264043">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BROWN</LF:type>
+    <LF:word>BROWN</LF:word>
+    <role:FIGURE rdf:resource="#V264052" />
+    <role:SCALE>BROWNNESS*1--07--00</role:SCALE>
+    <LF:start>21</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264120">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>TOP-LOCATION</LF:type>
+    <LF:word>TOP</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V264113" />
+    <LF:start>38</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264113">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>SLEVELESS</LF:word>
+    <role:MOD rdf:resource="#V264106" />
+    <LF:start>38</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V264106">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>YELLOW</LF:type>
+    <LF:word>YELLOW</LF:word>
+    <role:FIGURE rdf:resource="#V264113" />
+    <role:SCALE>YELLOW*1--07--00</role:SCALE>
+    <LF:start>40</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

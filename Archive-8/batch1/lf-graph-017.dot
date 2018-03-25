@@ -1,0 +1,23 @@
+digraph Terms {
+  node [shape=none]
+  "ONE OF THEM IS HOLDING A BOX PUNC-PERIOD"
+  "V74881" [label="(SPEECHACT V74881 SA_TELL)"]
+  "V74881" -> "V74261" [label=":CONTENT"]
+  "V74261" [label="(F V74261 (:* BODY-MANIPULATION HOLD))"]
+  "V74261" -> "V74223" [label=":AGENT"]
+  "V74261" -> "V74313" [label=":AFFECTED"]
+  "V74261" -> "NT75176" [label=":TENSE"]
+  "NT75176" [label="PRES"]
+  "V74261" -> "NT75177" [label=":PROGR"]
+  "NT75177" [label="+"]
+  "V74223" [label="(BARE V74223 (:* REFERENTIAL-SEM ONE))"]
+  "V74223" -> "V74231" [label=":MOD"]
+  "V74231" [label="(F V74231 (:* CONTAIN-RELN OF))"]
+  "V74231" -> "V74237" [label=":GROUND"]
+  "V74231" -> "V74223" [label=":FIGURE"]
+  "V74237" [label="(PRO-SET V74237 (:* REFERENTIAL-SEM THEM))"]
+  "V74237" -> "NT75178" [label=":PROFORM"]
+  "NT75178" [label="THEM"]
+  "V74237" -> "V64038" [label=":COREF"]
+  "V74313" [label="(A V74313 (:* BOX BOX))"]
+}

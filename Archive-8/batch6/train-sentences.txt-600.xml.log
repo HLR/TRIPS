@@ -1,0 +1,424 @@
+2,371c2,52
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-skinned girl with dark long hair wearing a white vest is standing in a classroom in front of all the desks .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+1
+< *last-utt-id*=1  utt-id+1
+< *last-utt-id*=1  utt-id+NIL</debug><compound-communication-act>
+< <utt><words><lisp>(W::A W::DARK W::PUNC-MINUS W::SKINNED W::GIRL W::WITH W::DARK W::LONG W::HAIR)</lisp><word>A</word><word>DARK</word><word>PUNC-MINUS</word><word>SKINNED</word><word>GIRL</word><word>WITH</word><word>DARK</word><word>LONG</word><word>HAIR</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;skinned&quot; :FRAME (7 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark-skinned&quot; :FRAME (2 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+<     (&quot;dark-skinned%5:00:00&quot;)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;girl&quot; :FRAME (15 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a dark-skinned girl&quot; :FRAME (0 19) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 25.241 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (20 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (25 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;long&quot; :FRAME (30 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hair&quot; :FRAME (35 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;dark long hair&quot; :FRAME (25 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 30.121 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="skinned" start="7" end="14"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-skinned" start="2" end="14"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-skinned%5:00:00" /></word><word lex="girl" start="15" end="19"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-skinned girl" start="0" end="19" penn-cats="NP" score="25.241" /><word lex="with" start="20" end="24"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="dark" start="25" end="29"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="long" start="30" end="34"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="hair" start="35" end="39"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="dark long hair" start="25" end="39" penn-cats="NP" score="30.121" /></tags><tree><lisp>(NP (SPEC (DET (ART A)))
+<  (N1 (N1 (ADJP (N1 (N DARK)) (PUNC PUNC-MINUS) (V SKINNED)) (N1 (N GIRL)))
+<   (ADVBL (ADV WITH)
+<    (NP
+<     (N1 (ADJP (ADJ1 (ADJ DARK)))
+<      (N1 (ADJP (ADJ1 (ADJ LONG))) (N1 (N HAIR))))))))</lisp><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><N1><N>DARK</N></N1><PUNC>PUNC-MINUS</PUNC><V>SKINNED</V></ADJP><N1><N>GIRL</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><N1><ADJP><ADJ1><ADJ>DARK</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>LONG</ADJ></ADJ1></ADJP><N1><N>HAIR</N></N1></N1></N1></NP></ADVBL></N1></NP></tree><terms root="#V33236"><lisp>((ONT::A ONT::V33236 (:* ONT::FEMALE-CHILD W::GIRL) :MOD ONT::V33240 :MOD
+<   ONT::V33221 :START 0 :END 40)
+<  (ONT::F ONT::V33221 (:* ONT::MOVE W::SKINNED) :AGENT ONT::V33210 :AFFECTED
+<   ONT::V33236 :START 2 :END 15)
+<  (ONT::KIND ONT::V33210 (:* ONT::LIGHT W::DARK) :START 2 :END 15)
+<  (ONT::F ONT::V33240 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V33266 :FIGURE
+<   ONT::V33236 :START 20 :END 40)
+<  (ONT::BARE ONT::V33266 (:* ONT::EXTERNAL-BODY-PART W::HAIR) :MOD ONT::V33252
+<   :MOD ONT::V33259 :START 25 :END 40)
+<  (ONT::F ONT::V33252 (:* ONT::DARK-VAL W::DARK) :FIGURE ONT::V33266 :START 25
+<   :END 30)
+<  (ONT::F ONT::V33259 (:* ONT::LONG W::LONG) :FIGURE ONT::V33266 :SCALE
+<   ONT::SIZE-SCALE :START 30 :END 35))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V33236">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FEMALE-CHILD</LF:type>
+<     <LF:word>GIRL</LF:word>
+<     <role:MOD rdf:resource="#V33240" />
+<     <role:MOD rdf:resource="#V33221" />
+<     <LF:start>0</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33221">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MOVE</LF:type>
+<     <LF:word>SKINNED</LF:word>
+<     <role:AGENT rdf:resource="#V33210" />
+<     <role:AFFECTED rdf:resource="#V33236" />
+<     <LF:start>2</LF:start>
+<     <LF:end>15</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33210">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>LIGHT</LF:type>
+<     <LF:word>DARK</LF:word>
+<     <LF:start>2</LF:start>
+<     <LF:end>15</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33240">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V33266" />
+<     <role:FIGURE rdf:resource="#V33236" />
+<     <LF:start>20</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33266">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>EXTERNAL-BODY-PART</LF:type>
+<     <LF:word>HAIR</LF:word>
+<     <role:MOD rdf:resource="#V33252" />
+<     <role:MOD rdf:resource="#V33259" />
+<     <LF:start>25</LF:start>
+<     <LF:end>40</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33252">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>DARK-VAL</LF:type>
+<     <LF:word>DARK</LF:word>
+<     <role:FIGURE rdf:resource="#V33266" />
+<     <LF:start>25</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33259">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LONG</LF:type>
+<     <LF:word>LONG</LF:word>
+<     <role:FIGURE rdf:resource="#V33266" />
+<     <role:SCALE>SIZE-SCALE</role:SCALE>
+<     <LF:start>30</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::WEARING W::A W::WHITE W::VEST W::IS W::STANDING W::IN W::A W::CLASSROOM
+<  W::IN W::FRONT W::OF W::ALL W::THE W::DESKS)</lisp><word>WEARING</word><word>A</word><word>WHITE</word><word>VEST</word><word>IS</word><word>STANDING</word><word>IN</word><word>A</word><word>CLASSROOM</word><word>IN</word><word>FRONT</word><word>OF</word><word>ALL</word><word>THE</word><word>DESKS</word></words><tags><lisp>((WORD &quot;wearing&quot; :FRAME (40 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (48 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;white&quot; :FRAME (50 55) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;vest&quot; :FRAME (56 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a white vest&quot; :FRAME (48 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.931 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;wearing a white vest&quot; :FRAME (40 60) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 31.618 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;dark long hair wearing a white vest&quot; :FRAME (25 60) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 64.777 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;with dark long hair wearing a white vest&quot; :FRAME (20 60) :PENN-CATS
+<   (PP) :TRIPS-CATS (W::PP) :SCORE 68.836 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;a dark-skinned girl with dark long hair wearing a white vest&quot; :FRAME
+<   (0 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 95.359 :UTTNUM 1 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (61 63) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing&quot; :FRAME (64 72) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (73 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP IN) :TRIPS-PARTS-OF-SPEECH
+<     (W::PART W::PREP W::ADV)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing in&quot; :FRAME (64 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;stand_in%2:40:00&quot;)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (76 77) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;classroom&quot; :FRAME (78 87) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a classroom&quot; :FRAME (76 87) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 13.447 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (88 90) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;front&quot; :FRAME (91 96) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;front&quot; :FRAME (91 96) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.944 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in front&quot; :FRAME (88 96) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+<     (&quot;in_front%4:02:00&quot;)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (97 99) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;all&quot; :FRAME (100 103) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT PDT) :TRIPS-PARTS-OF-SPEECH
+<     (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (104 107) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;desks&quot; :FRAME (108 113) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;all the desks&quot; :FRAME (100 113) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 18.731 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of all the desks&quot; :FRAME (97 113) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 19.798 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;front of all the desks&quot; :FRAME (91 113) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 31.284 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in front of all the desks&quot; :FRAME (88 113) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 34.88 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a classroom in front of all the desks&quot; :FRAME (76 113) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 48.867 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;in a classroom in front of all the desks&quot; :FRAME (73 113) :PENN-CATS
+<   (PP) :TRIPS-CATS (W::PP) :SCORE 52.076 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;standing in a classroom in front of all the desks&quot; :FRAME (64 113)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 61.25 :UTTNUM 1 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;is standing in a classroom in front of all the desks&quot; :FRAME (61 113)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 65.51 :UTTNUM 1 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (114 114) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;a dark-skinned girl with dark long hair wearing a white vest is standing in a classroom in front of all the desks .&quot;
+<   :FRAME (0 114) :PENN-CATS (S) :SCORE 164.783 :UTTNUM 1 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="wearing" start="40" end="47"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="48" end="49"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="white" start="50" end="55"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="vest" start="56" end="60"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a white vest" start="48" end="60" penn-cats="NP" score="22.931" /><prefer text="wearing a white vest" start="40" end="60" penn-cats="VP" score="31.618" /><prefer text="dark long hair wearing a white vest" start="25" end="60" penn-cats="NP" score="64.777" /><prefer text="with dark long hair wearing a white vest" start="20" end="60" penn-cats="PP" score="68.836" /><prefer text="a dark-skinned girl with dark long hair wearing a white vest" start="0" end="60" penn-cats="NP" score="95.359" /><word lex="is" start="61" end="63"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="standing" start="64" end="72"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="73" end="75"><sense-info penn-parts-of-speech="RP,IN" trips-parts-of-speech="PART,PREP,ADV" /></word><word lex="standing in" start="64" end="75"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="a" start="76" end="77"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="classroom" start="78" end="87"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a classroom" start="76" end="87" penn-cats="NP" score="13.447" /><word lex="in" start="88" end="90"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="front" start="91" end="96"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="91" end="96" penn-cats="NP" score="10.944" /><word lex="in front" start="88" end="96"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="97" end="99"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="all" start="100" end="103"><sense-info penn-parts-of-speech="DT,PDT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="the" start="104" end="107"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="desks" start="108" end="113"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="all the desks" start="100" end="113" penn-cats="NP" score="18.731" /><prefer text="of all the desks" start="97" end="113" penn-cats="PP" score="19.798" /><prefer text="front of all the desks" start="91" end="113" penn-cats="NP" score="31.284" /><prefer text="in front of all the desks" start="88" end="113" penn-cats="PP" score="34.88" /><prefer text="a classroom in front of all the desks" start="76" end="113" penn-cats="NP" score="48.867" /><prefer text="in a classroom in front of all the desks" start="73" end="113" penn-cats="PP" score="52.076" /><prefer text="standing in a classroom in front of all the desks" start="64" end="113" penn-cats="VP" score="61.25" /><prefer text="is standing in a classroom in front of all the desks" start="61" end="113" penn-cats="VP" score="65.51" /><word lex="." start="114" end="114"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-skinned girl with dark long hair wearing a white vest is standing in a classroom in front of all the desks ." start="0" end="114" penn-cats="S" score="164.783" /></tags><tree><lisp>(UTT
+<  (S
+<   (NP
+<    (VP
+<     (VP- (V WEARING)
+<      (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ WHITE))) (N1 (N VEST)))))))
+<   (VP
+<    (VP- (V IS)
+<     (NP
+<      (N1 (N1 (V STANDING))
+<       (ADVBL (ADV IN)
+<        (NP (SPEC (DET (ART A)))
+<         (N1 (N1 (N CLASSROOM))
+<          (ADVBL (ADV IN)
+<           (NP
+<            (N1 (N FRONT)
+<             (PP (PREP OF)
+<              (NP (SPEC (QUAN ALL))
+<               (NP (SPEC (DET (ART THE))) (N1 (N DESKS)))))))))))))))))</lisp><UTT><S><NP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>WHITE</ADJ></ADJ1></ADJP><N1><N>VEST</N></N1></N1></NP></VP-></VP></NP><VP><VP-><V>IS</V><NP><N1><N1><V>STANDING</V></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>CLASSROOM</N></N1><ADVBL><ADV>IN</ADV><NP><N1><N>FRONT</N><PP><PREP>OF</PREP><NP><SPEC><QUAN>ALL</QUAN></SPEC><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>DESKS</N></N1></NP></NP></PP></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT></tree><terms root="#V37509"><lisp>((ONT::SPEECHACT ONT::V37509 ONT::SA_TELL :CONTENT ONT::V33336 :START 40 :END
+<   114)
+<  (ONT::F ONT::V33336 (:* ONT::BE W::BE) :NEUTRAL ONT::V33272 :NEUTRAL1
+<   ONT::V33353 :TENSE W::PRES :START 40 :END 114)
+<  (ONT::BARE ONT::V33272 (:* ONT::WEAR W::WEAR) :NEUTRAL ONT::V33327 :START 40
+<   :END 61)
+<  (ONT::A ONT::V33327 (:* ONT::ATTIRE W::VEST) :MOD ONT::V33319 :START 48 :END
+<   61)
+<  (ONT::F ONT::V33319 (:* ONT::WHITE W::WHITE) :FIGURE ONT::V33327 :SCALE
+<   ONT::WHITE*1--07--00 :START 50 :END 56)
+<  (ONT::BARE ONT::V33353 (:* ONT::BE-AT-LOC W::STAND) :LOCATION ONT::V33362
+<   :START 64 :END 114)
+<  (ONT::F ONT::V33362 (:* ONT::IN-LOC W::IN) :GROUND ONT::V33464 :FIGURE
+<   ONT::V33353 :START 73 :END 114)
+<  (ONT::A ONT::V33464 (:* ONT::INTERNAL-ENCLOSURE W::CLASSROOM) :LOCATION
+<   ONT::V33471 :START 76 :END 114)
+<  (ONT::F ONT::V33471 (:* ONT::IN-LOC W::IN) :GROUND ONT::V33520 :FIGURE
+<   ONT::V33464 :START 88 :END 114)
+<  (ONT::BARE ONT::V33520 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+<   ONT::V33669 :START 91 :END 114)
+<  (ONT::QUANTIFIER ONT::V33669 (:* ONT::FURNISHINGS W::DESK) :REFSET ONT::V33604
+<   :QUAN ONT::UNIVERSAL :START 97 :END 114)
+<  (ONT::THE-SET ONT::V33604 (:* ONT::FURNISHINGS W::DESK) :START 104 :END 114))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V37509">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V33336" />
+<     <LF:start>40</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33336">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BE</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V33272" />
+<     <role:NEUTRAL1 rdf:resource="#V33353" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>40</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33272">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:NEUTRAL rdf:resource="#V33327" />
+<     <LF:start>40</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33327">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>VEST</LF:word>
+<     <role:MOD rdf:resource="#V33319" />
+<     <LF:start>48</LF:start>
+<     <LF:end>61</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33319">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WHITE</LF:type>
+<     <LF:word>WHITE</LF:word>
+<     <role:FIGURE rdf:resource="#V33327" />
+<     <role:SCALE>WHITE*1--07--00</role:SCALE>
+<     <LF:start>50</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33353">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>BE-AT-LOC</LF:type>
+<     <LF:word>STAND</LF:word>
+<     <role:LOCATION rdf:resource="#V33362" />
+<     <LF:start>64</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33362">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V33464" />
+<     <role:FIGURE rdf:resource="#V33353" />
+<     <LF:start>73</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33464">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>CLASSROOM</LF:word>
+<     <role:LOCATION rdf:resource="#V33471" />
+<     <LF:start>76</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33471">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V33520" />
+<     <role:FIGURE rdf:resource="#V33464" />
+<     <LF:start>88</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33520">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>FRONT</LF:word>
+<     <role:FIGURE rdf:resource="#V33669" />
+<     <LF:start>91</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33669">
+<     <LF:indicator>QUANTIFIER</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>DESK</LF:word>
+<     <role:REFSET rdf:resource="#V33604" />
+<     <role:QUAN>UNIVERSAL</role:QUAN>
+<     <LF:start>97</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33604">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>DESK</LF:word>
+<     <LF:start>104</LF:start>
+<     <LF:end>114</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></compound-communication-act>
+< </trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="40">
+>    <TEXT>a dark-skinned girl with dark long hair w</TEXT>
+>    <RELATION id="1" head="V33236" res="V33240" label="MOD"/>
+>    <RELATION id="2" head="V33236" res="V33221" label="MOD"/>
+>    <PHRASE id="V33221" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+>    <RELATION id="3" head="V33221" res="V33210" label="AGENT"/>
+>    <RELATION id="4" head="V33221" res="V33236" label="AFFECTED"/>
+>    <PHRASE id="V33210" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+>    <PHRASE id="V33240" indicator="F" type="ASSOC-WITH" text="WITH" start="20" end="40"/>
+>    <RELATION id="5" head="V33240" res="V33266" label="GROUND"/>
+>    <RELATION id="6" head="V33240" res="V33236" label="FIGURE"/>
+>    <PHRASE id="V33266" indicator="BARE" type="EXTERNAL-BODY-PART" text="HAIR" start="25" end="40"/>
+>    <RELATION id="7" head="V33266" res="V33252" label="MOD"/>
+>    <RELATION id="8" head="V33266" res="V33259" label="MOD"/>
+>    <PHRASE id="V33252" indicator="F" type="DARK-VAL" text="DARK" start="25" end="30"/>
+>    <RELATION id="9" head="V33252" res="V33266" label="FIGURE"/>
+>    <PHRASE id="V33259" indicator="F" type="LONG" text="LONG" SCALE="SIZE-SCALE" start="30" end="35"/>
+>    <RELATION id="10" head="V33259" res="V33266" label="FIGURE"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="40" end="114">
+>    <TEXT>wearing a white vest is standing in a classroom in front of all the desks .</TEXT>
+>    <RELATION id="11" head="V37509" res="V33336" label="CONTENT"/>
+>    <PHRASE id="V33336" indicator="F" type="BE" text="BE" TENSE="PRES" start="40" end="114"/>
+>    <RELATION id="12" head="V33336" res="V33272" label="NEUTRAL"/>
+>    <RELATION id="13" head="V33336" res="V33353" label="NEUTRAL1"/>
+>    <PHRASE id="V33272" indicator="BARE" type="WEAR" text="WEAR" start="40" end="61"/>
+>    <RELATION id="14" head="V33272" res="V33327" label="NEUTRAL"/>
+>    <PHRASE id="V33327" indicator="A" type="ATTIRE" text="VEST" start="48" end="61"/>
+>    <RELATION id="15" head="V33327" res="V33319" label="MOD"/>
+>    <PHRASE id="V33319" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="50" end="56"/>
+>    <RELATION id="16" head="V33319" res="V33327" label="FIGURE"/>
+>    <PHRASE id="V33353" indicator="BARE" type="BE-AT-LOC" text="STAND" start="64" end="114"/>
+>    <RELATION id="17" head="V33353" res="V33362" label="LOCATION"/>
+>    <PHRASE id="V33362" indicator="F" type="IN-LOC" text="IN" start="73" end="114"/>
+>    <RELATION id="18" head="V33362" res="V33464" label="GROUND"/>
+>    <RELATION id="19" head="V33362" res="V33353" label="FIGURE"/>
+>    <PHRASE id="V33464" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="76" end="114"/>
+>    <RELATION id="20" head="V33464" res="V33471" label="LOCATION"/>
+>    <PHRASE id="V33471" indicator="F" type="IN-LOC" text="IN" start="88" end="114"/>
+>    <RELATION id="21" head="V33471" res="V33520" label="GROUND"/>
+>    <RELATION id="22" head="V33471" res="V33464" label="FIGURE"/>
+>    <PHRASE id="V33520" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="91" end="114"/>
+>    <RELATION id="23" head="V33520" res="V33669" label="FIGURE"/>
+>    <PHRASE id="V33669" indicator="QUANTIFIER" type="FURNISHINGS" text="DESK" QUAN="UNIVERSAL" start="97" end="114"/>
+>    <RELATION id="24" head="V33669" res="V33604" label="REFSET"/>
+>    <PHRASE id="V33604" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="104" end="114"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

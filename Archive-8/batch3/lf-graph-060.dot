@@ -1,0 +1,17 @@
+digraph Terms {
+  node [shape=none]
+  "HANDPRINTS ON THE WALL IN THE BACKGROUND PUNC-PERIOD"
+  "V326689" [label="(SPEECHACT V326689 SA_IDENTIFY)"]
+  "V326689" -> "V326454" [label=":CONTENT"]
+  "V326454" [label="(INDEF-SET V326454 (:* REFERENTIAL-SEM HANDPRINTS))"]
+  "V326454" -> "V326498" [label=":MOD"]
+  "V326454" -> "V326462" [label=":MOD"]
+  "V326462" [label="(F V326462 (:* ON ON))"]
+  "V326462" -> "V326491" [label=":GROUND"]
+  "V326462" -> "V326454" [label=":FIGURE"]
+  "V326491" [label="(THE V326491 (:* STRUCTURE-INTERNAL-COMPONENT WALL))"]
+  "V326498" [label="(F V326498 (:* IN-LOC IN))"]
+  "V326498" -> "V326563" [label=":GROUND"]
+  "V326498" -> "V326454" [label=":FIGURE"]
+  "V326563" [label="(THE V326563 (:* IMAGE BACKGROUND))"]
+}

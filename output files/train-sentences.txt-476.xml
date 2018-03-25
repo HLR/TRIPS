@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="24">
+   <TEXT>a man in the background .</TEXT>
+   <RELATION id="1" head="V398761" res="V398662" label="CONTENT"/>
+   <PHRASE id="V398662" indicator="A" type="MALE-PERSON" text="MAN" start="0" end="24"/>
+   <RELATION id="2" head="V398662" res="V398669" label="LOCATION"/>
+   <PHRASE id="V398669" indicator="F" type="IN-LOC" text="IN" start="6" end="24"/>
+   <RELATION id="3" head="V398669" res="V398725" label="GROUND"/>
+   <RELATION id="4" head="V398669" res="V398662" label="FIGURE"/>
+   <PHRASE id="V398725" indicator="THE" type="IMAGE" text="BACKGROUND" start="9" end="24"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

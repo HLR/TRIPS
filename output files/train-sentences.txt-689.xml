@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="14">
+   <TEXT>exterior shot .</TEXT>
+   <RELATION id="1" head="V306794" res="V306729" label="CONTENT"/>
+   <PHRASE id="V306729" indicator="F" type="MOVE-QUICKLY" text="SHOOT" TENSE="PAST" start="0" end="14"/>
+   <RELATION id="2" head="V306729" res="V306718" label="AFFECTED"/>
+   <PHRASE id="V306718" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="EXTERIOR" start="0" end="9"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

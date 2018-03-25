@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="MALE-CHILD" text="BOY" start="0" end="29">
+   <TEXT>dark-haired dark-skinned boy w</TEXT>
+   <RELATION id="1" head="V231514" res="V231483" label="MOD"/>
+   <RELATION id="2" head="V231514" res="V231487" label="MOD"/>
+   <RELATION id="3" head="V231514" res="V231497" label="MOD"/>
+   <PHRASE id="V231483" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="0" end="12" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V231483" res="V231514" label="FIGURE"/>
+   <PHRASE id="V231487" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="12" end="16"/>
+   <RELATION id="5" head="V231487" res="V231514" label="FIGURE"/>
+   <PHRASE id="V231497" indicator="F" type="MOVE" text="SKINNED" start="17" end="25"/>
+   <RELATION id="6" head="V231497" res="V231514" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="29" end="104">
+   <TEXT>wearing a dark blue jacket with a red and white collar is standing outside .</TEXT>
+   <RELATION id="7" head="V234400" res="V231684" label="CONTENT"/>
+   <PHRASE id="V231684" indicator="F" type="BE" text="BE" TENSE="PRES" start="29" end="104"/>
+   <RELATION id="8" head="V231684" res="V231520" label="NEUTRAL"/>
+   <RELATION id="9" head="V231684" res="V231701" label="NEUTRAL1"/>
+   <PHRASE id="V231520" indicator="BARE" type="WEAR" text="WEAR" start="29" end="84"/>
+   <RELATION id="10" head="V231520" res="V231593" label="NEUTRAL"/>
+   <PHRASE id="V231593" indicator="A" type="ATTIRE" text="JACKET" start="37" end="84"/>
+   <RELATION id="11" head="V231593" res="V231597" label="MOD"/>
+   <RELATION id="12" head="V231593" res="V231568" label="MOD"/>
+   <RELATION id="13" head="V231593" res="V231574" label="MOD"/>
+   <PHRASE id="V231568" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="39" end="44"/>
+   <RELATION id="14" head="V231568" res="V231593" label="FIGURE"/>
+   <PHRASE id="V231574" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="44" end="49"/>
+   <RELATION id="15" head="V231574" res="V231593" label="FIGURE"/>
+   <PHRASE id="V231597" indicator="F" type="ASSOC-WITH" text="WITH" start="56" end="84"/>
+   <RELATION id="16" head="V231597" res="V231675" label="GROUND"/>
+   <RELATION id="17" head="V231597" res="V231593" label="FIGURE"/>
+   <PHRASE id="V231675" indicator="A" type="MANUFACTURED-OBJECT" text="COLLAR" start="61" end="84"/>
+   <RELATION id="18" head="V231675" res="V231781" label="MOD"/>
+   <PHRASE id="V231781" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="63" end="77"/>
+   <RELATION id="19" head="V231781" res="V231650" label="SEQUENCE"/>
+   <RELATION id="20" head="V231781" res="V231667" label="SEQUENCE1"/>
+   <PHRASE id="V231650" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="63" end="67"/>
+   <RELATION id="21" head="V231650" res="V231675" label="FIGURE"/>
+   <PHRASE id="V231667" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="71" end="77"/>
+   <RELATION id="22" head="V231667" res="V231675" label="FIGURE"/>
+   <PHRASE id="V231701" indicator="BARE" type="BE-AT-LOC" text="STAND" start="87" end="104"/>
+   <RELATION id="23" head="V231701" res="V231707" label="LOCATION"/>
+   <PHRASE id="V231707" indicator="F" type="OUTSIDE" text="OUTSIDE" start="96" end="104"/>
+   <RELATION id="24" head="V231707" res="V231946" label="GROUND"/>
+   <RELATION id="25" head="V231707" res="V231701" label="FIGURE"/>
+   <PHRASE id="V231946" indicator="IMPRO" type="ANY-SEM" start="96" end="104"/>
+   <RELATION id="26" head="V231946" res="V231520" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

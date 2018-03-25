@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "TOURISTS ARE STANDING AT THE ENTRANCE OF CLASSROOM PUNC-PERIOD"
+  "V66378" [label="(SPEECHACT V66378 SA_TELL)"]
+  "V66378" -> "V65642" [label=":CONTENT"]
+  "V65642" [label="(F V65642 (:* BE-AT-LOC STAND))"]
+  "V65642" -> "V65618" [label=":NEUTRAL"]
+  "V65642" -> "V65653" [label=":LOCATION"]
+  "V65642" -> "NT70095" [label=":TENSE"]
+  "NT70095" [label="PRES"]
+  "V65642" -> "NT70096" [label=":PROGR"]
+  "NT70096" [label="+"]
+  "V65618" [label="(INDEF-SET V65618 (:* TRAVELLER TOURISTS))"]
+  "V65653" [label="(F V65653 (:* AT-LOC AT))"]
+  "V65653" -> "V65675" [label=":GROUND"]
+  "V65653" -> "V65642" [label=":FIGURE"]
+  "V65675" [label="(THE V65675 (:* EXIT ENTRANCE))"]
+  "V65675" -> "V65687" [label=":FIGURE"]
+  "V65687" [label="(BARE V65687 (:* INTERNAL-ENCLOSURE CLASSROOM))"]
+}

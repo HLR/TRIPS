@@ -1,0 +1,225 @@
+2,195c2,29
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="two women in the front row with their heads turned around .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+59
+< *last-utt-id*=59  utt-id+NIL</debug><utt><words><lisp>(W::TWO W::WOMEN W::IN W::THE W::FRONT W::ROW W::WITH W::THEIR W::HEADS
+<  W::TURNED W::AROUND W::PUNC-PERIOD)</lisp><word>TWO</word><word>WOMEN</word><word>IN</word><word>THE</word><word>FRONT</word><word>ROW</word><word>WITH</word><word>THEIR</word><word>HEADS</word><word>TURNED</word><word>AROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;two&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;women&quot; :FRAME (4 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 59
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two women&quot; :FRAME (0 9) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.32 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (10 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (13 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;front&quot; :FRAME (17 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;row&quot; :FRAME (23 26) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 59
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the front row&quot; :FRAME (13 26) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.641 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (27 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;their&quot; :FRAME (32 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 59
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;heads&quot; :FRAME (38 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 59
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;their heads&quot; :FRAME (32 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.883 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with their heads&quot; :FRAME (27 43) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 18.683 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the front row with their heads&quot; :FRAME (13 43) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 39.865 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;in the front row with their heads&quot; :FRAME (10 43) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 43.462 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;two women in the front row with their heads&quot; :FRAME (0 43) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 57.148 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;turned&quot; :FRAME (44 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 59
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;around&quot; :FRAME (51 57) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 59
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;around&quot; :FRAME (51 57) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   4.777 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;turned around&quot; :FRAME (44 57) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;turn_around%2:30:00&quot; &quot;turn_around%2:30:12&quot; &quot;turn_around%2:38:00&quot;))
+<    (:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;turn_around%2:30:00&quot; &quot;turn_around%2:30:12&quot; &quot;turn_around%2:38:00&quot;)))
+<   :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;turned around&quot; :FRAME (44 57) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+<   :SCORE 18.096 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (58 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two women in the front row with their heads turned around .&quot; :FRAME
+<   (0 58) :PENN-CATS (S) :SCORE 78.073 :UTTNUM 59 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="two" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="women" start="4" end="9"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two women" start="0" end="9" penn-cats="NP" score="13.32" /><word lex="in" start="10" end="12"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="13" end="16"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="front" start="17" end="22"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="row" start="23" end="26"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the front row" start="13" end="26" penn-cats="NP" score="20.641" /><word lex="with" start="27" end="31"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="their" start="32" end="37"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="heads" start="38" end="43"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="their heads" start="32" end="43" penn-cats="NP" score="14.883" /><prefer text="with their heads" start="27" end="43" penn-cats="PP" score="18.683" /><prefer text="the front row with their heads" start="13" end="43" penn-cats="NP" score="39.865" /><prefer text="in the front row with their heads" start="10" end="43" penn-cats="PP" score="43.462" /><prefer text="two women in the front row with their heads" start="0" end="43" penn-cats="NP" score="57.148" /><word lex="turned" start="44" end="50"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="around" start="51" end="57"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="around" start="51" end="57" penn-cats="PRT" score="4.777" /><word lex="turned around" start="44" end="57"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" wn-sense-keys="turn_around%2:30:00,turn_around%2:30:12,turn_around%2:38:00" /><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" wn-sense-keys="turn_around%2:30:00,turn_around%2:30:12,turn_around%2:38:00" /></word><prefer text="turned around" start="44" end="57" penn-cats="VP" score="18.096" /><word lex="." start="58" end="58"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="two women in the front row with their heads turned around ." start="0" end="58" penn-cats="S" score="78.073" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (NP
+<     (N1 (N1 (ADJP (NUMBER TWO)) (N1 (N WOMEN)))
+<      (ADVBL (ADV IN)
+<       (NP (SPEC (DET (ART THE)))
+<        (N1 (N1 (N1 (N FRONT)) (N1 (N ROW)))
+<         (ADVBL (ADV WITH)
+<          (NP (SPEC (DET (POSSESSOR (PRO THEIR)))) (N1 (N HEADS)))))))))
+<    (VP (VP- (V TURNED AROUND)))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>WOMEN</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N1><N>FRONT</N></N1><N1><N>ROW</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><POSSESSOR><PRO>THEIR</PRO></POSSESSOR></DET></SPEC><N1><N>HEADS</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP><VP><VP-><V>TURNED AROUND</V></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V315204"><lisp>((ONT::SPEECHACT ONT::V315204 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V311240 :START 0 :END 58 :WNSENSE &quot;turn_around%2:30:00&quot;)
+<  (ONT::F ONT::V311240 (:* ONT::ROTATE W::TURNED-AROUND) :AGENT ONT::V311094
+<   :TENSE W::PAST :START 0 :END 58 :WNSENSE &quot;turn_around%2:30:00&quot;)
+<  (ONT::INDEF-SET ONT::V311094 (:* ONT::FEMALE-PERSON W::WOMAN) :SIZE
+<   ONT::V311092 :LOCATION ONT::V311101 :START 0 :END 44)
+<  (ONT::A ONT::V311092 ONT::NUMBER :VALUE 2 :START 0 :END 4)
+<  (ONT::F ONT::V311101 (:* ONT::IN-LOC W::IN) :GROUND ONT::V311166 :FIGURE
+<   ONT::V311094 :START 10 :END 44)
+<  (ONT::THE ONT::V311166 (:* ONT::ROW-FORMATION W::ROW) :ASSOC-WITH ONT::V311157
+<   :MOD ONT::V311171 :START 13 :END 44)
+<  (ONT::KIND ONT::V311157 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :START 13
+<   :END 44)
+<  (ONT::F ONT::V311171 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V311189 :FIGURE
+<   ONT::V311166 :START 27 :END 44)
+<  (ONT::THE-SET ONT::V311189 (:* ONT::PROFESSIONAL W::HEAD) :ASSOC-POSS
+<   ONT::V311183 :START 32 :END 44)
+<  (ONT::PRO ONT::V311183 (:* ONT::REFERENTIAL-SEM W::THEIR) :PROFORM W::THEIR
+<   :START 32 :END 44 :COREF ONT::V311094))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V315204">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V311240" />
+<     <LF:start>0</LF:start>
+<     <LF:end>58</LF:end>
+<     <role:WNSENSE>turn_around%2:30:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311240">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ROTATE</LF:type>
+<     <LF:word>TURNED-AROUND</LF:word>
+<     <role:AGENT rdf:resource="#V311094" />
+<     <role:TENSE>PAST</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>58</LF:end>
+<     <role:WNSENSE>turn_around%2:30:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311094">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>WOMAN</LF:word>
+<     <role:SIZE rdf:resource="#V311092" />
+<     <role:LOCATION rdf:resource="#V311101" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311092">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>2</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>4</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311101">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V311166" />
+<     <role:FIGURE rdf:resource="#V311094" />
+<     <LF:start>10</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311166">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>ROW-FORMATION</LF:type>
+<     <LF:word>ROW</LF:word>
+<     <role:ASSOC-WITH rdf:resource="#V311157" />
+<     <role:MOD rdf:resource="#V311171" />
+<     <LF:start>13</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311157">
+<     <LF:indicator>KIND</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>FRONT</LF:word>
+<     <LF:start>13</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311171">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V311189" />
+<     <role:FIGURE rdf:resource="#V311166" />
+<     <LF:start>27</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311189">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>PROFESSIONAL</LF:type>
+<     <LF:word>HEAD</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V311183" />
+<     <LF:start>32</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V311183">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEIR</LF:word>
+<     <role:PROFORM>THEIR</role:PROFORM>
+<     <LF:start>32</LF:start>
+<     <LF:end>44</LF:end>
+<     <role:COREF rdf:resource="#V311094" />
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="58" WNSENSE="turn_around%2:30:00">
+>    <TEXT>two women in the front row with their heads turned around .</TEXT>
+>    <RELATION id="1" head="V315204" res="V311240" label="CONTENT"/>
+>    <PHRASE id="V311240" indicator="F" type="ROTATE" text="TURNED-AROUND" TENSE="PAST" start="0" end="58" WNSENSE="turn_around%2:30:00"/>
+>    <RELATION id="2" head="V311240" res="V311094" label="AGENT"/>
+>    <PHRASE id="V311094" indicator="INDEF-SET" type="FEMALE-PERSON" text="WOMAN" start="0" end="44"/>
+>    <RELATION id="3" head="V311094" res="V311092" label="SIZE"/>
+>    <RELATION id="4" head="V311094" res="V311101" label="LOCATION"/>
+>    <PHRASE id="V311092" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+>    <PHRASE id="V311101" indicator="F" type="IN-LOC" text="IN" start="10" end="44"/>
+>    <RELATION id="5" head="V311101" res="V311166" label="GROUND"/>
+>    <RELATION id="6" head="V311101" res="V311094" label="FIGURE"/>
+>    <PHRASE id="V311166" indicator="THE" type="ROW-FORMATION" text="ROW" start="13" end="44"/>
+>    <RELATION id="7" head="V311166" res="V311157" label="ASSOC-WITH"/>
+>    <RELATION id="8" head="V311166" res="V311171" label="MOD"/>
+>    <PHRASE id="V311157" indicator="KIND" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="13" end="44"/>
+>    <PHRASE id="V311171" indicator="F" type="ASSOC-WITH" text="WITH" start="27" end="44"/>
+>    <RELATION id="9" head="V311171" res="V311189" label="GROUND"/>
+>    <RELATION id="10" head="V311171" res="V311166" label="FIGURE"/>
+>    <PHRASE id="V311189" indicator="THE-SET" type="PROFESSIONAL" text="HEAD" start="32" end="44"/>
+>    <RELATION id="11" head="V311189" res="V311183" label="ASSOC-POSS"/>
+>    <PHRASE id="V311183" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="32" end="44"/>
+>    <RELATION id="12" head="V311183" res="V311094" label="COREF"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

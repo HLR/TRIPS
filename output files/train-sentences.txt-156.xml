@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="60">
+   <TEXT>one of them is stroking the girl's face with her right hand .</TEXT>
+   <RELATION id="1" head="V202997" res="V197367" label="CONTENT"/>
+   <PHRASE id="V197367" indicator="F" type="RUB-SCRAPE-WIPE" text="STROKING" TENSE="PRES" PROGR="+" start="0" end="60"/>
+   <RELATION id="2" head="V197367" res="V197330" label="AGENT"/>
+   <RELATION id="3" head="V197367" res="V197438" label="AFFECTED"/>
+   <PHRASE id="V197330" indicator="BARE" type="REFERENTIAL-SEM" text="ONE" start="0" end="12"/>
+   <RELATION id="4" head="V197330" res="V197338" label="MOD"/>
+   <PHRASE id="V197338" indicator="F" type="CONTAIN-RELN" text="OF" start="4" end="12"/>
+   <RELATION id="5" head="V197338" res="V197344" label="GROUND"/>
+   <RELATION id="6" head="V197338" res="V197330" label="FIGURE"/>
+   <PHRASE id="V197344" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="7" end="12"/>
+   <PHRASE id="V197438" indicator="THE" type="EXTERNAL-BODY-PART" text="FACE" start="24" end="60"/>
+   <RELATION id="7" head="V197438" res="V197382" label="ASSOC-POSS"/>
+   <RELATION id="8" head="V197438" res="V197445" label="MOD"/>
+   <PHRASE id="V197382" indicator="THE" type="FEMALE-CHILD" text="GIRL" start="24" end="32"/>
+   <PHRASE id="V197445" indicator="F" type="ASSOC-WITH" text="WITH" start="40" end="60"/>
+   <RELATION id="9" head="V197445" res="V197501" label="GROUND"/>
+   <RELATION id="10" head="V197445" res="V197438" label="FIGURE"/>
+   <PHRASE id="V197501" indicator="THE" type="BODY-PART" text="RIGHT-HAND" start="45" end="60" WNSENSE="right_hand%1:08:00"/>
+   <RELATION id="11" head="V197501" res="V197458" label="ASSOC-POSS"/>
+   <PHRASE id="V197458" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="45" end="60"/>
+   <RELATION id="12" head="V197458" res="V197382" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,12 @@
+digraph Terms {
+  node [shape=none]
+  "A LAKE IN THE BACKGROUND PUNC-PERIOD"
+  "V278277" [label="(SPEECHACT V278277 SA_IDENTIFY)"]
+  "V278277" -> "V278178" [label=":CONTENT"]
+  "V278178" [label="(A V278178 (:* GEO-FORMATION LAKE))"]
+  "V278178" -> "V278185" [label=":LOCATION"]
+  "V278185" [label="(F V278185 (:* IN-LOC IN))"]
+  "V278185" -> "V278241" [label=":GROUND"]
+  "V278185" -> "V278178" [label=":FIGURE"]
+  "V278241" [label="(THE V278241 (:* IMAGE BACKGROUND))"]
+}

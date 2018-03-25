@@ -1,0 +1,119 @@
+2,101c2,17
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="tourists are smiling at the kids .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+43
+< *last-utt-id*=43  utt-id+NIL</debug><utt><words><lisp>(W::TOURISTS W::ARE W::SMILING W::AT W::THE W::KIDS W::PUNC-PERIOD)</lisp><word>TOURISTS</word><word>ARE</word><word>SMILING</word><word>AT</word><word>THE</word><word>KIDS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;tourists&quot; :FRAME (0 8) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;tourists&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.743 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (9 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;smiling&quot; :FRAME (13 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (21 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (24 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (28 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the kids&quot; :FRAME (24 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.535 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at the kids&quot; :FRAME (21 32) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.863 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;smiling at the kids&quot; :FRAME (13 32) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 26.965 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are smiling at the kids&quot; :FRAME (9 32) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 31.328 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (33 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;tourists are smiling at the kids .&quot; :FRAME (0 33) :PENN-CATS (S)
+<   :SCORE 43.213 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="tourists" start="0" end="8"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="tourists" start="0" end="8" penn-cats="NP" score="10.743" /><word lex="are" start="9" end="12"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="smiling" start="13" end="20"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="21" end="23"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="24" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="kids" start="28" end="32"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the kids" start="24" end="32" penn-cats="NP" score="12.535" /><prefer text="at the kids" start="21" end="32" penn-cats="PP" score="15.863" /><prefer text="smiling at the kids" start="13" end="32" penn-cats="VP" score="26.965" /><prefer text="are smiling at the kids" start="9" end="32" penn-cats="VP" score="31.328" /><word lex="." start="33" end="33"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="tourists are smiling at the kids ." start="0" end="33" penn-cats="S" score="43.213" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (N1 (N TOURISTS)))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (VP- (V SMILING))
+<       (ADVBL (ADV AT) (NP (SPEC (DET (ART THE))) (N1 (N KIDS)))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N>TOURISTS</N></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><VP-><V>SMILING</V></VP-><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>KIDS</N></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V237172"><lisp>((ONT::SPEECHACT ONT::V237172 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V236953 :START 0 :END 33)
+<  (ONT::F ONT::V236953 (:* ONT::NONVERBAL-EXPRESSION W::SMILE) :AGENT
+<   ONT::V236932 :LOCATION ONT::V236962 :TENSE W::PRES :PROGR + :START 0 :END 33)
+<  (ONT::INDEF-SET ONT::V236932 (:* ONT::TRAVELLER W::TOURISTS) :START 0 :END 9)
+<  (ONT::F ONT::V236962 (:* ONT::AT-LOC W::AT) :GROUND ONT::V236982 :FIGURE
+<   ONT::V236953 :START 21 :END 33)
+<  (ONT::THE-SET ONT::V236982 (:* ONT::CHILD W::KID) :START 24 :END 33))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V237172">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V236953" />
+<     <LF:start>0</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V236953">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>NONVERBAL-EXPRESSION</LF:type>
+<     <LF:word>SMILE</LF:word>
+<     <role:AGENT rdf:resource="#V236932" />
+<     <role:LOCATION rdf:resource="#V236962" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V236932">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>TRAVELLER</LF:type>
+<     <LF:word>TOURISTS</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>9</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V236962">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V236982" />
+<     <role:FIGURE rdf:resource="#V236953" />
+<     <LF:start>21</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V236982">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <LF:start>24</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="33">
+>    <TEXT>tourists are smiling at the kids .</TEXT>
+>    <RELATION id="1" head="V237172" res="V236953" label="CONTENT"/>
+>    <PHRASE id="V236953" indicator="F" type="NONVERBAL-EXPRESSION" text="SMILE" TENSE="PRES" PROGR="+" start="0" end="33"/>
+>    <RELATION id="2" head="V236953" res="V236932" label="AGENT"/>
+>    <RELATION id="3" head="V236953" res="V236962" label="LOCATION"/>
+>    <PHRASE id="V236932" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="9"/>
+>    <PHRASE id="V236962" indicator="F" type="AT-LOC" text="AT" start="21" end="33"/>
+>    <RELATION id="4" head="V236962" res="V236982" label="GROUND"/>
+>    <RELATION id="5" head="V236962" res="V236953" label="FIGURE"/>
+>    <PHRASE id="V236982" indicator="THE-SET" type="CHILD" text="KID" start="24" end="33"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

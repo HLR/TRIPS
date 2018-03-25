@@ -1,0 +1,23 @@
+digraph Terms {
+  node [shape=none]
+  "A GREEN PULLOVER AND A RED VEST PUNC-PERIOD"
+  "V239038" [label="(SPEECHACT V239038 SA_IDENTIFY)"]
+  "V239038" -> "V238859" [label=":CONTENT"]
+  "V238859" [label="(INDEF-SET V238859 ATTIRE)"]
+  "V238859" -> "NT239571" [label=":OPERATOR"]
+  "NT239571" [label="AND"]
+  "V238859" -> "V238855" [label=":SEQUENCE"]
+  "V238859" -> "V238917" [label=":SEQUENCE-1"]
+  "V238855" [label="(A V238855 (:* ATTIRE PULLOVER))"]
+  "V238855" -> "V238849" [label=":MOD"]
+  "V238849" [label="(F V238849 (:* GREEN GREEN))"]
+  "V238849" -> "V238855" [label=":FIGURE"]
+  "V238849" -> "NT239572" [label=":SCALE"]
+  "NT239572" [label="GREEN*1--07--00"]
+  "V238917" [label="(A V238917 (:* ATTIRE VEST))"]
+  "V238917" -> "V238909" [label=":MOD"]
+  "V238909" [label="(F V238909 (:* RED RED))"]
+  "V238909" -> "V238917" [label=":FIGURE"]
+  "V238909" -> "NT239573" [label=":SCALE"]
+  "NT239573" [label="COLOR-SCALE"]
+}

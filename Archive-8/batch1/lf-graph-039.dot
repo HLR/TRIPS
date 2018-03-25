@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "THERE ARE MANY BOOKS ON THE TABLE PUNC-PERIOD"
+  "V170365" [label="(SPEECHACT V170365 SA_TELL)"]
+  "V170365" -> "V170181" [label=":CONTENT"]
+  "V170181" [label="(F V170181 (:* EXISTS BE))"]
+  "V170181" -> "V170196" [label=":NEUTRAL"]
+  "V170181" -> "NT170586" [label=":TENSE"]
+  "NT170586" [label="PRES"]
+  "V170169" [label="(PRO V170169 EXPLETIVE)"]
+  "V170169" -> "NT170587" [label=":PROFORM"]
+  "NT170587" [label="THERE"]
+  "V170196" [label="(INDEF-SET V170196 (:* BOOK BOOK))"]
+  "V170196" -> "NT170588" [label=":SIZE"]
+  "NT170588" [label="MANY"]
+  "V170196" -> "V170205" [label=":LOCATION"]
+  "V170205" [label="(F V170205 (:* ON ON))"]
+  "V170205" -> "V170234" [label=":GROUND"]
+  "V170205" -> "V170196" [label=":FIGURE"]
+  "V170234" [label="(THE V170234 (:* TABLE TABLE))"]
+}

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="six kids are sitting around a table and playing with toy cars .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+74
+*last-utt-id*=74  utt-id+NIL</debug><utt><words><lisp>(W::SIX W::KIDS W::ARE W::SITTING W::AROUND W::A W::TABLE W::AND W::PLAYING
+ W::WITH W::TOY W::CARS W::PUNC-PERIOD)</lisp><word>SIX</word><word>KIDS</word><word>ARE</word><word>SITTING</word><word>AROUND</word><word>A</word><word>TABLE</word><word>AND</word><word>PLAYING</word><word>WITH</word><word>TOY</word><word>CARS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;six&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kids&quot; :FRAME (4 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 74
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;six kids&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  18.849 :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (9 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 74
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (13 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 74
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;around&quot; :FRAME (21 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting around&quot; :FRAME (13 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;sit_around%2:42:00&quot;)))
+  :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (28 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;table&quot; :FRAME (30 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 74
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a table&quot; :FRAME (28 35) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.979 :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;around a table&quot; :FRAME (21 35) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 18.859 :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting around a table&quot; :FRAME (13 35) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 27.556 :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (36 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 74
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;playing&quot; :FRAME (40 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN VBG) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+  74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (48 52) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;toy&quot; :FRAME (53 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 74
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cars&quot; :FRAME (57 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 74
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;toy cars&quot; :FRAME (53 61) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  19.173 :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with toy cars&quot; :FRAME (48 61) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 22.44 :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;playing with toy cars&quot; :FRAME (40 61) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 31.183 :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting around a table and playing with toy cars&quot; :FRAME (13 61)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 63.419 :UTTNUM 74 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;are sitting around a table and playing with toy cars&quot; :FRAME (9 61)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 67.782 :UTTNUM 74 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (62 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 74 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;six kids are sitting around a table and playing with toy cars .&quot;
+  :FRAME (0 62) :PENN-CATS (S) :SCORE 87.773 :UTTNUM 74 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="six" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="kids" start="4" end="8"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="six kids" start="0" end="8" penn-cats="NP" score="18.849" /><word lex="are" start="9" end="12"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="sitting" start="13" end="20"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="around" start="21" end="27"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="sitting around" start="13" end="27"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="sit_around%2:42:00" /></word><word lex="a" start="28" end="29"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="table" start="30" end="35"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a table" start="28" end="35" penn-cats="NP" score="11.979" /><prefer text="around a table" start="21" end="35" penn-cats="PP" score="18.859" /><prefer text="sitting around a table" start="13" end="35" penn-cats="VP" score="27.556" /><word lex="and" start="36" end="39"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="playing" start="40" end="47"><sense-info penn-parts-of-speech="NN,VBG" trips-parts-of-speech="N,V" /></word><word lex="with" start="48" end="52"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="toy" start="53" end="56"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="cars" start="57" end="61"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="toy cars" start="53" end="61" penn-cats="NP" score="19.173" /><prefer text="with toy cars" start="48" end="61" penn-cats="PP" score="22.44" /><prefer text="playing with toy cars" start="40" end="61" penn-cats="VP" score="31.183" /><prefer text="sitting around a table and playing with toy cars" start="13" end="61" penn-cats="VP" score="63.419" /><prefer text="are sitting around a table and playing with toy cars" start="9" end="61" penn-cats="VP" score="67.782" /><word lex="." start="62" end="62"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="six kids are sitting around a table and playing with toy cars ." start="0" end="62" penn-cats="S" score="87.773" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (N1 (ADJP (NUMBER SIX)) (N1 (N KIDS))))
+   (VP
+    (VP- (V ARE)
+     (NP
+      (NP
+       (N1 (N1 (V SITTING))
+        (ADVBL (ADV AROUND) (NP (SPEC (DET (ART A))) (N1 (N TABLE))))))
+      (CONJ AND)
+      (NP
+       (N1 (N1 (V PLAYING))
+        (ADVBL (ADV WITH) (NP (N1 (N1 (N TOY)) (N1 (N CARS))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><ADJP><NUMBER>SIX</NUMBER></ADJP><N1><N>KIDS</N></N1></N1></NP><VP><VP-><V>ARE</V><NP><NP><N1><N1><V>SITTING</V></N1><ADVBL><ADV>AROUND</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>TABLE</N></N1></NP></ADVBL></N1></NP><CONJ>AND</CONJ><NP><N1><N1><V>PLAYING</V></N1><ADVBL><ADV>WITH</ADV><NP><N1><N1><N>TOY</N></N1><N1><N>CARS</N></N1></N1></NP></ADVBL></N1></NP></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V399751"><lisp>((ONT::SPEECHACT ONT::V399751 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V391912 :START 0 :END 62)
+ (ONT::F ONT::V391912 (:* ONT::BE W::BE) :NEUTRAL ONT::V391904 :NEUTRAL1
+  ONT::V392017 :TENSE W::PRES :START 0 :END 62)
+ (ONT::INDEF-SET ONT::V391904 (:* ONT::CHILD W::KID) :SIZE ONT::V391901 :START
+  0 :END 9)
+ (ONT::A ONT::V391901 ONT::NUMBER :VALUE 6 :START 0 :END 4)
+ (ONT::INDEF-SET ONT::V392017 ONT::EVENT-OF-ACTION :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V391933 ONT::V392027) :START 13 :END 62)
+ (ONT::BARE ONT::V391933 (:* ONT::AVOIDING W::SIT-OUT) :MOD ONT::V391943 :START
+  13 :END 36)
+ (ONT::F ONT::V391943 (:* ONT::AROUND W::AROUND) :GROUND ONT::V392011 :FIGURE
+  ONT::V391933 :START 21 :END 36)
+ (ONT::A ONT::V392011 (:* ONT::TABLE W::TABLE) :START 28 :END 36)
+ (ONT::BARE ONT::V392027 (:* ONT::PLAY W::PLAY) :MOD ONT::V392033 :START 40
+  :END 62)
+ (ONT::F ONT::V392033 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V392048 :FIGURE
+  ONT::V392027 :START 48 :END 62)
+ (ONT::INDEF-SET ONT::V392048 (:* ONT::LAND-VEHICLE W::CAR) :ASSOC-WITH
+  ONT::V392045 :START 53 :END 62)
+ (ONT::KIND ONT::V392045 (:* ONT::MANUFACTURED-OBJECT W::TOY) :START 53 :END
+  62))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V399751">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V391912" />
+    <LF:start>0</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V391912">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V391904" />
+    <role:NEUTRAL1 rdf:resource="#V392017" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V391904">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:SIZE rdf:resource="#V391901" />
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V391901">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>6</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>4</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V392017">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>EVENT-OF-ACTION</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V391933" />
+    <role:SEQUENCE1 rdf:resource="#V392027" />
+    <LF:start>13</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V391933">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>AVOIDING</LF:type>
+    <LF:word>SIT-OUT</LF:word>
+    <role:MOD rdf:resource="#V391943" />
+    <LF:start>13</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V391943">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AROUND</LF:type>
+    <LF:word>AROUND</LF:word>
+    <role:GROUND rdf:resource="#V392011" />
+    <role:FIGURE rdf:resource="#V391933" />
+    <LF:start>21</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V392011">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>TABLE</LF:type>
+    <LF:word>TABLE</LF:word>
+    <LF:start>28</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V392027">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PLAY</LF:type>
+    <LF:word>PLAY</LF:word>
+    <role:MOD rdf:resource="#V392033" />
+    <LF:start>40</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V392033">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V392048" />
+    <role:FIGURE rdf:resource="#V392027" />
+    <LF:start>48</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V392048">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>LAND-VEHICLE</LF:type>
+    <LF:word>CAR</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V392045" />
+    <LF:start>53</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V392045">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <LF:word>TOY</LF:word>
+    <LF:start>53</LF:start>
+    <LF:end>62</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

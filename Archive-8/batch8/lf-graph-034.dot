@@ -1,0 +1,8 @@
+digraph Terms {
+  node [shape=none]
+  "A BED TO THE RIGHT"
+  "V265583" [label="(F V265583 (:* TO-LOC TO))"]
+  "V265583" -> "V265619" [label=":GROUND"]
+  "V265619" [label="(THE V265619 (:* RIGHT-LOC RIGHT))"]
+  "V265574" [label="(A V265574 (:* FURNISHINGS BED))"]
+}

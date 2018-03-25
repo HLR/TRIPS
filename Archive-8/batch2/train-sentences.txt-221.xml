@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one wearing a red pullover and brown pants is bending over to access the blue paint .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?172909:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V115656)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?172907)
+                                           (W::TRANSFORM ?172908)))
+                                 (W::CASE ?172906:(W::SUB W::OBJ -))
+                                 (W::AGR ?172905) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V115656) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER116241))
+*last-utt-id*=NIL  utt-id+18
+*last-utt-id*=18  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::WEARING W::A W::RED W::PULLOVER W::AND W::BROWN W::PANTS W::IS
+ W::BENDING W::OVER W::TO W::ACCESS W::THE W::BLUE W::PAINT W::PUNC-PERIOD)</lisp><word>ONE</word><word>WEARING</word><word>A</word><word>RED</word><word>PULLOVER</word><word>AND</word><word>BROWN</word><word>PANTS</word><word>IS</word><word>BENDING</word><word>OVER</word><word>TO</word><word>ACCESS</word><word>THE</word><word>BLUE</word><word>PAINT</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one&quot; :FRAME (0 3) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.128
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wearing&quot; :FRAME (4 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (12 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (14 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pullover&quot; :FRAME (18 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a red pullover&quot; :FRAME (12 26) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.463 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (27 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;brown&quot; :FRAME (31 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pants&quot; :FRAME (37 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;brown pants&quot; :FRAME (31 42) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.795 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a red pullover and brown pants&quot; :FRAME (12 42) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 50.148 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;wearing a red pullover and brown pants&quot; :FRAME (4 42) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 59.276 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;one wearing a red pullover and brown pants&quot; :FRAME (0 42) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 68.965 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;is&quot; :FRAME (43 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bending&quot; :FRAME (46 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;over&quot; :FRAME (54 58) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;over&quot; :FRAME (54 58) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+  3.228 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (59 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;access&quot; :FRAME (62 68) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (69 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blue&quot; :FRAME (73 77) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;paint&quot; :FRAME (78 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 18
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the blue paint&quot; :FRAME (69 83) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.252 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;access the blue paint&quot; :FRAME (62 83) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 33.645 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;to access the blue paint&quot; :FRAME (59 83) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 33.674 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;to access the blue paint&quot; :FRAME (59 83) :PENN-CATS (S) :SCORE 33.939
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;bending over to access the blue paint&quot; :FRAME (46 83) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 52.482 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is bending over to access the blue paint&quot; :FRAME (43 83) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 56.743 :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (84 84) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 18 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;one wearing a red pullover and brown pants is bending over to access the blue paint .&quot;
+  :FRAME (0 84) :PENN-CATS (S) :SCORE 129.621 :UTTNUM 18 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="one" start="0" end="3" penn-cats="NP" score="7.128" /><word lex="wearing" start="4" end="11"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="12" end="13"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="red" start="14" end="17"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="pullover" start="18" end="26"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a red pullover" start="12" end="26" penn-cats="NP" score="23.463" /><word lex="and" start="27" end="30"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="brown" start="31" end="36"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="pants" start="37" end="42"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="brown pants" start="31" end="42" penn-cats="NP" score="22.795" /><prefer text="a red pullover and brown pants" start="12" end="42" penn-cats="NP" score="50.148" /><prefer text="wearing a red pullover and brown pants" start="4" end="42" penn-cats="VP" score="59.276" /><prefer text="one wearing a red pullover and brown pants" start="0" end="42" penn-cats="NP" score="68.965" /><word lex="is" start="43" end="45"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="bending" start="46" end="53"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="over" start="54" end="58"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="over" start="54" end="58" penn-cats="PRT" score="3.228" /><word lex="to" start="59" end="61"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="access" start="62" end="68"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><word lex="the" start="69" end="72"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blue" start="73" end="77"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="paint" start="78" end="83"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the blue paint" start="69" end="83" penn-cats="NP" score="22.252" /><prefer text="access the blue paint" start="62" end="83" penn-cats="VP" score="33.645" /><prefer text="to access the blue paint" start="59" end="83" penn-cats="VP" score="33.674" /><prefer text="to access the blue paint" start="59" end="83" penn-cats="S" score="33.939" /><prefer text="bending over to access the blue paint" start="46" end="83" penn-cats="VP" score="52.482" /><prefer text="is bending over to access the blue paint" start="43" end="83" penn-cats="VP" score="56.743" /><word lex="." start="84" end="84"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one wearing a red pullover and brown pants is bending over to access the blue paint ." start="0" end="84" penn-cats="S" score="129.621" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP
+    (N1 (N1 (N ONE))
+     (CP
+      (VP
+       (VP- (V WEARING)
+        (NP
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N PULLOVER))))
+         (CONJ AND) (NP (N1 (ADJP (ADJ1 (ADJ BROWN))) (N1 (N PANTS))))))))))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (VP- (VP- (V BENDING)) (ADJP (ADJ1 (ADJ OVER))))
+      (ADVBL (ADV TO)
+       (VP
+        (VP- (V ACCESS)
+         (NP (SPEC (DET (ART THE)))
+          (N1 (ADJP (ADJ1 (ADJ BLUE))) (N1 (N PAINT))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N1><N>ONE</N></N1><CP><VP><VP-><V>WEARING</V><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>PULLOVER</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><ADJP><ADJ1><ADJ>BROWN</ADJ></ADJ1></ADJP><N1><N>PANTS</N></N1></N1></NP></NP></VP-></VP></CP></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><VP-><V>BENDING</V></VP-><ADJP><ADJ1><ADJ>OVER</ADJ></ADJ1></ADJP></VP-><ADVBL><ADV>TO</ADV><VP><VP-><V>ACCESS</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>BLUE</ADJ></ADJ1></ADJP><N1><N>PAINT</N></N1></N1></NP></VP-></VP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V120383"><lisp>((ONT::SPEECHACT ONT::V120383 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V110781 :START 0 :END 84)
+ (ONT::F ONT::V110781 (:* ONT::BODY-MOVEMENT-PLACE W::BEND) :RESULT
+  ONT::V110787 :AGENT ONT::V110663 :REASON ONT::V110817 :TENSE W::PRES :PROGR +
+  :START 0 :END 84)
+ (ONT::BARE ONT::V110663 (:* ONT::REFERENTIAL-SEM W::ONE) :MOD ONT::V110672
+  :START 0 :END 43)
+ (ONT::F ONT::V110672 (:* ONT::WEAR W::WEAR) :AGENT ONT::V110663 :NEUTRAL
+  ONT::V110737 :VFORM W::ING :START 4 :END 43)
+ (ONT::INDEF-SET ONT::V110737 ONT::ATTIRE :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V110733 ONT::V110755) :START 12 :END 43)
+ (ONT::A ONT::V110733 (:* ONT::ATTIRE W::PULLOVER) :MOD ONT::V110719 :START 12
+  :END 27)
+ (ONT::F ONT::V110719 (:* ONT::RED W::RED) :FIGURE ONT::V110733 :SCALE
+  ONT::COLOR-SCALE :START 14 :END 18)
+ (ONT::BARE ONT::V110755 (:* ONT::ATTIRE W::PANTS) :MOD ONT::V110746 :START 31
+  :END 43)
+ (ONT::F ONT::V110746 (:* ONT::BROWN W::BROWN) :FIGURE ONT::V110755 :SCALE
+  ONT::BROWNNESS*1--07--00 :START 31 :END 37)
+ (ONT::F ONT::V110787 (:* ONT::FINISHED W::OVER) :FIGURE ONT::V110663 :START 54
+  :END 59)
+ (ONT::F ONT::V110817 (:* ONT::PURPOSE W::TO) :GROUND ONT::V110841 :FIGURE
+  ONT::V110781 :START 59 :END 84)
+ (ONT::F ONT::V110841 (:* ONT::ACQUIRE W::ACCESS) :AFFECTED ONT::V110869 :VFORM
+  W::BASE :START 62 :END 84)
+ (ONT::THE ONT::V110869 (:* ONT::COVERING W::PAINT) :MOD ONT::V110853 :START 69
+  :END 84)
+ (ONT::F ONT::V110853 (:* ONT::BLUE W::BLUE) :FIGURE ONT::V110869 :SCALE
+  ONT::COLOR-SCALE :START 73 :END 78))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V120383">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V110781" />
+    <LF:start>0</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110781">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+    <LF:word>BEND</LF:word>
+    <role:RESULT rdf:resource="#V110787" />
+    <role:AGENT rdf:resource="#V110663" />
+    <role:REASON rdf:resource="#V110817" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110663">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>ONE</LF:word>
+    <role:MOD rdf:resource="#V110672" />
+    <LF:start>0</LF:start>
+    <LF:end>43</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110672">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V110663" />
+    <role:NEUTRAL rdf:resource="#V110737" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>4</LF:start>
+    <LF:end>43</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110737">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V110733" />
+    <role:SEQUENCE1 rdf:resource="#V110755" />
+    <LF:start>12</LF:start>
+    <LF:end>43</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110733">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>PULLOVER</LF:word>
+    <role:MOD rdf:resource="#V110719" />
+    <LF:start>12</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110719">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RED</LF:type>
+    <LF:word>RED</LF:word>
+    <role:FIGURE rdf:resource="#V110733" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>14</LF:start>
+    <LF:end>18</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110755">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>PANTS</LF:word>
+    <role:MOD rdf:resource="#V110746" />
+    <LF:start>31</LF:start>
+    <LF:end>43</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110746">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BROWN</LF:type>
+    <LF:word>BROWN</LF:word>
+    <role:FIGURE rdf:resource="#V110755" />
+    <role:SCALE>BROWNNESS*1--07--00</role:SCALE>
+    <LF:start>31</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110787">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FINISHED</LF:type>
+    <LF:word>OVER</LF:word>
+    <role:FIGURE rdf:resource="#V110663" />
+    <LF:start>54</LF:start>
+    <LF:end>59</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110817">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PURPOSE</LF:type>
+    <LF:word>TO</LF:word>
+    <role:GROUND rdf:resource="#V110841" />
+    <role:FIGURE rdf:resource="#V110781" />
+    <LF:start>59</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110841">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ACQUIRE</LF:type>
+    <LF:word>ACCESS</LF:word>
+    <role:AFFECTED rdf:resource="#V110869" />
+    <role:VFORM>BASE</role:VFORM>
+    <LF:start>62</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110869">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>COVERING</LF:type>
+    <LF:word>PAINT</LF:word>
+    <role:MOD rdf:resource="#V110853" />
+    <LF:start>69</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V110853">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLUE</LF:type>
+    <LF:word>BLUE</LF:word>
+    <role:FIGURE rdf:resource="#V110869" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>73</LF:start>
+    <LF:end>78</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

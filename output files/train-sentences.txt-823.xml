@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33">
+   <TEXT>dark-haired boy w</TEXT>
+   <RELATION id="1" head="V152049" res="V152046" label="MOD"/>
+   <PHRASE id="V152046" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V152046" res="V152049" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_TELL" start="33" end="111">
+   <TEXT>wearing a dark blue anorak and grey pants is standing in front of a grey wall .</TEXT>
+   <RELATION id="3" head="V159451" res="V152163" label="CONTENT"/>
+   <PHRASE id="V152163" indicator="F" type="BE" text="BE" TENSE="PRES" start="33" end="111"/>
+   <RELATION id="4" head="V152163" res="V152055" label="NEUTRAL"/>
+   <RELATION id="5" head="V152163" res="V152180" label="NEUTRAL1"/>
+   <PHRASE id="V152055" indicator="BARE" type="WEAR" text="WEAR" start="33" end="75"/>
+   <RELATION id="6" head="V152055" res="V152133" label="NEUTRAL"/>
+   <PHRASE id="V152133" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="41" end="75"/>
+   <RELATION id="7" head="V152133" res="V152129" label="SEQUENCE"/>
+   <RELATION id="8" head="V152133" res="V152151" label="SEQUENCE1"/>
+   <PHRASE id="V152129" indicator="A" type="ATTIRE" text="ANORAK" start="41" end="60"/>
+   <RELATION id="9" head="V152129" res="V152103" label="MOD"/>
+   <RELATION id="10" head="V152129" res="V152109" label="MOD"/>
+   <PHRASE id="V152103" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="43" end="48"/>
+   <RELATION id="11" head="V152103" res="V152129" label="FIGURE"/>
+   <PHRASE id="V152109" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="48" end="53"/>
+   <RELATION id="12" head="V152109" res="V152129" label="FIGURE"/>
+   <PHRASE id="V152151" indicator="BARE" type="ATTIRE" text="PANTS" start="64" end="75"/>
+   <RELATION id="13" head="V152151" res="V152142" label="MOD"/>
+   <PHRASE id="V152142" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="64" end="69"/>
+   <RELATION id="14" head="V152142" res="V152151" label="FIGURE"/>
+   <PHRASE id="V152180" indicator="BARE" type="BE-AT-LOC" text="STAND" start="78" end="111"/>
+   <RELATION id="15" head="V152180" res="V152189" label="LOCATION"/>
+   <PHRASE id="V152189" indicator="F" type="IN-LOC" text="IN" start="87" end="111"/>
+   <RELATION id="16" head="V152189" res="V152250" label="GROUND"/>
+   <RELATION id="17" head="V152189" res="V152180" label="FIGURE"/>
+   <PHRASE id="V152250" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="90" end="111"/>
+   <RELATION id="18" head="V152250" res="V152362" label="FIGURE"/>
+   <PHRASE id="V152362" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="96" end="111"/>
+   <RELATION id="19" head="V152362" res="V152352" label="MOD"/>
+   <PHRASE id="V152352" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="101" end="106"/>
+   <RELATION id="20" head="V152352" res="V152362" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

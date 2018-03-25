@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "MORE KIDS AND A BLACKBOARD IN THE BACKGROUND PUNC-PERIOD"
+  "V52660" [label="(SPEECHACT V52660 SA_IDENTIFY)"]
+  "V52660" -> "V52439" [label=":CONTENT"]
+  "V52439" [label="(INDEF-SET V52439 PHYS-OBJECT)"]
+  "V52439" -> "NT53426" [label=":OPERATOR"]
+  "NT53426" [label="AND"]
+  "V52439" -> "V52435" [label=":SEQUENCE"]
+  "V52439" -> "V52489" [label=":SEQUENCE-1"]
+  "V52435" [label="(INDEF-SET V52435 (:* CHILD KID))"]
+  "V52435" -> "NT53427" [label=":QUAN"]
+  "NT53427" [label="(:* QMODIFIER MORE)"]
+  "V52489" [label="(A V52489 (:* DISPLAY BLACKBOARD))"]
+  "V52489" -> "V52496" [label=":LOCATION"]
+  "V52496" [label="(F V52496 (:* IN-LOC IN))"]
+  "V52496" -> "V52552" [label=":GROUND"]
+  "V52496" -> "V52489" [label=":FIGURE"]
+  "V52552" [label="(THE V52552 (:* IMAGE BACKGROUND))"]
+}

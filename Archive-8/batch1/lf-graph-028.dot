@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "ONE WORKER IS STANDING ON RAILS PUNC-COMMA"
+  "V112718" [label="(SPEECHACT V112718 SA_TELL)"]
+  "V112718" -> "V112466" [label=":CONTENT"]
+  "V112466" [label="(F V112466 (:* BE BE))"]
+  "V112466" -> "V112457" [label=":NEUTRAL"]
+  "V112466" -> "V112483" [label=":NEUTRAL1"]
+  "V112466" -> "NT113131" [label=":TENSE"]
+  "NT113131" [label="PRES"]
+  "V112457" [label="(A V112457 (:* PROFESSIONAL WORKER))"]
+  "V112457" -> "V112533" [label=":SIZE"]
+  "V112533" [label="(A V112533 NUMBER)"]
+  "V112533" -> "NT113132" [label=":VALUE"]
+  "NT113132" [label="1"]
+  "V112483" [label="(BARE V112483 (:* BE-AT-LOC STAND))"]
+  "V112483" -> "V112493" [label=":LOCATION"]
+  "V112493" [label="(F V112493 (:* ON ON))"]
+  "V112493" -> "V112516" [label=":GROUND"]
+  "V112493" -> "V112483" [label=":FIGURE"]
+  "V112516" [label="(INDEF-SET V112516 (:* DRINKING-ESTABLISHMENT RAILS))"]
+}

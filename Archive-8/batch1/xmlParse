@@ -1,0 +1,10 @@
+#!/bin/bash
+for file in $PWD/*.xml; do
+	[ -e "$file" ] || continue
+	$cleanFile = $file
+	$cleanFile .= '.clean'
+	echo $cleanFile 
+	xsltproc "/Users/michaelfurst/Desktop/transform.xsl" "${file}" > "${file}.clean"
+	xmllint -format "${file}.clean"
+	diff '$file' "${file}.clean" > "${file}.log"
+done

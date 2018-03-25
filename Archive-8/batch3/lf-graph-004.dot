@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "A FEW PUPILS ARE IN FRONT OF THE BUILDING PUNC-PERIOD"
+  "V52000" [label="(SPEECHACT V52000 SA_TELL)"]
+  "V52000" -> "V51676" [label=":CONTENT"]
+  "V51676" [label="(F V51676 (:* HAVE-PROPERTY BE))"]
+  "V51676" -> "V51669" [label=":NEUTRAL"]
+  "V51676" -> "V51693" [label=":FORMAL"]
+  "V51676" -> "NT52165" [label=":TENSE"]
+  "NT52165" [label="PRES"]
+  "V51669" [label="(INDEF-SET V51669 (:* EXTERNAL-BODY-PART PUPIL))"]
+  "V51669" -> "NT52166" [label=":SIZE"]
+  "NT52166" [label="A-FEW"]
+  "V51693" [label="(F V51693 (:* IN-LOC IN))"]
+  "V51693" -> "V51742" [label=":GROUND"]
+  "V51693" -> "V51669" [label=":FIGURE"]
+  "V51742" [label="(BARE V51742 (:* OBJECT-DEPENDENT-LOCATION FRONT))"]
+  "V51742" -> "V51812" [label=":FIGURE"]
+  "V51812" [label="(THE V51812 (:* GENERAL-STRUCTURE BUILDING))"]
+}

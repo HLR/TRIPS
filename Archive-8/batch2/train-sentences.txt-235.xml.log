@@ -1,0 +1,279 @@
+2,245c2,33
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="an improvised cupboard with lots of drawers in a corner at the back of the room .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?277749:(F::PHYS-OBJ
+<                                                          F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V147270)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?277747)
+<                                            (W::TRANSFORM ?277748)))
+<                                  (W::CASE ?277746:(W::SUB W::OBJ -))
+<                                  (W::AGR ?277745) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V147270) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER148556))
+< *last-utt-id*=NIL  utt-id+28
+< *last-utt-id*=28  utt-id+NIL</debug><utt><words><lisp>(W::AN W::IMPROVISED W::CUPBOARD W::WITH W::LOTS W::OF W::DRAWERS W::IN W::A
+<  W::CORNER W::AT W::THE W::BACK W::OF W::THE W::ROOM)</lisp><word>AN</word><word>IMPROVISED</word><word>CUPBOARD</word><word>WITH</word><word>LOTS</word><word>OF</word><word>DRAWERS</word><word>IN</word><word>A</word><word>CORNER</word><word>AT</word><word>THE</word><word>BACK</word><word>OF</word><word>THE</word><word>ROOM</word></words><tags><lisp>((WORD &quot;an&quot; :FRAME (0 2) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;improvised&quot; :FRAME (3 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBN NN) :TRIPS-PARTS-OF-SPEECH (W::V W::N))) :UTTNUM
+<   28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;an improvised&quot; :FRAME (0 13) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 20.714 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;cupboard&quot; :FRAME (14 22) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN VBD) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+<   28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (23 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;lots&quot; :FRAME (28 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;lots&quot; :FRAME (28 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.399 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (33 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;drawers&quot; :FRAME (36 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;drawers&quot; :FRAME (36 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.927 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (44 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (47 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;corner&quot; :FRAME (49 55) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a corner&quot; :FRAME (47 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.966 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in a corner&quot; :FRAME (44 55) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.217 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;drawers in a corner&quot; :FRAME (36 55) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 29.686 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of drawers in a corner&quot; :FRAME (33 55) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 32.098 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;lots of drawers in a corner&quot; :FRAME (28 55) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 43.037 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;with lots of drawers in a corner&quot; :FRAME (23 55) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 47.287 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;at&quot; :FRAME (56 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (59 62) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;back&quot; :FRAME (63 67) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the back&quot; :FRAME (59 67) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.119 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (68 70) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (71 74) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;room&quot; :FRAME (75 79) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 28
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the room&quot; :FRAME (71 79) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.355 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of the room&quot; :FRAME (68 79) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 11.422 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the back of the room&quot; :FRAME (59 79) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 23.082 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at the back of the room&quot; :FRAME (56 79) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 27.392 :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;cupboard with lots of drawers in a corner at the back of the room&quot;
+<   :FRAME (14 79) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 91.528 :UTTNUM 28
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (80 80) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 28 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;an improvised cupboard with lots of drawers in a corner at the back of the room .&quot;
+<   :FRAME (0 80) :PENN-CATS (S) :SCORE 113.384 :UTTNUM 28 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="an" start="0" end="2"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="improvised" start="3" end="13"><sense-info penn-parts-of-speech="VBN,NN" trips-parts-of-speech="V,N" /></word><prefer text="an improvised" start="0" end="13" penn-cats="NP" score="20.714" /><word lex="cupboard" start="14" end="22"><sense-info penn-parts-of-speech="NN,VBD" trips-parts-of-speech="N,V" /></word><word lex="with" start="23" end="27"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="lots" start="28" end="32"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="lots" start="28" end="32" penn-cats="NP" score="10.399" /><word lex="of" start="33" end="35"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="drawers" start="36" end="43"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="drawers" start="36" end="43" penn-cats="NP" score="13.927" /><word lex="in" start="44" end="46"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="47" end="48"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="corner" start="49" end="55"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a corner" start="47" end="55" penn-cats="NP" score="12.966" /><prefer text="in a corner" start="44" end="55" penn-cats="PP" score="15.217" /><prefer text="drawers in a corner" start="36" end="55" penn-cats="NP" score="29.686" /><prefer text="of drawers in a corner" start="33" end="55" penn-cats="PP" score="32.098" /><prefer text="lots of drawers in a corner" start="28" end="55" penn-cats="NP" score="43.037" /><prefer text="with lots of drawers in a corner" start="23" end="55" penn-cats="PP" score="47.287" /><word lex="at" start="56" end="58"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="59" end="62"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="back" start="63" end="67"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the back" start="59" end="67" penn-cats="NP" score="11.119" /><word lex="of" start="68" end="70"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="71" end="74"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="room" start="75" end="79"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the room" start="71" end="79" penn-cats="NP" score="10.355" /><prefer text="of the room" start="68" end="79" penn-cats="PP" score="11.422" /><prefer text="the back of the room" start="59" end="79" penn-cats="NP" score="23.082" /><prefer text="at the back of the room" start="56" end="79" penn-cats="PP" score="27.392" /><prefer text="cupboard with lots of drawers in a corner at the back of the room" start="14" end="79" penn-cats="VP" score="91.528" /><word lex="." start="80" end="80"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="an improvised cupboard with lots of drawers in a corner at the back of the room ." start="0" end="80" penn-cats="S" score="113.384" /></tags><tree><lisp>(NP (SPEC (DET (ART AN)))
+<  (N1
+<   (N1 (N1 (ADJP (VP- (V (V IMPROVISED)))) (N1 (N CUPBOARD)))
+<    (ADVBL (ADV WITH)
+<     (NP
+<      (N1 (N1 (N LOTS))
+<       (ADVBL (ADV OF)
+<        (NP
+<         (N1 (N1 (N DRAWERS))
+<          (ADVBL (ADV IN) (NP (SPEC (DET (ART A))) (N1 (N CORNER)))))))))))
+<   (ADVBL (ADV AT)
+<    (NP (SPEC (DET (ART THE)))
+<     (N1 (N BACK) (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N ROOM)))))))))</lisp><NP><SPEC><DET><ART>AN</ART></DET></SPEC><N1><N1><N1><ADJP><VP-><V><V>IMPROVISED</V></V></VP-></ADJP><N1><N>CUPBOARD</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><N1><N1><N>LOTS</N></N1><ADVBL><ADV>OF</ADV><NP><N1><N1><N>DRAWERS</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>CORNER</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></ADVBL></N1><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACK</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>ROOM</N></N1></NP></PP></N1></NP></ADVBL></N1></NP></tree><terms root="#V143109"><lisp>((ONT::A ONT::V143109 (:* ONT::CUPBOARD W::CUPBOARD) :LOCATION ONT::V143246
+<   :MOD ONT::V143113 :MOD ONT::V143098 :START 0 :END 80)
+<  (ONT::F ONT::V143098 (:* ONT::EXECUTE W::IMPROVISED) :AFFECTED ONT::V143109
+<   :START 3 :END 14)
+<  (ONT::F ONT::V143113 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V143127 :FIGURE
+<   ONT::V143109 :START 23 :END 56)
+<  (ONT::INDEF-SET ONT::V143127 (:* ONT::AREA-DEF-BY-USE W::LOT) :MOD
+<   ONT::V143134 :START 28 :END 56)
+<  (ONT::F ONT::V143134 (:* ONT::CONTAIN-RELN W::OF) :GROUND ONT::V143140 :FIGURE
+<   ONT::V143127 :START 33 :END 56)
+<  (ONT::INDEF-SET ONT::V143140 (:* ONT::DRAWER W::DRAWER) :LOCATION ONT::V143147
+<   :START 36 :END 56)
+<  (ONT::F ONT::V143147 (:* ONT::IN-LOC W::IN) :GROUND ONT::V143237 :FIGURE
+<   ONT::V143140 :START 44 :END 56)
+<  (ONT::A ONT::V143237 (:* ONT::CORNER W::CORNER) :START 47 :END 56)
+<  (ONT::F ONT::V143246 (:* ONT::AT-LOC W::AT) :GROUND ONT::V143271 :FIGURE
+<   ONT::V143109 :START 56 :END 80)
+<  (ONT::THE ONT::V143271 (:* ONT::OBJECT-DEPENDENT-LOCATION W::BACK) :FIGURE
+<   ONT::V143292 :START 59 :END 80)
+<  (ONT::THE ONT::V143292 (:* ONT::INTERNAL-ENCLOSURE W::ROOM) :START 68 :END 80))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V143109">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>CUPBOARD</LF:type>
+<     <LF:word>CUPBOARD</LF:word>
+<     <role:LOCATION rdf:resource="#V143246" />
+<     <role:MOD rdf:resource="#V143113" />
+<     <role:MOD rdf:resource="#V143098" />
+<     <LF:start>0</LF:start>
+<     <LF:end>80</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143098">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EXECUTE</LF:type>
+<     <LF:word>IMPROVISED</LF:word>
+<     <role:AFFECTED rdf:resource="#V143109" />
+<     <LF:start>3</LF:start>
+<     <LF:end>14</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143113">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V143127" />
+<     <role:FIGURE rdf:resource="#V143109" />
+<     <LF:start>23</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143127">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>AREA-DEF-BY-USE</LF:type>
+<     <LF:word>LOT</LF:word>
+<     <role:MOD rdf:resource="#V143134" />
+<     <LF:start>28</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143134">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONTAIN-RELN</LF:type>
+<     <LF:word>OF</LF:word>
+<     <role:GROUND rdf:resource="#V143140" />
+<     <role:FIGURE rdf:resource="#V143127" />
+<     <LF:start>33</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143140">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>DRAWER</LF:type>
+<     <LF:word>DRAWER</LF:word>
+<     <role:LOCATION rdf:resource="#V143147" />
+<     <LF:start>36</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143147">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V143237" />
+<     <role:FIGURE rdf:resource="#V143140" />
+<     <LF:start>44</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143237">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>CORNER</LF:type>
+<     <LF:word>CORNER</LF:word>
+<     <LF:start>47</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143246">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V143271" />
+<     <role:FIGURE rdf:resource="#V143109" />
+<     <LF:start>56</LF:start>
+<     <LF:end>80</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143271">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>BACK</LF:word>
+<     <role:FIGURE rdf:resource="#V143292" />
+<     <LF:start>59</LF:start>
+<     <LF:end>80</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V143292">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>ROOM</LF:word>
+<     <LF:start>68</LF:start>
+<     <LF:end>80</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="A" type="CUPBOARD" text="CUPBOARD" start="0" end="80">
+>    <TEXT>an improvised cupboard with lots of drawers in a corner at the back of the room .</TEXT>
+>    <RELATION id="1" head="V143109" res="V143246" label="LOCATION"/>
+>    <RELATION id="2" head="V143109" res="V143113" label="MOD"/>
+>    <RELATION id="3" head="V143109" res="V143098" label="MOD"/>
+>    <PHRASE id="V143098" indicator="F" type="EXECUTE" text="IMPROVISED" start="3" end="14"/>
+>    <RELATION id="4" head="V143098" res="V143109" label="AFFECTED"/>
+>    <PHRASE id="V143113" indicator="F" type="ASSOC-WITH" text="WITH" start="23" end="56"/>
+>    <RELATION id="5" head="V143113" res="V143127" label="GROUND"/>
+>    <RELATION id="6" head="V143113" res="V143109" label="FIGURE"/>
+>    <PHRASE id="V143127" indicator="INDEF-SET" type="AREA-DEF-BY-USE" text="LOT" start="28" end="56"/>
+>    <RELATION id="7" head="V143127" res="V143134" label="MOD"/>
+>    <PHRASE id="V143134" indicator="F" type="CONTAIN-RELN" text="OF" start="33" end="56"/>
+>    <RELATION id="8" head="V143134" res="V143140" label="GROUND"/>
+>    <RELATION id="9" head="V143134" res="V143127" label="FIGURE"/>
+>    <PHRASE id="V143140" indicator="INDEF-SET" type="DRAWER" text="DRAWER" start="36" end="56"/>
+>    <RELATION id="10" head="V143140" res="V143147" label="LOCATION"/>
+>    <PHRASE id="V143147" indicator="F" type="IN-LOC" text="IN" start="44" end="56"/>
+>    <RELATION id="11" head="V143147" res="V143237" label="GROUND"/>
+>    <RELATION id="12" head="V143147" res="V143140" label="FIGURE"/>
+>    <PHRASE id="V143237" indicator="A" type="CORNER" text="CORNER" start="47" end="56"/>
+>    <PHRASE id="V143246" indicator="F" type="AT-LOC" text="AT" start="56" end="80"/>
+>    <RELATION id="13" head="V143246" res="V143271" label="GROUND"/>
+>    <RELATION id="14" head="V143246" res="V143109" label="FIGURE"/>
+>    <PHRASE id="V143271" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="BACK" start="59" end="80"/>
+>    <RELATION id="15" head="V143271" res="V143292" label="FIGURE"/>
+>    <PHRASE id="V143292" indicator="THE" type="INTERNAL-ENCLOSURE" text="ROOM" start="68" end="80"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="108" WNSENSE="stand_in%2:40:00">
+   <TEXT>a dark-skinned girl with long black hair wearing a red blouse and blue dungarees is standing in a classroom .</TEXT>
+   <RELATION id="1" head="V410347" res="V405119" label="CONTENT"/>
+   <PHRASE id="V405119" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="0" end="108" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="2" head="V405119" res="V404917" label="AGENT"/>
+   <RELATION id="3" head="V405119" res="V405166" label="AFFECTED"/>
+   <PHRASE id="V404917" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="81"/>
+   <RELATION id="4" head="V404917" res="V404921" label="MOD"/>
+   <RELATION id="5" head="V404917" res="V404902" label="MOD"/>
+   <PHRASE id="V404902" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="6" head="V404902" res="V404891" label="AGENT"/>
+   <RELATION id="7" head="V404902" res="V404917" label="AFFECTED"/>
+   <PHRASE id="V404891" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+   <PHRASE id="V404921" indicator="F" type="ASSOC-WITH" text="WITH" start="20" end="81"/>
+   <RELATION id="8" head="V404921" res="V404943" label="GROUND"/>
+   <RELATION id="9" head="V404921" res="V404917" label="FIGURE"/>
+   <PHRASE id="V404943" indicator="BARE" type="EXTERNAL-BODY-PART" text="HAIR" start="25" end="81"/>
+   <RELATION id="10" head="V404943" res="V404949" label="MOD"/>
+   <RELATION id="11" head="V404943" res="V404933" label="MOD"/>
+   <RELATION id="12" head="V404943" res="V404940" label="MOD"/>
+   <PHRASE id="V404933" indicator="F" type="LONG" text="LONG" SCALE="SIZE-SCALE" start="25" end="30"/>
+   <RELATION id="13" head="V404933" res="V404943" label="FIGURE"/>
+   <PHRASE id="V404940" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="30" end="36"/>
+   <RELATION id="14" head="V404940" res="V404943" label="FIGURE"/>
+   <PHRASE id="V404949" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="41" end="81"/>
+   <RELATION id="15" head="V404949" res="V404943" label="AGENT"/>
+   <RELATION id="16" head="V404949" res="V405013" label="NEUTRAL"/>
+   <PHRASE id="V405013" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="49" end="81"/>
+   <RELATION id="17" head="V405013" res="V405009" label="SEQUENCE"/>
+   <RELATION id="18" head="V405013" res="V405029" label="SEQUENCE1"/>
+   <PHRASE id="V405009" indicator="A" type="ATTIRE" text="BLOUSE" start="49" end="62"/>
+   <RELATION id="19" head="V405009" res="V404996" label="MOD"/>
+   <PHRASE id="V404996" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="51" end="55"/>
+   <RELATION id="20" head="V404996" res="V405009" label="FIGURE"/>
+   <PHRASE id="V405029" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" text="DUNGAREES" start="66" end="81"/>
+   <RELATION id="21" head="V405029" res="V405022" label="MOD"/>
+   <PHRASE id="V405022" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="66" end="71"/>
+   <RELATION id="22" head="V405022" res="V405029" label="FIGURE"/>
+   <PHRASE id="V405166" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="96" end="108"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

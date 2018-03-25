@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="arched entrance to a hotel with a revolving glass door and a well exposed flower pot on each side of the entrance .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?123039:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V275127)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?123037)
+                                           (W::TRANSFORM ?123038)))
+                                 (W::CASE ?123036:(W::SUB W::OBJ -))
+                                 (W::AGR ?123035) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V275127) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER275558))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?123372:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V275130)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::HOTEL))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::HOTEL))
+                                                             (W::VAL (W::HOTEL))))
+                                           (W::LEX W::HOTEL) (W::SEM ?123370)
+                                           (W::TRANSFORM ?123371)))
+                                 (W::CASE ?123369:(W::SUB W::OBJ -))
+                                 (W::AGR ?123368) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V275130) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::HOTEL)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER275560))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?123666:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V275133)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?123664)
+                                           (W::TRANSFORM ?123665)))
+                                 (W::CASE ?123663:(W::SUB W::OBJ -))
+                                 (W::AGR ?123662) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V275133) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER275562))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?124000:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V275136)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?123998)
+                                           (W::TRANSFORM ?123999)))
+                                 (W::CASE ?123997:(W::SUB W::OBJ -))
+                                 (W::AGR ?123996) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V275136) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER275564))
+*last-utt-id*=NIL  utt-id+38
+*last-utt-id*=38  utt-id+38
+*last-utt-id*=38  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::ARCHED W::ENTRANCE W::TO W::A W::HOTEL W::WITH W::A W::REVOLVING W::GLASS
+ W::DOOR)</lisp><word>ARCHED</word><word>ENTRANCE</word><word>TO</word><word>A</word><word>HOTEL</word><word>WITH</word><word>A</word><word>REVOLVING</word><word>GLASS</word><word>DOOR</word></words><tags><lisp>((WORD &quot;arched&quot; :FRAME (0 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD JJ) :TRIPS-PARTS-OF-SPEECH (W::V W::ADJ)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;entrance&quot; :FRAME (7 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;arched entrance&quot; :FRAME (0 15) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 26.707 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (16 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (19 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hotel&quot; :FRAME (21 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a hotel&quot; :FRAME (19 26) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.314 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (27 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (32 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;revolving&quot; :FRAME (34 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ VBG) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::V)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;glass&quot; :FRAME (44 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;door&quot; :FRAME (50 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a revolving glass door&quot; :FRAME (32 54) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 30.0 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="arched" start="0" end="6"><sense-info penn-parts-of-speech="VBD,JJ" trips-parts-of-speech="V,ADJ" /></word><word lex="entrance" start="7" end="15"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="arched entrance" start="0" end="15" penn-cats="NP" score="26.707" /><word lex="to" start="16" end="18"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="a" start="19" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="hotel" start="21" end="26"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a hotel" start="19" end="26" penn-cats="NP" score="11.314" /><word lex="with" start="27" end="31"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="32" end="33"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="revolving" start="34" end="43"><sense-info penn-parts-of-speech="JJ,VBG" trips-parts-of-speech="ADJ,V" /></word><word lex="glass" start="44" end="49"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="door" start="50" end="54"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a revolving glass door" start="32" end="54" penn-cats="NP" score="30.0" /></tags><tree><lisp>(UTT
+ (VP
+  (VP- (VP- (V ARCHED) (NP (N1 (N ENTRANCE))))
+   (ADVBL (ADV TO)
+    (NP (SPEC (DET (ART A)))
+     (N1 (N1 (N HOTEL))
+      (ADVBL (ADV WITH)
+       (NP (SPEC (DET (ART A)))
+        (N1 (ADJP (V REVOLVING)) (N1 (N1 (N GLASS)) (N1 (N DOOR))))))))))))</lisp><UTT><VP><VP-><VP-><V>ARCHED</V><NP><N1><N>ENTRANCE</N></N1></NP></VP-><ADVBL><ADV>TO</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>HOTEL</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><V>REVOLVING</V></ADJP><N1><N1><N>GLASS</N></N1><N1><N>DOOR</N></N1></N1></N1></NP></ADVBL></N1></NP></ADVBL></VP-></VP></UTT></tree><terms root="#V276051"><lisp>((ONT::SPEECHACT ONT::V276051 ONT::SA_TELL :CONTENT ONT::V272874 :START 0 :END
+  55)
+ (ONT::F ONT::V272874 (:* ONT::CHANGE W::ARCHED) :RESULT ONT::V272891 :AGENT
+  ONT::V276052 :AFFECTED ONT::V272884 :TENSE W::PAST :START 0 :END 55)
+ (ONT::IMPRO ONT::V276052 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 0 :END
+  55 :COREF ONT::V272954)
+ (ONT::BARE ONT::V272884 (:* ONT::EXIT W::ENTRANCE) :START 7 :END 16)
+ (ONT::F ONT::V272891 (:* ONT::TO-LOC W::TO) :GROUND ONT::V272954 :FIGURE
+  ONT::V272884 :START 16 :END 55)
+ (ONT::A ONT::V272954 (:* ONT::ACCOMMODATION W::HOTEL) :MOD ONT::V272959 :START
+  19 :END 55)
+ (ONT::F ONT::V272959 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V273023 :FIGURE
+  ONT::V272954 :START 27 :END 55)
+ (ONT::A ONT::V273023 (:* ONT::STRUCTURAL-OPENING W::DOOR) :ASSOC-WITH
+  ONT::V273019 :MOD ONT::V273013 :START 32 :END 55)
+ (ONT::KIND ONT::V273019 (:* ONT::SOLID-SUBSTANCE W::GLASS) :START 32 :END 55)
+ (ONT::F ONT::V273013 (:* ONT::ROTATE W::REVOLVE) :AFFECTED ONT::V273023 :START
+  34 :END 44))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V276051">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V272874" />
+    <LF:start>0</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V272874">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CHANGE</LF:type>
+    <LF:word>ARCHED</LF:word>
+    <role:RESULT rdf:resource="#V272891" />
+    <role:AGENT rdf:resource="#V276052" />
+    <role:AFFECTED rdf:resource="#V272884" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V276052">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>55</LF:end>
+    <role:COREF rdf:resource="#V272954" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V272884">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>EXIT</LF:type>
+    <LF:word>ENTRANCE</LF:word>
+    <LF:start>7</LF:start>
+    <LF:end>16</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V272891">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TO-LOC</LF:type>
+    <LF:word>TO</LF:word>
+    <role:GROUND rdf:resource="#V272954" />
+    <role:FIGURE rdf:resource="#V272884" />
+    <LF:start>16</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V272954">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ACCOMMODATION</LF:type>
+    <LF:word>HOTEL</LF:word>
+    <role:MOD rdf:resource="#V272959" />
+    <LF:start>19</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V272959">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V273023" />
+    <role:FIGURE rdf:resource="#V272954" />
+    <LF:start>27</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273023">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>STRUCTURAL-OPENING</LF:type>
+    <LF:word>DOOR</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V273019" />
+    <role:MOD rdf:resource="#V273013" />
+    <LF:start>32</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273019">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>SOLID-SUBSTANCE</LF:type>
+    <LF:word>GLASS</LF:word>
+    <LF:start>32</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273013">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ROTATE</LF:type>
+    <LF:word>REVOLVE</LF:word>
+    <role:AFFECTED rdf:resource="#V273023" />
+    <LF:start>34</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND W::A W::WELL W::EXPOSED W::FLOWER W::POT W::ON W::EACH W::SIDE W::OF
+ W::THE W::ENTRANCE W::PUNC-PERIOD)</lisp><word>AND</word><word>A</word><word>WELL</word><word>EXPOSED</word><word>FLOWER</word><word>POT</word><word>ON</word><word>EACH</word><word>SIDE</word><word>OF</word><word>THE</word><word>ENTRANCE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (55 58) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (59 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;well&quot; :FRAME (61 65) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;exposed&quot; :FRAME (66 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;well exposed&quot; :FRAME (61 73) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP)
+  :SCORE 12.678 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;flower&quot; :FRAME (74 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pot&quot; :FRAME (81 84) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a well exposed flower pot&quot; :FRAME (59 84) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 40.294 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a revolving glass door and a well exposed flower pot&quot; :FRAME (32 84)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 78.918 :UTTNUM 38 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;with a revolving glass door and a well exposed flower pot&quot; :FRAME
+  (27 84) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 82.977 :UTTNUM 38 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a hotel with a revolving glass door and a well exposed flower pot&quot;
+  :FRAME (19 84) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 96.051 :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;to a hotel with a revolving glass door and a well exposed flower pot&quot;
+  :FRAME (16 84) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 99.906 :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (85 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;each&quot; :FRAME (88 92) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;side&quot; :FRAME (93 97) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;each side&quot; :FRAME (88 97) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.2 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on each side&quot; :FRAME (85 97) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 18.705 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (98 100) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (101 104) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;entrance&quot; :FRAME (105 113) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the entrance&quot; :FRAME (101 113) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.817 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of the entrance&quot; :FRAME (98 113) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.884 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (114 114) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;arched entrance to a hotel with a revolving glass door and a well exposed flower pot on each side of the entrance .&quot;
+  :FRAME (0 114) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 168.121 :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="55" end="58"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="59" end="60"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="well" start="61" end="65"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><word lex="exposed" start="66" end="73"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="well exposed" start="61" end="73" penn-cats="ADJP" score="12.678" /><word lex="flower" start="74" end="80"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="pot" start="81" end="84"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a well exposed flower pot" start="59" end="84" penn-cats="NP" score="40.294" /><prefer text="a revolving glass door and a well exposed flower pot" start="32" end="84" penn-cats="NP" score="78.918" /><prefer text="with a revolving glass door and a well exposed flower pot" start="27" end="84" penn-cats="PP" score="82.977" /><prefer text="a hotel with a revolving glass door and a well exposed flower pot" start="19" end="84" penn-cats="NP" score="96.051" /><prefer text="to a hotel with a revolving glass door and a well exposed flower pot" start="16" end="84" penn-cats="PP" score="99.906" /><word lex="on" start="85" end="87"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="each" start="88" end="92"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="side" start="93" end="97"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="each side" start="88" end="97" penn-cats="NP" score="15.2" /><prefer text="on each side" start="85" end="97" penn-cats="PP" score="18.705" /><word lex="of" start="98" end="100"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="101" end="104"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="entrance" start="105" end="113"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the entrance" start="101" end="113" penn-cats="NP" score="14.817" /><prefer text="of the entrance" start="98" end="113" penn-cats="PP" score="15.884" /><word lex="." start="114" end="114"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="arched entrance to a hotel with a revolving glass door and a well exposed flower pot on each side of the entrance ." start="0" end="114" penn-cats="NP" score="168.121" /></tags><tree><lisp>(UTT
+ (UTT (ADVBL (ADV AND))
+  (UTT
+   (NP (SPEC (DET (ART A)))
+    (N1
+     (N1 (ADJP (ADVBL (ADV WELL)) (ADJP (VP- (V (V EXPOSED)))))
+      (N1 (N1 (N FLOWER)) (N1 (N POT))))
+     (ADVBL (ADV ON)
+      (NP (SPEC (QUAN EACH))
+       (N1 (N SIDE)
+        (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N ENTRANCE)))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADVBL><ADV>WELL</ADV></ADVBL><ADJP><VP-><V><V>EXPOSED</V></V></VP-></ADJP></ADJP><N1><N1><N>FLOWER</N></N1><N1><N>POT</N></N1></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><QUAN>EACH</QUAN></SPEC><N1><N>SIDE</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>ENTRANCE</N></N1></NP></PP></N1></NP></ADVBL></N1></NP></UTT></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V274566"><lisp>((ONT::SPEECHACT ONT::V274566 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V273101 :MOD ONT::V273028 :START 55 :END 114)
+ (ONT::F ONT::V273028 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V274566 :START 55
+  :END 59)
+ (ONT::A ONT::V273101 (:* ONT::POT W::POT) :ASSOC-WITH ONT::V273096 :LOCATION
+  ONT::V273109 :MOD ONT::V273089 :START 59 :END 114)
+ (ONT::KIND ONT::V273096 (:* ONT::PLANT W::FLOWER) :START 59 :END 114)
+ (ONT::F ONT::V273089 (:* ONT::VISUAL-DISPLAY W::EXPOSE) :AFFECTED ONT::V273101
+  :DEGREE ONT::V273080 :START 61 :END 74)
+ (ONT::F ONT::V273080 (:* ONT::DEGREE-MODIFIER-HIGH W::WELL) :FIGURE
+  ONT::V273089 :START 61 :END 66)
+ (ONT::F ONT::V273109 (:* ONT::ON W::ON) :GROUND ONT::V273138 :FIGURE
+  ONT::V273101 :START 85 :END 114)
+ (ONT::QUANTIFIER ONT::V273138 (:* ONT::SIDE-LOCATION W::SIDE) :QUAN ONT::EACH
+  :FIGURE ONT::V273160 :START 88 :END 114)
+ (ONT::THE ONT::V273160 (:* ONT::EXIT W::ENTRANCE) :START 98 :END 114 :COREF
+  ONT::V272884))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V274566">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V273101" />
+    <role:MOD rdf:resource="#V273028" />
+    <LF:start>55</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273028">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V274566" />
+    <LF:start>55</LF:start>
+    <LF:end>59</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273101">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>POT</LF:type>
+    <LF:word>POT</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V273096" />
+    <role:LOCATION rdf:resource="#V273109" />
+    <role:MOD rdf:resource="#V273089" />
+    <LF:start>59</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273096">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PLANT</LF:type>
+    <LF:word>FLOWER</LF:word>
+    <LF:start>59</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273089">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>VISUAL-DISPLAY</LF:type>
+    <LF:word>EXPOSE</LF:word>
+    <role:AFFECTED rdf:resource="#V273101" />
+    <role:DEGREE rdf:resource="#V273080" />
+    <LF:start>61</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273080">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DEGREE-MODIFIER-HIGH</LF:type>
+    <LF:word>WELL</LF:word>
+    <role:FIGURE rdf:resource="#V273089" />
+    <LF:start>61</LF:start>
+    <LF:end>66</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273109">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V273138" />
+    <role:FIGURE rdf:resource="#V273101" />
+    <LF:start>85</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273138">
+    <LF:indicator>QUANTIFIER</LF:indicator>
+    <LF:type>SIDE-LOCATION</LF:type>
+    <LF:word>SIDE</LF:word>
+    <role:QUAN>EACH</role:QUAN>
+    <role:FIGURE rdf:resource="#V273160" />
+    <LF:start>88</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V273160">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>EXIT</LF:type>
+    <LF:word>ENTRANCE</LF:word>
+    <LF:start>98</LF:start>
+    <LF:end>114</LF:end>
+    <role:COREF rdf:resource="#V272884" />
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

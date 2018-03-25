@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "SAND STONES AND ROCKS IN THE BACKGROUND PUNC-PERIOD"
+  "V73360" [label="(SPEECHACT V73360 SA_IDENTIFY)"]
+  "V73360" -> "V73105" [label=":CONTENT"]
+  "V73105" [label="(INDEF-SET V73105 NATURAL-OBJECT)"]
+  "V73105" -> "NT73816" [label=":OPERATOR"]
+  "NT73816" [label="AND"]
+  "V73105" -> "V73098" [label=":SEQUENCE"]
+  "V73105" -> "V73116" [label=":SEQUENCE-1"]
+  "V73098" [label="(INDEF-SET V73098 (:* NATURAL-OBJECT STONES))"]
+  "V73098" -> "V73091" [label=":ASSOC-WITH"]
+  "V73091" [label="(KIND V73091 (:* SUBSTANCE SAND))"]
+  "V73116" [label="(INDEF-SET V73116 (:* NATURAL-OBJECT ROCK))"]
+  "V73116" -> "V73124" [label=":LOCATION"]
+  "V73124" [label="(F V73124 (:* IN-LOC IN))"]
+  "V73124" -> "V73180" [label=":GROUND"]
+  "V73124" -> "V73116" [label=":FIGURE"]
+  "V73180" [label="(THE V73180 (:* IMAGE BACKGROUND))"]
+}

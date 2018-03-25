@@ -1,0 +1,111 @@
+2,92c2,18
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="green trees behind them .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+1
+< *last-utt-id*=1  utt-id+NIL</debug><utt><words><lisp>(W::GREEN W::TREES W::BEHIND W::THEM W::PUNC-PERIOD)</lisp><word>GREEN</word><word>TREES</word><word>BEHIND</word><word>THEM</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;green&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;trees&quot; :FRAME (6 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;green trees&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   20.179 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;behind&quot; :FRAME (12 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;them&quot; :FRAME (19 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;them&quot; :FRAME (19 23) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.534
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;behind them&quot; :FRAME (12 23) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.307 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (24 24) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;green trees behind them .&quot; :FRAME (0 24) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 37.97 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="green" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="trees" start="6" end="11"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="green trees" start="0" end="11" penn-cats="NP" score="20.179" /><word lex="behind" start="12" end="18"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="them" start="19" end="23"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="them" start="19" end="23" penn-cats="NP" score="7.534" /><prefer text="behind them" start="12" end="23" penn-cats="PP" score="15.307" /><word lex="." start="24" end="24"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="green trees behind them ." start="0" end="24" penn-cats="NP" score="37.97" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1 (N1 (ADJP (ADJ1 (ADJ GREEN))) (N1 (N TREES)))
+<     (ADVBL (ADV BEHIND) (NP (PRO THEM))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><N1><N>TREES</N></N1></N1><ADVBL><ADV>BEHIND</ADV><NP><PRO>THEM</PRO></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V33211"><lisp>((ONT::SPEECHACT ONT::V33211 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V33171 :START 0 :END 24)
+<  (ONT::INDEF-SET ONT::V33171 (:* ONT::PLANT W::TREE) :LOCATION ONT::V33174 :MOD
+<   ONT::V33166 :START 0 :END 24)
+<  (ONT::F ONT::V33166 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V33171 :SCALE
+<   ONT::GREEN*1--07--00 :START 0 :END 6)
+<  (ONT::F ONT::V33174 (:* ONT::BACK W::BEHIND) :GROUND ONT::V33177 :FIGURE
+<   ONT::V33171 :START 12 :END 24)
+<  (ONT::PRO-SET ONT::V33177 (:* ONT::REFERENTIAL-SEM W::THEM) :PROFORM W::THEM
+<   :START 19 :END 24))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V33211">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V33171" />
+<     <LF:start>0</LF:start>
+<     <LF:end>24</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33171">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <LF:word>TREE</LF:word>
+<     <role:LOCATION rdf:resource="#V33174" />
+<     <role:MOD rdf:resource="#V33166" />
+<     <LF:start>0</LF:start>
+<     <LF:end>24</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33166">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>GREEN</LF:type>
+<     <LF:word>GREEN</LF:word>
+<     <role:FIGURE rdf:resource="#V33171" />
+<     <role:SCALE>GREEN*1--07--00</role:SCALE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33174">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BACK</LF:type>
+<     <LF:word>BEHIND</LF:word>
+<     <role:GROUND rdf:resource="#V33177" />
+<     <role:FIGURE rdf:resource="#V33171" />
+<     <LF:start>12</LF:start>
+<     <LF:end>24</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33177">
+<     <LF:indicator>PRO-SET</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>THEM</LF:word>
+<     <role:PROFORM>THEM</role:PROFORM>
+<     <LF:start>19</LF:start>
+<     <LF:end>24</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="24">
+>    <TEXT>green trees behind them .</TEXT>
+>    <RELATION id="1" head="V33211" res="V33171" label="CONTENT"/>
+>    <PHRASE id="V33171" indicator="INDEF-SET" type="PLANT" text="TREE" start="0" end="24"/>
+>    <RELATION id="2" head="V33171" res="V33174" label="LOCATION"/>
+>    <RELATION id="3" head="V33171" res="V33166" label="MOD"/>
+>    <PHRASE id="V33166" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="0" end="6"/>
+>    <RELATION id="4" head="V33166" res="V33171" label="FIGURE"/>
+>    <PHRASE id="V33174" indicator="F" type="BACK" text="BEHIND" start="12" end="24"/>
+>    <RELATION id="5" head="V33174" res="V33177" label="GROUND"/>
+>    <RELATION id="6" head="V33174" res="V33171" label="FIGURE"/>
+>    <PHRASE id="V33177" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="19" end="24"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

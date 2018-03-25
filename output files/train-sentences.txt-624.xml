@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="41">
+   <TEXT>background scenery with stones and rocks .</TEXT>
+   <RELATION id="1" head="V89468" res="V89322" label="CONTENT"/>
+   <PHRASE id="V89322" indicator="BARE" type="PHYS-REPRESENTATION" text="SCENERY" start="0" end="41"/>
+   <RELATION id="2" head="V89322" res="V89318" label="ASSOC-WITH"/>
+   <RELATION id="3" head="V89322" res="V89329" label="MOD"/>
+   <PHRASE id="V89318" indicator="KIND" type="IMAGE" text="BACKGROUND" start="0" end="41"/>
+   <PHRASE id="V89329" indicator="F" type="ASSOC-WITH" text="WITH" start="19" end="41"/>
+   <RELATION id="4" head="V89329" res="V89349" label="GROUND"/>
+   <RELATION id="5" head="V89329" res="V89322" label="FIGURE"/>
+   <PHRASE id="V89349" indicator="INDEF-SET" type="NATURAL-OBJECT" OPERATOR="AND" start="24" end="41"/>
+   <RELATION id="6" head="V89349" res="V89342" label="SEQUENCE"/>
+   <RELATION id="7" head="V89349" res="V89360" label="SEQUENCE1"/>
+   <PHRASE id="V89342" indicator="INDEF-SET" type="NATURAL-OBJECT" text="STONES" start="24" end="31"/>
+   <PHRASE id="V89360" indicator="INDEF-SET" type="NATURAL-OBJECT" text="ROCK" start="35" end="41"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

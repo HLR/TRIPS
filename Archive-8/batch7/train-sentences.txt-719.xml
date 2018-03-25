@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="some rocks and stones in the background .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+13
+*last-utt-id*=13  utt-id+NIL</debug><utt><words><lisp>(W::SOME W::ROCKS W::AND W::STONES W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>SOME</word><word>ROCKS</word><word>AND</word><word>STONES</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;some&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rocks&quot; :FRAME (5 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (11 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stones&quot; :FRAME (15 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;some rocks and stones&quot; :FRAME (0 21) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 30.207 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (22 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (25 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (29 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 13
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (25 39) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (22 39) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (40 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;some rocks and stones in the background .&quot; :FRAME (0 40) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 46.915 :UTTNUM 13 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="some" start="0" end="4"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="rocks" start="5" end="10"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="and" start="11" end="14"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="stones" start="15" end="21"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="some rocks and stones" start="0" end="21" penn-cats="NP" score="30.207" /><word lex="in" start="22" end="24"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="25" end="28"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="29" end="39"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="25" end="39" penn-cats="NP" score="11.972" /><prefer text="in the background" start="22" end="39" penn-cats="PP" score="14.224" /><word lex="." start="40" end="40"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="some rocks and stones in the background ." start="0" end="40" penn-cats="NP" score="46.915" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (NP (SPEC (QUAN SOME)) (N1 (N ROCKS))) (CONJ AND)
+   (NP
+    (N1 (N1 (N STONES))
+     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><SPEC><QUAN>SOME</QUAN></SPEC><N1><N>ROCKS</N></N1></NP><CONJ>AND</CONJ><NP><N1><N1><N>STONES</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V92635"><lisp>((ONT::SPEECHACT ONT::V92635 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V92468 :START 0 :END 40)
+ (ONT::INDEF-SET ONT::V92468 ONT::NATURAL-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V92463 ONT::V92478) :START 0 :END 40)
+ (ONT::INDEF-SET ONT::V92463 (:* ONT::NATURAL-OBJECT W::ROCK) :SIZE ONT::SOME
+  :START 0 :END 11)
+ (ONT::INDEF-SET ONT::V92478 (:* ONT::NATURAL-OBJECT W::STONES) :LOCATION
+  ONT::V92488 :START 15 :END 40)
+ (ONT::F ONT::V92488 (:* ONT::IN-LOC W::IN) :GROUND ONT::V92544 :FIGURE
+  ONT::V92478 :START 22 :END 40)
+ (ONT::THE ONT::V92544 (:* ONT::IMAGE W::BACKGROUND) :START 25 :END 40))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V92635">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V92468" />
+    <LF:start>0</LF:start>
+    <LF:end>40</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V92468">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NATURAL-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V92463" />
+    <role:SEQUENCE1 rdf:resource="#V92478" />
+    <LF:start>0</LF:start>
+    <LF:end>40</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V92463">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NATURAL-OBJECT</LF:type>
+    <LF:word>ROCK</LF:word>
+    <role:SIZE>SOME</role:SIZE>
+    <LF:start>0</LF:start>
+    <LF:end>11</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V92478">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NATURAL-OBJECT</LF:type>
+    <LF:word>STONES</LF:word>
+    <role:LOCATION rdf:resource="#V92488" />
+    <LF:start>15</LF:start>
+    <LF:end>40</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V92488">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V92544" />
+    <role:FIGURE rdf:resource="#V92478" />
+    <LF:start>22</LF:start>
+    <LF:end>40</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V92544">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>25</LF:start>
+    <LF:end>40</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

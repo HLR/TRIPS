@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "SAND AND ROCKS IN THE BACKGROUND PUNC-PERIOD"
+  "V73965" [label="(SPEECHACT V73965 SA_IDENTIFY)"]
+  "V73965" -> "V73822" [label=":CONTENT"]
+  "V73822" [label="(INDEF-SET V73822 PHYS-OBJECT)"]
+  "V73822" -> "NT74200" [label=":OPERATOR"]
+  "NT74200" [label="AND"]
+  "V73822" -> "V73818" [label=":SEQUENCE"]
+  "V73822" -> "V73833" [label=":SEQUENCE-1"]
+  "V73818" [label="(BARE V73818 (:* SUBSTANCE SAND))"]
+  "V73833" [label="(INDEF-SET V73833 (:* NATURAL-OBJECT ROCK))"]
+  "V73833" -> "V73841" [label=":LOCATION"]
+  "V73841" [label="(F V73841 (:* IN-LOC IN))"]
+  "V73841" -> "V73897" [label=":GROUND"]
+  "V73841" -> "V73833" [label=":FIGURE"]
+  "V73897" [label="(THE V73897 (:* IMAGE BACKGROUND))"]
+}

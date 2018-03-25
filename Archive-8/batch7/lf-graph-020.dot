@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "SOME GARBAGE LYING AROUND IN THE BACKGROUND PUNC-PERIOD"
+  "V126121" [label="(SPEECHACT V126121 SA_IDENTIFY)"]
+  "V126121" -> "V125762" [label=":CONTENT"]
+  "V125762" [label="(BARE V125762 (:* BODY-MOVEMENT-SELF LIE-DOWN))"]
+  "V125762" -> "V125758" [label=":AGENT"]
+  "V125762" -> "V125792" [label=":LOCATION"]
+  "V125762" -> "V125777" [label=":MOD"]
+  "V125758" [label="(A V125758 (:* DISPOSABLE GARBAGE))"]
+  "V125758" -> "NT126415" [label=":QUAN"]
+  "NT126415" [label="INDEFINITE"]
+  "V125777" [label="(F V125777 (:* AROUND AROUND))"]
+  "V125777" -> "V125947" [label=":GROUND"]
+  "V125777" -> "V125762" [label=":FIGURE"]
+  "V125947" [label="(IMPRO V125947 ANY-SEM)"]
+  "V125947" -> "V125758" [label=":COREF"]
+  "V125792" [label="(F V125792 (:* IN-LOC IN))"]
+  "V125792" -> "V125848" [label=":GROUND"]
+  "V125792" -> "V125762" [label=":FIGURE"]
+  "V125848" [label="(THE V125848 (:* IMAGE BACKGROUND))"]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="35">
+   <TEXT>a girl is eating in the background ,</TEXT>
+   <RELATION id="1" head="V424432" res="V423934" label="CONTENT"/>
+   <PHRASE id="V423934" indicator="F" type="CONSUME" text="EAT" TENSE="PRES" PROGR="+" start="0" end="35"/>
+   <RELATION id="2" head="V423934" res="V423942" label="RESULT"/>
+   <RELATION id="3" head="V423934" res="V423910" label="AGENT"/>
+   <PHRASE id="V423910" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="7"/>
+   <PHRASE id="V423942" indicator="F" type="IN-LOC" text="IN" start="17" end="35"/>
+   <RELATION id="4" head="V423942" res="V424011" label="GROUND"/>
+   <RELATION id="5" head="V423942" res="V423910" label="FIGURE"/>
+   <PHRASE id="V424011" indicator="THE" type="IMAGE" text="BACKGROUND" start="20" end="35"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="37" end="124">
+   <TEXT>another one wearing an orange pullover is walking along the corridor between the desks .</TEXT>
+   <RELATION id="6" head="V428360" res="V424946" label="CONTENT"/>
+   <PHRASE id="V424946" indicator="F" type="SELF-LOCOMOTE" text="WALK" TENSE="PRES" PROGR="+" start="37" end="124"/>
+   <RELATION id="7" head="V424946" res="V424956" label="RESULT"/>
+   <RELATION id="8" head="V424946" res="V424897" label="AGENT"/>
+   <PHRASE id="V424897" indicator="A" type="REFERENTIAL-SEM" text="ONE" start="37" end="76"/>
+   <RELATION id="9" head="V424897" res="V425011" label="MOD"/>
+   <RELATION id="10" head="V424897" res="V424906" label="MOD"/>
+   <PHRASE id="V425011" indicator="F" type="OTHER" start="37" end="76"/>
+   <RELATION id="11" head="V425011" res="V424897" label="FIGURE"/>
+   <PHRASE id="V424906" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="49" end="76"/>
+   <RELATION id="12" head="V424906" res="V424897" label="AGENT"/>
+   <RELATION id="13" head="V424906" res="V424923" label="NEUTRAL"/>
+   <PHRASE id="V424923" indicator="A" type="ATTIRE" text="PULLOVER" start="57" end="76"/>
+   <RELATION id="14" head="V424923" res="V424915" label="MOD"/>
+   <PHRASE id="V424915" indicator="F" type="ORANGE" text="ORANGE" SCALE="ORANGE*1--07--00" start="60" end="67"/>
+   <RELATION id="15" head="V424915" res="V424923" label="FIGURE"/>
+   <PHRASE id="V424956" indicator="F" type="LINEAR-EXTENT" text="ALONG" start="87" end="124"/>
+   <RELATION id="16" head="V424956" res="V424968" label="GROUND"/>
+   <RELATION id="17" head="V424956" res="V424897" label="FIGURE"/>
+   <PHRASE id="V424968" indicator="THE" type="INTERNAL-ENCLOSURE" text="CORRIDOR" start="93" end="124"/>
+   <RELATION id="18" head="V424968" res="V424973" label="LOCATION"/>
+   <PHRASE id="V424973" indicator="F" type="BETWEEN" text="BETWEEN" start="106" end="124"/>
+   <RELATION id="19" head="V424973" res="V424989" label="GROUND"/>
+   <RELATION id="20" head="V424973" res="V424968" label="FIGURE"/>
+   <PHRASE id="V424989" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="114" end="124"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

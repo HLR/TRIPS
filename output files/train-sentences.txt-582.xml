@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="36">
+   <TEXT>also a blackboard in the background .</TEXT>
+   <RELATION id="1" head="V403851" res="V403750" label="CONTENT"/>
+   <RELATION id="2" head="V403851" res="V403704" label="MOD"/>
+   <PHRASE id="V403704" indicator="F" type="CONJUNCT" text="ALSO" start="0" end="5"/>
+   <RELATION id="3" head="V403704" res="V403851" label="FIGURE"/>
+   <PHRASE id="V403750" indicator="A" type="DISPLAY" text="BLACKBOARD" start="5" end="36"/>
+   <RELATION id="4" head="V403750" res="V403757" label="LOCATION"/>
+   <PHRASE id="V403757" indicator="F" type="IN-LOC" text="IN" start="18" end="36"/>
+   <RELATION id="5" head="V403757" res="V403813" label="GROUND"/>
+   <RELATION id="6" head="V403757" res="V403750" label="FIGURE"/>
+   <PHRASE id="V403813" indicator="THE" type="IMAGE" text="BACKGROUND" start="21" end="36"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="73">
+   <TEXT>a dark-skinned , dark-haired girl wearing a black hat , a white cardigan ,</TEXT>
+   <RELATION id="1" head="V203021" res="V203027" label="MOD"/>
+   <RELATION id="2" head="V203021" res="V202994" label="MOD"/>
+   <RELATION id="3" head="V203021" res="V203018" label="MOD"/>
+   <PHRASE id="V202994" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="4" head="V202994" res="V203021" label="FIGURE"/>
+   <PHRASE id="V203018" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V203018" res="V203021" label="FIGURE"/>
+   <PHRASE id="V203027" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="73"/>
+   <RELATION id="6" head="V203027" res="V203021" label="AGENT"/>
+   <RELATION id="7" head="V203027" res="V203077" label="NEUTRAL"/>
+   <PHRASE id="V203077" indicator="A" type="ATTIRE" text="HAT" start="42" end="73"/>
+   <RELATION id="8" head="V203077" res="V203132" label="PARENTHETICAL"/>
+   <RELATION id="9" head="V203077" res="V203074" label="MOD"/>
+   <PHRASE id="V203074" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="44" end="50"/>
+   <RELATION id="10" head="V203074" res="V203077" label="FIGURE"/>
+   <PHRASE id="V203222" indicator="SPEECHACT" type="SA_IDENTIFY" start="56" end="73"/>
+   <RELATION id="11" head="V203222" res="V203132" label="CONTENT"/>
+   <PHRASE id="V203132" indicator="A" type="ATTIRE" text="CARDIGAN" start="56" end="73"/>
+   <RELATION id="12" head="V203132" res="V203124" label="MOD"/>
+   <PHRASE id="V203124" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="58" end="64"/>
+   <RELATION id="13" head="V203124" res="V203132" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="75" end="110">
+   <TEXT>a green vest and a golden necklace .</TEXT>
+   <RELATION id="14" head="V212231" res="V211977" label="CONTENT"/>
+   <PHRASE id="V211977" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="75" end="110"/>
+   <RELATION id="15" head="V211977" res="V211973" label="SEQUENCE"/>
+   <RELATION id="16" head="V211977" res="V212035" label="SEQUENCE1"/>
+   <PHRASE id="V211973" indicator="A" type="ATTIRE" text="VEST" start="75" end="88"/>
+   <RELATION id="17" head="V211973" res="V211967" label="MOD"/>
+   <PHRASE id="V211967" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="77" end="83"/>
+   <RELATION id="18" head="V211967" res="V211973" label="FIGURE"/>
+   <PHRASE id="V212035" indicator="A" type="MANUFACTURED-OBJECT" text="NECKLACE" start="92" end="110"/>
+   <RELATION id="19" head="V212035" res="V212028" label="MOD"/>
+   <PHRASE id="V212028" indicator="F" type="GOLD" text="GOLDEN" SCALE="GOLD*1--07--00" start="94" end="101"/>
+   <RELATION id="20" head="V212028" res="V212035" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

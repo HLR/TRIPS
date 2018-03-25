@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "ALL OF THEM ARE CARRYING BACKPACKS PUNC-PERIOD"
+  "V73423" [label="(SPEECHACT V73423 SA_TELL)"]
+  "V73423" -> "V73226" [label=":CONTENT"]
+  "V73226" [label="(F V73226 (:* TRANSPORT CARRY))"]
+  "V73226" -> "V73264" [label=":AGENT"]
+  "V73226" -> "V73231" [label=":AFFECTED"]
+  "V73226" -> "NT73794" [label=":TENSE"]
+  "NT73794" [label="PRES"]
+  "V73226" -> "NT73795" [label=":PROGR"]
+  "NT73795" [label="+"]
+  "V73264" [label="(INDEF-SET V73264 (:* REFERENTIAL-SEM THEM))"]
+  "V73264" -> "V73205" [label=":REFOBJECT"]
+  "V73264" -> "NT73796" [label=":QUAN"]
+  "NT73796" [label="UNIVERSAL"]
+  "V73205" [label="(PRO-SET V73205 (:* REFERENTIAL-SEM THEM))"]
+  "V73205" -> "NT73797" [label=":PROFORM"]
+  "NT73797" [label="THEM"]
+  "V73205" -> "V73264" [label=":COREF"]
+  "V73231" [label="(INDEF-SET V73231 (:* SMALL-CONTAINER BACKPACK))"]
+}

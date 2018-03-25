@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "TEN ARE SQUATTING AT THE FRONT PUNC-PERIOD"
+  "V305408" [label="(SPEECHACT V305408 SA_TELL)"]
+  "V305408" -> "V305194" [label=":CONTENT"]
+  "V305194" [label="(F V305194 (:* BODY-MOVEMENT-SELF SQUAT))"]
+  "V305194" -> "V305203" [label=":RESULT"]
+  "V305194" -> "V305174" [label=":AGENT"]
+  "V305194" -> "NT306547" [label=":TENSE"]
+  "NT306547" [label="PRES"]
+  "V305194" -> "NT306548" [label=":PROGR"]
+  "NT306548" [label="+"]
+  "V305174" [label="(INDEF-SET V305174 NUMBER)"]
+  "V305174" -> "NT306549" [label=":NUMBER"]
+  "NT306549" [label="10"]
+  "V305203" [label="(F V305203 (:* AT-LOC AT))"]
+  "V305203" -> "V305222" [label=":GROUND"]
+  "V305203" -> "V305174" [label=":FIGURE"]
+  "V305222" [label="(THE V305222 (:* OBJECT-DEPENDENT-LOCATION FRONT))"]
+  "V305222" -> "V293625" [label=":COREF"]
+}

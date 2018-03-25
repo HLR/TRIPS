@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="66">
+   <TEXT>Pupils are sitting at their wooden desks in an open air classroom .</TEXT>
+   <RELATION id="1" head="V215178" res="V214278" label="CONTENT"/>
+   <PHRASE id="V214278" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="66"/>
+   <RELATION id="2" head="V214278" res="V214295" label="RESULT"/>
+   <RELATION id="3" head="V214278" res="V214252" label="AGENT"/>
+   <PHRASE id="V214252" indicator="INDEF-SET" type="EXTERNAL-BODY-PART" text="PUPIL" start="0" end="7"/>
+   <PHRASE id="V214295" indicator="F" type="AT-LOC" text="AT" start="19" end="66"/>
+   <RELATION id="4" head="V214295" res="V214317" label="GROUND"/>
+   <RELATION id="5" head="V214295" res="V214252" label="FIGURE"/>
+   <PHRASE id="V214317" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="22" end="66"/>
+   <RELATION id="6" head="V214317" res="V214307" label="ASSOC-POSS"/>
+   <RELATION id="7" head="V214317" res="V214324" label="LOCATION"/>
+   <RELATION id="8" head="V214317" res="V214311" label="MOD"/>
+   <PHRASE id="V214307" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="22" end="66"/>
+   <RELATION id="9" head="V214307" res="V214252" label="COREF"/>
+   <PHRASE id="V214311" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="28" end="35"/>
+   <RELATION id="10" head="V214311" res="V214317" label="FIGURE"/>
+   <PHRASE id="V214324" indicator="F" type="IN-LOC" text="IN" start="41" end="66"/>
+   <RELATION id="11" head="V214324" res="V214409" label="GROUND"/>
+   <RELATION id="12" head="V214324" res="V214317" label="FIGURE"/>
+   <PHRASE id="V214409" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="44" end="66"/>
+   <RELATION id="13" head="V214409" res="V214406" label="ASSOC-WITH"/>
+   <PHRASE id="V214406" indicator="KIND" type="OBJECT-DEPENDENT-LOCATION" text="OPEN-AIR" start="44" end="66" WNSENSE="open_air%1:15:00"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

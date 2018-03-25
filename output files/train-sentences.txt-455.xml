@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="0" end="72">
+   <TEXT>there are two more kids and comic figures on the wall in the background .</TEXT>
+   <RELATION id="1" head="V307895" res="V307144" label="CONTENT"/>
+   <PHRASE id="V307144" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="72"/>
+   <RELATION id="2" head="V307144" res="V307157" label="NEUTRAL"/>
+   <RELATION id="3" head="V307144" res="V307171" label="NEUTRAL1"/>
+   <RELATION id="4" head="V307144" res="V307133" label="LOCATION"/>
+   <PHRASE id="V307133" indicator="F" type="POS-WRT-SPEAKER-RELN" text="THERE" start="0" end="6"/>
+   <RELATION id="5" head="V307133" res="V307408" label="GROUND"/>
+   <RELATION id="6" head="V307133" res="V307144" label="FIGURE"/>
+   <PHRASE id="V307408" indicator="IMPRO" type="LOCATION" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V307157" indicator="INDEF-SET" type="NUMBER" NUMBER="2" start="10" end="14"/>
+   <PHRASE id="V307171" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="14" end="72"/>
+   <RELATION id="7" head="V307171" res="V307167" label="SEQUENCE"/>
+   <RELATION id="8" head="V307171" res="V307187" label="SEQUENCE1"/>
+   <PHRASE id="V307167" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="14" end="24"/>
+   <PHRASE id="V307187" indicator="INDEF-SET" type="SHAPE-OBJECT" text="FIGURE" start="28" end="72"/>
+   <RELATION id="9" head="V307187" res="V307197" label="LOCATION"/>
+   <RELATION id="10" head="V307187" res="V307181" label="MOD"/>
+   <PHRASE id="V307181" indicator="F" type="MODIFIER" text="COMIC" start="28" end="34"/>
+   <RELATION id="11" head="V307181" res="V307187" label="FIGURE"/>
+   <PHRASE id="V307197" indicator="F" type="ON" text="ON" start="42" end="72"/>
+   <RELATION id="12" head="V307197" res="V307226" label="GROUND"/>
+   <RELATION id="13" head="V307197" res="V307187" label="FIGURE"/>
+   <PHRASE id="V307226" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="45" end="72"/>
+   <RELATION id="14" head="V307226" res="V307233" label="LOCATION"/>
+   <PHRASE id="V307233" indicator="F" type="IN-LOC" text="IN" start="54" end="72"/>
+   <RELATION id="15" head="V307233" res="V307298" label="GROUND"/>
+   <RELATION id="16" head="V307233" res="V307226" label="FIGURE"/>
+   <PHRASE id="V307298" indicator="THE" type="IMAGE" text="BACKGROUND" start="57" end="72"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

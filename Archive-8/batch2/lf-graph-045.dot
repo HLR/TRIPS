@@ -1,0 +1,23 @@
+digraph Terms {
+  node [shape=none]
+  "TOURISTS ARE VISITING OLD PEOPLE ^ HOME PUNC-PERIOD"
+  "V238683" [label="(SPEECHACT V238683 SA_IDENTIFY)"]
+  "V238683" -> "V238143" [label=":CONTENT"]
+  "V238143" [label="(THE V238143 (:* RELATIVE-LOCATION HOME))"]
+  "V238143" -> "V238064" [label=":ASSOC-POSS"]
+  "V238064" [label="(INDEF-SET V238064 (:* PERSON PERSON))"]
+  "V238064" -> "V238059" [label=":MOD"]
+  "V238059" [label="(F V238059 (:* OLD-VAL OLD))"]
+  "V238059" -> "V238064" [label=":FIGURE"]
+  "V238059" -> "NT239344" [label=":SCALE"]
+  "NT239344" [label="AGE-SCALE"]
+  "V238355" [label="(SPEECHACT V238355 SA_TELL)"]
+  "V238355" -> "V238048" [label=":CONTENT"]
+  "V238048" [label="(F V238048 (:* SOCIAL-ACTIVITY VISIT))"]
+  "V238048" -> "V238027" [label=":AGENT"]
+  "V238048" -> "NT239345" [label=":TENSE"]
+  "NT239345" [label="PRES"]
+  "V238048" -> "NT239346" [label=":PROGR"]
+  "NT239346" [label="+"]
+  "V238027" [label="(INDEF-SET V238027 (:* TRAVELLER TOURISTS))"]
+}

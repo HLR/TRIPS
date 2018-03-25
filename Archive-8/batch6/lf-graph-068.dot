@@ -1,0 +1,11 @@
+digraph Terms {
+  node [shape=none]
+  "EXTERIOR SHOT PUNC-PERIOD"
+  "V306794" [label="(SPEECHACT V306794 SA_TELL)"]
+  "V306794" -> "V306729" [label=":CONTENT"]
+  "V306729" [label="(F V306729 (:* MOVE-QUICKLY SHOOT))"]
+  "V306729" -> "V306718" [label=":AFFECTED"]
+  "V306729" -> "NT306935" [label=":TENSE"]
+  "NT306935" [label="PAST"]
+  "V306718" [label="(BARE V306718 (:* OBJECT-DEPENDENT-LOCATION EXTERIOR))"]
+}

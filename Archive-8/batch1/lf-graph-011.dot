@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "BACKWATER IS FLOWING OFF ON THE LEFT PUNC-PERIOD"
+  "V49254" [label="(SPEECHACT V49254 SA_TELL)"]
+  "V49254" -> "V48763" [label=":CONTENT"]
+  "V48763" [label="(F V48763 (:* BE BE))"]
+  "V48763" -> "V48753" [label=":NEUTRAL"]
+  "V48763" -> "V48798" [label=":NEUTRAL1"]
+  "V48763" -> "NT49562" [label=":TENSE"]
+  "NT49562" [label="PRES"]
+  "V48753" [label="(BARE V48753 (:* GEO-OBJECT BACKWATER))"]
+  "V48798" [label="(BARE V48798 (:* CHANGE FLOWING-OFF))"]
+  "V48798" -> "V48807" [label=":LOCATION"]
+  "V48798" -> "NT49563" [label=":WNSENSE"]
+  "NT49563" [label="\"flow_off%2:30:00\""]
+  "V48807" [label="(F V48807 (:* ON ON))"]
+  "V48807" -> "V48841" [label=":GROUND"]
+  "V48807" -> "V48798" [label=":FIGURE"]
+  "V48841" [label="(THE V48841 (:* LEFT-LOC LEFT))"]
+}

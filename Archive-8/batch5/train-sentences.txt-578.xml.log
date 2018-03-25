@@ -1,0 +1,225 @@
+2,197c2,27
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="more kids and comic figures on a wall in the background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?12797:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V381569)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?12795)
+<                                            (W::TRANSFORM ?12796)))
+<                                  (W::CASE ?12794:(W::SUB W::OBJ -))
+<                                  (W::AGR ?12793) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V381569) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER381589))
+< *last-utt-id*=NIL  utt-id+54
+< *last-utt-id*=54  utt-id+NIL</debug><utt><words><lisp>(W::MORE W::KIDS W::AND W::COMIC W::FIGURES W::ON W::A W::WALL W::IN W::THE
+<  W::BACKGROUND W::PUNC-PERIOD)</lisp><word>MORE</word><word>KIDS</word><word>AND</word><word>COMIC</word><word>FIGURES</word><word>ON</word><word>A</word><word>WALL</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;more&quot; :FRAME (0 4) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJR) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (5 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;more kids&quot; :FRAME (0 9) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   15.312 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (10 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;comic&quot; :FRAME (14 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;comic&quot; :FRAME (14 19) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   14.029 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;more kids and comic&quot; :FRAME (0 19) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 32.178 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;figures&quot; :FRAME (20 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS VBZ) :TRIPS-PARTS-OF-SPEECH (W::N W::V)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;on&quot; :FRAME (28 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (31 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall&quot; :FRAME (33 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a wall&quot; :FRAME (31 37) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.852 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (38 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall in&quot; :FRAME (33 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;wall_in%2:35:00&quot;)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (41 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (45 55) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (41 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (38 55) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a wall in the background&quot; :FRAME (31 55) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 26.617 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;on a wall in the background&quot; :FRAME (28 55) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 30.811 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;figures on a wall in the background&quot; :FRAME (20 55) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 42.145 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (56 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;more kids and comic figures on a wall in the background .&quot; :FRAME
+<   (0 56) :PENN-CATS (S) :SCORE 77.152 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="more" start="0" end="4"><sense-info penn-parts-of-speech="JJR" trips-parts-of-speech="ADJ" /></word><word lex="kids" start="5" end="9"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="more kids" start="0" end="9" penn-cats="NP" score="15.312" /><word lex="and" start="10" end="13"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="comic" start="14" end="19"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="comic" start="14" end="19" penn-cats="NP" score="14.029" /><prefer text="more kids and comic" start="0" end="19" penn-cats="NP" score="32.178" /><word lex="figures" start="20" end="27"><sense-info penn-parts-of-speech="NNS,VBZ" trips-parts-of-speech="N,V" /></word><word lex="on" start="28" end="30"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="31" end="32"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="33" end="37"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a wall" start="31" end="37" penn-cats="NP" score="11.852" /><word lex="in" start="38" end="40"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="wall in" start="33" end="40"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="wall_in%2:35:00" /></word><word lex="the" start="41" end="44"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="45" end="55"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="41" end="55" penn-cats="NP" score="11.972" /><prefer text="in the background" start="38" end="55" penn-cats="PP" score="14.224" /><prefer text="a wall in the background" start="31" end="55" penn-cats="NP" score="26.617" /><prefer text="on a wall in the background" start="28" end="55" penn-cats="PP" score="30.811" /><prefer text="figures on a wall in the background" start="20" end="55" penn-cats="VP" score="42.145" /><word lex="." start="56" end="56"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="more kids and comic figures on a wall in the background ." start="0" end="56" penn-cats="S" score="77.152" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (NP (SPEC (QUAN MORE)) (N1 (N KIDS))) (CONJ AND)
+<    (NP
+<     (N1 (N1 (ADJP (ADJ1 (ADJ COMIC))) (N1 (N FIGURES)))
+<      (ADVBL (ADV ON)
+<       (NP (SPEC (DET (ART A)))
+<        (N1 (N1 (N WALL))
+<         (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><SPEC><QUAN>MORE</QUAN></SPEC><N1><N>KIDS</N></N1></NP><CONJ>AND</CONJ><NP><N1><N1><ADJP><ADJ1><ADJ>COMIC</ADJ></ADJ1></ADJP><N1><N>FIGURES</N></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>WALL</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V381833"><lisp>((ONT::SPEECHACT ONT::V381833 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V381185 :START 0 :END 56)
+<  (ONT::INDEF-SET ONT::V381185 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V381181 ONT::V381201) :START 0 :END 56)
+<  (ONT::INDEF-SET ONT::V381181 (:* ONT::CHILD W::KID) :QUAN
+<   (:* ONT::QMODIFIER W::MORE) :START 0 :END 10)
+<  (ONT::INDEF-SET ONT::V381201 (:* ONT::SHAPE-OBJECT W::FIGURE) :LOCATION
+<   ONT::V381211 :MOD ONT::V381195 :START 14 :END 56)
+<  (ONT::F ONT::V381195 (:* ONT::MODIFIER W::COMIC) :FIGURE ONT::V381201 :START
+<   14 :END 20)
+<  (ONT::F ONT::V381211 (:* ONT::ON W::ON) :GROUND ONT::V381274 :FIGURE
+<   ONT::V381201 :START 28 :END 56)
+<  (ONT::A ONT::V381274 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :LOCATION
+<   ONT::V381281 :START 31 :END 56)
+<  (ONT::F ONT::V381281 (:* ONT::IN-LOC W::IN) :GROUND ONT::V381346 :FIGURE
+<   ONT::V381274 :START 38 :END 56)
+<  (ONT::THE ONT::V381346 (:* ONT::IMAGE W::BACKGROUND) :START 41 :END 56))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V381833">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V381185" />
+<     <LF:start>0</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381185">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PHYS-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V381181" />
+<     <role:SEQUENCE1 rdf:resource="#V381201" />
+<     <LF:start>0</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381181">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:QUAN>(:* QMODIFIER MORE)</role:QUAN>
+<     <LF:start>0</LF:start>
+<     <LF:end>10</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381201">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>SHAPE-OBJECT</LF:type>
+<     <LF:word>FIGURE</LF:word>
+<     <role:LOCATION rdf:resource="#V381211" />
+<     <role:MOD rdf:resource="#V381195" />
+<     <LF:start>14</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381195">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MODIFIER</LF:type>
+<     <LF:word>COMIC</LF:word>
+<     <role:FIGURE rdf:resource="#V381201" />
+<     <LF:start>14</LF:start>
+<     <LF:end>20</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381211">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ON</LF:type>
+<     <LF:word>ON</LF:word>
+<     <role:GROUND rdf:resource="#V381274" />
+<     <role:FIGURE rdf:resource="#V381201" />
+<     <LF:start>28</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381274">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>WALL</LF:word>
+<     <role:LOCATION rdf:resource="#V381281" />
+<     <LF:start>31</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381281">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V381346" />
+<     <role:FIGURE rdf:resource="#V381274" />
+<     <LF:start>38</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V381346">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>41</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="56">
+>    <TEXT>more kids and comic figures on a wall in the background .</TEXT>
+>    <RELATION id="1" head="V381833" res="V381185" label="CONTENT"/>
+>    <PHRASE id="V381185" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="56"/>
+>    <RELATION id="2" head="V381185" res="V381181" label="SEQUENCE"/>
+>    <RELATION id="3" head="V381185" res="V381201" label="SEQUENCE1"/>
+>    <PHRASE id="V381181" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="0" end="10"/>
+>    <PHRASE id="V381201" indicator="INDEF-SET" type="SHAPE-OBJECT" text="FIGURE" start="14" end="56"/>
+>    <RELATION id="4" head="V381201" res="V381211" label="LOCATION"/>
+>    <RELATION id="5" head="V381201" res="V381195" label="MOD"/>
+>    <PHRASE id="V381195" indicator="F" type="MODIFIER" text="COMIC" start="14" end="20"/>
+>    <RELATION id="6" head="V381195" res="V381201" label="FIGURE"/>
+>    <PHRASE id="V381211" indicator="F" type="ON" text="ON" start="28" end="56"/>
+>    <RELATION id="7" head="V381211" res="V381274" label="GROUND"/>
+>    <RELATION id="8" head="V381211" res="V381201" label="FIGURE"/>
+>    <PHRASE id="V381274" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="31" end="56"/>
+>    <RELATION id="9" head="V381274" res="V381281" label="LOCATION"/>
+>    <PHRASE id="V381281" indicator="F" type="IN-LOC" text="IN" start="38" end="56"/>
+>    <RELATION id="10" head="V381281" res="V381346" label="GROUND"/>
+>    <RELATION id="11" head="V381281" res="V381274" label="FIGURE"/>
+>    <PHRASE id="V381346" indicator="THE" type="IMAGE" text="BACKGROUND" start="41" end="56"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,321 @@
+2,279c2,41
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="another woman is carrying a basket in her left hand , with a kid holding her other hand .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+12
+< *last-utt-id*=12  utt-id+NIL</debug><utt><words><lisp>(W::ANOTHER W::WOMAN W::IS W::CARRYING W::A W::BASKET W::IN W::HER W::LEFT
+<  W::HAND W::PUNC-COMMA W::WITH W::A W::KID W::HOLDING W::HER W::OTHER W::HAND
+<  W::PUNC-PERIOD)</lisp><word>ANOTHER</word><word>WOMAN</word><word>IS</word><word>CARRYING</word><word>A</word><word>BASKET</word><word>IN</word><word>HER</word><word>LEFT</word><word>HAND</word><word>PUNC-COMMA</word><word>WITH</word><word>A</word><word>KID</word><word>HOLDING</word><word>HER</word><word>OTHER</word><word>HAND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;another&quot; :FRAME (0 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;woman&quot; :FRAME (8 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;another woman&quot; :FRAME (0 13) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 15.265 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (14 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;carrying&quot; :FRAME (17 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (26 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;basket&quot; :FRAME (28 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a basket&quot; :FRAME (26 34) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.697 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (35 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;her&quot; :FRAME (38 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;left&quot; :FRAME (42 46) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hand&quot; :FRAME (47 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;left hand&quot; :FRAME (42 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;left_hand%1:08:00&quot;)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;her left hand&quot; :FRAME (38 51) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 25.079 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in her left hand&quot; :FRAME (35 51) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 27.33 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a basket in her left hand&quot; :FRAME (26 51) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 39.434 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (52 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (54 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (59 60) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kid&quot; :FRAME (61 64) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a kid&quot; :FRAME (59 64) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.447 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;holding&quot; :FRAME (65 72) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;her&quot; :FRAME (73 76) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM
+<   12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;other&quot; :FRAME (77 82) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hand&quot; :FRAME (83 87) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;her other hand&quot; :FRAME (73 87) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 18.87 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;holding her other hand&quot; :FRAME (65 87) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 26.237 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a kid holding her other hand&quot; :FRAME (59 87) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 42.722 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;with a kid holding her other hand&quot; :FRAME (54 87) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 46.145 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER
+<   &quot;carrying a basket in her left hand , with a kid holding her other hand&quot;
+<   :FRAME (17 87) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 98.489 :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;is carrying a basket in her left hand , with a kid holding her other hand&quot;
+<   :FRAME (14 87) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 102.749 :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (88 88) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;another woman is carrying a basket in her left hand , with a kid holding her other hand .&quot;
+<   :FRAME (0 88) :PENN-CATS (S) :SCORE 119.156 :UTTNUM 12 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="another" start="0" end="7"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="woman" start="8" end="13"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="another woman" start="0" end="13" penn-cats="NP" score="15.265" /><word lex="is" start="14" end="16"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="carrying" start="17" end="25"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="26" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="basket" start="28" end="34"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a basket" start="26" end="34" penn-cats="NP" score="11.697" /><word lex="in" start="35" end="37"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="her" start="38" end="41"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="left" start="42" end="46"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="hand" start="47" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="left hand" start="42" end="51"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="left_hand%1:08:00" /></word><prefer text="her left hand" start="38" end="51" penn-cats="NP" score="25.079" /><prefer text="in her left hand" start="35" end="51" penn-cats="PP" score="27.33" /><prefer text="a basket in her left hand" start="26" end="51" penn-cats="NP" score="39.434" /><word lex="," start="52" end="53"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="with" start="54" end="58"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="59" end="60"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="kid" start="61" end="64"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a kid" start="59" end="64" penn-cats="NP" score="13.447" /><word lex="holding" start="65" end="72"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="her" start="73" end="76"><sense-info penn-parts-of-speech="PRP,PRP$" trips-parts-of-speech="PRO" /></word><word lex="other" start="77" end="82"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="hand" start="83" end="87"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="her other hand" start="73" end="87" penn-cats="NP" score="18.87" /><prefer text="holding her other hand" start="65" end="87" penn-cats="VP" score="26.237" /><prefer text="a kid holding her other hand" start="59" end="87" penn-cats="NP" score="42.722" /><prefer text="with a kid holding her other hand" start="54" end="87" penn-cats="PP" score="46.145" /><prefer text="carrying a basket in her left hand , with a kid holding her other hand" start="17" end="87" penn-cats="VP" score="98.489" /><prefer text="is carrying a basket in her left hand , with a kid holding her other hand" start="14" end="87" penn-cats="VP" score="102.749" /><word lex="." start="88" end="88"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="another woman is carrying a basket in her left hand , with a kid holding her other hand ." start="0" end="88" penn-cats="S" score="119.156" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (WORD ANOTHER) (N1 (N WOMAN)))
+<    (VP
+<     (VP- (AUX (V IS))
+<      (VP-
+<       (VP- (V CARRYING)
+<        (NP
+<         (NP (SPEC (DET (ART A)))
+<          (N1 (N1 (N BASKET))
+<           (ADVBL (ADV IN)
+<            (NP (SPEC (DET (POSSESSOR (PRO HER)))) (N1 (N LEFT HAND))))))
+<         (PUNC PUNC-COMMA)))
+<       (ADVBL (ADV WITH)
+<        (NP (SPEC (DET (ART A)))
+<         (N1 (N1 (N KID))
+<          (CP
+<           (VP
+<            (VP- (V HOLDING)
+<             (NP (SPEC (DET (POSSESSOR (PRO HER))))
+<              (N1 (ADJP (ADJ1 (ADJ OTHER))) (N1 (N HAND)))))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><WORD>ANOTHER</WORD><N1><N>WOMAN</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>CARRYING</V><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>BASKET</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><POSSESSOR><PRO>HER</PRO></POSSESSOR></DET></SPEC><N1><N>LEFT HAND</N></N1></NP></ADVBL></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></VP-><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>KID</N></N1><CP><VP><VP-><V>HOLDING</V><NP><SPEC><DET><POSSESSOR><PRO>HER</PRO></POSSESSOR></DET></SPEC><N1><ADJP><ADJ1><ADJ>OTHER</ADJ></ADJ1></ADJP><N1><N>HAND</N></N1></N1></NP></VP-></VP></CP></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V89416"><lisp>((ONT::SPEECHACT ONT::V89416 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V85347 :START 0 :END 88)
+<  (ONT::F ONT::V85347 (:* ONT::TRANSPORT W::CARRY) :AGENT ONT::V85324 :AFFECTED
+<   ONT::V85391 :AGENT1 ONT::V85518 :TENSE W::PRES :PROGR + :START 0 :END 88)
+<  (ONT::A ONT::V85324 (:* ONT::FEMALE-PERSON W::WOMAN) :MOD ONT::V85607 :START 0
+<   :END 14)
+<  (ONT::F ONT::V85607 ONT::OTHER :FIGURE ONT::V85324 :START 0 :END 14)
+<  (ONT::A ONT::V85391 (:* ONT::SMALL-CONTAINER W::BASKET) :LOCATION ONT::V85398
+<   :START 26 :END 54)
+<  (ONT::F ONT::V85398 (:* ONT::IN-LOC W::IN) :GROUND ONT::V85509 :FIGURE
+<   ONT::V85391 :START 35 :END 52)
+<  (ONT::THE ONT::V85509 (:* ONT::BODY-PART W::LEFT-HAND) :ASSOC-POSS ONT::V85448
+<   :START 38 :END 52 :WNSENSE &quot;left_hand%1:08:00&quot;)
+<  (ONT::PRO ONT::V85448 (:* ONT::FEMALE-PERSON W::HER) :PROFORM W::HER :START 38
+<   :END 52 :COREF ONT::V85324)
+<  (ONT::F ONT::V85518 (:* ONT::ACCOMPANIMENT W::WITH) :GROUND ONT::V85570
+<   :FIGURE ONT::V85347 :START 54 :END 88)
+<  (ONT::A ONT::V85570 (:* ONT::CHILD W::KID) :MOD ONT::V85575 :START 59 :END 88)
+<  (ONT::F ONT::V85575 (:* ONT::BODY-MANIPULATION W::HOLD) :AGENT ONT::V85570
+<   :AFFECTED ONT::V85597 :VFORM W::ING :START 65 :END 88)
+<  (ONT::THE ONT::V85597 (:* ONT::EXTERNAL-BODY-PART W::HAND) :ASSOC-POSS
+<   ONT::V85586 :MOD ONT::V85591 :START 73 :END 88)
+<  (ONT::PRO ONT::V85586 (:* ONT::FEMALE-PERSON W::HER) :PROFORM W::HER :START 73
+<   :END 88 :COREF ONT::V85324)
+<  (ONT::F ONT::V85591 (:* ONT::OTHER W::OTHER) :INTENSITY ONT::HI :FIGURE
+<   ONT::V85597 :START 77 :END 83))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V89416">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V85347" />
+<     <LF:start>0</LF:start>
+<     <LF:end>88</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85347">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TRANSPORT</LF:type>
+<     <LF:word>CARRY</LF:word>
+<     <role:AGENT rdf:resource="#V85324" />
+<     <role:AFFECTED rdf:resource="#V85391" />
+<     <role:AGENT1 rdf:resource="#V85518" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>88</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85324">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>WOMAN</LF:word>
+<     <role:MOD rdf:resource="#V85607" />
+<     <LF:start>0</LF:start>
+<     <LF:end>14</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85607">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <role:FIGURE rdf:resource="#V85324" />
+<     <LF:start>0</LF:start>
+<     <LF:end>14</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85391">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>SMALL-CONTAINER</LF:type>
+<     <LF:word>BASKET</LF:word>
+<     <role:LOCATION rdf:resource="#V85398" />
+<     <LF:start>26</LF:start>
+<     <LF:end>54</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85398">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V85509" />
+<     <role:FIGURE rdf:resource="#V85391" />
+<     <LF:start>35</LF:start>
+<     <LF:end>52</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85509">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>BODY-PART</LF:type>
+<     <LF:word>LEFT-HAND</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V85448" />
+<     <LF:start>38</LF:start>
+<     <LF:end>52</LF:end>
+<     <role:WNSENSE>left_hand%1:08:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85448">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>HER</LF:word>
+<     <role:PROFORM>HER</role:PROFORM>
+<     <LF:start>38</LF:start>
+<     <LF:end>52</LF:end>
+<     <role:COREF rdf:resource="#V85324" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85518">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ACCOMPANIMENT</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V85570" />
+<     <role:FIGURE rdf:resource="#V85347" />
+<     <LF:start>54</LF:start>
+<     <LF:end>88</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85570">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:MOD rdf:resource="#V85575" />
+<     <LF:start>59</LF:start>
+<     <LF:end>88</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85575">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BODY-MANIPULATION</LF:type>
+<     <LF:word>HOLD</LF:word>
+<     <role:AGENT rdf:resource="#V85570" />
+<     <role:AFFECTED rdf:resource="#V85597" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>65</LF:start>
+<     <LF:end>88</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85597">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>EXTERNAL-BODY-PART</LF:type>
+<     <LF:word>HAND</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V85586" />
+<     <role:MOD rdf:resource="#V85591" />
+<     <LF:start>73</LF:start>
+<     <LF:end>88</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85586">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>FEMALE-PERSON</LF:type>
+<     <LF:word>HER</LF:word>
+<     <role:PROFORM>HER</role:PROFORM>
+<     <LF:start>73</LF:start>
+<     <LF:end>88</LF:end>
+<     <role:COREF rdf:resource="#V85324" />
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V85591">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <LF:word>OTHER</LF:word>
+<     <role:INTENSITY>HI</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V85597" />
+<     <LF:start>77</LF:start>
+<     <LF:end>83</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="88">
+>    <TEXT>another woman is carrying a basket in her left hand , with a kid holding her other hand .</TEXT>
+>    <RELATION id="1" head="V89416" res="V85347" label="CONTENT"/>
+>    <PHRASE id="V85347" indicator="F" type="TRANSPORT" text="CARRY" TENSE="PRES" PROGR="+" start="0" end="88"/>
+>    <RELATION id="2" head="V85347" res="V85324" label="AGENT"/>
+>    <RELATION id="3" head="V85347" res="V85391" label="AFFECTED"/>
+>    <RELATION id="4" head="V85347" res="V85518" label="AGENT1"/>
+>    <PHRASE id="V85324" indicator="A" type="FEMALE-PERSON" text="WOMAN" start="0" end="14"/>
+>    <RELATION id="5" head="V85324" res="V85607" label="MOD"/>
+>    <PHRASE id="V85607" indicator="F" type="OTHER" start="0" end="14"/>
+>    <RELATION id="6" head="V85607" res="V85324" label="FIGURE"/>
+>    <PHRASE id="V85391" indicator="A" type="SMALL-CONTAINER" text="BASKET" start="26" end="54"/>
+>    <RELATION id="7" head="V85391" res="V85398" label="LOCATION"/>
+>    <PHRASE id="V85398" indicator="F" type="IN-LOC" text="IN" start="35" end="52"/>
+>    <RELATION id="8" head="V85398" res="V85509" label="GROUND"/>
+>    <RELATION id="9" head="V85398" res="V85391" label="FIGURE"/>
+>    <PHRASE id="V85509" indicator="THE" type="BODY-PART" text="LEFT-HAND" start="38" end="52" WNSENSE="left_hand%1:08:00"/>
+>    <RELATION id="10" head="V85509" res="V85448" label="ASSOC-POSS"/>
+>    <PHRASE id="V85448" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="38" end="52"/>
+>    <RELATION id="11" head="V85448" res="V85324" label="COREF"/>
+>    <PHRASE id="V85518" indicator="F" type="ACCOMPANIMENT" text="WITH" start="54" end="88"/>
+>    <RELATION id="12" head="V85518" res="V85570" label="GROUND"/>
+>    <RELATION id="13" head="V85518" res="V85347" label="FIGURE"/>
+>    <PHRASE id="V85570" indicator="A" type="CHILD" text="KID" start="59" end="88"/>
+>    <RELATION id="14" head="V85570" res="V85575" label="MOD"/>
+>    <PHRASE id="V85575" indicator="F" type="BODY-MANIPULATION" text="HOLD" VFORM="ING" start="65" end="88"/>
+>    <RELATION id="15" head="V85575" res="V85570" label="AGENT"/>
+>    <RELATION id="16" head="V85575" res="V85597" label="AFFECTED"/>
+>    <PHRASE id="V85597" indicator="THE" type="EXTERNAL-BODY-PART" text="HAND" start="73" end="88"/>
+>    <RELATION id="17" head="V85597" res="V85586" label="ASSOC-POSS"/>
+>    <RELATION id="18" head="V85597" res="V85591" label="MOD"/>
+>    <PHRASE id="V85586" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="73" end="88"/>
+>    <RELATION id="19" head="V85586" res="V85324" label="COREF"/>
+>    <PHRASE id="V85591" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="77" end="83"/>
+>    <RELATION id="20" head="V85591" res="V85597" label="FIGURE"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "GRASS PUNC-COMMA STONES AND SOME GARBAGE IN THE BACKGROUND PUNC-PERIOD"
+  "V145560" [label="(SPEECHACT V145560 SA_IDENTIFY)"]
+  "V145560" -> "V145321" [label=":CONTENT"]
+  "V145321" [label="(A V145321 PHYS-OBJECT)"]
+  "V145321" -> "NT146102" [label=":OPERATOR"]
+  "NT146102" [label="AND"]
+  "V145321" -> "V145337" [label=":SEQUENCE"]
+  "V145321" -> "V145307" [label=":SEQUENCE-1"]
+  "V145321" -> "V145314" [label=":SEQUENCE-2"]
+  "V145307" [label="(BARE V145307 (:* PLANT GRASS))"]
+  "V145314" [label="(INDEF-SET V145314 (:* NATURAL-OBJECT STONES))"]
+  "V145337" [label="(A V145337 (:* DISPOSABLE GARBAGE))"]
+  "V145337" -> "NT146103" [label=":QUAN"]
+  "NT146103" [label="INDEFINITE"]
+  "V145337" -> "V145344" [label=":LOCATION"]
+  "V145344" [label="(F V145344 (:* IN-LOC IN))"]
+  "V145344" -> "V145400" [label=":GROUND"]
+  "V145344" -> "V145337" [label=":FIGURE"]
+  "V145400" [label="(THE V145400 (:* IMAGE BACKGROUND))"]
+}

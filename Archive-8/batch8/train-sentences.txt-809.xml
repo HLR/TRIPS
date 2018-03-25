@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there is also one roof of a house and a mountain range in the distance .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?47236:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V84530)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?47234)
+                                           (W::TRANSFORM ?47235)))
+                                 (W::CASE ?47233:(W::SUB W::OBJ -))
+                                 (W::AGR ?47232) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V84530) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER84671))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?47539:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V84533)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?47537)
+                                           (W::TRANSFORM ?47538)))
+                                 (W::CASE ?47536:(W::SUB W::OBJ -))
+                                 (W::AGR ?47535) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V84533) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER84673))
+*last-utt-id*=NIL  utt-id+6
+*last-utt-id*=6  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::IS W::ALSO W::ONE W::ROOF W::OF W::A W::HOUSE W::AND W::A
+ W::MOUNTAIN W::RANGE W::IN W::THE W::DISTANCE W::PUNC-PERIOD)</lisp><word>THERE</word><word>IS</word><word>ALSO</word><word>ONE</word><word>ROOF</word><word>OF</word><word>A</word><word>HOUSE</word><word>AND</word><word>A</word><word>MOUNTAIN</word><word>RANGE</word><word>IN</word><word>THE</word><word>DISTANCE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;also&quot; :FRAME (9 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;also&quot; :FRAME (9 13) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+  2.654 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (14 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;roof&quot; :FRAME (18 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one roof&quot; :FRAME (14 22) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  19.004 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (23 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (26 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;house&quot; :FRAME (28 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a house&quot; :FRAME (26 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.534 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a house&quot; :FRAME (23 33) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  11.601 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one roof of a house&quot; :FRAME (14 33) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 31.267 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (34 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (38 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;mountain&quot; :FRAME (40 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;range&quot; :FRAME (49 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;mountain range&quot; :FRAME (40 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;mountain_range%1:17:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a mountain range&quot; :FRAME (38 54) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 20.946 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (55 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;range in&quot; :FRAME (49 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;range_in%2:33:12&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (58 61) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;distance&quot; :FRAME (62 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the distance&quot; :FRAME (58 70) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 12.284 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the distance&quot; :FRAME (55 70) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.536 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a mountain range in the distance&quot; :FRAME (38 70) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 36.144 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;one roof of a house and a mountain range in the distance&quot; :FRAME
+  (14 70) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 72.224 :UTTNUM 6 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is also one roof of a house and a mountain range in the distance&quot;
+  :FRAME (6 70) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 82.394 :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (71 71) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;there is also one roof of a house and a mountain range in the distance .&quot;
+  :FRAME (0 71) :PENN-CATS (S) :SCORE 88.055 :UTTNUM 6 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="also" start="9" end="13"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="also" start="9" end="13" penn-cats="ADVP" score="2.654" /><word lex="one" start="14" end="17"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="roof" start="18" end="22"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one roof" start="14" end="22" penn-cats="NP" score="19.004" /><word lex="of" start="23" end="25"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="26" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="house" start="28" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a house" start="26" end="33" penn-cats="NP" score="10.534" /><prefer text="of a house" start="23" end="33" penn-cats="PP" score="11.601" /><prefer text="one roof of a house" start="14" end="33" penn-cats="NP" score="31.267" /><word lex="and" start="34" end="37"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="38" end="39"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="mountain" start="40" end="48"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="range" start="49" end="54"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="mountain range" start="40" end="54"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="mountain_range%1:17:00" /></word><prefer text="a mountain range" start="38" end="54" penn-cats="NP" score="20.946" /><word lex="in" start="55" end="57"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="range in" start="49" end="57"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="range_in%2:33:12" /></word><word lex="the" start="58" end="61"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="distance" start="62" end="70"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the distance" start="58" end="70" penn-cats="NP" score="12.284" /><prefer text="in the distance" start="55" end="70" penn-cats="PP" score="14.536" /><prefer text="a mountain range in the distance" start="38" end="70" penn-cats="NP" score="36.144" /><prefer text="one roof of a house and a mountain range in the distance" start="14" end="70" penn-cats="NP" score="72.224" /><prefer text="is also one roof of a house and a mountain range in the distance" start="6" end="70" penn-cats="VP" score="82.394" /><word lex="." start="71" end="71"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there is also one roof of a house and a mountain range in the distance ." start="0" end="71" penn-cats="S" score="88.055" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V IS) (ADVBL (ADV ALSO))
+     (NP (SPEC (NUMBER ONE))
+      (N1 (N ROOF)
+       (PP (PREP OF)
+        (NP (NP (SPEC (DET (ART A))) (N1 (N HOUSE))) (CONJ AND)
+         (NP (SPEC (DET (ART A)))
+          (N1 (N1 (N MOUNTAIN RANGE))
+           (ADVBL (ADV IN)
+            (NP (SPEC (DET (ART THE))) (N1 (N DISTANCE))))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><ADVBL><ADV>ALSO</ADV></ADVBL><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>ROOF</N><PP><PREP>OF</PREP><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>HOUSE</N></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>MOUNTAIN RANGE</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>DISTANCE</N></N1></NP></ADVBL></N1></NP></NP></PP></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V94754"><lisp>((ONT::SPEECHACT ONT::V94754 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V83408 :START 0 :END 71)
+ (ONT::F ONT::V83408 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V83434 :MOD
+  ONT::V83420 :TENSE W::PRES :START 0 :END 71)
+ (ONT::PRO ONT::V83395 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::F ONT::V83420 (:* ONT::ADDITIVE W::ALSO) :FIGURE ONT::V83408 :START 9
+  :END 14)
+ (ONT::A ONT::V83434 (:* ONT::STRUCTURE-EXTERNAL-COMPONENT W::ROOF) :SIZE
+  ONT::V83637 :FIGURE ONT::V83494 :START 14 :END 71)
+ (ONT::A ONT::V83637 ONT::NUMBER :VALUE 1 :START 14 :END 71)
+ (ONT::INDEF-SET ONT::V83494 ONT::GEO-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V83489 ONT::V83556) :START 23 :END 71)
+ (ONT::A ONT::V83489 (:* ONT::LODGING W::HOUSE) :START 26 :END 34)
+ (ONT::A ONT::V83556 (:* ONT::GEO-FORMATION W::MOUNTAIN-RANGE) :LOCATION
+  ONT::V83563 :START 38 :END 71 :WNSENSE &quot;mountain_range%1:17:00&quot;)
+ (ONT::F ONT::V83563 (:* ONT::IN-LOC W::IN) :GROUND ONT::V83626 :FIGURE
+  ONT::V83556 :START 55 :END 71)
+ (ONT::THE ONT::V83626 (:* ONT::DISTANCE-SCALE W::DISTANCE) :START 58 :END 71))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V94754">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V83408" />
+    <LF:start>0</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83408">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V83434" />
+    <role:MOD rdf:resource="#V83420" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83395">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83420">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ADDITIVE</LF:type>
+    <LF:word>ALSO</LF:word>
+    <role:FIGURE rdf:resource="#V83408" />
+    <LF:start>9</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83434">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>STRUCTURE-EXTERNAL-COMPONENT</LF:type>
+    <LF:word>ROOF</LF:word>
+    <role:SIZE rdf:resource="#V83637" />
+    <role:FIGURE rdf:resource="#V83494" />
+    <LF:start>14</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83637">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>14</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83494">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>GEO-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V83489" />
+    <role:SEQUENCE1 rdf:resource="#V83556" />
+    <LF:start>23</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83489">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>LODGING</LF:type>
+    <LF:word>HOUSE</LF:word>
+    <LF:start>26</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83556">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>GEO-FORMATION</LF:type>
+    <LF:word>MOUNTAIN-RANGE</LF:word>
+    <role:LOCATION rdf:resource="#V83563" />
+    <LF:start>38</LF:start>
+    <LF:end>71</LF:end>
+    <role:WNSENSE>mountain_range%1:17:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83563">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V83626" />
+    <role:FIGURE rdf:resource="#V83556" />
+    <LF:start>55</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V83626">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>DISTANCE-SCALE</LF:type>
+    <LF:word>DISTANCE</LF:word>
+    <LF:start>58</LF:start>
+    <LF:end>71</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

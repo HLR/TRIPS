@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="A tourist group is visiting a school .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?16737:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V344637)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?16735)
+                                           (W::TRANSFORM ?16736)))
+                                 (W::CASE ?16734:(W::SUB W::OBJ -))
+                                 (W::AGR ?16733) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V344637) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER344650))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?17033:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V344640)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?17031)
+                                           (W::TRANSFORM ?17032)))
+                                 (W::CASE ?17030:(W::SUB W::OBJ -))
+                                 (W::AGR ?17029) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V344640) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER344652))
+*last-utt-id*=NIL  utt-id+62
+*last-utt-id*=62  utt-id+NIL</debug><utt><words><lisp>(W::A W::TOURIST W::GROUP W::IS W::VISITING W::A W::SCHOOL W::PUNC-PERIOD)</lisp><word>A</word><word>TOURIST</word><word>GROUP</word><word>IS</word><word>VISITING</word><word>A</word><word>SCHOOL</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;A&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tourist&quot; :FRAME (2 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;group&quot; :FRAME (10 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;A tourist group&quot; :FRAME (0 15) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.094 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (16 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;visiting&quot; :FRAME (19 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (28 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;school&quot; :FRAME (30 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a school&quot; :FRAME (28 36) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.704 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;visiting a school&quot; :FRAME (19 36) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 20.156 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is visiting a school&quot; :FRAME (16 36) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 24.416 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (37 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;A tourist group is visiting a school .&quot; :FRAME (0 37) :PENN-CATS (S)
+  :SCORE 48.652 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="A" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="tourist" start="2" end="9"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="group" start="10" end="15"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="A tourist group" start="0" end="15" penn-cats="NP" score="23.094" /><word lex="is" start="16" end="18"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="visiting" start="19" end="27"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="28" end="29"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="school" start="30" end="36"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a school" start="28" end="36" penn-cats="NP" score="10.704" /><prefer text="visiting a school" start="19" end="36" penn-cats="VP" score="20.156" /><prefer text="is visiting a school" start="16" end="36" penn-cats="VP" score="24.416" /><word lex="." start="37" end="37"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="A tourist group is visiting a school ." start="0" end="37" penn-cats="S" score="48.652" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (DET (ART A))) (N1 (N1 (N TOURIST)) (N1 (N GROUP))))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V VISITING) (NP (SPEC (DET (ART A))) (N1 (N SCHOOL))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>TOURIST</N></N1><N1><N>GROUP</N></N1></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>VISITING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>SCHOOL</N></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V344486"><lisp>((ONT::SPEECHACT ONT::V344486 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V344165 :START 0 :END 37)
+ (ONT::F ONT::V344165 (:* ONT::SOCIAL-ACTIVITY W::VISIT) :AGENT ONT::V344137
+  :AFFECTED ONT::V344212 :TENSE W::PRES :PROGR + :START 0 :END 37)
+ (ONT::A ONT::V344137 (:* ONT::GROUP-OBJECT W::GROUP) :ASSOC-WITH ONT::V344128
+  :START 0 :END 16)
+ (ONT::KIND ONT::V344128 (:* ONT::TRAVELLER W::TOURIST) :START 0 :END 16)
+ (ONT::A ONT::V344212 (:* ONT::ACADEMIC-INSTITUTION W::SCHOOL) :START 28 :END
+  37))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V344486">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V344165" />
+    <LF:start>0</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344165">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SOCIAL-ACTIVITY</LF:type>
+    <LF:word>VISIT</LF:word>
+    <role:AGENT rdf:resource="#V344137" />
+    <role:AFFECTED rdf:resource="#V344212" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344137">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>GROUP-OBJECT</LF:type>
+    <LF:word>GROUP</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V344128" />
+    <LF:start>0</LF:start>
+    <LF:end>16</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344128">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>TRAVELLER</LF:type>
+    <LF:word>TOURIST</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>16</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344212">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ACADEMIC-INSTITUTION</LF:type>
+    <LF:word>SCHOOL</LF:word>
+    <LF:start>28</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

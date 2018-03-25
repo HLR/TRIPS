@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="two comic figures on the wall in the background .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+60
+*last-utt-id*=60  utt-id+NIL</debug><utt><words><lisp>(W::TWO W::COMIC W::FIGURES W::ON W::THE W::WALL W::IN W::THE W::BACKGROUND
+ W::PUNC-PERIOD)</lisp><word>TWO</word><word>COMIC</word><word>FIGURES</word><word>ON</word><word>THE</word><word>WALL</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;two&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;comic&quot; :FRAME (4 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 60
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;figures&quot; :FRAME (10 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 60
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two comic figures&quot; :FRAME (0 17) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.677 :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (18 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (21 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall&quot; :FRAME (25 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 60
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall&quot; :FRAME (21 29) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.498 :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the wall&quot; :FRAME (18 29) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.003 :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (30 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall in&quot; :FRAME (25 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;wall_in%2:35:00&quot;)))
+  :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (33 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (37 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 60
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (33 47) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (30 47) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (48 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 60 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two comic figures on the wall in the background .&quot; :FRAME (0 48)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 56.23 :UTTNUM 60 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="two" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="comic" start="4" end="9"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="figures" start="10" end="17"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two comic figures" start="0" end="17" penn-cats="NP" score="23.677" /><word lex="on" start="18" end="20"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="21" end="24"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="25" end="29"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="21" end="29" penn-cats="NP" score="11.498" /><prefer text="on the wall" start="18" end="29" penn-cats="PP" score="15.003" /><word lex="in" start="30" end="32"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="wall in" start="25" end="32"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" wn-sense-keys="wall_in%2:35:00" /></word><word lex="the" start="33" end="36"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="37" end="47"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="33" end="47" penn-cats="NP" score="11.972" /><prefer text="in the background" start="30" end="47" penn-cats="PP" score="14.224" /><word lex="." start="48" end="48"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="two comic figures on the wall in the background ." start="0" end="48" penn-cats="NP" score="56.23" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1
+    (N1
+     (N1 (ADJP (NUMBER TWO)) (N1 (ADJP (ADJ1 (ADJ COMIC))) (N1 (N FIGURES))))
+     (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N WALL)))))
+    (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><ADJP><ADJ1><ADJ>COMIC</ADJ></ADJ1></ADJP><N1><N>FIGURES</N></N1></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WALL</N></N1></NP></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V508173"><lisp>((ONT::SPEECHACT ONT::V508173 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V507856 :START 0 :END 48)
+ (ONT::INDEF-SET ONT::V507856 (:* ONT::SHAPE-OBJECT W::FIGURE) :SIZE
+  ONT::V507847 :LOCATION ONT::V507902 :LOCATION ONT::V507866 :MOD ONT::V507850
+  :START 0 :END 48)
+ (ONT::A ONT::V507847 ONT::NUMBER :VALUE 2 :START 0 :END 4)
+ (ONT::F ONT::V507850 (:* ONT::MODIFIER W::COMIC) :FIGURE ONT::V507856 :START 4
+  :END 10)
+ (ONT::F ONT::V507866 (:* ONT::ON W::ON) :GROUND ONT::V507895 :FIGURE
+  ONT::V507856 :START 18 :END 30)
+ (ONT::THE ONT::V507895 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :START
+  21 :END 30)
+ (ONT::F ONT::V507902 (:* ONT::IN-LOC W::IN) :GROUND ONT::V507967 :FIGURE
+  ONT::V507856 :START 30 :END 48)
+ (ONT::THE ONT::V507967 (:* ONT::IMAGE W::BACKGROUND) :START 33 :END 48))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V508173">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V507856" />
+    <LF:start>0</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V507856">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>SHAPE-OBJECT</LF:type>
+    <LF:word>FIGURE</LF:word>
+    <role:SIZE rdf:resource="#V507847" />
+    <role:LOCATION rdf:resource="#V507902" />
+    <role:LOCATION rdf:resource="#V507866" />
+    <role:MOD rdf:resource="#V507850" />
+    <LF:start>0</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V507847">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>2</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>4</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V507850">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>COMIC</LF:word>
+    <role:FIGURE rdf:resource="#V507856" />
+    <LF:start>4</LF:start>
+    <LF:end>10</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V507866">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V507895" />
+    <role:FIGURE rdf:resource="#V507856" />
+    <LF:start>18</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V507895">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+    <LF:word>WALL</LF:word>
+    <LF:start>21</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V507902">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V507967" />
+    <role:FIGURE rdf:resource="#V507856" />
+    <LF:start>30</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V507967">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>33</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

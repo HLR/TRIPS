@@ -1,0 +1,157 @@
+2,135c2,21
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="another one in the second row looking out the window .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+58
+< *last-utt-id*=58  utt-id+NIL</debug><utt><words><lisp>(W::ANOTHER W::ONE W::IN W::THE W::SECOND W::ROW W::LOOKING W::OUT W::THE
+<  W::WINDOW)</lisp><word>ANOTHER</word><word>ONE</word><word>IN</word><word>THE</word><word>SECOND</word><word>ROW</word><word>LOOKING</word><word>OUT</word><word>THE</word><word>WINDOW</word></words><tags><lisp>((WORD &quot;another&quot; :FRAME (0 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;one&quot; :FRAME (8 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD NN) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT W::N)))
+<   :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;another one&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   14.297 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (12 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (15 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;second&quot; :FRAME (19 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 58
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;row&quot; :FRAME (26 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the second row&quot; :FRAME (15 29) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 17.924 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the second row&quot; :FRAME (12 29) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 20.175 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;another one in the second row&quot; :FRAME (0 29) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 35.134 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;looking&quot; :FRAME (30 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 58
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;out&quot; :FRAME (38 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 58
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;out&quot; :FRAME (38 41) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+<   1.594 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;looking out&quot; :FRAME (30 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;look_out%2:33:10&quot; &quot;look_out%2:39:00&quot;)))
+<   :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (42 45) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;window&quot; :FRAME (46 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 58
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the window&quot; :FRAME (42 52) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   11.428 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;looking out the window&quot; :FRAME (30 52) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 22.702 :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (53 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 58 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;another one in the second row looking out the window .&quot; :FRAME (0 53)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 63.187 :UTTNUM 58 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="another" start="0" end="7"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="one" start="8" end="11"><sense-info penn-parts-of-speech="CD,NN" trips-parts-of-speech="NUMBER,NUMBER-UNIT,N" /></word><prefer text="another one" start="0" end="11" penn-cats="NP" score="14.297" /><word lex="in" start="12" end="14"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="15" end="18"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="second" start="19" end="25"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="row" start="26" end="29"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the second row" start="15" end="29" penn-cats="NP" score="17.924" /><prefer text="in the second row" start="12" end="29" penn-cats="PP" score="20.175" /><prefer text="another one in the second row" start="0" end="29" penn-cats="NP" score="35.134" /><word lex="looking" start="30" end="37"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="out" start="38" end="41"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="out" start="38" end="41" penn-cats="PRT" score="1.594" /><word lex="looking out" start="30" end="41"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="look_out%2:33:10,look_out%2:39:00" /></word><word lex="the" start="42" end="45"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="window" start="46" end="52"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the window" start="42" end="52" penn-cats="NP" score="11.428" /><prefer text="looking out the window" start="30" end="52" penn-cats="VP" score="22.702" /><word lex="." start="53" end="53"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="another one in the second row looking out the window ." start="0" end="53" penn-cats="NP" score="63.187" /></tags><tree><lisp>(NP (WORD ANOTHER)
+<  (N1
+<   (N1 (N1 (N ONE))
+<    (ADVBL (ADV IN) (NP (SPEC (DET (ART THE)) (ORDINAL SECOND)) (N1 (N ROW)))))
+<   (CP (VP (VP- (V LOOKING OUT) (NP (SPEC (DET (ART THE))) (N1 (N WINDOW))))))))</lisp><NP><WORD>ANOTHER</WORD><N1><N1><N1><N>ONE</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET><ORDINAL>SECOND</ORDINAL></SPEC><N1><N>ROW</N></N1></NP></ADVBL></N1><CP><VP><VP-><V>LOOKING OUT</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>WINDOW</N></N1></NP></VP-></VP></CP></N1></NP></tree><terms root="#V301880"><lisp>((ONT::A ONT::V301880 (:* ONT::REFERENTIAL-SEM W::ONE) :MOD ONT::V302070 :MOD
+<   ONT::V302024 :MOD ONT::V301890 :START 0 :END 53)
+<  (ONT::F ONT::V302070 ONT::OTHER :FIGURE ONT::V301880 :START 0 :END 53)
+<  (ONT::F ONT::V301890 (:* ONT::IN-LOC W::IN) :GROUND ONT::V301958 :FIGURE
+<   ONT::V301880 :START 12 :END 30)
+<  (ONT::THE ONT::V301958 (:* ONT::ROW-FORMATION W::ROW) :ORDINAL 2 :START 15
+<   :END 30)
+<  (ONT::F ONT::V302024 (:* ONT::ACTIVE-PERCEPTION W::LOOKING-OUT) :EXPERIENCER
+<   ONT::V301880 :NEUTRAL ONT::V302046 :VFORM W::ING :START 30 :END 53 :WNSENSE
+<   &quot;look_out%2:33:10&quot;)
+<  (ONT::THE ONT::V302046 (:* ONT::DISPLAY W::WINDOW) :START 42 :END 53))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V301880">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>ONE</LF:word>
+<     <role:MOD rdf:resource="#V302070" />
+<     <role:MOD rdf:resource="#V302024" />
+<     <role:MOD rdf:resource="#V301890" />
+<     <LF:start>0</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V302070">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <role:FIGURE rdf:resource="#V301880" />
+<     <LF:start>0</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V301890">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V301958" />
+<     <role:FIGURE rdf:resource="#V301880" />
+<     <LF:start>12</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V301958">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>ROW-FORMATION</LF:type>
+<     <LF:word>ROW</LF:word>
+<     <role:ORDINAL>2</role:ORDINAL>
+<     <LF:start>15</LF:start>
+<     <LF:end>30</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V302024">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ACTIVE-PERCEPTION</LF:type>
+<     <LF:word>LOOKING-OUT</LF:word>
+<     <role:EXPERIENCER rdf:resource="#V301880" />
+<     <role:NEUTRAL rdf:resource="#V302046" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>30</LF:start>
+<     <LF:end>53</LF:end>
+<     <role:WNSENSE>look_out%2:33:10</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V302046">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>DISPLAY</LF:type>
+<     <LF:word>WINDOW</LF:word>
+<     <LF:start>42</LF:start>
+<     <LF:end>53</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="A" type="REFERENTIAL-SEM" text="ONE" start="0" end="53">
+>    <TEXT>another one in the second row looking out the window .</TEXT>
+>    <RELATION id="1" head="V301880" res="V302070" label="MOD"/>
+>    <RELATION id="2" head="V301880" res="V302024" label="MOD"/>
+>    <RELATION id="3" head="V301880" res="V301890" label="MOD"/>
+>    <PHRASE id="V302070" indicator="F" type="OTHER" start="0" end="53"/>
+>    <RELATION id="4" head="V302070" res="V301880" label="FIGURE"/>
+>    <PHRASE id="V301890" indicator="F" type="IN-LOC" text="IN" start="12" end="30"/>
+>    <RELATION id="5" head="V301890" res="V301958" label="GROUND"/>
+>    <RELATION id="6" head="V301890" res="V301880" label="FIGURE"/>
+>    <PHRASE id="V301958" indicator="THE" type="ROW-FORMATION" text="ROW" ORDINAL="2" start="15" end="30"/>
+>    <PHRASE id="V302024" indicator="F" type="ACTIVE-PERCEPTION" text="LOOKING-OUT" VFORM="ING" start="30" end="53" WNSENSE="look_out%2:33:10"/>
+>    <RELATION id="7" head="V302024" res="V301880" label="EXPERIENCER"/>
+>    <RELATION id="8" head="V302024" res="V302046" label="NEUTRAL"/>
+>    <PHRASE id="V302046" indicator="THE" type="DISPLAY" text="WINDOW" start="42" end="53"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

@@ -1,0 +1,17 @@
+digraph Terms {
+  node [shape=none]
+  "A GIRL IN A PURPLE TEE PUNC-MINUS SHIRT PUNC-PERIOD"
+  "V86591" [label="(SPEECHACT V86591 SA_IDENTIFY)"]
+  "V86591" -> "V86335" [label=":CONTENT"]
+  "V86335" [label="(A V86335 (:* FEMALE-CHILD GIRL))"]
+  "V86335" -> "V86342" [label=":LOCATION"]
+  "V86342" [label="(F V86342 (:* IN-LOC IN))"]
+  "V86342" -> "V86450" [label=":GROUND"]
+  "V86342" -> "V86335" [label=":FIGURE"]
+  "V86450" [label="(A V86450 (:* ATTIRE TEE-PUNC-MINUS-SHIRT))"]
+  "V86450" -> "V86432" [label=":MOD"]
+  "V86432" [label="(F V86432 (:* PURPLE PURPLE))"]
+  "V86432" -> "V86450" [label=":FIGURE"]
+  "V86432" -> "NT87169" [label=":SCALE"]
+  "NT87169" [label="PURPLE*1--07--00"]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired b</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="MALE-CHILD" text="BOY" start="29" end="33">
+   <TEXT>boy i</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="36" end="89">
+   <TEXT>a black pullover is standing in front of a blue wall .</TEXT>
+   <RELATION id="1" head="V378227" res="V377380" label="CONTENT"/>
+   <PHRASE id="V377380" indicator="F" type="BE" text="BE" TENSE="PRES" start="36" end="89"/>
+   <RELATION id="2" head="V377380" res="V377371" label="NEUTRAL"/>
+   <RELATION id="3" head="V377380" res="V377397" label="NEUTRAL1"/>
+   <PHRASE id="V377371" indicator="A" type="ATTIRE" text="PULLOVER" start="36" end="53"/>
+   <RELATION id="4" head="V377371" res="V377367" label="MOD"/>
+   <PHRASE id="V377367" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="38" end="44"/>
+   <RELATION id="5" head="V377367" res="V377371" label="FIGURE"/>
+   <PHRASE id="V377397" indicator="BARE" type="BE-AT-LOC" text="STAND" start="56" end="89"/>
+   <RELATION id="6" head="V377397" res="V377416" label="LOCATION"/>
+   <PHRASE id="V377416" indicator="F" type="FRONT" text="IN-FRONT" start="65" end="89"/>
+   <RELATION id="7" head="V377416" res="V377590" label="GROUND"/>
+   <RELATION id="8" head="V377416" res="V377397" label="FIGURE"/>
+   <PHRASE id="V377590" indicator="A" type="ACTIVITY-EVENT" text="BLUE-WALL" start="74" end="89" WNSENSE="blue_wall%1:04:00"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

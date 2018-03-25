@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="QUANTIFIER" type="REFERENTIAL-SEM" text="THEM" QUAN="EACH" start="0" end="13">
+   <TEXT>each of them i</TEXT>
+   <RELATION id="1" head="V53213" res="V53070" label="REFSET"/>
+   <PHRASE id="V53070" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="5" end="13"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="13" end="48">
+   <TEXT>is holding a leaflet und some pens .</TEXT>
+   <RELATION id="2" head="V54045" res="V53075" label="CONTENT"/>
+   <PHRASE id="V53075" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="13" end="48"/>
+   <RELATION id="3" head="V53075" res="V53094" label="NEUTRAL"/>
+   <PHRASE id="V53094" indicator="BARE" type="BODY-MANIPULATION" text="HOLD" start="16" end="48"/>
+   <RELATION id="4" head="V53094" res="V53164" label="AFFECTED"/>
+   <RELATION id="5" head="V53094" res="V53262" label="BENEFICIARY"/>
+   <PHRASE id="V53262" indicator="F" type="BENEFICIARY" text="IOBJ" start="16" end="48"/>
+   <RELATION id="6" head="V53262" res="V53154" label="GROUND"/>
+   <RELATION id="7" head="V53262" res="V53094" label="FIGURE"/>
+   <PHRASE id="V53154" indicator="A" type="REFERENTIAL-SEM" text="UND" start="24" end="38"/>
+   <RELATION id="8" head="V53154" res="V53146" label="ASSOC-WITH"/>
+   <PHRASE id="V53146" indicator="KIND" type="BODY-PART" text="LEAFLET" start="24" end="38"/>
+   <PHRASE id="V53164" indicator="INDEF-SET" type="WRITING-IMPLEMENT" text="PEN" SIZE="SOME" start="38" end="48"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

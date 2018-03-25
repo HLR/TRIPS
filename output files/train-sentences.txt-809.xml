@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="71">
+   <TEXT>there is also one roof of a house and a mountain range in the distance .</TEXT>
+   <RELATION id="1" head="V94754" res="V83408" label="CONTENT"/>
+   <PHRASE id="V83408" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="71"/>
+   <RELATION id="2" head="V83408" res="V83434" label="NEUTRAL"/>
+   <RELATION id="3" head="V83408" res="V83420" label="MOD"/>
+   <PHRASE id="V83395" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V83420" indicator="F" type="ADDITIVE" text="ALSO" start="9" end="14"/>
+   <RELATION id="4" head="V83420" res="V83408" label="FIGURE"/>
+   <PHRASE id="V83434" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="14" end="71"/>
+   <RELATION id="5" head="V83434" res="V83637" label="SIZE"/>
+   <RELATION id="6" head="V83434" res="V83494" label="FIGURE"/>
+   <PHRASE id="V83637" indicator="A" type="NUMBER" VALUE="1" start="14" end="71"/>
+   <PHRASE id="V83494" indicator="INDEF-SET" type="GEO-OBJECT" OPERATOR="AND" start="23" end="71"/>
+   <RELATION id="7" head="V83494" res="V83489" label="SEQUENCE"/>
+   <RELATION id="8" head="V83494" res="V83556" label="SEQUENCE1"/>
+   <PHRASE id="V83489" indicator="A" type="LODGING" text="HOUSE" start="26" end="34"/>
+   <PHRASE id="V83556" indicator="A" type="GEO-FORMATION" text="MOUNTAIN-RANGE" start="38" end="71" WNSENSE="mountain_range%1:17:00"/>
+   <RELATION id="9" head="V83556" res="V83563" label="LOCATION"/>
+   <PHRASE id="V83563" indicator="F" type="IN-LOC" text="IN" start="55" end="71"/>
+   <RELATION id="10" head="V83563" res="V83626" label="GROUND"/>
+   <RELATION id="11" head="V83563" res="V83556" label="FIGURE"/>
+   <PHRASE id="V83626" indicator="THE" type="DISTANCE-SCALE" text="DISTANCE" start="58" end="71"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

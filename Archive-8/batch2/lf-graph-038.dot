@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "THREE ARE WEARING A GREEN HAT PUNC-PERIOD"
+  "V219774" [label="(SPEECHACT V219774 SA_TELL)"]
+  "V219774" -> "V219588" [label=":CONTENT"]
+  "V219588" [label="(F V219588 (:* WEAR WEAR))"]
+  "V219588" -> "V219566" [label=":AGENT"]
+  "V219588" -> "V219646" [label=":NEUTRAL"]
+  "V219588" -> "NT220984" [label=":TENSE"]
+  "NT220984" [label="PRES"]
+  "V219588" -> "NT220985" [label=":PROGR"]
+  "NT220985" [label="+"]
+  "V219566" [label="(INDEF-SET V219566 NUMBER)"]
+  "V219566" -> "NT220986" [label=":NUMBER"]
+  "NT220986" [label="3"]
+  "V219646" [label="(A V219646 (:* ATTIRE HAT))"]
+  "V219646" -> "V219635" [label=":MOD"]
+  "V219635" [label="(F V219635 (:* GREEN GREEN))"]
+  "V219635" -> "V219646" [label=":FIGURE"]
+  "V219635" -> "NT220987" [label=":SCALE"]
+  "NT220987" [label="GREEN*1--07--00"]
+}

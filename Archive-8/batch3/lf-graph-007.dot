@@ -1,0 +1,14 @@
+digraph Terms {
+  node [shape=none]
+  "VIEW OF A CITY IN A VALLEY PUNC-PERIOD"
+  "V64249" [label="(SPEECHACT V64249 SA_IDENTIFY)"]
+  "V64249" -> "V64013" [label=":CONTENT"]
+  "V64013" [label="(BARE V64013 (:* ACTIVE-PERCEPTION VIEW))"]
+  "V64013" -> "V64075" [label=":NEUTRAL"]
+  "V64013" -> "V64082" [label=":LOCATION"]
+  "V64075" [label="(A V64075 (:* CITY CITY))"]
+  "V64082" [label="(F V64082 (:* IN-LOC IN))"]
+  "V64082" -> "V64172" [label=":GROUND"]
+  "V64082" -> "V64013" [label=":FIGURE"]
+  "V64172" [label="(A V64172 (:* GEO-FORMATION VALLEY))"]
+}

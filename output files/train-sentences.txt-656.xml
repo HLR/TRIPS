@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="46">
+   <TEXT>one girl sitting at her desk and eating bread .</TEXT>
+   <RELATION id="1" head="V203386" res="V202955" label="CONTENT"/>
+   <PHRASE id="V202955" indicator="INDEF-SET" type="EVENT-OF-CAUSATION" OPERATOR="AND" start="0" end="46"/>
+   <RELATION id="2" head="V202955" res="V202917" label="SEQUENCE"/>
+   <RELATION id="3" head="V202955" res="V202965" label="SEQUENCE1"/>
+   <PHRASE id="V202917" indicator="BARE" type="PLACE-IN-POSITION" text="SIT" start="0" end="29"/>
+   <RELATION id="4" head="V202917" res="V202933" label="RESULT"/>
+   <RELATION id="5" head="V202917" res="V202907" label="AFFECTED"/>
+   <PHRASE id="V202907" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="9"/>
+   <RELATION id="6" head="V202907" res="V202982" label="SIZE"/>
+   <PHRASE id="V202982" indicator="A" type="NUMBER" VALUE="1" start="0" end="9"/>
+   <PHRASE id="V202933" indicator="F" type="AT-LOC" text="AT" start="17" end="29"/>
+   <RELATION id="7" head="V202933" res="V202951" label="GROUND"/>
+   <PHRASE id="V202951" indicator="THE" type="FURNISHINGS" text="DESK" start="20" end="29"/>
+   <RELATION id="8" head="V202951" res="V202946" label="ASSOC-POSS"/>
+   <PHRASE id="V202946" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="20" end="29"/>
+   <RELATION id="9" head="V202946" res="V202907" label="COREF"/>
+   <PHRASE id="V202965" indicator="BARE" type="CONSUME" text="EAT" start="33" end="46"/>
+   <RELATION id="10" head="V202965" res="V202973" label="AFFECTED"/>
+   <PHRASE id="V202973" indicator="BARE" type="BREAD" text="BREAD" start="40" end="46"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

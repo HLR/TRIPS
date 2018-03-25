@@ -233,7 +233,7 @@ if __name__ == '__main__':
                 for file in os.listdir(directory):
                     if file.endswith(".xml"):
                         try:
-                            with open(os.path.join(args.path, directory, file), 'r') as f:
+                            with open(os.path.join(args.path, directory, file), 'r') as f:m
                                 a = f.read()
                                 refine_cleaned_parse(os.path.join(directory, file))
                         except FileNotFoundError as e:

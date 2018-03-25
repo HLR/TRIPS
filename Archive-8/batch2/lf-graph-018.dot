@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "ALL THREE WORKERS ARE WEARING A MASK PUNC-PERIOD"
+  "V109604" [label="(SPEECHACT V109604 SA_TELL)"]
+  "V109604" -> "V109420" [label=":CONTENT"]
+  "V109420" [label="(F V109420 (:* WEAR WEAR))"]
+  "V109420" -> "V109397" [label=":AGENT"]
+  "V109420" -> "V109468" [label=":NEUTRAL"]
+  "V109420" -> "NT110651" [label=":TENSE"]
+  "NT110651" [label="PRES"]
+  "V109420" -> "NT110652" [label=":PROGR"]
+  "NT110652" [label="+"]
+  "V109397" [label="(QUANTIFIER V109397 (:* PROFESSIONAL WORKER))"]
+  "V109397" -> "NT110653" [label=":QUAN"]
+  "NT110653" [label="UNIVERSAL"]
+  "V109397" -> "V109395" [label=":SIZE"]
+  "V109395" [label="(A V109395 NUMBER)"]
+  "V109395" -> "NT110654" [label=":VALUE"]
+  "NT110654" [label="3"]
+  "V109468" [label="(A V109468 (:* COVERING MASK))"]
+}

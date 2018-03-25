@@ -1,0 +1,19 @@
+digraph Terms {
+  node [shape=none]
+  "A DARK PUNC-MINUS HAIRED BABY POINTING AT THE CAMERA PUNC-PERIOD"
+  "V325967" [label="(SPEECHACT V325967 SA_IDENTIFY)"]
+  "V325967" -> "V325783" [label=":CONTENT"]
+  "V325783" [label="(BARE V325783 (:* ORIENT POINT))"]
+  "V325783" -> "V325778" [label=":AFFECTED"]
+  "V325783" -> "V325793" [label=":LOCATION"]
+  "V325778" [label="(A V325778 (:* CHILD BABY))"]
+  "V325778" -> "V325772" [label=":MOD"]
+  "V325772" [label="(F V325772 (:* MODIFIER DARK-PUNC-MINUS-HAIRED))"]
+  "V325772" -> "V325778" [label=":FIGURE"]
+  "V325772" -> "NT326450" [label=":WNSENSE"]
+  "NT326450" [label="\"dark-haired%5:00:00\""]
+  "V325793" [label="(F V325793 (:* AT-LOC AT))"]
+  "V325793" -> "V325812" [label=":GROUND"]
+  "V325793" -> "V325783" [label=":FIGURE"]
+  "V325812" [label="(THE V325812 (:* RECORDING-DEVICE CAMERA))"]
+}

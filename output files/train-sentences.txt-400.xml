@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2">
+   <TEXT>a d</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="2" end="17">
+   <TEXT>dark-skinned , d</TEXT>
+   <RELATION id="1" head="V42484" res="V33218" label="CONTENT"/>
+   <PHRASE id="V33218" indicator="F" type="MOVE" text="SKINNED" TENSE="PAST" start="2" end="15"/>
+   <RELATION id="2" head="V33218" res="V33209" label="AFFECTED"/>
+   <PHRASE id="V33209" indicator="BARE" type="LIGHT" text="DARK" start="2" end="6"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33">
+   <TEXT>dark-haired boy i</TEXT>
+   <RELATION id="3" head="V33259" res="V33256" label="MOD"/>
+   <PHRASE id="V33256" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V33256" res="V33259" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="F" type="IN-LOC" text="IN" start="33" end="72">
+   <TEXT>in a white shirt and a green tee-shirt ,</TEXT>
+   <RELATION id="5" head="V33266" res="V33367" label="GROUND"/>
+   <PHRASE id="V33367" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="36" end="72"/>
+   <RELATION id="6" head="V33367" res="V33363" label="SEQUENCE"/>
+   <RELATION id="7" head="V33367" res="V33437" label="SEQUENCE1"/>
+   <PHRASE id="V33363" indicator="A" type="ATTIRE" text="SHIRT" start="36" end="50"/>
+   <RELATION id="8" head="V33363" res="V33356" label="MOD"/>
+   <PHRASE id="V33356" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="38" end="44"/>
+   <RELATION id="9" head="V33356" res="V33363" label="FIGURE"/>
+   <PHRASE id="V33437" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="54" end="72"/>
+   <RELATION id="10" head="V33437" res="V33417" label="MOD"/>
+   <PHRASE id="V33417" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="56" end="62"/>
+   <RELATION id="11" head="V33417" res="V33437" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="74" end="129">
+   <TEXT>putting his index finger of his left hand in his mouth .</TEXT>
+   <RELATION id="12" head="V33822" res="V33450" label="CONTENT"/>
+   <PHRASE id="V33450" indicator="BARE" type="PUT" text="PUT" start="74" end="129"/>
+   <RELATION id="13" head="V33450" res="V33475" label="AFFECTED"/>
+   <RELATION id="14" head="V33450" res="V33555" label="RESULT"/>
+   <PHRASE id="V33475" indicator="THE" type="BODY-PART" text="INDEX-FINGER" start="82" end="116" WNSENSE="index_finger%1:08:00"/>
+   <RELATION id="15" head="V33475" res="V33462" label="ASSOC-POSS"/>
+   <RELATION id="16" head="V33475" res="V33480" label="MOD"/>
+   <PHRASE id="V33462" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="82" end="116"/>
+   <RELATION id="17" head="V33462" res="V33259" label="COREF"/>
+   <PHRASE id="V33480" indicator="F" type="CONTAIN-RELN" text="OF" start="99" end="116"/>
+   <RELATION id="18" head="V33480" res="V33548" label="GROUND"/>
+   <RELATION id="19" head="V33480" res="V33475" label="FIGURE"/>
+   <PHRASE id="V33548" indicator="THE" type="BODY-PART" text="LEFT-HAND" start="102" end="116" WNSENSE="left_hand%1:08:00"/>
+   <RELATION id="20" head="V33548" res="V33487" label="ASSOC-POSS"/>
+   <PHRASE id="V33487" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="102" end="116"/>
+   <PHRASE id="V33555" indicator="F" type="IN-LOC" text="IN" start="116" end="129"/>
+   <RELATION id="21" head="V33555" res="V33610" label="GROUND"/>
+   <RELATION id="22" head="V33555" res="V33475" label="FIGURE"/>
+   <PHRASE id="V33610" indicator="THE" type="EXTERNAL-BODY-PART" text="MOUTH" start="119" end="129"/>
+   <RELATION id="23" head="V33610" res="V33605" label="ASSOC-POSS"/>
+   <PHRASE id="V33605" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="119" end="129"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

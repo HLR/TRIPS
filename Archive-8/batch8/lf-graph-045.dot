@@ -1,0 +1,14 @@
+digraph Terms {
+  node [shape=none]
+  "BLUE SKY IN THE BACKGROUND PUNC-PERIOD"
+  "V310207" [label="(SPEECHACT V310207 SA_IDENTIFY)"]
+  "V310207" -> "V310100" [label=":CONTENT"]
+  "V310100" [label="(BARE V310100 (:* GAS-SUBSTANCE BLUE-SKY))"]
+  "V310100" -> "V310107" [label=":LOCATION"]
+  "V310100" -> "NT310534" [label=":WNSENSE"]
+  "NT310534" [label="\"blue_sky%1:17:00\""]
+  "V310107" [label="(F V310107 (:* IN-LOC IN))"]
+  "V310107" -> "V310163" [label=":GROUND"]
+  "V310107" -> "V310100" [label=":FIGURE"]
+  "V310163" [label="(THE V310163 (:* IMAGE BACKGROUND))"]
+}

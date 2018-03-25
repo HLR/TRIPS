@@ -1,0 +1,12 @@
+digraph Terms {
+  node [shape=none]
+  "BOULDERS IN THE BACKGROUND PUNC-PERIOD"
+  "V158418" [label="(SPEECHACT V158418 SA_IDENTIFY)"]
+  "V158418" -> "V158324" [label=":CONTENT"]
+  "V158324" [label="(INDEF-SET V158324 (:* NATURAL-OBJECT BOULDERS))"]
+  "V158324" -> "V158331" [label=":LOCATION"]
+  "V158331" [label="(F V158331 (:* IN-LOC IN))"]
+  "V158331" -> "V158387" [label=":GROUND"]
+  "V158331" -> "V158324" [label=":FIGURE"]
+  "V158387" [label="(THE V158387 (:* IMAGE BACKGROUND))"]
+}

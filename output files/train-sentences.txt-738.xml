@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="72">
+   <TEXT>a dark-skinned , dark-haired girl with a black hat and a white pullover a</TEXT>
+   <RELATION id="1" head="V160671" res="V160680" label="MOD"/>
+   <RELATION id="2" head="V160671" res="V160640" label="MOD"/>
+   <RELATION id="3" head="V160671" res="V160668" label="MOD"/>
+   <PHRASE id="V160640" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="4" head="V160640" res="V160671" label="FIGURE"/>
+   <PHRASE id="V160668" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V160668" res="V160671" label="FIGURE"/>
+   <PHRASE id="V160680" indicator="F" type="ASSOC-WITH" text="WITH" start="34" end="72"/>
+   <RELATION id="6" head="V160680" res="V160740" label="GROUND"/>
+   <RELATION id="7" head="V160680" res="V160671" label="FIGURE"/>
+   <PHRASE id="V160740" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="39" end="72"/>
+   <RELATION id="8" head="V160740" res="V160736" label="SEQUENCE"/>
+   <RELATION id="9" head="V160740" res="V160798" label="SEQUENCE1"/>
+   <PHRASE id="V160736" indicator="A" type="ATTIRE" text="HAT" start="39" end="51"/>
+   <RELATION id="10" head="V160736" res="V160733" label="MOD"/>
+   <PHRASE id="V160733" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="41" end="47"/>
+   <RELATION id="11" head="V160733" res="V160736" label="FIGURE"/>
+   <PHRASE id="V160798" indicator="A" type="ATTIRE" text="PULLOVER" start="55" end="72"/>
+   <RELATION id="12" head="V160798" res="V160790" label="MOD"/>
+   <PHRASE id="V160790" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="57" end="63"/>
+   <RELATION id="13" head="V160790" res="V160798" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" start="72" end="149">
+   <TEXT>and a pink vest underneath a large purple cloth , in the backyard of a house .</TEXT>
+   <RELATION id="14" head="V165812" res="V160860" label="CONTENT"/>
+   <RELATION id="15" head="V165812" res="V160803" label="MOD"/>
+   <PHRASE id="V160803" indicator="F" type="CONJUNCT" text="AND" start="72" end="76"/>
+   <RELATION id="16" head="V160803" res="V165812" label="FIGURE"/>
+   <PHRASE id="V160860" indicator="A" type="ATTIRE" text="VEST" start="76" end="149"/>
+   <RELATION id="17" head="V160860" res="V160923" label="LOCATION"/>
+   <RELATION id="18" head="V160860" res="V160863" label="LOCATION"/>
+   <RELATION id="19" head="V160860" res="V160852" label="MOD"/>
+   <PHRASE id="V160852" indicator="F" type="PINK" text="PINK" SCALE="PINK*1--07--00" start="78" end="83"/>
+   <RELATION id="20" head="V160852" res="V160860" label="FIGURE"/>
+   <PHRASE id="V160863" indicator="F" type="BELOW" text="UNDERNEATH" start="88" end="120"/>
+   <RELATION id="21" head="V160863" res="V160913" label="GROUND"/>
+   <RELATION id="22" head="V160863" res="V160860" label="FIGURE"/>
+   <PHRASE id="V160913" indicator="BARE" type="MATERIAL" text="CLOTH" start="99" end="120"/>
+   <RELATION id="23" head="V160913" res="V160883" label="ASSOC-WITH"/>
+   <RELATION id="24" head="V160913" res="V160907" label="MOD"/>
+   <RELATION id="25" head="V160913" res="V160910" label="MOD"/>
+   <PHRASE id="V160883" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="99" end="101"/>
+   <PHRASE id="V160907" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="101" end="107"/>
+   <RELATION id="26" head="V160907" res="V160913" label="FIGURE"/>
+   <PHRASE id="V160910" indicator="F" type="PURPLE" text="PURPLE" SCALE="PURPLE*1--07--00" start="107" end="114"/>
+   <RELATION id="27" head="V160910" res="V160913" label="FIGURE"/>
+   <PHRASE id="V160923" indicator="F" type="IN-LOC" text="IN" start="120" end="149"/>
+   <RELATION id="28" head="V160923" res="V160980" label="GROUND"/>
+   <RELATION id="29" head="V160923" res="V160860" label="FIGURE"/>
+   <PHRASE id="V160980" indicator="THE" type="GEO-OBJECT" text="BACKYARD" start="125" end="149"/>
+   <RELATION id="30" head="V160980" res="V160985" label="MOD"/>
+   <PHRASE id="V160985" indicator="F" type="CONTAIN-RELN" text="OF" start="138" end="149"/>
+   <RELATION id="31" head="V160985" res="V161035" label="GROUND"/>
+   <RELATION id="32" head="V160985" res="V160980" label="FIGURE"/>
+   <PHRASE id="V161035" indicator="A" type="LODGING" text="HOUSE" start="141" end="149"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

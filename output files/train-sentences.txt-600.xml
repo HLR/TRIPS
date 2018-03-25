@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="40">
+   <TEXT>a dark-skinned girl with dark long hair w</TEXT>
+   <RELATION id="1" head="V33236" res="V33240" label="MOD"/>
+   <RELATION id="2" head="V33236" res="V33221" label="MOD"/>
+   <PHRASE id="V33221" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="3" head="V33221" res="V33210" label="AGENT"/>
+   <RELATION id="4" head="V33221" res="V33236" label="AFFECTED"/>
+   <PHRASE id="V33210" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+   <PHRASE id="V33240" indicator="F" type="ASSOC-WITH" text="WITH" start="20" end="40"/>
+   <RELATION id="5" head="V33240" res="V33266" label="GROUND"/>
+   <RELATION id="6" head="V33240" res="V33236" label="FIGURE"/>
+   <PHRASE id="V33266" indicator="BARE" type="EXTERNAL-BODY-PART" text="HAIR" start="25" end="40"/>
+   <RELATION id="7" head="V33266" res="V33252" label="MOD"/>
+   <RELATION id="8" head="V33266" res="V33259" label="MOD"/>
+   <PHRASE id="V33252" indicator="F" type="DARK-VAL" text="DARK" start="25" end="30"/>
+   <RELATION id="9" head="V33252" res="V33266" label="FIGURE"/>
+   <PHRASE id="V33259" indicator="F" type="LONG" text="LONG" SCALE="SIZE-SCALE" start="30" end="35"/>
+   <RELATION id="10" head="V33259" res="V33266" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" start="40" end="114">
+   <TEXT>wearing a white vest is standing in a classroom in front of all the desks .</TEXT>
+   <RELATION id="11" head="V37509" res="V33336" label="CONTENT"/>
+   <PHRASE id="V33336" indicator="F" type="BE" text="BE" TENSE="PRES" start="40" end="114"/>
+   <RELATION id="12" head="V33336" res="V33272" label="NEUTRAL"/>
+   <RELATION id="13" head="V33336" res="V33353" label="NEUTRAL1"/>
+   <PHRASE id="V33272" indicator="BARE" type="WEAR" text="WEAR" start="40" end="61"/>
+   <RELATION id="14" head="V33272" res="V33327" label="NEUTRAL"/>
+   <PHRASE id="V33327" indicator="A" type="ATTIRE" text="VEST" start="48" end="61"/>
+   <RELATION id="15" head="V33327" res="V33319" label="MOD"/>
+   <PHRASE id="V33319" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="50" end="56"/>
+   <RELATION id="16" head="V33319" res="V33327" label="FIGURE"/>
+   <PHRASE id="V33353" indicator="BARE" type="BE-AT-LOC" text="STAND" start="64" end="114"/>
+   <RELATION id="17" head="V33353" res="V33362" label="LOCATION"/>
+   <PHRASE id="V33362" indicator="F" type="IN-LOC" text="IN" start="73" end="114"/>
+   <RELATION id="18" head="V33362" res="V33464" label="GROUND"/>
+   <RELATION id="19" head="V33362" res="V33353" label="FIGURE"/>
+   <PHRASE id="V33464" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="76" end="114"/>
+   <RELATION id="20" head="V33464" res="V33471" label="LOCATION"/>
+   <PHRASE id="V33471" indicator="F" type="IN-LOC" text="IN" start="88" end="114"/>
+   <RELATION id="21" head="V33471" res="V33520" label="GROUND"/>
+   <RELATION id="22" head="V33471" res="V33464" label="FIGURE"/>
+   <PHRASE id="V33520" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="91" end="114"/>
+   <RELATION id="23" head="V33520" res="V33669" label="FIGURE"/>
+   <PHRASE id="V33669" indicator="QUANTIFIER" type="FURNISHINGS" text="DESK" QUAN="UNIVERSAL" start="97" end="114"/>
+   <RELATION id="24" head="V33669" res="V33604" label="REFSET"/>
+   <PHRASE id="V33604" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="104" end="114"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

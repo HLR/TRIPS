@@ -1,0 +1,180 @@
+2,157c2,22
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there are some of his classmates in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+30
+< *last-utt-id*=30  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::ARE W::SOME W::OF W::HIS W::CLASSMATES W::IN W::THE W::BACKGROUND
+<  W::PUNC-PERIOD)</lisp><word>THERE</word><word>ARE</word><word>SOME</word><word>OF</word><word>HIS</word><word>CLASSMATES</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (6 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;some&quot; :FRAME (10 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;some&quot; :FRAME (10 14) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 6.574
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (15 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;his&quot; :FRAME (18 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;classmates&quot; :FRAME (22 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;his classmates&quot; :FRAME (18 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 17.443 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (33 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (36 39) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (40 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 30
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (36 50) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (33 50) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;his classmates in the background&quot; :FRAME (18 50) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 32.207 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;of his classmates in the background&quot; :FRAME (15 50) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 34.619 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;some of his classmates in the background&quot; :FRAME (10 50) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 41.6 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;are some of his classmates in the background&quot; :FRAME (6 50)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 48.192 :UTTNUM 30 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (51 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;there are some of his classmates in the background .&quot; :FRAME (0 51)
+<   :PENN-CATS (S) :SCORE 53.853 :UTTNUM 30 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="are" start="6" end="9"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="some" start="10" end="14"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><prefer text="some" start="10" end="14" penn-cats="NP" score="6.574" /><word lex="of" start="15" end="17"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="his" start="18" end="21"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="classmates" start="22" end="32"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="his classmates" start="18" end="32" penn-cats="NP" score="17.443" /><word lex="in" start="33" end="35"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="36" end="39"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="40" end="50"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="36" end="50" penn-cats="NP" score="11.972" /><prefer text="in the background" start="33" end="50" penn-cats="PP" score="14.224" /><prefer text="his classmates in the background" start="18" end="50" penn-cats="NP" score="32.207" /><prefer text="of his classmates in the background" start="15" end="50" penn-cats="PP" score="34.619" /><prefer text="some of his classmates in the background" start="10" end="50" penn-cats="NP" score="41.6" /><prefer text="are some of his classmates in the background" start="6" end="50" penn-cats="VP" score="48.192" /><word lex="." start="51" end="51"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there are some of his classmates in the background ." start="0" end="51" penn-cats="S" score="53.853" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (PRO THERE))
+<    (VP
+<     (VP- (V ARE)
+<      (NP (SPEC (QUAN SOME))
+<       (PP (PREP OF)
+<        (NP (SPEC (DET (POSSESSOR (PRO HIS))))
+<         (N1 (N1 (N CLASSMATES))
+<          (ADVBL (ADV IN)
+<           (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>ARE</V><NP><SPEC><QUAN>SOME</QUAN></SPEC><PP><PREP>OF</PREP><NP><SPEC><DET><POSSESSOR><PRO>HIS</PRO></POSSESSOR></DET></SPEC><N1><N1><N>CLASSMATES</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></PP></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V282978"><lisp>((ONT::SPEECHACT ONT::V282978 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V282774 :START 0 :END 51)
+<  (ONT::F ONT::V282774 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V282926 :TENSE
+<   W::PRES :START 0 :END 51)
+<  (ONT::PRO ONT::V282762 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+<  (ONT::INDEF-SET ONT::V282926 (:* ONT::PERSON W::CLASSMATES) :REFSET
+<   ONT::V282806 :SIZE ONT::SOME :START 10 :END 51)
+<  (ONT::THE ONT::V282806 (:* ONT::PERSON W::CLASSMATES) :ASSOC-POSS ONT::V282800
+<   :LOCATION ONT::V282813 :START 15 :END 51)
+<  (ONT::PRO ONT::V282800 (:* ONT::MALE-PERSON W::HIS) :PROFORM W::HIS :START 15
+<   :END 51)
+<  (ONT::F ONT::V282813 (:* ONT::IN-LOC W::IN) :GROUND ONT::V282869 :FIGURE
+<   ONT::V282806 :START 33 :END 51)
+<  (ONT::THE ONT::V282869 (:* ONT::IMAGE W::BACKGROUND) :START 36 :END 51))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V282978">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V282774" />
+<     <LF:start>0</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V282774">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EXISTS</LF:type>
+<     <LF:word>BE</LF:word>
+<     <role:NEUTRAL rdf:resource="#V282926" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <LF:start>0</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V282762">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>EXPLETIVE</LF:type>
+<     <role:PROFORM>THERE</role:PROFORM>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V282926">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <LF:word>CLASSMATES</LF:word>
+<     <role:REFSET rdf:resource="#V282806" />
+<     <role:SIZE>SOME</role:SIZE>
+<     <LF:start>10</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V282806">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>PERSON</LF:type>
+<     <LF:word>CLASSMATES</LF:word>
+<     <role:ASSOC-POSS rdf:resource="#V282800" />
+<     <role:LOCATION rdf:resource="#V282813" />
+<     <LF:start>15</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V282800">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>MALE-PERSON</LF:type>
+<     <LF:word>HIS</LF:word>
+<     <role:PROFORM>HIS</role:PROFORM>
+<     <LF:start>15</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V282813">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V282869" />
+<     <role:FIGURE rdf:resource="#V282806" />
+<     <LF:start>33</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V282869">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>36</LF:start>
+<     <LF:end>51</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="51">
+>    <TEXT>there are some of his classmates in the background .</TEXT>
+>    <RELATION id="1" head="V282978" res="V282774" label="CONTENT"/>
+>    <PHRASE id="V282774" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="51"/>
+>    <RELATION id="2" head="V282774" res="V282926" label="NEUTRAL"/>
+>    <PHRASE id="V282762" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+>    <PHRASE id="V282926" indicator="INDEF-SET" type="PERSON" text="CLASSMATES" SIZE="SOME" start="10" end="51"/>
+>    <RELATION id="3" head="V282926" res="V282806" label="REFSET"/>
+>    <PHRASE id="V282806" indicator="THE" type="PERSON" text="CLASSMATES" start="15" end="51"/>
+>    <RELATION id="4" head="V282806" res="V282800" label="ASSOC-POSS"/>
+>    <RELATION id="5" head="V282806" res="V282813" label="LOCATION"/>
+>    <PHRASE id="V282800" indicator="PRO" type="MALE-PERSON" text="HIS" PROFORM="HIS" start="15" end="51"/>
+>    <PHRASE id="V282813" indicator="F" type="IN-LOC" text="IN" start="33" end="51"/>
+>    <RELATION id="6" head="V282813" res="V282869" label="GROUND"/>
+>    <RELATION id="7" head="V282813" res="V282806" label="FIGURE"/>
+>    <PHRASE id="V282869" indicator="THE" type="IMAGE" text="BACKGROUND" start="36" end="51"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

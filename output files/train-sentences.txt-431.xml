@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="29">
+   <TEXT>a dark-skinned , dark-haired g</TEXT>
+   <RELATION id="1" head="V179636" res="V171397" label="CONTENT"/>
+   <PHRASE id="V171397" indicator="F" type="MOVE" text="SKINNED" TENSE="PAST" start="0" end="29"/>
+   <RELATION id="2" head="V171397" res="V179616" label="TIME"/>
+   <RELATION id="3" head="V171397" res="V171388" label="AFFECTED"/>
+   <PHRASE id="V179616" indicator="F" type="EVENT-TIME-REL" start="0" end="29"/>
+   <RELATION id="4" head="V179616" res="V171397" label="FIGURE"/>
+   <RELATION id="5" head="V179616" res="V171435" label="GROUND"/>
+   <PHRASE id="V171388" indicator="BARE" type="LIGHT" text="DARK" start="0" end="6"/>
+   <RELATION id="6" head="V171388" res="V171362" label="ASSOC-WITH"/>
+   <PHRASE id="V171362" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2"/>
+   <PHRASE id="V171435" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="7" head="V171435" res="V171388" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="29" end="65">
+   <TEXT>girl in red vest is sitting outside .</TEXT>
+   <RELATION id="8" head="V175123" res="V171531" label="CONTENT"/>
+   <PHRASE id="V171531" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="29" end="65"/>
+   <RELATION id="9" head="V171531" res="V171543" label="RESULT"/>
+   <RELATION id="10" head="V171531" res="V171438" label="AGENT"/>
+   <PHRASE id="V171438" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="29" end="46"/>
+   <RELATION id="11" head="V171438" res="V171445" label="LOCATION"/>
+   <PHRASE id="V171445" indicator="F" type="IN-LOC" text="IN" start="34" end="46"/>
+   <RELATION id="12" head="V171445" res="V171503" label="GROUND"/>
+   <RELATION id="13" head="V171445" res="V171438" label="FIGURE"/>
+   <PHRASE id="V171503" indicator="BARE" type="ATTIRE" text="VEST" start="37" end="46"/>
+   <RELATION id="14" head="V171503" res="V171495" label="MOD"/>
+   <PHRASE id="V171495" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="37" end="41"/>
+   <RELATION id="15" head="V171495" res="V171503" label="FIGURE"/>
+   <PHRASE id="V171543" indicator="F" type="OUTSIDE" text="OUTSIDE" start="57" end="65"/>
+   <RELATION id="16" head="V171543" res="V171707" label="GROUND"/>
+   <RELATION id="17" head="V171543" res="V171438" label="FIGURE"/>
+   <PHRASE id="V171707" indicator="IMPRO" type="ANY-SEM" start="57" end="65"/>
+   <RELATION id="18" head="V171707" res="V171503" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

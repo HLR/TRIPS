@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="three boys are standing , one is kneeing down .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+24
+*last-utt-id*=24  utt-id+24
+*last-utt-id*=24  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::THREE W::BOYS W::ARE W::STANDING W::PUNC-COMMA W::ONE)</lisp><word>THREE</word><word>BOYS</word><word>ARE</word><word>STANDING</word><word>PUNC-COMMA</word><word>ONE</word></words><tags><lisp>((WORD &quot;three&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;boys&quot; :FRAME (6 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;three boys&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  19.146 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (11 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (15 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;standing&quot; :FRAME (15 23) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE
+  9.946 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;are standing&quot; :FRAME (11 23) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 14.309 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;three boys are standing&quot; :FRAME (0 23) :PENN-CATS (S) :SCORE 34.011
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (24 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (26 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD PRP) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT W::PRO)))
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one&quot; :FRAME (26 29) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 7.44
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="three" start="0" end="5"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="boys" start="6" end="10"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="three boys" start="0" end="10" penn-cats="NP" score="19.146" /><word lex="are" start="11" end="14"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="15" end="23"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><prefer text="standing" start="15" end="23" penn-cats="VP" score="9.946" /><prefer text="are standing" start="11" end="23" penn-cats="VP" score="14.309" /><prefer text="three boys are standing" start="0" end="23" penn-cats="S" score="34.011" /><word lex="," start="24" end="25"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="one" start="26" end="29"><sense-info penn-parts-of-speech="CD,PRP" trips-parts-of-speech="NUMBER,NUMBER-UNIT,PRO" /></word><prefer text="one" start="26" end="29" penn-cats="NP" score="7.44" /></tags><tree><lisp>(UTT
+ (UTT
+  (UTT
+   (S (NP (N1 (ADJP (NUMBER THREE)) (N1 (N BOYS))))
+    (VP (VP- (AUX (V ARE)) (VP- (V STANDING))))))
+  (PUNC PUNC-COMMA))
+ (NP (NAME (TIME-VALUE (NUMBER ONE)))))</lisp><UTT><UTT><UTT><S><NP><N1><ADJP><NUMBER>THREE</NUMBER></ADJP><N1><N>BOYS</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>STANDING</V></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT><NP><NAME><TIME-VALUE><NUMBER>ONE</NUMBER></TIME-VALUE></NAME></NP></UTT></tree><terms root="#V80612"><lisp>((ONT::SPEECHACT ONT::V80612 ONT::SA_TELL :VOCATIVE ONT::V80333 :CONTENT
+  ONT::V80317 :START 0 :END 30)
+ (ONT::F ONT::V80317 (:* ONT::BE-AT-LOC W::STAND) :NEUTRAL ONT::V80293 :TENSE
+  W::PRES :PROGR + :START 0 :END 24)
+ (ONT::INDEF-SET ONT::V80293 (:* ONT::MALE-CHILD W::BOY) :SIZE ONT::V80291
+  :START 0 :END 11)
+ (ONT::A ONT::V80291 ONT::NUMBER :VALUE 3 :START 0 :END 6)
+ (ONT::THE ONT::V80333 ONT::TIME-LOC :NAME-OF (W::ONE) :HOUR 1 :START 26 :END
+  30))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V80612">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:VOCATIVE rdf:resource="#V80333" />
+    <role:CONTENT rdf:resource="#V80317" />
+    <LF:start>0</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V80317">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE-AT-LOC</LF:type>
+    <LF:word>STAND</LF:word>
+    <role:NEUTRAL rdf:resource="#V80293" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>24</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V80293">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MALE-CHILD</LF:type>
+    <LF:word>BOY</LF:word>
+    <role:SIZE rdf:resource="#V80291" />
+    <LF:start>0</LF:start>
+    <LF:end>11</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V80291">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>3</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V80333">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>TIME-LOC</LF:type>
+    <role:NAME-OF>(ONE)</role:NAME-OF>
+    <role:HOUR>1</role:HOUR>
+    <LF:start>26</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::IS W::KNEEING W::DOWN W::PUNC-PERIOD)</lisp><word>IS</word><word>KNEEING</word><word>DOWN</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;is&quot; :FRAME (30 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kneeing&quot; :FRAME (33 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;down&quot; :FRAME (41 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RP) :TRIPS-PARTS-OF-SPEECH (W::PART))) :UTTNUM 24
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;down&quot; :FRAME (41 45) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+  2.647 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;kneeing down&quot; :FRAME (33 45) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 17.813 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is kneeing down&quot; :FRAME (30 45) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 22.073 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (46 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;three boys are standing , one is kneeing down .&quot; :FRAME (0 46)
+  :PENN-CATS (S) :SCORE 67.394 :UTTNUM 24 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="is" start="30" end="32"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="kneeing" start="33" end="40"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="down" start="41" end="45"><sense-info penn-parts-of-speech="RP" trips-parts-of-speech="PART" /></word><prefer text="down" start="41" end="45" penn-cats="PRT" score="2.647" /><prefer text="kneeing down" start="33" end="45" penn-cats="VP" score="17.813" /><prefer text="is kneeing down" start="30" end="45" penn-cats="VP" score="22.073" /><word lex="." start="46" end="46"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="three boys are standing , one is kneeing down ." start="0" end="46" penn-cats="S" score="67.394" /></tags><tree><lisp>(UTT (UTT (S (V IS) (NP (VP (VP- (V KNEEING)))) (PRED (ADVBL (ADV DOWN)))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><V>IS</V><NP><VP><VP-><V>KNEEING</V></VP-></VP></NP><PRED><ADVBL><ADV>DOWN</ADV></ADVBL></PRED></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V80797"><lisp>((ONT::SPEECHACT ONT::V80797 ONT::SA_YN-QUESTION :PUNCTYPE W::DECL :CONTENT
+  ONT::V80340 :START 30 :END 46)
+ (ONT::F ONT::V80340 (:* ONT::HAVE-PROPERTY W::BE) :NEUTRAL ONT::V80356 :FORMAL
+  ONT::V80386 :TENSE W::PRES :START 30 :END 46)
+ (ONT::BARE ONT::V80356 (:* ONT::SITUATION-ROOT W::KNEEING) :START 33 :END 41)
+ (ONT::F ONT::V80386 (:* ONT::DIRECTION-DOWN W::DOWN) :FIGURE ONT::V80356
+  :START 41 :END 46))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V80797">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_YN-QUESTION</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V80340" />
+    <LF:start>30</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V80340">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE-PROPERTY</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V80356" />
+    <role:FORMAL rdf:resource="#V80386" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>30</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V80356">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SITUATION-ROOT</LF:type>
+    <LF:word>KNEEING</LF:word>
+    <LF:start>33</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V80386">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DIRECTION-DOWN</LF:type>
+    <LF:word>DOWN</LF:word>
+    <role:FIGURE rdf:resource="#V80356" />
+    <LF:start>41</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

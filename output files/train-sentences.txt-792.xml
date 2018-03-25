@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="MALE-CHILD" text="BOY" start="16" end="33">
+   <TEXT>dark-skinned boy i</TEXT>
+   <RELATION id="1" head="V389023" res="V388995" label="MOD"/>
+   <RELATION id="2" head="V389023" res="V389008" label="MOD"/>
+   <PHRASE id="V388995" indicator="F" type="DARK-VAL" text="DARK" start="16" end="20"/>
+   <RELATION id="3" head="V388995" res="V389023" label="FIGURE"/>
+   <PHRASE id="V389008" indicator="F" type="MOVE" text="SKINNED" start="21" end="29"/>
+   <RELATION id="4" head="V389008" res="V389023" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="38" end="42">
+   <TEXT>red ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s5" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="44" end="82">
+   <TEXT>white and brown anorak and a blue cap i</TEXT>
+   <RELATION id="5" head="V389161" res="V389157" label="SEQUENCE"/>
+   <RELATION id="6" head="V389161" res="V389217" label="SEQUENCE1"/>
+   <PHRASE id="V389157" indicator="BARE" type="ATTIRE" text="ANORAK" start="44" end="67"/>
+   <RELATION id="7" head="V389157" res="V389516" label="MOD"/>
+   <PHRASE id="V389516" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="44" end="60"/>
+   <RELATION id="8" head="V389516" res="V389130" label="SEQUENCE"/>
+   <RELATION id="9" head="V389516" res="V389147" label="SEQUENCE1"/>
+   <PHRASE id="V389130" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="44" end="50"/>
+   <RELATION id="10" head="V389130" res="V389157" label="FIGURE"/>
+   <PHRASE id="V389147" indicator="F" type="BROWN" text="BROWN" SCALE="BROWNNESS*1--07--00" start="54" end="60"/>
+   <RELATION id="11" head="V389147" res="V389157" label="FIGURE"/>
+   <PHRASE id="V389217" indicator="A" type="ATTIRE" text="CAP" start="71" end="82"/>
+   <RELATION id="12" head="V389217" res="V389211" label="MOD"/>
+   <PHRASE id="V389211" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="73" end="78"/>
+   <RELATION id="13" head="V389211" res="V389217" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s6" indicator="SPEECHACT" type="SA_YN-QUESTION" PUNCTYPE="DECL" start="82" end="121">
+   <TEXT>is standing in front of a pile of wood .</TEXT>
+   <RELATION id="14" head="V392665" res="V389228" label="CONTENT"/>
+   <PHRASE id="V389228" indicator="F" type="BE" text="BE" TENSE="PRES" start="82" end="121"/>
+   <RELATION id="15" head="V389228" res="V389309" label="NEUTRAL"/>
+   <RELATION id="16" head="V389228" res="V389315" label="NEUTRAL1"/>
+   <PHRASE id="V389309" indicator="BARE" type="EXCHANGE" text="STANDING-IN" start="85" end="97" WNSENSE="stand_in%2:40:00"/>
+   <PHRASE id="V389315" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="97" end="121"/>
+   <RELATION id="17" head="V389315" res="V389424" label="FIGURE"/>
+   <PHRASE id="V389424" indicator="A" type="COLUMN-FORMATION" text="PILE" start="103" end="121"/>
+   <RELATION id="18" head="V389424" res="V389432" label="MOD"/>
+   <PHRASE id="V389432" indicator="F" type="ASSOC-WITH" text="OF" start="113" end="121"/>
+   <RELATION id="19" head="V389432" res="V389439" label="GROUND"/>
+   <RELATION id="20" head="V389432" res="V389424" label="FIGURE"/>
+   <PHRASE id="V389439" indicator="BARE" type="MATERIAL" text="WOOD" start="116" end="121"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

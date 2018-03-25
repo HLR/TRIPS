@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="TIME-LOC" HOUR="2" start="0" end="12">
+   <TEXT>two of them a</TEXT>
+   <RELATION id="1" head="V368176" res="V368180" label="MOD"/>
+   <PHRASE id="V368180" indicator="F" type="CONTAIN-RELN" text="OF" start="4" end="12"/>
+   <RELATION id="2" head="V368180" res="V368186" label="GROUND"/>
+   <RELATION id="3" head="V368180" res="V368176" label="FIGURE"/>
+   <PHRASE id="V368186" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="7" end="12"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="12" end="34">
+   <TEXT>are wearing a hat too .</TEXT>
+   <RELATION id="4" head="V368403" res="V368209" label="CONTENT"/>
+   <PHRASE id="V368209" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="12" end="34"/>
+   <RELATION id="5" head="V368209" res="V368404" label="AGENT"/>
+   <RELATION id="6" head="V368209" res="V368256" label="NEUTRAL"/>
+   <RELATION id="7" head="V368209" res="V368259" label="MOD"/>
+   <PHRASE id="V368404" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="12" end="34"/>
+   <PHRASE id="V368256" indicator="A" type="ATTIRE" text="HAT" start="24" end="30"/>
+   <PHRASE id="V368259" indicator="F" type="ADDITIVE" text="TOO" start="30" end="34"/>
+   <RELATION id="8" head="V368259" res="V368209" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

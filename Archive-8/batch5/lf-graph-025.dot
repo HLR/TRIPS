@@ -1,0 +1,14 @@
+digraph Terms {
+  node [shape=none]
+  "MORE KIDS IN THE BACKGROUND PUNC-PERIOD"
+  "V170476" [label="(SPEECHACT V170476 SA_IDENTIFY)"]
+  "V170476" -> "V170369" [label=":CONTENT"]
+  "V170369" [label="(INDEF-SET V170369 (:* CHILD KID))"]
+  "V170369" -> "NT170644" [label=":QUAN"]
+  "NT170644" [label="(:* QMODIFIER MORE)"]
+  "V170369" -> "V170377" [label=":LOCATION"]
+  "V170377" [label="(F V170377 (:* IN-LOC IN))"]
+  "V170377" -> "V170433" [label=":GROUND"]
+  "V170377" -> "V170369" [label=":FIGURE"]
+  "V170433" [label="(THE V170433 (:* IMAGE BACKGROUND))"]
+}

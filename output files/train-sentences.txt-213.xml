@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="11">
+   <TEXT>one kid is a</TEXT>
+   <RELATION id="1" head="V78043" res="V74241" label="CONTENT"/>
+   <PHRASE id="V74241" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="0" end="11"/>
+   <RELATION id="2" head="V74241" res="V74236" label="NEUTRAL"/>
+   <PHRASE id="V74236" indicator="A" type="CHILD" text="KID" start="0" end="8"/>
+   <RELATION id="3" head="V74236" res="V74506" label="SIZE"/>
+   <PHRASE id="V74506" indicator="A" type="NUMBER" VALUE="1" start="0" end="8"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="DEGREE-MODIFIER-MED" text="ABOUT" start="11" end="17">
+   <TEXT>about t</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="PURPOSE" text="TO" start="17" end="81">
+   <TEXT>to slide down the slide , with one grown up waiting to catch it .</TEXT>
+   <RELATION id="4" head="V74275" res="V74355" label="GROUND"/>
+   <PHRASE id="V74355" indicator="F" type="CHANGE" text="SLIDE-DOWN" VFORM="BASE" start="20" end="81" WNSENSE="slide_down%2:38:00"/>
+   <RELATION id="5" head="V74355" res="V74371" label="AFFECTED"/>
+   <RELATION id="6" head="V74355" res="V74458" label="REASON"/>
+   <PHRASE id="V74371" indicator="THE" type="IMAGE" text="SLIDE" start="31" end="69"/>
+   <RELATION id="7" head="V74371" res="V74381" label="MOD"/>
+   <PHRASE id="V74381" indicator="F" type="ASSOC-WITH" text="WITH" start="41" end="69"/>
+   <RELATION id="8" head="V74381" res="V74453" label="GROUND"/>
+   <RELATION id="9" head="V74381" res="V74371" label="FIGURE"/>
+   <PHRASE id="V74453" indicator="A" type="PAUSE" text="WAIT" start="48" end="69"/>
+   <RELATION id="10" head="V74453" res="V74520" label="SIZE"/>
+   <RELATION id="11" head="V74453" res="V74404" label="MOD"/>
+   <PHRASE id="V74520" indicator="A" type="NUMBER" VALUE="1" start="48" end="69"/>
+   <PHRASE id="V74404" indicator="F" type="BECOME" text="GROW" start="52" end="61"/>
+   <RELATION id="12" head="V74404" res="V74438" label="FORMAL"/>
+   <RELATION id="13" head="V74404" res="V74453" label="AFFECTED"/>
+   <PHRASE id="V74438" indicator="F" type="DIRECTION-UP" text="UP" start="58" end="61"/>
+   <RELATION id="14" head="V74438" res="V74453" label="FIGURE"/>
+   <PHRASE id="V74458" indicator="F" type="PURPOSE" text="TO" start="69" end="81"/>
+   <RELATION id="15" head="V74458" res="V74483" label="GROUND"/>
+   <RELATION id="16" head="V74458" res="V74355" label="FIGURE"/>
+   <PHRASE id="V74483" indicator="F" type="CAPTURE" text="CATCH" VFORM="BASE" start="72" end="81"/>
+   <RELATION id="17" head="V74483" res="V74487" label="AFFECTED"/>
+   <PHRASE id="V74487" indicator="PRO" type="REFERENTIAL-SEM" text="IT" PROFORM="IT" start="78" end="81"/>
+   <RELATION id="18" head="V74487" res="V74371" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

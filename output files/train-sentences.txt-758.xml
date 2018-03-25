@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="39">
+   <TEXT>a dark-skinned boy wearing a white cap ,</TEXT>
+   <RELATION id="1" head="V237458" res="V237464" label="MOD"/>
+   <RELATION id="2" head="V237458" res="V237443" label="MOD"/>
+   <PHRASE id="V237443" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="3" head="V237443" res="V237432" label="AGENT"/>
+   <RELATION id="4" head="V237443" res="V237458" label="AFFECTED"/>
+   <PHRASE id="V237432" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+   <PHRASE id="V237464" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="19" end="39"/>
+   <RELATION id="5" head="V237464" res="V237458" label="AGENT"/>
+   <RELATION id="6" head="V237464" res="V237518" label="NEUTRAL"/>
+   <PHRASE id="V237518" indicator="A" type="ATTIRE" text="CAP" start="27" end="39"/>
+   <RELATION id="7" head="V237518" res="V237511" label="MOD"/>
+   <PHRASE id="V237511" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="29" end="35"/>
+   <RELATION id="8" head="V237511" res="V237518" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="41" end="73">
+   <TEXT>a green pullover and a red vest .</TEXT>
+   <RELATION id="9" head="V239038" res="V238859" label="CONTENT"/>
+   <PHRASE id="V238859" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="41" end="73"/>
+   <RELATION id="10" head="V238859" res="V238855" label="SEQUENCE"/>
+   <RELATION id="11" head="V238859" res="V238917" label="SEQUENCE1"/>
+   <PHRASE id="V238855" indicator="A" type="ATTIRE" text="PULLOVER" start="41" end="58"/>
+   <RELATION id="12" head="V238855" res="V238849" label="MOD"/>
+   <PHRASE id="V238849" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="43" end="49"/>
+   <RELATION id="13" head="V238849" res="V238855" label="FIGURE"/>
+   <PHRASE id="V238917" indicator="A" type="ATTIRE" text="VEST" start="62" end="73"/>
+   <RELATION id="14" head="V238917" res="V238909" label="MOD"/>
+   <PHRASE id="V238909" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="64" end="68"/>
+   <RELATION id="15" head="V238909" res="V238917" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,23 @@
+digraph Terms {
+  node [shape=none]
+  "GROUP OF TOURISTS IS STANDING IN FRONT OF A BUILDILNG PUNC-PERIOD"
+  "V78270" [label="(SPEECHACT V78270 SA_TELL)"]
+  "V78270" -> "V76662" [label=":CONTENT"]
+  "V76662" [label="(F V76662 (:* BE BE))"]
+  "V76662" -> "V76637" [label=":NEUTRAL"]
+  "V76662" -> "V76679" [label=":NEUTRAL1"]
+  "V76662" -> "NT78805" [label=":TENSE"]
+  "NT78805" [label="PRES"]
+  "V76637" [label="(BARE V76637 (:* GROUP-OBJECT GROUP))"]
+  "V76637" -> "V76645" [label=":MOD"]
+  "V76645" [label="(F V76645 (:* ASSOC-WITH OF))"]
+  "V76645" -> "V76653" [label=":GROUND"]
+  "V76645" -> "V76637" [label=":FIGURE"]
+  "V76653" [label="(INDEF-SET V76653 (:* TRAVELLER TOURISTS))"]
+  "V76679" [label="(BARE V76679 (:* BE-AT-LOC STAND))"]
+  "V76679" -> "V76698" [label=":LOCATION"]
+  "V76698" [label="(F V76698 (:* FRONT IN-FRONT))"]
+  "V76698" -> "V76853" [label=":GROUND"]
+  "V76698" -> "V76679" [label=":FIGURE"]
+  "V76853" [label="(A V76853 (:* REFERENTIAL-SEM BUILDILNG))"]
+}

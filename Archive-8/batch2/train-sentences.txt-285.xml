@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there are two posters on the wall at the back , and there is a bookshelf with a lot of boxes and folders on the left .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+67
+*last-utt-id*=67  utt-id+NIL
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?34795:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V368936)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?34793)
+                                           (W::TRANSFORM ?34794)))
+                                 (W::CASE ?34792:(W::SUB W::OBJ -))
+                                 (W::AGR ?34791) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V368936) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER369053))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?35141:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V368939)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?35139)
+                                           (W::TRANSFORM ?35140)))
+                                 (W::CASE ?35138:(W::SUB W::OBJ -))
+                                 (W::AGR ?35137) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V368939) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER369055))
+*last-utt-id*=NIL  utt-id+67
+*last-utt-id*=67  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::ARE W::TWO W::POSTERS W::ON W::THE W::WALL W::AT W::THE W::BACK
+ W::PUNC-COMMA)</lisp><word>THERE</word><word>ARE</word><word>TWO</word><word>POSTERS</word><word>ON</word><word>THE</word><word>WALL</word><word>AT</word><word>THE</word><word>BACK</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (6 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;two&quot; :FRAME (10 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;posters&quot; :FRAME (14 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two posters&quot; :FRAME (10 21) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 16.924 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (22 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (25 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wall&quot; :FRAME (29 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall&quot; :FRAME (25 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.083 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (34 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (37 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;back&quot; :FRAME (41 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the back&quot; :FRAME (37 45) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.534 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at the back&quot; :FRAME (34 45) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 15.46 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the wall at the back&quot; :FRAME (25 45) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 27.083 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the wall at the back&quot; :FRAME (22 45) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 31.932 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two posters on the wall at the back&quot; :FRAME (10 45) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 49.262 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;are two posters on the wall at the back&quot; :FRAME (6 45) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 55.855 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;there are two posters on the wall at the back&quot; :FRAME (0 45)
+  :PENN-CATS (S) :SCORE 60.929 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (46 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="are" start="6" end="9"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="two" start="10" end="13"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="posters" start="14" end="21"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two posters" start="10" end="21" penn-cats="NP" score="16.924" /><word lex="on" start="22" end="24"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="25" end="28"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="29" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the wall" start="25" end="33" penn-cats="NP" score="11.083" /><word lex="at" start="34" end="36"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="37" end="40"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="back" start="41" end="45"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the back" start="37" end="45" penn-cats="NP" score="11.534" /><prefer text="at the back" start="34" end="45" penn-cats="PP" score="15.46" /><prefer text="the wall at the back" start="25" end="45" penn-cats="NP" score="27.083" /><prefer text="on the wall at the back" start="22" end="45" penn-cats="PP" score="31.932" /><prefer text="two posters on the wall at the back" start="10" end="45" penn-cats="NP" score="49.262" /><prefer text="are two posters on the wall at the back" start="6" end="45" penn-cats="VP" score="55.855" /><prefer text="there are two posters on the wall at the back" start="0" end="45" penn-cats="S" score="60.929" /><word lex="," start="46" end="46"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V ARE)
+     (NP
+      (N1 (N1 (ADJP (NUMBER TWO)) (N1 (N POSTERS)))
+       (ADVBL (ADV ON)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N WALL))
+          (ADVBL (ADV AT) (NP (SPEC (DET (ART THE))) (N1 (N BACK)))))))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>ARE</V><NP><N1><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>POSTERS</N></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>WALL</N></N1><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACK</N></N1></NP></ADVBL></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V367869"><lisp>((ONT::SPEECHACT ONT::V367869 ONT::SA_TELL :CONTENT ONT::V367518 :START 0 :END
+  46)
+ (ONT::F ONT::V367518 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V367531 :TENSE
+  W::PRES :START 0 :END 46)
+ (ONT::PRO ONT::V367506 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::INDEF-SET ONT::V367531 (:* ONT::INFO-MEDIUM W::POSTER) :SIZE
+  ONT::V367529 :LOCATION ONT::V367539 :START 10 :END 46)
+ (ONT::A ONT::V367529 ONT::NUMBER :VALUE 2 :START 10 :END 14)
+ (ONT::F ONT::V367539 (:* ONT::ON W::ON) :GROUND ONT::V367568 :FIGURE
+  ONT::V367531 :START 22 :END 46)
+ (ONT::THE ONT::V367568 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL)
+  :LOCATION ONT::V367577 :START 25 :END 46)
+ (ONT::F ONT::V367577 (:* ONT::AT-LOC W::AT) :GROUND ONT::V367602 :FIGURE
+  ONT::V367568 :START 34 :END 46)
+ (ONT::THE ONT::V367602 (:* ONT::OBJECT-DEPENDENT-LOCATION W::BACK) :START 37
+  :END 46))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V367869">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V367518" />
+    <LF:start>0</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367518">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V367531" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367506">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367531">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>INFO-MEDIUM</LF:type>
+    <LF:word>POSTER</LF:word>
+    <role:SIZE rdf:resource="#V367529" />
+    <role:LOCATION rdf:resource="#V367539" />
+    <LF:start>10</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367529">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>2</role:VALUE>
+    <LF:start>10</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367539">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V367568" />
+    <role:FIGURE rdf:resource="#V367531" />
+    <LF:start>22</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367568">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+    <LF:word>WALL</LF:word>
+    <role:LOCATION rdf:resource="#V367577" />
+    <LF:start>25</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367577">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V367602" />
+    <role:FIGURE rdf:resource="#V367568" />
+    <LF:start>34</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367602">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>BACK</LF:word>
+    <LF:start>37</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND W::THERE W::IS W::A W::BOOKSHELF W::WITH W::A W::LOT W::OF W::BOXES
+ W::AND W::FOLDERS W::ON W::THE W::LEFT W::PUNC-PERIOD)</lisp><word>AND</word><word>THERE</word><word>IS</word><word>A</word><word>BOOKSHELF</word><word>WITH</word><word>A</word><word>LOT</word><word>OF</word><word>BOXES</word><word>AND</word><word>FOLDERS</word><word>ON</word><word>THE</word><word>LEFT</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (48 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;there&quot; :FRAME (52 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (52 57) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  4.519 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (58 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (61 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bookshelf&quot; :FRAME (63 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a bookshelf&quot; :FRAME (61 72) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 15.417 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (73 77) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (78 79) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;lot&quot; :FRAME (80 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a lot&quot; :FRAME (78 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;a_lot%4:02:00&quot;)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a lot&quot; :FRAME (78 83) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  9.848 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (84 86) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;boxes&quot; :FRAME (87 92) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (93 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;folders&quot; :FRAME (97 104) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;boxes and folders&quot; :FRAME (87 104) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 27.078 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (105 107) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (108 111) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;left&quot; :FRAME (112 116) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the left&quot; :FRAME (108 116) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  13.061 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the left&quot; :FRAME (105 116) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 16.565 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;boxes and folders on the left&quot; :FRAME (87 116) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 44.184 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;of boxes and folders on the left&quot; :FRAME (84 116) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 46.596 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;a lot of boxes and folders on the left&quot; :FRAME (78 116) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 56.985 :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;with a lot of boxes and folders on the left&quot; :FRAME (73 116)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 62.13 :UTTNUM 67 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;a bookshelf with a lot of boxes and folders on the left&quot; :FRAME
+  (61 116) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 77.952 :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is a bookshelf with a lot of boxes and folders on the left&quot; :FRAME
+  (58 116) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 83.068 :UTTNUM 67
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there is a bookshelf with a lot of boxes and folders on the left&quot;
+  :FRAME (52 116) :PENN-CATS (S) :SCORE 88.143 :UTTNUM 67 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (117 117) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 67 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="48" end="51"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="there" start="52" end="57"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="52" end="57" penn-cats="NP" score="4.519" /><word lex="is" start="58" end="60"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="a" start="61" end="62"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="bookshelf" start="63" end="72"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a bookshelf" start="61" end="72" penn-cats="NP" score="15.417" /><word lex="with" start="73" end="77"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="78" end="79"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="lot" start="80" end="83"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="a lot" start="78" end="83"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="a_lot%4:02:00" /></word><prefer text="a lot" start="78" end="83" penn-cats="NP" score="9.848" /><word lex="of" start="84" end="86"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="boxes" start="87" end="92"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="and" start="93" end="96"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="folders" start="97" end="104"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="boxes and folders" start="87" end="104" penn-cats="NP" score="27.078" /><word lex="on" start="105" end="107"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="108" end="111"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="left" start="112" end="116"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the left" start="108" end="116" penn-cats="NP" score="13.061" /><prefer text="on the left" start="105" end="116" penn-cats="PP" score="16.565" /><prefer text="boxes and folders on the left" start="87" end="116" penn-cats="NP" score="44.184" /><prefer text="of boxes and folders on the left" start="84" end="116" penn-cats="PP" score="46.596" /><prefer text="a lot of boxes and folders on the left" start="78" end="116" penn-cats="NP" score="56.985" /><prefer text="with a lot of boxes and folders on the left" start="73" end="116" penn-cats="PP" score="62.13" /><prefer text="a bookshelf with a lot of boxes and folders on the left" start="61" end="116" penn-cats="NP" score="77.952" /><prefer text="is a bookshelf with a lot of boxes and folders on the left" start="58" end="116" penn-cats="VP" score="83.068" /><prefer text="there is a bookshelf with a lot of boxes and folders on the left" start="52" end="116" penn-cats="S" score="88.143" /><word lex="." start="117" end="117"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT (ADVBL (ADV AND))
+  (UTT
+   (S (NP (PRO THERE))
+    (VP
+     (VP- (V IS)
+      (NP (SPEC (DET (ART A)))
+       (N1 (N1 (N BOOKSHELF))
+        (ADVBL (ADV WITH)
+         (NP (NP (SPEC (QUAN (WORD A) (WORD LOT) (WORD OF))) (N1 (N BOXES)))
+          (CONJ AND)
+          (NP
+           (N1 (N1 (N FOLDERS))
+            (ADVBL (ADV ON)
+             (NP (SPEC (DET (ART THE))) (N1 (N LEFT)))))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>BOOKSHELF</N></N1><ADVBL><ADV>WITH</ADV><NP><NP><SPEC><QUAN><WORD>A</WORD><WORD>LOT</WORD><WORD>OF</WORD></QUAN></SPEC><N1><N>BOXES</N></N1></NP><CONJ>AND</CONJ><NP><N1><N1><N>FOLDERS</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>LEFT</N></N1></NP></ADVBL></N1></NP></NP></ADVBL></N1></NP></VP-></VP></S></UTT></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V369235"><lisp>((ONT::SPEECHACT ONT::V369235 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V368000 :MOD ONT::V367975 :START 48 :END 117)
+ (ONT::F ONT::V367975 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V369235 :START 48
+  :END 52)
+ (ONT::F ONT::V368000 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V368053 :TENSE
+  W::PRES :START 52 :END 117)
+ (ONT::PRO ONT::V367987 ONT::EXPLETIVE :PROFORM W::THERE :START 52 :END 58)
+ (ONT::A ONT::V368053 (:* ONT::SUPPORT-STAND W::BOOKSHELF) :MOD ONT::V368057
+  :START 61 :END 117)
+ (ONT::F ONT::V368057 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V368169 :FIGURE
+  ONT::V368053 :START 73 :END 117)
+ (ONT::INDEF-SET ONT::V368169 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V368164 ONT::V368178) :START 78 :END 117)
+ (ONT::INDEF-SET ONT::V368164 (:* ONT::BOX W::BOX) :SIZE ONT::PLENTY :START 78
+  :END 93)
+ (ONT::INDEF-SET ONT::V368178 (:* ONT::INFO-MEDIUM W::FOLDER) :LOCATION
+  ONT::V368186 :START 97 :END 117)
+ (ONT::F ONT::V368186 (:* ONT::ON W::ON) :GROUND ONT::V368220 :FIGURE
+  ONT::V368178 :START 105 :END 117)
+ (ONT::THE ONT::V368220 (:* ONT::LEFT-LOC W::LEFT) :START 108 :END 117))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V369235">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V368000" />
+    <role:MOD rdf:resource="#V367975" />
+    <LF:start>48</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367975">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V369235" />
+    <LF:start>48</LF:start>
+    <LF:end>52</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368000">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V368053" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>52</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V367987">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>52</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368053">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>SUPPORT-STAND</LF:type>
+    <LF:word>BOOKSHELF</LF:word>
+    <role:MOD rdf:resource="#V368057" />
+    <LF:start>61</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368057">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V368169" />
+    <role:FIGURE rdf:resource="#V368053" />
+    <LF:start>73</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368169">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PHYS-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V368164" />
+    <role:SEQUENCE1 rdf:resource="#V368178" />
+    <LF:start>78</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368164">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>BOX</LF:type>
+    <LF:word>BOX</LF:word>
+    <role:SIZE>PLENTY</role:SIZE>
+    <LF:start>78</LF:start>
+    <LF:end>93</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368178">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>INFO-MEDIUM</LF:type>
+    <LF:word>FOLDER</LF:word>
+    <role:LOCATION rdf:resource="#V368186" />
+    <LF:start>97</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368186">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V368220" />
+    <role:FIGURE rdf:resource="#V368178" />
+    <LF:start>105</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V368220">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LEFT-LOC</LF:type>
+    <LF:word>LEFT</LF:word>
+    <LF:start>108</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

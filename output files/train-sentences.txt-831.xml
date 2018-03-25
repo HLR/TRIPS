@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="53">
+   <TEXT>there is a wooden commode and a mirror on the left , a</TEXT>
+   <RELATION id="1" head="V191463" res="V187923" label="CONTENT"/>
+   <PHRASE id="V187923" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="51"/>
+   <RELATION id="2" head="V187923" res="V187998" label="NEUTRAL"/>
+   <PHRASE id="V187918" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V187998" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="9" end="51"/>
+   <RELATION id="3" head="V187998" res="V187991" label="SEQUENCE"/>
+   <RELATION id="4" head="V187998" res="V188052" label="SEQUENCE1"/>
+   <PHRASE id="V187991" indicator="A" type="FIXTURE" text="COMMODE" start="9" end="26"/>
+   <RELATION id="5" head="V187991" res="V187984" label="MOD"/>
+   <PHRASE id="V187984" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="11" end="18"/>
+   <RELATION id="6" head="V187984" res="V187991" label="FIGURE"/>
+   <PHRASE id="V188052" indicator="A" type="DEVICE" text="MIRROR" start="30" end="51"/>
+   <RELATION id="7" head="V188052" res="V188064" label="LOCATION"/>
+   <PHRASE id="V188064" indicator="F" type="ON" text="ON" start="39" end="51"/>
+   <RELATION id="8" head="V188064" res="V188098" label="GROUND"/>
+   <RELATION id="9" head="V188064" res="V188052" label="FIGURE"/>
+   <PHRASE id="V188098" indicator="THE" type="LEFT-LOC" text="LEFT" start="42" end="51"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="A" type="TABLE" text="TABLE" start="53" end="110">
+   <TEXT>a wooden bedside table with a table lamp next to the bed a</TEXT>
+   <RELATION id="10" head="V188177" res="V188174" label="ASSOC-WITH"/>
+   <RELATION id="11" head="V188177" res="V188183" label="MOD"/>
+   <PHRASE id="V188174" indicator="KIND" type="SIDE-LOCATION" text="BEDSIDE" start="53" end="110"/>
+   <RELATION id="12" head="V188174" res="V188167" label="MOD"/>
+   <PHRASE id="V188167" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="55" end="62"/>
+   <RELATION id="13" head="V188167" res="V188174" label="FIGURE"/>
+   <PHRASE id="V188183" indicator="F" type="ASSOC-WITH" text="WITH" start="76" end="110"/>
+   <RELATION id="14" head="V188183" res="V188249" label="GROUND"/>
+   <RELATION id="15" head="V188183" res="V188177" label="FIGURE"/>
+   <PHRASE id="V188249" indicator="A" type="FURNISHINGS" text="TABLE-LAMP" start="81" end="110" WNSENSE="table_lamp%1:06:00"/>
+   <RELATION id="16" head="V188249" res="V188253" label="LOCATION"/>
+   <PHRASE id="V188253" indicator="F" type="ADJACENT" text="NEXT-TO" start="94" end="110"/>
+   <RELATION id="17" head="V188253" res="V188295" label="GROUND"/>
+   <RELATION id="18" head="V188253" res="V188249" label="FIGURE"/>
+   <PHRASE id="V188295" indicator="THE" type="FURNISHINGS" text="BED" start="102" end="110"/>
+   <RELATION id="19" head="V188295" res="V187991" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="110" end="151">
+   <TEXT>and a huge fan on the wall above the bed .</TEXT>
+   <RELATION id="20" head="V189225" res="V188356" label="CONTENT"/>
+   <RELATION id="21" head="V189225" res="V188303" label="MOD"/>
+   <PHRASE id="V188303" indicator="F" type="CONJUNCT" text="AND" start="110" end="114"/>
+   <RELATION id="22" head="V188303" res="V189225" label="FIGURE"/>
+   <PHRASE id="V188356" indicator="A" type="DEVICE" text="FAN" start="114" end="151"/>
+   <RELATION id="23" head="V188356" res="V188367" label="LOCATION"/>
+   <RELATION id="24" head="V188356" res="V188352" label="MOD"/>
+   <PHRASE id="V188352" indicator="F" type="HUGE-VAL" text="HUGE" ORIENTATION="MORE" INTENSITY="HI" SCALE="SIZE-SCALE" start="116" end="121"/>
+   <RELATION id="25" head="V188352" res="V188356" label="FIGURE"/>
+   <PHRASE id="V188367" indicator="F" type="ON" text="ON" start="125" end="151"/>
+   <RELATION id="26" head="V188367" res="V188396" label="GROUND"/>
+   <RELATION id="27" head="V188367" res="V188356" label="FIGURE"/>
+   <PHRASE id="V188396" indicator="THE" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="128" end="151"/>
+   <RELATION id="28" head="V188396" res="V188399" label="LOCATION"/>
+   <PHRASE id="V188399" indicator="F" type="ABOVE" text="ABOVE" start="137" end="151"/>
+   <RELATION id="29" head="V188399" res="V188415" label="GROUND"/>
+   <RELATION id="30" head="V188399" res="V188396" label="FIGURE"/>
+   <PHRASE id="V188415" indicator="THE" type="FURNISHINGS" text="BED" start="143" end="151"/>
+   <RELATION id="31" head="V188415" res="V188177" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

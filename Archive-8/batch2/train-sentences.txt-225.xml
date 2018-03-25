@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a car on the left , another man on the right .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?83638:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V124388)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?83636)
+                                           (W::TRANSFORM ?83637)))
+                                 (W::CASE ?83635:(W::SUB W::OBJ -))
+                                 (W::AGR ?83634) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V124388) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER124640))
+*last-utt-id*=NIL  utt-id+20
+*last-utt-id*=20  utt-id+NIL</debug><utt><words><lisp>(W::A W::CAR W::ON W::THE W::LEFT W::ANOTHER W::MAN W::ON W::THE W::RIGHT
+ W::PUNC-PERIOD)</lisp><word>A</word><word>CAR</word><word>ON</word><word>THE</word><word>LEFT</word><word>ANOTHER</word><word>MAN</word><word>ON</word><word>THE</word><word>RIGHT</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;car&quot; :FRAME (2 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a car&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 9.854
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (9 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;left&quot; :FRAME (13 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the left&quot; :FRAME (9 17) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.645 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (18 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 20
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;another&quot; :FRAME (20 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;man&quot; :FRAME (28 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;another man&quot; :FRAME (20 31) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.406 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the left , another man&quot; :FRAME (9 31) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 30.552 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the left , another man&quot; :FRAME (6 31) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 35.402 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (32 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (35 38) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;right&quot; :FRAME (39 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the right&quot; :FRAME (35 44) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  9.96 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the right&quot; :FRAME (32 44) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 13.465 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (45 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a car on the left , another man on the right .&quot; :FRAME (0 45)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 62.048 :UTTNUM 20 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="car" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a car" start="0" end="5" penn-cats="NP" score="9.854" /><word lex="on" start="6" end="8"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="9" end="12"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="left" start="13" end="17"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the left" start="9" end="17" penn-cats="NP" score="12.645" /><word lex="," start="18" end="19"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="another" start="20" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="man" start="28" end="31"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="another man" start="20" end="31" penn-cats="NP" score="14.406" /><prefer text="the left , another man" start="9" end="31" penn-cats="NP" score="30.552" /><prefer text="on the left , another man" start="6" end="31" penn-cats="PP" score="35.402" /><word lex="on" start="32" end="34"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="35" end="38"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="right" start="39" end="44"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the right" start="35" end="44" penn-cats="NP" score="9.96" /><prefer text="on the right" start="32" end="44" penn-cats="PP" score="13.465" /><word lex="." start="45" end="45"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a car on the left , another man on the right ." start="0" end="45" penn-cats="NP" score="62.048" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (SPEC (DET (ART A)))
+   (N1
+    (N1 (N1 (N CAR))
+     (ADVBL (ADV ON)
+      (NP (SPEC (DET (ART THE)))
+       (N1 (ADJP (ADJ1 (ADJ LEFT)))
+        (N1 (ADJP (ADJ1 (ADJ ANOTHER))) (N1 (N MAN)))))))
+    (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N RIGHT)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N1><N>CAR</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LEFT</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>ANOTHER</ADJ></ADJ1></ADJP><N1><N>MAN</N></N1></N1></N1></NP></ADVBL></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>RIGHT</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V126226"><lisp>((ONT::SPEECHACT ONT::V126226 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V122961 :START 0 :END 45)
+ (ONT::A ONT::V122961 (:* ONT::LAND-VEHICLE W::CAR) :LOCATION ONT::V123044
+  :LOCATION ONT::V122971 :START 0 :END 45)
+ (ONT::F ONT::V122971 (:* ONT::ON W::ON) :GROUND ONT::V123036 :FIGURE
+  ONT::V122961 :START 6 :END 32)
+ (ONT::THE ONT::V123036 (:* ONT::MALE-PERSON W::MAN) :MOD ONT::V123001 :MOD
+  ONT::V123033 :START 9 :END 32)
+ (ONT::F ONT::V123001 (:* ONT::LEFT W::LEFT) :FIGURE ONT::V123036 :START 13
+  :END 18)
+ (ONT::F ONT::V123033 (:* ONT::OTHER W::ANOTHER) :FIGURE ONT::V123036 :START 20
+  :END 28)
+ (ONT::F ONT::V123044 (:* ONT::ON W::ON) :GROUND ONT::V123081 :FIGURE
+  ONT::V122961 :START 32 :END 45)
+ (ONT::THE ONT::V123081 (:* ONT::RIGHT-LOC W::RIGHT) :START 35 :END 45))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V126226">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V122961" />
+    <LF:start>0</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V122961">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>LAND-VEHICLE</LF:type>
+    <LF:word>CAR</LF:word>
+    <role:LOCATION rdf:resource="#V123044" />
+    <role:LOCATION rdf:resource="#V122971" />
+    <LF:start>0</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V122971">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V123036" />
+    <role:FIGURE rdf:resource="#V122961" />
+    <LF:start>6</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V123036">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MALE-PERSON</LF:type>
+    <LF:word>MAN</LF:word>
+    <role:MOD rdf:resource="#V123001" />
+    <role:MOD rdf:resource="#V123033" />
+    <LF:start>9</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V123001">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LEFT</LF:type>
+    <LF:word>LEFT</LF:word>
+    <role:FIGURE rdf:resource="#V123036" />
+    <LF:start>13</LF:start>
+    <LF:end>18</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V123033">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>OTHER</LF:type>
+    <LF:word>ANOTHER</LF:word>
+    <role:FIGURE rdf:resource="#V123036" />
+    <LF:start>20</LF:start>
+    <LF:end>28</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V123044">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V123081" />
+    <role:FIGURE rdf:resource="#V122961" />
+    <LF:start>32</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V123081">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>RIGHT-LOC</LF:type>
+    <LF:word>RIGHT</LF:word>
+    <LF:start>35</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

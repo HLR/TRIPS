@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="47">
+   <TEXT>a blue sky with white clouds in the background .</TEXT>
+   <RELATION id="1" head="V44482" res="V44311" label="CONTENT"/>
+   <PHRASE id="V44311" indicator="A" type="GAS-SUBSTANCE" text="BLUE-SKY" start="0" end="47" WNSENSE="blue_sky%1:17:00"/>
+   <RELATION id="2" head="V44311" res="V44341" label="LOCATION"/>
+   <RELATION id="3" head="V44311" res="V44315" label="MOD"/>
+   <PHRASE id="V44315" indicator="F" type="ASSOC-WITH" text="WITH" start="11" end="29"/>
+   <RELATION id="4" head="V44315" res="V44334" label="GROUND"/>
+   <RELATION id="5" head="V44315" res="V44311" label="FIGURE"/>
+   <PHRASE id="V44334" indicator="INDEF-SET" type="CLOUD-OBJECT" text="CLOUD" start="16" end="29"/>
+   <RELATION id="6" head="V44334" res="V44327" label="MOD"/>
+   <PHRASE id="V44327" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="16" end="22"/>
+   <RELATION id="7" head="V44327" res="V44334" label="FIGURE"/>
+   <PHRASE id="V44341" indicator="F" type="IN-LOC" text="IN" start="29" end="47"/>
+   <RELATION id="8" head="V44341" res="V44397" label="GROUND"/>
+   <RELATION id="9" head="V44341" res="V44311" label="FIGURE"/>
+   <PHRASE id="V44397" indicator="THE" type="IMAGE" text="BACKGROUND" start="32" end="47"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

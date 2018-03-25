@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="69" WNSENSE="stand_in%2:40:00">
+   <TEXT>Six tourists are standing in front of blackboard of a primary school .</TEXT>
+   <RELATION id="1" head="V137621" res="V132069" label="CONTENT"/>
+   <PHRASE id="V132069" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="0" end="69" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="2" head="V132069" res="V131981" label="AGENT"/>
+   <RELATION id="3" head="V132069" res="V132075" label="AFFECTED"/>
+   <PHRASE id="V131981" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="13"/>
+   <RELATION id="4" head="V131981" res="V131978" label="SIZE"/>
+   <PHRASE id="V131978" indicator="A" type="NUMBER" VALUE="6" start="0" end="4"/>
+   <PHRASE id="V132075" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="29" end="69"/>
+   <RELATION id="5" head="V132075" res="V132136" label="FIGURE"/>
+   <PHRASE id="V132136" indicator="BARE" type="DISPLAY" text="BLACKBOARD" start="35" end="69"/>
+   <RELATION id="6" head="V132136" res="V132141" label="MOD"/>
+   <PHRASE id="V132141" indicator="F" type="CONTAIN-RELN" text="OF" start="49" end="69"/>
+   <RELATION id="7" head="V132141" res="V132211" label="GROUND"/>
+   <RELATION id="8" head="V132141" res="V132136" label="FIGURE"/>
+   <PHRASE id="V132211" indicator="A" type="ORGANIZATION" text="PRIMARY-SCHOOL" start="52" end="69" WNSENSE="primary_school%1:14:00"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

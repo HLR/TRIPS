@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="more flower pots below the arches .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+27
+*last-utt-id*=27  utt-id+NIL</debug><utt><words><lisp>(W::MORE W::FLOWER W::POTS W::BELOW W::THE W::ARCHES W::PUNC-PERIOD)</lisp><word>MORE</word><word>FLOWER</word><word>POTS</word><word>BELOW</word><word>THE</word><word>ARCHES</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;more&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJR) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;flower&quot; :FRAME (5 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;more flower&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  19.998 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pots&quot; :FRAME (12 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;below&quot; :FRAME (17 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (23 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;arches&quot; :FRAME (27 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 27
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the arches&quot; :FRAME (23 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.929 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;below the arches&quot; :FRAME (17 33) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 22.516 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;pots below the arches&quot; :FRAME (12 33) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 38.696 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (34 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;more flower pots below the arches .&quot; :FRAME (0 34) :PENN-CATS (S)
+  :SCORE 59.836 :UTTNUM 27 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="more" start="0" end="4"><sense-info penn-parts-of-speech="JJR" trips-parts-of-speech="ADJ" /></word><word lex="flower" start="5" end="11"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="more flower" start="0" end="11" penn-cats="NP" score="19.998" /><word lex="pots" start="12" end="16"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="below" start="17" end="22"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="23" end="26"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="arches" start="27" end="33"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the arches" start="23" end="33" penn-cats="NP" score="15.929" /><prefer text="below the arches" start="17" end="33" penn-cats="PP" score="22.516" /><prefer text="pots below the arches" start="12" end="33" penn-cats="VP" score="38.696" /><word lex="." start="34" end="34"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="more flower pots below the arches ." start="0" end="34" penn-cats="S" score="59.836" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (QUAN MORE)) (N1 (N FLOWER)))
+   (VP
+    (VP- (V POTS) (ADVBL (ADV BELOW))
+     (NP (SPEC (DET (ART THE))) (N1 (N ARCHES)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><QUAN>MORE</QUAN></SPEC><N1><N>FLOWER</N></N1></NP><VP><VP-><V>POTS</V><ADVBL><ADV>BELOW</ADV></ADVBL><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>ARCHES</N></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V233949"><lisp>((ONT::SPEECHACT ONT::V233949 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V233560 :START 0 :END 34)
+ (ONT::F ONT::V233560 (:* ONT::ATTACH W::POTS) :AGENT ONT::V233551 :AFFECTED
+  ONT::V233601 :LOCATION ONT::V233584 :TENSE W::PRES :START 0 :END 34)
+ (ONT::INDEF-SET ONT::V233551 (:* ONT::PLANT W::FLOWER) :QUAN
+  (:* ONT::QMODIFIER W::MORE) :START 0 :END 12)
+ (ONT::F ONT::V233584 (:* ONT::BELOW W::BELOW) :GROUND ONT::V233692 :FIGURE
+  ONT::V233560 :START 17 :END 23)
+ (ONT::IMPRO ONT::V233692 ONT::ANY-SEM :START 17 :END 23)
+ (ONT::THE-SET ONT::V233601 (:* ONT::BODY-PART W::ARCHES) :START 23 :END 34))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V233949">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V233560" />
+    <LF:start>0</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233560">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ATTACH</LF:type>
+    <LF:word>POTS</LF:word>
+    <role:AGENT rdf:resource="#V233551" />
+    <role:AFFECTED rdf:resource="#V233601" />
+    <role:LOCATION rdf:resource="#V233584" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233551">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PLANT</LF:type>
+    <LF:word>FLOWER</LF:word>
+    <role:QUAN>(:* QMODIFIER MORE)</role:QUAN>
+    <LF:start>0</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233584">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BELOW</LF:type>
+    <LF:word>BELOW</LF:word>
+    <role:GROUND rdf:resource="#V233692" />
+    <role:FIGURE rdf:resource="#V233560" />
+    <LF:start>17</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233692">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <LF:start>17</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233601">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>BODY-PART</LF:type>
+    <LF:word>ARCHES</LF:word>
+    <LF:start>23</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

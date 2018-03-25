@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a flat landscape with green trees and houses in the background .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?13270:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V35395)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?13268)
+                                           (W::TRANSFORM ?13269)))
+                                 (W::CASE ?13267:(W::SUB W::OBJ -))
+                                 (W::AGR ?13266) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V35395) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER35417))
+*last-utt-id*=NIL  utt-id+3
+*last-utt-id*=3  utt-id+NIL</debug><utt><words><lisp>(W::A W::FLAT W::LANDSCAPE W::WITH W::GREEN W::TREES W::AND W::HOUSES W::IN
+ W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>A</word><word>FLAT</word><word>LANDSCAPE</word><word>WITH</word><word>GREEN</word><word>TREES</word><word>AND</word><word>HOUSES</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;flat&quot; :FRAME (2 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;landscape&quot; :FRAME (7 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a flat landscape&quot; :FRAME (0 16) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 20.862 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (17 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;green&quot; :FRAME (22 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;trees&quot; :FRAME (28 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (34 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;houses&quot; :FRAME (38 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;green trees and houses&quot; :FRAME (22 44) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 31.35 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with green trees and houses&quot; :FRAME (17 44) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 35.15 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (45 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (48 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (52 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (48 62) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (45 62) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (63 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 3 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a flat landscape with green trees and houses in the background .&quot;
+  :FRAME (0 63) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 73.564 :UTTNUM 3
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="flat" start="2" end="6"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="landscape" start="7" end="16"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a flat landscape" start="0" end="16" penn-cats="NP" score="20.862" /><word lex="with" start="17" end="21"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="green" start="22" end="27"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="trees" start="28" end="33"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="and" start="34" end="37"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="houses" start="38" end="44"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="green trees and houses" start="22" end="44" penn-cats="NP" score="31.35" /><prefer text="with green trees and houses" start="17" end="44" penn-cats="PP" score="35.15" /><word lex="in" start="45" end="47"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="48" end="51"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="52" end="62"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="48" end="62" penn-cats="NP" score="11.972" /><prefer text="in the background" start="45" end="62" penn-cats="PP" score="14.224" /><word lex="." start="63" end="63"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a flat landscape with green trees and houses in the background ." start="0" end="63" penn-cats="NP" score="73.564" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (SPEC (DET (ART A)))
+   (N1
+    (N1 (N1 (ADJP (ADJ1 (ADJ FLAT))) (N1 (N LANDSCAPE)))
+     (ADVBL (ADV WITH)
+      (NP (NP (N1 (ADJP (ADJ1 (ADJ GREEN))) (N1 (N TREES)))) (CONJ AND)
+       (NP (N1 (N HOUSES))))))
+    (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N1><ADJP><ADJ1><ADJ>FLAT</ADJ></ADJ1></ADJP><N1><N>LANDSCAPE</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><NP><N1><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><N1><N>TREES</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><N>HOUSES</N></N1></NP></NP></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V35391"><lisp>((ONT::SPEECHACT ONT::V35391 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V35090 :START 0 :END 63)
+ (ONT::A ONT::V35090 (:* ONT::GEO-FORMATION W::LANDSCAPE) :LOCATION ONT::V35135
+  :MOD ONT::V35095 :MOD ONT::V35085 :START 0 :END 63)
+ (ONT::F ONT::V35085 (:* ONT::THIN-VAL W::FLAT) :FIGURE ONT::V35090 :SCALE
+  ONT::SIZE-SCALE :START 2 :END 7)
+ (ONT::F ONT::V35095 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V35116 :FIGURE
+  ONT::V35090 :START 17 :END 45)
+ (ONT::INDEF-SET ONT::V35116 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V35112 ONT::V35127) :START 22 :END 45)
+ (ONT::INDEF-SET ONT::V35112 (:* ONT::PLANT W::TREE) :MOD ONT::V35107 :START 22
+  :END 34)
+ (ONT::F ONT::V35107 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V35112 :SCALE
+  ONT::GREEN*1--07--00 :START 22 :END 28)
+ (ONT::INDEF-SET ONT::V35127 (:* ONT::LODGING W::HOUSE) :START 38 :END 45)
+ (ONT::F ONT::V35135 (:* ONT::IN-LOC W::IN) :GROUND ONT::V35191 :FIGURE
+  ONT::V35090 :START 45 :END 63)
+ (ONT::THE ONT::V35191 (:* ONT::IMAGE W::BACKGROUND) :START 48 :END 63))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V35391">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V35090" />
+    <LF:start>0</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35090">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>GEO-FORMATION</LF:type>
+    <LF:word>LANDSCAPE</LF:word>
+    <role:LOCATION rdf:resource="#V35135" />
+    <role:MOD rdf:resource="#V35095" />
+    <role:MOD rdf:resource="#V35085" />
+    <LF:start>0</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35085">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>THIN-VAL</LF:type>
+    <LF:word>FLAT</LF:word>
+    <role:FIGURE rdf:resource="#V35090" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>2</LF:start>
+    <LF:end>7</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35095">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V35116" />
+    <role:FIGURE rdf:resource="#V35090" />
+    <LF:start>17</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35116">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PHYS-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V35112" />
+    <role:SEQUENCE1 rdf:resource="#V35127" />
+    <LF:start>22</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35112">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PLANT</LF:type>
+    <LF:word>TREE</LF:word>
+    <role:MOD rdf:resource="#V35107" />
+    <LF:start>22</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35107">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>GREEN</LF:type>
+    <LF:word>GREEN</LF:word>
+    <role:FIGURE rdf:resource="#V35112" />
+    <role:SCALE>GREEN*1--07--00</role:SCALE>
+    <LF:start>22</LF:start>
+    <LF:end>28</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35127">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>LODGING</LF:type>
+    <LF:word>HOUSE</LF:word>
+    <LF:start>38</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35135">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V35191" />
+    <role:FIGURE rdf:resource="#V35090" />
+    <LF:start>45</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V35191">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>48</LF:start>
+    <LF:end>63</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

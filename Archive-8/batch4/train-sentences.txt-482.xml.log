@@ -1,0 +1,367 @@
+2,321c2,45
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a girl is eating in the background , another one wearing an orange pullover is walking along the corridor between the desks .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+49
+< *last-utt-id*=49  utt-id+NIL
+< *last-utt-id*=NIL  utt-id+49
+< *last-utt-id*=49  utt-id+NIL</debug><utt><words><lisp>(W::A W::GIRL W::IS W::EATING W::IN W::THE W::BACKGROUND W::PUNC-COMMA)</lisp><word>A</word><word>GIRL</word><word>IS</word><word>EATING</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;girl&quot; :FRAME (2 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a girl&quot; :FRAME (0 6) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.489 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;is&quot; :FRAME (7 9) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;eating&quot; :FRAME (10 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (17 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;eating in&quot; :FRAME (10 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;eat_in%2:34:00&quot;)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (20 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (24 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (20 34) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (17 34) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.197 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;eating in the background&quot; :FRAME (10 34) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 23.546 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;is eating in the background&quot; :FRAME (7 34) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 27.806 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;a girl is eating in the background&quot; :FRAME (0 34) :PENN-CATS (S)
+<   :SCORE 41.851 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;,&quot; :FRAME (35 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="girl" start="2" end="6"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a girl" start="0" end="6" penn-cats="NP" score="13.489" /><word lex="is" start="7" end="9"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="eating" start="10" end="16"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="17" end="19"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="eating in" start="10" end="19"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="eat_in%2:34:00" /></word><word lex="the" start="20" end="23"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="24" end="34"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="20" end="34" penn-cats="NP" score="11.972" /><prefer text="in the background" start="17" end="34" penn-cats="PP" score="14.197" /><prefer text="eating in the background" start="10" end="34" penn-cats="VP" score="23.546" /><prefer text="is eating in the background" start="7" end="34" penn-cats="VP" score="27.806" /><prefer text="a girl is eating in the background" start="0" end="34" penn-cats="S" score="41.851" /><word lex="," start="35" end="35"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (SPEC (DET (ART A))) (N1 (N GIRL)))
+<    (VP
+<     (VP- (AUX (V IS))
+<      (VP- (VP- (V EATING))
+<       (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))))
+<  (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>GIRL</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>EATING</V></VP-><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V424432"><lisp>((ONT::SPEECHACT ONT::V424432 ONT::SA_TELL :CONTENT ONT::V423934 :START 0 :END
+<   35)
+<  (ONT::F ONT::V423934 (:* ONT::CONSUME W::EAT) :RESULT ONT::V423942 :AGENT
+<   ONT::V423910 :TENSE W::PRES :PROGR + :START 0 :END 35)
+<  (ONT::A ONT::V423910 (:* ONT::FEMALE-CHILD W::GIRL) :START 0 :END 7)
+<  (ONT::F ONT::V423942 (:* ONT::IN-LOC W::IN) :GROUND ONT::V424011 :FIGURE
+<   ONT::V423910 :START 17 :END 35)
+<  (ONT::THE ONT::V424011 (:* ONT::IMAGE W::BACKGROUND) :START 20 :END 35))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V424432">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:CONTENT rdf:resource="#V423934" />
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V423934">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONSUME</LF:type>
+<     <LF:word>EAT</LF:word>
+<     <role:RESULT rdf:resource="#V423942" />
+<     <role:AGENT rdf:resource="#V423910" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V423910">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>FEMALE-CHILD</LF:type>
+<     <LF:word>GIRL</LF:word>
+<     <LF:start>0</LF:start>
+<     <LF:end>7</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V423942">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V424011" />
+<     <role:FIGURE rdf:resource="#V423910" />
+<     <LF:start>17</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424011">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>20</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt><utt><words><lisp>(W::ANOTHER W::ONE W::WEARING W::AN W::ORANGE W::PULLOVER W::IS W::WALKING
+<  W::ALONG W::THE W::CORRIDOR W::BETWEEN W::THE W::DESKS W::PUNC-PERIOD)</lisp><word>ANOTHER</word><word>ONE</word><word>WEARING</word><word>AN</word><word>ORANGE</word><word>PULLOVER</word><word>IS</word><word>WALKING</word><word>ALONG</word><word>THE</word><word>CORRIDOR</word><word>BETWEEN</word><word>THE</word><word>DESKS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;another&quot; :FRAME (37 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;one&quot; :FRAME (45 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD NN) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT W::N)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;another one&quot; :FRAME (37 48) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 14.297 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wearing&quot; :FRAME (49 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;an&quot; :FRAME (57 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;orange&quot; :FRAME (60 66) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;pullover&quot; :FRAME (67 75) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;an orange pullover&quot; :FRAME (57 75) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 29.082 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;wearing an orange pullover&quot; :FRAME (49 75) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 37.769 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;another one wearing an orange pullover&quot; :FRAME (37 75) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 54.627 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;is&quot; :FRAME (76 78) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;walking&quot; :FRAME (79 86) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;along&quot; :FRAME (87 92) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (93 96) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;corridor&quot; :FRAME (97 105) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the corridor&quot; :FRAME (93 105) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 13.208 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;between&quot; :FRAME (106 113) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (114 117) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;desks&quot; :FRAME (118 123) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 49
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the desks&quot; :FRAME (114 123) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 13.19 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;between the desks&quot; :FRAME (106 123) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 18.565 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the corridor between the desks&quot; :FRAME (93 123) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 32.314 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;along the corridor between the desks&quot; :FRAME (87 123) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 41.058 :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;walking along the corridor between the desks&quot; :FRAME (79 123)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 50.729 :UTTNUM 49 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;is walking along the corridor between the desks&quot; :FRAME (76 123)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 54.989 :UTTNUM 49 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (124 124) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 49 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="another" start="37" end="44"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="one" start="45" end="48"><sense-info penn-parts-of-speech="CD,NN" trips-parts-of-speech="NUMBER,NUMBER-UNIT,N" /></word><prefer text="another one" start="37" end="48" penn-cats="NP" score="14.297" /><word lex="wearing" start="49" end="56"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="an" start="57" end="59"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="orange" start="60" end="66"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="pullover" start="67" end="75"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="an orange pullover" start="57" end="75" penn-cats="NP" score="29.082" /><prefer text="wearing an orange pullover" start="49" end="75" penn-cats="VP" score="37.769" /><prefer text="another one wearing an orange pullover" start="37" end="75" penn-cats="NP" score="54.627" /><word lex="is" start="76" end="78"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="walking" start="79" end="86"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="along" start="87" end="92"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="93" end="96"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="corridor" start="97" end="105"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the corridor" start="93" end="105" penn-cats="NP" score="13.208" /><word lex="between" start="106" end="113"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="114" end="117"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="desks" start="118" end="123"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the desks" start="114" end="123" penn-cats="NP" score="13.19" /><prefer text="between the desks" start="106" end="123" penn-cats="PP" score="18.565" /><prefer text="the corridor between the desks" start="93" end="123" penn-cats="NP" score="32.314" /><prefer text="along the corridor between the desks" start="87" end="123" penn-cats="PP" score="41.058" /><prefer text="walking along the corridor between the desks" start="79" end="123" penn-cats="VP" score="50.729" /><prefer text="is walking along the corridor between the desks" start="76" end="123" penn-cats="VP" score="54.989" /><word lex="." start="124" end="124"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (NP (WORD ANOTHER)
+<     (N1 (N1 (N ONE))
+<      (CP
+<       (VP
+<        (VP- (V WEARING)
+<         (NP (SPEC (DET (ART AN)))
+<          (N1 (ADJP (ADJ1 (ADJ ORANGE))) (N1 (N PULLOVER)))))))))
+<    (VP
+<     (VP- (AUX (V IS))
+<      (VP- (VP- (V WALKING))
+<       (ADVBL (ADV ALONG)
+<        (NP (SPEC (DET (ART THE)))
+<         (N1 (N1 (N CORRIDOR))
+<          (ADVBL (ADV BETWEEN)
+<           (NP (SPEC (DET (ART THE))) (N1 (N DESKS))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><WORD>ANOTHER</WORD><N1><N1><N>ONE</N></N1><CP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>AN</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>ORANGE</ADJ></ADJ1></ADJP><N1><N>PULLOVER</N></N1></N1></NP></VP-></VP></CP></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>WALKING</V></VP-><ADVBL><ADV>ALONG</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>CORRIDOR</N></N1><ADVBL><ADV>BETWEEN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>DESKS</N></N1></NP></ADVBL></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V428360"><lisp>((ONT::SPEECHACT ONT::V428360 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V424946 :START 37 :END 124)
+<  (ONT::F ONT::V424946 (:* ONT::SELF-LOCOMOTE W::WALK) :RESULT ONT::V424956
+<   :AGENT ONT::V424897 :TENSE W::PRES :PROGR + :START 37 :END 124)
+<  (ONT::A ONT::V424897 (:* ONT::REFERENTIAL-SEM W::ONE) :MOD ONT::V425011 :MOD
+<   ONT::V424906 :START 37 :END 76)
+<  (ONT::F ONT::V425011 ONT::OTHER :FIGURE ONT::V424897 :START 37 :END 76)
+<  (ONT::F ONT::V424906 (:* ONT::WEAR W::WEAR) :AGENT ONT::V424897 :NEUTRAL
+<   ONT::V424923 :VFORM W::ING :START 49 :END 76)
+<  (ONT::A ONT::V424923 (:* ONT::ATTIRE W::PULLOVER) :MOD ONT::V424915 :START 57
+<   :END 76)
+<  (ONT::F ONT::V424915 (:* ONT::ORANGE W::ORANGE) :FIGURE ONT::V424923 :SCALE
+<   ONT::ORANGE*1--07--00 :START 60 :END 67)
+<  (ONT::F ONT::V424956 (:* ONT::LINEAR-EXTENT W::ALONG) :GROUND ONT::V424968
+<   :FIGURE ONT::V424897 :START 87 :END 124)
+<  (ONT::THE ONT::V424968 (:* ONT::INTERNAL-ENCLOSURE W::CORRIDOR) :LOCATION
+<   ONT::V424973 :START 93 :END 124)
+<  (ONT::F ONT::V424973 (:* ONT::BETWEEN W::BETWEEN) :GROUND ONT::V424989 :FIGURE
+<   ONT::V424968 :START 106 :END 124)
+<  (ONT::THE-SET ONT::V424989 (:* ONT::FURNISHINGS W::DESK) :START 114 :END 124))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V428360">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V424946" />
+<     <LF:start>37</LF:start>
+<     <LF:end>124</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424946">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>SELF-LOCOMOTE</LF:type>
+<     <LF:word>WALK</LF:word>
+<     <role:RESULT rdf:resource="#V424956" />
+<     <role:AGENT rdf:resource="#V424897" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>37</LF:start>
+<     <LF:end>124</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424897">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>ONE</LF:word>
+<     <role:MOD rdf:resource="#V425011" />
+<     <role:MOD rdf:resource="#V424906" />
+<     <LF:start>37</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V425011">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <role:FIGURE rdf:resource="#V424897" />
+<     <LF:start>37</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424906">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>WEAR</LF:type>
+<     <LF:word>WEAR</LF:word>
+<     <role:AGENT rdf:resource="#V424897" />
+<     <role:NEUTRAL rdf:resource="#V424923" />
+<     <role:VFORM>ING</role:VFORM>
+<     <LF:start>49</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424923">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ATTIRE</LF:type>
+<     <LF:word>PULLOVER</LF:word>
+<     <role:MOD rdf:resource="#V424915" />
+<     <LF:start>57</LF:start>
+<     <LF:end>76</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424915">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ORANGE</LF:type>
+<     <LF:word>ORANGE</LF:word>
+<     <role:FIGURE rdf:resource="#V424923" />
+<     <role:SCALE>ORANGE*1--07--00</role:SCALE>
+<     <LF:start>60</LF:start>
+<     <LF:end>67</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424956">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LINEAR-EXTENT</LF:type>
+<     <LF:word>ALONG</LF:word>
+<     <role:GROUND rdf:resource="#V424968" />
+<     <role:FIGURE rdf:resource="#V424897" />
+<     <LF:start>87</LF:start>
+<     <LF:end>124</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424968">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>INTERNAL-ENCLOSURE</LF:type>
+<     <LF:word>CORRIDOR</LF:word>
+<     <role:LOCATION rdf:resource="#V424973" />
+<     <LF:start>93</LF:start>
+<     <LF:end>124</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424973">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>BETWEEN</LF:type>
+<     <LF:word>BETWEEN</LF:word>
+<     <role:GROUND rdf:resource="#V424989" />
+<     <role:FIGURE rdf:resource="#V424968" />
+<     <LF:start>106</LF:start>
+<     <LF:end>124</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V424989">
+<     <LF:indicator>THE-SET</LF:indicator>
+<     <LF:type>FURNISHINGS</LF:type>
+<     <LF:word>DESK</LF:word>
+<     <LF:start>114</LF:start>
+<     <LF:end>124</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="35">
+>    <TEXT>a girl is eating in the background ,</TEXT>
+>    <RELATION id="1" head="V424432" res="V423934" label="CONTENT"/>
+>    <PHRASE id="V423934" indicator="F" type="CONSUME" text="EAT" TENSE="PRES" PROGR="+" start="0" end="35"/>
+>    <RELATION id="2" head="V423934" res="V423942" label="RESULT"/>
+>    <RELATION id="3" head="V423934" res="V423910" label="AGENT"/>
+>    <PHRASE id="V423910" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="7"/>
+>    <PHRASE id="V423942" indicator="F" type="IN-LOC" text="IN" start="17" end="35"/>
+>    <RELATION id="4" head="V423942" res="V424011" label="GROUND"/>
+>    <RELATION id="5" head="V423942" res="V423910" label="FIGURE"/>
+>    <PHRASE id="V424011" indicator="THE" type="IMAGE" text="BACKGROUND" start="20" end="35"/>
+>   </SENTENCE>
+>   <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="37" end="124">
+>    <TEXT>another one wearing an orange pullover is walking along the corridor between the desks .</TEXT>
+>    <RELATION id="6" head="V428360" res="V424946" label="CONTENT"/>
+>    <PHRASE id="V424946" indicator="F" type="SELF-LOCOMOTE" text="WALK" TENSE="PRES" PROGR="+" start="37" end="124"/>
+>    <RELATION id="7" head="V424946" res="V424956" label="RESULT"/>
+>    <RELATION id="8" head="V424946" res="V424897" label="AGENT"/>
+>    <PHRASE id="V424897" indicator="A" type="REFERENTIAL-SEM" text="ONE" start="37" end="76"/>
+>    <RELATION id="9" head="V424897" res="V425011" label="MOD"/>
+>    <RELATION id="10" head="V424897" res="V424906" label="MOD"/>
+>    <PHRASE id="V425011" indicator="F" type="OTHER" start="37" end="76"/>
+>    <RELATION id="11" head="V425011" res="V424897" label="FIGURE"/>
+>    <PHRASE id="V424906" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="49" end="76"/>
+>    <RELATION id="12" head="V424906" res="V424897" label="AGENT"/>
+>    <RELATION id="13" head="V424906" res="V424923" label="NEUTRAL"/>
+>    <PHRASE id="V424923" indicator="A" type="ATTIRE" text="PULLOVER" start="57" end="76"/>
+>    <RELATION id="14" head="V424923" res="V424915" label="MOD"/>
+>    <PHRASE id="V424915" indicator="F" type="ORANGE" text="ORANGE" SCALE="ORANGE*1--07--00" start="60" end="67"/>
+>    <RELATION id="15" head="V424915" res="V424923" label="FIGURE"/>
+>    <PHRASE id="V424956" indicator="F" type="LINEAR-EXTENT" text="ALONG" start="87" end="124"/>
+>    <RELATION id="16" head="V424956" res="V424968" label="GROUND"/>
+>    <RELATION id="17" head="V424956" res="V424897" label="FIGURE"/>
+>    <PHRASE id="V424968" indicator="THE" type="INTERNAL-ENCLOSURE" text="CORRIDOR" start="93" end="124"/>
+>    <RELATION id="18" head="V424968" res="V424973" label="LOCATION"/>
+>    <PHRASE id="V424973" indicator="F" type="BETWEEN" text="BETWEEN" start="106" end="124"/>
+>    <RELATION id="19" head="V424973" res="V424989" label="GROUND"/>
+>    <RELATION id="20" head="V424973" res="V424968" label="FIGURE"/>
+>    <PHRASE id="V424989" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="114" end="124"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

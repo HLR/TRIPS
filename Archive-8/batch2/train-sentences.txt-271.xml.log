@@ -1,0 +1,201 @@
+2,174c2,26
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="small bushes and two trees at the top of the hill .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+56
+< *last-utt-id*=56  utt-id+NIL</debug><utt><words><lisp>(W::SMALL W::BUSHES W::AND W::TWO W::TREES W::AT W::THE W::TOP W::OF W::THE
+<  W::HILL W::PUNC-PERIOD)</lisp><word>SMALL</word><word>BUSHES</word><word>AND</word><word>TWO</word><word>TREES</word><word>AT</word><word>THE</word><word>TOP</word><word>OF</word><word>THE</word><word>HILL</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;small&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 56
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;bushes&quot; :FRAME (6 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 56
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;bushes&quot; :FRAME (6 12) :PENN-CATS (NX) :TRIPS-CATS (W::N1) :SCORE
+<   8.067 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (13 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 56
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;two&quot; :FRAME (17 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;trees&quot; :FRAME (21 26) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 56
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two trees&quot; :FRAME (17 26) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   14.75 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (27 29) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (30 33) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;top&quot; :FRAME (34 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 56
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the top&quot; :FRAME (30 37) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.663 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at the top&quot; :FRAME (27 37) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+<   14.287 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;two trees at the top&quot; :FRAME (17 37) :PENN-CATS (NX) :TRIPS-CATS
+<   (W::N1) :SCORE 35.109 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;bushes and two trees at the top&quot; :FRAME (6 37) :PENN-CATS (NX)
+<   :TRIPS-CATS (W::N1) :SCORE 43.805 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;small bushes and two trees at the top&quot; :FRAME (0 37) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 55.865 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;of&quot; :FRAME (38 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (41 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;hill&quot; :FRAME (45 49) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 56
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the hill&quot; :FRAME (41 49) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   13.323 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of the hill&quot; :FRAME (38 49) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.391 :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (50 50) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 56 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;small bushes and two trees at the top of the hill .&quot; :FRAME (0 50)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 77.194 :UTTNUM 56 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="small" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="bushes" start="6" end="12"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="bushes" start="6" end="12" penn-cats="NX" score="8.067" /><word lex="and" start="13" end="16"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="two" start="17" end="20"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="trees" start="21" end="26"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two trees" start="17" end="26" penn-cats="NP" score="14.75" /><word lex="at" start="27" end="29"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="30" end="33"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="top" start="34" end="37"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the top" start="30" end="37" penn-cats="NP" score="10.663" /><prefer text="at the top" start="27" end="37" penn-cats="PP" score="14.287" /><prefer text="two trees at the top" start="17" end="37" penn-cats="NX" score="35.109" /><prefer text="bushes and two trees at the top" start="6" end="37" penn-cats="NX" score="43.805" /><prefer text="small bushes and two trees at the top" start="0" end="37" penn-cats="NP" score="55.865" /><word lex="of" start="38" end="40"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="41" end="44"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="hill" start="45" end="49"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the hill" start="41" end="49" penn-cats="NP" score="13.323" /><prefer text="of the hill" start="38" end="49" penn-cats="PP" score="14.391" /><word lex="." start="50" end="50"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="small bushes and two trees at the top of the hill ." start="0" end="50" penn-cats="NP" score="77.194" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (NP (N1 (ADJP (ADJ1 (ADJ SMALL))) (N1 (N BUSHES)))) (CONJ AND)
+<    (NP
+<     (N1 (N1 (ADJP (NUMBER TWO)) (N1 (N TREES)))
+<      (ADVBL (ADV AT)
+<       (NP (SPEC (DET (ART THE)))
+<        (N1 (N TOP)
+<         (PP (PREP OF) (NP (SPEC (DET (ART THE))) (N1 (N HILL)))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><N1><ADJP><ADJ1><ADJ>SMALL</ADJ></ADJ1></ADJP><N1><N>BUSHES</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>TREES</N></N1></N1><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>TOP</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>HILL</N></N1></NP></PP></N1></NP></ADVBL></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V281252"><lisp>((ONT::SPEECHACT ONT::V281252 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V280700 :START 0 :END 50)
+<  (ONT::INDEF-SET ONT::V280700 ONT::PLANT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V280693 ONT::V280712) :START 0 :END 50)
+<  (ONT::INDEF-SET ONT::V280693 (:* ONT::PLANT W::BUSHES) :MOD ONT::V280689
+<   :START 0 :END 13)
+<  (ONT::F ONT::V280689 (:* ONT::SMALL W::SMALL) :ORIENTATION ONT::LESS
+<   :INTENSITY ONT::MED :FIGURE ONT::V280693 :SCALE ONT::SIZE-SCALE :START 0 :END
+<   6)
+<  (ONT::INDEF-SET ONT::V280712 (:* ONT::PLANT W::TREE) :SIZE ONT::V280710
+<   :LOCATION ONT::V280721 :START 17 :END 50)
+<  (ONT::A ONT::V280710 ONT::NUMBER :VALUE 2 :START 17 :END 21)
+<  (ONT::F ONT::V280721 (:* ONT::AT-LOC W::AT) :GROUND ONT::V280744 :FIGURE
+<   ONT::V280712 :START 27 :END 50)
+<  (ONT::THE ONT::V280744 (:* ONT::TOP-LOCATION W::TOP) :FIGURE ONT::V280764
+<   :START 30 :END 50)
+<  (ONT::THE ONT::V280764 (:* ONT::GEO-FORMATION W::HILL) :START 38 :END 50))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V281252">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V280700" />
+<     <LF:start>0</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280700">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V280693" />
+<     <role:SEQUENCE1 rdf:resource="#V280712" />
+<     <LF:start>0</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280693">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <LF:word>BUSHES</LF:word>
+<     <role:MOD rdf:resource="#V280689" />
+<     <LF:start>0</LF:start>
+<     <LF:end>13</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280689">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>SMALL</LF:type>
+<     <LF:word>SMALL</LF:word>
+<     <role:ORIENTATION>LESS</role:ORIENTATION>
+<     <role:INTENSITY>MED</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V280693" />
+<     <role:SCALE>SIZE-SCALE</role:SCALE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280712">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>PLANT</LF:type>
+<     <LF:word>TREE</LF:word>
+<     <role:SIZE rdf:resource="#V280710" />
+<     <role:LOCATION rdf:resource="#V280721" />
+<     <LF:start>17</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280710">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>2</role:VALUE>
+<     <LF:start>17</LF:start>
+<     <LF:end>21</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280721">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V280744" />
+<     <role:FIGURE rdf:resource="#V280712" />
+<     <LF:start>27</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280744">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>TOP-LOCATION</LF:type>
+<     <LF:word>TOP</LF:word>
+<     <role:FIGURE rdf:resource="#V280764" />
+<     <LF:start>30</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V280764">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>HILL</LF:word>
+<     <LF:start>38</LF:start>
+<     <LF:end>50</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="50">
+>    <TEXT>small bushes and two trees at the top of the hill .</TEXT>
+>    <RELATION id="1" head="V281252" res="V280700" label="CONTENT"/>
+>    <PHRASE id="V280700" indicator="INDEF-SET" type="PLANT" OPERATOR="AND" start="0" end="50"/>
+>    <RELATION id="2" head="V280700" res="V280693" label="SEQUENCE"/>
+>    <RELATION id="3" head="V280700" res="V280712" label="SEQUENCE1"/>
+>    <PHRASE id="V280693" indicator="INDEF-SET" type="PLANT" text="BUSHES" start="0" end="13"/>
+>    <RELATION id="4" head="V280693" res="V280689" label="MOD"/>
+>    <PHRASE id="V280689" indicator="F" type="SMALL" text="SMALL" ORIENTATION="LESS" INTENSITY="MED" SCALE="SIZE-SCALE" start="0" end="6"/>
+>    <RELATION id="5" head="V280689" res="V280693" label="FIGURE"/>
+>    <PHRASE id="V280712" indicator="INDEF-SET" type="PLANT" text="TREE" start="17" end="50"/>
+>    <RELATION id="6" head="V280712" res="V280710" label="SIZE"/>
+>    <RELATION id="7" head="V280712" res="V280721" label="LOCATION"/>
+>    <PHRASE id="V280710" indicator="A" type="NUMBER" VALUE="2" start="17" end="21"/>
+>    <PHRASE id="V280721" indicator="F" type="AT-LOC" text="AT" start="27" end="50"/>
+>    <RELATION id="8" head="V280721" res="V280744" label="GROUND"/>
+>    <RELATION id="9" head="V280721" res="V280712" label="FIGURE"/>
+>    <PHRASE id="V280744" indicator="THE" type="TOP-LOCATION" text="TOP" start="30" end="50"/>
+>    <RELATION id="10" head="V280744" res="V280764" label="FIGURE"/>
+>    <PHRASE id="V280764" indicator="THE" type="GEO-FORMATION" text="HILL" start="38" end="50"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

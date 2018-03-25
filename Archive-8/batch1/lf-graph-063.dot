@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "FOUR TOURISTS ARE SITTING ON A BUS PUNC-PERIOD"
+  "V291048" [label="(SPEECHACT V291048 SA_TELL)"]
+  "V291048" -> "V290756" [label=":CONTENT"]
+  "V290756" [label="(F V290756 (:* BODY-MOVEMENT-PLACE SIT))"]
+  "V290756" -> "V290772" [label=":RESULT"]
+  "V290756" -> "V290730" [label=":AGENT"]
+  "V290756" -> "NT293518" [label=":TENSE"]
+  "NT293518" [label="PRES"]
+  "V290756" -> "NT293519" [label=":PROGR"]
+  "NT293519" [label="+"]
+  "V290730" [label="(INDEF-SET V290730 (:* TRAVELLER TOURISTS))"]
+  "V290730" -> "V290727" [label=":SIZE"]
+  "V290727" [label="(A V290727 NUMBER)"]
+  "V290727" -> "NT293520" [label=":VALUE"]
+  "NT293520" [label="4"]
+  "V290772" [label="(F V290772 (:* ON ON))"]
+  "V290772" -> "V290840" [label=":GROUND"]
+  "V290772" -> "V290730" [label=":FIGURE"]
+  "V290840" [label="(A V290840 (:* LAND-VEHICLE BUS))"]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="102">
+   <TEXT>several arches surround the courtyard on two levels in front of the red building with a blue entrance .</TEXT>
+   <RELATION id="1" head="V238826" res="V234756" label="CONTENT"/>
+   <PHRASE id="V234756" indicator="F" type="SURROUND" text="SURROUND" TENSE="PRES" start="0" end="102"/>
+   <RELATION id="2" head="V234756" res="V234748" label="NEUTRAL"/>
+   <RELATION id="3" head="V234756" res="V234767" label="NEUTRAL1"/>
+   <PHRASE id="V234748" indicator="INDEF-SET" type="DOMAIN" text="ARCHES" SIZE="SEVERAL" start="0" end="15"/>
+   <PHRASE id="V234767" indicator="THE" type="MANUFACTURED-OBJECT" text="COURTYARD" start="24" end="102"/>
+   <RELATION id="4" head="V234767" res="V234775" label="LOCATION"/>
+   <PHRASE id="V234775" indicator="F" type="ON" text="ON" start="38" end="102"/>
+   <RELATION id="5" head="V234775" res="V234800" label="GROUND"/>
+   <RELATION id="6" head="V234775" res="V234767" label="FIGURE"/>
+   <PHRASE id="V234800" indicator="INDEF-SET" type="LEVEL" text="LEVEL" SCALE="LINEAR-SCALE" start="41" end="102"/>
+   <RELATION id="7" head="V234800" res="V234798" label="SIZE"/>
+   <RELATION id="8" head="V234800" res="V234809" label="LOCATION"/>
+   <PHRASE id="V234798" indicator="A" type="NUMBER" VALUE="2" start="41" end="45"/>
+   <PHRASE id="V234809" indicator="F" type="IN-LOC" text="IN" start="52" end="102"/>
+   <RELATION id="9" head="V234809" res="V234858" label="GROUND"/>
+   <RELATION id="10" head="V234809" res="V234800" label="FIGURE"/>
+   <PHRASE id="V234858" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="55" end="102"/>
+   <RELATION id="11" head="V234858" res="V234941" label="FIGURE"/>
+   <PHRASE id="V234941" indicator="THE" type="GENERAL-STRUCTURE" text="BUILDING" start="61" end="102"/>
+   <RELATION id="12" head="V234941" res="V234955" label="MOD"/>
+   <RELATION id="13" head="V234941" res="V234926" label="MOD"/>
+   <PHRASE id="V234926" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="68" end="72"/>
+   <RELATION id="14" head="V234926" res="V234941" label="FIGURE"/>
+   <PHRASE id="V234955" indicator="F" type="ASSOC-WITH" text="WITH" start="81" end="102"/>
+   <RELATION id="15" head="V234955" res="V235023" label="GROUND"/>
+   <RELATION id="16" head="V234955" res="V234941" label="FIGURE"/>
+   <PHRASE id="V235023" indicator="A" type="EXIT" text="ENTRANCE" start="86" end="102"/>
+   <RELATION id="17" head="V235023" res="V235008" label="MOD"/>
+   <PHRASE id="V235008" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="88" end="93"/>
+   <RELATION id="18" head="V235008" res="V235023" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

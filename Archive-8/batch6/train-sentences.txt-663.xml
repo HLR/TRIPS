@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there is a smiling green and yellow plane on the pullover .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?17605:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V231089)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?17603)
+                                           (W::TRANSFORM ?17604)))
+                                 (W::CASE ?17602:(W::SUB W::OBJ -))
+                                 (W::AGR ?17601) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V231089) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER231109))
+*last-utt-id*=NIL  utt-id+46
+*last-utt-id*=46  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::IS W::A W::SMILING W::GREEN W::AND W::YELLOW W::PLANE W::ON W::THE
+ W::PULLOVER W::PUNC-PERIOD)</lisp><word>THERE</word><word>IS</word><word>A</word><word>SMILING</word><word>GREEN</word><word>AND</word><word>YELLOW</word><word>PLANE</word><word>ON</word><word>THE</word><word>PULLOVER</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (9 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;smiling&quot; :FRAME (11 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;green&quot; :FRAME (19 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (25 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;yellow&quot; :FRAME (29 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;green and yellow&quot; :FRAME (19 35) :PENN-CATS (ADJP) :TRIPS-CATS
+  (W::ADJP) :SCORE 20.114 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;plane&quot; :FRAME (36 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a smiling green and yellow plane&quot; :FRAME (9 41) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 44.219 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;on&quot; :FRAME (42 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (45 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pullover&quot; :FRAME (49 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 46
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the pullover&quot; :FRAME (45 57) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.988 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the pullover&quot; :FRAME (42 57) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 18.493 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a smiling green and yellow plane on the pullover&quot; :FRAME (9 57)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 68.085 :UTTNUM 46 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;is a smiling green and yellow plane on the pullover&quot; :FRAME (6 57)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 72.857 :UTTNUM 46 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (58 58) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there is a smiling green and yellow plane on the pullover .&quot; :FRAME
+  (0 58) :PENN-CATS (S) :SCORE 78.518 :UTTNUM 46 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="a" start="9" end="10"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="smiling" start="11" end="18"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="green" start="19" end="24"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="and" start="25" end="28"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="yellow" start="29" end="35"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="green and yellow" start="19" end="35" penn-cats="ADJP" score="20.114" /><word lex="plane" start="36" end="41"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a smiling green and yellow plane" start="9" end="41" penn-cats="NP" score="44.219" /><word lex="on" start="42" end="44"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="45" end="48"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="pullover" start="49" end="57"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the pullover" start="45" end="57" penn-cats="NP" score="14.988" /><prefer text="on the pullover" start="42" end="57" penn-cats="PP" score="18.493" /><prefer text="a smiling green and yellow plane on the pullover" start="9" end="57" penn-cats="NP" score="68.085" /><prefer text="is a smiling green and yellow plane on the pullover" start="6" end="57" penn-cats="VP" score="72.857" /><word lex="." start="58" end="58"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there is a smiling green and yellow plane on the pullover ." start="0" end="58" penn-cats="S" score="78.518" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V IS)
+     (NP (SPEC (DET (ART A)))
+      (N1
+       (N1 (ADJP (V SMILING))
+        (N1
+         (ADJP (ADJP (ADJ1 (ADJ GREEN))) (CONJ AND) (ADJP (ADJ1 (ADJ YELLOW))))
+         (N1 (N PLANE))))
+       (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N PULLOVER))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><V>SMILING</V></ADJP><N1><ADJP><ADJP><ADJ1><ADJ>GREEN</ADJ></ADJ1></ADJP><CONJ>AND</CONJ><ADJP><ADJ1><ADJ>YELLOW</ADJ></ADJ1></ADJP></ADJP><N1><N>PLANE</N></N1></N1></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>PULLOVER</N></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V231140"><lisp>((ONT::SPEECHACT ONT::V231140 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V230661 :START 0 :END 58)
+ (ONT::F ONT::V230661 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V230737 :TENSE
+  W::PRES :START 0 :END 58)
+ (ONT::PRO ONT::V230648 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::A ONT::V230737 (:* ONT::AIR-VEHICLE W::PLANE) :LOCATION ONT::V230745
+  :MOD ONT::V230714 :MOD ONT::V230817 :START 9 :END 58)
+ (ONT::F ONT::V230714 (:* ONT::NONVERBAL-EXPRESSION W::SMILE) :AGENT
+  ONT::V230737 :START 11 :END 19)
+ (ONT::F ONT::V230817 ONT::COLOR-VAL :SEQUENCE (ONT::V230717 ONT::V230732)
+  :OPERATOR ONT::AND :START 19 :END 36)
+ (ONT::F ONT::V230717 (:* ONT::GREEN W::GREEN) :FIGURE ONT::V230737 :SCALE
+  ONT::GREEN*1--07--00 :START 19 :END 25)
+ (ONT::F ONT::V230732 (:* ONT::YELLOW W::YELLOW) :FIGURE ONT::V230737 :SCALE
+  ONT::YELLOW*1--07--00 :START 29 :END 36)
+ (ONT::F ONT::V230745 (:* ONT::ON W::ON) :GROUND ONT::V230775 :FIGURE
+  ONT::V230737 :START 42 :END 58)
+ (ONT::THE ONT::V230775 (:* ONT::ATTIRE W::PULLOVER) :START 45 :END 58))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V231140">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V230661" />
+    <LF:start>0</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230661">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V230737" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230648">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230737">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>AIR-VEHICLE</LF:type>
+    <LF:word>PLANE</LF:word>
+    <role:LOCATION rdf:resource="#V230745" />
+    <role:MOD rdf:resource="#V230714" />
+    <role:MOD rdf:resource="#V230817" />
+    <LF:start>9</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230714">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>NONVERBAL-EXPRESSION</LF:type>
+    <LF:word>SMILE</LF:word>
+    <role:AGENT rdf:resource="#V230737" />
+    <LF:start>11</LF:start>
+    <LF:end>19</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230817">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>COLOR-VAL</LF:type>
+    <role:SEQUENCE rdf:resource="#V230717" />
+    <role:SEQUENCE1 rdf:resource="#V230732" />
+    <role:OPERATOR>AND</role:OPERATOR>
+    <LF:start>19</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230717">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>GREEN</LF:type>
+    <LF:word>GREEN</LF:word>
+    <role:FIGURE rdf:resource="#V230737" />
+    <role:SCALE>GREEN*1--07--00</role:SCALE>
+    <LF:start>19</LF:start>
+    <LF:end>25</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230732">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>YELLOW</LF:type>
+    <LF:word>YELLOW</LF:word>
+    <role:FIGURE rdf:resource="#V230737" />
+    <role:SCALE>YELLOW*1--07--00</role:SCALE>
+    <LF:start>29</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230745">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V230775" />
+    <role:FIGURE rdf:resource="#V230737" />
+    <LF:start>42</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V230775">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>PULLOVER</LF:word>
+    <LF:start>45</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

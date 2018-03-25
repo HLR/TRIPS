@@ -1,0 +1,172 @@
+2,150c2,21
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="three tourists in the background are talking to each other .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+1
+< *last-utt-id*=1  utt-id+NIL</debug><utt><words><lisp>(W::THREE W::TOURISTS W::IN W::THE W::BACKGROUND W::ARE W::TALKING W::TO
+<  W::EACH W::OTHER W::PUNC-PERIOD)</lisp><word>THREE</word><word>TOURISTS</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>ARE</word><word>TALKING</word><word>TO</word><word>EACH</word><word>OTHER</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;three&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tourists&quot; :FRAME (6 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;three tourists&quot; :FRAME (0 14) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 15.57 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (15 17) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (18 21) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (22 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (18 32) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (15 32) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;three tourists in the background&quot; :FRAME (0 32) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 30.16 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (33 36) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;talking&quot; :FRAME (37 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;to&quot; :FRAME (45 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+<     (W::PREP W::INFINITIVAL-TO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;talking to&quot; :FRAME (37 47) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;talking_to%1:10:00&quot;)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;each&quot; :FRAME (48 52) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;other&quot; :FRAME (53 58) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;each other&quot; :FRAME (48 58) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   15.587 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;to each other&quot; :FRAME (45 58) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 18.055 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;talking to each other&quot; :FRAME (37 58) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 25.841 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;are talking to each other&quot; :FRAME (33 58) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 30.204 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (59 59) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;three tourists in the background are talking to each other .&quot; :FRAME
+<   (0 59) :PENN-CATS (S) :SCORE 63.193 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="three" start="0" end="5"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="tourists" start="6" end="14"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="three tourists" start="0" end="14" penn-cats="NP" score="15.57" /><word lex="in" start="15" end="17"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="18" end="21"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="22" end="32"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="18" end="32" penn-cats="NP" score="11.972" /><prefer text="in the background" start="15" end="32" penn-cats="PP" score="14.224" /><prefer text="three tourists in the background" start="0" end="32" penn-cats="NP" score="30.16" /><word lex="are" start="33" end="36"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="talking" start="37" end="44"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="to" start="45" end="47"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="talking to" start="37" end="47"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="talking_to%1:10:00" /></word><word lex="each" start="48" end="52"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="other" start="53" end="58"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="each other" start="48" end="58" penn-cats="NP" score="15.587" /><prefer text="to each other" start="45" end="58" penn-cats="PP" score="18.055" /><prefer text="talking to each other" start="37" end="58" penn-cats="VP" score="25.841" /><prefer text="are talking to each other" start="33" end="58" penn-cats="VP" score="30.204" /><word lex="." start="59" end="59"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="three tourists in the background are talking to each other ." start="0" end="59" penn-cats="S" score="63.193" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S
+<    (NP
+<     (N1 (N1 (ADJP (NUMBER THREE)) (N1 (N TOURISTS)))
+<      (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND))))))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (V TALKING) (PP (PREP TO) (NP (PRO (WORD EACH) (WORD OTHER)))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N1><ADJP><NUMBER>THREE</NUMBER></ADJP><N1><N>TOURISTS</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>TALKING</V><PP><PREP>TO</PREP><NP><PRO><WORD>EACH</WORD><WORD>OTHER</WORD></PRO></NP></PP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V33627"><lisp>((ONT::SPEECHACT ONT::V33627 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V33255 :START 0 :END 59)
+<  (ONT::F ONT::V33255 (:* ONT::TALK W::TALK) :AGENT ONT::V33170 :AGENT1
+<   ONT::V33294 :TENSE W::PRES :PROGR + :START 0 :END 59)
+<  (ONT::INDEF-SET ONT::V33170 (:* ONT::TRAVELLER W::TOURISTS) :SIZE ONT::V33167
+<   :LOCATION ONT::V33177 :START 0 :END 33)
+<  (ONT::A ONT::V33167 ONT::NUMBER :VALUE 3 :START 0 :END 6)
+<  (ONT::F ONT::V33177 (:* ONT::IN-LOC W::IN) :GROUND ONT::V33233 :FIGURE
+<   ONT::V33170 :START 15 :END 33)
+<  (ONT::THE ONT::V33233 (:* ONT::IMAGE W::BACKGROUND) :START 18 :END 33)
+<  (ONT::PRO ONT::V33294 (:* ONT::REFERENTIAL-SEM W::EACH-OTHER) :PROFORM
+<   (W::EACH W::OTHER) :START 45 :END 59))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V33627">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V33255" />
+<     <LF:start>0</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33255">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>TALK</LF:type>
+<     <LF:word>TALK</LF:word>
+<     <role:AGENT rdf:resource="#V33170" />
+<     <role:AGENT1 rdf:resource="#V33294" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33170">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>TRAVELLER</LF:type>
+<     <LF:word>TOURISTS</LF:word>
+<     <role:SIZE rdf:resource="#V33167" />
+<     <role:LOCATION rdf:resource="#V33177" />
+<     <LF:start>0</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33167">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>3</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33177">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V33233" />
+<     <role:FIGURE rdf:resource="#V33170" />
+<     <LF:start>15</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33233">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>18</LF:start>
+<     <LF:end>33</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V33294">
+<     <LF:indicator>PRO</LF:indicator>
+<     <LF:type>REFERENTIAL-SEM</LF:type>
+<     <LF:word>EACH-OTHER</LF:word>
+<     <role:PROFORM>(EACH OTHER)</role:PROFORM>
+<     <LF:start>45</LF:start>
+<     <LF:end>59</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="59">
+>    <TEXT>three tourists in the background are talking to each other .</TEXT>
+>    <RELATION id="1" head="V33627" res="V33255" label="CONTENT"/>
+>    <PHRASE id="V33255" indicator="F" type="TALK" text="TALK" TENSE="PRES" PROGR="+" start="0" end="59"/>
+>    <RELATION id="2" head="V33255" res="V33170" label="AGENT"/>
+>    <RELATION id="3" head="V33255" res="V33294" label="AGENT1"/>
+>    <PHRASE id="V33170" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="33"/>
+>    <RELATION id="4" head="V33170" res="V33167" label="SIZE"/>
+>    <RELATION id="5" head="V33170" res="V33177" label="LOCATION"/>
+>    <PHRASE id="V33167" indicator="A" type="NUMBER" VALUE="3" start="0" end="6"/>
+>    <PHRASE id="V33177" indicator="F" type="IN-LOC" text="IN" start="15" end="33"/>
+>    <RELATION id="6" head="V33177" res="V33233" label="GROUND"/>
+>    <RELATION id="7" head="V33177" res="V33170" label="FIGURE"/>
+>    <PHRASE id="V33233" indicator="THE" type="IMAGE" text="BACKGROUND" start="18" end="33"/>
+>    <PHRASE id="V33294" indicator="PRO" type="REFERENTIAL-SEM" text="EACH-OTHER" PROFORM="(EACH OTHER)" start="45" end="59"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

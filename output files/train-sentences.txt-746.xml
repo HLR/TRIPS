@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="47">
+   <TEXT>a grey house and short grass in the background .</TEXT>
+   <RELATION id="1" head="V191813" res="V191560" label="CONTENT"/>
+   <PHRASE id="V191560" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="0" end="47"/>
+   <RELATION id="2" head="V191560" res="V191555" label="SEQUENCE"/>
+   <RELATION id="3" head="V191560" res="V191580" label="SEQUENCE1"/>
+   <PHRASE id="V191555" indicator="A" type="LODGING" text="HOUSE" start="0" end="13"/>
+   <RELATION id="4" head="V191555" res="V191543" label="MOD"/>
+   <PHRASE id="V191543" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="2" end="7"/>
+   <RELATION id="5" head="V191543" res="V191555" label="FIGURE"/>
+   <PHRASE id="V191580" indicator="BARE" type="PLANT" text="GRASS" start="17" end="47"/>
+   <RELATION id="6" head="V191580" res="V191587" label="LOCATION"/>
+   <RELATION id="7" head="V191580" res="V191570" label="MOD"/>
+   <PHRASE id="V191570" indicator="F" type="SHORT-VAL" text="SHORT" SCALE="SIZE-SCALE" start="17" end="23"/>
+   <RELATION id="8" head="V191570" res="V191580" label="FIGURE"/>
+   <PHRASE id="V191587" indicator="F" type="IN-LOC" text="IN" start="29" end="47"/>
+   <RELATION id="9" head="V191587" res="V191643" label="GROUND"/>
+   <RELATION id="10" head="V191587" res="V191580" label="FIGURE"/>
+   <PHRASE id="V191643" indicator="THE" type="IMAGE" text="BACKGROUND" start="32" end="47"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

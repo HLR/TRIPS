@@ -1,0 +1,17 @@
+digraph Terms {
+  node [shape=none]
+  "SHORT GRASS IN THE BACKGROUND PUNC-PERIOD"
+  "V345231" [label="(SPEECHACT V345231 SA_IDENTIFY)"]
+  "V345231" -> "V345117" [label=":CONTENT"]
+  "V345117" [label="(BARE V345117 (:* PLANT GRASS))"]
+  "V345117" -> "V345124" [label=":LOCATION"]
+  "V345117" -> "V345107" [label=":MOD"]
+  "V345107" [label="(F V345107 (:* SHORT-VAL SHORT))"]
+  "V345107" -> "V345117" [label=":FIGURE"]
+  "V345107" -> "NT345634" [label=":SCALE"]
+  "NT345634" [label="SIZE-SCALE"]
+  "V345124" [label="(F V345124 (:* IN-LOC IN))"]
+  "V345124" -> "V345180" [label=":GROUND"]
+  "V345124" -> "V345117" [label=":FIGURE"]
+  "V345180" [label="(THE V345180 (:* IMAGE BACKGROUND))"]
+}

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a girl with long black hair wearing a headband , a grey vest and a long necklace .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?33601:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V304992)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?33599)
+                                           (W::TRANSFORM ?33600)))
+                                 (W::CASE ?33598:(W::SUB W::OBJ -))
+                                 (W::AGR ?33597) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V304992) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER305029))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?33911:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V304995)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?33909)
+                                           (W::TRANSFORM ?33910)))
+                                 (W::CASE ?33908:(W::SUB W::OBJ -))
+                                 (W::AGR ?33907) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V304995) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER305031))
+*last-utt-id*=NIL  utt-id+62
+*last-utt-id*=62  utt-id+NIL
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?13371:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V306143)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?13369)
+                                           (W::TRANSFORM ?13370)))
+                                 (W::CASE ?13368:(W::SUB W::OBJ -))
+                                 (W::AGR ?13367) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V306143) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER306165))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?13670:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V306146)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?13668)
+                                           (W::TRANSFORM ?13669)))
+                                 (W::CASE ?13667:(W::SUB W::OBJ -))
+                                 (W::AGR ?13666) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V306146) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER306167))
+*last-utt-id*=NIL  utt-id+62
+*last-utt-id*=62  utt-id+NIL</debug><utt><words><lisp>(W::A W::GIRL W::WITH W::LONG W::BLACK W::HAIR W::WEARING W::A W::HEADBAND
+ W::PUNC-COMMA)</lisp><word>A</word><word>GIRL</word><word>WITH</word><word>LONG</word><word>BLACK</word><word>HAIR</word><word>WEARING</word><word>A</word><word>HEADBAND</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;girl&quot; :FRAME (2 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a girl&quot; :FRAME (0 6) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  13.098 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (7 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;long&quot; :FRAME (12 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;black&quot; :FRAME (17 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hair&quot; :FRAME (23 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;long black hair&quot; :FRAME (12 27) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 27.551 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with long black hair&quot; :FRAME (7 27) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 31.35 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a girl with long black hair&quot; :FRAME (0 27) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 45.11 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;wearing&quot; :FRAME (28 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (36 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;headband&quot; :FRAME (38 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a headband&quot; :FRAME (36 46) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  17.751 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (47 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="girl" start="2" end="6"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a girl" start="0" end="6" penn-cats="NP" score="13.098" /><word lex="with" start="7" end="11"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="long" start="12" end="16"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="black" start="17" end="22"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="hair" start="23" end="27"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="long black hair" start="12" end="27" penn-cats="NP" score="27.551" /><prefer text="with long black hair" start="7" end="27" penn-cats="PP" score="31.35" /><prefer text="a girl with long black hair" start="0" end="27" penn-cats="NP" score="45.11" /><word lex="wearing" start="28" end="35"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="36" end="37"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="headband" start="38" end="46"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a headband" start="36" end="46" penn-cats="NP" score="17.751" /><word lex="," start="47" end="47"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(NP
+ (NP (SPEC (DET (ART A)))
+  (N1
+   (N1 (N1 (N GIRL))
+    (ADVBL (ADV WITH)
+     (NP
+      (N1 (ADJP (ADJ1 (ADJ LONG)))
+       (N1 (ADJP (ADJ1 (ADJ BLACK))) (N1 (N HAIR)))))))
+   (CP (VP (VP- (V WEARING) (NP (SPEC (DET (ART A))) (N1 (N HEADBAND))))))))
+ (PUNC PUNC-COMMA))</lisp><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N1><N>GIRL</N></N1><ADVBL><ADV>WITH</ADV><NP><N1><ADJP><ADJ1><ADJ>LONG</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>BLACK</ADJ></ADJ1></ADJP><N1><N>HAIR</N></N1></N1></N1></NP></ADVBL></N1><CP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>HEADBAND</N></N1></NP></VP-></VP></CP></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></tree><terms root="#V304499"><lisp>((ONT::A ONT::V304499 (:* ONT::FEMALE-CHILD W::GIRL) :MOD ONT::V304531 :MOD
+  ONT::V304503 :START 0 :END 47)
+ (ONT::F ONT::V304503 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V304525 :FIGURE
+  ONT::V304499 :START 7 :END 28)
+ (ONT::BARE ONT::V304525 (:* ONT::EXTERNAL-BODY-PART W::HAIR) :MOD ONT::V304515
+  :MOD ONT::V304522 :START 12 :END 28)
+ (ONT::F ONT::V304515 (:* ONT::LONG W::LONG) :FIGURE ONT::V304525 :SCALE
+  ONT::SIZE-SCALE :START 12 :END 17)
+ (ONT::F ONT::V304522 (:* ONT::BLACK W::BLACK) :FIGURE ONT::V304525 :SCALE
+  ONT::BLACKNESS*1--07--00 :START 17 :END 23)
+ (ONT::F ONT::V304531 (:* ONT::WEAR W::WEAR) :AGENT ONT::V304499 :NEUTRAL
+  ONT::V304579 :VFORM W::ING :START 28 :END 47)
+ (ONT::A ONT::V304579 (:* ONT::MANUFACTURED-OBJECT W::HEADBAND) :START 36 :END
+  47))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V304499">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FEMALE-CHILD</LF:type>
+    <LF:word>GIRL</LF:word>
+    <role:MOD rdf:resource="#V304531" />
+    <role:MOD rdf:resource="#V304503" />
+    <LF:start>0</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304503">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V304525" />
+    <role:FIGURE rdf:resource="#V304499" />
+    <LF:start>7</LF:start>
+    <LF:end>28</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304525">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>EXTERNAL-BODY-PART</LF:type>
+    <LF:word>HAIR</LF:word>
+    <role:MOD rdf:resource="#V304515" />
+    <role:MOD rdf:resource="#V304522" />
+    <LF:start>12</LF:start>
+    <LF:end>28</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304515">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LONG</LF:type>
+    <LF:word>LONG</LF:word>
+    <role:FIGURE rdf:resource="#V304525" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>12</LF:start>
+    <LF:end>17</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304522">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BLACK</LF:type>
+    <LF:word>BLACK</LF:word>
+    <role:FIGURE rdf:resource="#V304525" />
+    <role:SCALE>BLACKNESS*1--07--00</role:SCALE>
+    <LF:start>17</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304531">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V304499" />
+    <role:NEUTRAL rdf:resource="#V304579" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>28</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304579">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <LF:word>HEADBAND</LF:word>
+    <LF:start>36</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::A W::GREY W::VEST W::AND W::A W::LONG W::NECKLACE W::PUNC-PERIOD)</lisp><word>A</word><word>GREY</word><word>VEST</word><word>AND</word><word>A</word><word>LONG</word><word>NECKLACE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (49 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;grey&quot; :FRAME (51 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)
+    :ALTERNATE-SPELLINGS (&quot;gray&quot;)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;vest&quot; :FRAME (56 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a grey vest&quot; :FRAME (49 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 25.224 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (61 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (65 66) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;long&quot; :FRAME (67 71) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;necklace&quot; :FRAME (72 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 62
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a long necklace&quot; :FRAME (65 80) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 22.215 :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (81 81) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 62 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="49" end="50"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="grey" start="51" end="55"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" alternate-spellings="gray" /></word><word lex="vest" start="56" end="60"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a grey vest" start="49" end="60" penn-cats="NP" score="25.224" /><word lex="and" start="61" end="64"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="65" end="66"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="long" start="67" end="71"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="necklace" start="72" end="80"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a long necklace" start="65" end="80" penn-cats="NP" score="22.215" /><word lex="." start="81" end="81"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (NP (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ GREY))) (N1 (N VEST))))
+   (CONJ AND)
+   (NP (SPEC (DET (ART A))) (N1 (ADJP (ADJ1 (ADJ LONG))) (N1 (N NECKLACE))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>GREY</ADJ></ADJ1></ADJP><N1><N>VEST</N></N1></N1></NP><CONJ>AND</CONJ><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LONG</ADJ></ADJ1></ADJP><N1><N>NECKLACE</N></N1></N1></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V306220"><lisp>((ONT::SPEECHACT ONT::V306220 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V305950 :START 49 :END 81)
+ (ONT::INDEF-SET ONT::V305950 ONT::MANUFACTURED-OBJECT :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V305946 ONT::V306008) :START 49 :END 81)
+ (ONT::A ONT::V305946 (:* ONT::ATTIRE W::VEST) :MOD ONT::V305936 :START 49 :END
+  61)
+ (ONT::F ONT::V305936 (:* ONT::GRAY W::GREY) :FIGURE ONT::V305946 :SCALE
+  ONT::GREYNESS*1--07--00 :START 51 :END 56)
+ (ONT::A ONT::V306008 (:* ONT::MANUFACTURED-OBJECT W::NECKLACE) :MOD
+  ONT::V306000 :START 65 :END 81)
+ (ONT::F ONT::V306000 (:* ONT::LONG W::LONG) :FIGURE ONT::V306008 :SCALE
+  ONT::SIZE-SCALE :START 67 :END 72))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V306220">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V305950" />
+    <LF:start>49</LF:start>
+    <LF:end>81</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V305950">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V305946" />
+    <role:SEQUENCE1 rdf:resource="#V306008" />
+    <LF:start>49</LF:start>
+    <LF:end>81</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V305946">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>VEST</LF:word>
+    <role:MOD rdf:resource="#V305936" />
+    <LF:start>49</LF:start>
+    <LF:end>61</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V305936">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>GRAY</LF:type>
+    <LF:word>GREY</LF:word>
+    <role:FIGURE rdf:resource="#V305946" />
+    <role:SCALE>GREYNESS*1--07--00</role:SCALE>
+    <LF:start>51</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V306008">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <LF:word>NECKLACE</LF:word>
+    <role:MOD rdf:resource="#V306000" />
+    <LF:start>65</LF:start>
+    <LF:end>81</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V306000">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LONG</LF:type>
+    <LF:word>LONG</LF:word>
+    <role:FIGURE rdf:resource="#V306008" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>67</LF:start>
+    <LF:end>72</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-haired boy wearing a dark brown traditional hat and a dark red jacket standing in front of a thatched roof .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+6
+*last-utt-id*=6  utt-id+6
+*last-utt-id*=6  utt-id+6
+*last-utt-id*=6  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::DARK W::PUNC-MINUS W::HAIRED)</lisp><word>DARK</word><word>PUNC-MINUS</word><word>HAIRED</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;haired&quot; :FRAME (7 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark-haired&quot; :FRAME (2 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;dark-haired%5:00:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="haired" start="7" end="13"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-haired" start="2" end="13"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-haired%5:00:00" /></word></tags><tree><lisp>(DET (ART A))</lisp><DET><ART>A</ART></DET></tree><terms root="#V55880"><lisp>((ONT::F ONT::V55880 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-HAIRED) :START 2 :END
+  14 :WNSENSE &quot;dark-haired%5:00:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V55880">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>DARK-PUNC-MINUS-HAIRED</LF:word>
+    <LF:start>2</LF:start>
+    <LF:end>14</LF:end>
+    <role:WNSENSE>dark-haired%5:00:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::BOY W::WEARING W::A W::DARK W::BROWN W::TRADITIONAL W::HAT)</lisp><word>BOY</word><word>WEARING</word><word>A</word><word>DARK</word><word>BROWN</word><word>TRADITIONAL</word><word>HAT</word></words><tags><lisp>((WORD &quot;boy&quot; :FRAME (14 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a dark-haired boy&quot; :FRAME (0 17) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 24.88 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wearing&quot; :FRAME (18 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (26 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (28 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;brown&quot; :FRAME (33 38) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;traditional&quot; :FRAME (39 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hat&quot; :FRAME (51 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a dark brown traditional hat&quot; :FRAME (26 54) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 44.775 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="boy" start="14" end="17"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-haired boy" start="0" end="17" penn-cats="NP" score="24.88" /><word lex="wearing" start="18" end="25"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="26" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="28" end="32"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="brown" start="33" end="38"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="traditional" start="39" end="50"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="hat" start="51" end="54"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark brown traditional hat" start="26" end="54" penn-cats="NP" score="44.775" /></tags><tree><lisp>(ADJP (ADJ1 (ADJ DARK PUNC-MINUS HAIRED)))</lisp><ADJP><ADJ1><ADJ>DARK PUNC-MINUS HAIRED</ADJ></ADJ1></ADJP></tree><terms root="#V55883"><lisp>((ONT::BARE ONT::V55883 (:* ONT::MALE-CHILD W::BOY) :MOD ONT::V55889 :START 14
+  :END 55)
+ (ONT::F ONT::V55889 (:* ONT::WEAR W::WEAR) :AGENT ONT::V55883 :NEUTRAL
+  ONT::V55955 :VFORM W::ING :START 18 :END 55)
+ (ONT::A ONT::V55955 (:* ONT::ATTIRE W::HAT) :MOD ONT::V55937 :MOD ONT::V55943
+  :MOD ONT::V55952 :START 26 :END 55)
+ (ONT::F ONT::V55937 (:* ONT::DARK-IN-COLOR-VAL W::DARK) :FIGURE ONT::V55955
+  :START 28 :END 33)
+ (ONT::F ONT::V55943 (:* ONT::BROWN W::BROWN) :FIGURE ONT::V55955 :SCALE
+  ONT::BROWNNESS*1--07--00 :START 33 :END 39)
+ (ONT::F ONT::V55952 (:* ONT::CONVENTIONAL-VAL W::TRADITIONAL) :FIGURE
+  ONT::V55955 :START 39 :END 51))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V55883">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MALE-CHILD</LF:type>
+    <LF:word>BOY</LF:word>
+    <role:MOD rdf:resource="#V55889" />
+    <LF:start>14</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V55889">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WEAR</LF:type>
+    <LF:word>WEAR</LF:word>
+    <role:AGENT rdf:resource="#V55883" />
+    <role:NEUTRAL rdf:resource="#V55955" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>18</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V55955">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>HAT</LF:word>
+    <role:MOD rdf:resource="#V55937" />
+    <role:MOD rdf:resource="#V55943" />
+    <role:MOD rdf:resource="#V55952" />
+    <LF:start>26</LF:start>
+    <LF:end>55</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V55937">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DARK-IN-COLOR-VAL</LF:type>
+    <LF:word>DARK</LF:word>
+    <role:FIGURE rdf:resource="#V55955" />
+    <LF:start>28</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V55943">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BROWN</LF:type>
+    <LF:word>BROWN</LF:word>
+    <role:FIGURE rdf:resource="#V55955" />
+    <role:SCALE>BROWNNESS*1--07--00</role:SCALE>
+    <LF:start>33</LF:start>
+    <LF:end>39</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V55952">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONVENTIONAL-VAL</LF:type>
+    <LF:word>TRADITIONAL</LF:word>
+    <role:FIGURE rdf:resource="#V55955" />
+    <LF:start>39</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND W::A W::DARK W::RED W::JACKET W::STANDING W::IN W::FRONT W::OF W::A
+ W::THATCHED W::ROOF)</lisp><word>AND</word><word>A</word><word>DARK</word><word>RED</word><word>JACKET</word><word>STANDING</word><word>IN</word><word>FRONT</word><word>OF</word><word>A</word><word>THATCHED</word><word>ROOF</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (55 58) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (59 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark&quot; :FRAME (61 65) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;red&quot; :FRAME (66 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dark red&quot; :FRAME (61 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;dark_red%1:07:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;jacket&quot; :FRAME (70 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (77 85) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a dark red jacket standing&quot; :FRAME (59 85) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 43.675 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;a dark brown traditional hat and a dark red jacket standing&quot; :FRAME
+  (26 85) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 92.339 :UTTNUM 6 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (86 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing in&quot; :FRAME (77 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;stand_in%2:40:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;front&quot; :FRAME (89 94) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front&quot; :FRAME (89 94) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.944 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in front&quot; :FRAME (86 94) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;in_front%4:02:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (95 97) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (98 99) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;thatched&quot; :FRAME (100 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN JJ) :TRIPS-PARTS-OF-SPEECH (W::V W::ADJ)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;roof&quot; :FRAME (109 113) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;thatched roof&quot; :FRAME (100 113) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;thatched_roof%1:06:00&quot;)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a thatched roof&quot; :FRAME (98 113) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 28.038 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a thatched roof&quot; :FRAME (95 113) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 29.105 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front of a thatched roof&quot; :FRAME (89 113) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 40.591 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in front of a thatched roof&quot; :FRAME (86 113) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 43.799 :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER
+  &quot;wearing a dark brown traditional hat and a dark red jacket standing in front of a thatched roof&quot;
+  :FRAME (18 113) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 147.652 :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (114 114) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 6 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a dark-haired boy wearing a dark brown traditional hat and a dark red jacket standing in front of a thatched roof .&quot;
+  :FRAME (0 114) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 175.973 :UTTNUM 6
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="55" end="58"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="a" start="59" end="60"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="61" end="65"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="red" start="66" end="69"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="dark red" start="61" end="69"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="dark_red%1:07:00" /></word><word lex="jacket" start="70" end="76"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="standing" start="77" end="85"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark red jacket standing" start="59" end="85" penn-cats="NP" score="43.675" /><prefer text="a dark brown traditional hat and a dark red jacket standing" start="26" end="85" penn-cats="NP" score="92.339" /><word lex="in" start="86" end="88"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="standing in" start="77" end="88"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="front" start="89" end="94"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="89" end="94" penn-cats="NP" score="10.944" /><word lex="in front" start="86" end="94"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="95" end="97"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="98" end="99"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="thatched" start="100" end="108"><sense-info penn-parts-of-speech="VBN,JJ" trips-parts-of-speech="V,ADJ" /></word><word lex="roof" start="109" end="113"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="thatched roof" start="100" end="113"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="thatched_roof%1:06:00" /></word><prefer text="a thatched roof" start="98" end="113" penn-cats="NP" score="28.038" /><prefer text="of a thatched roof" start="95" end="113" penn-cats="PP" score="29.105" /><prefer text="front of a thatched roof" start="89" end="113" penn-cats="NP" score="40.591" /><prefer text="in front of a thatched roof" start="86" end="113" penn-cats="PP" score="43.799" /><prefer text="wearing a dark brown traditional hat and a dark red jacket standing in front of a thatched roof" start="18" end="113" penn-cats="VP" score="147.652" /><word lex="." start="114" end="114"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-haired boy wearing a dark brown traditional hat and a dark red jacket standing in front of a thatched roof ." start="0" end="114" penn-cats="NP" score="175.973" /></tags><tree><lisp>(NP
+ (N1 (N1 (N BOY))
+  (CP
+   (VP
+    (VP- (V WEARING)
+     (NP (SPEC (DET (ART A)))
+      (N1 (ADJP (ADJ1 (ADJ DARK)))
+       (N1 (ADJP (ADJ1 (ADJ BROWN)))
+        (N1 (ADJP (ADJ1 (ADJ TRADITIONAL))) (N1 (N HAT)))))))))))</lisp><NP><N1><N1><N>BOY</N></N1><CP><VP><VP-><V>WEARING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>DARK</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>BROWN</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>TRADITIONAL</ADJ></ADJ1></ADJP><N1><N>HAT</N></N1></N1></N1></N1></NP></VP-></VP></CP></N1></NP></tree><terms root="#V56897"><lisp>((ONT::SPEECHACT ONT::V56897 ONT::SA_IDENTIFY :CONTENT ONT::V56037 :MOD
+  ONT::V55960 :START 55 :END 114)
+ (ONT::F ONT::V55960 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V56897 :START 55
+  :END 59)
+ (ONT::BARE ONT::V56037 (:* ONT::BE-AT-LOC W::STAND) :NEUTRAL ONT::V56030
+  :LOCATION ONT::V56052 :START 59 :END 114)
+ (ONT::A ONT::V56030 (:* ONT::ATTIRE W::JACKET) :MOD ONT::V56009 :MOD
+  ONT::V56016 :START 59 :END 77)
+ (ONT::F ONT::V56009 (:* ONT::DARK-VAL W::DARK) :FIGURE ONT::V56030 :START 61
+  :END 66)
+ (ONT::F ONT::V56016 (:* ONT::RED W::RED) :FIGURE ONT::V56030 :SCALE
+  ONT::COLOR-SCALE :START 66 :END 70)
+ (ONT::F ONT::V56052 (:* ONT::IN-LOC W::IN) :GROUND ONT::V56113 :FIGURE
+  ONT::V56037 :START 86 :END 114)
+ (ONT::BARE ONT::V56113 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+  ONT::V56228 :START 89 :END 114)
+ (ONT::A ONT::V56228 (:* ONT::STRUCTURE-EXTERNAL-COMPONENT W::THATCHED-ROOF)
+  :START 95 :END 114 :WNSENSE &quot;thatched_roof%1:06:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V56897">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V56037" />
+    <role:MOD rdf:resource="#V55960" />
+    <LF:start>55</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V55960">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V56897" />
+    <LF:start>55</LF:start>
+    <LF:end>59</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V56037">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BE-AT-LOC</LF:type>
+    <LF:word>STAND</LF:word>
+    <role:NEUTRAL rdf:resource="#V56030" />
+    <role:LOCATION rdf:resource="#V56052" />
+    <LF:start>59</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V56030">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>JACKET</LF:word>
+    <role:MOD rdf:resource="#V56009" />
+    <role:MOD rdf:resource="#V56016" />
+    <LF:start>59</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V56009">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DARK-VAL</LF:type>
+    <LF:word>DARK</LF:word>
+    <role:FIGURE rdf:resource="#V56030" />
+    <LF:start>61</LF:start>
+    <LF:end>66</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V56016">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RED</LF:type>
+    <LF:word>RED</LF:word>
+    <role:FIGURE rdf:resource="#V56030" />
+    <role:SCALE>COLOR-SCALE</role:SCALE>
+    <LF:start>66</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V56052">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V56113" />
+    <role:FIGURE rdf:resource="#V56037" />
+    <LF:start>86</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V56113">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>FRONT</LF:word>
+    <role:FIGURE rdf:resource="#V56228" />
+    <LF:start>89</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V56228">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>STRUCTURE-EXTERNAL-COMPONENT</LF:type>
+    <LF:word>THATCHED-ROOF</LF:word>
+    <LF:start>95</LF:start>
+    <LF:end>114</LF:end>
+    <role:WNSENSE>thatched_roof%1:06:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there are many books on the table .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+37
+*last-utt-id*=37  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::ARE W::MANY W::BOOKS W::ON W::THE W::TABLE W::PUNC-PERIOD)</lisp><word>THERE</word><word>ARE</word><word>MANY</word><word>BOOKS</word><word>ON</word><word>THE</word><word>TABLE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 37
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (6 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 37
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;many&quot; :FRAME (10 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 37
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;books&quot; :FRAME (15 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 37
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;many books&quot; :FRAME (10 20) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  14.734 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (21 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (24 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;table&quot; :FRAME (28 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 37
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the table&quot; :FRAME (24 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.209 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on the table&quot; :FRAME (21 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;on_the_table%5:00:00&quot;)))
+  :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on the table&quot; :FRAME (21 33) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.714 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;many books on the table&quot; :FRAME (10 33) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 29.854 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;are many books on the table&quot; :FRAME (6 33) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 36.447 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (34 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there are many books on the table .&quot; :FRAME (0 34) :PENN-CATS (S)
+  :SCORE 42.107 :UTTNUM 37 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="are" start="6" end="9"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="many" start="10" end="14"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="books" start="15" end="20"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="many books" start="10" end="20" penn-cats="NP" score="14.734" /><word lex="on" start="21" end="23"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="24" end="27"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="table" start="28" end="33"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the table" start="24" end="33" penn-cats="NP" score="11.209" /><word lex="on the table" start="21" end="33"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="on_the_table%5:00:00" /></word><prefer text="on the table" start="21" end="33" penn-cats="PP" score="14.714" /><prefer text="many books on the table" start="10" end="33" penn-cats="NP" score="29.854" /><prefer text="are many books on the table" start="6" end="33" penn-cats="VP" score="36.447" /><word lex="." start="34" end="34"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there are many books on the table ." start="0" end="34" penn-cats="S" score="42.107" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V ARE)
+     (NP (SPEC (QUAN MANY))
+      (N1 (N1 (N BOOKS))
+       (ADVBL (ADV ON) (NP (SPEC (DET (ART THE))) (N1 (N TABLE))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>ARE</V><NP><SPEC><QUAN>MANY</QUAN></SPEC><N1><N1><N>BOOKS</N></N1><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>TABLE</N></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V170365"><lisp>((ONT::SPEECHACT ONT::V170365 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V170181 :START 0 :END 34)
+ (ONT::F ONT::V170181 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V170196 :TENSE
+  W::PRES :START 0 :END 34)
+ (ONT::PRO ONT::V170169 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::INDEF-SET ONT::V170196 (:* ONT::BOOK W::BOOK) :SIZE ONT::MANY :LOCATION
+  ONT::V170205 :START 10 :END 34)
+ (ONT::F ONT::V170205 (:* ONT::ON W::ON) :GROUND ONT::V170234 :FIGURE
+  ONT::V170196 :START 21 :END 34)
+ (ONT::THE ONT::V170234 (:* ONT::TABLE W::TABLE) :START 24 :END 34))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V170365">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V170181" />
+    <LF:start>0</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170181">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V170196" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170169">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170196">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>BOOK</LF:type>
+    <LF:word>BOOK</LF:word>
+    <role:SIZE>MANY</role:SIZE>
+    <role:LOCATION rdf:resource="#V170205" />
+    <LF:start>10</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170205">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V170234" />
+    <role:FIGURE rdf:resource="#V170196" />
+    <LF:start>21</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170234">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>TABLE</LF:type>
+    <LF:word>TABLE</LF:word>
+    <LF:start>24</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

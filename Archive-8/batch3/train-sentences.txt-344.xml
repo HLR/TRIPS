@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one tourist is holding one kid in the background .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+33
+*last-utt-id*=33  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::TOURIST W::IS W::HOLDING W::ONE W::KID W::IN W::THE W::BACKGROUND
+ W::PUNC-PERIOD)</lisp><word>ONE</word><word>TOURIST</word><word>IS</word><word>HOLDING</word><word>ONE</word><word>KID</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tourist&quot; :FRAME (4 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one tourist&quot; :FRAME (0 11) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  18.286 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (12 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;holding&quot; :FRAME (15 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 33
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (23 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kid&quot; :FRAME (27 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one kid&quot; :FRAME (23 30) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  18.472 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (31 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (34 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (38 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 33
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (34 48) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (31 48) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one kid in the background&quot; :FRAME (23 48) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 33.102 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;holding one kid in the background&quot; :FRAME (15 48) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 40.91 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is holding one kid in the background&quot; :FRAME (12 48) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 45.17 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (49 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one tourist is holding one kid in the background .&quot; :FRAME (0 49)
+  :PENN-CATS (S) :SCORE 64.598 :UTTNUM 33 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="tourist" start="4" end="11"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one tourist" start="0" end="11" penn-cats="NP" score="18.286" /><word lex="is" start="12" end="14"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="holding" start="15" end="22"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="one" start="23" end="26"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="kid" start="27" end="30"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one kid" start="23" end="30" penn-cats="NP" score="18.472" /><word lex="in" start="31" end="33"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="34" end="37"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="38" end="48"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="34" end="48" penn-cats="NP" score="11.972" /><prefer text="in the background" start="31" end="48" penn-cats="PP" score="14.224" /><prefer text="one kid in the background" start="23" end="48" penn-cats="NP" score="33.102" /><prefer text="holding one kid in the background" start="15" end="48" penn-cats="VP" score="40.91" /><prefer text="is holding one kid in the background" start="12" end="48" penn-cats="VP" score="45.17" /><word lex="." start="49" end="49"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one tourist is holding one kid in the background ." start="0" end="49" penn-cats="S" score="64.598" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (NUMBER ONE)) (N1 (N TOURIST)))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (VP- (V HOLDING) (NP (SPEC (NUMBER ONE)) (N1 (N KID))))
+      (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>TOURIST</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>HOLDING</V><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>KID</N></N1></NP></VP-><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V172877"><lisp>((ONT::SPEECHACT ONT::V172877 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V172328 :START 0 :END 49)
+ (ONT::F ONT::V172328 (:* ONT::BODY-MANIPULATION W::HOLD) :RESULT ONT::V172356
+  :AGENT ONT::V172304 :AFFECTED ONT::V172349 :TENSE W::PRES :PROGR + :START 0
+  :END 49)
+ (ONT::A ONT::V172304 (:* ONT::TRAVELLER W::TOURIST) :SIZE ONT::V172421 :START
+  0 :END 12)
+ (ONT::A ONT::V172421 ONT::NUMBER :VALUE 1 :START 0 :END 12)
+ (ONT::A ONT::V172349 (:* ONT::CHILD W::KID) :SIZE ONT::V172435 :START 23 :END
+  31)
+ (ONT::A ONT::V172435 ONT::NUMBER :VALUE 1 :START 23 :END 31)
+ (ONT::F ONT::V172356 (:* ONT::IN-LOC W::IN) :GROUND ONT::V172412 :FIGURE
+  ONT::V172349 :START 31 :END 49)
+ (ONT::THE ONT::V172412 (:* ONT::IMAGE W::BACKGROUND) :START 34 :END 49))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V172877">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V172328" />
+    <LF:start>0</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V172328">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MANIPULATION</LF:type>
+    <LF:word>HOLD</LF:word>
+    <role:RESULT rdf:resource="#V172356" />
+    <role:AGENT rdf:resource="#V172304" />
+    <role:AFFECTED rdf:resource="#V172349" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V172304">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>TRAVELLER</LF:type>
+    <LF:word>TOURIST</LF:word>
+    <role:SIZE rdf:resource="#V172421" />
+    <LF:start>0</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V172421">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V172349">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:SIZE rdf:resource="#V172435" />
+    <LF:start>23</LF:start>
+    <LF:end>31</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V172435">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>23</LF:start>
+    <LF:end>31</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V172356">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V172412" />
+    <role:FIGURE rdf:resource="#V172349" />
+    <LF:start>31</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V172412">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>34</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

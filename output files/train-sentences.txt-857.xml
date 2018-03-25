@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="55">
+   <TEXT>arched entrance to a hotel with a revolving glass door a</TEXT>
+   <RELATION id="1" head="V276051" res="V272874" label="CONTENT"/>
+   <PHRASE id="V272874" indicator="F" type="CHANGE" text="ARCHED" TENSE="PAST" start="0" end="55"/>
+   <RELATION id="2" head="V272874" res="V272891" label="RESULT"/>
+   <RELATION id="3" head="V272874" res="V276052" label="AGENT"/>
+   <RELATION id="4" head="V272874" res="V272884" label="AFFECTED"/>
+   <PHRASE id="V276052" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="0" end="55"/>
+   <RELATION id="5" head="V276052" res="V272954" label="COREF"/>
+   <PHRASE id="V272884" indicator="BARE" type="EXIT" text="ENTRANCE" start="7" end="16"/>
+   <PHRASE id="V272891" indicator="F" type="TO-LOC" text="TO" start="16" end="55"/>
+   <RELATION id="6" head="V272891" res="V272954" label="GROUND"/>
+   <RELATION id="7" head="V272891" res="V272884" label="FIGURE"/>
+   <PHRASE id="V272954" indicator="A" type="ACCOMMODATION" text="HOTEL" start="19" end="55"/>
+   <RELATION id="8" head="V272954" res="V272959" label="MOD"/>
+   <PHRASE id="V272959" indicator="F" type="ASSOC-WITH" text="WITH" start="27" end="55"/>
+   <RELATION id="9" head="V272959" res="V273023" label="GROUND"/>
+   <RELATION id="10" head="V272959" res="V272954" label="FIGURE"/>
+   <PHRASE id="V273023" indicator="A" type="STRUCTURAL-OPENING" text="DOOR" start="32" end="55"/>
+   <RELATION id="11" head="V273023" res="V273019" label="ASSOC-WITH"/>
+   <RELATION id="12" head="V273023" res="V273013" label="MOD"/>
+   <PHRASE id="V273019" indicator="KIND" type="SOLID-SUBSTANCE" text="GLASS" start="32" end="55"/>
+   <PHRASE id="V273013" indicator="F" type="ROTATE" text="REVOLVE" start="34" end="44"/>
+   <RELATION id="13" head="V273013" res="V273023" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="55" end="114">
+   <TEXT>and a well exposed flower pot on each side of the entrance .</TEXT>
+   <RELATION id="14" head="V274566" res="V273101" label="CONTENT"/>
+   <RELATION id="15" head="V274566" res="V273028" label="MOD"/>
+   <PHRASE id="V273028" indicator="F" type="CONJUNCT" text="AND" start="55" end="59"/>
+   <RELATION id="16" head="V273028" res="V274566" label="FIGURE"/>
+   <PHRASE id="V273101" indicator="A" type="POT" text="POT" start="59" end="114"/>
+   <RELATION id="17" head="V273101" res="V273096" label="ASSOC-WITH"/>
+   <RELATION id="18" head="V273101" res="V273109" label="LOCATION"/>
+   <RELATION id="19" head="V273101" res="V273089" label="MOD"/>
+   <PHRASE id="V273096" indicator="KIND" type="PLANT" text="FLOWER" start="59" end="114"/>
+   <PHRASE id="V273089" indicator="F" type="VISUAL-DISPLAY" text="EXPOSE" start="61" end="74"/>
+   <RELATION id="20" head="V273089" res="V273101" label="AFFECTED"/>
+   <RELATION id="21" head="V273089" res="V273080" label="DEGREE"/>
+   <PHRASE id="V273080" indicator="F" type="DEGREE-MODIFIER-HIGH" text="WELL" start="61" end="66"/>
+   <RELATION id="22" head="V273080" res="V273089" label="FIGURE"/>
+   <PHRASE id="V273109" indicator="F" type="ON" text="ON" start="85" end="114"/>
+   <RELATION id="23" head="V273109" res="V273138" label="GROUND"/>
+   <RELATION id="24" head="V273109" res="V273101" label="FIGURE"/>
+   <PHRASE id="V273138" indicator="QUANTIFIER" type="SIDE-LOCATION" text="SIDE" QUAN="EACH" start="88" end="114"/>
+   <RELATION id="25" head="V273138" res="V273160" label="FIGURE"/>
+   <PHRASE id="V273160" indicator="THE" type="EXIT" text="ENTRANCE" start="98" end="114"/>
+   <RELATION id="26" head="V273160" res="V272884" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

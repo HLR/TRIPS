@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a couple of rocks are lying around in the meadow just behind the girl .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?29692:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V77707)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?29690)
+                                           (W::TRANSFORM ?29691)))
+                                 (W::CASE ?29689:(W::SUB W::OBJ -))
+                                 (W::AGR ?29688) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V77707) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER77749))
+*last-utt-id*=NIL  utt-id+11
+*last-utt-id*=11  utt-id+11
+*last-utt-id*=11  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::A W::COUPLE W::OF W::ROCKS)</lisp><word>A</word><word>COUPLE</word><word>OF</word><word>ROCKS</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;couple&quot; :FRAME (2 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a couple&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.736 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (9 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a couple of&quot; :FRAME (0 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+    (&quot;a_couple_of%5:00:00&quot;)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rocks&quot; :FRAME (12 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rocks&quot; :FRAME (12 17) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.149 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of rocks&quot; :FRAME (9 17) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  13.217 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a couple of rocks&quot; :FRAME (0 17) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 24.319 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="couple" start="2" end="8"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a couple" start="0" end="8" penn-cats="NP" score="10.736" /><word lex="of" start="9" end="11"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a couple of" start="0" end="11"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="a_couple_of%5:00:00" /></word><word lex="rocks" start="12" end="17"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="rocks" start="12" end="17" penn-cats="NP" score="12.149" /><prefer text="of rocks" start="9" end="17" penn-cats="PP" score="13.217" /><prefer text="a couple of rocks" start="0" end="17" penn-cats="NP" score="24.319" /></tags><tree><lisp>(NP (SPEC (QUAN (WORD A) (WORD COUPLE))) (PP (PREP OF) (NP (N1 (N ROCKS)))))</lisp><NP><SPEC><QUAN><WORD>A</WORD><WORD>COUPLE</WORD></QUAN></SPEC><PP><PREP>OF</PREP><NP><N1><N>ROCKS</N></N1></NP></PP></NP></tree><terms root="#V77155"><lisp>((ONT::INDEF-SET ONT::V77155 (:* ONT::NATURAL-OBJECT W::ROCK) :REFSET
+  ONT::V76916 :SIZE ONT::A-FEW :START 0 :END 18)
+ (ONT::INDEF-SET ONT::V76916 (:* ONT::NATURAL-OBJECT W::ROCK) :START 9 :END 18))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V77155">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NATURAL-OBJECT</LF:type>
+    <LF:word>ROCK</LF:word>
+    <role:REFSET rdf:resource="#V76916" />
+    <role:SIZE>A-FEW</role:SIZE>
+    <LF:start>0</LF:start>
+    <LF:end>18</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76916">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NATURAL-OBJECT</LF:type>
+    <LF:word>ROCK</LF:word>
+    <LF:start>9</LF:start>
+    <LF:end>18</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::ARE W::LYING W::AROUND W::IN W::THE W::MEADOW W::JUST W::BEHIND W::THE
+ W::GIRL W::PUNC-PERIOD)</lisp><word>ARE</word><word>LYING</word><word>AROUND</word><word>IN</word><word>THE</word><word>MEADOW</word><word>JUST</word><word>BEHIND</word><word>THE</word><word>GIRL</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;are&quot; :FRAME (18 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;lying&quot; :FRAME (22 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;around&quot; :FRAME (28 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN RP) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::ADV W::PART)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;around&quot; :FRAME (28 34) :PENN-CATS (PRT) :TRIPS-CATS (W::PART) :SCORE
+  4.777 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (35 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (38 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;meadow&quot; :FRAME (42 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the meadow&quot; :FRAME (38 48) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.003 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the meadow&quot; :FRAME (35 48) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 17.228 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;just&quot; :FRAME (49 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;just&quot; :FRAME (49 53) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL) :SCORE
+  4.572 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;behind&quot; :FRAME (54 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (61 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;girl&quot; :FRAME (65 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the girl&quot; :FRAME (61 69) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.744 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;just behind the girl&quot; :FRAME (49 69) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 29.517 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;lying around in the meadow just behind the girl&quot; :FRAME (22 69)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 66.582 :UTTNUM 11 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;are lying around in the meadow just behind the girl&quot; :FRAME (18 69)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 70.945 :UTTNUM 11 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (70 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a couple of rocks are lying around in the meadow just behind the girl .&quot;
+  :FRAME (0 70) :PENN-CATS (S) :SCORE 98.093 :UTTNUM 11 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="are" start="18" end="21"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="lying" start="22" end="27"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="around" start="28" end="34"><sense-info penn-parts-of-speech="IN,RP" trips-parts-of-speech="PREP,ADV,PART" /></word><prefer text="around" start="28" end="34" penn-cats="PRT" score="4.777" /><word lex="in" start="35" end="37"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="38" end="41"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="meadow" start="42" end="48"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the meadow" start="38" end="48" penn-cats="NP" score="15.003" /><prefer text="in the meadow" start="35" end="48" penn-cats="PP" score="17.228" /><word lex="just" start="49" end="53"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="just" start="49" end="53" penn-cats="ADVP" score="4.572" /><word lex="behind" start="54" end="60"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="61" end="64"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="girl" start="65" end="69"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the girl" start="61" end="69" penn-cats="NP" score="12.744" /><prefer text="just behind the girl" start="49" end="69" penn-cats="PP" score="29.517" /><prefer text="lying around in the meadow just behind the girl" start="22" end="69" penn-cats="VP" score="66.582" /><prefer text="are lying around in the meadow just behind the girl" start="18" end="69" penn-cats="VP" score="70.945" /><word lex="." start="70" end="70"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a couple of rocks are lying around in the meadow just behind the girl ." start="0" end="70" penn-cats="S" score="98.093" /></tags><tree><lisp>(UTT
+ (UTT
+  (VP
+   (VP-
+    (VP-
+     (VP- (V ARE)
+      (NP
+       (N1 (N1 (N1 (V LYING)) (ADVBL (ADV AROUND)))
+        (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N MEADOW)))))))
+     (ADVBL (ADV JUST)))
+    (ADVBL (ADV BEHIND) (NP (SPEC (DET (ART THE))) (N1 (N GIRL)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><VP><VP-><VP-><VP-><V>ARE</V><NP><N1><N1><N1><V>LYING</V></N1><ADVBL><ADV>AROUND</ADV></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>MEADOW</N></N1></NP></ADVBL></N1></NP></VP-><ADVBL><ADV>JUST</ADV></ADVBL></VP-><ADVBL><ADV>BEHIND</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>GIRL</N></N1></NP></ADVBL></VP-></VP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V78995"><lisp>((ONT::SPEECHACT ONT::V78995 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V76925 :START 18 :END 70)
+ (ONT::F ONT::V76925 (:* ONT::BE W::BE) :NEUTRAL1 ONT::V76944 :LOCATION
+  ONT::V77041 :MOD ONT::V77034 :TENSE W::PRES :START 18 :END 70)
+ (ONT::BARE ONT::V76944 (:* ONT::BE-AT-LOC W::LIE) :LOCATION ONT::V76968 :MOD
+  ONT::V76953 :START 22 :END 49)
+ (ONT::F ONT::V76953 (:* ONT::AROUND W::AROUND) :GROUND ONT::V77224 :FIGURE
+  ONT::V76944 :START 28 :END 35)
+ (ONT::IMPRO ONT::V77224 ONT::ANY-SEM :START 28 :END 35 :COREF ONT::V77025)
+ (ONT::F ONT::V76968 (:* ONT::IN-LOC W::IN) :GROUND ONT::V77025 :FIGURE
+  ONT::V76944 :START 35 :END 49)
+ (ONT::THE ONT::V77025 (:* ONT::GEO-FORMATION W::MEADOW) :START 38 :END 49)
+ (ONT::F ONT::V77034 (:* ONT::MODIFIER W::JUST) :FIGURE ONT::V76925 :START 49
+  :END 54)
+ (ONT::F ONT::V77041 (:* ONT::BACK W::BEHIND) :GROUND ONT::V77051 :FIGURE
+  ONT::V76925 :START 54 :END 70)
+ (ONT::THE ONT::V77051 (:* ONT::FEMALE-CHILD W::GIRL) :START 61 :END 70))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V78995">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V76925" />
+    <LF:start>18</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76925">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL1 rdf:resource="#V76944" />
+    <role:LOCATION rdf:resource="#V77041" />
+    <role:MOD rdf:resource="#V77034" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>18</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76944">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BE-AT-LOC</LF:type>
+    <LF:word>LIE</LF:word>
+    <role:LOCATION rdf:resource="#V76968" />
+    <role:MOD rdf:resource="#V76953" />
+    <LF:start>22</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76953">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AROUND</LF:type>
+    <LF:word>AROUND</LF:word>
+    <role:GROUND rdf:resource="#V77224" />
+    <role:FIGURE rdf:resource="#V76944" />
+    <LF:start>28</LF:start>
+    <LF:end>35</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V77224">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <LF:start>28</LF:start>
+    <LF:end>35</LF:end>
+    <role:COREF rdf:resource="#V77025" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76968">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V77025" />
+    <role:FIGURE rdf:resource="#V76944" />
+    <LF:start>35</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V77025">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GEO-FORMATION</LF:type>
+    <LF:word>MEADOW</LF:word>
+    <LF:start>38</LF:start>
+    <LF:end>49</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V77034">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>JUST</LF:word>
+    <role:FIGURE rdf:resource="#V76925" />
+    <LF:start>49</LF:start>
+    <LF:end>54</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V77041">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BACK</LF:type>
+    <LF:word>BEHIND</LF:word>
+    <role:GROUND rdf:resource="#V77051" />
+    <role:FIGURE rdf:resource="#V76925" />
+    <LF:start>54</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V77051">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>FEMALE-CHILD</LF:type>
+    <LF:word>GIRL</LF:word>
+    <LF:start>61</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

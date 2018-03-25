@@ -1,0 +1,15 @@
+digraph Terms {
+  node [shape=none]
+  "ALSO A BLACKBOARD IN THE BACKGROUND PUNC-PERIOD"
+  "V403851" [label="(SPEECHACT V403851 SA_IDENTIFY)"]
+  "V403851" -> "V403750" [label=":CONTENT"]
+  "V403851" -> "V403704" [label=":MOD"]
+  "V403704" [label="(F V403704 (:* CONJUNCT ALSO))"]
+  "V403704" -> "V403851" [label=":FIGURE"]
+  "V403750" [label="(A V403750 (:* DISPLAY BLACKBOARD))"]
+  "V403750" -> "V403757" [label=":LOCATION"]
+  "V403757" [label="(F V403757 (:* IN-LOC IN))"]
+  "V403757" -> "V403813" [label=":GROUND"]
+  "V403757" -> "V403750" [label=":FIGURE"]
+  "V403813" [label="(THE V403813 (:* IMAGE BACKGROUND))"]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="33">
+   <TEXT>a dark-haired , dark-skinned boy w</TEXT>
+   <RELATION id="1" head="V63812" res="V63778" label="MOD"/>
+   <RELATION id="2" head="V63812" res="V63785" label="MOD"/>
+   <RELATION id="3" head="V63812" res="V63795" label="MOD"/>
+   <PHRASE id="V63778" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V63778" res="V63812" label="FIGURE"/>
+   <PHRASE id="V63785" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="16" end="20"/>
+   <RELATION id="5" head="V63785" res="V63812" label="FIGURE"/>
+   <PHRASE id="V63795" indicator="F" type="MOVE" text="SKINNED" start="21" end="29"/>
+   <RELATION id="6" head="V63795" res="V63812" label="AFFECTED"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="33" end="94">
+   <TEXT>wearing a blue jumper with yellow shoulders and a yellow zip .</TEXT>
+   <RELATION id="7" head="V65334" res="V63818" label="CONTENT"/>
+   <PHRASE id="V63818" indicator="BARE" type="WEAR" text="WEAR" start="33" end="94"/>
+   <RELATION id="8" head="V63818" res="V63878" label="NEUTRAL"/>
+   <PHRASE id="V63878" indicator="A" type="PERSON" text="JUMPER" start="41" end="94"/>
+   <RELATION id="9" head="V63878" res="V63885" label="MOD"/>
+   <RELATION id="10" head="V63878" res="V63865" label="MOD"/>
+   <PHRASE id="V63865" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="43" end="48"/>
+   <RELATION id="11" head="V63865" res="V63878" label="FIGURE"/>
+   <PHRASE id="V63885" indicator="F" type="ASSOC-WITH" text="WITH" start="55" end="94"/>
+   <RELATION id="12" head="V63885" res="V63906" label="GROUND"/>
+   <RELATION id="13" head="V63885" res="V63878" label="FIGURE"/>
+   <PHRASE id="V63906" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="60" end="94"/>
+   <RELATION id="14" head="V63906" res="V63902" label="SEQUENCE"/>
+   <RELATION id="15" head="V63906" res="V63969" label="SEQUENCE1"/>
+   <PHRASE id="V63902" indicator="INDEF-SET" type="EXTERNAL-BODY-PART" text="SHOULDER" start="60" end="77"/>
+   <RELATION id="16" head="V63902" res="V63897" label="MOD"/>
+   <PHRASE id="V63897" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="60" end="67"/>
+   <RELATION id="17" head="V63897" res="V63902" label="FIGURE"/>
+   <PHRASE id="V63969" indicator="A" type="QUANTITY" text="ZIP" start="81" end="94"/>
+   <RELATION id="18" head="V63969" res="V63956" label="MOD"/>
+   <PHRASE id="V63956" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="83" end="90"/>
+   <RELATION id="19" head="V63956" res="V63969" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

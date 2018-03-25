@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="80">
+   <TEXT>a large black and red saurian next to a small black saurian on some sandy rocks .</TEXT>
+   <RELATION id="1" head="V187318" res="V182804" label="CONTENT"/>
+   <PHRASE id="V182804" indicator="F" type="MOVE-BACK-AND-FORTH" text="ROCK" TENSE="PRES" start="0" end="80"/>
+   <RELATION id="2" head="V182804" res="V182677" label="AFFECTED"/>
+   <RELATION id="3" head="V182804" res="V182681" label="RESULT"/>
+   <RELATION id="4" head="V182804" res="V182768" label="TIME"/>
+   <PHRASE id="V182677" indicator="A" type="REPTILE" text="SAURIAN" start="0" end="30"/>
+   <RELATION id="5" head="V182677" res="V182653" label="MOD"/>
+   <RELATION id="6" head="V182677" res="V182853" label="MOD"/>
+   <PHRASE id="V182653" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="2" end="8"/>
+   <RELATION id="7" head="V182653" res="V182677" label="FIGURE"/>
+   <PHRASE id="V182853" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="8" end="22"/>
+   <RELATION id="8" head="V182853" res="V182656" label="SEQUENCE"/>
+   <RELATION id="9" head="V182853" res="V182669" label="SEQUENCE1"/>
+   <PHRASE id="V182656" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="8" end="14"/>
+   <RELATION id="10" head="V182656" res="V182677" label="FIGURE"/>
+   <PHRASE id="V182669" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="18" end="22"/>
+   <RELATION id="11" head="V182669" res="V182677" label="FIGURE"/>
+   <PHRASE id="V182681" indicator="F" type="ADJACENT" text="NEXT-TO" start="30" end="60"/>
+   <RELATION id="12" head="V182681" res="V182762" label="GROUND"/>
+   <RELATION id="13" head="V182681" res="V182804" label="FIGURE"/>
+   <PHRASE id="V182762" indicator="A" type="REPTILE" text="SAURIAN" start="38" end="60"/>
+   <RELATION id="14" head="V182762" res="V182755" label="MOD"/>
+   <RELATION id="15" head="V182762" res="V182758" label="MOD"/>
+   <PHRASE id="V182755" indicator="F" type="SMALL" text="SMALL" ORIENTATION="LESS" INTENSITY="MED" SCALE="SIZE-SCALE" start="40" end="46"/>
+   <RELATION id="16" head="V182755" res="V182762" label="FIGURE"/>
+   <PHRASE id="V182758" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="46" end="52"/>
+   <RELATION id="17" head="V182758" res="V182762" label="FIGURE"/>
+   <PHRASE id="V182768" indicator="F" type="TIME-WEEKDAY-REL" text="ON" start="60" end="74"/>
+   <RELATION id="18" head="V182768" res="V182957" label="GROUND"/>
+   <RELATION id="19" head="V182768" res="V182804" label="FIGURE"/>
+   <PHRASE id="V182957" indicator="INDEF-SET" type="ANY-SEM" SIZE="SOME" start="63" end="74"/>
+   <RELATION id="20" head="V182957" res="V182800" label="MOD"/>
+   <PHRASE id="V182800" indicator="F" type="MODIFIER" text="SANDY" start="68" end="74"/>
+   <RELATION id="21" head="V182800" res="V182957" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

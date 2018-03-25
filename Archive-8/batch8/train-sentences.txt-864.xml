@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="there is an arch below the stairs leading to the entrance of the first floor .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+43
+*last-utt-id*=43  utt-id+NIL</debug><utt><words><lisp>(W::THERE W::IS W::AN W::ARCH W::BELOW W::THE W::STAIRS W::LEADING W::TO W::THE
+ W::ENTRANCE W::OF W::THE W::FIRST W::FLOOR W::PUNC-PERIOD)</lisp><word>THERE</word><word>IS</word><word>AN</word><word>ARCH</word><word>BELOW</word><word>THE</word><word>STAIRS</word><word>LEADING</word><word>TO</word><word>THE</word><word>ENTRANCE</word><word>OF</word><word>THE</word><word>FIRST</word><word>FLOOR</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;there&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (EX) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;there&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 4.519
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;an&quot; :FRAME (9 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;arch&quot; :FRAME (12 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;an arch&quot; :FRAME (9 16) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  16.886 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;below&quot; :FRAME (17 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (23 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stairs&quot; :FRAME (27 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the stairs&quot; :FRAME (23 33) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.64 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;leading&quot; :FRAME (34 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (42 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (45 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;entrance&quot; :FRAME (49 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the entrance&quot; :FRAME (45 57) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.401 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (58 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (61 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;first&quot; :FRAME (65 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;floor&quot; :FRAME (71 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;first floor&quot; :FRAME (65 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;first_floor%1:06:00&quot;)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the first floor&quot; :FRAME (61 76) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 15.085 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of the first floor&quot; :FRAME (58 76) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 16.152 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the entrance of the first floor&quot; :FRAME (45 76) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 31.094 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;to the entrance of the first floor&quot; :FRAME (42 76) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 34.662 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;leading to the entrance of the first floor&quot; :FRAME (34 76) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :SCORE 43.177 :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;the stairs leading to the entrance of the first floor&quot; :FRAME (23 76)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 61.854 :UTTNUM 43 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;below the stairs leading to the entrance of the first floor&quot; :FRAME
+  (17 76) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 70.032 :UTTNUM 43 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;an arch below the stairs leading to the entrance of the first floor&quot;
+  :FRAME (9 76) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 88.347 :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;is an arch below the stairs leading to the entrance of the first floor&quot;
+  :FRAME (6 76) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 93.12 :UTTNUM 43
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (77 77) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 43 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;there is an arch below the stairs leading to the entrance of the first floor .&quot;
+  :FRAME (0 77) :PENN-CATS (S) :SCORE 98.78 :UTTNUM 43 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="there" start="0" end="5"><sense-info penn-parts-of-speech="EX" trips-parts-of-speech="PRO" /></word><prefer text="there" start="0" end="5" penn-cats="NP" score="4.519" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="an" start="9" end="11"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="arch" start="12" end="16"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="an arch" start="9" end="16" penn-cats="NP" score="16.886" /><word lex="below" start="17" end="22"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="23" end="26"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="stairs" start="27" end="33"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the stairs" start="23" end="33" penn-cats="NP" score="15.64" /><word lex="leading" start="34" end="41"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="to" start="42" end="44"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="the" start="45" end="48"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="entrance" start="49" end="57"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the entrance" start="45" end="57" penn-cats="NP" score="14.401" /><word lex="of" start="58" end="60"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="61" end="64"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="first" start="65" end="70"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="floor" start="71" end="76"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="first floor" start="65" end="76"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="first_floor%1:06:00" /></word><prefer text="the first floor" start="61" end="76" penn-cats="NP" score="15.085" /><prefer text="of the first floor" start="58" end="76" penn-cats="PP" score="16.152" /><prefer text="the entrance of the first floor" start="45" end="76" penn-cats="NP" score="31.094" /><prefer text="to the entrance of the first floor" start="42" end="76" penn-cats="PP" score="34.662" /><prefer text="leading to the entrance of the first floor" start="34" end="76" penn-cats="VP" score="43.177" /><prefer text="the stairs leading to the entrance of the first floor" start="23" end="76" penn-cats="NP" score="61.854" /><prefer text="below the stairs leading to the entrance of the first floor" start="17" end="76" penn-cats="PP" score="70.032" /><prefer text="an arch below the stairs leading to the entrance of the first floor" start="9" end="76" penn-cats="NP" score="88.347" /><prefer text="is an arch below the stairs leading to the entrance of the first floor" start="6" end="76" penn-cats="VP" score="93.12" /><word lex="." start="77" end="77"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="there is an arch below the stairs leading to the entrance of the first floor ." start="0" end="77" penn-cats="S" score="98.78" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (PRO THERE))
+   (VP
+    (VP- (V IS)
+     (NP (SPEC (DET (ART AN)))
+      (N1 (N1 (N ARCH))
+       (ADVBL (ADV BELOW)
+        (NP (SPEC (DET (ART THE)))
+         (N1 (N1 (N STAIRS))
+          (CP
+           (VP
+            (VP- (VP- (V LEADING))
+             (ADVBL (ADV TO)
+              (NP (SPEC (DET (ART THE)))
+               (N1 (N ENTRANCE)
+                (PP (PREP OF)
+                 (NP (SPEC (DET (ART THE)))
+                  (N1 (N FIRST FLOOR)))))))))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><PRO>THERE</PRO></NP><VP><VP-><V>IS</V><NP><SPEC><DET><ART>AN</ART></DET></SPEC><N1><N1><N>ARCH</N></N1><ADVBL><ADV>BELOW</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>STAIRS</N></N1><CP><VP><VP-><VP-><V>LEADING</V></VP-><ADVBL><ADV>TO</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>ENTRANCE</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>FIRST FLOOR</N></N1></NP></PP></N1></NP></ADVBL></VP-></VP></CP></N1></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V308342"><lisp>((ONT::SPEECHACT ONT::V308342 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V300851 :START 0 :END 77)
+ (ONT::F ONT::V300851 (:* ONT::EXISTS W::BE) :NEUTRAL ONT::V300866 :TENSE
+  W::PRES :START 0 :END 77)
+ (ONT::PRO ONT::V300838 ONT::EXPLETIVE :PROFORM W::THERE :START 0 :END 6)
+ (ONT::A ONT::V300866 (:* ONT::DOMAIN W::ARCH) :LOCATION ONT::V300872 :START 9
+  :END 77)
+ (ONT::F ONT::V300872 (:* ONT::BELOW W::BELOW) :GROUND ONT::V300886 :FIGURE
+  ONT::V300866 :START 17 :END 77)
+ (ONT::THE ONT::V300886 (:* ONT::STAIRS W::STAIRS) :MOD ONT::V300895 :START 23
+  :END 77)
+ (ONT::F ONT::V300895 (:* ONT::GUIDING W::LEAD) :RESULT ONT::V300904 :AGENT
+  ONT::V300886 :VFORM W::ING :START 34 :END 77)
+ (ONT::F ONT::V300904 (:* ONT::TO-LOC W::TO) :GROUND ONT::V300935 :FIGURE
+  ONT::V300886 :START 42 :END 77)
+ (ONT::THE ONT::V300935 (:* ONT::EXIT W::ENTRANCE) :FIGURE ONT::V300976 :START
+  45 :END 77)
+ (ONT::THE ONT::V300976 (:* ONT::MANUFACTURED-OBJECT W::FIRST-FLOOR) :START 58
+  :END 77 :WNSENSE &quot;first_floor%1:06:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V308342">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V300851" />
+    <LF:start>0</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300851">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXISTS</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V300866" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300838">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>EXPLETIVE</LF:type>
+    <role:PROFORM>THERE</role:PROFORM>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300866">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>DOMAIN</LF:type>
+    <LF:word>ARCH</LF:word>
+    <role:LOCATION rdf:resource="#V300872" />
+    <LF:start>9</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300872">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BELOW</LF:type>
+    <LF:word>BELOW</LF:word>
+    <role:GROUND rdf:resource="#V300886" />
+    <role:FIGURE rdf:resource="#V300866" />
+    <LF:start>17</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300886">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>STAIRS</LF:type>
+    <LF:word>STAIRS</LF:word>
+    <role:MOD rdf:resource="#V300895" />
+    <LF:start>23</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300895">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>GUIDING</LF:type>
+    <LF:word>LEAD</LF:word>
+    <role:RESULT rdf:resource="#V300904" />
+    <role:AGENT rdf:resource="#V300886" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>34</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300904">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TO-LOC</LF:type>
+    <LF:word>TO</LF:word>
+    <role:GROUND rdf:resource="#V300935" />
+    <role:FIGURE rdf:resource="#V300886" />
+    <LF:start>42</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300935">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>EXIT</LF:type>
+    <LF:word>ENTRANCE</LF:word>
+    <role:FIGURE rdf:resource="#V300976" />
+    <LF:start>45</LF:start>
+    <LF:end>77</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V300976">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MANUFACTURED-OBJECT</LF:type>
+    <LF:word>FIRST-FLOOR</LF:word>
+    <LF:start>58</LF:start>
+    <LF:end>77</LF:end>
+    <role:WNSENSE>first_floor%1:06:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

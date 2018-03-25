@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00">
+   <TEXT>dark-haired b</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="BARE" type="MALE-CHILD" text="BOY" start="29" end="33">
+   <TEXT>boy w</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="33" end="86">
+   <TEXT>wearing a coloured polo shirt sitting in a classroom .</TEXT>
+   <RELATION id="1" head="V383969" res="V382795" label="CONTENT"/>
+   <PHRASE id="V382795" indicator="BARE" type="BODY-MOVEMENT" text="SIT-UP" start="33" end="86"/>
+   <RELATION id="2" head="V382795" res="V382707" label="AGENT"/>
+   <RELATION id="3" head="V382795" res="V382815" label="LOCATION"/>
+   <PHRASE id="V382707" indicator="BARE" type="WEAR" text="WEAR" start="33" end="63"/>
+   <RELATION id="4" head="V382707" res="V382791" label="NEUTRAL"/>
+   <PHRASE id="V382791" indicator="A" type="ATTIRE" text="POLO-SHIRT" start="41" end="63" WNSENSE="polo_shirt%1:06:00"/>
+   <RELATION id="5" head="V382791" res="V382756" label="MOD"/>
+   <PHRASE id="V382756" indicator="F" type="CHANGE" text="COLOURED" start="43" end="52"/>
+   <RELATION id="6" head="V382756" res="V382791" label="AFFECTED"/>
+   <PHRASE id="V382815" indicator="F" type="IN-LOC" text="IN" start="71" end="86"/>
+   <RELATION id="7" head="V382815" res="V382924" label="GROUND"/>
+   <RELATION id="8" head="V382815" res="V382795" label="FIGURE"/>
+   <PHRASE id="V382924" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="74" end="86"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

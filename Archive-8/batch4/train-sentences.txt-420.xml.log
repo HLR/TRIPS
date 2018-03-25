@@ -1,0 +1,196 @@
+2,169c2,26
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a wall made of red bricks in the background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?18001:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V125964)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?17999)
+<                                            (W::TRANSFORM ?18000)))
+<                                  (W::CASE ?17998:(W::SUB W::OBJ -))
+<                                  (W::AGR ?17997) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V125964) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER126000))
+< *last-utt-id*=NIL  utt-id+12
+< *last-utt-id*=12  utt-id+NIL</debug><utt><words><lisp>(W::A W::WALL W::MADE W::OF W::RED W::BRICKS W::IN W::THE W::BACKGROUND
+<  W::PUNC-PERIOD)</lisp><word>A</word><word>WALL</word><word>MADE</word><word>OF</word><word>RED</word><word>BRICKS</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;wall&quot; :FRAME (2 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a wall&quot; :FRAME (0 6) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.243 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;made&quot; :FRAME (7 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBN VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (12 14) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;red&quot; :FRAME (15 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;bricks&quot; :FRAME (19 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;red bricks&quot; :FRAME (15 25) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   19.097 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of red bricks&quot; :FRAME (12 25) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 22.912 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (26 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (29 32) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (33 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 12
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (29 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (26 43) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.197 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;made of red bricks in the background&quot; :FRAME (7 43) :PENN-CATS (VP)
+<   :TRIPS-CATS (W::VP) :SCORE 47.178 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (WORD &quot;.&quot; :FRAME (44 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a wall made of red bricks in the background .&quot; :FRAME (0 44)
+<   :PENN-CATS (S) :SCORE 60.564 :UTTNUM 12 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="wall" start="2" end="6"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a wall" start="0" end="6" penn-cats="NP" score="12.243" /><word lex="made" start="7" end="11"><sense-info penn-parts-of-speech="VBN,VBD" trips-parts-of-speech="V" /></word><word lex="of" start="12" end="14"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="red" start="15" end="18"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="bricks" start="19" end="25"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="red bricks" start="15" end="25" penn-cats="NP" score="19.097" /><prefer text="of red bricks" start="12" end="25" penn-cats="PP" score="22.912" /><word lex="in" start="26" end="28"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="29" end="32"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="33" end="43"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="29" end="43" penn-cats="NP" score="11.972" /><prefer text="in the background" start="26" end="43" penn-cats="PP" score="14.197" /><prefer text="made of red bricks in the background" start="7" end="43" penn-cats="VP" score="47.178" /><word lex="." start="44" end="44"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a wall made of red bricks in the background ." start="0" end="44" penn-cats="S" score="60.564" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (SPEC (DET (ART A)))
+<    (N1
+<     (N1 (N1 (N1 (N WALL)) (CP (VP (VP- (V (V MADE))))))
+<      (ADVBL (ADV OF) (NP (N1 (ADJP (ADJ1 (ADJ RED))) (N1 (N BRICKS))))))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N1><N1><N>WALL</N></N1><CP><VP><VP-><V><V>MADE</V></V></VP-></VP></CP></N1><ADVBL><ADV>OF</ADV><NP><N1><ADJP><ADJ1><ADJ>RED</ADJ></ADJ1></ADJP><N1><N>BRICKS</N></N1></N1></NP></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V125919"><lisp>((ONT::SPEECHACT ONT::V125919 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V125587 :START 0 :END 44)
+<  (ONT::A ONT::V125587 (:* ONT::STRUCTURE-INTERNAL-COMPONENT W::WALL) :LOCATION
+<   ONT::V125627 :MOD ONT::V125607 :MOD ONT::V125592 :START 0 :END 44)
+<  (ONT::F ONT::V125592 (:* ONT::CREATE W::MAKE) :AFFECTED-RESULT ONT::V125587
+<   :VFORM W::PASSIVE :START 7 :END 12)
+<  (ONT::F ONT::V125607 (:* ONT::CONTAIN-RELN W::OF) :GROUND ONT::V125620 :FIGURE
+<   ONT::V125587 :START 12 :END 26)
+<  (ONT::INDEF-SET ONT::V125620 (:* ONT::MATERIAL W::BRICK) :MOD ONT::V125613
+<   :START 15 :END 26)
+<  (ONT::F ONT::V125613 (:* ONT::RED W::RED) :FIGURE ONT::V125620 :SCALE
+<   ONT::COLOR-SCALE :START 15 :END 19)
+<  (ONT::F ONT::V125627 (:* ONT::IN-LOC W::IN) :GROUND ONT::V125683 :FIGURE
+<   ONT::V125587 :START 26 :END 44)
+<  (ONT::THE ONT::V125683 (:* ONT::IMAGE W::BACKGROUND) :START 29 :END 44))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V125919">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V125587" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125587">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>STRUCTURE-INTERNAL-COMPONENT</LF:type>
+<     <LF:word>WALL</LF:word>
+<     <role:LOCATION rdf:resource="#V125627" />
+<     <role:MOD rdf:resource="#V125607" />
+<     <role:MOD rdf:resource="#V125592" />
+<     <LF:start>0</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125592">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CREATE</LF:type>
+<     <LF:word>MAKE</LF:word>
+<     <role:AFFECTED-RESULT rdf:resource="#V125587" />
+<     <role:VFORM>PASSIVE</role:VFORM>
+<     <LF:start>7</LF:start>
+<     <LF:end>12</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125607">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONTAIN-RELN</LF:type>
+<     <LF:word>OF</LF:word>
+<     <role:GROUND rdf:resource="#V125620" />
+<     <role:FIGURE rdf:resource="#V125587" />
+<     <LF:start>12</LF:start>
+<     <LF:end>26</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125620">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>MATERIAL</LF:type>
+<     <LF:word>BRICK</LF:word>
+<     <role:MOD rdf:resource="#V125613" />
+<     <LF:start>15</LF:start>
+<     <LF:end>26</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125613">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>RED</LF:type>
+<     <LF:word>RED</LF:word>
+<     <role:FIGURE rdf:resource="#V125620" />
+<     <role:SCALE>COLOR-SCALE</role:SCALE>
+<     <LF:start>15</LF:start>
+<     <LF:end>19</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125627">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V125683" />
+<     <role:FIGURE rdf:resource="#V125587" />
+<     <LF:start>26</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V125683">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>29</LF:start>
+<     <LF:end>44</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="44">
+>    <TEXT>a wall made of red bricks in the background .</TEXT>
+>    <RELATION id="1" head="V125919" res="V125587" label="CONTENT"/>
+>    <PHRASE id="V125587" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="0" end="44"/>
+>    <RELATION id="2" head="V125587" res="V125627" label="LOCATION"/>
+>    <RELATION id="3" head="V125587" res="V125607" label="MOD"/>
+>    <RELATION id="4" head="V125587" res="V125592" label="MOD"/>
+>    <PHRASE id="V125592" indicator="F" type="CREATE" text="MAKE" VFORM="PASSIVE" start="7" end="12"/>
+>    <RELATION id="5" head="V125592" res="V125587" label="AFFECTED-RESULT"/>
+>    <PHRASE id="V125607" indicator="F" type="CONTAIN-RELN" text="OF" start="12" end="26"/>
+>    <RELATION id="6" head="V125607" res="V125620" label="GROUND"/>
+>    <RELATION id="7" head="V125607" res="V125587" label="FIGURE"/>
+>    <PHRASE id="V125620" indicator="INDEF-SET" type="MATERIAL" text="BRICK" start="15" end="26"/>
+>    <RELATION id="8" head="V125620" res="V125613" label="MOD"/>
+>    <PHRASE id="V125613" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="15" end="19"/>
+>    <RELATION id="9" head="V125613" res="V125620" label="FIGURE"/>
+>    <PHRASE id="V125627" indicator="F" type="IN-LOC" text="IN" start="26" end="44"/>
+>    <RELATION id="10" head="V125627" res="V125683" label="GROUND"/>
+>    <RELATION id="11" head="V125627" res="V125587" label="FIGURE"/>
+>    <PHRASE id="V125683" indicator="THE" type="IMAGE" text="BACKGROUND" start="29" end="44"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

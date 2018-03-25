@@ -1,0 +1,19 @@
+digraph Terms {
+  node [shape=none]
+  "INSIDE PHOTOGRAPH OF A ROOM WITH A RED CARPET PUNC-PERIOD"
+  "V266554" [label="(SPEECHACT V266554 SA_IDENTIFY)"]
+  "V266554" -> "V266310" [label=":CONTENT"]
+  "V266310" [label="(BARE V266310 (:* IMAGE PHOTOGRAPH))"]
+  "V266310" -> "V266363" [label=":FIGURE"]
+  "V266310" -> "V266367" [label=":MOD"]
+  "V266310" -> "V266300" [label=":MOD"]
+  "V266300" [label="(F V266300 (:* PRIVATE INSIDE))"]
+  "V266300" -> "V266310" [label=":FIGURE"]
+  "V266363" [label="(A V266363 (:* INTERNAL-ENCLOSURE ROOM))"]
+  "V266367" [label="(F V266367 (:* ASSOC-WITH WITH))"]
+  "V266367" -> "V266448" [label=":GROUND"]
+  "V266367" -> "V266310" [label=":FIGURE"]
+  "V266448" [label="(A V266448 (:* COVERING RED-CARPET))"]
+  "V266448" -> "NT266933" [label=":WNSENSE"]
+  "NT266933" [label="\"red_carpet%5:00:00\""]
+}

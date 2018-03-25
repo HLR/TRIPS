@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "SHELVES AND POSTERS IN THE BACKGROUND PUNC-PERIOD"
+  "V344696" [label="(SPEECHACT V344696 SA_IDENTIFY)"]
+  "V344696" -> "V344550" [label=":CONTENT"]
+  "V344550" [label="(INDEF-SET V344550 PHYS-OBJECT)"]
+  "V344550" -> "NT344926" [label=":OPERATOR"]
+  "NT344926" [label="AND"]
+  "V344550" -> "V344543" [label=":SEQUENCE"]
+  "V344550" -> "V344559" [label=":SEQUENCE-1"]
+  "V344543" [label="(INDEF-SET V344543 (:* SUPPORT-STAND SHELVES))"]
+  "V344559" [label="(INDEF-SET V344559 (:* INFO-MEDIUM POSTER))"]
+  "V344559" -> "V344566" [label=":LOCATION"]
+  "V344566" [label="(F V344566 (:* IN-LOC IN))"]
+  "V344566" -> "V344622" [label=":GROUND"]
+  "V344566" -> "V344559" [label=":FIGURE"]
+  "V344622" [label="(THE V344622 (:* IMAGE BACKGROUND))"]
+}

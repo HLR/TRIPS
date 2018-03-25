@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="70">
+   <TEXT>a boy wearing a grey cap and a grey and green jumper standing outside .</TEXT>
+   <RELATION id="1" head="V242589" res="V242595" label="MOD"/>
+   <PHRASE id="V242595" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="6" end="70"/>
+   <RELATION id="2" head="V242595" res="V242589" label="AGENT"/>
+   <RELATION id="3" head="V242595" res="V242657" label="NEUTRAL"/>
+   <PHRASE id="V242657" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="14" end="70"/>
+   <RELATION id="4" head="V242657" res="V242651" label="SEQUENCE"/>
+   <RELATION id="5" head="V242657" res="V242732" label="SEQUENCE1"/>
+   <PHRASE id="V242651" indicator="A" type="ATTIRE" text="CAP" start="14" end="25"/>
+   <RELATION id="6" head="V242651" res="V242642" label="MOD"/>
+   <PHRASE id="V242642" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="16" end="21"/>
+   <RELATION id="7" head="V242642" res="V242651" label="FIGURE"/>
+   <PHRASE id="V242732" indicator="A" type="PERSON" text="JUMPER" start="29" end="70"/>
+   <RELATION id="8" head="V242732" res="V242754" label="LOCATION"/>
+   <RELATION id="9" head="V242732" res="V242742" label="MOD"/>
+   <RELATION id="10" head="V242732" res="V242807" label="MOD"/>
+   <PHRASE id="V242807" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="31" end="46"/>
+   <RELATION id="11" head="V242807" res="V242707" label="SEQUENCE"/>
+   <RELATION id="12" head="V242807" res="V242726" label="SEQUENCE1"/>
+   <PHRASE id="V242707" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="31" end="36"/>
+   <RELATION id="13" head="V242707" res="V242732" label="FIGURE"/>
+   <PHRASE id="V242726" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="40" end="46"/>
+   <RELATION id="14" head="V242726" res="V242732" label="FIGURE"/>
+   <PHRASE id="V242742" indicator="F" type="BE-AT-LOC" text="STAND" VFORM="ING" start="53" end="62"/>
+   <RELATION id="15" head="V242742" res="V242732" label="NEUTRAL"/>
+   <PHRASE id="V242754" indicator="F" type="OUTSIDE" text="OUTSIDE" start="62" end="70"/>
+   <RELATION id="16" head="V242754" res="V242847" label="GROUND"/>
+   <RELATION id="17" head="V242754" res="V242732" label="FIGURE"/>
+   <PHRASE id="V242847" indicator="IMPRO" type="ANY-SEM" start="62" end="70"/>
+   <RELATION id="18" head="V242847" res="V242589" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

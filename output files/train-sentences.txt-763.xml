@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00">
+   <TEXT>dark-skinned ,</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="17" end="34">
+   <TEXT>dark-haired girl w</TEXT>
+   <RELATION id="1" head="V250876" res="V250873" label="MOD"/>
+   <PHRASE id="V250873" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="2" head="V250873" res="V250876" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="111">
+   <TEXT>wearing a black hat , a grey tee-shirt , a dark green vest and a light green p</TEXT>
+   <RELATION id="3" head="V250882" res="V251073" label="NEUTRAL"/>
+   <PHRASE id="V251073" indicator="A" type="PHYS-OBJECT" OPERATOR="AND" start="42" end="111"/>
+   <RELATION id="4" head="V251073" res="V251154" label="SEQUENCE"/>
+   <RELATION id="5" head="V251073" res="V251069" label="SEQUENCE1"/>
+   <RELATION id="6" head="V251073" res="V250932" label="SEQUENCE2"/>
+   <RELATION id="7" head="V251073" res="V251003" label="SEQUENCE3"/>
+   <PHRASE id="V250932" indicator="A" type="ATTIRE" text="HAT" start="42" end="54"/>
+   <RELATION id="8" head="V250932" res="V250929" label="MOD"/>
+   <PHRASE id="V250929" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="44" end="50"/>
+   <RELATION id="9" head="V250929" res="V250932" label="FIGURE"/>
+   <PHRASE id="V251003" indicator="A" type="ATTIRE" text="TEE-PUNC-MINUS-SHIRT" start="56" end="73"/>
+   <RELATION id="10" head="V251003" res="V250979" label="MOD"/>
+   <PHRASE id="V250979" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="58" end="63"/>
+   <RELATION id="11" head="V250979" res="V251003" label="FIGURE"/>
+   <PHRASE id="V251069" indicator="A" type="ATTIRE" text="VEST" start="75" end="93"/>
+   <RELATION id="12" head="V251069" res="V251051" label="MOD"/>
+   <RELATION id="13" head="V251069" res="V251057" label="MOD"/>
+   <PHRASE id="V251051" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="77" end="82"/>
+   <RELATION id="14" head="V251051" res="V251069" label="FIGURE"/>
+   <PHRASE id="V251057" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="82" end="88"/>
+   <RELATION id="15" head="V251057" res="V251069" label="FIGURE"/>
+   <PHRASE id="V251154" indicator="A" type="GEO-OBJECT" text="GREEN" start="97" end="111"/>
+   <RELATION id="16" head="V251154" res="V251123" label="MOD"/>
+   <PHRASE id="V251123" indicator="F" type="LIGHTWEIGHT" text="LIGHT" ORIENTATION="LESS" INTENSITY="HI" SCALE="WEIGHT-SCALE" start="99" end="105"/>
+   <RELATION id="17" head="V251123" res="V251154" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="111" end="159">
+   <TEXT>poncho , is standing in the backyard of a house .</TEXT>
+   <RELATION id="18" head="V257231" res="V251172" label="CONTENT"/>
+   <PHRASE id="V251172" indicator="F" type="BE" text="BE" TENSE="PRES" start="111" end="159"/>
+   <RELATION id="19" head="V251172" res="V251160" label="NEUTRAL"/>
+   <RELATION id="20" head="V251172" res="V251189" label="NEUTRAL1"/>
+   <PHRASE id="V251160" indicator="BARE" type="ATTIRE" text="PONCHO" start="111" end="120"/>
+   <PHRASE id="V251189" indicator="BARE" type="BE-AT-LOC" text="STAND" start="123" end="159"/>
+   <RELATION id="21" head="V251189" res="V251198" label="LOCATION"/>
+   <PHRASE id="V251198" indicator="F" type="IN-LOC" text="IN" start="132" end="159"/>
+   <RELATION id="22" head="V251198" res="V251267" label="GROUND"/>
+   <RELATION id="23" head="V251198" res="V251189" label="FIGURE"/>
+   <PHRASE id="V251267" indicator="THE" type="GEO-OBJECT" text="BACKYARD" start="135" end="159"/>
+   <RELATION id="24" head="V251267" res="V251272" label="MOD"/>
+   <PHRASE id="V251272" indicator="F" type="CONTAIN-RELN" text="OF" start="148" end="159"/>
+   <RELATION id="25" head="V251272" res="V251322" label="GROUND"/>
+   <RELATION id="26" head="V251272" res="V251267" label="FIGURE"/>
+   <PHRASE id="V251322" indicator="A" type="LODGING" text="HOUSE" start="151" end="159"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

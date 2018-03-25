@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "PICTURES ON A WOODEN WALL IN THE BACKGROUND PUNC-PERIOD"
+  "V374761" [label="(SPEECHACT V374761 SA_IDENTIFY)"]
+  "V374761" -> "V374494" [label=":CONTENT"]
+  "V374494" [label="(INDEF-SET V374494 (:* IMAGE PICTURE))"]
+  "V374494" -> "V374580" [label=":LOCATION"]
+  "V374494" -> "V374503" [label=":LOCATION"]
+  "V374503" [label="(F V374503 (:* ON ON))"]
+  "V374503" -> "V374573" [label=":GROUND"]
+  "V374503" -> "V374494" [label=":FIGURE"]
+  "V374573" [label="(A V374573 (:* STRUCTURE-INTERNAL-COMPONENT WALL))"]
+  "V374573" -> "V374567" [label=":MOD"]
+  "V374567" [label="(F V374567 (:* AWKWARD-VAL WOODEN))"]
+  "V374567" -> "V374573" [label=":FIGURE"]
+  "V374580" [label="(F V374580 (:* IN-LOC IN))"]
+  "V374580" -> "V374645" [label=":GROUND"]
+  "V374580" -> "V374494" [label=":FIGURE"]
+  "V374645" [label="(THE V374645 (:* IMAGE BACKGROUND))"]
+}

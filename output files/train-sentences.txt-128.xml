@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="37">
+   <TEXT>adults are holding shoulders of boys .</TEXT>
+   <RELATION id="1" head="V79816" res="V79624" label="CONTENT"/>
+   <PHRASE id="V79624" indicator="F" type="BODY-MANIPULATION" text="HOLD" TENSE="PRES" PROGR="+" start="0" end="37"/>
+   <RELATION id="2" head="V79624" res="V79602" label="AGENT"/>
+   <RELATION id="3" head="V79624" res="V79634" label="AFFECTED"/>
+   <PHRASE id="V79602" indicator="INDEF-SET" type="PERSON" text="ADULT" start="0" end="7"/>
+   <PHRASE id="V79634" indicator="INDEF-SET" type="EXTERNAL-BODY-PART" text="SHOULDER" start="19" end="37"/>
+   <RELATION id="4" head="V79634" res="V79645" label="FIGURE"/>
+   <PHRASE id="V79645" indicator="INDEF-SET" type="MALE-CHILD" text="BOY" start="29" end="37"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

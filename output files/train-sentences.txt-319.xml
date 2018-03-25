@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="40">
+   <TEXT>all the kids are sitting at their desks ,</TEXT>
+   <RELATION id="1" head="V91289" res="V90627" label="CONTENT"/>
+   <PHRASE id="V90627" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="40"/>
+   <RELATION id="2" head="V90627" res="V90644" label="RESULT"/>
+   <RELATION id="3" head="V90627" res="V90681" label="AGENT"/>
+   <PHRASE id="V90681" indicator="QUANTIFIER" type="CHILD" text="KID" QUAN="UNIVERSAL" start="0" end="13"/>
+   <RELATION id="4" head="V90681" res="V90601" label="REFSET"/>
+   <PHRASE id="V90601" indicator="THE-SET" type="CHILD" text="KID" start="4" end="13"/>
+   <PHRASE id="V90644" indicator="F" type="AT-LOC" text="AT" start="25" end="40"/>
+   <RELATION id="5" head="V90644" res="V90659" label="GROUND"/>
+   <RELATION id="6" head="V90644" res="V90681" label="FIGURE"/>
+   <PHRASE id="V90659" indicator="THE-SET" type="FURNISHINGS" text="DESK" start="28" end="40"/>
+   <RELATION id="7" head="V90659" res="V90656" label="ASSOC-POSS"/>
+   <PHRASE id="V90656" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="28" end="40"/>
+   <RELATION id="8" head="V90656" res="V90601" label="COREF"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="42" end="91" WNSENSE="turn_around%2:30:00">
+   <TEXT>some of them turned around to look at the camera .</TEXT>
+   <RELATION id="9" head="V92929" res="V92254" label="CONTENT"/>
+   <PHRASE id="V92254" indicator="F" type="ROTATE" text="TURNED-AROUND" TENSE="PAST" start="42" end="91" WNSENSE="turn_around%2:30:00"/>
+   <RELATION id="10" head="V92254" res="V92495" label="AGENT"/>
+   <RELATION id="11" head="V92254" res="V92270" label="REASON"/>
+   <PHRASE id="V92495" indicator="INDEF-SET" type="REFERENTIAL-SEM" text="THEM" SIZE="SOME" start="42" end="55"/>
+   <RELATION id="12" head="V92495" res="V92207" label="REFSET"/>
+   <PHRASE id="V92207" indicator="PRO-SET" type="REFERENTIAL-SEM" text="THEM" PROFORM="THEM" start="47" end="55"/>
+   <RELATION id="13" head="V92207" res="V92495" label="COREF"/>
+   <PHRASE id="V92270" indicator="F" type="PURPOSE" text="TO" start="69" end="91"/>
+   <RELATION id="14" head="V92270" res="V92304" label="GROUND"/>
+   <RELATION id="15" head="V92270" res="V92254" label="FIGURE"/>
+   <PHRASE id="V92304" indicator="F" type="SCRUTINY" text="LOOK" VFORM="BASE" start="72" end="91"/>
+   <RELATION id="16" head="V92304" res="V92411" label="NEUTRAL"/>
+   <PHRASE id="V92411" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="77" end="91"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

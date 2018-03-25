@@ -1,0 +1,13 @@
+digraph Terms {
+  node [shape=none]
+  "VIEW FROM BEHIND"
+  "V52877" [label="(F V52877 (:* ACTIVE-PERCEPTION VIEW))"]
+  "V52877" -> "V52896" [label=":LOCATION"]
+  "V52877" -> "V52888" [label=":TIME"]
+  "V52877" -> "NT53056" [label=":TENSE"]
+  "NT53056" [label="PRES"]
+  "V52888" [label="(F V52888 (:* EVENT-TIME-REL FROM))"]
+  "V52888" -> "V52877" [label=":FIGURE"]
+  "V52896" [label="(F V52896 (:* BACK BEHIND))"]
+  "V52896" -> "V52877" [label=":FIGURE"]
+}

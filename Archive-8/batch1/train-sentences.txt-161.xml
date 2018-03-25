@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a woman with a present in the background .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?12197:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V233965)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?12195)
+                                           (W::TRANSFORM ?12196)))
+                                 (W::CASE ?12194:(W::SUB W::OBJ -))
+                                 (W::AGR ?12193) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V233965) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER233979))
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?12495:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V233968)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?12493)
+                                           (W::TRANSFORM ?12494)))
+                                 (W::CASE ?12492:(W::SUB W::OBJ -))
+                                 (W::AGR ?12491) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V233968) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER233981))
+*last-utt-id*=NIL  utt-id+45
+*last-utt-id*=45  utt-id+NIL</debug><utt><words><lisp>(W::A W::WOMAN W::WITH W::A W::PRESENT W::IN W::THE W::BACKGROUND
+ W::PUNC-PERIOD)</lisp><word>A</word><word>WOMAN</word><word>WITH</word><word>A</word><word>PRESENT</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;woman&quot; :FRAME (2 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 45
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a woman&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.695 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (8 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (13 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;present&quot; :FRAME (15 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 45
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a present&quot; :FRAME (13 22) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  13.825 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with a present&quot; :FRAME (8 22) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 17.625 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (23 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (26 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;background&quot; :FRAME (30 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 45
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the background&quot; :FRAME (26 40) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 11.972 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the background&quot; :FRAME (23 40) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.224 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (41 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a woman with a present in the background .&quot; :FRAME (0 41) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 45.872 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="woman" start="2" end="7"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a woman" start="0" end="7" penn-cats="NP" score="10.695" /><word lex="with" start="8" end="12"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="13" end="14"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="present" start="15" end="22"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a present" start="13" end="22" penn-cats="NP" score="13.825" /><prefer text="with a present" start="8" end="22" penn-cats="PP" score="17.625" /><word lex="in" start="23" end="25"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="26" end="29"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="30" end="40"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="26" end="40" penn-cats="NP" score="11.972" /><prefer text="in the background" start="23" end="40" penn-cats="PP" score="14.224" /><word lex="." start="41" end="41"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a woman with a present in the background ." start="0" end="41" penn-cats="NP" score="45.872" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (SPEC (DET (ART A)))
+   (N1
+    (N1 (N1 (N WOMAN))
+     (ADVBL (ADV WITH) (NP (SPEC (DET (ART A))) (N1 (N PRESENT)))))
+    (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N1><N>WOMAN</N></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>PRESENT</N></N1></NP></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V233893"><lisp>((ONT::SPEECHACT ONT::V233893 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V233595 :START 0 :END 41)
+ (ONT::A ONT::V233595 (:* ONT::FEMALE-PERSON W::WOMAN) :LOCATION ONT::V233671
+  :MOD ONT::V233599 :START 0 :END 41)
+ (ONT::F ONT::V233599 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V233659 :FIGURE
+  ONT::V233595 :START 8 :END 23)
+ (ONT::A ONT::V233659 (:* ONT::GIVING W::PRESENT) :START 13 :END 23)
+ (ONT::F ONT::V233671 (:* ONT::IN-LOC W::IN) :GROUND ONT::V233727 :FIGURE
+  ONT::V233595 :START 23 :END 41)
+ (ONT::THE ONT::V233727 (:* ONT::IMAGE W::BACKGROUND) :START 26 :END 41))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V233893">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V233595" />
+    <LF:start>0</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233595">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FEMALE-PERSON</LF:type>
+    <LF:word>WOMAN</LF:word>
+    <role:LOCATION rdf:resource="#V233671" />
+    <role:MOD rdf:resource="#V233599" />
+    <LF:start>0</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233599">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V233659" />
+    <role:FIGURE rdf:resource="#V233595" />
+    <LF:start>8</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233659">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>GIVING</LF:type>
+    <LF:word>PRESENT</LF:word>
+    <LF:start>13</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233671">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V233727" />
+    <role:FIGURE rdf:resource="#V233595" />
+    <LF:start>23</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V233727">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>IMAGE</LF:type>
+    <LF:word>BACKGROUND</LF:word>
+    <LF:start>26</LF:start>
+    <LF:end>41</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

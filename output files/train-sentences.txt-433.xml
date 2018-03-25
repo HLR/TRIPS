@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="91">
+   <TEXT>a dark-skinned , dark-haired girl wearing a USA pullover and red pants is standing outside .</TEXT>
+   <RELATION id="1" head="V191939" res="V183191" label="CONTENT"/>
+   <PHRASE id="V183191" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="91"/>
+   <RELATION id="2" head="V183191" res="V183101" label="NEUTRAL"/>
+   <RELATION id="3" head="V183191" res="V183208" label="NEUTRAL1"/>
+   <PHRASE id="V183101" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="71"/>
+   <RELATION id="4" head="V183101" res="V183107" label="MOD"/>
+   <RELATION id="5" head="V183101" res="V183074" label="MOD"/>
+   <RELATION id="6" head="V183101" res="V183098" label="MOD"/>
+   <PHRASE id="V183074" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="7" head="V183074" res="V183101" label="FIGURE"/>
+   <PHRASE id="V183098" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="8" head="V183098" res="V183101" label="FIGURE"/>
+   <PHRASE id="V183107" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="34" end="71"/>
+   <RELATION id="9" head="V183107" res="V183101" label="AGENT"/>
+   <RELATION id="10" head="V183107" res="V183163" label="NEUTRAL"/>
+   <PHRASE id="V183163" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="42" end="71"/>
+   <RELATION id="11" head="V183163" res="V183159" label="SEQUENCE"/>
+   <RELATION id="12" head="V183163" res="V183179" label="SEQUENCE1"/>
+   <PHRASE id="V183159" indicator="A" type="ATTIRE" text="PULLOVER" start="42" end="57"/>
+   <RELATION id="13" head="V183159" res="V183155" label="ASSOC-WITH"/>
+   <PHRASE id="V183155" indicator="KIND" type="ORGANIZATION" text="USA" start="42" end="57"/>
+   <PHRASE id="V183179" indicator="BARE" type="ATTIRE" text="PANTS" start="61" end="71"/>
+   <RELATION id="14" head="V183179" res="V183172" label="MOD"/>
+   <PHRASE id="V183172" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="61" end="65"/>
+   <RELATION id="15" head="V183172" res="V183179" label="FIGURE"/>
+   <PHRASE id="V183208" indicator="BARE" type="BE-AT-LOC" text="STAND" start="74" end="91"/>
+   <RELATION id="16" head="V183208" res="V183214" label="LOCATION"/>
+   <PHRASE id="V183214" indicator="F" type="OUTSIDE" text="OUTSIDE" start="83" end="91"/>
+   <RELATION id="17" head="V183214" res="V183388" label="GROUND"/>
+   <RELATION id="18" head="V183214" res="V183208" label="FIGURE"/>
+   <PHRASE id="V183388" indicator="IMPRO" type="ANY-SEM" start="83" end="91"/>
+   <RELATION id="19" head="V183388" res="V183101" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "THE KID IN THE FOREGROUND IS HOLDING A PENCIL PUNC-PERIOD"
+  "V400297" [label="(SPEECHACT V400297 SA_TELL)"]
+  "V400297" -> "V399576" [label=":CONTENT"]
+  "V399576" [label="(F V399576 (:* BODY-MANIPULATION HOLD))"]
+  "V399576" -> "V399485" [label=":AGENT"]
+  "V399576" -> "V399627" [label=":AFFECTED"]
+  "V399576" -> "NT401918" [label=":TENSE"]
+  "NT401918" [label="PRES"]
+  "V399576" -> "NT401919" [label=":PROGR"]
+  "NT401919" [label="+"]
+  "V399485" [label="(THE V399485 (:* CHILD KID))"]
+  "V399485" -> "V399492" [label=":LOCATION"]
+  "V399492" [label="(F V399492 (:* IN-LOC IN))"]
+  "V399492" -> "V399551" [label=":GROUND"]
+  "V399492" -> "V399485" [label=":FIGURE"]
+  "V399551" [label="(THE V399551 (:* DEVICE FOREGROUND))"]
+  "V399627" [label="(A V399627 (:* WRITING-IMPLEMENT PENCIL))"]
+}

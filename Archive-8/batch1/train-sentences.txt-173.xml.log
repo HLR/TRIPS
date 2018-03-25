@@ -1,0 +1,128 @@
+2,107c2,20
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="three other kids in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+54
+< *last-utt-id*=54  utt-id+NIL</debug><utt><words><lisp>(W::THREE W::OTHER W::KIDS W::IN W::THE W::BACKGROUND W::PUNC-PERIOD)</lisp><word>THREE</word><word>OTHER</word><word>KIDS</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;three&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+<     (W::NUMBER W::NUMBER-UNIT)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;other&quot; :FRAME (6 11) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;kids&quot; :FRAME (12 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;three other kids&quot; :FRAME (0 16) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 21.415 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (17 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (20 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (24 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 54
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (20 34) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (17 34) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (35 35) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;three other kids in the background .&quot; :FRAME (0 35) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 38.123 :UTTNUM 54 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="three" start="0" end="5"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="other" start="6" end="11"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="kids" start="12" end="16"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="three other kids" start="0" end="16" penn-cats="NP" score="21.415" /><word lex="in" start="17" end="19"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="20" end="23"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="24" end="34"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="20" end="34" penn-cats="NP" score="11.972" /><prefer text="in the background" start="17" end="34" penn-cats="PP" score="14.224" /><word lex="." start="35" end="35"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="three other kids in the background ." start="0" end="35" penn-cats="NP" score="38.123" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1 (N1 (ADJP (NUMBER THREE)) (N1 (ADJP (ADJ1 (ADJ OTHER))) (N1 (N KIDS))))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><ADJP><NUMBER>THREE</NUMBER></ADJP><N1><ADJP><ADJ1><ADJ>OTHER</ADJ></ADJ1></ADJP><N1><N>KIDS</N></N1></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V278430"><lisp>((ONT::SPEECHACT ONT::V278430 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V278292 :START 0 :END 35)
+<  (ONT::INDEF-SET ONT::V278292 (:* ONT::CHILD W::KID) :SIZE ONT::V278286
+<   :LOCATION ONT::V278299 :MOD ONT::V278288 :START 0 :END 35)
+<  (ONT::A ONT::V278286 ONT::NUMBER :VALUE 3 :START 0 :END 6)
+<  (ONT::F ONT::V278288 (:* ONT::OTHER W::OTHER) :INTENSITY ONT::HI :FIGURE
+<   ONT::V278292 :START 6 :END 12)
+<  (ONT::F ONT::V278299 (:* ONT::IN-LOC W::IN) :GROUND ONT::V278355 :FIGURE
+<   ONT::V278292 :START 17 :END 35)
+<  (ONT::THE ONT::V278355 (:* ONT::IMAGE W::BACKGROUND) :START 20 :END 35))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V278430">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V278292" />
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V278292">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>KID</LF:word>
+<     <role:SIZE rdf:resource="#V278286" />
+<     <role:LOCATION rdf:resource="#V278299" />
+<     <role:MOD rdf:resource="#V278288" />
+<     <LF:start>0</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V278286">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>3</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V278288">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>OTHER</LF:type>
+<     <LF:word>OTHER</LF:word>
+<     <role:INTENSITY>HI</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V278292" />
+<     <LF:start>6</LF:start>
+<     <LF:end>12</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V278299">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V278355" />
+<     <role:FIGURE rdf:resource="#V278292" />
+<     <LF:start>17</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V278355">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>20</LF:start>
+<     <LF:end>35</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="35">
+>    <TEXT>three other kids in the background .</TEXT>
+>    <RELATION id="1" head="V278430" res="V278292" label="CONTENT"/>
+>    <PHRASE id="V278292" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="35"/>
+>    <RELATION id="2" head="V278292" res="V278286" label="SIZE"/>
+>    <RELATION id="3" head="V278292" res="V278299" label="LOCATION"/>
+>    <RELATION id="4" head="V278292" res="V278288" label="MOD"/>
+>    <PHRASE id="V278286" indicator="A" type="NUMBER" VALUE="3" start="0" end="6"/>
+>    <PHRASE id="V278288" indicator="F" type="OTHER" text="OTHER" INTENSITY="HI" start="6" end="12"/>
+>    <RELATION id="5" head="V278288" res="V278292" label="FIGURE"/>
+>    <PHRASE id="V278299" indicator="F" type="IN-LOC" text="IN" start="17" end="35"/>
+>    <RELATION id="6" head="V278299" res="V278355" label="GROUND"/>
+>    <RELATION id="7" head="V278299" res="V278292" label="FIGURE"/>
+>    <PHRASE id="V278355" indicator="THE" type="IMAGE" text="BACKGROUND" start="20" end="35"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

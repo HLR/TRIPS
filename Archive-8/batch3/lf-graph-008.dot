@@ -1,0 +1,15 @@
+digraph Terms {
+  node [shape=none]
+  "AN OVERCAST SKY IN THE BACKGROUND PUNC-PERIOD"
+  "V64524" [label="(SPEECHACT V64524 SA_IDENTIFY)"]
+  "V64524" -> "V64408" [label=":CONTENT"]
+  "V64408" [label="(A V64408 (:* GEO-OBJECT SKY))"]
+  "V64408" -> "V64415" [label=":LOCATION"]
+  "V64408" -> "V64399" [label=":MOD"]
+  "V64399" [label="(F V64399 (:* CLOUDY OVERCAST))"]
+  "V64399" -> "V64408" [label=":FIGURE"]
+  "V64415" [label="(F V64415 (:* IN-LOC IN))"]
+  "V64415" -> "V64471" [label=":GROUND"]
+  "V64415" -> "V64408" [label=":FIGURE"]
+  "V64471" [label="(THE V64471 (:* IMAGE BACKGROUND))"]
+}

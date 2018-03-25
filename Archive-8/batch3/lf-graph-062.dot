@@ -1,0 +1,19 @@
+digraph Terms {
+  node [shape=none]
+  "A DARK PUNC-MINUS HAIRED BABY IN THE ARMS OF A WOMAN PUNC-PERIOD"
+  "V328821" [label="(SPEECHACT V328821 SA_IDENTIFY)"]
+  "V328821" -> "V328521" [label=":CONTENT"]
+  "V328521" [label="(A V328521 (:* CHILD BABY))"]
+  "V328521" -> "V328528" [label=":LOCATION"]
+  "V328521" -> "V328515" [label=":MOD"]
+  "V328515" [label="(F V328515 (:* MODIFIER DARK-PUNC-MINUS-HAIRED))"]
+  "V328515" -> "V328521" [label=":FIGURE"]
+  "V328515" -> "NT329026" [label=":WNSENSE"]
+  "NT329026" [label="\"dark-haired%5:00:00\""]
+  "V328528" [label="(F V328528 (:* IN-LOC IN))"]
+  "V328528" -> "V328584" [label=":GROUND"]
+  "V328528" -> "V328521" [label=":FIGURE"]
+  "V328584" [label="(THE-SET V328584 (:* EXTERNAL-BODY-PART ARM))"]
+  "V328584" -> "V328636" [label=":FIGURE"]
+  "V328636" [label="(A V328636 (:* FEMALE-PERSON WOMAN))"]
+}

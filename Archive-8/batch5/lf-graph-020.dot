@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "OUTSIDE SHOT PUNC-PERIOD"
+  "V146239" [label="(SPEECHACT V146239 SA_TELL)"]
+  "V146239" -> "V146124" [label=":CONTENT"]
+  "V146124" [label="(F V146124 (:* MOVE-QUICKLY SHOOT))"]
+  "V146124" -> "V146240" [label=":AFFECTED"]
+  "V146124" -> "V146116" [label=":LOCATION"]
+  "V146124" -> "NT146265" [label=":TENSE"]
+  "NT146265" [label="PAST"]
+  "V146240" [label="(IMPRO V146240 REFERENTIAL-SEM)"]
+  "V146240" -> "NT146266" [label=":PROFORM"]
+  "NT146266" [label="SUBJ"]
+  "V146116" [label="(F V146116 (:* OUTSIDE OUTSIDE))"]
+  "V146116" -> "V146173" [label=":GROUND"]
+  "V146116" -> "V146124" [label=":FIGURE"]
+  "V146173" [label="(IMPRO V146173 ANY-SEM)"]
+}

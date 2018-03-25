@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="37">
+   <TEXT>A tourist group is visiting a school .</TEXT>
+   <RELATION id="1" head="V344486" res="V344165" label="CONTENT"/>
+   <PHRASE id="V344165" indicator="F" type="SOCIAL-ACTIVITY" text="VISIT" TENSE="PRES" PROGR="+" start="0" end="37"/>
+   <RELATION id="2" head="V344165" res="V344137" label="AGENT"/>
+   <RELATION id="3" head="V344165" res="V344212" label="AFFECTED"/>
+   <PHRASE id="V344137" indicator="A" type="GROUP-OBJECT" text="GROUP" start="0" end="16"/>
+   <RELATION id="4" head="V344137" res="V344128" label="ASSOC-WITH"/>
+   <PHRASE id="V344128" indicator="KIND" type="TRAVELLER" text="TOURIST" start="0" end="16"/>
+   <PHRASE id="V344212" indicator="A" type="ACADEMIC-INSTITUTION" text="SCHOOL" start="28" end="37"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

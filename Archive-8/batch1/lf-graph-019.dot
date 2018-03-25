@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "SOME ROCKS IN THE BACKGROUND PUNC-PERIOD"
+  "V75791" [label="(SPEECHACT V75791 SA_TELL)"]
+  "V75791" -> "V75624" [label=":CONTENT"]
+  "V75624" [label="(F V75624 (:* MOVE-BACK-AND-FORTH ROCK))"]
+  "V75624" -> "V75633" [label=":RESULT"]
+  "V75624" -> "V75707" [label=":AFFECTED"]
+  "V75624" -> "NT76057" [label=":TENSE"]
+  "NT76057" [label="PRES"]
+  "V75707" [label="(SM V75707 ANY-SEM)"]
+  "V75707" -> "NT76058" [label=":QUAN"]
+  "NT76058" [label="SM"]
+  "V75633" [label="(F V75633 (:* IN-LOC IN))"]
+  "V75633" -> "V75689" [label=":GROUND"]
+  "V75633" -> "V75707" [label=":FIGURE"]
+  "V75689" [label="(THE V75689 (:* IMAGE BACKGROUND))"]
+}

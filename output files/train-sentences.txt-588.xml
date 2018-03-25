@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="54">
+   <TEXT>some kids in the background are watching him , others a</TEXT>
+   <RELATION id="1" head="V417372" res="V416369" label="CONTENT"/>
+   <PHRASE id="V416369" indicator="F" type="MANAGE" text="WATCH" TENSE="PRES" PROGR="+" start="0" end="54"/>
+   <RELATION id="2" head="V416369" res="V416284" label="AGENT"/>
+   <RELATION id="3" head="V416369" res="V416379" label="AFFECTED"/>
+   <RELATION id="4" head="V416369" res="V416598" label="BENEFICIARY"/>
+   <PHRASE id="V416598" indicator="F" type="BENEFICIARY" text="IOBJ" start="0" end="54"/>
+   <RELATION id="5" head="V416598" res="V416373" label="GROUND"/>
+   <RELATION id="6" head="V416598" res="V416369" label="FIGURE"/>
+   <PHRASE id="V416284" indicator="INDEF-SET" type="CHILD" text="KID" SIZE="SOME" start="0" end="28"/>
+   <RELATION id="7" head="V416284" res="V416291" label="LOCATION"/>
+   <PHRASE id="V416291" indicator="F" type="IN-LOC" text="IN" start="10" end="28"/>
+   <RELATION id="8" head="V416291" res="V416347" label="GROUND"/>
+   <RELATION id="9" head="V416291" res="V416284" label="FIGURE"/>
+   <PHRASE id="V416347" indicator="THE" type="IMAGE" text="BACKGROUND" start="13" end="28"/>
+   <PHRASE id="V416373" indicator="PRO" type="MALE-PERSON" text="HIM" PROFORM="HIM" start="41" end="47"/>
+   <PHRASE id="V416379" indicator="BARE" type="OTHER" text="OTHERS" start="47" end="54"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="54" end="72">
+   <TEXT>are at their desk .</TEXT>
+   <RELATION id="10" head="V417177" res="V416386" label="CONTENT"/>
+   <PHRASE id="V416386" indicator="F" type="HAVE-PROPERTY" text="BE" TENSE="PRES" start="54" end="72"/>
+   <RELATION id="11" head="V416386" res="V417178" label="NEUTRAL"/>
+   <RELATION id="12" head="V416386" res="V416405" label="FORMAL"/>
+   <PHRASE id="V417178" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="54" end="72"/>
+   <RELATION id="13" head="V417178" res="V416347" label="COREF"/>
+   <PHRASE id="V416405" indicator="F" type="AT-LOC" text="AT" start="58" end="72"/>
+   <RELATION id="14" head="V416405" res="V416420" label="GROUND"/>
+   <RELATION id="15" head="V416405" res="V417178" label="FIGURE"/>
+   <PHRASE id="V416420" indicator="THE" type="FURNISHINGS" text="DESK" start="61" end="72"/>
+   <RELATION id="16" head="V416420" res="V416417" label="ASSOC-POSS"/>
+   <PHRASE id="V416417" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="61" end="72"/>
+   <RELATION id="17" head="V416417" res="V416284" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

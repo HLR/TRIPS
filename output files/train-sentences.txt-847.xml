@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="F" type="ON-MEDICATION" text="ON" start="0" end="46">
+   <TEXT>on the right a wooden commode and a red chair .</TEXT>
+   <RELATION id="1" head="V246384" res="V246486" label="GROUND"/>
+   <PHRASE id="V246486" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="3" end="46"/>
+   <RELATION id="2" head="V246486" res="V246479" label="SEQUENCE"/>
+   <RELATION id="3" head="V246486" res="V246549" label="SEQUENCE1"/>
+   <PHRASE id="V246479" indicator="THE" type="FIXTURE" text="COMMODE" start="3" end="30"/>
+   <RELATION id="4" head="V246479" res="V246447" label="ASSOC-WITH"/>
+   <RELATION id="5" head="V246479" res="V246417" label="MOD"/>
+   <RELATION id="6" head="V246479" res="V246472" label="MOD"/>
+   <PHRASE id="V246417" indicator="F" type="CORRECT" text="RIGHT" start="7" end="13"/>
+   <RELATION id="7" head="V246417" res="V246479" label="FIGURE"/>
+   <PHRASE id="V246447" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="13" end="15"/>
+   <PHRASE id="V246472" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="15" end="22"/>
+   <RELATION id="8" head="V246472" res="V246479" label="FIGURE"/>
+   <PHRASE id="V246549" indicator="A" type="FURNISHINGS" text="CHAIR" start="34" end="46"/>
+   <RELATION id="9" head="V246549" res="V246536" label="MOD"/>
+   <PHRASE id="V246536" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="36" end="40"/>
+   <RELATION id="10" head="V246536" res="V246549" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

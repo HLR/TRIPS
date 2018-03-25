@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="63">
+   <TEXT>there is a grey house with a light blue roof in the background .</TEXT>
+   <RELATION id="1" head="V73050" res="V72435" label="CONTENT"/>
+   <PHRASE id="V72435" indicator="F" type="EXISTS" text="BE" TENSE="PRES" start="0" end="63"/>
+   <RELATION id="2" head="V72435" res="V72499" label="NEUTRAL"/>
+   <PHRASE id="V72422" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" start="0" end="6"/>
+   <PHRASE id="V72499" indicator="A" type="LODGING" text="HOUSE" start="9" end="63"/>
+   <RELATION id="3" head="V72499" res="V72504" label="MOD"/>
+   <RELATION id="4" head="V72499" res="V72487" label="MOD"/>
+   <PHRASE id="V72487" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="11" end="16"/>
+   <RELATION id="5" head="V72487" res="V72499" label="FIGURE"/>
+   <PHRASE id="V72504" indicator="F" type="ASSOC-WITH" text="WITH" start="22" end="63"/>
+   <RELATION id="6" head="V72504" res="V72594" label="GROUND"/>
+   <RELATION id="7" head="V72504" res="V72499" label="FIGURE"/>
+   <PHRASE id="V72594" indicator="A" type="STRUCTURE-EXTERNAL-COMPONENT" text="ROOF" start="27" end="63"/>
+   <RELATION id="8" head="V72594" res="V72601" label="LOCATION"/>
+   <RELATION id="9" head="V72594" res="V72559" label="MOD"/>
+   <RELATION id="10" head="V72594" res="V72582" label="MOD"/>
+   <PHRASE id="V72559" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="29" end="35"/>
+   <RELATION id="11" head="V72559" res="V72594" label="FIGURE"/>
+   <PHRASE id="V72582" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="35" end="40"/>
+   <RELATION id="12" head="V72582" res="V72594" label="FIGURE"/>
+   <PHRASE id="V72601" indicator="F" type="IN-LOC" text="IN" start="45" end="63"/>
+   <RELATION id="13" head="V72601" res="V72657" label="GROUND"/>
+   <RELATION id="14" head="V72601" res="V72594" label="FIGURE"/>
+   <PHRASE id="V72657" indicator="THE" type="IMAGE" text="BACKGROUND" start="48" end="63"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

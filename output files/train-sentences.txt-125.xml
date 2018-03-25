@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="54">
+   <TEXT>Group of tourists is standing in front of a buildilng .</TEXT>
+   <RELATION id="1" head="V78270" res="V76662" label="CONTENT"/>
+   <PHRASE id="V76662" indicator="F" type="BE" text="BE" TENSE="PRES" start="0" end="54"/>
+   <RELATION id="2" head="V76662" res="V76637" label="NEUTRAL"/>
+   <RELATION id="3" head="V76662" res="V76679" label="NEUTRAL1"/>
+   <PHRASE id="V76637" indicator="BARE" type="GROUP-OBJECT" text="GROUP" start="0" end="18"/>
+   <RELATION id="4" head="V76637" res="V76645" label="MOD"/>
+   <PHRASE id="V76645" indicator="F" type="ASSOC-WITH" text="OF" start="6" end="18"/>
+   <RELATION id="5" head="V76645" res="V76653" label="GROUND"/>
+   <RELATION id="6" head="V76645" res="V76637" label="FIGURE"/>
+   <PHRASE id="V76653" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="9" end="18"/>
+   <PHRASE id="V76679" indicator="BARE" type="BE-AT-LOC" text="STAND" start="21" end="54"/>
+   <RELATION id="7" head="V76679" res="V76698" label="LOCATION"/>
+   <PHRASE id="V76698" indicator="F" type="FRONT" text="IN-FRONT" start="30" end="54"/>
+   <RELATION id="8" head="V76698" res="V76853" label="GROUND"/>
+   <RELATION id="9" head="V76698" res="V76679" label="FIGURE"/>
+   <PHRASE id="V76853" indicator="A" type="REFERENTIAL-SEM" text="BUILDILNG" start="39" end="54"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

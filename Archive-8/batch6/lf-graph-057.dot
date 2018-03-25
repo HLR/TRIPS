@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "SANDY BACKGROUND WITH VERY LOW GRASS PUNC-PERIOD"
+  "V275915" [label="(SPEECHACT V275915 SA_IDENTIFY)"]
+  "V275915" -> "V275812" [label=":CONTENT"]
+  "V275812" [label="(BARE V275812 (:* IMAGE BACKGROUND))"]
+  "V275812" -> "V275816" [label=":MOD"]
+  "V275812" -> "V275809" [label=":MOD"]
+  "V275809" [label="(F V275809 (:* MODIFIER SANDY))"]
+  "V275809" -> "V275812" [label=":FIGURE"]
+  "V275816" [label="(F V275816 (:* ASSOC-WITH WITH))"]
+  "V275816" -> "V275835" [label=":GROUND"]
+  "V275816" -> "V275812" [label=":FIGURE"]
+  "V275835" [label="(BARE V275835 (:* PLANT GRASS))"]
+  "V275835" -> "V275831" [label=":MOD"]
+  "V275831" [label="(F V275831 (:* LOW-VAL LOW))"]
+  "V275831" -> "V275835" [label=":FIGURE"]
+  "V275831" -> "V275828" [label=":DEGREE"]
+  "V275828" [label="(F V275828 (:* DEGREE-MODIFIER-HIGH VERY))"]
+  "V275828" -> "V275831" [label=":FIGURE"]
+}

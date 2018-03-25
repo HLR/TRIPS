@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "A WINDOW AT THE BACK PUNC-COMMA WITH THE CURTAINS CLOSED PUNC-PERIOD"
+  "V265273" [label="(SPEECHACT V265273 SA_TELL)"]
+  "V265273" -> "V265056" [label=":CONTENT"]
+  "V265056" [label="(F V265056 (:* CLOSE CLOSE))"]
+  "V265056" -> "V264985" [label=":AFFECTED"]
+  "V265056" -> "NT265529" [label=":TENSE"]
+  "NT265529" [label="PAST"]
+  "V264985" [label="(A V264985 (:* STRUCTURAL-OPENING WINDOW))"]
+  "V264985" -> "V264995" [label=":LOCATION"]
+  "V264995" [label="(F V264995 (:* AT-LOC AT))"]
+  "V264995" -> "V265020" [label=":GROUND"]
+  "V264995" -> "V264985" [label=":FIGURE"]
+  "V265020" [label="(THE V265020 (:* OBJECT-DEPENDENT-LOCATION BACK))"]
+  "V265020" -> "V265030" [label=":MOD"]
+  "V265030" [label="(F V265030 (:* ASSOC-WITH WITH))"]
+  "V265030" -> "V265049" [label=":GROUND"]
+  "V265030" -> "V265020" [label=":FIGURE"]
+  "V265049" [label="(THE-SET V265049 (:* COVERING CURTAIN))"]
+}

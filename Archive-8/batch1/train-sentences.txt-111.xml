@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="water is flowing through one tiny spot .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+9
+*last-utt-id*=9  utt-id+NIL</debug><utt><words><lisp>(W::WATER W::IS W::FLOWING W::THROUGH W::ONE W::TINY W::SPOT W::PUNC-PERIOD)</lisp><word>WATER</word><word>IS</word><word>FLOWING</word><word>THROUGH</word><word>ONE</word><word>TINY</word><word>SPOT</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;water&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;water&quot; :FRAME (0 5) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 11.07
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;flowing&quot; :FRAME (9 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;through&quot; :FRAME (17 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (25 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tiny&quot; :FRAME (29 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;spot&quot; :FRAME (34 38) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 9
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one tiny spot&quot; :FRAME (25 38) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 27.56 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;through one tiny spot&quot; :FRAME (17 38) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 32.598 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;flowing through one tiny spot&quot; :FRAME (9 38) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 42.745 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is flowing through one tiny spot&quot; :FRAME (6 38) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 47.005 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (39 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;water is flowing through one tiny spot .&quot; :FRAME (0 39) :PENN-CATS
+  (S) :SCORE 59.217 :UTTNUM 9 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="water" start="0" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="water" start="0" end="5" penn-cats="NP" score="11.07" /><word lex="is" start="6" end="8"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="flowing" start="9" end="16"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="through" start="17" end="24"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="one" start="25" end="28"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="tiny" start="29" end="33"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="spot" start="34" end="38"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one tiny spot" start="25" end="38" penn-cats="NP" score="27.56" /><prefer text="through one tiny spot" start="17" end="38" penn-cats="PP" score="32.598" /><prefer text="flowing through one tiny spot" start="9" end="38" penn-cats="VP" score="42.745" /><prefer text="is flowing through one tiny spot" start="6" end="38" penn-cats="VP" score="47.005" /><word lex="." start="39" end="39"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="water is flowing through one tiny spot ." start="0" end="39" penn-cats="S" score="59.217" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (N1 (N WATER)))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (VP- (V FLOWING))
+      (ADVBL (ADV THROUGH)
+       (NP (SPEC (NUMBER ONE))
+        (N1 (ADJP (ADJ1 (ADJ TINY))) (N1 (N SPOT))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N>WATER</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>FLOWING</V></VP-><ADVBL><ADV>THROUGH</ADV><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><ADJP><ADJ1><ADJ>TINY</ADJ></ADJ1></ADJP><N1><N>SPOT</N></N1></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V46434"><lisp>((ONT::SPEECHACT ONT::V46434 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V46262 :START 0 :END 39)
+ (ONT::F ONT::V46262 (:* ONT::FLUIDIC-MOTION W::FLOW) :TRANSIENT-RESULT
+  ONT::V46265 :AFFECTED ONT::V46239 :TENSE W::PRES :PROGR + :START 0 :END 39)
+ (ONT::BARE ONT::V46239 (:* ONT::WATER W::WATER) :START 0 :END 6)
+ (ONT::F ONT::V46265 (:* ONT::THROUGH W::THROUGH) :GROUND ONT::V46294 :FIGURE
+  ONT::V46239 :START 17 :END 39)
+ (ONT::A ONT::V46294 (:* ONT::LOC-DEFINED-BY-CONTRAST W::SPOT) :SIZE
+  ONT::V46303 :MOD ONT::V46288 :START 25 :END 39)
+ (ONT::A ONT::V46303 ONT::NUMBER :VALUE 1 :START 25 :END 39)
+ (ONT::F ONT::V46288 (:* ONT::TINY W::TINY) :ORIENTATION ONT::LESS :INTENSITY
+  ONT::HI :FIGURE ONT::V46294 :SCALE ONT::SIZE-SCALE :START 29 :END 34))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V46434">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V46262" />
+    <LF:start>0</LF:start>
+    <LF:end>39</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V46262">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FLUIDIC-MOTION</LF:type>
+    <LF:word>FLOW</LF:word>
+    <role:TRANSIENT-RESULT rdf:resource="#V46265" />
+    <role:AFFECTED rdf:resource="#V46239" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>39</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V46239">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>WATER</LF:type>
+    <LF:word>WATER</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V46265">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>THROUGH</LF:type>
+    <LF:word>THROUGH</LF:word>
+    <role:GROUND rdf:resource="#V46294" />
+    <role:FIGURE rdf:resource="#V46239" />
+    <LF:start>17</LF:start>
+    <LF:end>39</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V46294">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>LOC-DEFINED-BY-CONTRAST</LF:type>
+    <LF:word>SPOT</LF:word>
+    <role:SIZE rdf:resource="#V46303" />
+    <role:MOD rdf:resource="#V46288" />
+    <LF:start>25</LF:start>
+    <LF:end>39</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V46303">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>25</LF:start>
+    <LF:end>39</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V46288">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TINY</LF:type>
+    <LF:word>TINY</LF:word>
+    <role:ORIENTATION>LESS</role:ORIENTATION>
+    <role:INTENSITY>HI</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V46294" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>29</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

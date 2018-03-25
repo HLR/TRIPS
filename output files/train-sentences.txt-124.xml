@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="32">
+   <TEXT>a gravel road in the foreground .</TEXT>
+   <RELATION id="1" head="V76308" res="V76105" label="CONTENT"/>
+   <PHRASE id="V76105" indicator="A" type="ROUTE" text="ROAD" start="0" end="32"/>
+   <RELATION id="2" head="V76105" res="V76102" label="ASSOC-WITH"/>
+   <RELATION id="3" head="V76105" res="V76112" label="LOCATION"/>
+   <PHRASE id="V76102" indicator="KIND" type="MATERIAL" text="GRAVEL" start="0" end="32"/>
+   <PHRASE id="V76112" indicator="F" type="IN-LOC" text="IN" start="14" end="32"/>
+   <RELATION id="4" head="V76112" res="V76171" label="GROUND"/>
+   <RELATION id="5" head="V76112" res="V76105" label="FIGURE"/>
+   <PHRASE id="V76171" indicator="THE" type="DEVICE" text="FOREGROUND" start="17" end="32"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

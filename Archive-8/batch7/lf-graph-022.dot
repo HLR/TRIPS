@@ -1,0 +1,23 @@
+digraph Terms {
+  node [shape=none]
+  "WITH A WHITE BEAR ON IT IN A BACKYARD"
+  "V135898" [label="(F V135898 (:* IN-LOC IN))"]
+  "V135898" -> "V135989" [label=":GROUND"]
+  "V135989" [label="(A V135989 (:* GEO-OBJECT BACKYARD))"]
+  "V135732" [label="(F V135732 (:* ASSOC-WITH WITH))"]
+  "V135732" -> "V135798" [label=":GROUND"]
+  "V135798" [label="(A V135798 (:* NONHUMAN-ANIMAL BEAR))"]
+  "V135798" -> "V135809" [label=":MOD"]
+  "V135798" -> "V135785" [label=":MOD"]
+  "V135785" [label="(F V135785 (:* WHITE WHITE))"]
+  "V135785" -> "V135798" [label=":FIGURE"]
+  "V135785" -> "NT137516" [label=":SCALE"]
+  "NT137516" [label="WHITE*1--07--00"]
+  "V135809" [label="(F V135809 (:* ON-MEDICATION ON))"]
+  "V135809" -> "V135860" [label=":GROUND"]
+  "V135809" -> "V135798" [label=":FIGURE"]
+  "V135860" [label="(PRO V135860 (:* REFERENTIAL-SEM IT))"]
+  "V135860" -> "NT137517" [label=":PROFORM"]
+  "NT137517" [label="IT"]
+  "V135860" -> "V126626" [label=":COREF"]
+}

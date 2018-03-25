@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "INTERIOR VIEW OF A ROOM WITH WHITE WALLS PUNC-COMMA"
+  "V310543" [label="(BARE V310543 (:* ACTIVE-PERCEPTION VIEW))"]
+  "V310543" -> "V310601" [label=":NEUTRAL"]
+  "V310543" -> "V310605" [label=":MOD"]
+  "V310543" -> "V310537" [label=":MOD"]
+  "V310537" [label="(F V310537 (:* NATIONAL-VAL INTERIOR))"]
+  "V310537" -> "V310543" [label=":FIGURE"]
+  "V310601" [label="(A V310601 (:* INTERNAL-ENCLOSURE ROOM))"]
+  "V310605" [label="(F V310605 (:* ASSOC-WITH WITH))"]
+  "V310605" -> "V310624" [label=":GROUND"]
+  "V310605" -> "V310543" [label=":FIGURE"]
+  "V310624" [label="(INDEF-SET V310624 (:* STRUCTURE-INTERNAL-COMPONENT WALL))"]
+  "V310624" -> "V310617" [label=":MOD"]
+  "V310617" [label="(F V310617 (:* WHITE WHITE))"]
+  "V310617" -> "V310624" [label=":FIGURE"]
+  "V310617" -> "NT311076" [label=":SCALE"]
+  "NT311076" [label="WHITE*1--07--00"]
+}

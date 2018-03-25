@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="50">
+   <TEXT>two kids are eating their lunch in the foreground .</TEXT>
+   <RELATION id="1" head="V379490" res="V378758" label="CONTENT"/>
+   <PHRASE id="V378758" indicator="F" type="CONSUME" text="EAT" TENSE="PRES" PROGR="+" start="0" end="50"/>
+   <RELATION id="2" head="V378758" res="V378781" label="RESULT"/>
+   <RELATION id="3" head="V378758" res="V378737" label="AGENT"/>
+   <RELATION id="4" head="V378758" res="V378772" label="AFFECTED"/>
+   <PHRASE id="V378737" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="9"/>
+   <RELATION id="5" head="V378737" res="V378734" label="SIZE"/>
+   <PHRASE id="V378734" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+   <PHRASE id="V378772" indicator="THE" type="FOOD" text="LUNCH" start="20" end="32"/>
+   <RELATION id="6" head="V378772" res="V378763" label="ASSOC-POSS"/>
+   <PHRASE id="V378763" indicator="PRO" type="REFERENTIAL-SEM" text="THEIR" PROFORM="THEIR" start="20" end="32"/>
+   <RELATION id="7" head="V378763" res="V378737" label="COREF"/>
+   <PHRASE id="V378781" indicator="F" type="IN-LOC" text="IN" start="32" end="50"/>
+   <RELATION id="8" head="V378781" res="V378840" label="GROUND"/>
+   <RELATION id="9" head="V378781" res="V378772" label="FIGURE"/>
+   <PHRASE id="V378840" indicator="THE" type="DEVICE" text="FOREGROUND" start="35" end="50"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

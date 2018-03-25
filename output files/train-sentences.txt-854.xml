@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="61">
+   <TEXT>two red armchairs with a round table on the left at the back .</TEXT>
+   <RELATION id="1" head="V267485" res="V266946" label="CONTENT"/>
+   <PHRASE id="V266946" indicator="INDEF-SET" type="FURNISHINGS" text="ARMCHAIRS" start="0" end="61"/>
+   <RELATION id="2" head="V266946" res="V266936" label="SIZE"/>
+   <RELATION id="3" head="V266946" res="V267033" label="LOCATION"/>
+   <RELATION id="4" head="V266946" res="V266950" label="MOD"/>
+   <RELATION id="5" head="V266946" res="V266938" label="MOD"/>
+   <PHRASE id="V266936" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+   <PHRASE id="V266938" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="4" end="8"/>
+   <RELATION id="6" head="V266938" res="V266946" label="FIGURE"/>
+   <PHRASE id="V266950" indicator="F" type="ASSOC-WITH" text="WITH" start="18" end="37"/>
+   <RELATION id="7" head="V266950" res="V267025" label="GROUND"/>
+   <RELATION id="8" head="V266950" res="V266946" label="FIGURE"/>
+   <PHRASE id="V267025" indicator="A" type="INFORMATION-FUNCTION-OBJECT" text="ROUND-TABLE" start="23" end="37" WNSENSE="round_table%1:10:00"/>
+   <PHRASE id="V267033" indicator="F" type="ON" text="ON" start="37" end="61"/>
+   <RELATION id="9" head="V267033" res="V267067" label="GROUND"/>
+   <RELATION id="10" head="V267033" res="V266946" label="FIGURE"/>
+   <PHRASE id="V267067" indicator="THE" type="LEFT-LOC" text="LEFT" start="40" end="61"/>
+   <RELATION id="11" head="V267067" res="V267097" label="LOCATION"/>
+   <PHRASE id="V267097" indicator="F" type="AT-LOC" text="AT" start="49" end="61"/>
+   <RELATION id="12" head="V267097" res="V267122" label="GROUND"/>
+   <RELATION id="13" head="V267097" res="V267067" label="FIGURE"/>
+   <PHRASE id="V267122" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="BACK" start="52" end="61"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="79" WNSENSE="stand_in%2:40:00">
+   <TEXT>Two adults and four local boys are standing in front of a white house with two t</TEXT>
+   <RELATION id="1" head="V94640" res="V87425" label="CONTENT"/>
+   <PHRASE id="V87425" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="0" end="79" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="2" head="V87425" res="V87322" label="AGENT"/>
+   <RELATION id="3" head="V87425" res="V87431" label="AFFECTED"/>
+   <PHRASE id="V87322" indicator="INDEF-SET" type="PERSON" OPERATOR="AND" start="0" end="31"/>
+   <RELATION id="4" head="V87322" res="V87318" label="SEQUENCE"/>
+   <RELATION id="5" head="V87322" res="V87337" label="SEQUENCE1"/>
+   <PHRASE id="V87318" indicator="INDEF-SET" type="PERSON" text="ADULT" start="0" end="11"/>
+   <RELATION id="6" head="V87318" res="V87316" label="SIZE"/>
+   <PHRASE id="V87316" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+   <PHRASE id="V87337" indicator="INDEF-SET" type="MALE-CHILD" text="BOY" start="15" end="31"/>
+   <RELATION id="7" head="V87337" res="V87332" label="SIZE"/>
+   <RELATION id="8" head="V87337" res="V87334" label="MOD"/>
+   <PHRASE id="V87332" indicator="A" type="NUMBER" VALUE="4" start="15" end="20"/>
+   <PHRASE id="V87334" indicator="F" type="LOCAL-VAL" text="LOCAL" SCALE="LINEAR-SCALE" INTENSITY="MED" ORIENTATION="LESS" start="20" end="26"/>
+   <RELATION id="9" head="V87334" res="V87337" label="FIGURE"/>
+   <PHRASE id="V87431" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="47" end="79"/>
+   <RELATION id="10" head="V87431" res="V87543" label="FIGURE"/>
+   <RELATION id="11" head="V87431" res="V87548" label="MOD"/>
+   <PHRASE id="V87543" indicator="A" type="LODGING" text="HOUSE" start="53" end="70"/>
+   <RELATION id="12" head="V87543" res="V87533" label="MOD"/>
+   <PHRASE id="V87533" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="58" end="64"/>
+   <RELATION id="13" head="V87533" res="V87543" label="FIGURE"/>
+   <PHRASE id="V87548" indicator="F" type="ASSOC-WITH" text="WITH" start="70" end="79"/>
+   <RELATION id="14" head="V87548" res="V87561" label="GROUND"/>
+   <RELATION id="15" head="V87548" res="V87431" label="FIGURE"/>
+   <PHRASE id="V87561" indicator="INDEF-SET" type="NUMBER" NUMBER="2" start="75" end="79"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="79" end="97">
+   <TEXT>trellised windows .</TEXT>
+   <RELATION id="16" head="V88488" res="V87564" label="CONTENT"/>
+   <PHRASE id="V87564" indicator="F" type="HINDERING" text="TRELLISED" TENSE="PAST" start="79" end="97"/>
+   <RELATION id="17" head="V87564" res="V88489" label="AGENT"/>
+   <RELATION id="18" head="V87564" res="V87574" label="AFFECTED"/>
+   <PHRASE id="V88489" indicator="IMPRO" type="REFERENTIAL-SEM" PROFORM="SUBJ" start="79" end="97"/>
+   <RELATION id="19" head="V88489" res="V87316" label="COREF"/>
+   <PHRASE id="V87574" indicator="INDEF-SET" type="STRUCTURAL-OPENING" text="WINDOW" start="89" end="97"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

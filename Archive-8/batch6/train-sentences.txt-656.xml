@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one girl sitting at her desk and eating bread .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+40
+*last-utt-id*=40  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::GIRL W::SITTING W::AT W::HER W::DESK W::AND W::EATING W::BREAD
+ W::PUNC-PERIOD)</lisp><word>ONE</word><word>GIRL</word><word>SITTING</word><word>AT</word><word>HER</word><word>DESK</word><word>AND</word><word>EATING</word><word>BREAD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;girl&quot; :FRAME (4 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one girl&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  18.123 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (9 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (17 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;her&quot; :FRAME (20 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;desk&quot; :FRAME (24 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;her desk&quot; :FRAME (20 28) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  16.522 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at her desk&quot; :FRAME (17 28) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 19.85 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting at her desk&quot; :FRAME (9 28) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :SCORE 28.546 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (29 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;eating&quot; :FRAME (33 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN VBG) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+  40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bread&quot; :FRAME (40 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;bread&quot; :FRAME (40 45) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  12.035 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;eating bread&quot; :FRAME (33 45) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 21.161 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sitting at her desk and eating bread&quot; :FRAME (9 45) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 54.388 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (46 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one girl sitting at her desk and eating bread .&quot; :FRAME (0 46)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 75.953 :UTTNUM 40 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="girl" start="4" end="8"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one girl" start="0" end="8" penn-cats="NP" score="18.123" /><word lex="sitting" start="9" end="16"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="17" end="19"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="her" start="20" end="23"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="desk" start="24" end="28"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="her desk" start="20" end="28" penn-cats="NP" score="16.522" /><prefer text="at her desk" start="17" end="28" penn-cats="PP" score="19.85" /><prefer text="sitting at her desk" start="9" end="28" penn-cats="VP" score="28.546" /><word lex="and" start="29" end="32"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="eating" start="33" end="39"><sense-info penn-parts-of-speech="NN,VBG" trips-parts-of-speech="N,V" /></word><word lex="bread" start="40" end="45"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="bread" start="40" end="45" penn-cats="NP" score="12.035" /><prefer text="eating bread" start="33" end="45" penn-cats="VP" score="21.161" /><prefer text="sitting at her desk and eating bread" start="9" end="45" penn-cats="VP" score="54.388" /><word lex="." start="46" end="46"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one girl sitting at her desk and eating bread ." start="0" end="46" penn-cats="NP" score="75.953" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (NP
+    (N1 (N1 (NP (SPEC (NUMBER ONE)) (N1 (N GIRL))) (N1 (V SITTING)))
+     (ADVBL (ADV AT) (NP (SPEC (DET (POSSESSOR (PRO HER)))) (N1 (N DESK))))))
+   (CONJ AND) (NP (VP (VP- (V EATING) (NP (N1 (N BREAD))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><NP><N1><N1><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N>GIRL</N></N1></NP><N1><V>SITTING</V></N1></N1><ADVBL><ADV>AT</ADV><NP><SPEC><DET><POSSESSOR><PRO>HER</PRO></POSSESSOR></DET></SPEC><N1><N>DESK</N></N1></NP></ADVBL></N1></NP><CONJ>AND</CONJ><NP><VP><VP-><V>EATING</V><NP><N1><N>BREAD</N></N1></NP></VP-></VP></NP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V203386"><lisp>((ONT::SPEECHACT ONT::V203386 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V202955 :START 0 :END 46)
+ (ONT::INDEF-SET ONT::V202955 ONT::EVENT-OF-CAUSATION :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V202917 ONT::V202965) :START 0 :END 46)
+ (ONT::BARE ONT::V202917 (:* ONT::PLACE-IN-POSITION W::SIT) :RESULT
+  ONT::V202933 :AFFECTED ONT::V202907 :START 0 :END 29)
+ (ONT::A ONT::V202907 (:* ONT::FEMALE-CHILD W::GIRL) :SIZE ONT::V202982 :START
+  0 :END 9)
+ (ONT::A ONT::V202982 ONT::NUMBER :VALUE 1 :START 0 :END 9)
+ (ONT::F ONT::V202933 (:* ONT::AT-LOC W::AT) :GROUND ONT::V202951 :START 17
+  :END 29)
+ (ONT::THE ONT::V202951 (:* ONT::FURNISHINGS W::DESK) :ASSOC-POSS ONT::V202946
+  :START 20 :END 29)
+ (ONT::PRO ONT::V202946 (:* ONT::FEMALE-PERSON W::HER) :PROFORM W::HER :START
+  20 :END 29 :COREF ONT::V202907)
+ (ONT::BARE ONT::V202965 (:* ONT::CONSUME W::EAT) :AFFECTED ONT::V202973 :START
+  33 :END 46)
+ (ONT::BARE ONT::V202973 (:* ONT::BREAD W::BREAD) :START 40 :END 46))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V203386">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V202955" />
+    <LF:start>0</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202955">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>EVENT-OF-CAUSATION</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V202917" />
+    <role:SEQUENCE1 rdf:resource="#V202965" />
+    <LF:start>0</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202917">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PLACE-IN-POSITION</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:RESULT rdf:resource="#V202933" />
+    <role:AFFECTED rdf:resource="#V202907" />
+    <LF:start>0</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202907">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FEMALE-CHILD</LF:type>
+    <LF:word>GIRL</LF:word>
+    <role:SIZE rdf:resource="#V202982" />
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202982">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202933">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V202951" />
+    <LF:start>17</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202951">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>FURNISHINGS</LF:type>
+    <LF:word>DESK</LF:word>
+    <role:ASSOC-POSS rdf:resource="#V202946" />
+    <LF:start>20</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202946">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>FEMALE-PERSON</LF:type>
+    <LF:word>HER</LF:word>
+    <role:PROFORM>HER</role:PROFORM>
+    <LF:start>20</LF:start>
+    <LF:end>29</LF:end>
+    <role:COREF rdf:resource="#V202907" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202965">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CONSUME</LF:type>
+    <LF:word>EAT</LF:word>
+    <role:AFFECTED rdf:resource="#V202973" />
+    <LF:start>33</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V202973">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BREAD</LF:type>
+    <LF:word>BREAD</LF:word>
+    <LF:start>40</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

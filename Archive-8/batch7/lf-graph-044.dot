@@ -1,0 +1,23 @@
+digraph Terms {
+  node [shape=none]
+  "A GREEN VEST AND A GOLDEN NECKLACE PUNC-PERIOD"
+  "V212231" [label="(SPEECHACT V212231 SA_IDENTIFY)"]
+  "V212231" -> "V211977" [label=":CONTENT"]
+  "V211977" [label="(INDEF-SET V211977 MANUFACTURED-OBJECT)"]
+  "V211977" -> "NT212703" [label=":OPERATOR"]
+  "NT212703" [label="AND"]
+  "V211977" -> "V211973" [label=":SEQUENCE"]
+  "V211977" -> "V212035" [label=":SEQUENCE-1"]
+  "V211973" [label="(A V211973 (:* ATTIRE VEST))"]
+  "V211973" -> "V211967" [label=":MOD"]
+  "V211967" [label="(F V211967 (:* GREEN GREEN))"]
+  "V211967" -> "V211973" [label=":FIGURE"]
+  "V211967" -> "NT212704" [label=":SCALE"]
+  "NT212704" [label="GREEN*1--07--00"]
+  "V212035" [label="(A V212035 (:* MANUFACTURED-OBJECT NECKLACE))"]
+  "V212035" -> "V212028" [label=":MOD"]
+  "V212028" [label="(F V212028 (:* GOLD GOLDEN))"]
+  "V212028" -> "V212035" [label=":FIGURE"]
+  "V212028" -> "NT212705" [label=":SCALE"]
+  "NT212705" [label="GOLD*1--07--00"]
+}

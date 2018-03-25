@@ -1,0 +1,17 @@
+digraph Terms {
+  node [shape=none]
+  "A WOMAN WITH A PRESENT IN THE BACKGROUND PUNC-PERIOD"
+  "V233893" [label="(SPEECHACT V233893 SA_IDENTIFY)"]
+  "V233893" -> "V233595" [label=":CONTENT"]
+  "V233595" [label="(A V233595 (:* FEMALE-PERSON WOMAN))"]
+  "V233595" -> "V233671" [label=":LOCATION"]
+  "V233595" -> "V233599" [label=":MOD"]
+  "V233599" [label="(F V233599 (:* ASSOC-WITH WITH))"]
+  "V233599" -> "V233659" [label=":GROUND"]
+  "V233599" -> "V233595" [label=":FIGURE"]
+  "V233659" [label="(A V233659 (:* GIVING PRESENT))"]
+  "V233671" [label="(F V233671 (:* IN-LOC IN))"]
+  "V233671" -> "V233727" [label=":GROUND"]
+  "V233671" -> "V233595" [label=":FIGURE"]
+  "V233727" [label="(THE V233727 (:* IMAGE BACKGROUND))"]
+}

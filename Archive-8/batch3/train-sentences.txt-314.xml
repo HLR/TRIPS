@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="one female tourist is carrying a huge bunch of balloons .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?28747:(F::PHYS-OBJ
+                                                        F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V70695)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?28745)
+                                           (W::TRANSFORM ?28746)))
+                                 (W::CASE ?28744:(W::SUB W::OBJ -))
+                                 (W::AGR ?28743) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V70695) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER70792))
+*last-utt-id*=NIL  utt-id+11
+*last-utt-id*=11  utt-id+NIL</debug><utt><words><lisp>(W::ONE W::FEMALE W::TOURIST W::IS W::CARRYING W::A W::HUGE W::BUNCH W::OF
+ W::BALLOONS W::PUNC-PERIOD)</lisp><word>ONE</word><word>FEMALE</word><word>TOURIST</word><word>IS</word><word>CARRYING</word><word>A</word><word>HUGE</word><word>BUNCH</word><word>OF</word><word>BALLOONS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;one&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;female&quot; :FRAME (4 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tourist&quot; :FRAME (11 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one female tourist&quot; :FRAME (0 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 28.554 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (19 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;carrying&quot; :FRAME (22 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (31 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;huge&quot; :FRAME (33 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bunch&quot; :FRAME (38 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a huge bunch&quot; :FRAME (31 43) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 19.984 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (44 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;balloons&quot; :FRAME (47 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 11
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;balloons&quot; :FRAME (47 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  13.432 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of balloons&quot; :FRAME (44 55) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 14.499 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a huge bunch of balloons&quot; :FRAME (31 55) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 34.89 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;carrying a huge bunch of balloons&quot; :FRAME (22 55) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 43.479 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;is carrying a huge bunch of balloons&quot; :FRAME (19 55) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :SCORE 47.739 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;.&quot; :FRAME (56 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one female tourist is carrying a huge bunch of balloons .&quot; :FRAME
+  (0 56) :PENN-CATS (S) :SCORE 77.435 :UTTNUM 11 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="one" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="female" start="4" end="10"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="tourist" start="11" end="18"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one female tourist" start="0" end="18" penn-cats="NP" score="28.554" /><word lex="is" start="19" end="21"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="carrying" start="22" end="30"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="31" end="32"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="huge" start="33" end="37"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="bunch" start="38" end="43"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a huge bunch" start="31" end="43" penn-cats="NP" score="19.984" /><word lex="of" start="44" end="46"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="balloons" start="47" end="55"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="balloons" start="47" end="55" penn-cats="NP" score="13.432" /><prefer text="of balloons" start="44" end="55" penn-cats="PP" score="14.499" /><prefer text="a huge bunch of balloons" start="31" end="55" penn-cats="NP" score="34.89" /><prefer text="carrying a huge bunch of balloons" start="22" end="55" penn-cats="VP" score="43.479" /><prefer text="is carrying a huge bunch of balloons" start="19" end="55" penn-cats="VP" score="47.739" /><word lex="." start="56" end="56"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="one female tourist is carrying a huge bunch of balloons ." start="0" end="56" penn-cats="S" score="77.435" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (NUMBER ONE)) (N1 (N1 (N FEMALE)) (N1 (N TOURIST))))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V CARRYING)
+      (NP (SPEC (NP (ART A) (N1 (ADJP (ADJ1 (ADJ HUGE))) (N1 (N BUNCH)))))
+       (PP (PREP OF) (NP (N1 (N BALLOONS))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><NUMBER>ONE</NUMBER></SPEC><N1><N1><N>FEMALE</N></N1><N1><N>TOURIST</N></N1></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V>CARRYING</V><NP><SPEC><NP><ART>A</ART><N1><ADJP><ADJ1><ADJ>HUGE</ADJ></ADJ1></ADJP><N1><N>BUNCH</N></N1></N1></NP></SPEC><PP><PREP>OF</PREP><NP><N1><N>BALLOONS</N></N1></NP></PP></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V72902"><lisp>((ONT::SPEECHACT ONT::V72902 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V70138 :START 0 :END 56)
+ (ONT::F ONT::V70138 (:* ONT::TRANSPORT W::CARRY) :AGENT ONT::V70115 :AFFECTED
+  ONT::V72866 :TENSE W::PRES :PROGR + :START 0 :END 56)
+ (ONT::A ONT::V70115 (:* ONT::TRAVELLER W::TOURIST) :SIZE ONT::V70208
+  :ASSOC-WITH ONT::V70108 :START 0 :END 19)
+ (ONT::KIND ONT::V70108 (:* ONT::FEMALE-PERSON W::FEMALE) :START 0 :END 19)
+ (ONT::A ONT::V70208 ONT::NUMBER :VALUE 1 :START 0 :END 19)
+ (ONT::SM ONT::V72866 (:* ONT::AIR-VEHICLE W::BALLOONS) :QUANTITY ONT::V70185
+  :START 31 :END 56)
+ (ONT::A ONT::V70185 ONT::QUANTITY :AMOUNT ONT::V70155 :UNIT
+  (:* ONT::QUANTITY W::BUNCH) :MOD ONT::V70182 :START 31 :END 44)
+ (ONT::A ONT::V70155 ONT::NUMBER :VALUE 1 :START 31 :END 44)
+ (ONT::F ONT::V70182 (:* ONT::HUGE-VAL W::HUGE) :ORIENTATION ONT::MORE
+  :INTENSITY ONT::HI :FIGURE ONT::V70185 :SCALE ONT::SIZE-SCALE :START 33 :END
+  38)
+ (ONT::INDEF-SET ONT::V70197 (:* ONT::AIR-VEHICLE W::BALLOONS) :START 44 :END
+  56))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V72902">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V70138" />
+    <LF:start>0</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70138">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TRANSPORT</LF:type>
+    <LF:word>CARRY</LF:word>
+    <role:AGENT rdf:resource="#V70115" />
+    <role:AFFECTED rdf:resource="#V72866" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70115">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>TRAVELLER</LF:type>
+    <LF:word>TOURIST</LF:word>
+    <role:SIZE rdf:resource="#V70208" />
+    <role:ASSOC-WITH rdf:resource="#V70108" />
+    <LF:start>0</LF:start>
+    <LF:end>19</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70108">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>FEMALE-PERSON</LF:type>
+    <LF:word>FEMALE</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>19</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70208">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>19</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V72866">
+    <LF:indicator>SM</LF:indicator>
+    <LF:type>AIR-VEHICLE</LF:type>
+    <LF:word>BALLOONS</LF:word>
+    <role:QUANTITY rdf:resource="#V70185" />
+    <LF:start>31</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70185">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>QUANTITY</LF:type>
+    <role:AMOUNT rdf:resource="#V70155" />
+    <role:UNIT>(:* QUANTITY BUNCH)</role:UNIT>
+    <role:MOD rdf:resource="#V70182" />
+    <LF:start>31</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70155">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>31</LF:start>
+    <LF:end>44</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70182">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HUGE-VAL</LF:type>
+    <LF:word>HUGE</LF:word>
+    <role:ORIENTATION>MORE</role:ORIENTATION>
+    <role:INTENSITY>HI</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V70185" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>33</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V70197">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>AIR-VEHICLE</LF:type>
+    <LF:word>BALLOONS</LF:word>
+    <LF:start>44</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

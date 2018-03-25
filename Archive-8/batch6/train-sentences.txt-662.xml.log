@@ -1,0 +1,182 @@
+2,154c2,27
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="sandy landscape with stones and rocks in the background .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+45
+< *last-utt-id*=45  utt-id+NIL</debug><utt><words><lisp>(W::SANDY W::LANDSCAPE W::WITH W::STONES W::AND W::ROCKS W::IN W::THE
+<  W::BACKGROUND W::PUNC-PERIOD)</lisp><word>SANDY</word><word>LANDSCAPE</word><word>WITH</word><word>STONES</word><word>AND</word><word>ROCKS</word><word>IN</word><word>THE</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;sandy&quot; :FRAME (0 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 45
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;landscape&quot; :FRAME (6 15) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 45
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sandy landscape&quot; :FRAME (0 15) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 24.051 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;with&quot; :FRAME (16 20) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;stones&quot; :FRAME (21 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 45
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;and&quot; :FRAME (28 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 45
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;rocks&quot; :FRAME (32 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 45
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;stones and rocks&quot; :FRAME (21 37) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 24.175 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;with stones and rocks&quot; :FRAME (16 37) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 27.975 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (38 40) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (41 44) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (45 55) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 45
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the background&quot; :FRAME (41 55) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 11.972 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the background&quot; :FRAME (38 55) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 14.224 :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (56 56) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 45 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;sandy landscape with stones and rocks in the background .&quot; :FRAME
+<   (0 56) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 69.577 :UTTNUM 45 :CHANNEL
+<   DESKTOP :DIRECTION INPUT))</lisp><word lex="sandy" start="0" end="5"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="landscape" start="6" end="15"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="sandy landscape" start="0" end="15" penn-cats="NP" score="24.051" /><word lex="with" start="16" end="20"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="stones" start="21" end="27"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="and" start="28" end="31"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="rocks" start="32" end="37"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="stones and rocks" start="21" end="37" penn-cats="NP" score="24.175" /><prefer text="with stones and rocks" start="16" end="37" penn-cats="PP" score="27.975" /><word lex="in" start="38" end="40"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="41" end="44"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="background" start="45" end="55"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the background" start="41" end="55" penn-cats="NP" score="11.972" /><prefer text="in the background" start="38" end="55" penn-cats="PP" score="14.224" /><word lex="." start="56" end="56"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="sandy landscape with stones and rocks in the background ." start="0" end="56" penn-cats="NP" score="69.577" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1 (N1 (ADJP (ADJ1 (ADJ SANDY))) (N1 (N LANDSCAPE)))
+<      (ADVBL (ADV WITH)
+<       (NP (NP (N1 (N STONES))) (CONJ AND) (NP (N1 (N ROCKS))))))
+<     (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N BACKGROUND)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><ADJ1><ADJ>SANDY</ADJ></ADJ1></ADJP><N1><N>LANDSCAPE</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><NP><N1><N>STONES</N></N1></NP><CONJ>AND</CONJ><NP><N1><N>ROCKS</N></N1></NP></NP></ADVBL></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BACKGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V230141"><lisp>((ONT::SPEECHACT ONT::V230141 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V229802 :START 0 :END 56)
+<  (ONT::BARE ONT::V229802 (:* ONT::GEO-FORMATION W::LANDSCAPE) :LOCATION
+<   ONT::V229846 :MOD ONT::V229807 :MOD ONT::V229798 :START 0 :END 56)
+<  (ONT::F ONT::V229798 (:* ONT::MODIFIER W::SANDY) :FIGURE ONT::V229802 :START 0
+<   :END 6)
+<  (ONT::F ONT::V229807 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V229827 :FIGURE
+<   ONT::V229802 :START 16 :END 38)
+<  (ONT::INDEF-SET ONT::V229827 ONT::NATURAL-OBJECT :OPERATOR ONT::AND :SEQUENCE
+<   (ONT::V229820 ONT::V229838) :START 21 :END 38)
+<  (ONT::INDEF-SET ONT::V229820 (:* ONT::NATURAL-OBJECT W::STONES) :START 21 :END
+<   28)
+<  (ONT::INDEF-SET ONT::V229838 (:* ONT::NATURAL-OBJECT W::ROCK) :START 32 :END
+<   38)
+<  (ONT::F ONT::V229846 (:* ONT::IN-LOC W::IN) :GROUND ONT::V229902 :FIGURE
+<   ONT::V229802 :START 38 :END 56)
+<  (ONT::THE ONT::V229902 (:* ONT::IMAGE W::BACKGROUND) :START 41 :END 56))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V230141">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V229802" />
+<     <LF:start>0</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229802">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>LANDSCAPE</LF:word>
+<     <role:LOCATION rdf:resource="#V229846" />
+<     <role:MOD rdf:resource="#V229807" />
+<     <role:MOD rdf:resource="#V229798" />
+<     <LF:start>0</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229798">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MODIFIER</LF:type>
+<     <LF:word>SANDY</LF:word>
+<     <role:FIGURE rdf:resource="#V229802" />
+<     <LF:start>0</LF:start>
+<     <LF:end>6</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229807">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>ASSOC-WITH</LF:type>
+<     <LF:word>WITH</LF:word>
+<     <role:GROUND rdf:resource="#V229827" />
+<     <role:FIGURE rdf:resource="#V229802" />
+<     <LF:start>16</LF:start>
+<     <LF:end>38</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229827">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NATURAL-OBJECT</LF:type>
+<     <role:OPERATOR>AND</role:OPERATOR>
+<     <role:SEQUENCE rdf:resource="#V229820" />
+<     <role:SEQUENCE1 rdf:resource="#V229838" />
+<     <LF:start>21</LF:start>
+<     <LF:end>38</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229820">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NATURAL-OBJECT</LF:type>
+<     <LF:word>STONES</LF:word>
+<     <LF:start>21</LF:start>
+<     <LF:end>28</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229838">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>NATURAL-OBJECT</LF:type>
+<     <LF:word>ROCK</LF:word>
+<     <LF:start>32</LF:start>
+<     <LF:end>38</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229846">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V229902" />
+<     <role:FIGURE rdf:resource="#V229802" />
+<     <LF:start>38</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V229902">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <LF:start>41</LF:start>
+<     <LF:end>56</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="56">
+>    <TEXT>sandy landscape with stones and rocks in the background .</TEXT>
+>    <RELATION id="1" head="V230141" res="V229802" label="CONTENT"/>
+>    <PHRASE id="V229802" indicator="BARE" type="GEO-FORMATION" text="LANDSCAPE" start="0" end="56"/>
+>    <RELATION id="2" head="V229802" res="V229846" label="LOCATION"/>
+>    <RELATION id="3" head="V229802" res="V229807" label="MOD"/>
+>    <RELATION id="4" head="V229802" res="V229798" label="MOD"/>
+>    <PHRASE id="V229798" indicator="F" type="MODIFIER" text="SANDY" start="0" end="6"/>
+>    <RELATION id="5" head="V229798" res="V229802" label="FIGURE"/>
+>    <PHRASE id="V229807" indicator="F" type="ASSOC-WITH" text="WITH" start="16" end="38"/>
+>    <RELATION id="6" head="V229807" res="V229827" label="GROUND"/>
+>    <RELATION id="7" head="V229807" res="V229802" label="FIGURE"/>
+>    <PHRASE id="V229827" indicator="INDEF-SET" type="NATURAL-OBJECT" OPERATOR="AND" start="21" end="38"/>
+>    <RELATION id="8" head="V229827" res="V229820" label="SEQUENCE"/>
+>    <RELATION id="9" head="V229827" res="V229838" label="SEQUENCE1"/>
+>    <PHRASE id="V229820" indicator="INDEF-SET" type="NATURAL-OBJECT" text="STONES" start="21" end="28"/>
+>    <PHRASE id="V229838" indicator="INDEF-SET" type="NATURAL-OBJECT" text="ROCK" start="32" end="38"/>
+>    <PHRASE id="V229846" indicator="F" type="IN-LOC" text="IN" start="38" end="56"/>
+>    <RELATION id="10" head="V229846" res="V229902" label="GROUND"/>
+>    <RELATION id="11" head="V229846" res="V229802" label="FIGURE"/>
+>    <PHRASE id="V229902" indicator="THE" type="IMAGE" text="BACKGROUND" start="41" end="56"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

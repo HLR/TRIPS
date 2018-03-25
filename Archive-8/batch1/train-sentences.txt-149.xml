@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a woman is sitting at table in the middle of a schoolyard .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+38
+*last-utt-id*=38  utt-id+NIL</debug><utt><words><lisp>(W::A W::WOMAN W::IS W::SITTING W::AT W::TABLE W::IN W::THE W::MIDDLE W::OF
+ W::A W::SCHOOLYARD W::PUNC-PERIOD)</lisp><word>A</word><word>WOMAN</word><word>IS</word><word>SITTING</word><word>AT</word><word>TABLE</word><word>IN</word><word>THE</word><word>MIDDLE</word><word>OF</word><word>A</word><word>SCHOOLYARD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;woman&quot; :FRAME (2 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a woman&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.087 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (8 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sitting&quot; :FRAME (11 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (19 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;table&quot; :FRAME (22 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;table&quot; :FRAME (22 27) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.977 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (28 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (31 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;middle&quot; :FRAME (35 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the middle&quot; :FRAME (31 41) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  11.551 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (42 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (45 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;schoolyard&quot; :FRAME (47 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 38
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a schoolyard&quot; :FRAME (45 57) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 18.167 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a schoolyard&quot; :FRAME (42 57) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 19.234 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the middle of a schoolyard&quot; :FRAME (31 57) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 31.326 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;in the middle of a schoolyard&quot; :FRAME (28 57) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 34.922 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;table in the middle of a schoolyard&quot; :FRAME (22 57) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 46.44 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;at table in the middle of a schoolyard&quot; :FRAME (19 57) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :SCORE 50.751 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;sitting at table in the middle of a schoolyard&quot; :FRAME (11 57)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 59.447 :UTTNUM 38 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;is sitting at table in the middle of a schoolyard&quot; :FRAME (8 57)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 63.708 :UTTNUM 38 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (58 58) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a woman is sitting at table in the middle of a schoolyard .&quot; :FRAME
+  (0 58) :PENN-CATS (S) :SCORE 75.936 :UTTNUM 38 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="woman" start="2" end="7"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a woman" start="0" end="7" penn-cats="NP" score="11.087" /><word lex="is" start="8" end="10"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="sitting" start="11" end="18"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="19" end="21"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="table" start="22" end="27"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="table" start="22" end="27" penn-cats="NP" score="10.977" /><word lex="in" start="28" end="30"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="31" end="34"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="middle" start="35" end="41"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the middle" start="31" end="41" penn-cats="NP" score="11.551" /><word lex="of" start="42" end="44"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="45" end="46"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="schoolyard" start="47" end="57"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a schoolyard" start="45" end="57" penn-cats="NP" score="18.167" /><prefer text="of a schoolyard" start="42" end="57" penn-cats="PP" score="19.234" /><prefer text="the middle of a schoolyard" start="31" end="57" penn-cats="NP" score="31.326" /><prefer text="in the middle of a schoolyard" start="28" end="57" penn-cats="PP" score="34.922" /><prefer text="table in the middle of a schoolyard" start="22" end="57" penn-cats="NP" score="46.44" /><prefer text="at table in the middle of a schoolyard" start="19" end="57" penn-cats="PP" score="50.751" /><prefer text="sitting at table in the middle of a schoolyard" start="11" end="57" penn-cats="VP" score="59.447" /><prefer text="is sitting at table in the middle of a schoolyard" start="8" end="57" penn-cats="VP" score="63.708" /><word lex="." start="58" end="58"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a woman is sitting at table in the middle of a schoolyard ." start="0" end="58" penn-cats="S" score="75.936" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (SPEC (DET (ART A))) (N1 (N WOMAN)))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (VP- (V SITTING))
+      (ADVBL (ADV AT)
+       (NP
+        (N1 (N1 (N TABLE))
+         (ADVBL (ADV IN)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N MIDDLE)
+            (PP (PREP OF)
+             (NP (SPEC (DET (ART A))) (N1 (N SCHOOLYARD)))))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>WOMAN</N></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><VP-><V>SITTING</V></VP-><ADVBL><ADV>AT</ADV><NP><N1><N1><N>TABLE</N></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>MIDDLE</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>SCHOOLYARD</N></N1></NP></PP></N1></NP></ADVBL></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V171727"><lisp>((ONT::SPEECHACT ONT::V171727 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V170659 :START 0 :END 58)
+ (ONT::F ONT::V170659 (:* ONT::BODY-MOVEMENT-PLACE W::SIT) :RESULT ONT::V170676
+  :AGENT ONT::V170631 :TENSE W::PRES :PROGR + :START 0 :END 58)
+ (ONT::A ONT::V170631 (:* ONT::FEMALE-PERSON W::WOMAN) :START 0 :END 8)
+ (ONT::F ONT::V170676 (:* ONT::AT-LOC W::AT) :GROUND ONT::V170688 :FIGURE
+  ONT::V170631 :START 19 :END 58)
+ (ONT::BARE ONT::V170688 (:* ONT::TABLE W::TABLE) :LOCATION ONT::V170697 :START
+  22 :END 58)
+ (ONT::F ONT::V170697 (:* ONT::IN-LOC W::IN) :GROUND ONT::V170757 :FIGURE
+  ONT::V170688 :START 28 :END 58)
+ (ONT::THE ONT::V170757 (:* ONT::CENTER W::MIDDLE) :FIGURE ONT::V170812 :START
+  31 :END 58)
+ (ONT::A ONT::V170812 (:* ONT::GEO-OBJECT W::SCHOOLYARD) :START 42 :END 58))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V171727">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V170659" />
+    <LF:start>0</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170659">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-MOVEMENT-PLACE</LF:type>
+    <LF:word>SIT</LF:word>
+    <role:RESULT rdf:resource="#V170676" />
+    <role:AGENT rdf:resource="#V170631" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170631">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>FEMALE-PERSON</LF:type>
+    <LF:word>WOMAN</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170676">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V170688" />
+    <role:FIGURE rdf:resource="#V170631" />
+    <LF:start>19</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170688">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>TABLE</LF:type>
+    <LF:word>TABLE</LF:word>
+    <role:LOCATION rdf:resource="#V170697" />
+    <LF:start>22</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170697">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V170757" />
+    <role:FIGURE rdf:resource="#V170688" />
+    <LF:start>28</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170757">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CENTER</LF:type>
+    <LF:word>MIDDLE</LF:word>
+    <role:FIGURE rdf:resource="#V170812" />
+    <LF:start>31</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V170812">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>GEO-OBJECT</LF:type>
+    <LF:word>SCHOOLYARD</LF:word>
+    <LF:start>42</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

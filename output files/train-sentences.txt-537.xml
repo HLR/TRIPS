@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="48">
+   <TEXT>a girl is sitting at her desk in the background .</TEXT>
+   <RELATION id="1" head="V181582" res="V181090" label="CONTENT"/>
+   <PHRASE id="V181090" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="48"/>
+   <RELATION id="2" head="V181090" res="V181107" label="RESULT"/>
+   <RELATION id="3" head="V181090" res="V181062" label="AGENT"/>
+   <PHRASE id="V181062" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="7"/>
+   <PHRASE id="V181107" indicator="F" type="AT-LOC" text="AT" start="18" end="48"/>
+   <RELATION id="4" head="V181107" res="V181125" label="GROUND"/>
+   <RELATION id="5" head="V181107" res="V181062" label="FIGURE"/>
+   <PHRASE id="V181125" indicator="THE" type="FURNISHINGS" text="DESK" start="21" end="48"/>
+   <RELATION id="6" head="V181125" res="V181120" label="ASSOC-POSS"/>
+   <RELATION id="7" head="V181125" res="V181132" label="LOCATION"/>
+   <PHRASE id="V181120" indicator="PRO" type="FEMALE-PERSON" text="HER" PROFORM="HER" start="21" end="48"/>
+   <RELATION id="8" head="V181120" res="V181062" label="COREF"/>
+   <PHRASE id="V181132" indicator="F" type="IN-LOC" text="IN" start="30" end="48"/>
+   <RELATION id="9" head="V181132" res="V181188" label="GROUND"/>
+   <RELATION id="10" head="V181132" res="V181125" label="FIGURE"/>
+   <PHRASE id="V181188" indicator="THE" type="IMAGE" text="BACKGROUND" start="33" end="48"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

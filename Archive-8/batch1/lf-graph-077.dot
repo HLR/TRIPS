@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "OTHERS STANDING AT THEIR DESKS PUNC-COMMA"
+  "V376254" [label="(BARE V376254 (:* BODY-MOVEMENT-PLACE STAND-UP))"]
+  "V376254" -> "V376250" [label=":AGENT"]
+  "V376254" -> "V376268" [label=":LOCATION"]
+  "V376250" [label="(BARE V376250 (:* OTHER OTHERS))"]
+  "V376268" [label="(F V376268 (:* AT-LOC AT))"]
+  "V376268" -> "V376283" [label=":GROUND"]
+  "V376268" -> "V376254" [label=":FIGURE"]
+  "V376283" [label="(THE-SET V376283 (:* FURNISHINGS DESK))"]
+  "V376283" -> "V376280" [label=":ASSOC-POSS"]
+  "V376283" -> "V375891" [label=":COREF"]
+  "V376280" [label="(PRO V376280 (:* REFERENTIAL-SEM THEIR))"]
+  "V376280" -> "NT376663" [label=":PROFORM"]
+  "NT376663" [label="THEIR"]
+  "V376280" -> "V375850" [label=":COREF"]
+}

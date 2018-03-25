@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="68">
+   <TEXT>portrait of two dark-haired girls with a mountain in the background .</TEXT>
+   <RELATION id="1" head="V122323" res="V121869" label="CONTENT"/>
+   <PHRASE id="V121869" indicator="BARE" type="CONTENT" text="PORTRAIT" start="0" end="68"/>
+   <RELATION id="2" head="V121869" res="V121974" label="LOCATION"/>
+   <RELATION id="3" head="V121869" res="V121877" label="MOD"/>
+   <PHRASE id="V121877" indicator="F" type="ASSOC-WITH" text="OF" start="9" end="50"/>
+   <RELATION id="4" head="V121877" res="V121908" label="GROUND"/>
+   <RELATION id="5" head="V121877" res="V121869" label="FIGURE"/>
+   <PHRASE id="V121908" indicator="INDEF-SET" type="FEMALE-CHILD" text="GIRL" start="12" end="50"/>
+   <RELATION id="6" head="V121908" res="V121885" label="SIZE"/>
+   <RELATION id="7" head="V121908" res="V121912" label="MOD"/>
+   <RELATION id="8" head="V121908" res="V121905" label="MOD"/>
+   <PHRASE id="V121885" indicator="A" type="NUMBER" VALUE="2" start="12" end="16"/>
+   <PHRASE id="V121905" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="16" end="28" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="9" head="V121905" res="V121908" label="FIGURE"/>
+   <PHRASE id="V121912" indicator="F" type="ASSOC-WITH" text="WITH" start="34" end="50"/>
+   <RELATION id="10" head="V121912" res="V121967" label="GROUND"/>
+   <RELATION id="11" head="V121912" res="V121908" label="FIGURE"/>
+   <PHRASE id="V121967" indicator="A" type="GEO-FORMATION" text="MOUNTAIN" start="39" end="50"/>
+   <PHRASE id="V121974" indicator="F" type="IN-LOC" text="IN" start="50" end="68"/>
+   <RELATION id="12" head="V121974" res="V122030" label="GROUND"/>
+   <RELATION id="13" head="V121974" res="V121869" label="FIGURE"/>
+   <PHRASE id="V122030" indicator="THE" type="IMAGE" text="BACKGROUND" start="53" end="68"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

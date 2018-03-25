@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Two adults and four local boys are standing in front of a white house with two trellised windows .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?188830:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V91717)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?188828)
+                                           (W::TRANSFORM ?188829)))
+                                 (W::CASE ?188827:(W::SUB W::OBJ -))
+                                 (W::AGR ?188826) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V91717) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER92369))
+*last-utt-id*=NIL  utt-id+25
+*last-utt-id*=25  utt-id+25
+*last-utt-id*=25  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::TWO W::ADULTS W::AND W::FOUR W::LOCAL W::BOYS W::ARE W::STANDING W::IN
+ W::FRONT W::OF W::A W::WHITE W::HOUSE W::WITH W::TWO)</lisp><word>TWO</word><word>ADULTS</word><word>AND</word><word>FOUR</word><word>LOCAL</word><word>BOYS</word><word>ARE</word><word>STANDING</word><word>IN</word><word>FRONT</word><word>OF</word><word>A</word><word>WHITE</word><word>HOUSE</word><word>WITH</word><word>TWO</word></words><tags><lisp>((WORD &quot;Two&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;adults&quot; :FRAME (4 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Two adults&quot; :FRAME (0 10) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  17.744 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (11 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;four&quot; :FRAME (15 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;local&quot; :FRAME (20 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;boys&quot; :FRAME (26 30) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;four local boys&quot; :FRAME (15 30) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 25.433 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Two adults and four local boys&quot; :FRAME (0 30) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 46.015 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;are&quot; :FRAME (31 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing&quot; :FRAME (35 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (44 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standing in&quot; :FRAME (35 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;stand_in%2:40:00&quot;)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;front&quot; :FRAME (47 52) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front&quot; :FRAME (47 52) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.944 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in front&quot; :FRAME (44 52) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;in_front%4:02:00&quot;)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (53 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (56 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;white&quot; :FRAME (58 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;house&quot; :FRAME (64 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a white house&quot; :FRAME (56 69) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 18.09 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of a white house&quot; :FRAME (53 69) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 19.157 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front of a white house&quot; :FRAME (47 69) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 30.642 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in front of a white house&quot; :FRAME (44 69) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :SCORE 33.85 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (70 74) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;two&quot; :FRAME (75 78) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Two" start="0" end="3"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="adults" start="4" end="10"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="Two adults" start="0" end="10" penn-cats="NP" score="17.744" /><word lex="and" start="11" end="14"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="four" start="15" end="19"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="local" start="20" end="25"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="boys" start="26" end="30"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="four local boys" start="15" end="30" penn-cats="NP" score="25.433" /><prefer text="Two adults and four local boys" start="0" end="30" penn-cats="NP" score="46.015" /><word lex="are" start="31" end="34"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="35" end="43"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="44" end="46"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="standing in" start="35" end="46"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="front" start="47" end="52"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="47" end="52" penn-cats="NP" score="10.944" /><word lex="in front" start="44" end="52"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="53" end="55"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="56" end="57"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="white" start="58" end="63"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="house" start="64" end="69"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a white house" start="56" end="69" penn-cats="NP" score="18.09" /><prefer text="of a white house" start="53" end="69" penn-cats="PP" score="19.157" /><prefer text="front of a white house" start="47" end="69" penn-cats="NP" score="30.642" /><prefer text="in front of a white house" start="44" end="69" penn-cats="PP" score="33.85" /><word lex="with" start="70" end="74"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="two" start="75" end="78"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word></tags><tree><lisp>(UTT
+ (S
+  (NP (NP (N1 (ADJP (NUMBER TWO)) (N1 (N ADULTS)))) (CONJ AND)
+   (NP (N1 (ADJP (NUMBER FOUR)) (N1 (ADJP (ADJ1 (ADJ LOCAL))) (N1 (N BOYS))))))
+  (VP
+   (VP- (AUX (V ARE))
+    (VP- (V STANDING IN)
+     (NP
+      (N1
+       (N1 (N FRONT)
+        (PP (PREP OF)
+         (NP (SPEC (DET (ART A)))
+          (N1 (ADJP (ADJ1 (ADJ WHITE))) (N1 (N HOUSE))))))
+       (ADVBL (ADV WITH) (NP (NUMBER TWO))))))))))</lisp><UTT><S><NP><NP><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N>ADULTS</N></N1></N1></NP><CONJ>AND</CONJ><NP><N1><ADJP><NUMBER>FOUR</NUMBER></ADJP><N1><ADJP><ADJ1><ADJ>LOCAL</ADJ></ADJ1></ADJP><N1><N>BOYS</N></N1></N1></N1></NP></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>STANDING IN</V><NP><N1><N1><N>FRONT</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>WHITE</ADJ></ADJ1></ADJP><N1><N>HOUSE</N></N1></N1></NP></PP></N1><ADVBL><ADV>WITH</ADV><NP><NUMBER>TWO</NUMBER></NP></ADVBL></N1></NP></VP-></VP-></VP></S></UTT></tree><terms root="#V94640"><lisp>((ONT::SPEECHACT ONT::V94640 ONT::SA_TELL :CONTENT ONT::V87425 :START 0 :END 79
+  :WNSENSE &quot;stand_in%2:40:00&quot;)
+ (ONT::F ONT::V87425 (:* ONT::EXCHANGE W::STANDING-IN) :AGENT ONT::V87322
+  :AFFECTED ONT::V87431 :TENSE W::PRES :PROGR + :START 0 :END 79 :WNSENSE
+  &quot;stand_in%2:40:00&quot;)
+ (ONT::INDEF-SET ONT::V87322 ONT::PERSON :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V87318 ONT::V87337) :START 0 :END 31)
+ (ONT::INDEF-SET ONT::V87318 (:* ONT::PERSON W::ADULT) :SIZE ONT::V87316 :START
+  0 :END 11)
+ (ONT::A ONT::V87316 ONT::NUMBER :VALUE 2 :START 0 :END 4)
+ (ONT::INDEF-SET ONT::V87337 (:* ONT::MALE-CHILD W::BOY) :SIZE ONT::V87332 :MOD
+  ONT::V87334 :START 15 :END 31)
+ (ONT::A ONT::V87332 ONT::NUMBER :VALUE 4 :START 15 :END 20)
+ (ONT::F ONT::V87334 (:* ONT::LOCAL-VAL W::LOCAL) :SCALE ONT::LINEAR-SCALE
+  :INTENSITY ONT::MED :ORIENTATION ONT::LESS :FIGURE ONT::V87337 :START 20 :END
+  26)
+ (ONT::BARE ONT::V87431 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+  ONT::V87543 :MOD ONT::V87548 :START 47 :END 79)
+ (ONT::A ONT::V87543 (:* ONT::LODGING W::HOUSE) :MOD ONT::V87533 :START 53 :END
+  70)
+ (ONT::F ONT::V87533 (:* ONT::WHITE W::WHITE) :FIGURE ONT::V87543 :SCALE
+  ONT::WHITE*1--07--00 :START 58 :END 64)
+ (ONT::F ONT::V87548 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V87561 :FIGURE
+  ONT::V87431 :START 70 :END 79)
+ (ONT::INDEF-SET ONT::V87561 ONT::NUMBER :NUMBER 2 :START 75 :END 79))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V94640">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V87425" />
+    <LF:start>0</LF:start>
+    <LF:end>79</LF:end>
+    <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87425">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXCHANGE</LF:type>
+    <LF:word>STANDING-IN</LF:word>
+    <role:AGENT rdf:resource="#V87322" />
+    <role:AFFECTED rdf:resource="#V87431" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>79</LF:end>
+    <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87322">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V87318" />
+    <role:SEQUENCE1 rdf:resource="#V87337" />
+    <LF:start>0</LF:start>
+    <LF:end>31</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87318">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>ADULT</LF:word>
+    <role:SIZE rdf:resource="#V87316" />
+    <LF:start>0</LF:start>
+    <LF:end>11</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87316">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>2</role:VALUE>
+    <LF:start>0</LF:start>
+    <LF:end>4</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87337">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MALE-CHILD</LF:type>
+    <LF:word>BOY</LF:word>
+    <role:SIZE rdf:resource="#V87332" />
+    <role:MOD rdf:resource="#V87334" />
+    <LF:start>15</LF:start>
+    <LF:end>31</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87332">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>4</role:VALUE>
+    <LF:start>15</LF:start>
+    <LF:end>20</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87334">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LOCAL-VAL</LF:type>
+    <LF:word>LOCAL</LF:word>
+    <role:SCALE>LINEAR-SCALE</role:SCALE>
+    <role:INTENSITY>MED</role:INTENSITY>
+    <role:ORIENTATION>LESS</role:ORIENTATION>
+    <role:FIGURE rdf:resource="#V87337" />
+    <LF:start>20</LF:start>
+    <LF:end>26</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87431">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>FRONT</LF:word>
+    <role:FIGURE rdf:resource="#V87543" />
+    <role:MOD rdf:resource="#V87548" />
+    <LF:start>47</LF:start>
+    <LF:end>79</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87543">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>LODGING</LF:type>
+    <LF:word>HOUSE</LF:word>
+    <role:MOD rdf:resource="#V87533" />
+    <LF:start>53</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87533">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WHITE</LF:type>
+    <LF:word>WHITE</LF:word>
+    <role:FIGURE rdf:resource="#V87543" />
+    <role:SCALE>WHITE*1--07--00</role:SCALE>
+    <LF:start>58</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87548">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V87561" />
+    <role:FIGURE rdf:resource="#V87431" />
+    <LF:start>70</LF:start>
+    <LF:end>79</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87561">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>2</role:NUMBER>
+    <LF:start>75</LF:start>
+    <LF:end>79</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::TRELLISED W::WINDOWS W::PUNC-PERIOD)</lisp><word>TRELLISED</word><word>WINDOWS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;trellised&quot; :FRAME (79 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;windows&quot; :FRAME (89 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two trellised windows&quot; :FRAME (75 96) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :SCORE 26.538 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with two trellised windows&quot; :FRAME (70 96) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 32.438 :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;standing in front of a white house with two trellised windows&quot; :FRAME
+  (35 96) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 78.812 :UTTNUM 25 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;are standing in front of a white house with two trellised windows&quot;
+  :FRAME (31 96) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 83.175 :UTTNUM 25
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (97 97) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 25 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;Two adults and four local boys are standing in front of a white house with two trellised windows .&quot;
+  :FRAME (0 97) :PENN-CATS (S) :SCORE 132.019 :UTTNUM 25 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="trellised" start="79" end="88"><sense-info penn-parts-of-speech="VBD,VBN" trips-parts-of-speech="V" /></word><word lex="windows" start="89" end="96"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two trellised windows" start="75" end="96" penn-cats="NP" score="26.538" /><prefer text="with two trellised windows" start="70" end="96" penn-cats="PP" score="32.438" /><prefer text="standing in front of a white house with two trellised windows" start="35" end="96" penn-cats="VP" score="78.812" /><prefer text="are standing in front of a white house with two trellised windows" start="31" end="96" penn-cats="VP" score="83.175" /><word lex="." start="97" end="97"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Two adults and four local boys are standing in front of a white house with two trellised windows ." start="0" end="97" penn-cats="S" score="132.019" /></tags><tree><lisp>(UTT (UTT (VP (VP- (V TRELLISED) (NP (N1 (N WINDOWS)))))) (PUNC PUNC-PERIOD))</lisp><UTT><UTT><VP><VP-><V>TRELLISED</V><NP><N1><N>WINDOWS</N></N1></NP></VP-></VP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V88488"><lisp>((ONT::SPEECHACT ONT::V88488 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V87564 :START 79 :END 97)
+ (ONT::F ONT::V87564 (:* ONT::HINDERING W::TRELLISED) :AGENT ONT::V88489
+  :AFFECTED ONT::V87574 :TENSE W::PAST :START 79 :END 97)
+ (ONT::IMPRO ONT::V88489 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 79 :END
+  97 :COREF ONT::V87316)
+ (ONT::INDEF-SET ONT::V87574 (:* ONT::STRUCTURAL-OPENING W::WINDOW) :START 89
+  :END 97))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V88488">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V87564" />
+    <LF:start>79</LF:start>
+    <LF:end>97</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87564">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HINDERING</LF:type>
+    <LF:word>TRELLISED</LF:word>
+    <role:AGENT rdf:resource="#V88489" />
+    <role:AFFECTED rdf:resource="#V87574" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>79</LF:start>
+    <LF:end>97</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V88489">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>79</LF:start>
+    <LF:end>97</LF:end>
+    <role:COREF rdf:resource="#V87316" />
+  </rdf:Description>
+  <rdf:Description rdf:ID="V87574">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>STRUCTURAL-OPENING</LF:type>
+    <LF:word>WINDOW</LF:word>
+    <LF:start>89</LF:start>
+    <LF:end>97</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

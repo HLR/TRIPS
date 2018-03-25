@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="62">
+   <TEXT>interior view of a room with a large wooden bed in the centre .</TEXT>
+   <RELATION id="1" head="V199124" res="V198655" label="CONTENT"/>
+   <PHRASE id="V198655" indicator="BARE" type="ACTIVE-PERCEPTION" text="VIEW" start="0" end="62"/>
+   <RELATION id="2" head="V198655" res="V198713" label="NEUTRAL"/>
+   <RELATION id="3" head="V198655" res="V198792" label="LOCATION"/>
+   <RELATION id="4" head="V198655" res="V198649" label="MOD"/>
+   <PHRASE id="V198649" indicator="F" type="NATIONAL-VAL" text="INTERIOR" start="0" end="9"/>
+   <RELATION id="5" head="V198649" res="V198655" label="FIGURE"/>
+   <PHRASE id="V198713" indicator="A" type="INTERNAL-ENCLOSURE" text="ROOM" start="14" end="48"/>
+   <RELATION id="6" head="V198713" res="V198717" label="MOD"/>
+   <PHRASE id="V198717" indicator="F" type="ASSOC-WITH" text="WITH" start="24" end="48"/>
+   <RELATION id="7" head="V198717" res="V198782" label="GROUND"/>
+   <RELATION id="8" head="V198717" res="V198713" label="FIGURE"/>
+   <PHRASE id="V198782" indicator="A" type="FURNISHINGS" text="BED" start="29" end="48"/>
+   <RELATION id="9" head="V198782" res="V198770" label="MOD"/>
+   <RELATION id="10" head="V198782" res="V198774" label="MOD"/>
+   <PHRASE id="V198770" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="31" end="37"/>
+   <RELATION id="11" head="V198770" res="V198782" label="FIGURE"/>
+   <PHRASE id="V198774" indicator="F" type="AWKWARD-VAL" text="WOODEN" start="37" end="44"/>
+   <RELATION id="12" head="V198774" res="V198782" label="FIGURE"/>
+   <PHRASE id="V198792" indicator="F" type="IN-LOC" text="IN" start="48" end="62"/>
+   <RELATION id="13" head="V198792" res="V198848" label="GROUND"/>
+   <RELATION id="14" head="V198792" res="V198655" label="FIGURE"/>
+   <PHRASE id="V198848" indicator="THE" type="CENTER" text="CENTRE" start="51" end="62"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

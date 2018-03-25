@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "SANTA CLAUS IN MIDDLE OF EXCITED KIDS PUNC-PERIOD"
+  "V236805" [label="(SPEECHACT V236805 SA_IDENTIFY)"]
+  "V236805" -> "V236627" [label=":CONTENT"]
+  "V236627" [label="(INDEF-SET V236627 (:* PERSON SANTA-CLAUS))"]
+  "V236627" -> "V236636" [label=":LOCATION"]
+  "V236636" [label="(F V236636 (:* IN-LOC IN))"]
+  "V236636" -> "V236689" [label=":GROUND"]
+  "V236636" -> "V236627" [label=":FIGURE"]
+  "V236689" [label="(BARE V236689 (:* CENTER MIDDLE))"]
+  "V236689" -> "V236696" [label=":MOD"]
+  "V236696" [label="(F V236696 (:* CONTAIN-RELN OF))"]
+  "V236696" -> "V236710" [label=":GROUND"]
+  "V236696" -> "V236689" [label=":FIGURE"]
+  "V236710" [label="(INDEF-SET V236710 (:* CHILD KID))"]
+  "V236710" -> "V236702" [label=":MOD"]
+  "V236702" [label="(F V236702 (:* EXCITED EXCITED))"]
+  "V236702" -> "V236710" [label=":FIGURE"]
+}

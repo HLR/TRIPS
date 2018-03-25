@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="19">
+   <TEXT>a dark-skinned boy w</TEXT>
+   <RELATION id="1" head="V65505" res="V65490" label="MOD"/>
+   <PHRASE id="V65490" indicator="F" type="MOVE" text="SKINNED" start="2" end="15"/>
+   <RELATION id="2" head="V65490" res="V65479" label="AGENT"/>
+   <RELATION id="3" head="V65490" res="V65505" label="AFFECTED"/>
+   <PHRASE id="V65479" indicator="KIND" type="LIGHT" text="DARK" start="2" end="15"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="19" end="73">
+   <TEXT>wearing a black cap and a dark blue and yellow anorak w</TEXT>
+   <RELATION id="4" head="V65511" res="V65567" label="NEUTRAL"/>
+   <PHRASE id="V65567" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="27" end="73"/>
+   <RELATION id="5" head="V65567" res="V65561" label="SEQUENCE"/>
+   <RELATION id="6" head="V65567" res="V65653" label="SEQUENCE1"/>
+   <PHRASE id="V65561" indicator="A" type="ATTIRE" text="CAP" start="27" end="39"/>
+   <RELATION id="7" head="V65561" res="V65558" label="MOD"/>
+   <PHRASE id="V65558" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="29" end="35"/>
+   <RELATION id="8" head="V65558" res="V65561" label="FIGURE"/>
+   <PHRASE id="V65653" indicator="A" type="ATTIRE" text="ANORAK" start="43" end="73"/>
+   <RELATION id="9" head="V65653" res="V65618" label="MOD"/>
+   <RELATION id="10" head="V65653" res="V65994" label="MOD"/>
+   <PHRASE id="V65618" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="45" end="50"/>
+   <RELATION id="11" head="V65618" res="V65653" label="FIGURE"/>
+   <PHRASE id="V65994" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="50" end="66"/>
+   <RELATION id="12" head="V65994" res="V65624" label="SEQUENCE"/>
+   <RELATION id="13" head="V65994" res="V65647" label="SEQUENCE1"/>
+   <PHRASE id="V65624" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="50" end="55"/>
+   <RELATION id="14" head="V65624" res="V65653" label="FIGURE"/>
+   <PHRASE id="V65647" indicator="F" type="YELLOW" text="YELLOW" SCALE="YELLOW*1--07--00" start="59" end="66"/>
+   <RELATION id="15" head="V65647" res="V65653" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="ASSOC-WITH" text="WITH" start="73" end="120">
+   <TEXT>with a black zip in front of a light grey wall .</TEXT>
+   <RELATION id="16" head="V65657" res="V65718" label="GROUND"/>
+   <PHRASE id="V65718" indicator="A" type="QUANTITY" text="ZIP" start="78" end="120"/>
+   <RELATION id="17" head="V65718" res="V65728" label="LOCATION"/>
+   <RELATION id="18" head="V65718" res="V65710" label="MOD"/>
+   <PHRASE id="V65710" indicator="F" type="BLACK" text="BLACK" SCALE="BLACKNESS*1--07--00" start="80" end="86"/>
+   <RELATION id="19" head="V65710" res="V65718" label="FIGURE"/>
+   <PHRASE id="V65728" indicator="F" type="IN-LOC" text="IN" start="90" end="120"/>
+   <RELATION id="20" head="V65728" res="V65777" label="GROUND"/>
+   <RELATION id="21" head="V65728" res="V65718" label="FIGURE"/>
+   <PHRASE id="V65777" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="93" end="120"/>
+   <RELATION id="22" head="V65777" res="V65913" label="FIGURE"/>
+   <PHRASE id="V65913" indicator="A" type="STRUCTURE-INTERNAL-COMPONENT" text="WALL" start="99" end="120"/>
+   <RELATION id="23" head="V65913" res="V65881" label="MOD"/>
+   <RELATION id="24" head="V65913" res="V65904" label="MOD"/>
+   <PHRASE id="V65881" indicator="F" type="LIGHT-IN-COLOR-VAL" text="LIGHT" start="104" end="110"/>
+   <RELATION id="25" head="V65881" res="V65913" label="FIGURE"/>
+   <PHRASE id="V65904" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="110" end="115"/>
+   <RELATION id="26" head="V65904" res="V65913" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

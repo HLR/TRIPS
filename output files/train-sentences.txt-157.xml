@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="77">
+   <TEXT>Young girl wearing a red trainer with blue and white sleeves is bending down t</TEXT>
+   <RELATION id="1" head="V206986" res="V203262" label="CONTENT"/>
+   <PHRASE id="V203262" indicator="F" type="BODY-MOVEMENT-PLACE" text="BEND" TENSE="PRES" PROGR="+" start="0" end="77"/>
+   <RELATION id="2" head="V203262" res="V203294" label="RESULT"/>
+   <RELATION id="3" head="V203262" res="V203130" label="AGENT"/>
+   <PHRASE id="V203130" indicator="BARE" type="FEMALE-CHILD" text="GIRL" start="0" end="61"/>
+   <RELATION id="4" head="V203130" res="V203136" label="MOD"/>
+   <RELATION id="5" head="V203130" res="V203121" label="MOD"/>
+   <PHRASE id="V203121" indicator="F" type="YOUNG-VAL" text="YOUNG" SCALE="AGE-SCALE" start="0" end="6"/>
+   <RELATION id="6" head="V203121" res="V203130" label="FIGURE"/>
+   <PHRASE id="V203136" indicator="F" type="WEAR" text="WEAR" VFORM="ING" start="11" end="61"/>
+   <RELATION id="7" head="V203136" res="V203130" label="AGENT"/>
+   <RELATION id="8" head="V203136" res="V203196" label="NEUTRAL"/>
+   <PHRASE id="V203196" indicator="A" type="PROFESSIONAL" text="TRAINER" start="19" end="61"/>
+   <RELATION id="9" head="V203196" res="V203200" label="MOD"/>
+   <RELATION id="10" head="V203196" res="V203183" label="MOD"/>
+   <PHRASE id="V203183" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="21" end="25"/>
+   <RELATION id="11" head="V203183" res="V203196" label="FIGURE"/>
+   <PHRASE id="V203200" indicator="F" type="ASSOC-WITH" text="WITH" start="33" end="61"/>
+   <RELATION id="12" head="V203200" res="V203236" label="GROUND"/>
+   <RELATION id="13" head="V203200" res="V203196" label="FIGURE"/>
+   <PHRASE id="V203236" indicator="INDEF-SET" type="COVERING" text="SLEEVES" start="38" end="61"/>
+   <RELATION id="14" head="V203236" res="V203410" label="MOD"/>
+   <PHRASE id="V203410" indicator="F" type="COLOR-VAL" OPERATOR="AND" start="38" end="53"/>
+   <RELATION id="15" head="V203410" res="V203212" label="SEQUENCE"/>
+   <RELATION id="16" head="V203410" res="V203228" label="SEQUENCE1"/>
+   <PHRASE id="V203212" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="38" end="43"/>
+   <RELATION id="17" head="V203212" res="V203236" label="FIGURE"/>
+   <PHRASE id="V203228" indicator="F" type="WHITE" text="WHITE" SCALE="WHITE*1--07--00" start="47" end="53"/>
+   <RELATION id="18" head="V203228" res="V203236" label="FIGURE"/>
+   <PHRASE id="V203294" indicator="F" type="DIRECTION-DOWN" text="DOWN" start="72" end="77"/>
+   <RELATION id="19" head="V203294" res="V203130" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="TO-LOC" text="TO" start="77" end="95">
+   <TEXT>to two old ladies .</TEXT>
+   <RELATION id="20" head="V203309" res="V203347" label="GROUND"/>
+   <PHRASE id="V203347" indicator="INDEF-SET" type="FEMALE-PERSON" text="OLD-LADIES" start="80" end="95" WNSENSE="old_lady%1:18:00"/>
+   <RELATION id="21" head="V203347" res="V203331" label="SIZE"/>
+   <PHRASE id="V203331" indicator="A" type="NUMBER" VALUE="2" start="80" end="84"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

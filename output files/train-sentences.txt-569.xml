@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="41" WNSENSE="stand_in%2:40:00">
+   <TEXT>more kids are standing in the background .</TEXT>
+   <RELATION id="1" head="V336588" res="V336340" label="CONTENT"/>
+   <PHRASE id="V336340" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="0" end="41" WNSENSE="stand_in%2:40:00"/>
+   <RELATION id="2" head="V336340" res="V336252" label="AGENT"/>
+   <RELATION id="3" head="V336340" res="V336353" label="AFFECTED"/>
+   <PHRASE id="V336252" indicator="INDEF-SET" type="CHILD" text="KID" QUAN="(:* QMODIFIER MORE)" start="0" end="10"/>
+   <PHRASE id="V336353" indicator="THE" type="IMAGE" text="BACKGROUND" start="26" end="41"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

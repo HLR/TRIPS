@@ -1,0 +1,14 @@
+digraph Terms {
+  node [shape=none]
+  "IN FRONT OF A BLUE BUILDING"
+  "V53397" [label="(F V53397 (:* IN-LOC IN))"]
+  "V53397" -> "V53446" [label=":GROUND"]
+  "V53446" [label="(BARE V53446 (:* OBJECT-DEPENDENT-LOCATION FRONT))"]
+  "V53446" -> "V53564" [label=":FIGURE"]
+  "V53564" [label="(A V53564 (:* GENERAL-STRUCTURE BUILDING))"]
+  "V53564" -> "V53548" [label=":MOD"]
+  "V53548" [label="(F V53548 (:* BLUE BLUE))"]
+  "V53548" -> "V53564" [label=":FIGURE"]
+  "V53548" -> "NT61827" [label=":SCALE"]
+  "NT61827" [label="COLOR-SCALE"]
+}

@@ -1,0 +1,218 @@
+2,194c2,23
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="Six tourists are standing in front of blackboard of a primary school .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+23
+< *last-utt-id*=23  utt-id+NIL</debug><utt><words><lisp>(W::SIX W::TOURISTS W::ARE W::STANDING W::IN W::FRONT W::OF W::BLACKBOARD W::OF
+<  W::A W::PRIMARY W::SCHOOL W::PUNC-PERIOD)</lisp><word>SIX</word><word>TOURISTS</word><word>ARE</word><word>STANDING</word><word>IN</word><word>FRONT</word><word>OF</word><word>BLACKBOARD</word><word>OF</word><word>A</word><word>PRIMARY</word><word>SCHOOL</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Six&quot; :FRAME (0 3) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+<     :ONT-TYPES (ONT::GEOGRAPHIC-REGION)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;tourists&quot; :FRAME (4 12) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 23
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;Six tourists&quot; :FRAME (0 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 22.533 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;are&quot; :FRAME (13 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 23
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing&quot; :FRAME (17 25) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 23
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (26 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;standing in&quot; :FRAME (17 28) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+<     (&quot;stand_in%2:40:00&quot;)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;front&quot; :FRAME (29 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 23
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;front&quot; :FRAME (29 34) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   10.944 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in front&quot; :FRAME (26 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+<     (&quot;in_front%4:02:00&quot;)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (35 37) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;blackboard&quot; :FRAME (38 48) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 23
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;blackboard&quot; :FRAME (38 48) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   14.585 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;of&quot; :FRAME (49 51) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;a&quot; :FRAME (52 53) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;primary&quot; :FRAME (54 61) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;school&quot; :FRAME (62 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 23
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;primary school&quot; :FRAME (54 68) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+<     (&quot;primary_school%1:14:00&quot;)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a primary school&quot; :FRAME (52 68) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 18.448 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;of a primary school&quot; :FRAME (49 68) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 19.516 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;blackboard of a primary school&quot; :FRAME (38 68) :PENN-CATS (NP)
+<   :TRIPS-CATS (W::NP) :SCORE 34.641 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;of blackboard of a primary school&quot; :FRAME (35 68) :PENN-CATS (PP)
+<   :TRIPS-CATS (W::PP) :SCORE 37.053 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;front of blackboard of a primary school&quot; :FRAME (29 68) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 48.538 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;in front of blackboard of a primary school&quot; :FRAME (26 68) :PENN-CATS
+<   (PP) :TRIPS-CATS (W::PP) :SCORE 51.746 :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION
+<   INPUT)
+<  (PREFER &quot;standing in front of blackboard of a primary school&quot; :FRAME (17 68)
+<   :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 60.92 :UTTNUM 23 :CHANNEL DESKTOP
+<   :DIRECTION INPUT)
+<  (PREFER &quot;are standing in front of blackboard of a primary school&quot; :FRAME
+<   (13 68) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 65.284 :UTTNUM 23 :CHANNEL
+<   DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (69 69) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 23 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER
+<   &quot;Six tourists are standing in front of blackboard of a primary school .&quot;
+<   :FRAME (0 69) :PENN-CATS (S) :SCORE 88.958 :UTTNUM 23 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="Six" start="0" end="3"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GEOGRAPHIC-REGION" /></word><word lex="tourists" start="4" end="12"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="Six tourists" start="0" end="12" penn-cats="NP" score="22.533" /><word lex="are" start="13" end="16"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="standing" start="17" end="25"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="in" start="26" end="28"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="standing in" start="17" end="28"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="stand_in%2:40:00" /></word><word lex="front" start="29" end="34"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="29" end="34" penn-cats="NP" score="10.944" /><word lex="in front" start="26" end="34"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><word lex="of" start="35" end="37"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="blackboard" start="38" end="48"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="blackboard" start="38" end="48" penn-cats="NP" score="14.585" /><word lex="of" start="49" end="51"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="52" end="53"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="primary" start="54" end="61"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="school" start="62" end="68"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="primary school" start="54" end="68"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="primary_school%1:14:00" /></word><prefer text="a primary school" start="52" end="68" penn-cats="NP" score="18.448" /><prefer text="of a primary school" start="49" end="68" penn-cats="PP" score="19.516" /><prefer text="blackboard of a primary school" start="38" end="68" penn-cats="NP" score="34.641" /><prefer text="of blackboard of a primary school" start="35" end="68" penn-cats="PP" score="37.053" /><prefer text="front of blackboard of a primary school" start="29" end="68" penn-cats="NP" score="48.538" /><prefer text="in front of blackboard of a primary school" start="26" end="68" penn-cats="PP" score="51.746" /><prefer text="standing in front of blackboard of a primary school" start="17" end="68" penn-cats="VP" score="60.92" /><prefer text="are standing in front of blackboard of a primary school" start="13" end="68" penn-cats="VP" score="65.284" /><word lex="." start="69" end="69"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="Six tourists are standing in front of blackboard of a primary school ." start="0" end="69" penn-cats="S" score="88.958" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (S (NP (N1 (ADJP (NUMBER SIX)) (N1 (N TOURISTS))))
+<    (VP
+<     (VP- (AUX (V ARE))
+<      (VP- (V STANDING IN)
+<       (NP
+<        (N1 (N FRONT)
+<         (PP (PREP OF)
+<          (NP
+<           (N1 (N1 (N BLACKBOARD))
+<            (ADVBL (ADV OF)
+<             (NP (SPEC (DET (ART A))) (N1 (N PRIMARY SCHOOL))))))))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><ADJP><NUMBER>SIX</NUMBER></ADJP><N1><N>TOURISTS</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><V>STANDING IN</V><NP><N1><N>FRONT</N><PP><PREP>OF</PREP><NP><N1><N1><N>BLACKBOARD</N></N1><ADVBL><ADV>OF</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>PRIMARY SCHOOL</N></N1></NP></ADVBL></N1></NP></PP></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V137621"><lisp>((ONT::SPEECHACT ONT::V137621 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+<   ONT::V132069 :START 0 :END 69 :WNSENSE &quot;stand_in%2:40:00&quot;)
+<  (ONT::F ONT::V132069 (:* ONT::EXCHANGE W::STANDING-IN) :AGENT ONT::V131981
+<   :AFFECTED ONT::V132075 :TENSE W::PRES :PROGR + :START 0 :END 69 :WNSENSE
+<   &quot;stand_in%2:40:00&quot;)
+<  (ONT::INDEF-SET ONT::V131981 (:* ONT::TRAVELLER W::TOURISTS) :SIZE
+<   ONT::V131978 :START 0 :END 13)
+<  (ONT::A ONT::V131978 ONT::NUMBER :VALUE 6 :START 0 :END 4)
+<  (ONT::BARE ONT::V132075 (:* ONT::OBJECT-DEPENDENT-LOCATION W::FRONT) :FIGURE
+<   ONT::V132136 :START 29 :END 69)
+<  (ONT::BARE ONT::V132136 (:* ONT::DISPLAY W::BLACKBOARD) :MOD ONT::V132141
+<   :START 35 :END 69)
+<  (ONT::F ONT::V132141 (:* ONT::CONTAIN-RELN W::OF) :GROUND ONT::V132211 :FIGURE
+<   ONT::V132136 :START 49 :END 69)
+<  (ONT::A ONT::V132211 (:* ONT::ORGANIZATION W::PRIMARY-SCHOOL) :START 52 :END
+<   69 :WNSENSE &quot;primary_school%1:14:00&quot;))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V137621">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_TELL</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V132069" />
+<     <LF:start>0</LF:start>
+<     <LF:end>69</LF:end>
+<     <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V132069">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>EXCHANGE</LF:type>
+<     <LF:word>STANDING-IN</LF:word>
+<     <role:AGENT rdf:resource="#V131981" />
+<     <role:AFFECTED rdf:resource="#V132075" />
+<     <role:TENSE>PRES</role:TENSE>
+<     <role:PROGR>+</role:PROGR>
+<     <LF:start>0</LF:start>
+<     <LF:end>69</LF:end>
+<     <role:WNSENSE>stand_in%2:40:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V131981">
+<     <LF:indicator>INDEF-SET</LF:indicator>
+<     <LF:type>TRAVELLER</LF:type>
+<     <LF:word>TOURISTS</LF:word>
+<     <role:SIZE rdf:resource="#V131978" />
+<     <LF:start>0</LF:start>
+<     <LF:end>13</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V131978">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>NUMBER</LF:type>
+<     <role:VALUE>6</role:VALUE>
+<     <LF:start>0</LF:start>
+<     <LF:end>4</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V132075">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+<     <LF:word>FRONT</LF:word>
+<     <role:FIGURE rdf:resource="#V132136" />
+<     <LF:start>29</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V132136">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>DISPLAY</LF:type>
+<     <LF:word>BLACKBOARD</LF:word>
+<     <role:MOD rdf:resource="#V132141" />
+<     <LF:start>35</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V132141">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>CONTAIN-RELN</LF:type>
+<     <LF:word>OF</LF:word>
+<     <role:GROUND rdf:resource="#V132211" />
+<     <role:FIGURE rdf:resource="#V132136" />
+<     <LF:start>49</LF:start>
+<     <LF:end>69</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V132211">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>ORGANIZATION</LF:type>
+<     <LF:word>PRIMARY-SCHOOL</LF:word>
+<     <LF:start>52</LF:start>
+<     <LF:end>69</LF:end>
+<     <role:WNSENSE>primary_school%1:14:00</role:WNSENSE>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="69" WNSENSE="stand_in%2:40:00">
+>    <TEXT>Six tourists are standing in front of blackboard of a primary school .</TEXT>
+>    <RELATION id="1" head="V137621" res="V132069" label="CONTENT"/>
+>    <PHRASE id="V132069" indicator="F" type="EXCHANGE" text="STANDING-IN" TENSE="PRES" PROGR="+" start="0" end="69" WNSENSE="stand_in%2:40:00"/>
+>    <RELATION id="2" head="V132069" res="V131981" label="AGENT"/>
+>    <RELATION id="3" head="V132069" res="V132075" label="AFFECTED"/>
+>    <PHRASE id="V131981" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="13"/>
+>    <RELATION id="4" head="V131981" res="V131978" label="SIZE"/>
+>    <PHRASE id="V131978" indicator="A" type="NUMBER" VALUE="6" start="0" end="4"/>
+>    <PHRASE id="V132075" indicator="BARE" type="OBJECT-DEPENDENT-LOCATION" text="FRONT" start="29" end="69"/>
+>    <RELATION id="5" head="V132075" res="V132136" label="FIGURE"/>
+>    <PHRASE id="V132136" indicator="BARE" type="DISPLAY" text="BLACKBOARD" start="35" end="69"/>
+>    <RELATION id="6" head="V132136" res="V132141" label="MOD"/>
+>    <PHRASE id="V132141" indicator="F" type="CONTAIN-RELN" text="OF" start="49" end="69"/>
+>    <RELATION id="7" head="V132141" res="V132211" label="GROUND"/>
+>    <RELATION id="8" head="V132141" res="V132136" label="FIGURE"/>
+>    <PHRASE id="V132211" indicator="A" type="ORGANIZATION" text="PRIMARY-SCHOOL" start="52" end="69" WNSENSE="primary_school%1:14:00"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

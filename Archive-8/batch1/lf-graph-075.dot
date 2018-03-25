@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "ONE MAN IS STANDING BEHIND THE WALL PUNC-PERIOD"
+  "V375273" [label="(SPEECHACT V375273 SA_TELL)"]
+  "V375273" -> "V375032" [label=":CONTENT"]
+  "V375032" [label="(F V375032 (:* BE BE))"]
+  "V375032" -> "V375023" [label=":NEUTRAL"]
+  "V375032" -> "V375049" [label=":NEUTRAL1"]
+  "V375032" -> "NT375769" [label=":TENSE"]
+  "NT375769" [label="PRES"]
+  "V375023" [label="(A V375023 (:* MALE-PERSON MAN))"]
+  "V375023" -> "V375072" [label=":SIZE"]
+  "V375072" [label="(A V375072 NUMBER)"]
+  "V375072" -> "NT375770" [label=":VALUE"]
+  "NT375770" [label="1"]
+  "V375049" [label="(BARE V375049 (:* BE-AT-LOC STAND))"]
+  "V375049" -> "V375054" [label=":LOCATION"]
+  "V375054" [label="(F V375054 (:* BACK BEHIND))"]
+  "V375054" -> "V375064" [label=":GROUND"]
+  "V375054" -> "V375049" [label=":FIGURE"]
+  "V375064" [label="(THE V375064 (:* STRUCTURE-INTERNAL-COMPONENT WALL))"]
+}

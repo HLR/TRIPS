@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="exterior shot .
+">
+<debug>
+*last-utt-id*=NIL  utt-id+61
+*last-utt-id*=61  utt-id+NIL</debug><utt><words><lisp>(W::EXTERIOR W::SHOT W::PUNC-PERIOD)</lisp><word>EXTERIOR</word><word>SHOT</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;exterior&quot; :FRAME (0 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ NN) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::N)))
+  :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;exterior&quot; :FRAME (0 8) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.852 :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;shot&quot; :FRAME (9 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN VBD) :TRIPS-PARTS-OF-SPEECH (W::N W::V))) :UTTNUM
+  61 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;shot&quot; :FRAME (9 13) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :SCORE 11.525
+  :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (14 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 61 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;exterior shot .&quot; :FRAME (0 14) :PENN-CATS (S) :SCORE 28.519 :UTTNUM
+  61 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="exterior" start="0" end="8"><sense-info penn-parts-of-speech="JJ,NN" trips-parts-of-speech="ADJ,N" /></word><prefer text="exterior" start="0" end="8" penn-cats="NP" score="15.852" /><word lex="shot" start="9" end="13"><sense-info penn-parts-of-speech="NN,VBD" trips-parts-of-speech="N,V" /></word><prefer text="shot" start="9" end="13" penn-cats="VP" score="11.525" /><word lex="." start="14" end="14"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="exterior shot ." start="0" end="14" penn-cats="S" score="28.519" /></tags><tree><lisp>(UTT (UTT (S (NP (N1 (N EXTERIOR))) (VP (VP- (V SHOT))))) (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N>EXTERIOR</N></N1></NP><VP><VP-><V>SHOT</V></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V304315"><lisp>((ONT::SPEECHACT ONT::V304315 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V304250 :START 0 :END 14)
+ (ONT::F ONT::V304250 (:* ONT::MOVE-QUICKLY W::SHOOT) :AFFECTED ONT::V304239
+  :TENSE W::PAST :START 0 :END 14)
+ (ONT::BARE ONT::V304239 (:* ONT::OBJECT-DEPENDENT-LOCATION W::EXTERIOR) :START
+  0 :END 9))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V304315">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V304250" />
+    <LF:start>0</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304250">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MOVE-QUICKLY</LF:type>
+    <LF:word>SHOOT</LF:word>
+    <role:AFFECTED rdf:resource="#V304239" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V304239">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>OBJECT-DEPENDENT-LOCATION</LF:type>
+    <LF:word>EXTERIOR</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

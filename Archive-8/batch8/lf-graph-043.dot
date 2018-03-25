@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "ATTACHED HOUSES ON THE RIGHT PUNC-PERIOD"
+  "V300720" [label="(SPEECHACT V300720 SA_TELL)"]
+  "V300720" -> "V300154" [label=":CONTENT"]
+  "V300154" [label="(F V300154 (:* ATTACH ATTACH))"]
+  "V300154" -> "V300721" [label=":AGENT"]
+  "V300154" -> "V300159" [label=":AFFECTED"]
+  "V300154" -> "NT300831" [label=":TENSE"]
+  "NT300831" [label="PAST"]
+  "V300721" [label="(IMPRO V300721 REFERENTIAL-SEM)"]
+  "V300721" -> "NT300832" [label=":PROFORM"]
+  "NT300832" [label="SUBJ"]
+  "V300721" -> "V300205" [label=":COREF"]
+  "V300159" [label="(INDEF-SET V300159 (:* LODGING HOUSE))"]
+  "V300159" -> "V300168" [label=":LOCATION"]
+  "V300168" [label="(F V300168 (:* ON ON))"]
+  "V300168" -> "V300205" [label=":GROUND"]
+  "V300168" -> "V300159" [label=":FIGURE"]
+  "V300205" [label="(THE V300205 (:* RIGHT-LOC RIGHT))"]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="59">
+   <TEXT>three tourists in the background are talking to each other .</TEXT>
+   <RELATION id="1" head="V33627" res="V33255" label="CONTENT"/>
+   <PHRASE id="V33255" indicator="F" type="TALK" text="TALK" TENSE="PRES" PROGR="+" start="0" end="59"/>
+   <RELATION id="2" head="V33255" res="V33170" label="AGENT"/>
+   <RELATION id="3" head="V33255" res="V33294" label="AGENT1"/>
+   <PHRASE id="V33170" indicator="INDEF-SET" type="TRAVELLER" text="TOURISTS" start="0" end="33"/>
+   <RELATION id="4" head="V33170" res="V33167" label="SIZE"/>
+   <RELATION id="5" head="V33170" res="V33177" label="LOCATION"/>
+   <PHRASE id="V33167" indicator="A" type="NUMBER" VALUE="3" start="0" end="6"/>
+   <PHRASE id="V33177" indicator="F" type="IN-LOC" text="IN" start="15" end="33"/>
+   <RELATION id="6" head="V33177" res="V33233" label="GROUND"/>
+   <RELATION id="7" head="V33177" res="V33170" label="FIGURE"/>
+   <PHRASE id="V33233" indicator="THE" type="IMAGE" text="BACKGROUND" start="18" end="33"/>
+   <PHRASE id="V33294" indicator="PRO" type="REFERENTIAL-SEM" text="EACH-OTHER" PROFORM="(EACH OTHER)" start="45" end="59"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

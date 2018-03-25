@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "THREE OTHER KIDS IN THE BACKGROUND PUNC-PERIOD"
+  "V278430" [label="(SPEECHACT V278430 SA_IDENTIFY)"]
+  "V278430" -> "V278292" [label=":CONTENT"]
+  "V278292" [label="(INDEF-SET V278292 (:* CHILD KID))"]
+  "V278292" -> "V278286" [label=":SIZE"]
+  "V278292" -> "V278299" [label=":LOCATION"]
+  "V278292" -> "V278288" [label=":MOD"]
+  "V278286" [label="(A V278286 NUMBER)"]
+  "V278286" -> "NT279170" [label=":VALUE"]
+  "NT279170" [label="3"]
+  "V278288" [label="(F V278288 (:* OTHER OTHER))"]
+  "V278288" -> "NT279171" [label=":INTENSITY"]
+  "NT279171" [label="HI"]
+  "V278288" -> "V278292" [label=":FIGURE"]
+  "V278299" [label="(F V278299 (:* IN-LOC IN))"]
+  "V278299" -> "V278355" [label=":GROUND"]
+  "V278299" -> "V278292" [label=":FIGURE"]
+  "V278355" [label="(THE V278355 (:* IMAGE BACKGROUND))"]
+}

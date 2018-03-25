@@ -1,0 +1,14 @@
+digraph Terms {
+  node [shape=none]
+  "A GRAVEL ROAD IN THE FOREGROUND PUNC-PERIOD"
+  "V76308" [label="(SPEECHACT V76308 SA_IDENTIFY)"]
+  "V76308" -> "V76105" [label=":CONTENT"]
+  "V76105" [label="(A V76105 (:* ROUTE ROAD))"]
+  "V76105" -> "V76102" [label=":ASSOC-WITH"]
+  "V76105" -> "V76112" [label=":LOCATION"]
+  "V76102" [label="(KIND V76102 (:* MATERIAL GRAVEL))"]
+  "V76112" [label="(F V76112 (:* IN-LOC IN))"]
+  "V76112" -> "V76171" [label=":GROUND"]
+  "V76112" -> "V76105" [label=":FIGURE"]
+  "V76171" [label="(THE V76171 (:* DEVICE FOREGROUND))"]
+}

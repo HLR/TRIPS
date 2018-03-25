@@ -1,0 +1,22 @@
+digraph Terms {
+  node [shape=none]
+  "A DARK PUNC-MINUS SKINNED BOY WEARING A PURPLE CAP PUNC-COMMA"
+  "V319330" [label="(A V319330 (:* MALE-CHILD BOY))"]
+  "V319330" -> "V319336" [label=":MOD"]
+  "V319330" -> "V319315" [label=":MOD"]
+  "V319315" [label="(F V319315 (:* MOVE SKINNED))"]
+  "V319315" -> "V319304" [label=":AGENT"]
+  "V319315" -> "V319330" [label=":AFFECTED"]
+  "V319304" [label="(KIND V319304 (:* LIGHT DARK))"]
+  "V319336" [label="(F V319336 (:* WEAR WEAR))"]
+  "V319336" -> "V319330" [label=":AGENT"]
+  "V319336" -> "V319386" [label=":NEUTRAL"]
+  "V319336" -> "NT320846" [label=":VFORM"]
+  "NT320846" [label="ING"]
+  "V319386" [label="(A V319386 (:* ATTIRE CAP))"]
+  "V319386" -> "V319383" [label=":MOD"]
+  "V319383" [label="(F V319383 (:* PURPLE PURPLE))"]
+  "V319383" -> "V319386" [label=":FIGURE"]
+  "V319383" -> "NT320847" [label=":SCALE"]
+  "NT320847" [label="PURPLE*1--07--00"]
+}

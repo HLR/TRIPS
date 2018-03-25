@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "WITH ONE KID STANDING BELOW THE BASKET"
+  "V42288" [label="(F V42288 (:* ASSOC-WITH WITH))"]
+  "V42288" -> "V42315" [label=":GROUND"]
+  "V42315" [label="(BARE V42315 (:* BODY-MOVEMENT-PLACE STAND-UP))"]
+  "V42315" -> "V42311" [label=":AGENT"]
+  "V42315" -> "V42329" [label=":LOCATION"]
+  "V42311" [label="(A V42311 (:* CHILD KID))"]
+  "V42311" -> "V42352" [label=":SIZE"]
+  "V42352" [label="(A V42352 NUMBER)"]
+  "V42352" -> "NT51199" [label=":VALUE"]
+  "NT51199" [label="1"]
+  "V42329" [label="(F V42329 (:* BELOW BELOW))"]
+  "V42329" -> "V42343" [label=":GROUND"]
+  "V42329" -> "V42315" [label=":FIGURE"]
+  "V42343" [label="(THE V42343 (:* SMALL-CONTAINER BASKET))"]
+}

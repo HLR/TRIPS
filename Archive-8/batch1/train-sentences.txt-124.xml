@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a gravel road in the foreground .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?8175:(F::PHYS-OBJ
+                                                       F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V76271)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?8173)
+                                           (W::TRANSFORM ?8174)))
+                                 (W::CASE ?8172:(W::SUB W::OBJ -))
+                                 (W::AGR ?8171) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V76271) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER76274))
+*last-utt-id*=NIL  utt-id+20
+*last-utt-id*=20  utt-id+NIL</debug><utt><words><lisp>(W::A W::GRAVEL W::ROAD W::IN W::THE W::FOREGROUND W::PUNC-PERIOD)</lisp><word>A</word><word>GRAVEL</word><word>ROAD</word><word>IN</word><word>THE</word><word>FOREGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;gravel&quot; :FRAME (2 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;road&quot; :FRAME (9 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a gravel road&quot; :FRAME (0 13) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 23.877 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (14 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (17 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;foreground&quot; :FRAME (21 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 20
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the foreground&quot; :FRAME (17 31) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 14.817 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the foreground&quot; :FRAME (14 31) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :SCORE 17.068 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (32 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a gravel road in the foreground .&quot; :FRAME (0 32) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 43.43 :UTTNUM 20 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="gravel" start="2" end="8"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="road" start="9" end="13"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a gravel road" start="0" end="13" penn-cats="NP" score="23.877" /><word lex="in" start="14" end="16"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="17" end="20"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="foreground" start="21" end="31"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the foreground" start="17" end="31" penn-cats="NP" score="14.817" /><prefer text="in the foreground" start="14" end="31" penn-cats="PP" score="17.068" /><word lex="." start="32" end="32"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a gravel road in the foreground ." start="0" end="32" penn-cats="NP" score="43.43" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP (SPEC (DET (ART A)))
+   (N1 (N1 (N1 (N GRAVEL)) (N1 (N ROAD)))
+    (ADVBL (ADV IN) (NP (SPEC (DET (ART THE))) (N1 (N FOREGROUND)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N1><N>GRAVEL</N></N1><N1><N>ROAD</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>FOREGROUND</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V76308"><lisp>((ONT::SPEECHACT ONT::V76308 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V76105 :START 0 :END 32)
+ (ONT::A ONT::V76105 (:* ONT::ROUTE W::ROAD) :ASSOC-WITH ONT::V76102 :LOCATION
+  ONT::V76112 :START 0 :END 32)
+ (ONT::KIND ONT::V76102 (:* ONT::MATERIAL W::GRAVEL) :START 0 :END 32)
+ (ONT::F ONT::V76112 (:* ONT::IN-LOC W::IN) :GROUND ONT::V76171 :FIGURE
+  ONT::V76105 :START 14 :END 32)
+ (ONT::THE ONT::V76171 (:* ONT::DEVICE W::FOREGROUND) :START 17 :END 32))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V76308">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V76105" />
+    <LF:start>0</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76105">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ROUTE</LF:type>
+    <LF:word>ROAD</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V76102" />
+    <role:LOCATION rdf:resource="#V76112" />
+    <LF:start>0</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76102">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>MATERIAL</LF:type>
+    <LF:word>GRAVEL</LF:word>
+    <LF:start>0</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76112">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V76171" />
+    <role:FIGURE rdf:resource="#V76105" />
+    <LF:start>14</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V76171">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>DEVICE</LF:type>
+    <LF:word>FOREGROUND</LF:word>
+    <LF:start>17</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

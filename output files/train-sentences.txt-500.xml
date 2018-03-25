@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="39">
+   <TEXT>a girl is sitting at a desk behind him .</TEXT>
+   <RELATION id="1" head="V33685" res="V33236" label="CONTENT"/>
+   <PHRASE id="V33236" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="39"/>
+   <RELATION id="2" head="V33236" res="V33253" label="RESULT"/>
+   <RELATION id="3" head="V33236" res="V33208" label="AGENT"/>
+   <PHRASE id="V33208" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="7"/>
+   <PHRASE id="V33253" indicator="F" type="AT-LOC" text="AT" start="18" end="39"/>
+   <RELATION id="4" head="V33253" res="V33306" label="GROUND"/>
+   <RELATION id="5" head="V33253" res="V33208" label="FIGURE"/>
+   <PHRASE id="V33306" indicator="A" type="FURNISHINGS" text="DESK" start="21" end="39"/>
+   <RELATION id="6" head="V33306" res="V33309" label="LOCATION"/>
+   <PHRASE id="V33309" indicator="F" type="BACK" text="BEHIND" start="28" end="39"/>
+   <RELATION id="7" head="V33309" res="V33312" label="GROUND"/>
+   <RELATION id="8" head="V33309" res="V33306" label="FIGURE"/>
+   <PHRASE id="V33312" indicator="PRO" type="MALE-PERSON" text="HIM" PROFORM="HIM" start="35" end="39"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

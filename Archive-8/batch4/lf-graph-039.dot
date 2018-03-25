@@ -1,0 +1,19 @@
+digraph Terms {
+  node [shape=none]
+  "GREY BRICK WALLS AT THE BACK PUNC-PERIOD"
+  "V354991" [label="(SPEECHACT V354991 SA_IDENTIFY)"]
+  "V354991" -> "V354862" [label=":CONTENT"]
+  "V354862" [label="(INDEF-SET V354862 (:* STRUCTURE-INTERNAL-COMPONENT WALL))"]
+  "V354862" -> "V354859" [label=":ASSOC-WITH"]
+  "V354862" -> "V354871" [label=":LOCATION"]
+  "V354859" [label="(KIND V354859 (:* MATERIAL BRICK))"]
+  "V354859" -> "V354856" [label=":MOD"]
+  "V354856" [label="(F V354856 (:* GRAY GREY))"]
+  "V354856" -> "V354859" [label=":FIGURE"]
+  "V354856" -> "NT355206" [label=":SCALE"]
+  "NT355206" [label="GREYNESS*1--07--00"]
+  "V354871" [label="(F V354871 (:* AT-LOC AT))"]
+  "V354871" -> "V354896" [label=":GROUND"]
+  "V354871" -> "V354862" [label=":FIGURE"]
+  "V354896" [label="(THE V354896 (:* OBJECT-DEPENDENT-LOCATION BACK))"]
+}

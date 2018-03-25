@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="42">
+   <TEXT>three children are standing on the left , l</TEXT>
+   <RELATION id="1" head="V353653" res="V344955" label="CONTENT"/>
+   <PHRASE id="V344955" indicator="F" type="BE-AT-LOC" text="STAND" TENSE="PRES" PROGR="+" start="0" end="42"/>
+   <RELATION id="2" head="V344955" res="V344931" label="NEUTRAL"/>
+   <RELATION id="3" head="V344955" res="V344963" label="TIME"/>
+   <PHRASE id="V344931" indicator="INDEF-SET" type="CHILD" text="CHILD" start="0" end="15"/>
+   <RELATION id="4" head="V344931" res="V344929" label="SIZE"/>
+   <PHRASE id="V344929" indicator="A" type="NUMBER" VALUE="3" start="0" end="6"/>
+   <PHRASE id="V344963" indicator="F" type="TIME-WEEKDAY-REL" text="ON" start="28" end="42"/>
+   <RELATION id="5" head="V344963" res="V345501" label="GROUND"/>
+   <RELATION id="6" head="V344963" res="V344955" label="FIGURE"/>
+   <PHRASE id="V345501" indicator="THE-SET" type="ANY-SEM" start="31" end="42"/>
+   <RELATION id="7" head="V345501" res="V344998" label="MOD"/>
+   <PHRASE id="V344998" indicator="F" type="REMAINING-VAL" text="REMAINING" start="35" end="40"/>
+   <RELATION id="8" head="V344998" res="V345501" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="42" end="67">
+   <TEXT>looking at a map of Peru .</TEXT>
+   <RELATION id="9" head="V345988" res="V345032" label="CONTENT"/>
+   <PHRASE id="V345032" indicator="BARE" type="SCRUTINY" text="LOOK" start="42" end="67"/>
+   <RELATION id="10" head="V345032" res="V345158" label="NEUTRAL"/>
+   <PHRASE id="V345158" indicator="A" type="MAP" text="MAP" start="50" end="67"/>
+   <RELATION id="11" head="V345158" res="V345171" label="FIGURE"/>
+   <PHRASE id="V345171" indicator="THE" type="GEOGRAPHIC-REGION" text="PERU" NAME-OF="(PERU)" start="59" end="67"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="76">
+   <TEXT>a dark-skinned , dark-haired girl is wearing a red vest and a red hair band .</TEXT>
+   <RELATION id="1" head="V234718" res="V229505" label="CONTENT"/>
+   <PHRASE id="V229505" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="0" end="76"/>
+   <RELATION id="2" head="V229505" res="V229480" label="AGENT"/>
+   <RELATION id="3" head="V229505" res="V229564" label="NEUTRAL"/>
+   <PHRASE id="V229480" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34"/>
+   <RELATION id="4" head="V229480" res="V229453" label="MOD"/>
+   <RELATION id="5" head="V229480" res="V229477" label="MOD"/>
+   <PHRASE id="V229453" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="6" head="V229453" res="V229480" label="FIGURE"/>
+   <PHRASE id="V229477" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="7" head="V229477" res="V229480" label="FIGURE"/>
+   <PHRASE id="V229564" indicator="INDEF-SET" type="PHYS-OBJECT" OPERATOR="AND" start="45" end="76"/>
+   <RELATION id="8" head="V229564" res="V229560" label="SEQUENCE"/>
+   <RELATION id="9" head="V229564" res="V229624" label="SEQUENCE1"/>
+   <PHRASE id="V229560" indicator="A" type="ATTIRE" text="VEST" start="45" end="56"/>
+   <RELATION id="10" head="V229560" res="V229552" label="MOD"/>
+   <PHRASE id="V229552" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="47" end="51"/>
+   <RELATION id="11" head="V229552" res="V229560" label="FIGURE"/>
+   <PHRASE id="V229624" indicator="A" type="SOCIAL-GROUP" text="BAND" start="60" end="76"/>
+   <RELATION id="12" head="V229624" res="V229621" label="ASSOC-WITH"/>
+   <PHRASE id="V229621" indicator="KIND" type="EXTERNAL-BODY-PART" text="HAIR" start="60" end="76"/>
+   <RELATION id="13" head="V229621" res="V229614" label="MOD"/>
+   <PHRASE id="V229614" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="62" end="66"/>
+   <RELATION id="14" head="V229614" res="V229621" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

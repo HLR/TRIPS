@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="37">
+   <TEXT>all three workers are wearing a mask .</TEXT>
+   <RELATION id="1" head="V109604" res="V109420" label="CONTENT"/>
+   <PHRASE id="V109420" indicator="F" type="WEAR" text="WEAR" TENSE="PRES" PROGR="+" start="0" end="37"/>
+   <RELATION id="2" head="V109420" res="V109397" label="AGENT"/>
+   <RELATION id="3" head="V109420" res="V109468" label="NEUTRAL"/>
+   <PHRASE id="V109397" indicator="QUANTIFIER" type="PROFESSIONAL" text="WORKER" QUAN="UNIVERSAL" start="0" end="18"/>
+   <RELATION id="4" head="V109397" res="V109395" label="SIZE"/>
+   <PHRASE id="V109395" indicator="A" type="NUMBER" VALUE="3" start="4" end="10"/>
+   <PHRASE id="V109468" indicator="A" type="COVERING" text="MASK" start="30" end="37"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

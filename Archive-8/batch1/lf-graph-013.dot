@@ -1,0 +1,18 @@
+digraph Terms {
+  node [shape=none]
+  "CROWD IS CHEERING IN THE BACKGROUND PUNC-PERIOD"
+  "V52098" [label="(SPEECHACT V52098 SA_TELL)"]
+  "V52098" -> "V51873" [label=":CONTENT"]
+  "V51873" [label="(F V51873 (:* BE BE))"]
+  "V51873" -> "V51861" [label=":NEUTRAL"]
+  "V51873" -> "V51887" [label=":NEUTRAL1"]
+  "V51873" -> "NT52872" [label=":TENSE"]
+  "NT52872" [label="PRES"]
+  "V51861" [label="(BARE V51861 (:* SOCIAL-GROUP CROWD))"]
+  "V51887" [label="(BARE V51887 (:* EVOKE-JOY CHEER))"]
+  "V51887" -> "V51894" [label=":LOCATION"]
+  "V51894" [label="(F V51894 (:* IN-LOC IN))"]
+  "V51894" -> "V51950" [label=":GROUND"]
+  "V51894" -> "V51887" [label=":FIGURE"]
+  "V51950" [label="(THE V51950 (:* IMAGE BACKGROUND))"]
+}

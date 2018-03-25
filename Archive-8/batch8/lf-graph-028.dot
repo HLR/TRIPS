@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "MORE FLOWER POTS BELOW THE ARCHES PUNC-PERIOD"
+  "V233949" [label="(SPEECHACT V233949 SA_TELL)"]
+  "V233949" -> "V233560" [label=":CONTENT"]
+  "V233560" [label="(F V233560 (:* ATTACH POTS))"]
+  "V233560" -> "V233551" [label=":AGENT"]
+  "V233560" -> "V233601" [label=":AFFECTED"]
+  "V233560" -> "V233584" [label=":LOCATION"]
+  "V233560" -> "NT234734" [label=":TENSE"]
+  "NT234734" [label="PRES"]
+  "V233551" [label="(INDEF-SET V233551 (:* PLANT FLOWER))"]
+  "V233551" -> "NT234735" [label=":QUAN"]
+  "NT234735" [label="(:* QMODIFIER MORE)"]
+  "V233584" [label="(F V233584 (:* BELOW BELOW))"]
+  "V233584" -> "V233692" [label=":GROUND"]
+  "V233584" -> "V233560" [label=":FIGURE"]
+  "V233692" [label="(IMPRO V233692 ANY-SEM)"]
+  "V233601" [label="(THE-SET V233601 (:* BODY-PART ARCHES))"]
+}

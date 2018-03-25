@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="FEMALE-CHILD" text="GIRL" start="0" end="34">
+   <TEXT>a dark-skinned , dark-haired girl i</TEXT>
+   <RELATION id="1" head="V126557" res="V126530" label="MOD"/>
+   <RELATION id="2" head="V126557" res="V126554" label="MOD"/>
+   <PHRASE id="V126530" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="3" head="V126530" res="V126557" label="FIGURE"/>
+   <PHRASE id="V126554" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V126554" res="V126557" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="34" end="79">
+   <TEXT>in a grey T-Shirt is standing in a classroom .</TEXT>
+   <RELATION id="5" head="V130751" res="V126696" label="CONTENT"/>
+   <PHRASE id="V126696" indicator="F" type="BE" text="BE" TENSE="PRES" start="34" end="79"/>
+   <RELATION id="6" head="V126696" res="V126687" label="NEUTRAL"/>
+   <RELATION id="7" head="V126696" res="V126713" label="NEUTRAL1"/>
+   <RELATION id="8" head="V126696" res="V126564" label="LOCATION"/>
+   <PHRASE id="V126564" indicator="F" type="IN-LOC" text="IN" start="34" end="39"/>
+   <RELATION id="9" head="V126564" res="V128785" label="GROUND"/>
+   <RELATION id="10" head="V126564" res="V126696" label="FIGURE"/>
+   <PHRASE id="V128785" indicator="THE" type="SEQUENCE" NAME-OF="(A)" VAL="(A)" start="37" end="39"/>
+   <PHRASE id="V126687" indicator="BARE" type="ATTIRE" text="T-PUNC-MINUS-SHIRT" start="39" end="52"/>
+   <RELATION id="11" head="V126687" res="V126654" label="MOD"/>
+   <PHRASE id="V126654" indicator="F" type="GRAY" text="GREY" SCALE="GREYNESS*1--07--00" start="39" end="44"/>
+   <RELATION id="12" head="V126654" res="V126687" label="FIGURE"/>
+   <PHRASE id="V126713" indicator="BARE" type="BE-AT-LOC" text="STAND" start="55" end="79"/>
+   <RELATION id="13" head="V126713" res="V126722" label="LOCATION"/>
+   <PHRASE id="V126722" indicator="F" type="IN-LOC" text="IN" start="64" end="79"/>
+   <RELATION id="14" head="V126722" res="V126824" label="GROUND"/>
+   <RELATION id="15" head="V126722" res="V126713" label="FIGURE"/>
+   <PHRASE id="V126824" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="67" end="79"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

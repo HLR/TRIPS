@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" start="0" end="64">
+   <TEXT>many people are working on the bare brickwork of a house or are w</TEXT>
+   <RELATION id="1" head="V100119" res="V93403" label="CONTENT"/>
+   <PHRASE id="V93403" indicator="F" type="SITUATION-ROOT" OPERATOR="OR" TENSE="PRES" PROGR="+" start="0" end="64"/>
+   <RELATION id="2" head="V93403" res="V93256" label="SEQUENCE"/>
+   <RELATION id="3" head="V93403" res="V93411" label="SEQUENCE1"/>
+   <PHRASE id="V93256" indicator="F" type="WORKING" text="WORK" TENSE="PRES" PROGR="+" start="0" end="57"/>
+   <RELATION id="4" head="V93256" res="V93235" label="AGENT"/>
+   <RELATION id="5" head="V93256" res="V93344" label="NEUTRAL"/>
+   <PHRASE id="V93235" indicator="INDEF-SET" type="PERSON" text="PERSON" SIZE="MANY" start="0" end="12"/>
+   <PHRASE id="V93344" indicator="THE" type="MANUFACTURED-OBJECT" text="BRICKWORK" start="24" end="57"/>
+   <RELATION id="6" head="V93344" res="V93348" label="MOD"/>
+   <RELATION id="7" head="V93344" res="V93337" label="MOD"/>
+   <PHRASE id="V93337" indicator="F" type="NOT-CLOTHED-VAL" text="BARE" start="31" end="36"/>
+   <RELATION id="8" head="V93337" res="V93344" label="FIGURE"/>
+   <PHRASE id="V93348" indicator="F" type="ASSOC-WITH" text="OF" start="46" end="57"/>
+   <RELATION id="9" head="V93348" res="V93399" label="GROUND"/>
+   <RELATION id="10" head="V93348" res="V93344" label="FIGURE"/>
+   <PHRASE id="V93399" indicator="A" type="LODGING" text="HOUSE" start="49" end="57"/>
+   <PHRASE id="V93411" indicator="F" type="ELLIPSIS" TENSE="PRES" PROGR="+" start="60" end="64"/>
+   <RELATION id="11" head="V93411" res="V93235" label="NEUTRAL"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MANAGE" text="WATCH" VFORM="ING" start="64" end="96">
+   <TEXT>watching the workers from below .</TEXT>
+   <RELATION id="12" head="V93429" res="V93456" label="RESULT"/>
+   <RELATION id="13" head="V93429" res="V93440" label="AFFECTED"/>
+   <RELATION id="14" head="V93429" res="V93448" label="TIME"/>
+   <PHRASE id="V93440" indicator="THE-SET" type="PROFESSIONAL" text="WORKER" start="73" end="85"/>
+   <RELATION id="15" head="V93440" res="V93235" label="COREF"/>
+   <PHRASE id="V93448" indicator="F" type="EVENT-TIME-REL" text="FROM" start="85" end="90"/>
+   <RELATION id="16" head="V93448" res="V93429" label="FIGURE"/>
+   <PHRASE id="V93456" indicator="F" type="BELOW" text="BELOW" start="90" end="96"/>
+   <RELATION id="17" head="V93456" res="V94180" label="GROUND"/>
+   <RELATION id="18" head="V93456" res="V93440" label="FIGURE"/>
+   <PHRASE id="V94180" indicator="IMPRO" type="ANY-SEM" start="90" end="96"/>
+   <RELATION id="19" head="V94180" res="V93344" label="COREF"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

@@ -1,0 +1,23 @@
+digraph Terms {
+  node [shape=none]
+  "PEOPLE ARE WEARING RAIN COATS AND JACKETS PUNC-PERIOD"
+  "V161792" [label="(SPEECHACT V161792 SA_TELL)"]
+  "V161792" -> "V161503" [label=":CONTENT"]
+  "V161503" [label="(F V161503 (:* WEAR WEAR))"]
+  "V161503" -> "V161480" [label=":AGENT"]
+  "V161503" -> "V161520" [label=":NEUTRAL"]
+  "V161503" -> "NT162633" [label=":TENSE"]
+  "NT162633" [label="PRES"]
+  "V161503" -> "NT162634" [label=":PROGR"]
+  "NT162634" [label="+"]
+  "V161480" [label="(INDEF-SET V161480 (:* PERSON PERSON))"]
+  "V161520" [label="(INDEF-SET V161520 ATTIRE)"]
+  "V161520" -> "NT162635" [label=":OPERATOR"]
+  "NT162635" [label="AND"]
+  "V161520" -> "V161516" [label=":SEQUENCE"]
+  "V161520" -> "V161529" [label=":SEQUENCE-1"]
+  "V161516" [label="(INDEF-SET V161516 (:* ATTIRE COAT))"]
+  "V161516" -> "V161512" [label=":ASSOC-WITH"]
+  "V161512" [label="(KIND V161512 (:* PRECIPITATION RAIN))"]
+  "V161529" [label="(INDEF-SET V161529 (:* ATTIRE JACKET))"]
+}

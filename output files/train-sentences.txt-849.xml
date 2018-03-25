@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="48">
+   <TEXT>a window at the back , with the curtains closed .</TEXT>
+   <RELATION id="1" head="V265273" res="V265056" label="CONTENT"/>
+   <PHRASE id="V265056" indicator="F" type="CLOSE" text="CLOSE" TENSE="PAST" start="0" end="48"/>
+   <RELATION id="2" head="V265056" res="V264985" label="AFFECTED"/>
+   <PHRASE id="V264985" indicator="A" type="STRUCTURAL-OPENING" text="WINDOW" start="0" end="41"/>
+   <RELATION id="3" head="V264985" res="V264995" label="LOCATION"/>
+   <PHRASE id="V264995" indicator="F" type="AT-LOC" text="AT" start="9" end="41"/>
+   <RELATION id="4" head="V264995" res="V265020" label="GROUND"/>
+   <RELATION id="5" head="V264995" res="V264985" label="FIGURE"/>
+   <PHRASE id="V265020" indicator="THE" type="OBJECT-DEPENDENT-LOCATION" text="BACK" start="12" end="41"/>
+   <RELATION id="6" head="V265020" res="V265030" label="MOD"/>
+   <PHRASE id="V265030" indicator="F" type="ASSOC-WITH" text="WITH" start="21" end="41"/>
+   <RELATION id="7" head="V265030" res="V265049" label="GROUND"/>
+   <RELATION id="8" head="V265030" res="V265020" label="FIGURE"/>
+   <PHRASE id="V265049" indicator="THE-SET" type="COVERING" text="CURTAIN" start="28" end="41"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

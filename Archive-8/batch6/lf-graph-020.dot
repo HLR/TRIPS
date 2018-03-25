@@ -1,0 +1,12 @@
+digraph Terms {
+  node [shape=none]
+  "ROCKS IN THE BACKGROUND PUNC-PERIOD"
+  "V107920" [label="(SPEECHACT V107920 SA_IDENTIFY)"]
+  "V107920" -> "V107826" [label=":CONTENT"]
+  "V107826" [label="(INDEF-SET V107826 (:* NATURAL-OBJECT ROCK))"]
+  "V107826" -> "V107834" [label=":LOCATION"]
+  "V107834" [label="(F V107834 (:* IN-LOC IN))"]
+  "V107834" -> "V107890" [label=":GROUND"]
+  "V107834" -> "V107826" [label=":FIGURE"]
+  "V107890" [label="(THE V107890 (:* IMAGE BACKGROUND))"]
+}

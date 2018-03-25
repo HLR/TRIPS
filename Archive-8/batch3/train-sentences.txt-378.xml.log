@@ -1,0 +1,148 @@
+2,127c2,20
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a dark-haired baby pointing at the camera .
+< ">
+< <debug>
+< *last-utt-id*=NIL  utt-id+52
+< *last-utt-id*=52  utt-id+NIL</debug><utt><words><lisp>(W::A W::DARK W::PUNC-MINUS W::HAIRED W::BABY W::POINTING W::AT W::THE
+<  W::CAMERA W::PUNC-PERIOD)</lisp><word>A</word><word>DARK</word><word>PUNC-MINUS</word><word>HAIRED</word><word>BABY</word><word>POINTING</word><word>AT</word><word>THE</word><word>CAMERA</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark&quot; :FRAME (2 5) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 52
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;-&quot; :FRAME (6 6) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 52
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;haired&quot; :FRAME (7 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 52
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;dark-haired&quot; :FRAME (2 13) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ) :WN-SENSE-KEYS
+<     (&quot;dark-haired%5:00:00&quot;)))
+<   :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;baby&quot; :FRAME (14 18) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 52
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a dark-haired baby&quot; :FRAME (0 18) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 24.18 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;pointing&quot; :FRAME (19 27) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 52
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;at&quot; :FRAME (28 30) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (31 34) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;camera&quot; :FRAME (35 41) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 52
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the camera&quot; :FRAME (31 41) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+<   12.042 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;at the camera&quot; :FRAME (28 41) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+<   :SCORE 15.37 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;pointing at the camera&quot; :FRAME (19 41) :PENN-CATS (VP) :TRIPS-CATS
+<   (W::VP) :SCORE 24.927 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (42 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a dark-haired baby pointing at the camera .&quot; :FRAME (0 42) :PENN-CATS
+<   (NP) :TRIPS-CATS (W::NP) :SCORE 52.549 :UTTNUM 52 :CHANNEL DESKTOP :DIRECTION
+<   INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dark" start="2" end="5"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="-" start="6" end="6"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><word lex="haired" start="7" end="13"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="dark-haired" start="2" end="13"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" wn-sense-keys="dark-haired%5:00:00" /></word><word lex="baby" start="14" end="18"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a dark-haired baby" start="0" end="18" penn-cats="NP" score="24.18" /><word lex="pointing" start="19" end="27"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="at" start="28" end="30"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="31" end="34"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="camera" start="35" end="41"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the camera" start="31" end="41" penn-cats="NP" score="12.042" /><prefer text="at the camera" start="28" end="41" penn-cats="PP" score="15.37" /><prefer text="pointing at the camera" start="19" end="41" penn-cats="VP" score="24.927" /><word lex="." start="42" end="42"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a dark-haired baby pointing at the camera ." start="0" end="42" penn-cats="NP" score="52.549" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP
+<    (N1
+<     (N1
+<      (NP (SPEC (DET (ART A)))
+<       (N1 (ADJP (ADJ1 (ADJ DARK PUNC-MINUS HAIRED))) (N1 (N BABY))))
+<      (N1 (V POINTING)))
+<     (ADVBL (ADV AT) (NP (SPEC (DET (ART THE))) (N1 (N CAMERA)))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>DARK PUNC-MINUS HAIRED</ADJ></ADJ1></ADJP><N1><N>BABY</N></N1></N1></NP><N1><V>POINTING</V></N1></N1><ADVBL><ADV>AT</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>CAMERA</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V325967"><lisp>((ONT::SPEECHACT ONT::V325967 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V325783 :START 0 :END 42)
+<  (ONT::BARE ONT::V325783 (:* ONT::ORIENT W::POINT) :AFFECTED ONT::V325778
+<   :LOCATION ONT::V325793 :START 0 :END 42)
+<  (ONT::A ONT::V325778 (:* ONT::CHILD W::BABY) :MOD ONT::V325772 :START 0 :END
+<   19)
+<  (ONT::F ONT::V325772 (:* ONT::MODIFIER W::DARK-PUNC-MINUS-HAIRED) :FIGURE
+<   ONT::V325778 :START 2 :END 14 :WNSENSE &quot;dark-haired%5:00:00&quot;)
+<  (ONT::F ONT::V325793 (:* ONT::AT-LOC W::AT) :GROUND ONT::V325812 :FIGURE
+<   ONT::V325783 :START 28 :END 42)
+<  (ONT::THE ONT::V325812 (:* ONT::RECORDING-DEVICE W::CAMERA) :START 31 :END 42))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V325967">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V325783" />
+<     <LF:start>0</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V325783">
+<     <LF:indicator>BARE</LF:indicator>
+<     <LF:type>ORIENT</LF:type>
+<     <LF:word>POINT</LF:word>
+<     <role:AFFECTED rdf:resource="#V325778" />
+<     <role:LOCATION rdf:resource="#V325793" />
+<     <LF:start>0</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V325778">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>CHILD</LF:type>
+<     <LF:word>BABY</LF:word>
+<     <role:MOD rdf:resource="#V325772" />
+<     <LF:start>0</LF:start>
+<     <LF:end>19</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V325772">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>MODIFIER</LF:type>
+<     <LF:word>DARK-PUNC-MINUS-HAIRED</LF:word>
+<     <role:FIGURE rdf:resource="#V325778" />
+<     <LF:start>2</LF:start>
+<     <LF:end>14</LF:end>
+<     <role:WNSENSE>dark-haired%5:00:00</role:WNSENSE>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V325793">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>AT-LOC</LF:type>
+<     <LF:word>AT</LF:word>
+<     <role:GROUND rdf:resource="#V325812" />
+<     <role:FIGURE rdf:resource="#V325783" />
+<     <LF:start>28</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V325812">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>RECORDING-DEVICE</LF:type>
+<     <LF:word>CAMERA</LF:word>
+<     <LF:start>31</LF:start>
+<     <LF:end>42</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="42">
+>    <TEXT>a dark-haired baby pointing at the camera .</TEXT>
+>    <RELATION id="1" head="V325967" res="V325783" label="CONTENT"/>
+>    <PHRASE id="V325783" indicator="BARE" type="ORIENT" text="POINT" start="0" end="42"/>
+>    <RELATION id="2" head="V325783" res="V325778" label="AFFECTED"/>
+>    <RELATION id="3" head="V325783" res="V325793" label="LOCATION"/>
+>    <PHRASE id="V325778" indicator="A" type="CHILD" text="BABY" start="0" end="19"/>
+>    <RELATION id="4" head="V325778" res="V325772" label="MOD"/>
+>    <PHRASE id="V325772" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="2" end="14" WNSENSE="dark-haired%5:00:00"/>
+>    <RELATION id="5" head="V325772" res="V325778" label="FIGURE"/>
+>    <PHRASE id="V325793" indicator="F" type="AT-LOC" text="AT" start="28" end="42"/>
+>    <RELATION id="6" head="V325793" res="V325812" label="GROUND"/>
+>    <RELATION id="7" head="V325793" res="V325783" label="FIGURE"/>
+>    <PHRASE id="V325812" indicator="THE" type="RECORDING-DEVICE" text="CAMERA" start="31" end="42"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

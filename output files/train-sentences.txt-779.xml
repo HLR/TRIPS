@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="A" type="MALE-CHILD" text="BOY" start="0" end="50">
+   <TEXT>a dark-skinned , dark-haired boy with a big smile w</TEXT>
+   <RELATION id="1" head="V321097" res="V321101" label="MOD"/>
+   <RELATION id="2" head="V321097" res="V321070" label="MOD"/>
+   <RELATION id="3" head="V321097" res="V321094" label="MOD"/>
+   <PHRASE id="V321070" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-SKINNED" start="2" end="15" WNSENSE="dark-skinned%5:00:00"/>
+   <RELATION id="4" head="V321070" res="V321097" label="FIGURE"/>
+   <PHRASE id="V321094" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="5" head="V321094" res="V321097" label="FIGURE"/>
+   <PHRASE id="V321101" indicator="F" type="ASSOC-WITH" text="WITH" start="33" end="50"/>
+   <RELATION id="6" head="V321101" res="V321159" label="GROUND"/>
+   <RELATION id="7" head="V321101" res="V321097" label="FIGURE"/>
+   <PHRASE id="V321159" indicator="A" type="NONVERBAL-EXPRESSION" text="SMILE" start="38" end="50"/>
+   <RELATION id="8" head="V321159" res="V321154" label="MOD"/>
+   <PHRASE id="V321154" indicator="F" type="LARGE" text="BIG" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="40" end="44"/>
+   <RELATION id="9" head="V321154" res="V321159" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="50" end="91">
+   <TEXT>wearing a red cap and a dark blue anorak .</TEXT>
+   <RELATION id="10" head="V321773" res="V321169" label="CONTENT"/>
+   <PHRASE id="V321169" indicator="BARE" type="WEAR" text="WEAR" start="50" end="91"/>
+   <RELATION id="11" head="V321169" res="V321235" label="NEUTRAL"/>
+   <PHRASE id="V321235" indicator="INDEF-SET" type="ATTIRE" OPERATOR="AND" start="58" end="91"/>
+   <RELATION id="12" head="V321235" res="V321229" label="SEQUENCE"/>
+   <RELATION id="13" head="V321235" res="V321312" label="SEQUENCE1"/>
+   <PHRASE id="V321229" indicator="A" type="ATTIRE" text="CAP" start="58" end="68"/>
+   <RELATION id="14" head="V321229" res="V321216" label="MOD"/>
+   <PHRASE id="V321216" indicator="F" type="RED" text="RED" SCALE="COLOR-SCALE" start="60" end="64"/>
+   <RELATION id="15" head="V321216" res="V321229" label="FIGURE"/>
+   <PHRASE id="V321312" indicator="A" type="ATTIRE" text="ANORAK" start="72" end="91"/>
+   <RELATION id="16" head="V321312" res="V321286" label="MOD"/>
+   <RELATION id="17" head="V321312" res="V321292" label="MOD"/>
+   <PHRASE id="V321286" indicator="F" type="DARK-IN-COLOR-VAL" text="DARK" start="74" end="79"/>
+   <RELATION id="18" head="V321286" res="V321312" label="FIGURE"/>
+   <PHRASE id="V321292" indicator="F" type="BLUE" text="BLUE" SCALE="COLOR-SCALE" start="79" end="84"/>
+   <RELATION id="19" head="V321292" res="V321312" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

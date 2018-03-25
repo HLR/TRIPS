@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="33">
+   <TEXT>one kid has just opened one book .</TEXT>
+   <RELATION id="1" head="V138165" res="V137801" label="CONTENT"/>
+   <PHRASE id="V137801" indicator="F" type="OPEN" text="OPEN" TENSE="PRES" PERF="+" start="0" end="33"/>
+   <RELATION id="2" head="V137801" res="V137765" label="AGENT"/>
+   <RELATION id="3" head="V137801" res="V137819" label="AFFECTED"/>
+   <RELATION id="4" head="V137801" res="V137792" label="MOD"/>
+   <PHRASE id="V137765" indicator="A" type="CHILD" text="KID" start="0" end="8"/>
+   <RELATION id="5" head="V137765" res="V137829" label="SIZE"/>
+   <PHRASE id="V137829" indicator="A" type="NUMBER" VALUE="1" start="0" end="8"/>
+   <PHRASE id="V137792" indicator="F" type="MODIFIER" text="JUST" start="12" end="17"/>
+   <RELATION id="6" head="V137792" res="V137801" label="FIGURE"/>
+   <PHRASE id="V137819" indicator="A" type="BOOK" text="BOOK" start="24" end="33"/>
+   <RELATION id="7" head="V137819" res="V137843" label="SIZE"/>
+   <PHRASE id="V137843" indicator="A" type="NUMBER" VALUE="1" start="24" end="33"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

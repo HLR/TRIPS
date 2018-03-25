@@ -1,0 +1,163 @@
+2,141c2,21
+< <?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+< <!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+< <trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a large mountain in the distant background .
+< ">
+< <debug>
+< 
+<  FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+<                                  (W::MASS W::BARE) (W::GENERATED +)
+<                                  (W::POSTADVBL +)
+<                                  (W::SEM ?8607:(?11147:(F::PHYS-OBJ
+<                                                         F::ABSTR-OBJ) NIL))
+<                                  (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+<                                            (W::VAR V52537)
+<                                            (W::SORT W::INDIVIDUAL)
+<                                            (W::LEX (W::A))
+<                                            (W::CLASS ONT::SEQUENCE)
+<                                            (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+<                                                              (W::VAL (W::A))))
+<                                            (W::LEX W::A) (W::SEM ?11145)
+<                                            (W::TRANSFORM ?11146)))
+<                                  (W::CASE ?11144:(W::SUB W::OBJ -))
+<                                  (W::AGR ?11143) (W::CLASS ONT::ANY-SEM)
+<                                  (W::VAR V52537) (W::SORT W::PRED) (W::NAME -)
+<                                  (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+<                                  (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+<                                  (W::REFL -) (1 RNUMBER52549))
+< *last-utt-id*=NIL  utt-id+7
+< *last-utt-id*=7  utt-id+NIL</debug><utt><words><lisp>(W::A W::LARGE W::MOUNTAIN W::IN W::THE W::DISTANT W::BACKGROUND W::PUNC-PERIOD)</lisp><word>A</word><word>LARGE</word><word>MOUNTAIN</word><word>IN</word><word>THE</word><word>DISTANT</word><word>BACKGROUND</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;large&quot; :FRAME (2 7) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;mountain&quot; :FRAME (8 16) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a large mountain&quot; :FRAME (0 16) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+<   :SCORE 18.082 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;in&quot; :FRAME (17 19) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;the&quot; :FRAME (20 23) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;distant&quot; :FRAME (24 31) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;background&quot; :FRAME (32 42) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 7
+<   :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;the distant background&quot; :FRAME (20 42) :PENN-CATS (NP) :TRIPS-CATS
+<   (W::NP) :SCORE 21.49 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;in the distant background&quot; :FRAME (17 42) :PENN-CATS (PP) :TRIPS-CATS
+<   (W::PP) :SCORE 23.741 :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (WORD &quot;.&quot; :FRAME (43 43) :SENSE-INFO
+<   ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+<   :UTTNUM 7 :CHANNEL DESKTOP :DIRECTION INPUT)
+<  (PREFER &quot;a large mountain in the distant background .&quot; :FRAME (0 43)
+<   :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 44.308 :UTTNUM 7 :CHANNEL DESKTOP
+<   :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="large" start="2" end="7"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="mountain" start="8" end="16"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="a large mountain" start="0" end="16" penn-cats="NP" score="18.082" /><word lex="in" start="17" end="19"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="20" end="23"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="distant" start="24" end="31"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="background" start="32" end="42"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the distant background" start="20" end="42" penn-cats="NP" score="21.49" /><prefer text="in the distant background" start="17" end="42" penn-cats="PP" score="23.741" /><word lex="." start="43" end="43"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a large mountain in the distant background ." start="0" end="43" penn-cats="NP" score="44.308" /></tags><tree><lisp>(UTT
+<  (UTT
+<   (NP (SPEC (DET (ART A)))
+<    (N1 (N1 (ADJP (ADJ1 (ADJ LARGE))) (N1 (N MOUNTAIN)))
+<     (ADVBL (ADV IN)
+<      (NP (SPEC (DET (ART THE)))
+<       (N1 (ADJP (ADJ1 (ADJ DISTANT))) (N1 (N BACKGROUND))))))))
+<  (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>LARGE</ADJ></ADJ1></ADJP><N1><N>MOUNTAIN</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>DISTANT</ADJ></ADJ1></ADJP><N1><N>BACKGROUND</N></N1></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V52460"><lisp>((ONT::SPEECHACT ONT::V52460 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+<   ONT::V52329 :START 0 :END 43)
+<  (ONT::A ONT::V52329 (:* ONT::GEO-FORMATION W::MOUNTAIN) :LOCATION ONT::V52336
+<   :MOD ONT::V52324 :START 0 :END 43)
+<  (ONT::F ONT::V52324 (:* ONT::LARGE W::LARGE) :ORIENTATION ONT::MORE :INTENSITY
+<   ONT::MED :FIGURE ONT::V52329 :SCALE ONT::SIZE-SCALE :START 2 :END 8)
+<  (ONT::F ONT::V52336 (:* ONT::IN-LOC W::IN) :GROUND ONT::V52395 :FIGURE
+<   ONT::V52329 :START 17 :END 43)
+<  (ONT::THE ONT::V52395 (:* ONT::IMAGE W::BACKGROUND) :MOD ONT::V52392 :START 20
+<   :END 43)
+<  (ONT::F ONT::V52392 (:* ONT::REMOTE W::DISTANT) :ORIENTATION ONT::MORE
+<   :INTENSITY ONT::HI :FIGURE ONT::V52395 :SCALE ONT::LINEAR-SCALE :START 24
+<   :END 32))</lisp><rdf:RDF
+<   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<   xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+<   xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+<   <rdf:Description rdf:ID="V52460">
+<     <LF:indicator>SPEECHACT</LF:indicator>
+<     <LF:type>SA_IDENTIFY</LF:type>
+<     <role:PUNCTYPE>DECL</role:PUNCTYPE>
+<     <role:CONTENT rdf:resource="#V52329" />
+<     <LF:start>0</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52329">
+<     <LF:indicator>A</LF:indicator>
+<     <LF:type>GEO-FORMATION</LF:type>
+<     <LF:word>MOUNTAIN</LF:word>
+<     <role:LOCATION rdf:resource="#V52336" />
+<     <role:MOD rdf:resource="#V52324" />
+<     <LF:start>0</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52324">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>LARGE</LF:type>
+<     <LF:word>LARGE</LF:word>
+<     <role:ORIENTATION>MORE</role:ORIENTATION>
+<     <role:INTENSITY>MED</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V52329" />
+<     <role:SCALE>SIZE-SCALE</role:SCALE>
+<     <LF:start>2</LF:start>
+<     <LF:end>8</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52336">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>IN-LOC</LF:type>
+<     <LF:word>IN</LF:word>
+<     <role:GROUND rdf:resource="#V52395" />
+<     <role:FIGURE rdf:resource="#V52329" />
+<     <LF:start>17</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52395">
+<     <LF:indicator>THE</LF:indicator>
+<     <LF:type>IMAGE</LF:type>
+<     <LF:word>BACKGROUND</LF:word>
+<     <role:MOD rdf:resource="#V52392" />
+<     <LF:start>20</LF:start>
+<     <LF:end>43</LF:end>
+<   </rdf:Description>
+<   <rdf:Description rdf:ID="V52392">
+<     <LF:indicator>F</LF:indicator>
+<     <LF:type>REMOTE</LF:type>
+<     <LF:word>DISTANT</LF:word>
+<     <role:ORIENTATION>MORE</role:ORIENTATION>
+<     <role:INTENSITY>HI</role:INTENSITY>
+<     <role:FIGURE rdf:resource="#V52395" />
+<     <role:SCALE>LINEAR-SCALE</role:SCALE>
+<     <LF:start>24</LF:start>
+<     <LF:end>32</LF:end>
+<   </rdf:Description>
+< </rdf:RDF>
+< </terms></utt></trips-parser-output>
+\ No newline at end of file
+---
+> <SpRL>
+>  <SCENE>
+>   <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="43">
+>    <TEXT>a large mountain in the distant background .</TEXT>
+>    <RELATION id="1" head="V52460" res="V52329" label="CONTENT"/>
+>    <PHRASE id="V52329" indicator="A" type="GEO-FORMATION" text="MOUNTAIN" start="0" end="43"/>
+>    <RELATION id="2" head="V52329" res="V52336" label="LOCATION"/>
+>    <RELATION id="3" head="V52329" res="V52324" label="MOD"/>
+>    <PHRASE id="V52324" indicator="F" type="LARGE" text="LARGE" ORIENTATION="MORE" INTENSITY="MED" SCALE="SIZE-SCALE" start="2" end="8"/>
+>    <RELATION id="4" head="V52324" res="V52329" label="FIGURE"/>
+>    <PHRASE id="V52336" indicator="F" type="IN-LOC" text="IN" start="17" end="43"/>
+>    <RELATION id="5" head="V52336" res="V52395" label="GROUND"/>
+>    <RELATION id="6" head="V52336" res="V52329" label="FIGURE"/>
+>    <PHRASE id="V52395" indicator="THE" type="IMAGE" text="BACKGROUND" start="20" end="43"/>
+>    <RELATION id="7" head="V52395" res="V52392" label="MOD"/>
+>    <PHRASE id="V52392" indicator="F" type="REMOTE" text="DISTANT" ORIENTATION="MORE" INTENSITY="HI" SCALE="LINEAR-SCALE" start="24" end="32"/>
+>    <RELATION id="8" head="V52392" res="V52395" label="FIGURE"/>
+>   </SENTENCE>
+>  </SCENE>
+> </SpRL>

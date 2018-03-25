@@ -1,0 +1,21 @@
+digraph Terms {
+  node [shape=none]
+  "ONE PERSON IS POINTING TO THE CAMERA PUNC-PERIOD"
+  "V112084" [label="(SPEECHACT V112084 SA_IDENTIFY)"]
+  "V112084" -> "V111127" [label=":CONTENT"]
+  "V111127" [label="(BARE V111127 (:* REFERENTIAL-SEM ONE))"]
+  "V111127" -> "V111157" [label=":MOD"]
+  "V111157" [label="(F V111157 (:* ORIENT POINT))"]
+  "V111157" -> "V111133" [label=":AGENT"]
+  "V111157" -> "V111127" [label=":AFFECTED"]
+  "V111157" -> "V111168" [label=":TIME"]
+  "V111157" -> "NT112440" [label=":TENSE"]
+  "NT112440" [label="PRES"]
+  "V111157" -> "NT112441" [label=":PROGR"]
+  "NT112441" [label="+"]
+  "V111133" [label="(BARE V111133 (:* PERSON PERSON))"]
+  "V111168" [label="(F V111168 (:* EVENT-TIME-REL TO))"]
+  "V111168" -> "V111192" [label=":GROUND"]
+  "V111168" -> "V111157" [label=":FIGURE"]
+  "V111192" [label="(THE V111192 (:* RECORDING-DEVICE CAMERA))"]
+}

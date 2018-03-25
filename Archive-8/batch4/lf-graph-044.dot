@@ -1,0 +1,12 @@
+digraph Terms {
+  node [shape=none]
+  "A MAN IN THE BACKGROUND PUNC-PERIOD"
+  "V398761" [label="(SPEECHACT V398761 SA_IDENTIFY)"]
+  "V398761" -> "V398662" [label=":CONTENT"]
+  "V398662" [label="(A V398662 (:* MALE-PERSON MAN))"]
+  "V398662" -> "V398669" [label=":LOCATION"]
+  "V398669" [label="(F V398669 (:* IN-LOC IN))"]
+  "V398669" -> "V398725" [label=":GROUND"]
+  "V398669" -> "V398662" [label=":FIGURE"]
+  "V398725" [label="(THE V398725 (:* IMAGE BACKGROUND))"]
+}

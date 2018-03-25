@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="0" end="51">
+   <TEXT>classroom with most of the pupil sitting at theirs d</TEXT>
+   <RELATION id="1" head="V335904" res="V335968" label="LOCATION"/>
+   <RELATION id="2" head="V335904" res="V335908" label="MOD"/>
+   <PHRASE id="V335908" indicator="F" type="ASSOC-WITH" text="WITH" start="10" end="41"/>
+   <RELATION id="3" head="V335908" res="V336110" label="GROUND"/>
+   <RELATION id="4" head="V335908" res="V335904" label="FIGURE"/>
+   <PHRASE id="V336110" indicator="A" type="PLACE-IN-POSITION" text="SIT" QUAN="MOST" start="15" end="41"/>
+   <RELATION id="5" head="V336110" res="V335942" label="AFFECTED"/>
+   <PHRASE id="V335952" indicator="BARE" type="PLACE-IN-POSITION" text="SIT" start="20" end="41"/>
+   <RELATION id="6" head="V335952" res="V335942" label="AFFECTED"/>
+   <PHRASE id="V335942" indicator="THE" type="EXTERNAL-BODY-PART" text="PUPIL" start="23" end="33"/>
+   <PHRASE id="V335968" indicator="F" type="AT-LOC" text="AT" start="41" end="51"/>
+   <RELATION id="7" head="V335968" res="V335980" label="GROUND"/>
+   <RELATION id="8" head="V335968" res="V335904" label="FIGURE"/>
+   <PHRASE id="V335980" indicator="PRO" type="PERSON" text="THEIRS" PROFORM="THEIRS" start="44" end="51"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="51" end="79">
+   <TEXT>desk and wearing green hats .</TEXT>
+   <RELATION id="9" head="V338213" res="V335987" label="CONTENT"/>
+   <PHRASE id="V335987" indicator="INDEF-SET" type="MANUFACTURED-OBJECT" OPERATOR="AND" start="51" end="79"/>
+   <RELATION id="10" head="V335987" res="V335983" label="SEQUENCE"/>
+   <RELATION id="11" head="V335987" res="V336010" label="SEQUENCE1"/>
+   <PHRASE id="V335983" indicator="BARE" type="FURNISHINGS" text="DESK" start="51" end="56"/>
+   <PHRASE id="V336010" indicator="INDEF-SET" type="ATTIRE" text="HAT" start="60" end="79"/>
+   <RELATION id="12" head="V336010" res="V335999" label="MOD"/>
+   <RELATION id="13" head="V336010" res="V336005" label="MOD"/>
+   <PHRASE id="V335999" indicator="F" type="WEAR" text="WEAR" start="60" end="68"/>
+   <RELATION id="14" head="V335999" res="V336010" label="AGENT"/>
+   <PHRASE id="V336005" indicator="F" type="GREEN" text="GREEN" SCALE="GREEN*1--07--00" start="68" end="74"/>
+   <RELATION id="15" head="V336005" res="V336010" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

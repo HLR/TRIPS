@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="91">
+   <TEXT>a hilly landscape with a few trees in near background , distant background almost treeless .</TEXT>
+   <RELATION id="1" head="V276609" res="V269450" label="CONTENT"/>
+   <PHRASE id="V269450" indicator="A" type="GEO-FORMATION" text="LANDSCAPE" start="0" end="91"/>
+   <RELATION id="2" head="V269450" res="V269561" label="LOCATION"/>
+   <RELATION id="3" head="V269450" res="V269455" label="MOD"/>
+   <RELATION id="4" head="V269450" res="V269446" label="MOD"/>
+   <PHRASE id="V269446" indicator="F" type="NOT-SMOOTH-VAL" text="HILLY" start="2" end="8"/>
+   <RELATION id="5" head="V269446" res="V269450" label="FIGURE"/>
+   <PHRASE id="V269455" indicator="F" type="ASSOC-WITH" text="WITH" start="18" end="35"/>
+   <RELATION id="6" head="V269455" res="V269554" label="GROUND"/>
+   <RELATION id="7" head="V269455" res="V269450" label="FIGURE"/>
+   <PHRASE id="V269554" indicator="INDEF-SET" type="PLANT" text="TREE" SIZE="A-FEW" start="23" end="35"/>
+   <PHRASE id="V269561" indicator="F" type="IN-LOC" text="IN" start="35" end="91"/>
+   <RELATION id="8" head="V269561" res="V269632" label="GROUND"/>
+   <RELATION id="9" head="V269561" res="V269450" label="FIGURE"/>
+   <PHRASE id="V269632" indicator="BARE" type="IMAGE" text="BACKGROUND" start="38" end="91"/>
+   <RELATION id="10" head="V269632" res="V269623" label="ASSOC-WITH"/>
+   <RELATION id="11" head="V269632" res="V269647" label="MOD"/>
+   <RELATION id="12" head="V269632" res="V269629" label="MOD"/>
+   <PHRASE id="V269623" indicator="KIND" type="IMAGE" text="BACKGROUND" start="38" end="91"/>
+   <RELATION id="13" head="V269623" res="V269613" label="MOD"/>
+   <PHRASE id="V269613" indicator="F" type="NEAR" text="NEAR" ORIENTATION="LESS" INTENSITY="HI" SCALE="LINEAR-SCALE" start="38" end="43"/>
+   <RELATION id="14" head="V269613" res="V269623" label="FIGURE"/>
+   <PHRASE id="V269629" indicator="F" type="REMOTE" text="DISTANT" ORIENTATION="MORE" INTENSITY="HI" SCALE="LINEAR-SCALE" start="56" end="64"/>
+   <RELATION id="15" head="V269629" res="V269632" label="FIGURE"/>
+   <PHRASE id="V269647" indicator="F" type="MODIFIER" text="TREELESS" start="75" end="91"/>
+   <RELATION id="16" head="V269647" res="V269632" label="FIGURE"/>
+   <RELATION id="17" head="V269647" res="V269638" label="DEGREE"/>
+   <PHRASE id="V269638" indicator="F" type="DEGREE-MODIFIER-LOW" text="ALMOST" start="75" end="82"/>
+   <RELATION id="18" head="V269638" res="V269647" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

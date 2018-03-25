@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="BARE" type="LIGHT" text="DARK" start="0" end="6">
+   <TEXT>a dark-</TEXT>
+   <RELATION id="1" head="V106943" res="V106917" label="ASSOC-WITH"/>
+   <PHRASE id="V106917" indicator="THE" type="LETTER-SYMBOL" NAME-OF="(A)" start="0" end="2"/>
+  </SENTENCE>
+  <SENTENCE id="s2" indicator="F" type="MOVE" text="SKINNED" TENSE="PAST" start="7" end="33">
+   <TEXT>skinned , dark-haired boy i</TEXT>
+   <RELATION id="2" head="V106954" res="V106993" label="AFFECTED"/>
+   <PHRASE id="V106993" indicator="BARE" type="MALE-CHILD" text="BOY" start="17" end="33"/>
+   <RELATION id="3" head="V106993" res="V106990" label="MOD"/>
+   <PHRASE id="V106990" indicator="F" type="MODIFIER" text="DARK-PUNC-MINUS-HAIRED" start="17" end="29" WNSENSE="dark-haired%5:00:00"/>
+   <RELATION id="4" head="V106990" res="V106993" label="FIGURE"/>
+  </SENTENCE>
+  <SENTENCE id="s3" indicator="F" type="DIRECTION" text="IN" start="33" end="36">
+   <TEXT>in a</TEXT>
+  </SENTENCE>
+  <SENTENCE id="s4" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="36" end="110">
+   <TEXT>a very colourful pullover is standing in between two desks in a classroom .</TEXT>
+   <RELATION id="5" head="V111322" res="V107107" label="CONTENT"/>
+   <PHRASE id="V107107" indicator="F" type="BE" text="BE" TENSE="PRES" start="36" end="110"/>
+   <RELATION id="6" head="V107107" res="V107098" label="NEUTRAL"/>
+   <RELATION id="7" head="V107107" res="V107124" label="NEUTRAL1"/>
+   <PHRASE id="V107098" indicator="A" type="ATTIRE" text="PULLOVER" start="36" end="62"/>
+   <RELATION id="8" head="V107098" res="V107094" label="MOD"/>
+   <PHRASE id="V107094" indicator="F" type="MODIFIER" text="COLOURFUL" start="38" end="53"/>
+   <RELATION id="9" head="V107094" res="V107098" label="FIGURE"/>
+   <RELATION id="10" head="V107094" res="V107090" label="DEGREE"/>
+   <PHRASE id="V107090" indicator="F" type="DEGREE-MODIFIER-HIGH" text="VERY" start="38" end="43"/>
+   <RELATION id="11" head="V107090" res="V107094" label="FIGURE"/>
+   <PHRASE id="V107124" indicator="BARE" type="BE-AT-LOC" text="STAND" start="65" end="110"/>
+   <RELATION id="12" head="V107124" res="V107140" label="LOCATION"/>
+   <PHRASE id="V107140" indicator="F" type="BETWEEN" text="IN-BETWEEN" start="74" end="110"/>
+   <RELATION id="13" head="V107140" res="V107208" label="GROUND"/>
+   <RELATION id="14" head="V107140" res="V107124" label="FIGURE"/>
+   <PHRASE id="V107208" indicator="INDEF-SET" type="FURNISHINGS" text="DESK" start="85" end="110"/>
+   <RELATION id="15" head="V107208" res="V107206" label="SIZE"/>
+   <RELATION id="16" head="V107208" res="V107215" label="LOCATION"/>
+   <PHRASE id="V107206" indicator="A" type="NUMBER" VALUE="2" start="85" end="89"/>
+   <PHRASE id="V107215" indicator="F" type="IN-LOC" text="IN" start="95" end="110"/>
+   <RELATION id="17" head="V107215" res="V107305" label="GROUND"/>
+   <RELATION id="18" head="V107215" res="V107208" label="FIGURE"/>
+   <PHRASE id="V107305" indicator="A" type="INTERNAL-ENCLOSURE" text="CLASSROOM" start="98" end="110"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

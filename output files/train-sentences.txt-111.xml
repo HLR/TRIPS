@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="39">
+   <TEXT>water is flowing through one tiny spot .</TEXT>
+   <RELATION id="1" head="V46434" res="V46262" label="CONTENT"/>
+   <PHRASE id="V46262" indicator="F" type="FLUIDIC-MOTION" text="FLOW" TENSE="PRES" PROGR="+" start="0" end="39"/>
+   <RELATION id="2" head="V46262" res="V46265" label="TRANSIENT-RESULT"/>
+   <RELATION id="3" head="V46262" res="V46239" label="AFFECTED"/>
+   <PHRASE id="V46239" indicator="BARE" type="WATER" text="WATER" start="0" end="6"/>
+   <PHRASE id="V46265" indicator="F" type="THROUGH" text="THROUGH" start="17" end="39"/>
+   <RELATION id="4" head="V46265" res="V46294" label="GROUND"/>
+   <RELATION id="5" head="V46265" res="V46239" label="FIGURE"/>
+   <PHRASE id="V46294" indicator="A" type="LOC-DEFINED-BY-CONTRAST" text="SPOT" start="25" end="39"/>
+   <RELATION id="6" head="V46294" res="V46303" label="SIZE"/>
+   <RELATION id="7" head="V46294" res="V46288" label="MOD"/>
+   <PHRASE id="V46303" indicator="A" type="NUMBER" VALUE="1" start="25" end="39"/>
+   <PHRASE id="V46288" indicator="F" type="TINY" text="TINY" ORIENTATION="LESS" INTENSITY="HI" SCALE="SIZE-SCALE" start="29" end="34"/>
+   <RELATION id="8" head="V46288" res="V46294" label="FIGURE"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

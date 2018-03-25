@@ -1,0 +1,9 @@
+digraph Terms {
+  node [shape=none]
+  "IN FRONT OF A BRANCH OF A CONIFER"
+  "V302649" [label="(F V302649 (:* FRONT IN-FRONT))"]
+  "V302649" -> "V302790" [label=":GROUND"]
+  "V302790" [label="(A V302790 (:* PART BRANCH))"]
+  "V302790" -> "V302843" [label=":FIGURE"]
+  "V302843" [label="(A V302843 (:* PLANT CONIFER))"]
+}

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2017-09-20T12:11:02-0500" system="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" semantic-skeleton-scoring="T" rule-sets="" input="a large , brown , 18 story building with two palm trees , lamps and flags in front .
+">
+<debug>
+
+ FOUNDS SEQUENCE from constit (% W::NP (W::BARE-SEQUENCE -) (W::CONSTRAINT -)
+                                 (W::MASS W::BARE) (W::GENERATED +)
+                                 (W::POSTADVBL +)
+                                 (W::SEM ?8607:(?134101:(F::PHYS-OBJ
+                                                         F::ABSTR-OBJ) NIL))
+                                 (W::LF (% W::DESCRIPTION (W::STATUS ONT::DEFINITE)
+                                           (W::VAR V284965)
+                                           (W::SORT W::INDIVIDUAL)
+                                           (W::LEX (W::A))
+                                           (W::CLASS ONT::SEQUENCE)
+                                           (W::CONSTRAINT (% &amp; (W::NAME-OF (W::A))
+                                                             (W::VAL (W::A))))
+                                           (W::LEX W::A) (W::SEM ?134099)
+                                           (W::TRANSFORM ?134100)))
+                                 (W::CASE ?134098:(W::SUB W::OBJ -))
+                                 (W::AGR ?134097) (W::CLASS ONT::ANY-SEM)
+                                 (W::VAR V284965) (W::SORT W::PRED) (W::NAME -)
+                                 (W::PRO -) (W::CHANGEAGR -) (W::LEX W::A)
+                                 (W::HEADCAT W::VALUE) (W::TRANSFORM -)
+                                 (W::REFL -) (1 RNUMBER285504))
+*last-utt-id*=NIL  utt-id+40
+*last-utt-id*=40  utt-id+40
+*last-utt-id*=40  utt-id+NIL</debug><compound-communication-act>
+<utt><words><lisp>(W::A W::LARGE W::BROWN 18 W::STORY W::BUILDING)</lisp><word>A</word><word>LARGE</word><word>BROWN</word><word>18</word><word>STORY</word><word>BUILDING</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;large&quot; :FRAME (2 7) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a large&quot; :FRAME (0 7) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  13.133 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (8 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;brown&quot; :FRAME (10 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;brown&quot; :FRAME (10 15) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  15.803 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (16 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;18&quot; :FRAME (18 20) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;story&quot; :FRAME (21 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;18 story&quot; :FRAME (18 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::LOCATION-ID)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;building&quot; :FRAME (27 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;18 story building&quot; :FRAME (18 35) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 27.664 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="large" start="2" end="7"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="a large" start="0" end="7" penn-cats="NP" score="13.133" /><word lex="," start="8" end="9"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="brown" start="10" end="15"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="brown" start="10" end="15" penn-cats="NP" score="15.803" /><word lex="," start="16" end="17"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="18" start="18" end="20"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="story" start="21" end="26"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="18 story" start="18" end="26"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="LOCATION-ID" /></word><word lex="building" start="27" end="35"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="18 story building" start="18" end="35" penn-cats="NP" score="27.664" /></tags><tree><lisp>(NP (SPEC (DET (ART A)))
+ (N1 (ADJP (ADJ1 (ADJ LARGE)))
+  (N1 (ADJP (ADJ1 (ADJ BROWN))) (N1 (NP (NAME 18 STORY)) (N1 (N BUILDING))))))</lisp><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>LARGE</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>BROWN</ADJ></ADJ1></ADJP><N1><NP><NAME>18 STORY</NAME></NP><N1><N>BUILDING</N></N1></N1></N1></N1></NP></tree><terms root="#V283374"><lisp>((ONT::A ONT::V283374 (:* ONT::GENERAL-STRUCTURE W::BUILDING) :ASSOC-WITH
+  ONT::V283369 :MOD ONT::V283343 :MOD ONT::V283349 :START 0 :END 36)
+ (ONT::F ONT::V283343 (:* ONT::LARGE W::LARGE) :ORIENTATION ONT::MORE
+  :INTENSITY ONT::MED :FIGURE ONT::V283374 :SCALE ONT::SIZE-SCALE :START 2 :END
+  8)
+ (ONT::F ONT::V283349 (:* ONT::BROWN W::BROWN) :FIGURE ONT::V283374 :SCALE
+  ONT::BROWNNESS*1--07--00 :START 10 :END 16)
+ (ONT::THE ONT::V283369 (:* ONT::LOCATION-ID W::18-STORY) :NAME-OF
+  (18 W::STORY) :START 18 :END 27))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V283374">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>GENERAL-STRUCTURE</LF:type>
+    <LF:word>BUILDING</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V283369" />
+    <role:MOD rdf:resource="#V283343" />
+    <role:MOD rdf:resource="#V283349" />
+    <LF:start>0</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283343">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LARGE</LF:type>
+    <LF:word>LARGE</LF:word>
+    <role:ORIENTATION>MORE</role:ORIENTATION>
+    <role:INTENSITY>MED</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V283374" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>2</LF:start>
+    <LF:end>8</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283349">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BROWN</LF:type>
+    <LF:word>BROWN</LF:word>
+    <role:FIGURE rdf:resource="#V283374" />
+    <role:SCALE>BROWNNESS*1--07--00</role:SCALE>
+    <LF:start>10</LF:start>
+    <LF:end>16</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283369">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LOCATION-ID</LF:type>
+    <LF:word>18-STORY</LF:word>
+    <role:NAME-OF>(18 STORY)</role:NAME-OF>
+    <LF:start>18</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::WITH W::TWO W::PALM W::TREES W::PUNC-COMMA W::LAMPS W::AND W::FLAGS W::IN
+ W::FRONT)</lisp><word>WITH</word><word>TWO</word><word>PALM</word><word>TREES</word><word>PUNC-COMMA</word><word>LAMPS</word><word>AND</word><word>FLAGS</word><word>IN</word><word>FRONT</word></words><tags><lisp>((WORD &quot;with&quot; :FRAME (36 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;two&quot; :FRAME (41 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;palm&quot; :FRAME (45 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;trees&quot; :FRAME (50 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (56 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;lamps&quot; :FRAME (58 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (64 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;flags&quot; :FRAME (68 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two palm trees , lamps and flags&quot; :FRAME (41 73) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 57.906 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;in&quot; :FRAME (74 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;front&quot; :FRAME (77 82) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;front&quot; :FRAME (77 82) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  10.668 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in front&quot; :FRAME (74 82) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;in_front%4:02:00&quot;)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in front&quot; :FRAME (74 82) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  12.92 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;two palm trees , lamps and flags in front&quot; :FRAME (41 82) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :SCORE 71.367 :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;with two palm trees , lamps and flags in front&quot; :FRAME (36 82)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE 76.511 :UTTNUM 40 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;18 story building with two palm trees , lamps and flags in front&quot;
+  :FRAME (18 82) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 104.837 :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (83 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a large , brown , 18 story building with two palm trees , lamps and flags in front .&quot;
+  :FRAME (0 83) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 140.777 :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="with" start="36" end="40"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="two" start="41" end="44"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="palm" start="45" end="49"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="trees" start="50" end="55"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="," start="56" end="57"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="lamps" start="58" end="63"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="and" start="64" end="67"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="flags" start="68" end="73"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="two palm trees , lamps and flags" start="41" end="73" penn-cats="NP" score="57.906" /><word lex="in" start="74" end="76"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="front" start="77" end="82"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="front" start="77" end="82" penn-cats="NP" score="10.668" /><word lex="in front" start="74" end="82"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="in_front%4:02:00" /></word><prefer text="in front" start="74" end="82" penn-cats="PP" score="12.92" /><prefer text="two palm trees , lamps and flags in front" start="41" end="82" penn-cats="NP" score="71.367" /><prefer text="with two palm trees , lamps and flags in front" start="36" end="82" penn-cats="PP" score="76.511" /><prefer text="18 story building with two palm trees , lamps and flags in front" start="18" end="82" penn-cats="NP" score="104.837" /><word lex="." start="83" end="83"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="a large , brown , 18 story building with two palm trees , lamps and flags in front ." start="0" end="83" penn-cats="NP" score="140.777" /></tags><tree><lisp>(ADVBL (ADV WITH)
+ (NP
+  (NPSEQ (NP (N1 (ADJP (NUMBER TWO)) (N1 (N1 (N PALM)) (N1 (N TREES)))))
+   (PUNC PUNC-COMMA) (NP (N1 (N LAMPS))))
+  (CONJ AND) (NP (N1 (N1 (N FLAGS)) (ADVBL (ADV (WORD IN) (WORD FRONT)))))))</lisp><ADVBL><ADV>WITH</ADV><NP><NPSEQ><NP><N1><ADJP><NUMBER>TWO</NUMBER></ADJP><N1><N1><N>PALM</N></N1><N1><N>TREES</N></N1></N1></N1></NP><PUNC>PUNC-COMMA</PUNC><NP><N1><N>LAMPS</N></N1></NP></NPSEQ><CONJ>AND</CONJ><NP><N1><N1><N>FLAGS</N></N1><ADVBL><ADV><WORD>IN</WORD><WORD>FRONT</WORD></ADV></ADVBL></N1></NP></NP></ADVBL></tree><terms root="#V283388"><lisp>((ONT::F ONT::V283388 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V283418 :START
+  36 :END 83)
+ (ONT::INDEF-SET ONT::V283418 ONT::PHYS-OBJECT :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V283429 ONT::V283406 ONT::V283412) :START 41 :END 83)
+ (ONT::INDEF-SET ONT::V283406 (:* ONT::PLANT W::TREE) :SIZE ONT::V283401
+  :ASSOC-WITH ONT::V283403 :START 41 :END 56)
+ (ONT::KIND ONT::V283403 (:* ONT::NUTS-SEEDS W::PALM) :START 41 :END 56)
+ (ONT::A ONT::V283401 ONT::NUMBER :VALUE 2 :START 41 :END 45)
+ (ONT::INDEF-SET ONT::V283412 (:* ONT::DEVICE-COMPONENT W::LAMP) :START 58 :END
+  64)
+ (ONT::INDEF-SET ONT::V283429 (:* ONT::FLAG W::FLAG) :LOCATION ONT::V283447
+  :START 68 :END 83)
+ (ONT::F ONT::V283447 (:* ONT::FRONT W::IN-FRONT) :GROUND ONT::V283722 :FIGURE
+  ONT::V283429 :START 74 :END 83)
+ (ONT::IMPRO ONT::V283722 ONT::ANY-SEM :START 74 :END 83 :COREF ONT::V283401))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V283388">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V283418" />
+    <LF:start>36</LF:start>
+    <LF:end>83</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283418">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PHYS-OBJECT</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V283429" />
+    <role:SEQUENCE1 rdf:resource="#V283406" />
+    <role:SEQUENCE2 rdf:resource="#V283412" />
+    <LF:start>41</LF:start>
+    <LF:end>83</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283406">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PLANT</LF:type>
+    <LF:word>TREE</LF:word>
+    <role:SIZE rdf:resource="#V283401" />
+    <role:ASSOC-WITH rdf:resource="#V283403" />
+    <LF:start>41</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283403">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>NUTS-SEEDS</LF:type>
+    <LF:word>PALM</LF:word>
+    <LF:start>41</LF:start>
+    <LF:end>56</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283401">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>2</role:VALUE>
+    <LF:start>41</LF:start>
+    <LF:end>45</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283412">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>DEVICE-COMPONENT</LF:type>
+    <LF:word>LAMP</LF:word>
+    <LF:start>58</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283429">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>FLAG</LF:type>
+    <LF:word>FLAG</LF:word>
+    <role:LOCATION rdf:resource="#V283447" />
+    <LF:start>68</LF:start>
+    <LF:end>83</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283447">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FRONT</LF:type>
+    <LF:word>IN-FRONT</LF:word>
+    <role:GROUND rdf:resource="#V283722" />
+    <role:FIGURE rdf:resource="#V283429" />
+    <LF:start>74</LF:start>
+    <LF:end>83</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V283722">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <LF:start>74</LF:start>
+    <LF:end>83</LF:end>
+    <role:COREF rdf:resource="#V283401" />
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

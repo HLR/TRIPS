@@ -1,0 +1,19 @@
+digraph Terms {
+  node [shape=none]
+  "ONE TOURIST IS TAKING A PHOTO PUNC-PERIOD"
+  "V332247" [label="(SPEECHACT V332247 SA_TELL)"]
+  "V332247" -> "V331537" [label=":CONTENT"]
+  "V331537" [label="(F V331537 (:* CREATE TAKE))"]
+  "V331537" -> "V331497" [label=":AGENT"]
+  "V331537" -> "V331608" [label=":AFFECTED-RESULT"]
+  "V331537" -> "NT332857" [label=":TENSE"]
+  "NT332857" [label="PRES"]
+  "V331537" -> "NT332858" [label=":PROGR"]
+  "NT332858" [label="+"]
+  "V331497" [label="(A V331497 (:* TRAVELLER TOURIST))"]
+  "V331497" -> "V331617" [label=":SIZE"]
+  "V331617" [label="(A V331617 NUMBER)"]
+  "V331617" -> "NT332859" [label=":VALUE"]
+  "NT332859" [label="1"]
+  "V331608" [label="(A V331608 (:* IMAGE PHOTO))"]
+}

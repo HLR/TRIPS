@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" start="0" end="32">
+   <TEXT>two kids are sitting behind him .</TEXT>
+   <RELATION id="1" head="V129324" res="V128837" label="CONTENT"/>
+   <PHRASE id="V128837" indicator="F" type="BODY-MOVEMENT-PLACE" text="SIT" TENSE="PRES" PROGR="+" start="0" end="32"/>
+   <RELATION id="2" head="V128837" res="V128848" label="RESULT"/>
+   <RELATION id="3" head="V128837" res="V128811" label="AGENT"/>
+   <PHRASE id="V128811" indicator="INDEF-SET" type="CHILD" text="KID" start="0" end="9"/>
+   <RELATION id="4" head="V128811" res="V128808" label="SIZE"/>
+   <PHRASE id="V128808" indicator="A" type="NUMBER" VALUE="2" start="0" end="4"/>
+   <PHRASE id="V128848" indicator="F" type="BACK" text="BEHIND" start="21" end="32"/>
+   <RELATION id="5" head="V128848" res="V128851" label="GROUND"/>
+   <RELATION id="6" head="V128848" res="V128811" label="FIGURE"/>
+   <PHRASE id="V128851" indicator="PRO" type="MALE-PERSON" text="HIM" PROFORM="HIM" start="28" end="32"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

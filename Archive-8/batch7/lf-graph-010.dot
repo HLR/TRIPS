@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "A TEENAGER WEARING A TRADITIONAL GREEN HAT PUNC-COMMA"
+  "V73269" [label="(A V73269 (:* PERSON TEENAGER))"]
+  "V73269" -> "V73275" [label=":MOD"]
+  "V73275" [label="(F V73275 (:* WEAR WEAR))"]
+  "V73275" -> "V73269" [label=":AGENT"]
+  "V73275" -> "V73336" [label=":NEUTRAL"]
+  "V73275" -> "NT73949" [label=":VFORM"]
+  "NT73949" [label="ING"]
+  "V73336" [label="(A V73336 (:* ATTIRE HAT))"]
+  "V73336" -> "V73322" [label=":MOD"]
+  "V73336" -> "V73325" [label=":MOD"]
+  "V73322" [label="(F V73322 (:* CONVENTIONAL-VAL TRADITIONAL))"]
+  "V73322" -> "V73336" [label=":FIGURE"]
+  "V73325" [label="(F V73325 (:* GREEN GREEN))"]
+  "V73325" -> "V73336" [label=":FIGURE"]
+  "V73325" -> "NT73950" [label=":SCALE"]
+  "NT73950" [label="GREEN*1--07--00"]
+}

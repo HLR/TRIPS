@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpRL>
+ <SCENE>
+  <SENTENCE id="s1" indicator="SPEECHACT" type="SA_IDENTIFY" PUNCTYPE="DECL" start="0" end="27">
+   <TEXT>blue sky in the background .</TEXT>
+   <RELATION id="1" head="V310207" res="V310100" label="CONTENT"/>
+   <PHRASE id="V310100" indicator="BARE" type="GAS-SUBSTANCE" text="BLUE-SKY" start="0" end="27" WNSENSE="blue_sky%1:17:00"/>
+   <RELATION id="2" head="V310100" res="V310107" label="LOCATION"/>
+   <PHRASE id="V310107" indicator="F" type="IN-LOC" text="IN" start="9" end="27"/>
+   <RELATION id="3" head="V310107" res="V310163" label="GROUND"/>
+   <RELATION id="4" head="V310107" res="V310100" label="FIGURE"/>
+   <PHRASE id="V310163" indicator="THE" type="IMAGE" text="BACKGROUND" start="12" end="27"/>
+  </SENTENCE>
+ </SCENE>
+</SpRL>

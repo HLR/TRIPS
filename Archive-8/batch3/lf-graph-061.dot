@@ -1,0 +1,20 @@
+digraph Terms {
+  node [shape=none]
+  "BABY WEARING A RED PUNC-MINUS AND PUNC-MINUS WHITE STRIPED PYJAMA PUNC-PERIOD"
+  "V327490" [label="(SPEECHACT V327490 SA_IDENTIFY)"]
+  "V327490" -> "V327008" [label=":CONTENT"]
+  "V327008" [label="(BARE V327008 (:* CHILD BABY))"]
+  "V327008" -> "V327014" [label=":MOD"]
+  "V327014" [label="(F V327014 (:* WEAR WEAR))"]
+  "V327014" -> "V327008" [label=":AGENT"]
+  "V327014" -> "V327126" [label=":NEUTRAL"]
+  "V327014" -> "NT328454" [label=":VFORM"]
+  "NT328454" [label="ING"]
+  "V327126" [label="(A V327126 (:* ATTIRE PYJAMA))"]
+  "V327126" -> "V327104" [label=":MOD"]
+  "V327126" -> "V327117" [label=":MOD"]
+  "V327104" [label="(F V327104 (:* MODIFIER RED-PUNC-MINUS-AND-PUNC-MINUS-WHITE))"]
+  "V327104" -> "V327126" [label=":FIGURE"]
+  "V327117" [label="(F V327117 (:* MODIFIER STRIPED))"]
+  "V327117" -> "V327126" [label=":FIGURE"]
+}
