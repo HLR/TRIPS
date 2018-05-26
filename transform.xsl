@@ -25,6 +25,32 @@
    </xsl:otherwise>
   </xsl:choose>
  </xsl:for-each>
+ <!-- add lex-start/end by matching word tags with LF terms that have :LEX -->
+ <xsl:if test="role:LEX and LF:indicator != 'SPEECHACT'">
+  <xsl:variable name="phrase-id" select="@rdf:ID" />
+  <xsl:variable name="phrase-start" select="number(LF:start)" />
+  <xsl:variable name="phrase-end" select="number(LF:end)" />
+  <xsl:variable name="lex" select="role:LEX" />
+  <xsl:variable name="smaller-matching-phrases" select="../rdf:Description[@rdf:ID != $phrase-id and LF:indicator != 'SPEECHACT' and role:LEX = $lex and LF:start >= $phrase-start and $phrase-end >= LF:end]" />
+  <xsl:variable name="tags" select="../../../tags" />
+  <!-- for each word element that matches lex and fits inside the phrase
+       (my kingdom for proper case folding functions in XPath...)  -->
+  <xsl:variable name="words" select="$tags/word[translate(@lex, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') = $lex and @start >= $phrase-start and $phrase-end >= @end]" />
+  <xsl:for-each select="$words">
+   <xsl:variable name="word-start" select="number(@start)" />
+   <xsl:variable name="word-end" select="number(@end)" />
+   <!-- if no smaller matching phrase contains this word -->
+   <xsl:if test="not($smaller-matching-phrases[$word-start >= LF:start and LF:end >= $word-end])">
+    <!-- use the word's start/end as lex-start/end -->
+    <xsl:attribute name="lex-start">
+     <xsl:value-of select="$word-start" />
+    </xsl:attribute>
+    <xsl:attribute name="lex-end">
+     <xsl:value-of select="$word-end" />
+    </xsl:attribute>
+   </xsl:if>
+  </xsl:for-each>
+ </xsl:if>
 </xsl:template>
 
 <xsl:template name="roles-to-elements">
@@ -56,9 +82,7 @@
  <SENTENCE id="s{1 + count(preceding::utt)}">
   <xsl:for-each select="rdf:RDF">
    <xsl:for-each select="rdf:Description[@rdf:ID = $rootID]">
-    <xsl:call-template name="roles-to-attributes">
-     <xsl:with-param name="descID" select="$rootID" />
-    </xsl:call-template>
+    <xsl:call-template name="roles-to-attributes" />
     <xsl:text>
    </xsl:text>
     <TEXT>
@@ -74,11 +98,9 @@
 </xsl:template>
 
 <xsl:template match="/trips-parser-output">
-<SpRL><xsl:text>
- </xsl:text><SCENE>
+<CleanedXML>
   <xsl:apply-templates select="//utt/terms" /><xsl:text>
- </xsl:text></SCENE><xsl:text>
-</xsl:text></SpRL>
+ </xsl:text></CleanedXML>
 </xsl:template>
 
 </xsl:stylesheet>

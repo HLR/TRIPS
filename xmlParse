@@ -1,9 +1,8 @@
 #!/bin/bash
 echo $PWD
-for file in $PWD/input/*.xml; do
+for file in $PWD/Data/SpRLTrainTRIPS_parses/*.xml; do
 	[ -e "$file" ] || continue
-	echo $cleanFile 
-	xsltproc "$PWD/transform.xsl" "${file}" > "${file}.clean"
+	xsltproc "$PWD/transform_changeOffset.xsl" "${file}" > "${file}.clean"
 	xmllint -format "${file}.clean"
 	diff "${file}" "${file}.clean" > "${file}.log"
 done
