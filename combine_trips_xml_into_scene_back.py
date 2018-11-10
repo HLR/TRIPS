@@ -26,8 +26,6 @@ def cleanString(string):
                  ('Y','y'),('Z','z')]
     for pair in charPairs:
         string=string.replace(pair[0],pair[1])
-    while string[-1]==' ':
-        string=string[:-1]
     return string
 
 def findMatch(text,files):
@@ -36,13 +34,12 @@ def findMatch(text,files):
         t2 = cleanString(text)
         if (t1==t2):
             return file.fileName
-        if (t1.find(t2) or t2.find(t1)):
-            return file.fileName
     return ""
 
 def indexFiles(dirPath):
     files=[]
-    dirName = dirPath
+    #for i in range(0,774):
+    dirName = dirPath#"/Users/michaelfurst/Desktop/TRIPSCleaned/"
     for name in os.listdir(dirName):
         name = os.path.join(dirName,name)
         try:
@@ -65,14 +62,14 @@ def indexFiles(dirPath):
             file.fileName=name
             file.text=text
             files+=[file]
-        elif _tree.getroot().tag=='CleanedXML':
+        elif _tree.getroot().tag == 'CleanedXML':
             for sentence in _tree.getroot():
                 if sentence.tag == 'SENTENCE':
                     text = sentence.find('TEXT').text
                     file = File()
-                    file.fileName=name
-                    file.text=text
-                    files+=[file]
+                    file.fileName = name
+                    file.text = text
+                    files += [file]
     return files
 
 def _pullElements(root):
@@ -107,11 +104,6 @@ def run(xmlName,pathToCleanedXMLS):
         return
     log=""
     root = tree.getroot()
-    removed = 0
-   # numScenes = len(root.findall("SCENE"))
-    numSentences = 0
-    for scene in root.findall("SCENE"):
-        numSentences += len(scene.findall("SENTENCE"))
     for scene in list(root):
         for element in list(scene):
             if element.tag=='SENTENCE':
@@ -123,8 +115,7 @@ def run(xmlName,pathToCleanedXMLS):
                     log+="No match found for:\n"
                     log+=text+"\n"
                     log+="--------------------------------------\n"
-                    scene.remove(element)
-                    removed+=1
+                    root.remove(scene)
                     break
                 else:
                     #Remove non-'TEXT' elements
@@ -135,30 +126,14 @@ def run(xmlName,pathToCleanedXMLS):
                     for elem in list(pullElements(match)):
                         element.append(elem)
     #write tree to output file
-    tree.write(xmlName[:-4]+"_output.xml")
-    print(xmlName[:-4]+"_output.xml successfully created")
-    numScenesAfter = len(root.findall("SCENE"))
-    numSentencesAfter = 0
-    for scene in root.findall("SCENE"):
-        numSentencesAfter += len(scene.findall("SENTENCE"))
+    tree.write(xmlName[:-4]+"-output.xml")
+    print(xmlName[:-4]+"-output.xml successfully created")
     #write log
     if log!="":
-        logFile = open(xmlName[:-4]+"_log.txt",'w')
+        logFile = open(xmlName[:-4]+"-log.txt",'a')
         logFile.write(log)
         logFile.close()
-        print("An error log (\'"+xmlName[:-4]+"_log.txt\') has been generated.")
-    with open(xmlName[:-4]+"_results.txt","w") as output:
-        output.write("Number of scenes: "+str(numScenes)+"\n")
-        output.write("Number of sentences: "+str(numSentences)+"\n")
-        output.write("--------------------------\n")
-        output.write("Number of scenes afterwards: "+str(numScenesAfter)+"\n")
-        output.write("Number of sentences afterwards: "+str(numSentencesAfter)+"\n")
-        output.write("Sentences removed: "+str(removed)+"\n")
-        output.write("Removed "+str(removed*100/numSentences)+"% of sentences.\n")
-        if numSentencesAfter>numSentences-removed:
-            output.write("Failed to remove all bad sentences.\n")
-        elif numSentencesAfter<numSentences-removed:
-            output.write("Removed extra sentences.\n")
+        print("An error log (\'"+xmlName[:-4]+"-log.txt\') has been generated.")
     return
 
 

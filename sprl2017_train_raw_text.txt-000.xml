@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/parser-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-05-22T23:08:40-0500" system="STEP" service="STEP" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" split-mode="split-clauses" semantic-skeleton-scoring="T" rule-sets="" input="About 20 kids in traditional clothing and hats waiting on stairs .
+">
+<debug>; loading #P&quot;/Users/parisakordjamshidi/step/TRIPS/config/lisp/../../../src/Parser/Grammar/hierarchical-features.lisp&quot;
+; loading #P&quot;/Users/parisakordjamshidi/step/TRIPS/config/lisp/../../../src/Parser/Grammar/phrase-grammar.lisp&quot;
+; loading #P&quot;/Users/parisakordjamshidi/step/TRIPS/config/lisp/../../../src/Parser/Grammar/time-grammar.lisp&quot;
+; loading #P&quot;/Users/parisakordjamshidi/step/TRIPS/config/lisp/../../../src/Parser/Grammar/clause-grammar.lisp&quot;
+; loading #P&quot;/Users/parisakordjamshidi/step/TRIPS/config/lisp/../../../src/Parser/Grammar/adverbial-grammar.lisp&quot;
+; loading #P&quot;/Users/parisakordjamshidi/step/TRIPS/config/lisp/../../../src/Parser/Grammar/procedures.lisp&quot;
+
+Running with customized parser settings:
+ ((*IN-SYSTEM* :STEP) (*WORD-LENGTH* 7) (*SCORE-LENGTH-MULTIPLIER* 0.4)
+  (*SCORE-CORNER-MULTIPLIER* 0) (*USE-TAGS-AS-FILTER* T)
+  (*BAD-TAG-MULTIPLIER* 0.98)
+  (*SKELETON-CONSTIT-CATS* '(W::NP W::CP W::VP W::ADVBL W::S))
+  (*SKELETON-BOOST-FACTOR* 0.2) ((SETF (BARRIER-PENALTY *CHART*) 0.99))
+  (*KR-TYPE-INFO-DESIRED* '(:WNSENSE)) (*ADD-LEX-TO-LF* T)
+  (*NO-POSITIONS-IN-LF* NIL) ((SETMAXNUMBERENTRIES 5000))
+  ((SETMAXCHARTSIZE 5000)) ((SETF (NUMBER-PARSES-TO-FIND *CHART*) 10))
+  ((SETF (FLEXIBLE-SEMANTIC-MATCHING *CHART*) T))
+  ((SETF (NUMBER-PARSES-DESIRED *CHART*) 4))
+  (*INCLUDE-PARSE-TREE-IN-MESSAGES* '(W::LEX))
+  (*SEMANTIC-SKELETON-SCORING-ENABLED* NIL)
+  ((CUSTOMIZE-COST-TABLE
+    '((ONT::SA_QUERY 1.2) (ONT::SA_IDENTIFY 2) (ONT::SA_PRED-FRAGMENT 2)
+      (ONT::SA_REQUEST 1.2) (ONT::SA_YN-QUESTION 1.2) (ONT::SA_CONFIRM 1.3)
+      (ONT::SA_WH-QUESTION 1.2) (ONT::SA_TELL 1) (W::CP 2) (W::VP 2)
+      (W::PUNC 0.5)))))
+
+*last-utt-id*=NIL  utt-id+1
+*last-utt-id*=1  utt-id+NIL</debug><utt><words><lisp>(W::ABOUT W::TWENTY W::KIDS W::IN W::TRADITIONAL W::CLOTHING W::AND W::HATS
+ W::WAITING-ON W::STAIRS W::PUNC-PERIOD)</lisp><word>ABOUT</word><word>TWENTY</word><word>KIDS</word><word>IN</word><word>TRADITIONAL</word><word>CLOTHING</word><word>AND</word><word>HATS</word><word>WAITING-ON</word><word>STAIRS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;About&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN RB) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;20&quot; :FRAME (6 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;About 20&quot; :FRAME (0 8) :PENN-CATS (QP) :SCORE 10.968 :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kids&quot; :FRAME (9 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;20 kids&quot; :FRAME (6 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::LOCATION-ID)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;About 20 kids&quot; :FRAME (0 13) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :SCORE 21.67 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (14 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;traditional&quot; :FRAME (17 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;clothing&quot; :FRAME (29 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (38 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hats&quot; :FRAME (42 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;traditional clothing and hats&quot; :FRAME (17 46) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :SCORE 33.606 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;in traditional clothing and hats&quot; :FRAME (14 46) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :SCORE 35.858 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;About 20 kids in traditional clothing and hats&quot; :FRAME (0 46)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 60.518 :UTTNUM 1 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;waiting&quot; :FRAME (47 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (55 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;waiting on&quot; :FRAME (47 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V) :WN-SENSE-KEYS
+    (&quot;wait_on%2:41:00&quot;)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stairs&quot; :FRAME (58 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;stairs&quot; :FRAME (58 64) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE
+  14.234 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on stairs&quot; :FRAME (55 64) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :SCORE
+  17.445 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;waiting on stairs&quot; :FRAME (47 64) :PENN-CATS (VP) :TRIPS-CATS (W::VP)
+  :SCORE 25.138 :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (65 65) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (FULL_STOP) :TRIPS-PARTS-OF-SPEECH (W::PUNC)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;About 20 kids in traditional clothing and hats waiting on stairs .&quot;
+  :FRAME (0 65) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :SCORE 91.007 :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="About" start="0" end="5"><sense-info penn-parts-of-speech="IN,RB" trips-parts-of-speech="PREP,ADV" /></word><word lex="20" start="6" end="8"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="About 20" start="0" end="8" penn-cats="QP" score="10.968" /><word lex="kids" start="9" end="13"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="20 kids" start="6" end="13"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="LOCATION-ID" /></word><prefer text="About 20 kids" start="0" end="13" penn-cats="NP" score="21.67" /><word lex="in" start="14" end="16"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="traditional" start="17" end="28"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="clothing" start="29" end="37"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="and" start="38" end="41"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="hats" start="42" end="46"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="traditional clothing and hats" start="17" end="46" penn-cats="NP" score="33.606" /><prefer text="in traditional clothing and hats" start="14" end="46" penn-cats="PP" score="35.858" /><prefer text="About 20 kids in traditional clothing and hats" start="0" end="46" penn-cats="NP" score="60.518" /><word lex="waiting" start="47" end="54"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="on" start="55" end="57"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="waiting on" start="47" end="57"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" wn-sense-keys="wait_on%2:41:00" /></word><word lex="stairs" start="58" end="64"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="stairs" start="58" end="64" penn-cats="NP" score="14.234" /><prefer text="on stairs" start="55" end="64" penn-cats="PP" score="17.445" /><prefer text="waiting on stairs" start="47" end="64" penn-cats="VP" score="25.138" /><word lex="." start="65" end="65"><sense-info penn-parts-of-speech="FULL_STOP" trips-parts-of-speech="PUNC" /></word><prefer text="About 20 kids in traditional clothing and hats waiting on stairs ." start="0" end="65" penn-cats="NP" score="91.007" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1
+    (N1 (N1 (ADJP (NUMBER (ADV ABOUT) (NUMBER TWENTY))) (N1 (N KIDS)))
+     (ADVBL (ADV IN)
+      (NP
+       (N1 (ADJP (ADJ1 (ADJ TRADITIONAL)))
+        (N1 (N1 (N CLOTHING)) (CONJ AND) (N1 (N HATS)))))))
+    (CP (VP (VP- (V WAITING-ON) (NP (N1 (N STAIRS)))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N1><ADJP><NUMBER><ADV>ABOUT</ADV><NUMBER>TWENTY</NUMBER></NUMBER></ADJP><N1><N>KIDS</N></N1></N1><ADVBL><ADV>IN</ADV><NP><N1><ADJP><ADJ1><ADJ>TRADITIONAL</ADJ></ADJ1></ADJP><N1><N1><N>CLOTHING</N></N1><CONJ>AND</CONJ><N1><N>HATS</N></N1></N1></N1></NP></ADVBL></N1><CP><VP><VP-><V>WAITING-ON</V><NP><N1><N>STAIRS</N></N1></NP></VP-></VP></CP></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V35058"><lisp>((ONT::SPEECHACT ONT::V35058 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V33373 :LEX W::KIDS :START 0 :END 65)
+ (ONT::INDEF-SET ONT::V33373 (:* ONT::CHILD W::KID) :SIZE ONT::V33370 :MOD
+  ONT::V33496 :LOCATION ONT::V33385 :LEX W::KIDS :START 0 :END 65)
+ (ONT::A ONT::V33370 ONT::NUMBER :MOD ONT::V33356 :LEX NIL :START 0 :END 9)
+ (ONT::F ONT::V33356 (:* ONT::QMODIFIER W::APPROXIMATE) :FIGURE ONT::V33370
+  :GROUND ONT::V33532 :LEX NIL :START 0 :END 9)
+ (ONT::A ONT::V33532 ONT::NUMBER :VALUE 20 :LEX NIL :START 0 :END 9)
+ (ONT::F ONT::V33385 (:* ONT::IN-LOC W::IN) :GROUND ONT::V33442 :FIGURE
+  ONT::V33373 :LEX W::IN :START 14 :END 47)
+ (ONT::INDEF-SET ONT::V33442 ONT::ATTIRE :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V33437 ONT::V33451) :MOD ONT::V33434 :LEX ONT::AND :START 17 :END 47)
+ (ONT::INDEF-SET ONT::V33451 (:* ONT::ATTIRE W::HAT) :LEX W::HATS :START 17
+  :END 47)
+ (ONT::INDEF-SET ONT::V33437 (:* ONT::ATTIRE W::CLOTHING) :LEX W::CLOTHING
+  :START 17 :END 47)
+ (ONT::F ONT::V33434 (:* ONT::CONVENTIONAL-VAL W::TRADITIONAL) :FIGURE
+  ONT::V33442 :LEX W::TRADITIONAL :START 17 :END 29)
+ (ONT::F ONT::V33496 (:* ONT::HELP W::WAITING-ON) :AGENT ONT::V33373 :AFFECTED
+  ONT::V33503 :VFORM W::ING :LEX W::WAITING-ON :START 47 :END 65 :WNSENSE
+  &quot;wait_on%2:41:00&quot;)
+ (ONT::BARE ONT::V33503 (:* ONT::STAIRS W::STAIRS) :LEX W::STAIRS :START 58
+  :END 65))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V35058">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V33373" />
+    <role:LEX>KIDS</role:LEX>
+    <LF:start>0</LF:start>
+    <LF:end>65</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33373">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CHILD</LF:type>
+    <LF:word>KID</LF:word>
+    <role:SIZE rdf:resource="#V33370" />
+    <role:MOD rdf:resource="#V33496" />
+    <role:LOCATION rdf:resource="#V33385" />
+    <role:LEX>KIDS</role:LEX>
+    <LF:start>0</LF:start>
+    <LF:end>65</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33370">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:MOD rdf:resource="#V33356" />
+    <role:LEX>NIL</role:LEX>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33356">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>QMODIFIER</LF:type>
+    <LF:word>APPROXIMATE</LF:word>
+    <role:FIGURE rdf:resource="#V33370" />
+    <role:GROUND rdf:resource="#V33532" />
+    <role:LEX>NIL</role:LEX>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33532">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>20</role:VALUE>
+    <role:LEX>NIL</role:LEX>
+    <LF:start>0</LF:start>
+    <LF:end>9</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33385">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V33442" />
+    <role:FIGURE rdf:resource="#V33373" />
+    <role:LEX>IN</role:LEX>
+    <LF:start>14</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33442">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V33437" />
+    <role:SEQUENCE1 rdf:resource="#V33451" />
+    <role:MOD rdf:resource="#V33434" />
+    <role:LEX>AND</role:LEX>
+    <LF:start>17</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33451">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>HAT</LF:word>
+    <role:LEX>HATS</role:LEX>
+    <LF:start>17</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33437">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ATTIRE</LF:type>
+    <LF:word>CLOTHING</LF:word>
+    <role:LEX>CLOTHING</role:LEX>
+    <LF:start>17</LF:start>
+    <LF:end>47</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33434">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONVENTIONAL-VAL</LF:type>
+    <LF:word>TRADITIONAL</LF:word>
+    <role:FIGURE rdf:resource="#V33442" />
+    <role:LEX>TRADITIONAL</role:LEX>
+    <LF:start>17</LF:start>
+    <LF:end>29</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33496">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HELP</LF:type>
+    <LF:word>WAITING-ON</LF:word>
+    <role:AGENT rdf:resource="#V33373" />
+    <role:AFFECTED rdf:resource="#V33503" />
+    <role:VFORM>ING</role:VFORM>
+    <role:LEX>WAITING-ON</role:LEX>
+    <LF:start>47</LF:start>
+    <LF:end>65</LF:end>
+    <role:WNSENSE>wait_on%2:41:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V33503">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>STAIRS</LF:type>
+    <LF:word>STAIRS</LF:word>
+    <role:LEX>STAIRS</role:LEX>
+    <LF:start>58</LF:start>
+    <LF:end>65</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CleanedXML>
+  <SENTENCE id="s1" text="There is a car in front of the house on the left" start="0" end="48" indicator="SPEECHACT" type="SA_TELL" PUNCTYPE="DECL" LEX="IS" phrase-start="0" phrase-end="48">
+   <TEXT>There is a car in front of the house on the left.</TEXT>
+   <RELATION id="1" head="V41335" res="V40888" label="CONTENT"/>
+   <PHRASE id="V40888" text="is " start="6" end="9" indicator="F" type="EXISTS" word="BE" TENSE="PRES" LEX="IS" phrase-start="0" phrase-end="48" lex-start="6" lex-end="9"/>
+   <RELATION id="2" head="V40888" res="V40875" label="NOROLE"/>
+   <RELATION id="3" head="V40888" res="V40938" label="NEUTRAL"/>
+   <PHRASE id="V40875" text="There " start="0" end="6" indicator="PRO" type="EXPLETIVE" PROFORM="THERE" LEX="THERE" phrase-start="0" phrase-end="6" lex-start="0" lex-end="6"/>
+   <PHRASE id="V40938" text="car " start="11" end="15" indicator="A" type="LAND-VEHICLE" word="CAR" LEX="CAR" phrase-start="9" phrase-end="48" lex-start="11" lex-end="15"/>
+   <RELATION id="4" head="V40938" res="V40960" label="LOCATION"/>
+   <PHRASE id="V40960" text="in front " start="15" end="24" indicator="F" type="FRONT" word="IN-FRONT" LEX="IN-FRONT" phrase-start="15" phrase-end="48" lex-start="15" lex-end="24"/>
+   <RELATION id="5" head="V40960" res="V41072" label="GROUND"/>
+   <RELATION id="6" head="V40960" res="V40938" label="FIGURE"/>
+   <PHRASE id="V41072" text="of " start="24" end="27" indicator="THE" type="LODGING" word="HOUSE" LEX="OF" phrase-start="24" phrase-end="48" lex-start="24" lex-end="27"/>
+   <RELATION id="7" head="V41072" res="V41080" label="LOCATION"/>
+   <PHRASE id="V41080" text="on " start="37" end="40" indicator="F" type="ON" word="ON" LEX="ON" phrase-start="37" phrase-end="48" lex-start="37" lex-end="40"/>
+   <RELATION id="8" head="V41080" res="V41115" label="GROUND"/>
+   <RELATION id="9" head="V41080" res="V41072" label="FIGURE"/>
+   <PHRASE id="V41115" text="left" start="44" end="48" indicator="THE" type="LEFT-LOC" word="LEFT" LEX="LEFT" phrase-start="40" phrase-end="48" lex-start="44" lex-end="48"/>
+  </SENTENCE>
+ </CleanedXML>
